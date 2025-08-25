@@ -69,16 +69,36 @@ class WindRepScraper:
     
     BASE_URL = "https://www.windrep.org"
     
-    def __init__(self):
+    def __init__(self, cache_file: Path = None):
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'Norwegian Band Competition Analyzer/1.0 (Research Project)'
         })
-        self.cache = {}
+        self.cache_file = cache_file or Path("data/windrep_cache.json")
+        self.cache = self._load_cache()
+    
+    def _load_cache(self) -> Dict:
+        """Load cache from file."""
+        if self.cache_file.exists():
+            try:
+                with open(self.cache_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            except Exception as e:
+                console.print(f"[yellow]Failed to load WindRep cache: {e}[/yellow]")
+        return {}
+    
+    def _save_cache(self):
+        """Save cache to file."""
+        try:
+            self.cache_file.parent.mkdir(parents=True, exist_ok=True)
+            with open(self.cache_file, 'w', encoding='utf-8') as f:
+                json.dump(self.cache, f, indent=2, ensure_ascii=False)
+        except Exception as e:
+            console.print(f"[yellow]Failed to save WindRep cache: {e}[/yellow]")
         
     def search_piece(self, title: str, composer: str = None) -> Optional[Dict]:
         """
-        Search for a piece on WindRep.org.
+        Search for a piece on WindRep.org with multiple search strategies.
         
         Args:
             title: Piece title
@@ -92,67 +112,130 @@ class WindRepScraper:
         if cache_key in self.cache:
             return self.cache[cache_key]
         
+        # Try multiple search strategies
+        search_terms = self._generate_search_terms(title, composer)
+        
+        for search_term in search_terms:
+            result = self._search_with_term(search_term, title, composer)
+            if result:
+                self.cache[cache_key] = result
+                self._save_cache()
+                return result
+                
+            # Rate limiting between searches
+            time.sleep(0.5)
+        
+        # No results found
+        self.cache[cache_key] = None
+        self._save_cache()
+        return None
+    
+    def _generate_search_terms(self, title: str, composer: str = None) -> List[str]:
+        """Generate multiple search terms to try."""
+        terms = []
+        
+        # Clean title for search
+        clean_title = re.sub(r'[^\w\s-]', '', title).strip()
+        
+        # Strategy 1: Full title
+        terms.append(clean_title)
+        
+        # Strategy 2: Title with composer
+        if composer:
+            clean_composer = re.sub(r'[^\w\s-]', '', composer).strip()
+            # Remove "arr." prefixes from composer
+            clean_composer = re.sub(r'^arr\.?\s+', '', clean_composer, flags=re.IGNORECASE)
+            terms.append(f"{clean_title} {clean_composer}")
+            terms.append(f"{clean_composer} {clean_title}")
+        
+        # Strategy 3: First significant words only (for long titles)
+        title_words = clean_title.split()
+        if len(title_words) > 3:
+            short_title = ' '.join(title_words[:3])
+            terms.append(short_title)
+            if composer:
+                terms.append(f"{short_title} {clean_composer}")
+        
+        # Strategy 4: Remove common wind band suffixes/prefixes
+        simplified = re.sub(r'\b(suite|overture|march|fanfare|variations?)\b', '', clean_title, flags=re.IGNORECASE).strip()
+        if simplified != clean_title and simplified:
+            terms.append(simplified)
+        
+        return terms
+    
+    def _search_with_term(self, search_term: str, original_title: str, composer: str = None) -> Optional[Dict]:
+        """Search with a specific term."""
         try:
             # Use MediaWiki search API
             search_params = {
                 'action': 'opensearch',
-                'search': title,
-                'limit': 10,
+                'search': search_term,
+                'limit': 15,  # Increased limit
                 'namespace': 0,
                 'format': 'json'
             }
             
             search_url = f"{self.BASE_URL}/api.php"
-            response = self.session.get(search_url, params=search_params, timeout=10)
+            response = self.session.get(search_url, params=search_params, timeout=15)
             
             if response.status_code == 200:
                 results = response.json()
                 if len(results) >= 2 and results[1]:  # results[1] contains titles
                     # Look for best match
                     for i, result_title in enumerate(results[1]):
-                        if self._is_good_match(title, result_title, composer):
+                        if self._is_good_match(original_title, result_title, composer):
                             page_url = results[3][i] if len(results) > 3 else f"{self.BASE_URL}/wiki/{result_title.replace(' ', '_')}"
-                            piece_info = self._extract_piece_info(page_url, result_title)
-                            self.cache[cache_key] = piece_info
-                            return piece_info
-            
-            # Rate limiting
-            time.sleep(1)
+                            return self._extract_piece_info(page_url, result_title)
             
         except Exception as e:
-            console.print(f"[yellow]WindRep search failed for '{title}': {e}[/yellow]")
+            console.print(f"[yellow]WindRep search failed for '{search_term}': {e}[/yellow]")
         
-        self.cache[cache_key] = None
         return None
     
     def _is_good_match(self, search_title: str, result_title: str, composer: str = None) -> bool:
         """Check if a search result is a good match for the piece."""
         # Normalize strings for comparison
-        search_clean = re.sub(r'[^\w\s]', '', search_title.lower())
-        result_clean = re.sub(r'[^\w\s]', '', result_title.lower())
+        search_clean = re.sub(r'[^\w\s]', '', search_title.lower()).strip()
+        result_clean = re.sub(r'[^\w\s]', '', result_title.lower()).strip()
         
-        # Check title similarity - this is the primary match criteria
-        if search_clean in result_clean or result_clean in search_clean:
-            return True
-        
-        # Also check for exact matches and common variations
+        # Exact match
         if search_clean == result_clean:
             return True
         
-        # Check for partial matches in case of longer titles
-        search_words = set(search_clean.split())
-        result_words = set(result_clean.split())
-        
-        # If most words match, consider it a good match
-        if len(search_words) > 1 and len(search_words.intersection(result_words)) >= len(search_words) * 0.7:
+        # Check title similarity - substring match
+        if search_clean in result_clean or result_clean in search_clean:
             return True
+        
+        # Check for partial matches with word overlap
+        search_words = set(word for word in search_clean.split() if len(word) > 2)  # Ignore short words
+        result_words = set(word for word in result_clean.split() if len(word) > 2)
+        
+        if not search_words or not result_words:
+            return False
+        
+        # Calculate overlap percentage
+        overlap = len(search_words.intersection(result_words))
+        overlap_ratio = overlap / min(len(search_words), len(result_words))
+        
+        # Good match if significant word overlap
+        if overlap >= 2 and overlap_ratio >= 0.6:
+            return True
+        
+        # Special case: check if composer is mentioned in the result title
+        if composer:
+            composer_clean = re.sub(r'[^\w\s]', '', composer.lower())
+            composer_words = set(word for word in composer_clean.split() if len(word) > 2)
+            
+            # If composer words appear in result and some title words match
+            if composer_words.intersection(result_words) and overlap >= 1:
+                return True
         
         return False
     
     def _extract_piece_info(self, page_url: str, title: str) -> Dict:
         """Extract piece information from WindRep page."""
         try:
-            response = self.session.get(page_url, timeout=10)
+            response = self.session.get(page_url, timeout=15)
             if response.status_code != 200:
                 return {"title": title, "url": page_url}
             
@@ -164,6 +247,7 @@ class WindRepScraper:
                 "composer": None,
                 "duration_minutes": None,
                 "difficulty": None,
+                "grade_level": None,
                 "category": None
             }
             
@@ -172,11 +256,38 @@ class WindRepScraper:
             if infobox:
                 info.update(self._parse_infobox(infobox))
             
-            # Look for duration in various formats
-            content = soup.get_text()
-            duration = self._extract_duration(content)
-            if duration:
+            # Look for other structured data (MediaWiki templates)
+            content_text = soup.get_text()
+            
+            # Extract duration from various formats in the full content
+            duration = self._extract_duration(content_text)
+            if duration and not info.get("duration_minutes"):
                 info["duration_minutes"] = duration
+            
+            # Look for grade/difficulty information in the content
+            if not info.get("grade_level"):
+                grade = self._extract_grade_level(content_text)
+                if grade:
+                    info["grade_level"] = grade
+                    info["difficulty"] = f"Grade {grade}"
+            
+            # Look for composer info if not found in infobox
+            if not info.get("composer"):
+                composer_match = re.search(r'(?:composer?|composed by|by)\s*:?\s*([^\n\r\.]+)', content_text, re.IGNORECASE)
+                if composer_match:
+                    info["composer"] = composer_match.group(1).strip()
+            
+            # Look for category/genre info
+            if not info.get("category"):
+                category_patterns = [
+                    r'(?:category|genre|type)\s*:?\s*([^\n\r\.]+)',
+                    r'\b(march|overture|suite|symphony|concerto|variations?|fanfare|rhapsody)\b'
+                ]
+                for pattern in category_patterns:
+                    match = re.search(pattern, content_text, re.IGNORECASE)
+                    if match:
+                        info["category"] = match.group(1).strip().title()
+                        break
             
             return info
             
@@ -400,7 +511,7 @@ class PieceAnalyzer:
         
         return sorted(successful_pieces, key=lambda p: p.win_rate, reverse=True)
     
-    def enrich_with_windrep_data(self, pieces: List[PieceInfo], max_pieces: int = 50) -> List[PieceInfo]:
+    def enrich_with_windrep_data(self, pieces: List[PieceInfo], max_pieces: int = 200) -> List[PieceInfo]:
         """
         Enrich piece data with information from WindRep.org.
         
@@ -414,6 +525,7 @@ class PieceAnalyzer:
         console.print(f"[blue]Enriching top {min(len(pieces), max_pieces)} pieces with WindRep.org data...[/blue]")
         
         enriched_pieces = []
+        successful_lookups = 0
         
         for piece in track(pieces[:max_pieces], description="Fetching piece details..."):
             windrep_info = self.windrep.search_piece(piece.title, piece.composer)
@@ -425,10 +537,16 @@ class PieceAnalyzer:
                 piece.grade_level = windrep_info.get("grade_level") or piece.grade_level
                 piece.category = windrep_info.get("category") or piece.category
                 piece.windrep_url = windrep_info.get("url")
+                
+                # Count successful lookups (ones that returned actual data)
+                if any([windrep_info.get("duration_minutes"), windrep_info.get("difficulty"), 
+                       windrep_info.get("grade_level"), windrep_info.get("category")]):
+                    successful_lookups += 1
             
             enriched_pieces.append(piece)
         
         console.print(f"✓ Enriched {len(enriched_pieces)} pieces with external data")
+        console.print(f"✓ Found detailed metadata for {successful_lookups} pieces")
         return enriched_pieces
     
     def analyze_set_test_pieces(self) -> Dict[str, List[Dict]]:

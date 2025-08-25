@@ -1,0 +1,2624 @@
+{
+  "korps": [
+    {
+      "dummy": "korps",
+      "divisjon": "Elite",
+      "korpsnavn": "Christiania Blåseensemble",
+      "korpsnr": 1,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/christianiablaseensemble.jpg",
+      "bildetekst": "Bildet er hentet fra nmh.no",
+      "hjemmeside": "http://nmh.no"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Elite",
+      "korpsnavn": "Opus 82",
+      "korpsnr": 11,
+      "fylke": "-",
+      "bildelink": "https://static.wixstatic.com/media/8835a5_5cd78cff169f454fb6d0a54169c9106d.jpg/v1/fill/w_472,h_330,al_c,q_80,usm_0.66_1.00_0.01/8835a5_5cd78cff169f454fb6d0a54169c9106d.jpg",
+      "bildetekst": "Bildet er hentet fra www.opus82.no",
+      "hjemmeside": "http://www.opus82.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Elite",
+      "korpsnavn": "Musikkforeningen Nidarholm",
+      "korpsnr": 2,
+      "fylke": "-",
+      "bildelink": "https://nidarholm.no/data/gallery/gallery1/img/dsc0378-web.jpg",
+      "bildetekst": "Bildet er hentet fra nidarholm.no",
+      "hjemmeside": "http://nidarholm.no"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Elite",
+      "korpsnavn": "Alvøens Musikkforening",
+      "korpsnr": 22,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "http://alvøens.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Elite",
+      "korpsnavn": "Dragefjellets Musikkorps Bergen",
+      "korpsnr": 5,
+      "fylke": "-",
+      "bildelink": "http://dragene.no/wp-content/uploads/2016/03/12821425_10154123000919101_6934214023861599412_n.jpg",
+      "bildetekst": "Bildet er hentet fra dragene.no",
+      "hjemmeside": "http://dragene.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Elite",
+      "korpsnavn": "Lillestrøm Musikkorps",
+      "korpsnr": 4,
+      "fylke": "-",
+      "bildelink": "https://www.lillestrom-musikkorps.no/data/files/bilde17-brussel1.jpg",
+      "bildetekst": "Bildet er hentet fra musikkorps.no",
+      "hjemmeside": "http://www.musikkorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Elite",
+      "korpsnavn": "Mo Hornmusikk",
+      "korpsnr": 13,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/mohornmusikk.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://mohornmusikk.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Elite",
+      "korpsnavn": "Skjold Nesttun Janitsjar",
+      "korpsnr": 12,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/skjoldnesttunjanitsjar.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.snj.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Elite",
+      "korpsnavn": "Byneset Musikkorps",
+      "korpsnr": 14,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/bynesetmusikkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.byneset.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Elite",
+      "korpsnavn": "Lørenskog Musikkorps",
+      "korpsnr": 20,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/lorenskogmusikkorps.jpg",
+      "bildetekst": "Foto: Tom Mehlum. Bildet er hentet fra Facebook",
+      "hjemmeside": "http://lorenskogmusikkorps.com/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Nittedal og Hakadal Janitsjar",
+      "korpsnr": 10,
+      "fylke": "-",
+      "bildelink": "http://musikkorps.no/wp-content/uploads/2015/01/NM-Nittedal-og-Hakadal-Janitsjar.jpg",
+      "bildetekst": "Bildet er hentet fra musikkorps.no",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Strusshamn Musikkforening",
+      "korpsnr": 19,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/strusshamnmusikkforening.jpg",
+      "bildetekst": "Foto: Rolf Hestetræet. Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.strusshamnmusikkforening.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Greåker Musikkorps",
+      "korpsnr": 6,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Sarpsborg Janitsjarkorps",
+      "korpsnr": 9,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/sarpsborgjanitsjarkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.sjk.net/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Bjølsen Ungdomskorps",
+      "korpsnr": 34,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "Bildet er hentet fra www.bjolsenungdomskorps.no",
+      "hjemmeside": "http://www.bjolsenungdomskorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Sandefjord Musikkorps",
+      "korpsnr": 24,
+      "fylke": "-",
+      "bildelink": "http://www.sandefjord-musikkorps.no/assets/images/vi-er-smk.jpg",
+      "bildetekst": "Bildet er hentet fra www.sandefjord-musikkorps.no",
+      "hjemmeside": "http://www.sandefjord-musikkorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Ådalsbruk Musikkforening",
+      "korpsnr": 26,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/aadalsbrukmusikkforening.jpg",
+      "bildetekst": "Bildet er hentet fra www.bruksmusikken.no",
+      "hjemmeside": "http://www.bruksmusikken.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Borge Musikkorps",
+      "korpsnr": 23,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/borgemusikkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.borgemusikken.no"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Stavanger Musikkorps av 1919",
+      "korpsnr": 17,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/stavangermusikkorps1919.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://smk1919.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Vestre Aker Musikkorps",
+      "korpsnr": 8,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/vestreakermusikkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.vam.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Musikklaget Brage",
+      "korpsnr": 71,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Os Musikkforening",
+      "korpsnr": 45,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/osmusikkforening.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "https://www.facebook.com/OsMusikkforening"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "1. divisjon",
+      "korpsnavn": "Kolbotn Konsertorkester",
+      "korpsnr": 15,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "http://www.kolbotnkonsertorkester.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Asker Musikkorps",
+      "korpsnr": 46,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/askermusikkorps.jpg",
+      "bildetekst": "Bildet er hentet fra budstikka.no",
+      "hjemmeside": "http://www.amk.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Tønsberg Janitsjarkorps",
+      "korpsnr": 29,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/tonsbergjanitsjarkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.tonsberg-janitsjarkorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Drammen Konsertorkester",
+      "korpsnr": 16,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/drammenkonsertorkester.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.dko.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Bispehaugen Ungdomskorps",
+      "korpsnr": 28,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/bispehaugenungdomskorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.bispehaugen.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Gjøvik Bykorps",
+      "korpsnr": 33,
+      "fylke": "-",
+      "bildelink": "https://pbs.twimg.com/media/B9LdjwwCcAEyfNF.jpg",
+      "bildetekst": "Bildet er hentet fra Twitter",
+      "hjemmeside": "http://www.gjovik-bykorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Aalesunds Ungdomsmusikkorps",
+      "korpsnr": 27,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "https://www.facebook.com/aaumkorps/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Asker og Bærum Ungdomskorps",
+      "korpsnr": 57,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "http://www.abuk.no"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Sinsen Konsertorkester",
+      "korpsnr": 21,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/sinsenmusikkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.sinsenmusikkorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Sykkylven Janitsjarorkester",
+      "korpsnr": 65,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Vestsidens Musikkorps",
+      "korpsnr": 25,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/vestsidensmusikkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.vmk.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Ringsaker Janitjsar",
+      "korpsnr": 153,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "http://brumunddal.musikkorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Lungegaardens Musikkorps",
+      "korpsnr": 38,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/lungegaardensmusikkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.lungegaardens-musikkorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Tromsø Orkesterforenings Janitsjarkorps",
+      "korpsnr": 41,
+      "fylke": "-",
+      "bildelink": "https://static.wixstatic.com/media/dd5bbc_b0c682bb35064071b71c0549c444563e.jpg/v1/fill/w_859,h_602,al_c,q_85,usm_0.66_1.00_0.01/dd5bbc_b0c682bb35064071b71c0549c444563e.jpg",
+      "bildetekst": "Bildet er hentet fra www.tofjanitsjaren.com",
+      "hjemmeside": "http://www.tofjanitsjaren.com/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Hov Musikkorps",
+      "korpsnr": 32,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/hovmusikkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "https://www.facebook.com/Hov-Musikkorps-166120743542967/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Sandvikens Ungdomskorps",
+      "korpsnr": 3,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "http://www.sandvikens-ungdomskorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "2. divisjon",
+      "korpsnavn": "Hovin Musikkorps",
+      "korpsnr": 42,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/hovinmusikkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://hovin.musikkorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Nes Janitsjarkorps",
+      "korpsnr": 74,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/nesjanitsjarkorps.jpg",
+      "bildetekst": "Foto: John Arne Paulsen. Bildet er hentet fra raumnes.no",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Stabekk Janitsjarorkester",
+      "korpsnr": 37,
+      "fylke": "-",
+      "bildelink": "http://www.sjo.no/images/SJO-planetene-2015-922px.jpg",
+      "bildetekst": "Bildet er hentet fra www.sjo.no",
+      "hjemmeside": "http://www.sjo.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Åsane Musikklag",
+      "korpsnr": 44,
+      "fylke": "-",
+      "bildelink": "http://www.aasanemusikklag.no/data/_uploaded/image/aml2015-mindre.jpg",
+      "bildetekst": "Bildet er hentet fra www.aasanemusikklag.no",
+      "hjemmeside": "http://www.aasanemusikklag.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Kongsberg Byorkester",
+      "korpsnr": 60,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Strindheim Janitsjar",
+      "korpsnr": 48,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/strindheimjanitsjar.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.strindheimjanitsjar.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Sande Musikkorps",
+      "korpsnr": 30,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "http://www.sande-musikkorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Hamar Musikkorps",
+      "korpsnr": 156,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Bøler Janitsjar og Ila Ungdomskorps",
+      "korpsnr": 72,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/bolerogilaungdomskorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Lisleby Musikkorps",
+      "korpsnr": 18,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/lislebymusikkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://lislebymusikkorps.no/wp/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Fet Janitsjar",
+      "korpsnr": 90,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Skedsmo Janitsjarorkester",
+      "korpsnr": 47,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "http://www.skedsmo-janitsjar.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Sagene Janitsjarkorps",
+      "korpsnr": 35,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/sagenejanitsjarkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.sjk.org/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Halsen Musikkforening",
+      "korpsnr": 31,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "http://www.hmf-web.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Lørenskog Blåseensemble",
+      "korpsnr": 217,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Fåberg Musikkforening",
+      "korpsnr": 39,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/fabergmusikkforening.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.faaberg-musikkforening.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "3. divisjon",
+      "korpsnavn": "Bodø Harmonimusikk",
+      "korpsnr": 56,
+      "fylke": "-",
+      "bildelink": "https://www.gratisnettsted.com/login/members/imagemanager/images/2afe4567e1bf64d32a5527244d104cea/Bilder/NM2015.JPG",
+      "bildetekst": "Bildet er hentet fra www.bodoharmonimusikk.no",
+      "hjemmeside": "http://www.bodoharmonimusikk.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Hygge Korpsensemble",
+      "korpsnr": 246,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Tresfjord Janitsjar",
+      "korpsnr": 53,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/tresfjordjanitsjar.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Haugesund Janitsjarorkester",
+      "korpsnr": 68,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Musikklaget Ustemt",
+      "korpsnr": 105,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Kristiansand Janitsjar",
+      "korpsnr": 216,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Østre Gausdal Musikkforening",
+      "korpsnr": 63,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/ostregausdalmusikkforening.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Ranheim Musikkforening",
+      "korpsnr": 36,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/ranheimmusikkforening.png",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://rmfweb.blogspot.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Fana Musikklag",
+      "korpsnr": 81,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Arne Musikforening",
+      "korpsnr": 59,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "http://arnemusikforening.no"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Arendal Byorkester",
+      "korpsnr": 40,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/arendalbyorkester.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.arendalbyorkester.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Sofienberg Musikkorps",
+      "korpsnr": 83,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Eidsvoll Janitsjarkorps",
+      "korpsnr": 101,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/eidsvolljanitsjarkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.eidsvolljanitsjar.net"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Musikklaget Ulf",
+      "korpsnr": 70,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Oslo Postorkester",
+      "korpsnr": 49,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/oslopostorkester.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.oslopostorkester.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Oppegård Janitsjar",
+      "korpsnr": 43,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "http://www.oppegardjanitsjar.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "4. divisjon",
+      "korpsnavn": "Moss og omegn Janitsjar",
+      "korpsnr": 69,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Nidarvoll Ungdomskorps",
+      "korpsnr": 118,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Østensjø Janitsjar",
+      "korpsnr": 52,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/ostensjojanitsjar.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.ostensjojanitsjar.no"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Modum Janitsjar",
+      "korpsnr": 123,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Bømlo Janitsjar",
+      "korpsnr": 85,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Strinda Ungdomskorps",
+      "korpsnr": 51,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Ås og Vestby Musikkorps",
+      "korpsnr": 155,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Musikklaget Kornetten",
+      "korpsnr": 55,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/musikklagetkornetten.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.kornetten.com"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Byåsen Musikkorps",
+      "korpsnr": 84,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Tolga-Os Janitsjar",
+      "korpsnr": 76,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Vålerenga Janitsjarkorps",
+      "korpsnr": 78,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Eina Musikkforening",
+      "korpsnr": 73,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/einamusikkforening.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Hommelvik Musikkorps",
+      "korpsnr": 77,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Lier og Drammen Ungdomskorps",
+      "korpsnr": 256,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Hønefoss Ungdomskorps",
+      "korpsnr": 148,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Rælingen Musikklag",
+      "korpsnr": 89,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "5. divisjon",
+      "korpsnavn": "Klæbu Musikkorps",
+      "korpsnr": 97,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "TUBE",
+      "korpsnr": 253,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Nordre Aker Janitsjar",
+      "korpsnr": 95,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Jevnaker Ungdomskorps",
+      "korpsnr": 218,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Valldal Hornmusikklag",
+      "korpsnr": 98,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Søndre Nittedal Veterankorps",
+      "korpsnr": 109,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Vang Musikkforening",
+      "korpsnr": 224,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Åndalsnes Musikkforening",
+      "korpsnr": 114,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Musikkorpset TEMPO",
+      "korpsnr": 99,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Follebu og Vestre Gausdal Musikkforening",
+      "korpsnr": 106,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Drøbak Musikkorps",
+      "korpsnr": 121,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Trøgstad Janitsjar",
+      "korpsnr": 244,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Skatval Hornmusikklag",
+      "korpsnr": 86,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Tretten Musikkforening",
+      "korpsnr": 250,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Åsnes Hornmusikk",
+      "korpsnr": 67,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Hegra Hornmusikklag",
+      "korpsnr": 88,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "6. divisjon",
+      "korpsnavn": "Namsos Musikkorps",
+      "korpsnr": 93,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "7. divisjon",
+      "korpsnavn": "Arendal Ungdomsmusikkorps",
+      "korpsnr": 257,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "7. divisjon",
+      "korpsnavn": "Samarbeidskorpset Alversund og Osterøy",
+      "korpsnr": 258,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "7. divisjon",
+      "korpsnavn": "Bjergsted Blåseensemble",
+      "korpsnr": 173,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/bjergsted.jpg",
+      "bildetekst": "Foto: Ingunn Marie Hagen. Bildet er hentet fra musikkorps.no",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "7. divisjon",
+      "korpsnavn": "Flisbyen Blåseensemble",
+      "korpsnr": 259,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "7. divisjon",
+      "korpsnavn": "Samarbeidskorpset Vatne Hornmussiklag / Hasund og Dimnøy Ungdomsmusikkorps",
+      "korpsnr": 260,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "7. divisjon",
+      "korpsnavn": "Øystese Musikklag",
+      "korpsnr": 261,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "7. divisjon",
+      "korpsnavn": "Lånke Musikkforening",
+      "korpsnr": 262,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Akershus Konsertorkester",
+      "korpsnr": 135,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Alvdal-Tynset Janitsjarkorps",
+      "korpsnr": 79,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Alversund Musikklag",
+      "korpsnr": 103,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Alversund Musikklag og Fortunens Musikkorps",
+      "korpsnr": 223,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Arbeidernes Musikkorps",
+      "korpsnr": 195,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Arna Janitsjar",
+      "korpsnr": 188,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Austrheim-Lindås Janitsjar",
+      "korpsnr": 236,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Austrheim-Lindås/Alversund Musikkorps",
+      "korpsnr": 233,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Averøy Ungdomskorps",
+      "korpsnr": 242,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Barman Janitsjar",
+      "korpsnr": 251,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Beitstad Hornmusikklag",
+      "korpsnr": 133,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Bjørgvin Blåseensemble",
+      "korpsnr": 248,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Bodø Janitsjar",
+      "korpsnr": 169,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Bostrak Blås",
+      "korpsnr": 192,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Brevik Musikkorps",
+      "korpsnr": 131,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Brumunddal Musikkorps",
+      "korpsnr": 102,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Bryne Musikkorps",
+      "korpsnr": 234,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Dokka Musikkorps",
+      "korpsnr": 91,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Dombås Musikkforening",
+      "korpsnr": 163,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Egersund Musikkorps",
+      "korpsnr": 203,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Eid Musikklag",
+      "korpsnr": 158,
+      "fylke": "-",
+      "bildelink": "http://eidmusikklag.janitsjarkorps.no/bilder/off.bildersep2013/547029_10151876297985874_1698000231_n_spredtorden__800.jpg",
+      "bildetekst": "Bildet er hentet fra eidmusikklag.janitsjarkorps.no",
+      "hjemmeside": "http://eidmusikklag.janitsjarkorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Eidsvåg Musikklag",
+      "korpsnr": 202,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Ellingsøy Hornmusikk",
+      "korpsnr": 207,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Erdal Ungdomskorps",
+      "korpsnr": 184,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Finneid Hornmusikk",
+      "korpsnr": 170,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Fiskerstrand Musikkorps",
+      "korpsnr": 208,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Flatåsen Musikkorps",
+      "korpsnr": 159,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Frøya Janitsjar",
+      "korpsnr": 199,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Førde Musikklag",
+      "korpsnr": 152,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Gaupen Musikkforening",
+      "korpsnr": 150,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Gjallarhorn",
+      "korpsnr": 235,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Gjerdrum Musikklag",
+      "korpsnr": 141,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Glomfjord Hornmusikkforening",
+      "korpsnr": 119,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Glommasvingen Janitsjar",
+      "korpsnr": 92,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Gloppen Janitsjar",
+      "korpsnr": 64,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/gloppenjanitsjar.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Gossen Musikkorps",
+      "korpsnr": 108,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Grimstad Musikkorps",
+      "korpsnr": 185,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Grorud Ungdomskorps",
+      "korpsnr": 166,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Hadeland Janitsjar",
+      "korpsnr": 82,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Hasund og Dimnøy Ungdomsmusikkorps",
+      "korpsnr": 113,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Haugesund Ungdomskorps",
+      "korpsnr": 137,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Heimdal Musikkorps",
+      "korpsnr": 54,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/heimdalmusikkorps.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "http://www.heimdalmusikkorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Hemnes Janitsjar",
+      "korpsnr": 146,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Hennummusikken",
+      "korpsnr": 255,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Holmlia Konsertorkester",
+      "korpsnr": 162,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Horg Musikkorps",
+      "korpsnr": 157,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Hortens Ungdomsmusikkorps",
+      "korpsnr": 182,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Hvaler Musikkforening",
+      "korpsnr": 180,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Jernbanens Musikkorps Hamar",
+      "korpsnr": 243,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Jernbanens Musikkorps Hedmark",
+      "korpsnr": 228,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Jernbanens Musikkorps Oslo",
+      "korpsnr": 96,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Jømna/Heradsbygd Musikkforening",
+      "korpsnr": 205,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Kila Musikkforening",
+      "korpsnr": 247,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Kirksæterørens Hornmusikk",
+      "korpsnr": 215,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Kolbu Janitsjarkorps",
+      "korpsnr": 7,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Kolstad Janitsjar",
+      "korpsnr": 177,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Korps 95",
+      "korpsnr": 165,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Levanger Musikkforening",
+      "korpsnr": 122,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Lier Ungdomskorps",
+      "korpsnr": 210,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Lillehammer Janitsjar",
+      "korpsnr": 117,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "LKAB Musikkorps",
+      "korpsnr": 164,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Løkken Musikkorps",
+      "korpsnr": 107,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Lørenskog Veterankorps",
+      "korpsnr": 132,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Malvik Musikkorps",
+      "korpsnr": 66,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Mandal Byorkester",
+      "korpsnr": 115,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Meland Musikklag",
+      "korpsnr": 189,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Melhus Janitsjarkorps",
+      "korpsnr": 50,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/melhusjanitsjarkorps.jpg",
+      "bildetekst": "Bildet er hentet fra melhusjanitsjarkorps.no",
+      "hjemmeside": "http://www.melhusjanitsjarkorps.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Meråker Musikkorps",
+      "korpsnr": 191,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Mjøsen Janitsjar",
+      "korpsnr": 220,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Moelv Musikkforening",
+      "korpsnr": 87,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Molde Janitsjar",
+      "korpsnr": 116,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Musikkforeningen Viken",
+      "korpsnr": 62,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/musikkforeningenviken.jpg",
+      "bildetekst": "Bildet er hentet fra Facebook",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Musikklaget Liv",
+      "korpsnr": 124,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Musikklaget Lurlåt",
+      "korpsnr": 167,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Musikklaget Laat",
+      "korpsnr": 120,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Namsos Janitsjar",
+      "korpsnr": 239,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Namsos Musikkforening",
+      "korpsnr": 238,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Nannestad Janitsjarkorps",
+      "korpsnr": 94,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Nanset Ungdomsmusikkorps",
+      "korpsnr": 172,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/nansetungdomsmusikkorps.jpg",
+      "bildetekst": "Bildet er hentet fra www.numk.no",
+      "hjemmeside": "http://www.numk.no"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Nesbyen Hornmusikklag",
+      "korpsnr": 229,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Nesodden Ungdomskors",
+      "korpsnr": 225,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Nord-Odal Hornmusikk",
+      "korpsnr": 125,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Nordbygda/Tysse Musikklag",
+      "korpsnr": 227,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Nordfjord Ungdomskorps",
+      "korpsnr": 232,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Nordre Aker Janitsjar/Grefsen Ungdomskorps",
+      "korpsnr": 154,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "http://naj.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Nordstrand Janitsjarkors",
+      "korpsnr": 160,
+      "fylke": "-",
+      "bildelink": "http://njkweb.no/wordpress/wp-content/uploads/2015/01/cropped-njk-korpsbilde-calella-201411.jpg",
+      "bildetekst": "Bildet er hentet fra njkweb.no",
+      "hjemmeside": "http://njkweb.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Nordstrand og Nordre Aker Janitsjar",
+      "korpsnr": 249,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Nørvøy Ungdomskorps",
+      "korpsnr": 254,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Nøtterøy Musikkorps",
+      "korpsnr": 143,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Odda Musikklag",
+      "korpsnr": 80,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "OK Janitsjar",
+      "korpsnr": 139,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Onsø Musikkforening",
+      "korpsnr": 193,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Oppdal Musikkforening/Rennebu Musikkorps",
+      "korpsnr": 134,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Oslo Janitsjarkorps",
+      "korpsnr": 126,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "http://www.oslojanitsjar.no"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Osterøy Janitsjar",
+      "korpsnr": 206,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Otta Musikkforening",
+      "korpsnr": 187,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "www.ottakorps.no"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Overhalla Janitsjar",
+      "korpsnr": 197,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Prosjekt MMXIX",
+      "korpsnr": 61,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "R20",
+      "korpsnr": 144,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Raufoss Musikkorps",
+      "korpsnr": 149,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Rendalen Musikkorps",
+      "korpsnr": 222,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Rennebu Musikkorps",
+      "korpsnr": 214,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Rissa og Stadsbygd Musikkorps",
+      "korpsnr": 127,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Romerike Konsertorkester",
+      "korpsnr": 168,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Røra Hornmusikklag",
+      "korpsnr": 128,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Sandefjord Old Stars",
+      "korpsnr": 142,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Sarpsborg Musikkorps",
+      "korpsnr": 201,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Sarpsborg Ungdomskorps",
+      "korpsnr": 219,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Ski Janitsjar",
+      "korpsnr": 145,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Skjeberg Musikkorps",
+      "korpsnr": 237,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Skjetten Ungdomskorps",
+      "korpsnr": 171,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Skogn Hornmusikklag",
+      "korpsnr": 213,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Slemmestad Ungdomskorps",
+      "korpsnr": 178,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Solberg Musikkorps",
+      "korpsnr": 183,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Sortland Musikkforening",
+      "korpsnr": 176,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Sotra Musikklag",
+      "korpsnr": 200,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Stange/Vallset Musikkforening",
+      "korpsnr": 179,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Steinkjer Ungdomskorps",
+      "korpsnr": 212,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Stord Musikklag",
+      "korpsnr": 75,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Stordal Hornmusikklag",
+      "korpsnr": 211,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Stovner og Smedstua Skolekorps",
+      "korpsnr": 241,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Støren Musikkorps",
+      "korpsnr": 204,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Sverre Sigurdson Musikkorps",
+      "korpsnr": 245,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Svolvær Musikkforening",
+      "korpsnr": 111,
+      "fylke": "-",
+      "bildelink": "https://nmbrass.no/nmjanitsjar/static/svolvarmusikkforening.jpg",
+      "bildetekst": "Foto: John-Arne Storhaug. Bildet er hentet fra lofotposten.no",
+      "hjemmeside": "http://www.svolvarmusikkforening.no/"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Sømna Hornmusikk",
+      "korpsnr": 186,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Telefylkets Musikkorps",
+      "korpsnr": 147,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Tillerblæsen",
+      "korpsnr": 161,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Tistedalens Musikkforening",
+      "korpsnr": 130,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Torp Musikkorps",
+      "korpsnr": 181,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Torshov Janitsjarorkester",
+      "korpsnr": 174,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Toten Janitsjar",
+      "korpsnr": 129,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Trysil Musikklag",
+      "korpsnr": 190,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Tvedestrand Musikkorps",
+      "korpsnr": 58,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Tvedestrand og Arendal samarbeidskorps",
+      "korpsnr": 252,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Tønsberg Musikkorps av 1919",
+      "korpsnr": 196,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Ulefoss Musikkorps",
+      "korpsnr": 198,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Ullensaker Janitsjar",
+      "korpsnr": 221,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Vestbyen Janitsjar",
+      "korpsnr": 151,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Vestre Øyeren Konsertorkester",
+      "korpsnr": 100,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Vinne Musikkorps",
+      "korpsnr": 136,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Voss Musikklag",
+      "korpsnr": 230,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Ynglingeforeningens Musikkorps",
+      "korpsnr": 194,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Ytre Rendal Hornmusikklag",
+      "korpsnr": 240,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Østerdal Prosjektkorps",
+      "korpsnr": 175,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Østerdølenes Musikkorps Oslo",
+      "korpsnr": 104,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Østre Aker Musikkorps",
+      "korpsnr": 140,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Øvre Byåsen Janitsjar",
+      "korpsnr": 231,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Øvre Årdal Janitsjarkorps",
+      "korpsnr": 138,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Åfjord Janitsjar",
+      "korpsnr": 110,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Årstad Musikkorps",
+      "korpsnr": 226,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Ås og Vestby Musikkorps / Moss og omegn Janitsjar",
+      "korpsnr": 112,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    },
+    {
+      "dummy": "korps",
+      "divisjon": "Øvrige",
+      "korpsnavn": "Åsen Hornmusikklag",
+      "korpsnr": 209,
+      "fylke": "-",
+      "bildelink": "-",
+      "bildetekst": "-",
+      "hjemmeside": "-"
+    }
+  ]
+}
