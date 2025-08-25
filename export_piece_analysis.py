@@ -58,7 +58,7 @@ def export_piece_analysis():
         writer = csv.writer(f)
         writer.writerow([
             'title', 'composer', 'performances', 'wins', 'win_rate_percent', 
-            'avg_points', 'duration_minutes', 'difficulty', 'category', 'windrep_url'
+            'avg_points', 'duration_minutes', 'difficulty', 'grade_level', 'category', 'windrep_url'
         ])
         
         for piece in all_pieces.values():
@@ -71,6 +71,7 @@ def export_piece_analysis():
                 round(piece.avg_points, 2) if piece.avg_points else None,
                 piece.duration_minutes,
                 piece.difficulty,
+                piece.grade_level,
                 piece.category,
                 piece.windrep_url
             ])
@@ -83,7 +84,7 @@ def export_piece_analysis():
         writer = csv.writer(f)
         writer.writerow([
             'rank', 'title', 'composer', 'performances', 'wins', 'win_rate_percent', 
-            'avg_points', 'duration_minutes', 'difficulty', 'category', 'windrep_url'
+            'avg_points', 'duration_minutes', 'difficulty', 'grade_level', 'category', 'windrep_url'
         ])
         
         for i, piece in enumerate(enriched_pieces, 1):
@@ -97,6 +98,7 @@ def export_piece_analysis():
                 round(piece.avg_points, 2) if piece.avg_points else None,
                 piece.duration_minutes,
                 piece.difficulty,
+                piece.grade_level,
                 piece.category,
                 piece.windrep_url
             ])
@@ -109,7 +111,7 @@ def export_piece_analysis():
         writer = csv.writer(f)
         writer.writerow([
             'rank', 'title', 'composer', 'performances', 'wins', 'win_rate_percent', 
-            'avg_points', 'duration_minutes', 'difficulty', 'category', 'windrep_url'
+            'avg_points', 'duration_minutes', 'difficulty', 'grade_level', 'category', 'windrep_url'
         ])
         
         for i, piece in enumerate(successful_pieces[:50], 1):
@@ -123,6 +125,7 @@ def export_piece_analysis():
                 round(piece.avg_points, 2) if piece.avg_points else None,
                 piece.duration_minutes,
                 piece.difficulty,
+                piece.grade_level,
                 piece.category,
                 piece.windrep_url
             ])
@@ -158,6 +161,7 @@ def export_piece_analysis():
                 "avg_points": round(piece.avg_points, 2) if piece.avg_points else None,
                 "duration_minutes": piece.duration_minutes,
                 "difficulty": piece.difficulty,
+                "grade_level": piece.grade_level,
                 "category": piece.category,
                 "windrep_url": piece.windrep_url
             }
@@ -174,6 +178,7 @@ def export_piece_analysis():
                 "avg_points": round(piece.avg_points, 2) if piece.avg_points else None,
                 "duration_minutes": piece.duration_minutes,
                 "difficulty": piece.difficulty,
+                "grade_level": piece.grade_level,
                 "category": piece.category,
                 "windrep_url": piece.windrep_url
             }

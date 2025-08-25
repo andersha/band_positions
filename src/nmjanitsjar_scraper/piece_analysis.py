@@ -33,11 +33,13 @@ class PieceInfo:
     composer: str
     duration_minutes: Optional[float] = None
     difficulty: Optional[str] = None
+    grade_level: Optional[int] = None  # Numeric grade 1-7
     category: Optional[str] = None
     windrep_url: Optional[str] = None
     performance_count: int = 0
     win_rate: float = 0.0
     avg_points: Optional[float] = None
+    is_set_test_piece: bool = False  # Flag for mandatory pieces
 
 
 @dataclass
@@ -200,11 +202,46 @@ class WindRepScraper:
                     if duration:
                         info['duration_minutes'] = duration
                 elif 'difficulty' in key or 'grade' in key:
+                    # Store original difficulty value
                     info['difficulty'] = value
+                    # Also extract numeric grade if possible
+                    grade_level = self._extract_grade_level(value)
+                    if grade_level:
+                        info['grade_level'] = grade_level
                 elif 'genre' in key or 'category' in key:
                     info['category'] = value
         
         return info
+    
+    def _extract_grade_level(self, text: str) -> Optional[int]:
+        """Extract numeric grade level from text, including Roman numerals."""
+        # Try to find Roman numerals (I through VII)
+        roman_map = {'I': 1, 'II': 2, 'III': 3, 'IV': 4, 'V': 5, 'VI': 6, 'VII': 7}
+        roman_pattern = r'\b(VII|VI|V|IV|III|II|I)\b'
+        
+        # Also look for numeric grades like "Grade 5" or "Grade: 4"
+        numeric_pattern = r'(?:grade|level)[\s:]*([1-7])'
+        
+        # Check for Roman numerals first
+        roman_match = re.search(roman_pattern, text, re.IGNORECASE)
+        if roman_match:
+            roman = roman_match.group(1).upper()
+            return roman_map.get(roman)
+        
+        # Then check for numeric representation
+        numeric_match = re.search(numeric_pattern, text, re.IGNORECASE)
+        if numeric_match:
+            try:
+                return int(numeric_match.group(1))
+            except (ValueError, TypeError):
+                pass
+        
+        # Finally check for standalone numbers if it looks like a grade
+        # (only if the text is short, to avoid false positives)
+        if len(text) < 5 and text.strip().isdigit() and 1 <= int(text.strip()) <= 7:
+            return int(text.strip())
+            
+        return None
     
     def _extract_duration(self, text: str) -> Optional[float]:
         """Extract duration in minutes from text."""
@@ -385,6 +422,7 @@ class PieceAnalyzer:
                 # Update piece with WindRep data
                 piece.duration_minutes = windrep_info.get("duration_minutes") or piece.duration_minutes
                 piece.difficulty = windrep_info.get("difficulty") or piece.difficulty
+                piece.grade_level = windrep_info.get("grade_level") or piece.grade_level
                 piece.category = windrep_info.get("category") or piece.category
                 piece.windrep_url = windrep_info.get("url")
             
@@ -392,6 +430,84 @@ class PieceAnalyzer:
         
         console.print(f"✓ Enriched {len(enriched_pieces)} pieces with external data")
         return enriched_pieces
+    
+    def analyze_set_test_pieces(self) -> Dict[str, List[Dict]]:
+        """
+        Analyze pieces that might have been set test pieces (mandatory).
+        
+        Set test pieces often show unusual patterns:
+        - High performance count in specific years
+        - Similar performance across different divisions in the same year
+        - Concentrated in single years rather than spread over time
+        
+        Returns:
+            Dictionary with suspected set test pieces by division and year
+        """
+        console.print("[blue]Analyzing potential set test pieces...[/blue]")
+        
+        # Load all data
+        self.parser.load_all_data()
+        
+        # Build repertoire to piece mapping
+        repertoire_to_piece = {}
+        for item in self.parser._repmus.get("repmus", []):
+            rep_nr = item.get("repertoarnr")
+            piece_nr = item.get("musikkstykkenr")
+            if rep_nr and piece_nr:
+                repertoire_to_piece[rep_nr] = piece_nr
+        
+        # Get piece information
+        pieces_lookup = {}
+        for piece in self.parser._musikkstykker.get("musikkstykker", []):
+            piece_id = piece.get("musikkstykkenr")
+            if piece_id:
+                pieces_lookup[piece_id] = {
+                    "title": piece.get("tittel", "Unknown"),
+                    "composer": piece.get("komponist", "Unknown")
+                }
+        
+        # Analyze performances by year, division, and piece
+        year_division_piece_counts = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
+        
+        for comp in self.parser._konkurranser.get("konkurranser", []):
+            repertoire_id = comp.get("repertoarnr")
+            division = comp.get("divisjon", "Unknown")
+            year = comp.get("aarstall")
+            
+            if repertoire_id and repertoire_id in repertoire_to_piece:
+                piece_id = repertoire_to_piece[repertoire_id]
+                if piece_id in pieces_lookup:
+                    piece_key = f"{pieces_lookup[piece_id]['title']}|{pieces_lookup[piece_id]['composer']}"
+                    year_division_piece_counts[year][division][piece_key] += 1
+        
+        # Look for suspicious patterns
+        suspected_set_pieces = defaultdict(list)
+        
+        for year, divisions in year_division_piece_counts.items():
+            for division, pieces in divisions.items():
+                # Look for pieces with unusually high performance counts
+                # A piece performed by more than 60% of orchestras in a division/year is suspicious
+                total_performances = sum(pieces.values())
+                avg_per_piece = total_performances / len(pieces) if pieces else 0
+                
+                for piece_key, count in pieces.items():
+                    # Criteria for suspected set piece:
+                    # 1. More than 5 performances in one year/division
+                    # 2. Or more than 3x the average for that division/year
+                    if count >= 5 or (avg_per_piece > 0 and count >= avg_per_piece * 3):
+                        title, composer = piece_key.split("|", 1)
+                        suspected_set_pieces[f"{year}_{division}"].append({
+                            "year": year,
+                            "division": division,
+                            "title": title,
+                            "composer": composer,
+                            "performances": count,
+                            "total_in_division": total_performances,
+                            "percentage_of_division": (count / total_performances) * 100 if total_performances > 0 else 0
+                        })
+        
+        console.print(f"✓ Identified {sum(len(v) for v in suspected_set_pieces.values())} potential set test pieces")
+        return dict(suspected_set_pieces)
     
     def analyze_program_optimization(self, division: str = "Elite") -> Dict:
         """
@@ -450,9 +566,11 @@ def main():
         table.add_column("Avg Points", style="yellow")
         if args.enrich_windrep:
             table.add_column("Duration", style="cyan")
+            table.add_column("Grade", style="bright_red")
         
         for i, piece in enumerate(popular[:args.popular], 1):
             duration_str = f"{piece.duration_minutes:.1f}min" if piece.duration_minutes else "Unknown"
+            grade_str = f"Grade {piece.grade_level}" if piece.grade_level else "Unknown"
             row = [
                 str(i),
                 piece.title[:40] + "..." if len(piece.title) > 40 else piece.title,
@@ -464,6 +582,7 @@ def main():
             
             if args.enrich_windrep:
                 row.append(duration_str)
+                row.append(grade_str)
             
             table.add_row(*row)
         
