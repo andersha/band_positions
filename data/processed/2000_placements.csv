@@ -1,0 +1,65 @@
+id,year,division,rank,orchestra,conductor,pieces,pieces_list,composers,composers_list,points,max_points,image_url,orchestra_url,conductor_url,piece_urls,scraped_at
+2000-elite-01-vestre-aker-musikkorps,2000,Elite,1,Vestre Aker Musikkorps,Thomas Rimul,,[],,[],95.0,100.0,https://nmbrass.no/nmjanitsjar/static/vestreakermusikkorps.jpg,,,,2025-08-25T20:48:53.926533
+2000-elite-02-lillestrøm-musikkorps,2000,Elite,2,Lillestrøm Musikkorps,Ingar Bergby,,[],,[],93.0,100.0,https://www.lillestrom-musikkorps.no/data/files/bilde17-brussel1.jpg,,,,2025-08-25T20:48:53.926537
+2000-elite-03-sinsen-konsertorkester,2000,Elite,3,Sinsen Konsertorkester,Trond Korsgård,,[],,[],92.0,100.0,https://nmbrass.no/nmjanitsjar/static/sinsenmusikkorps.jpg,,,,2025-08-25T20:48:53.926539
+2000-elite-04-dragefjellets-musikkorps-bergen,2000,Elite,4,Dragefjellets Musikkorps Bergen,,,[],,[],90.0,100.0,http://dragene.no/wp-content/uploads/2016/03/12821425_10154123000919101_6934214023861599412_n.jpg,,,,2025-08-25T20:48:53.926541
+2000-elite-05-sandefjord-musikkorps,2000,Elite,5,Sandefjord Musikkorps,,,[],,[],88.0,100.0,http://www.sandefjord-musikkorps.no/assets/images/vi-er-smk.jpg,,,,2025-08-25T20:48:53.926543
+2000-elite-06-sarpsborg-janitsjarkorps,2000,Elite,6,Sarpsborg Janitsjarkorps,,,[],,[],87.0,100.0,https://nmbrass.no/nmjanitsjar/static/sarpsborgjanitsjarkorps.jpg,,,,2025-08-25T20:48:53.926545
+2000-elite-07-sandvikens-ungdomskorps,2000,Elite,7,Sandvikens Ungdomskorps,,,[],,[],85.0,100.0,,,,,2025-08-25T20:48:53.926547
+2000-elite-08-skjetten-ungdomskorps,2000,Elite,8,Skjetten Ungdomskorps,,,[],,[],82.0,100.0,,,,,2025-08-25T20:48:53.926549
+2000-1-divisjon-01-opus-82,2000,1. divisjon,1,Opus 82,Rune Bergman,,[],,[],92.75,100.0,"https://static.wixstatic.com/media/8835a5_5cd78cff169f454fb6d0a54169c9106d.jpg/v1/fill/w_472,h_330,al_c,q_80,usm_0.66_1.00_0.01/8835a5_5cd78cff169f454fb6d0a54169c9106d.jpg",,,,2025-08-25T20:48:53.926551
+2000-1-divisjon-02-byneset-musikkorps,2000,1. divisjon,2,Byneset Musikkorps,Per Kvistad Uddu,,[],,[],91.75,100.0,https://nmbrass.no/nmjanitsjar/static/bynesetmusikkorps.jpg,,,,2025-08-25T20:48:53.926553
+2000-1-divisjon-03-nittedal-og-hakadal-janitsjar,2000,1. divisjon,3,Nittedal og Hakadal Janitsjar,Trond Elnes,,[],,[],91.25,100.0,http://musikkorps.no/wp-content/uploads/2015/01/NM-Nittedal-og-Hakadal-Janitsjar.jpg,,,,2025-08-25T20:48:53.926555
+2000-1-divisjon-04-bispehaugen-ungdomskorps,2000,1. divisjon,4,Bispehaugen Ungdomskorps,Torstein Siegel,,[],,[],91.25,100.0,https://nmbrass.no/nmjanitsjar/static/bispehaugenungdomskorps.jpg,,,,2025-08-25T20:48:53.926557
+2000-1-divisjon-05-kolbotn-konsertorkester,2000,1. divisjon,5,Kolbotn Konsertorkester,Erlend Tunestveit,,[],,[],90.5,100.0,,,,,2025-08-25T20:48:53.926559
+2000-1-divisjon-06-stabekk-janitsjarorkester,2000,1. divisjon,6,Stabekk Janitsjarorkester,Peter Sebastian Szilvay,,[],,[],88.75,100.0,http://www.sjo.no/images/SJO-planetene-2015-922px.jpg,,,,2025-08-25T20:48:53.926561
+2000-1-divisjon-07-musikkforeningen-nidarholm,2000,1. divisjon,7,Musikkforeningen Nidarholm,Espen Andersen,,[],,[],88.5,100.0,https://nidarholm.no/data/gallery/gallery1/img/dsc0378-web.jpg,,,,2025-08-25T20:48:53.926563
+2000-1-divisjon-08-skjold-nesttun-janitsjar,2000,1. divisjon,8,Skjold Nesttun Janitsjar,Espen Opedal,,[],,[],88.0,100.0,https://nmbrass.no/nmjanitsjar/static/skjoldnesttunjanitsjar.jpg,,,,2025-08-25T20:48:53.926565
+2000-1-divisjon-09-sagene-janitsjarkorps,2000,1. divisjon,9,Sagene Janitsjarkorps,Tom Skjellum,,[],,[],87.0,100.0,https://nmbrass.no/nmjanitsjar/static/sagenejanitsjarkorps.jpg,,,,2025-08-25T20:48:53.926567
+2000-1-divisjon-10-aalesunds-ungdomsmusikkorps,2000,1. divisjon,10,Aalesunds Ungdomsmusikkorps,Arnfinn Dalhaug,,[],,[],84.25,100.0,,,,,2025-08-25T20:48:53.926569
+2000-1-divisjon-11-musikklaget-lurlåt,2000,1. divisjon,11,Musikklaget Lurlåt,Per Grønli,,[],,[],84.0,100.0,,,,,2025-08-25T20:48:53.926573
+2000-1-divisjon-12-drammen-konsertorkester,2000,1. divisjon,12,Drammen Konsertorkester,John-Philip Hannevik,,[],,[],83.25,100.0,https://nmbrass.no/nmjanitsjar/static/drammenkonsertorkester.jpg,,,,2025-08-25T20:48:53.926575
+2000-2-divisjon-01-lørenskog-musikkorps,2000,2. divisjon,1,Lørenskog Musikkorps,Hans Andreas Kjølberg,,[],,[],94.0,100.0,https://nmbrass.no/nmjanitsjar/static/lorenskogmusikkorps.jpg,,,,2025-08-25T20:48:53.926577
+2000-2-divisjon-02-tønsberg-janitsjarkorps,2000,2. divisjon,2,Tønsberg Janitsjarkorps,Thorbjørn Lønmo,,[],,[],93.0,100.0,https://nmbrass.no/nmjanitsjar/static/tonsbergjanitsjarkorps.jpg,,,,2025-08-25T20:48:53.926579
+2000-2-divisjon-03-halsen-musikkforening,2000,2. divisjon,3,Halsen Musikkforening,Thomas Rimul,,[],,[],90.5,100.0,,,,,2025-08-25T20:48:53.926581
+2000-2-divisjon-04-musikkforeningen-viken,2000,2. divisjon,4,Musikkforeningen Viken,Hans Andreas Kjølberg,,[],,[],90.0,100.0,https://nmbrass.no/nmjanitsjar/static/musikkforeningenviken.jpg,,,,2025-08-25T20:48:53.926583
+2000-2-divisjon-05-borge-musikkorps,2000,2. divisjon,5,Borge Musikkorps,Kjell Martinsen,,[],,[],89.5,100.0,https://nmbrass.no/nmjanitsjar/static/borgemusikkorps.jpg,,,,2025-08-25T20:48:53.926585
+2000-2-divisjon-06-bjølsen-ungdomskorps,2000,2. divisjon,6,Bjølsen Ungdomskorps,Per Gjermund Storrø,,[],,[],88.5,100.0,,,,,2025-08-25T20:48:53.926587
+2000-2-divisjon-07-tromsø-orkesterforenings-janitsjarkorps,2000,2. divisjon,7,Tromsø Orkesterforenings Janitsjarkorps,Håvard Kroka,,[],,[],88.0,100.0,"https://static.wixstatic.com/media/dd5bbc_b0c682bb35064071b71c0549c444563e.jpg/v1/fill/w_859,h_602,al_c,q_85,usm_0.66_1.00_0.01/dd5bbc_b0c682bb35064071b71c0549c444563e.jpg",,,,2025-08-25T20:48:53.926589
+2000-2-divisjon-08-sande-musikkorps,2000,2. divisjon,8,Sande Musikkorps,Gunnar Lintvedt,,[],,[],87.5,100.0,,,,,2025-08-25T20:48:53.926591
+2000-2-divisjon-09-kolstad-janitsjar,2000,2. divisjon,9,Kolstad Janitsjar,Tomas Carstensen,,[],,[],87.0,100.0,,,,,2025-08-25T20:48:53.926593
+2000-2-divisjon-10-ranheim-musikkforening,2000,2. divisjon,10,Ranheim Musikkforening,Arild Hognes,,[],,[],86.5,100.0,https://nmbrass.no/nmjanitsjar/static/ranheimmusikkforening.png,,,,2025-08-25T20:48:53.926595
+2000-2-divisjon-11-åsane-musikklag,2000,2. divisjon,11,Åsane Musikklag,Helge Haukås,,[],,[],86.0,100.0,http://www.aasanemusikklag.no/data/_uploaded/image/aml2015-mindre.jpg,,,,2025-08-25T20:48:53.926597
+2000-2-divisjon-12-tistedalens-musikkforening,2000,2. divisjon,12,Tistedalens Musikkforening,Knut Henriksen,,[],,[],85.5,100.0,,,,,2025-08-25T20:48:53.926599
+2000-2-divisjon-13-strinda-ungdomskorps,2000,2. divisjon,13,Strinda Ungdomskorps,Tomas Carstensen,,[],,[],85.0,100.0,,,,,2025-08-25T20:48:53.926600
+2000-2-divisjon-14-østre-aker-musikkorps,2000,2. divisjon,14,Østre Aker Musikkorps,Geir Gaarder,,[],,[],84.0,100.0,,,,,2025-08-25T20:48:53.926602
+2000-2-divisjon-15-hortens-ungdomsmusikkorps,2000,2. divisjon,15,Hortens Ungdomsmusikkorps,Gunnar Lintvedt,,[],,[],83.0,100.0,,,,,2025-08-25T20:48:53.926604
+2000-3-divisjon-01-mo-hornmusikk,2000,3. divisjon,1,Mo Hornmusikk,Tor Halvard Nilsen,,[],,[],95.0,100.0,https://nmbrass.no/nmjanitsjar/static/mohornmusikk.jpg,,,,2025-08-25T20:48:53.926606
+2000-3-divisjon-02-fana-musikklag,2000,3. divisjon,2,Fana Musikklag,Kjell Erik Husom,,[],,[],94.0,100.0,,,,,2025-08-25T20:48:53.926608
+2000-3-divisjon-03-molde-janitsjar,2000,3. divisjon,3,Molde Janitsjar,Arild Brekken,,[],,[],92.0,100.0,,,,,2025-08-25T20:48:53.926610
+2000-3-divisjon-04-sarpsborg-musikkorps,2000,3. divisjon,4,Sarpsborg Musikkorps,Tore Halvorsen,,[],,[],91.0,100.0,,,,,2025-08-25T20:48:53.926612
+2000-3-divisjon-05-arna-janitsjar,2000,3. divisjon,5,Arna Janitsjar,Oddmund Hjartåker,,[],,[],90.0,100.0,,,,,2025-08-25T20:48:53.926614
+2000-3-divisjon-06-fåberg-musikkforening,2000,3. divisjon,6,Fåberg Musikkforening,Ola Fredheim Haug,,[],,[],89.0,100.0,https://nmbrass.no/nmjanitsjar/static/fabergmusikkforening.jpg,,,,2025-08-25T20:48:53.926616
+2000-3-divisjon-06-malvik-musikkorps,2000,3. divisjon,6,Malvik Musikkorps,Knut Lauritzen,,[],,[],89.0,100.0,,,,,2025-08-25T20:48:53.926618
+2000-3-divisjon-08-moss-og-omegn-janitsjar,2000,3. divisjon,8,Moss og omegn Janitsjar,Sverre Caspersen,,[],,[],87.0,100.0,,,,,2025-08-25T20:48:53.926620
+2000-3-divisjon-09-bømlo-janitsjar,2000,3. divisjon,9,Bømlo Janitsjar,Ole Chr. Otterstad,,[],,[],86.0,100.0,,,,,2025-08-25T20:48:53.926622
+2000-3-divisjon-10-oslo-postorkester,2000,3. divisjon,10,Oslo Postorkester,Erik Bergene,,[],,[],85.0,100.0,https://nmbrass.no/nmjanitsjar/static/oslopostorkester.jpg,,,,2025-08-25T20:48:53.926624
+2000-3-divisjon-11-oslo-janitsjarkorps,2000,3. divisjon,11,Oslo Janitsjarkorps,Runar Jansen,,[],,[],81.0,100.0,,,,,2025-08-25T20:48:53.926626
+2000-3-divisjon-11-åsnes-hornmusikk,2000,3. divisjon,11,Åsnes Hornmusikk,Erik Bergene,,[],,[],81.0,100.0,,,,,2025-08-25T20:48:53.926628
+2000-3-divisjon-13-hov-musikkorps,2000,3. divisjon,13,Hov Musikkorps,Ola Fredheim Haug,,[],,[],80.0,100.0,https://nmbrass.no/nmjanitsjar/static/hovmusikkorps.jpg,,,,2025-08-25T20:48:53.926630
+2000-3-divisjon-14-ådalsbruk-musikkforening,2000,3. divisjon,14,Ådalsbruk Musikkforening,Thorbjørn Lunde,,[],,[],79.0,100.0,https://nmbrass.no/nmjanitsjar/static/aadalsbrukmusikkforening.jpg,,,,2025-08-25T20:48:53.926632
+2000-3-divisjon-15-alversund-musikklag,2000,3. divisjon,15,Alversund Musikklag,Eirik Gjerdevik,,[],,[],78.0,100.0,,,,,2025-08-25T20:48:53.926634
+2000-4-divisjon-01-asker-musikkorps,2000,4. divisjon,1,Asker Musikkorps,Magne Rutle,,[],,[],91.0,100.0,https://nmbrass.no/nmjanitsjar/static/askermusikkorps.jpg,,,,2025-08-25T20:48:53.926636
+2000-4-divisjon-02-eidsvoll-janitsjarkorps,2000,4. divisjon,2,Eidsvoll Janitsjarkorps,Erling Johan Myrseth,,[],,[],90.0,100.0,https://nmbrass.no/nmjanitsjar/static/eidsvolljanitsjarkorps.jpg,,,,2025-08-25T20:48:53.926638
+2000-4-divisjon-03-heimdal-musikkorps,2000,4. divisjon,3,Heimdal Musikkorps,Odd Steinar Mørkved,,[],,[],89.0,100.0,https://nmbrass.no/nmjanitsjar/static/heimdalmusikkorps.jpg,,,,2025-08-25T20:48:53.926640
+2000-4-divisjon-04-ski-janitsjar,2000,4. divisjon,4,Ski Janitsjar,Sverre Stakston Olsrud,,[],,[],88.0,100.0,,,,,2025-08-25T20:48:53.926641
+2000-4-divisjon-05-bostrak-blås,2000,4. divisjon,5,Bostrak Blås,Michael Blowout AKA Odd Terje Lysebo,,[],,[],87.0,100.0,,,,,2025-08-25T20:48:53.926644
+2000-4-divisjon-06-skatval-hornmusikklag,2000,4. divisjon,6,Skatval Hornmusikklag,Hilde Sand,,[],,[],85.0,100.0,,,,,2025-08-25T20:48:53.926645
+2000-4-divisjon-07-jernbanens-musikkorps-oslo,2000,4. divisjon,7,Jernbanens Musikkorps Oslo,Pål Gløtta,,[],,[],84.0,100.0,,,,,2025-08-25T20:48:53.926647
+2000-4-divisjon-08-nidarvoll-ungdomskorps,2000,4. divisjon,8,Nidarvoll Ungdomskorps,John Arve Viset,,[],,[],83.0,100.0,,,,,2025-08-25T20:48:53.926649
+2000-4-divisjon-09-namsos-musikkorps,2000,4. divisjon,9,Namsos Musikkorps,Viggo Rasmussen,,[],,[],82.5,100.0,,,,,2025-08-25T20:48:53.926653
+2000-4-divisjon-10-østre-gausdal-musikkforening,2000,4. divisjon,10,Østre Gausdal Musikkforening,Bjørn Kleiven,,[],,[],82.0,100.0,https://nmbrass.no/nmjanitsjar/static/ostregausdalmusikkforening.jpg,,,,2025-08-25T20:48:53.926655
+2000-4-divisjon-11-onsø-musikkforening,2000,4. divisjon,11,Onsø Musikkforening,Trond R. Gundersen,,[],,[],81.0,100.0,,,,,2025-08-25T20:48:53.926657
+2000-4-divisjon-12-musikklaget-kornetten,2000,4. divisjon,12,Musikklaget Kornetten,Ulf Steinar Berg,,[],,[],80.0,100.0,https://nmbrass.no/nmjanitsjar/static/musikklagetkornetten.jpg,,,,2025-08-25T20:48:53.926659
+2000-4-divisjon-13-otta-musikkforening,2000,4. divisjon,13,Otta Musikkforening,Morten Graff,,[],,[],79.5,100.0,,,,,2025-08-25T20:48:53.926661
+2000-4-divisjon-14-ynglingeforeningens-musikkorps,2000,4. divisjon,14,Ynglingeforeningens Musikkorps,Eric Dullaert,,[],,[],79.0,100.0,,,,,2025-08-25T20:48:53.926663

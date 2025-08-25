@@ -1,0 +1,72 @@
+id,year,division,rank,orchestra,conductor,pieces,pieces_list,composers,composers_list,points,max_points,image_url,orchestra_url,conductor_url,piece_urls,scraped_at
+2006-elite-01-dragefjellets-musikkorps-bergen,2006,Elite,1,Dragefjellets Musikkorps Bergen,Gary Peterson,,[],,[],98.0,100.0,http://dragene.no/wp-content/uploads/2016/03/12821425_10154123000919101_6934214023861599412_n.jpg,,,,2025-08-25T20:48:54.049332
+2006-elite-02-sarpsborg-janitsjarkorps,2006,Elite,2,Sarpsborg Janitsjarkorps,Geir Holm,,[],,[],95.0,100.0,https://nmbrass.no/nmjanitsjar/static/sarpsborgjanitsjarkorps.jpg,,,,2025-08-25T20:48:54.049335
+2006-elite-03-lillestrøm-musikkorps,2006,Elite,3,Lillestrøm Musikkorps,Trond Sverre Myhre,,[],,[],93.0,100.0,https://www.lillestrom-musikkorps.no/data/files/bilde17-brussel1.jpg,,,,2025-08-25T20:48:54.049338
+2006-elite-04-musikkforeningen-nidarholm,2006,Elite,4,Musikkforeningen Nidarholm,Thomas Rimul,,[],,[],91.0,100.0,https://nidarholm.no/data/gallery/gallery1/img/dsc0378-web.jpg,,,,2025-08-25T20:48:54.049340
+2006-elite-05-nittedal-og-hakadal-janitsjar,2006,Elite,5,Nittedal og Hakadal Janitsjar,Christian Skarbø Tenfjord,,[],,[],90.0,100.0,http://musikkorps.no/wp-content/uploads/2015/01/NM-Nittedal-og-Hakadal-Janitsjar.jpg,,,,2025-08-25T20:48:54.049342
+2006-elite-06-vestre-aker-musikkorps,2006,Elite,6,Vestre Aker Musikkorps,Thomas Rimul,,[],,[],88.0,100.0,https://nmbrass.no/nmjanitsjar/static/vestreakermusikkorps.jpg,,,,2025-08-25T20:48:54.049343
+2006-elite-07-opus-82,2006,Elite,7,Opus 82,Sverre Stakston Olsrud,,[],,[],86.0,100.0,"https://static.wixstatic.com/media/8835a5_5cd78cff169f454fb6d0a54169c9106d.jpg/v1/fill/w_472,h_330,al_c,q_80,usm_0.66_1.00_0.01/8835a5_5cd78cff169f454fb6d0a54169c9106d.jpg",,,,2025-08-25T20:48:54.049345
+2006-elite-08-sinsen-konsertorkester,2006,Elite,8,Sinsen Konsertorkester,Michael Antrobus,,[],,[],84.0,100.0,https://nmbrass.no/nmjanitsjar/static/sinsenmusikkorps.jpg,,,,2025-08-25T20:48:54.049347
+2006-elite-09-sandvikens-ungdomskorps,2006,Elite,9,Sandvikens Ungdomskorps,Helge Haukås,,[],,[],83.0,100.0,,,,,2025-08-25T20:48:54.049349
+2006-elite-10-sagene-janitsjarkorps,2006,Elite,10,Sagene Janitsjarkorps,Tom Skjellum,,[],,[],80.0,100.0,https://nmbrass.no/nmjanitsjar/static/sagenejanitsjarkorps.jpg,,,,2025-08-25T20:48:54.049351
+2006-1-divisjon-01-bispehaugen-ungdomskorps,2006,1. divisjon,1,Bispehaugen Ungdomskorps,Tomas Carstensen,,[],,[],95.0,100.0,https://nmbrass.no/nmjanitsjar/static/bispehaugenungdomskorps.jpg,,,,2025-08-25T20:48:54.049353
+2006-1-divisjon-02-halsen-musikkforening,2006,1. divisjon,2,Halsen Musikkforening,Gavin David Lee,,[],,[],93.0,100.0,,,,,2025-08-25T20:48:54.049355
+2006-1-divisjon-03-skjold-nesttun-janitsjar,2006,1. divisjon,3,Skjold Nesttun Janitsjar,Bengt Florvåg,,[],,[],92.0,100.0,https://nmbrass.no/nmjanitsjar/static/skjoldnesttunjanitsjar.jpg,,,,2025-08-25T20:48:54.049357
+2006-1-divisjon-04-lisleby-musikkorps,2006,1. divisjon,4,Lisleby Musikkorps,Hans Andreas Kjølberg,,[],,[],91.0,100.0,https://nmbrass.no/nmjanitsjar/static/lislebymusikkorps.jpg,,,,2025-08-25T20:48:54.049359
+2006-1-divisjon-05-kolbotn-konsertorkester,2006,1. divisjon,5,Kolbotn Konsertorkester,Rune André Halvorsen,,[],,[],90.0,100.0,,,,,2025-08-25T20:48:54.049361
+2006-1-divisjon-06-mo-hornmusikk,2006,1. divisjon,6,Mo Hornmusikk,Bjørn Breistein,,[],,[],89.0,100.0,https://nmbrass.no/nmjanitsjar/static/mohornmusikk.jpg,,,,2025-08-25T20:48:54.049363
+2006-1-divisjon-07-borge-musikkorps,2006,1. divisjon,7,Borge Musikkorps,Christer Bergby,,[],,[],88.0,100.0,https://nmbrass.no/nmjanitsjar/static/borgemusikkorps.jpg,,,,2025-08-25T20:48:54.049364
+2006-1-divisjon-08-drammen-konsertorkester,2006,1. divisjon,8,Drammen Konsertorkester,John-Philip Hannevik,,[],,[],87.0,100.0,https://nmbrass.no/nmjanitsjar/static/drammenkonsertorkester.jpg,,,,2025-08-25T20:48:54.049366
+2006-1-divisjon-09-byneset-musikkorps,2006,1. divisjon,9,Byneset Musikkorps,Tomas Carstensen,,[],,[],86.0,100.0,https://nmbrass.no/nmjanitsjar/static/bynesetmusikkorps.jpg,,,,2025-08-25T20:48:54.049368
+2006-1-divisjon-10-lørenskog-musikkorps,2006,1. divisjon,10,Lørenskog Musikkorps,Per Gjermund Storrø,,[],,[],82.0,100.0,https://nmbrass.no/nmjanitsjar/static/lorenskogmusikkorps.jpg,,,,2025-08-25T20:48:54.049370
+2006-1-divisjon-11-tromsø-orkesterforenings-janitsjarkorps,2006,1. divisjon,11,Tromsø Orkesterforenings Janitsjarkorps,Håvard Kroka,,[],,[],81.0,100.0,"https://static.wixstatic.com/media/dd5bbc_b0c682bb35064071b71c0549c444563e.jpg/v1/fill/w_859,h_602,al_c,q_85,usm_0.66_1.00_0.01/dd5bbc_b0c682bb35064071b71c0549c444563e.jpg",,,,2025-08-25T20:48:54.049372
+2006-1-divisjon-12-vestsidens-musikkorps,2006,1. divisjon,12,Vestsidens Musikkorps,Arild Andersen,,[],,[],80.0,100.0,https://nmbrass.no/nmjanitsjar/static/vestsidensmusikkorps.jpg,,,,2025-08-25T20:48:54.049374
+2006-2-divisjon-01-sande-musikkorps,2006,2. divisjon,1,Sande Musikkorps,Lars-Thomas Holm,,[],,[],95.0,100.0,,,,,2025-08-25T20:48:54.049376
+2006-2-divisjon-02-musikklaget-lurlåt,2006,2. divisjon,2,Musikklaget Lurlåt,Rune Bergman,,[],,[],94.0,100.0,,,,,2025-08-25T20:48:54.049378
+2006-2-divisjon-03-aalesunds-ungdomsmusikkorps,2006,2. divisjon,3,Aalesunds Ungdomsmusikkorps,Arnfinn Dalhaug,,[],,[],93.0,100.0,,,,,2025-08-25T20:48:54.049380
+2006-2-divisjon-04-tønsberg-janitsjarkorps,2006,2. divisjon,4,Tønsberg Janitsjarkorps,Egil Johannes Lysebo,,[],,[],92.0,100.0,https://nmbrass.no/nmjanitsjar/static/tonsbergjanitsjarkorps.jpg,,,,2025-08-25T20:48:54.049382
+2006-2-divisjon-05-strusshamn-musikkforening,2006,2. divisjon,5,Strusshamn Musikkforening,Reid Gilje,,[],,[],91.0,100.0,https://nmbrass.no/nmjanitsjar/static/strusshamnmusikkforening.jpg,,,,2025-08-25T20:48:54.049383
+2006-2-divisjon-06-lungegaardens-musikkorps,2006,2. divisjon,6,Lungegaardens Musikkorps,Stian E. Svendsen,,[],,[],90.0,100.0,https://nmbrass.no/nmjanitsjar/static/lungegaardensmusikkorps.jpg,,,,2025-08-25T20:48:54.049385
+2006-2-divisjon-06-romerike-konsertorkester,2006,2. divisjon,6,Romerike Konsertorkester,Tarjei W. Grimsby,,[],,[],90.0,100.0,,,,,2025-08-25T20:48:54.049387
+2006-2-divisjon-08-kolbu-janitsjarkorps,2006,2. divisjon,8,Kolbu Janitsjarkorps,Christian Skarbø Tenfjord,,[],,[],89.0,100.0,,,,,2025-08-25T20:48:54.049389
+2006-2-divisjon-09-alvøens-musikkforening,2006,2. divisjon,9,Alvøens Musikkforening,Bengt Florvåg,,[],,[],87.0,100.0,,,,,2025-08-25T20:48:54.049391
+2006-2-divisjon-10-ranheim-musikkforening,2006,2. divisjon,10,Ranheim Musikkforening,Torstein Siegel,,[],,[],86.0,100.0,https://nmbrass.no/nmjanitsjar/static/ranheimmusikkforening.png,,,,2025-08-25T20:48:54.049393
+2006-2-divisjon-11-østre-aker-musikkorps,2006,2. divisjon,11,Østre Aker Musikkorps,Kjell Martinsen,,[],,[],85.0,100.0,,,,,2025-08-25T20:48:54.049395
+2006-2-divisjon-12-bjølsen-ungdomskorps,2006,2. divisjon,12,Bjølsen Ungdomskorps,Trond Elnes,,[],,[],84.0,100.0,,,,,2025-08-25T20:48:54.049397
+2006-2-divisjon-13-eidsvoll-janitsjarkorps,2006,2. divisjon,13,Eidsvoll Janitsjarkorps,Erling Johan Myrseth,,[],,[],83.0,100.0,https://nmbrass.no/nmjanitsjar/static/eidsvolljanitsjarkorps.jpg,,,,2025-08-25T20:48:54.049398
+2006-2-divisjon-14-hovin-musikkorps,2006,2. divisjon,14,Hovin Musikkorps,Martin Torp,,[],,[],82.0,100.0,https://nmbrass.no/nmjanitsjar/static/hovinmusikkorps.jpg,,,,2025-08-25T20:48:54.049400
+2006-2-divisjon-15-musikkforeningen-viken,2006,2. divisjon,15,Musikkforeningen Viken,Espen Rønneberg Johannesen,,[],,[],80.0,100.0,https://nmbrass.no/nmjanitsjar/static/musikkforeningenviken.jpg,,,,2025-08-25T20:48:54.049402
+2006-3-divisjon-01-fåberg-musikkforening,2006,3. divisjon,1,Fåberg Musikkforening,Karsten G. Dalsrud,,[],,[],95.0,100.0,https://nmbrass.no/nmjanitsjar/static/fabergmusikkforening.jpg,,,,2025-08-25T20:48:54.049407
+2006-3-divisjon-02-ok-janitsjar,2006,3. divisjon,2,OK Janitsjar,Benny Solli,,[],,[],94.0,100.0,,,,,2025-08-25T20:48:54.049409
+2006-3-divisjon-03-oslo-postorkester,2006,3. divisjon,3,Oslo Postorkester,Anne Løkkerbekken,,[],,[],93.0,100.0,https://nmbrass.no/nmjanitsjar/static/oslopostorkester.jpg,,,,2025-08-25T20:48:54.049411
+2006-3-divisjon-04-ådalsbruk-musikkforening,2006,3. divisjon,4,Ådalsbruk Musikkforening,Trond Elnes,,[],,[],92.0,100.0,https://nmbrass.no/nmjanitsjar/static/aadalsbrukmusikkforening.jpg,,,,2025-08-25T20:48:54.049413
+2006-3-divisjon-05-heimdal-musikkorps,2006,3. divisjon,5,Heimdal Musikkorps,Per Kvistad Uddu,,[],,[],91.0,100.0,https://nmbrass.no/nmjanitsjar/static/heimdalmusikkorps.jpg,,,,2025-08-25T20:48:54.049415
+2006-3-divisjon-05-gjøvik-bykorps,2006,3. divisjon,5,Gjøvik Bykorps,Njål Inge Enger,,[],,[],91.0,100.0,https://pbs.twimg.com/media/B9LdjwwCcAEyfNF.jpg,,,,2025-08-25T20:48:54.049417
+2006-3-divisjon-07-asker-musikkorps,2006,3. divisjon,7,Asker Musikkorps,Erik Bergene,,[],,[],90.0,100.0,https://nmbrass.no/nmjanitsjar/static/askermusikkorps.jpg,,,,2025-08-25T20:48:54.049419
+2006-3-divisjon-07-tolga-os-janitsjar,2006,3. divisjon,7,Tolga-Os Janitsjar,Nils Graftås,,[],,[],90.0,100.0,,,,,2025-08-25T20:48:54.049420
+2006-3-divisjon-09-stavanger-musikkorps-av-1919,2006,3. divisjon,9,Stavanger Musikkorps av 1919,Jan Magnus Dahle,,[],,[],89.0,100.0,https://nmbrass.no/nmjanitsjar/static/stavangermusikkorps1919.jpg,,,,2025-08-25T20:48:54.049422
+2006-3-divisjon-10-nidarvoll-ungdomskorps,2006,3. divisjon,10,Nidarvoll Ungdomskorps,Arne Johansen,,[],,[],88.0,100.0,,,,,2025-08-25T20:48:54.049424
+2006-3-divisjon-11-ski-janitsjar,2006,3. divisjon,11,Ski Janitsjar,Erik Bergene,,[],,[],87.0,100.0,,,,,2025-08-25T20:48:54.049426
+2006-3-divisjon-11-hov-musikkorps,2006,3. divisjon,11,Hov Musikkorps,Ola Fredheim Haug,,[],,[],87.0,100.0,https://nmbrass.no/nmjanitsjar/static/hovmusikkorps.jpg,,,,2025-08-25T20:48:54.049428
+2006-3-divisjon-13-brumunddal-musikkorps,2006,3. divisjon,13,Brumunddal Musikkorps,Trond Berg,,[],,[],86.0,100.0,,,,,2025-08-25T20:48:54.049430
+2006-3-divisjon-14-lillehammer-janitsjar,2006,3. divisjon,14,Lillehammer Janitsjar,Ola Fredheim Haug,,[],,[],85.0,100.0,,,,,2025-08-25T20:48:54.049432
+2006-3-divisjon-15-skedsmo-janitsjarorkester,2006,3. divisjon,15,Skedsmo Janitsjarorkester,Erling Johan Myrseth,,[],,[],84.0,100.0,,,,,2025-08-25T20:48:54.049434
+2006-4-divisjon-01-holmlia-konsertorkester,2006,4. divisjon,1,Holmlia Konsertorkester,Morten Wensberg,,[],,[],95.0,100.0,,,,,2025-08-25T20:48:54.049435
+2006-4-divisjon-02-malvik-musikkorps,2006,4. divisjon,2,Malvik Musikkorps,Bjørn Erik Heggli,,[],,[],94.0,100.0,,,,,2025-08-25T20:48:54.049438
+2006-4-divisjon-03-molde-janitsjar,2006,4. divisjon,3,Molde Janitsjar,Halvor Holm,,[],,[],92.0,100.0,,,,,2025-08-25T20:48:54.049441
+2006-4-divisjon-04-skatval-hornmusikklag,2006,4. divisjon,4,Skatval Hornmusikklag,Geir Ulseth,,[],,[],91.0,100.0,,,,,2025-08-25T20:48:54.049443
+2006-4-divisjon-04-bodø-harmonimusikk,2006,4. divisjon,4,Bodø Harmonimusikk,Knut Thorbjørnsen,,[],,[],90.0,100.0,https://www.gratisnettsted.com/login/members/imagemanager/images/2afe4567e1bf64d32a5527244d104cea/Bilder/NM2015.JPG,,,,2025-08-25T20:48:54.049445
+2006-4-divisjon-06-alvdal-tynset-janitsjarkorps,2006,4. divisjon,6,Alvdal-Tynset Janitsjarkorps,Hans Jacob H. Tronshaug,,[],,[],89.0,100.0,,,,,2025-08-25T20:48:54.049447
+2006-4-divisjon-06-nordre-aker-janitsjar,2006,4. divisjon,6,Nordre Aker Janitsjar,Morten Wensberg,,[],,[],89.0,100.0,,,,,2025-08-25T20:48:54.049449
+2006-4-divisjon-08-dombås-musikkforening,2006,4. divisjon,8,Dombås Musikkforening,Arne Ottar Ødegård,,[],,[],88.0,100.0,,,,,2025-08-25T20:48:54.049451
+2006-4-divisjon-09-byåsen-musikkorps,2006,4. divisjon,9,Byåsen Musikkorps,Magne Østlie Hjelmervik,,[],,[],87.0,100.0,,,,,2025-08-25T20:48:54.049453
+2006-4-divisjon-09-vålerenga-janitsjarkorps,2006,4. divisjon,9,Vålerenga Janitsjarkorps,Johnny Olsen,,[],,[],87.0,100.0,,,,,2025-08-25T20:48:54.049455
+2006-4-divisjon-11-strindheim-janitsjar,2006,4. divisjon,11,Strindheim Janitsjar,Eivind Erdal,,[],,[],86.0,100.0,https://nmbrass.no/nmjanitsjar/static/strindheimjanitsjar.jpg,,,,2025-08-25T20:48:54.049457
+2006-4-divisjon-11-r20,2006,4. divisjon,11,R20,Martin Torp,,[],,[],86.0,100.0,,,,,2025-08-25T20:48:54.049458
+2006-4-divisjon-13-nordstrand-janitsjarkors,2006,4. divisjon,13,Nordstrand Janitsjarkors,Andreas Olsson,,[],,[],85.0,100.0,http://njkweb.no/wordpress/wp-content/uploads/2015/01/cropped-njk-korpsbilde-calella-201411.jpg,,,,2025-08-25T20:48:54.049460
+2006-4-divisjon-14-moelv-musikkforening,2006,4. divisjon,14,Moelv Musikkforening,Odd Edvard Mikkelsen,,[],,[],84.0,100.0,,,,,2025-08-25T20:48:54.049463
+2006-4-divisjon-14-bømlo-janitsjar,2006,4. divisjon,14,Bømlo Janitsjar,Stein Høyland,,[],,[],84.0,100.0,,,,,2025-08-25T20:48:54.049465
+2006-4-divisjon-16-bodø-janitsjar,2006,4. divisjon,16,Bodø Janitsjar,Sten Ivar Frydenlund,,[],,[],83.0,100.0,,,,,2025-08-25T20:48:54.049467
+2006-4-divisjon-17-oslo-janitsjarkorps,2006,4. divisjon,17,Oslo Janitsjarkorps,Henriette Wie-Flaig,,[],,[],82.0,100.0,,,,,2025-08-25T20:48:54.049468
+2006-4-divisjon-18-dokka-musikkorps,2006,4. divisjon,18,Dokka Musikkorps,Ole Kristian Nyhagen,,[],,[],81.0,100.0,,,,,2025-08-25T20:48:54.049470
+2006-4-divisjon-19-finneid-hornmusikk,2006,4. divisjon,19,Finneid Hornmusikk,Lill-Hege Nygaard,,[],,[],80.0,100.0,,,,,2025-08-25T20:48:54.049472

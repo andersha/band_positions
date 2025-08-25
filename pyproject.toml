@@ -1,0 +1,34 @@
+[project]
+name = "nmjanitsjar-scraper"
+version = "0.1.0"
+description = "Analytics application for Norwegian Wind Band Orchestra competition data"
+authors = [
+    {name = "Anders",email = "anders@example.com"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "requests (>=2.32.5,<3.0.0)",
+    "beautifulsoup4 (>=4.13.5,<5.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "tenacity (>=9.1.2,<10.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "rich (>=14.1.0,<15.0.0)",
+    "click (>=8.2.1,<9.0.0)",
+    "plotly (>=6.3.0,<7.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+black = "^25.1.0"
+isort = "^6.0.1"
+flake8 = "^7.3.0"
+jupyter = "^1.1.1"
+

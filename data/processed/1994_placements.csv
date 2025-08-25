@@ -1,0 +1,55 @@
+id,year,division,rank,orchestra,conductor,pieces,pieces_list,composers,composers_list,points,max_points,image_url,orchestra_url,conductor_url,piece_urls,scraped_at
+1994-elite-01-lillestrøm-musikkorps,1994,Elite,1,Lillestrøm Musikkorps,Ingar Bergby,,[],,[],95.0,100.0,https://www.lillestrom-musikkorps.no/data/files/bilde17-brussel1.jpg,,,,2025-08-25T20:48:53.886821
+1994-elite-02-vestre-aker-musikkorps,1994,Elite,2,Vestre Aker Musikkorps,Erlend Tunestveit,,[],,[],93.0,100.0,https://nmbrass.no/nmjanitsjar/static/vestreakermusikkorps.jpg,,,,2025-08-25T20:48:53.886824
+1994-elite-03-dragefjellets-musikkorps-bergen,1994,Elite,3,Dragefjellets Musikkorps Bergen,Lars Kristian Brynhildsen,,[],,[],92.0,100.0,http://dragene.no/wp-content/uploads/2016/03/12821425_10154123000919101_6934214023861599412_n.jpg,,,,2025-08-25T20:48:53.886826
+1994-elite-04-nanset-ungdomsmusikkorps,1994,Elite,4,Nanset Ungdomsmusikkorps,Odd Terje Lysebo,,[],,[],90.0,100.0,https://nmbrass.no/nmjanitsjar/static/nansetungdomsmusikkorps.jpg,,,,2025-08-25T20:48:53.886828
+1994-elite-05-skjetten-ungdomskorps,1994,Elite,5,Skjetten Ungdomskorps,Svein Greni,,[],,[],88.0,100.0,,,,,2025-08-25T20:48:53.886830
+1994-elite-06-sagene-janitsjarkorps,1994,Elite,6,Sagene Janitsjarkorps,Tom Skjellum,,[],,[],86.0,100.0,https://nmbrass.no/nmjanitsjar/static/sagenejanitsjarkorps.jpg,,,,2025-08-25T20:48:53.886832
+1994-1-divisjon-01-stabekk-janitsjarorkester,1994,1. divisjon,1,Stabekk Janitsjarorkester,Jan Roger Øren,,[],,[],93.0,100.0,http://www.sjo.no/images/SJO-planetene-2015-922px.jpg,,,,2025-08-25T20:48:53.886835
+1994-1-divisjon-02-halsen-musikkforening,1994,1. divisjon,2,Halsen Musikkforening,Karl Ole Midtbø,,[],,[],92.5,100.0,,,,,2025-08-25T20:48:53.886837
+1994-1-divisjon-03-aalesunds-ungdomsmusikkorps,1994,1. divisjon,3,Aalesunds Ungdomsmusikkorps,Arnfinn Dalhaug,,[],,[],91.5,100.0,,,,,2025-08-25T20:48:53.886839
+1994-1-divisjon-04-byneset-musikkorps,1994,1. divisjon,4,Byneset Musikkorps,Per Kvistad Uddu,,[],,[],90.5,100.0,https://nmbrass.no/nmjanitsjar/static/bynesetmusikkorps.jpg,,,,2025-08-25T20:48:53.886841
+1994-1-divisjon-05-sandefjord-musikkorps,1994,1. divisjon,5,Sandefjord Musikkorps,Odd Terje Lysebo,,[],,[],90.0,100.0,http://www.sandefjord-musikkorps.no/assets/images/vi-er-smk.jpg,,,,2025-08-25T20:48:53.886843
+1994-1-divisjon-06-bispehaugen-ungdomskorps,1994,1. divisjon,6,Bispehaugen Ungdomskorps,Karl Ole Midtbø,,[],,[],87.5,100.0,https://nmbrass.no/nmjanitsjar/static/bispehaugenungdomskorps.jpg,,,,2025-08-25T20:48:53.886845
+1994-1-divisjon-07-lørenskog-musikkorps,1994,1. divisjon,7,Lørenskog Musikkorps,Pål Gløtta,,[],,[],86.0,100.0,https://nmbrass.no/nmjanitsjar/static/lorenskogmusikkorps.jpg,,,,2025-08-25T20:48:53.886847
+1994-1-divisjon-08-musikkforeningen-nidarholm,1994,1. divisjon,8,Musikkforeningen Nidarholm,Tom Wulff,,[],,[],85.0,100.0,https://nidarholm.no/data/gallery/gallery1/img/dsc0378-web.jpg,,,,2025-08-25T20:48:53.886849
+1994-1-divisjon-09-tønsberg-janitsjarkorps,1994,1. divisjon,9,Tønsberg Janitsjarkorps,Ketil R. Teigen,,[],,[],83.0,100.0,https://nmbrass.no/nmjanitsjar/static/tonsbergjanitsjarkorps.jpg,,,,2025-08-25T20:48:53.886851
+1994-1-divisjon-10-sandvikens-ungdomskorps,1994,1. divisjon,10,Sandvikens Ungdomskorps,Allan Withington,,[],,[],81.0,100.0,,,,,2025-08-25T20:48:53.886853
+1994-1-divisjon-11-molde-janitsjar,1994,1. divisjon,11,Molde Janitsjar,Leif Skeidsvoll,,[],,[],80.5,100.0,,,,,2025-08-25T20:48:53.886855
+1994-1-divisjon-12-sinsen-konsertorkester,1994,1. divisjon,12,Sinsen Konsertorkester,Holger Gulbrandsen,,[],,[],80.0,100.0,https://nmbrass.no/nmjanitsjar/static/sinsenmusikkorps.jpg,,,,2025-08-25T20:48:53.886857
+1994-2-divisjon-01-kolbotn-konsertorkester,1994,2. divisjon,1,Kolbotn Konsertorkester,Erlend Tunestveit,,[],,[],94.0,100.0,,,,,2025-08-25T20:48:53.886859
+1994-2-divisjon-02-nittedal-og-hakadal-janitsjar,1994,2. divisjon,2,Nittedal og Hakadal Janitsjar,Ola Gudmundsen,,[],,[],91.5,100.0,http://musikkorps.no/wp-content/uploads/2015/01/NM-Nittedal-og-Hakadal-Janitsjar.jpg,,,,2025-08-25T20:48:53.886861
+1994-2-divisjon-03-kolstad-janitsjar,1994,2. divisjon,3,Kolstad Janitsjar,Tom Wulff,,[],,[],89.5,100.0,,,,,2025-08-25T20:48:53.886863
+1994-2-divisjon-04-strinda-ungdomskorps,1994,2. divisjon,4,Strinda Ungdomskorps,Eivind Erdal,,[],,[],88.5,100.0,,,,,2025-08-25T20:48:53.886865
+1994-2-divisjon-05-musikklaget-lurlåt,1994,2. divisjon,5,Musikklaget Lurlåt,Per Grønli,,[],,[],88.0,100.0,,,,,2025-08-25T20:48:53.886867
+1994-2-divisjon-06-alvøens-musikkforening,1994,2. divisjon,6,Alvøens Musikkforening,Jan L. Jacobsen,,[],,[],88.0,100.0,,,,,2025-08-25T20:48:53.886869
+1994-2-divisjon-07-skjold-nesttun-janitsjar,1994,2. divisjon,7,Skjold Nesttun Janitsjar,Geir Holm,,[],,[],87.5,100.0,https://nmbrass.no/nmjanitsjar/static/skjoldnesttunjanitsjar.jpg,,,,2025-08-25T20:48:53.886871
+1994-2-divisjon-08-hønefoss-ungdomskorps,1994,2. divisjon,8,Hønefoss Ungdomskorps,Gunnar Lintvedt,,[],,[],87.5,100.0,,,,,2025-08-25T20:48:53.886873
+1994-2-divisjon-09-bjølsen-ungdomskorps,1994,2. divisjon,9,Bjølsen Ungdomskorps,Vidar Myhre,,[],,[],86.6,100.0,,,,,2025-08-25T20:48:53.886875
+1994-2-divisjon-10-ranheim-musikkforening,1994,2. divisjon,10,Ranheim Musikkforening,Arild Hognes,,[],,[],85.5,100.0,https://nmbrass.no/nmjanitsjar/static/ranheimmusikkforening.png,,,,2025-08-25T20:48:53.886877
+1994-2-divisjon-11-lungegaardens-musikkorps,1994,2. divisjon,11,Lungegaardens Musikkorps,Sjur Høgberg,,[],,[],85.5,100.0,https://nmbrass.no/nmjanitsjar/static/lungegaardensmusikkorps.jpg,,,,2025-08-25T20:48:53.886878
+1994-2-divisjon-12-nord-odal-hornmusikk,1994,2. divisjon,12,Nord-Odal Hornmusikk,Trond Korsgård,,[],,[],85.0,100.0,,,,,2025-08-25T20:48:53.886880
+1994-2-divisjon-12-musikklaget-brage,1994,2. divisjon,12,Musikklaget Brage,Tore Nedregård,,[],,[],85.0,100.0,,,,,2025-08-25T20:48:53.886882
+1994-2-divisjon-14-fana-musikklag,1994,2. divisjon,14,Fana Musikklag,Bengt Florvåg,,[],,[],84.5,100.0,,,,,2025-08-25T20:48:53.886884
+1994-2-divisjon-15-hov-musikkorps,1994,2. divisjon,15,Hov Musikkorps,Magne Synnevåg,,[],,[],83.0,100.0,https://nmbrass.no/nmjanitsjar/static/hovmusikkorps.jpg,,,,2025-08-25T20:48:53.886886
+1994-2-divisjon-16-nordstrand-janitsjarkors,1994,2. divisjon,16,Nordstrand Janitsjarkors,Jørn Simenstad,,[],,[],82.0,100.0,http://njkweb.no/wordpress/wp-content/uploads/2015/01/cropped-njk-korpsbilde-calella-201411.jpg,,,,2025-08-25T20:48:53.886888
+1994-2-divisjon-17-jømna/heradsbygd-musikkforening,1994,2. divisjon,17,Jømna/Heradsbygd Musikkforening,Ørnulf Ring,,[],,[],81.0,100.0,,,,,2025-08-25T20:48:53.886890
+1994-2-divisjon-18-hommelvik-musikkorps,1994,2. divisjon,18,Hommelvik Musikkorps,Torstein Siegel,,[],,[],80.5,100.0,,,,,2025-08-25T20:48:53.886892
+1994-3-divisjon-01-åsnes-hornmusikk,1994,3. divisjon,1,Åsnes Hornmusikk,Geir Østby,,[],,[],93.0,100.0,,,,,2025-08-25T20:48:53.886894
+1994-3-divisjon-02-heimdal-musikkorps,1994,3. divisjon,2,Heimdal Musikkorps,Endre Ladehaug,,[],,[],92.5,100.0,https://nmbrass.no/nmjanitsjar/static/heimdalmusikkorps.jpg,,,,2025-08-25T20:48:53.886896
+1994-3-divisjon-03-drammen-konsertorkester,1994,3. divisjon,3,Drammen Konsertorkester,Odd Ulleberg,,[],,[],91.5,100.0,https://nmbrass.no/nmjanitsjar/static/drammenkonsertorkester.jpg,,,,2025-08-25T20:48:53.886898
+1994-3-divisjon-04-eidsvåg-musikklag,1994,3. divisjon,4,Eidsvåg Musikklag,Knut Emil Mjøs,,[],,[],90.0,100.0,,,,,2025-08-25T20:48:53.886900
+1994-3-divisjon-05-malvik-musikkorps,1994,3. divisjon,5,Malvik Musikkorps,Reidar Bye,,[],,[],88.5,100.0,,,,,2025-08-25T20:48:53.886902
+1994-3-divisjon-06-osterøy-janitsjar,1994,3. divisjon,6,Osterøy Janitsjar,John Brakstad,,[],,[],86.5,100.0,,,,,2025-08-25T20:48:53.886904
+1994-3-divisjon-07-bodø-janitsjar,1994,3. divisjon,7,Bodø Janitsjar,Odd André Brasetvik,,[],,[],85.0,100.0,,,,,2025-08-25T20:48:53.886906
+1994-3-divisjon-08-haugesund-ungdomskorps,1994,3. divisjon,8,Haugesund Ungdomskorps,Alf Reidar Nilsen,,[],,[],84.0,100.0,,,,,2025-08-25T20:48:53.886908
+1994-3-divisjon-09-slemmestad-ungdomskorps,1994,3. divisjon,9,Slemmestad Ungdomskorps,Geir Arne Haugsrud,,[],,[],81.0,100.0,,,,,2025-08-25T20:48:53.886910
+1994-3-divisjon-10-ellingsøy-hornmusikk,1994,3. divisjon,10,Ellingsøy Hornmusikk,Jarle Helgesen,,[],,[],80.5,100.0,,,,,2025-08-25T20:48:53.886912
+1994-3-divisjon-11-strindheim-janitsjar,1994,3. divisjon,11,Strindheim Janitsjar,Stein Jacobsen,,[],,[],80.0,100.0,https://nmbrass.no/nmjanitsjar/static/strindheimjanitsjar.jpg,,,,2025-08-25T20:48:53.886914
+1994-3-divisjon-12-byåsen-musikkorps,1994,3. divisjon,12,Byåsen Musikkorps,Eivind Rise,,[],,[],77.0,100.0,,,,,2025-08-25T20:48:53.886916
+1994-3-divisjon-13-dokka-musikkorps,1994,3. divisjon,13,Dokka Musikkorps,Torstein Kristiansen,,[],,[],76.0,100.0,,,,,2025-08-25T20:48:53.886918
+1994-3-divisjon-13-fiskerstrand-musikkorps,1994,3. divisjon,13,Fiskerstrand Musikkorps,Vebjørn Digernes,,[],,[],76.0,100.0,,,,,2025-08-25T20:48:53.886919
+1994-3-divisjon-15-hegra-hornmusikklag,1994,3. divisjon,15,Hegra Hornmusikklag,Jan Selbæk,,[],,[],75.0,100.0,,,,,2025-08-25T20:48:53.886921
+1994-3-divisjon-16-sotra-musikklag,1994,3. divisjon,16,Sotra Musikklag,Jon Henning Lien,,[],,[],72.0,100.0,,,,,2025-08-25T20:48:53.886923
+1994-3-divisjon-17-oppegård-janitsjar,1994,3. divisjon,17,Oppegård Janitsjar,Tor Olav Pettersen,,[],,[],71.0,100.0,,,,,2025-08-25T20:48:53.886925
+1994-3-divisjon-18-åsen-hornmusikklag,1994,3. divisjon,18,Åsen Hornmusikklag,Lars Erik Aalberg,,[],,[],70.0,100.0,,,,,2025-08-25T20:48:53.886927
