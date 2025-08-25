@@ -39,6 +39,7 @@ class PieceInfo:
     performance_count: int = 0
     win_rate: float = 0.0
     avg_points: Optional[float] = None
+    avg_place: Optional[float] = None  # Average placement (1st, 2nd, etc.)
     is_set_test_piece: bool = False  # Flag for mandatory pieces
 
 
@@ -112,6 +113,23 @@ class WindRepScraper:
         if cache_key in self.cache:
             return self.cache[cache_key]
         
+        # Special case mappings for known cross-language titles
+        special_cases = {
+            "El Jardin de Las Herspérides": "Garden of the Hesperides",
+            "Jardin de Las Herspérides": "Garden of the Hesperides",
+            "El Jardín de las Hespérides": "Garden of the Hesperides",
+            "Jardín de las Hespérides": "Garden of the Hesperides",
+        }
+        
+        # Check for special case first
+        if title in special_cases:
+            english_title = special_cases[title]
+            result = self._search_with_term(english_title, title, composer)
+            if result:
+                self.cache[cache_key] = result
+                self._save_cache()
+                return result
+        
         # Try multiple search strategies
         search_terms = self._generate_search_terms(title, composer)
         
@@ -148,7 +166,15 @@ class WindRepScraper:
             terms.append(f"{clean_title} {clean_composer}")
             terms.append(f"{clean_composer} {clean_title}")
         
-        # Strategy 3: First significant words only (for long titles)
+        # Strategy 3: Cross-language title variations
+        alternative_titles = self._generate_alternative_titles(title)
+        terms.extend(alternative_titles)
+        if composer:
+            for alt_title in alternative_titles:
+                terms.append(f"{alt_title} {clean_composer}")
+                terms.append(f"{clean_composer} {alt_title}")
+        
+        # Strategy 4: First significant words only (for long titles)
         title_words = clean_title.split()
         if len(title_words) > 3:
             short_title = ' '.join(title_words[:3])
@@ -156,12 +182,96 @@ class WindRepScraper:
             if composer:
                 terms.append(f"{short_title} {clean_composer}")
         
-        # Strategy 4: Remove common wind band suffixes/prefixes
+        # Strategy 5: Remove common wind band suffixes/prefixes
         simplified = re.sub(r'\b(suite|overture|march|fanfare|variations?)\b', '', clean_title, flags=re.IGNORECASE).strip()
         if simplified != clean_title and simplified:
             terms.append(simplified)
         
-        return terms
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_terms = []
+        for term in terms:
+            if term and term not in seen:
+                seen.add(term)
+                unique_terms.append(term)
+        
+        return unique_terms
+    
+    def _generate_alternative_titles(self, title: str) -> List[str]:
+        """Generate alternative titles for cross-language and variant matching."""
+        alternatives = []
+        title_lower = title.lower()
+        
+        # Spanish to English translations for common pieces (with proper capitalization for WindRep)
+        spanish_english = {
+            "el jardin de las hesperides": "Garden of the Hesperides",
+            "jardin de las hesperides": "Garden of the Hesperides",
+            "jardín de las hespérides": "Garden of the Hesperides",  # with accent
+            "el jardín de las hespérides": "Garden of the Hesperides",  # with accent
+            # Handle the typo in the database (Herspérides vs Hesperides)
+            "el jardin de las hersperides": "Garden of the Hesperides",
+            "jardin de las hersperides": "Garden of the Hesperides",
+            "el jardin de las herspérides": "Garden of the Hesperides",
+            "jardin de las herspérides": "Garden of the Hesperides",
+        }
+        
+        # English to Spanish translations 
+        english_spanish = {
+            "garden of the hesperides": "el jardin de las hesperides",
+            "garden of hesperides": "jardin de las hesperides",
+        }
+        
+        # Normalize title for lookup (remove accents, normalize case)
+        normalized_title = self._normalize_title(title_lower)
+        
+        # Try Spanish to English
+        if normalized_title in spanish_english:
+            alternatives.append(spanish_english[normalized_title])
+        
+        # Try English to Spanish  
+        if normalized_title in english_spanish:
+            alternatives.append(english_spanish[normalized_title])
+        
+        # Add variant with/without accents
+        if "é" in title or "í" in title or "ó" in title or "á" in title:
+            # Remove accents
+            no_accent = title.replace("é", "e").replace("í", "i").replace("ó", "o").replace("á", "a")
+            alternatives.append(no_accent)
+        else:
+            # Try adding common Spanish accents
+            with_accents = title.replace("hesperides", "hespérides").replace("jardin", "jardín")
+            if with_accents != title:
+                alternatives.append(with_accents)
+        
+        # Handle "Las" vs "las" capitalization
+        if "las hesperides" in title_lower:
+            alternatives.append(title.replace("las hesperides", "Las Hesperides"))
+            alternatives.append(title.replace("las hesperides", "las Hespérides"))
+        
+        # Common word order variations
+        if "garden of the hesperides" in title_lower:
+            alternatives.append("Garden of Hesperides")
+            alternatives.append("The Garden of the Hesperides")
+        
+        # Remove duplicates and clean
+        clean_alternatives = []
+        for alt in alternatives:
+            alt_clean = re.sub(r'[^\w\s-]', '', alt).strip()
+            if alt_clean and alt_clean != re.sub(r'[^\w\s-]', '', title).strip():
+                clean_alternatives.append(alt_clean)
+        
+        return clean_alternatives
+    
+    def _normalize_title(self, title: str) -> str:
+        """Normalize title for comparison by removing accents and extra spaces."""
+        # Remove accents
+        normalized = title.replace("é", "e").replace("í", "i").replace("ó", "o").replace("á", "a")
+        normalized = normalized.replace("ñ", "n").replace("ü", "u")
+        
+        # Normalize spacing and case
+        normalized = re.sub(r'\s+', ' ', normalized.strip().lower())
+        
+        return normalized
     
     def _search_with_term(self, search_term: str, original_title: str, composer: str = None) -> Optional[Dict]:
         """Search with a specific term."""
@@ -256,13 +366,20 @@ class WindRepScraper:
             if infobox:
                 info.update(self._parse_infobox(infobox))
             
+            # Extract from structured content (like "General Info" sections)
+            info.update(self._parse_structured_content(soup))
+            
+            # Look for composer info in meta tags and image captions
+            info.update(self._extract_composer_from_meta(soup))
+            
             # Look for other structured data (MediaWiki templates)
             content_text = soup.get_text()
             
             # Extract duration from various formats in the full content
-            duration = self._extract_duration(content_text)
-            if duration and not info.get("duration_minutes"):
-                info["duration_minutes"] = duration
+            if not info.get("duration_minutes"):
+                duration = self._extract_duration(content_text)
+                if duration:
+                    info["duration_minutes"] = duration
             
             # Look for grade/difficulty information in the content
             if not info.get("grade_level"):
@@ -271,13 +388,17 @@ class WindRepScraper:
                     info["grade_level"] = grade
                     info["difficulty"] = f"Grade {grade}"
             
-            # Look for composer info if not found in infobox
+            # Look for composer info if not found elsewhere
             if not info.get("composer"):
                 composer_match = re.search(r'(?:composer?|composed by|by)\s*:?\s*([^\n\r\.]+)', content_text, re.IGNORECASE)
                 if composer_match:
                     info["composer"] = composer_match.group(1).strip()
             
-            # Look for category/genre info
+            # Look for category/genre info in categories
+            if not info.get("category"):
+                info.update(self._extract_category_from_meta(soup))
+            
+            # Fallback category extraction from text
             if not info.get("category"):
                 category_patterns = [
                     r'(?:category|genre|type)\s*:?\s*([^\n\r\.]+)',
@@ -376,6 +497,110 @@ class WindRepScraper:
                     return float(match)
         
         return None
+    
+    def _parse_structured_content(self, soup) -> Dict:
+        """Parse structured content like 'General Info' sections."""
+        info = {}
+        
+        # Look for content with structured data like "Duration: 20:00"
+        content_text = soup.get_text()
+        
+        # Extract duration from structured format like "Duration: c. 20:00"
+        duration_patterns = [
+            r'Duration:\s*c?\.?\s*(\d{1,2}):(\d{2})',  # "Duration: c. 20:00"
+            r'Duration:\s*c?\.?\s*(\d+)\s*(?:min|minutes?)',  # "Duration: 20 minutes"
+        ]
+        
+        for pattern in duration_patterns:
+            match = re.search(pattern, content_text, re.IGNORECASE)
+            if match:
+                if len(match.groups()) == 2:  # MM:SS format
+                    minutes = int(match.group(1))
+                    seconds = int(match.group(2))
+                    info['duration_minutes'] = minutes + seconds / 60
+                elif len(match.groups()) == 1:  # Just minutes
+                    info['duration_minutes'] = float(match.group(1))
+                break
+        
+        # Extract difficulty/grade from structured format like "Difficulty: VI"
+        difficulty_patterns = [
+            r'Difficulty:\s*(VI|V|IV|III|II|I|[1-7])',  # "Difficulty: VI" or "Difficulty: 6"
+        ]
+        
+        for pattern in difficulty_patterns:
+            match = re.search(pattern, content_text, re.IGNORECASE)
+            if match:
+                difficulty_str = match.group(1).upper()
+                grade_level = self._extract_grade_level(difficulty_str)
+                if grade_level:
+                    info['grade_level'] = grade_level
+                    info['difficulty'] = f"Grade {grade_level}"
+                break
+        
+        return info
+    
+    def _extract_composer_from_meta(self, soup) -> Dict:
+        """Extract composer from meta tags and image captions."""
+        info = {}
+        
+        # Try meta description first (most reliable)
+        meta_desc = soup.find('meta', attrs={'name': 'description'})
+        if meta_desc and meta_desc.get('content'):
+            composer_name = meta_desc['content'].strip()
+            # Check if it looks like a composer name (not too short, not too long, no navigation words)
+            if (composer_name and len(composer_name) > 3 and len(composer_name) < 100 and
+                'Categories' not in composer_name and 'Random' not in composer_name):
+                info['composer'] = composer_name
+                return info
+        
+        # Try composer links
+        composer_links = soup.find_all('a', href=re.compile(r'^/[A-Z][a-z]+_[A-Z][a-z]+'))
+        for link in composer_links:
+            link_text = link.get_text().strip()
+            # Look for links that seem like composer names (FirstName_LastName pattern)
+            if (len(link_text) > 3 and len(link_text) < 100 and 
+                ' ' in link_text and link_text.count(' ') <= 3 and
+                'Categories' not in link_text and 'Page' not in link_text):
+                info['composer'] = link_text
+                return info
+        
+        # Try image captions (thumb captions often contain composer names)
+        thumbcaptions = soup.find_all('div', class_='thumbcaption')
+        for caption in thumbcaptions:
+            # Get text but skip the magnify link
+            magnify_link = caption.find('div', class_='magnify')
+            if magnify_link:
+                magnify_link.extract()  # Remove it temporarily
+            
+            caption_text = caption.get_text().strip()
+            
+            # Skip common navigation text and look for reasonable composer names
+            navigation_words = ['All Categories', 'Random Page', 'Recent Changes', 'Enlarge']
+            if (caption_text and len(caption_text) > 3 and len(caption_text) < 100 and
+                not any(nav_word in caption_text for nav_word in navigation_words) and
+                ' ' in caption_text and caption_text.count(' ') <= 3):
+                info['composer'] = caption_text
+                break
+        
+        return info
+    
+    def _extract_category_from_meta(self, soup) -> Dict:
+        """Extract category from MediaWiki categories."""
+        info = {}
+        
+        # Look for category links
+        category_links = soup.find_all('a', href=re.compile(r'/Category:'))
+        for link in category_links:
+            category_text = link.get_text().strip()
+            # Skip common categories, look for musical genres
+            skip_categories = ['Compositions', 'Grade', 'Award Winners', 'Multi-Movement']
+            if (not any(skip in category_text for skip in skip_categories) and
+                any(genre in category_text.lower() for genre in 
+                    ['march', 'overture', 'suite', 'symphony', 'concerto', 'variations', 'fanfare', 'rhapsody'])):
+                info['category'] = category_text
+                break
+        
+        return info
 
 
 class PieceAnalyzer:
@@ -428,6 +653,8 @@ class PieceAnalyzer:
             "wins": 0,
             "total_points": 0,
             "point_count": 0,
+            "total_place": 0,
+            "place_count": 0,
             "divisions": set(),
             "years": set()
         })
@@ -462,6 +689,10 @@ class PieceAnalyzer:
                     if points is not None:
                         stats["total_points"] += points
                         stats["point_count"] += 1
+                    # Track placement (rank) for average calculation
+                    if rank and rank > 0:  # Valid rank (positive integer)
+                        stats["total_place"] += rank
+                        stats["place_count"] += 1
                     stats["divisions"].add(division)
                     stats["years"].add(year)
         
@@ -473,13 +704,15 @@ class PieceAnalyzer:
             
             win_rate = (stats["wins"] / stats["performances"]) * 100 if stats["performances"] > 0 else 0
             avg_points = stats["total_points"] / stats["point_count"] if stats["point_count"] > 0 else None
+            avg_place = stats["total_place"] / stats["place_count"] if stats["place_count"] > 0 else None
             
             piece_info = PieceInfo(
                 title=title,
                 composer=composer,
                 performance_count=stats["performances"],
                 win_rate=win_rate,
-                avg_points=avg_points
+                avg_points=avg_points,
+                avg_place=avg_place
             )
             
             piece_infos[piece_key] = piece_info
@@ -487,8 +720,8 @@ class PieceAnalyzer:
         console.print(f"✓ Analyzed {len(piece_infos)} unique pieces")
         return piece_infos
     
-    def get_most_popular_pieces(self, min_performances: int = 3) -> List[PieceInfo]:
-        """Get most popular pieces by performance count."""
+    def get_most_popular_pieces(self, min_performances: int = 2) -> List[PieceInfo]:
+        """Get pieces sorted by performance count."""
         pieces = self.analyze_piece_popularity()
         
         # Filter and sort
@@ -498,6 +731,42 @@ class PieceAnalyzer:
         ]
         
         return sorted(popular_pieces, key=lambda p: p.performance_count, reverse=True)
+    
+    def get_pieces_sorted_by(self, sort_by: str = "performances", min_performances: int = 2, reverse: bool = True) -> List[PieceInfo]:
+        """
+        Get pieces sorted by specified criteria.
+        
+        Args:
+            sort_by: Field to sort by ("performances", "win_rate", "avg_points")
+            min_performances: Minimum performances to include
+            reverse: Sort in descending order if True
+            
+        Returns:
+            List of sorted PieceInfo objects
+        """
+        pieces = self.analyze_piece_popularity()
+        
+        # Filter pieces
+        filtered_pieces = [
+            piece for piece in pieces.values() 
+            if piece.performance_count >= min_performances
+        ]
+        
+        # Define sort keys
+        sort_keys = {
+            "performances": lambda p: p.performance_count,
+            "win_rate": lambda p: p.win_rate,
+            "avg_points": lambda p: p.avg_points if p.avg_points is not None else 0,
+            "avg_place": lambda p: p.avg_place if p.avg_place is not None else float('inf'),  # Lower is better for placement
+            "title": lambda p: p.title.lower(),
+            "composer": lambda p: p.composer.lower()
+        }
+        
+        if sort_by not in sort_keys:
+            console.print(f"[red]Invalid sort option: {sort_by}. Available: {', '.join(sort_keys.keys())}[/red]")
+            sort_by = "performances"
+        
+        return sorted(filtered_pieces, key=sort_keys[sort_by], reverse=reverse)
     
     def get_highest_success_pieces(self, min_performances: int = 2) -> List[PieceInfo]:
         """Get pieces with highest win rates."""
@@ -658,77 +927,91 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(description="Analyze musical piece popularity and success rates")
-    parser.add_argument("--popular", type=int, default=20, help="Show top N popular pieces")
-    parser.add_argument("--successful", type=int, default=20, help="Show top N successful pieces")
+    parser.add_argument("--show", type=int, default=20, help="Number of pieces to show")
+    parser.add_argument("--sort-by", choices=["performances", "win_rate", "avg_points", "avg_place", "title", "composer"], 
+                       default="performances", help="Sort pieces by this field")
+    parser.add_argument("--ascending", action="store_true", help="Sort in ascending order (default: descending)")
     parser.add_argument("--min-performances", type=int, default=2, help="Minimum performances to include")
-    parser.add_argument("--enrich-windrep", action="store_true", help="Enrich data with WindRep.org")
-    parser.add_argument("--max-enrich", type=int, default=20, help="Max pieces to enrich with WindRep")
+    parser.add_argument("--no-windrep", action="store_true", help="Skip WindRep.org enrichment (default: auto-enrich)")
+    parser.add_argument("--max-enrich", type=int, default=50, help="Max pieces to enrich with WindRep (default: 50)")
+    
+    # Legacy compatibility
+    parser.add_argument("--popular", type=int, help="Show top N popular pieces (legacy, use --show --sort-by performances)")
+    parser.add_argument("--successful", type=int, help="Show top N successful pieces (legacy, use --show --sort-by win_rate)")
+    
+    # Keep enrich-windrep as hidden legacy option (ignored, since enrichment is now default)
+    parser.add_argument("--enrich-windrep", action="store_true", help=argparse.SUPPRESS)
     
     args = parser.parse_args()
     
     analyzer = PieceAnalyzer()
     
+    # Handle legacy options
     if args.popular:
-        console.print(f"\n[bold]🎵 Top {args.popular} Most Popular Pieces[/bold]")
-        popular = analyzer.get_most_popular_pieces(args.min_performances)
-        
-        if args.enrich_windrep:
-            popular = analyzer.enrich_with_windrep_data(popular, args.max_enrich)
-        
-        table = Table()
-        table.add_column("Rank", style="cyan")
-        table.add_column("Piece", style="green")
-        table.add_column("Composer", style="blue")
-        table.add_column("Performances", style="magenta")
-        table.add_column("Win Rate %", style="red")
-        table.add_column("Avg Points", style="yellow")
-        if args.enrich_windrep:
-            table.add_column("Duration", style="cyan")
-            table.add_column("Grade", style="bright_red")
-        
-        for i, piece in enumerate(popular[:args.popular], 1):
-            duration_str = f"{piece.duration_minutes:.1f}min" if piece.duration_minutes else "Unknown"
-            grade_str = f"Grade {piece.grade_level}" if piece.grade_level else "Unknown"
-            row = [
-                str(i),
-                piece.title[:40] + "..." if len(piece.title) > 40 else piece.title,
-                piece.composer[:30] + "..." if len(piece.composer) > 30 else piece.composer,
-                str(piece.performance_count),
-                f"{piece.win_rate:.1f}%",
-                f"{piece.avg_points:.1f}" if piece.avg_points else "N/A"
-            ]
-            
-            if args.enrich_windrep:
-                row.append(duration_str)
-                row.append(grade_str)
-            
-            table.add_row(*row)
-        
-        console.print(table)
-    
+        args.show = args.popular
+        args.sort_by = "performances"
     if args.successful:
-        console.print(f"\n[bold]🏆 Top {args.successful} Most Successful Pieces[/bold]")
-        successful = analyzer.get_highest_success_pieces(args.min_performances)
+        args.show = args.successful
+        args.sort_by = "win_rate"
+    
+    # Get pieces sorted by specified criteria
+    pieces = analyzer.get_pieces_sorted_by(
+        sort_by=args.sort_by,
+        min_performances=args.min_performances,
+        reverse=not args.ascending
+    )
+    
+    # Enrich with WindRep data by default (unless explicitly disabled)
+    if not args.no_windrep:
+        pieces = analyzer.enrich_with_windrep_data(pieces, args.max_enrich)
+    
+    # Display results
+    sort_name_map = {
+        "performances": "Most Popular",
+        "win_rate": "Most Successful",
+        "avg_points": "Highest Scoring",
+        "avg_place": "Best Average Placement",
+        "title": "Alphabetical by Title",
+        "composer": "Alphabetical by Composer"
+    }
+    
+    order = "(Ascending)" if args.ascending else "(Descending)"
+    sort_display = sort_name_map.get(args.sort_by, args.sort_by.title())
+    
+    console.print(f"\n[bold]🎵 Top {args.show} {sort_display} Pieces {order}[/bold]")
+    
+    # Create table - always include Duration and Grade columns
+    table = Table()
+    table.add_column("Rank", style="cyan")
+    table.add_column("Piece", style="green")
+    table.add_column("Composer", style="blue")
+    table.add_column("Performances", style="magenta")
+    table.add_column("Win Rate %", style="red")
+    table.add_column("Avg Points", style="yellow")
+    table.add_column("Avg Place", style="bright_green")
+    table.add_column("Duration", style="cyan")
+    table.add_column("Grade", style="bright_red")
+    
+    # Add rows - always include duration and grade info
+    for i, piece in enumerate(pieces[:args.show], 1):
+        duration_str = f"{piece.duration_minutes:.1f}min" if piece.duration_minutes else "Unknown"
+        grade_str = f"Grade {piece.grade_level}" if piece.grade_level else "Unknown"
+        avg_place_str = f"{piece.avg_place:.1f}" if piece.avg_place else "N/A"
+        row = [
+            str(i),
+            piece.title[:40] + "..." if len(piece.title) > 40 else piece.title,
+            piece.composer[:30] + "..." if len(piece.composer) > 30 else piece.composer,
+            str(piece.performance_count),
+            f"{piece.win_rate:.1f}%",
+            f"{piece.avg_points:.1f}" if piece.avg_points else "N/A",
+            avg_place_str,
+            duration_str,
+            grade_str
+        ]
         
-        table = Table()
-        table.add_column("Rank", style="cyan")
-        table.add_column("Piece", style="green")
-        table.add_column("Composer", style="blue")
-        table.add_column("Win Rate %", style="red")
-        table.add_column("Performances", style="magenta")
-        table.add_column("Avg Points", style="yellow")
-        
-        for i, piece in enumerate(successful[:args.successful], 1):
-            table.add_row(
-                str(i),
-                piece.title[:40] + "..." if len(piece.title) > 40 else piece.title,
-                piece.composer[:30] + "..." if len(piece.composer) > 30 else piece.composer,
-                f"{piece.win_rate:.1f}%",
-                str(piece.performance_count),
-                f"{piece.avg_points:.1f}" if piece.avg_points else "N/A"
-            )
-        
-        console.print(table)
+        table.add_row(*row)
+    
+    console.print(table)
 
 
 if __name__ == "__main__":
