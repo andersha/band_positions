@@ -1,0 +1,599 @@
+<script lang="ts">
+  import { onDestroy, onMount, afterUpdate } from 'svelte';
+  import { scaleLinear, scalePoint, line, curveMonotoneX, ticks } from 'd3';
+  import type { BandEntry, BandRecord } from './types';
+
+  export let bands: BandRecord[] = [];
+  export let years: number[] = [];
+  export let maxFieldSize = 0;
+
+  const margin = { top: 24, right: 48, bottom: 48, left: 72 };
+  const width = 880;
+  const height = 360;
+
+  const divisionColors: Record<string, string> = {
+    Elite: '#38bdf8',
+    '1. divisjon': '#f97316',
+    '2. divisjon': '#a855f7',
+    '3. divisjon': '#facc15',
+    '4. divisjon': '#22c55e',
+    '5. divisjon': '#ec4899',
+    '6. divisjon': '#14b8a6',
+    '7. divisjon': '#eab308'
+  };
+
+  const LINE_COLORS = ['#38bdf8', '#f97316', '#22c55e', '#a855f7', '#f43f5e', '#facc15', '#14b8a6'];
+  const SHAPE_SEQUENCE: MarkerShape[] = ['circle', 'square', 'triangle'];
+  const SHAPE_SIZE = 6;
+  const CONDUCTOR_LANES = 3;
+  const LANE_HEIGHT = 18;
+  const LABEL_OFFSET_ABOVE = 18;
+  const LABEL_OFFSET_BELOW = 22;
+  const MIN_LABEL_TOP = margin.top + 6;
+  const MAX_LABEL_BOTTOM = height - margin.bottom - 12;
+  const YEAR_AXIS_PADDING = 10;
+  const ESTIMATED_CHARACTER_WIDTH = 6;
+
+  type MarkerShape = 'circle' | 'square' | 'triangle';
+  type ChartEntry = BandEntry & { pieces: string[] };
+  interface ConductorChange {
+    year: number;
+    conductor: string;
+    lane: number;
+  }
+  interface BandSeries {
+    band: BandRecord;
+    entries: ChartEntry[];
+    color: string;
+    shape: MarkerShape;
+    timeline: (ChartEntry | null)[];
+    pathData?: string;
+    conductorChanges: ConductorChange[];
+  }
+
+  let svgElement: SVGSVGElement | null = null;
+  let labelGeometry = { offsetX: 0, scaleX: 1, offsetY: 0, scaleY: 1 };
+  let resizeObserver: ResizeObserver | null = null;
+  let observedElement: SVGSVGElement | null = null;
+
+  let hoveredPoint: { entry: ChartEntry; bandName: string; lineColor: string } | null = null;
+  let tooltipX = 0;
+  let tooltipY = 0;
+
+  const showConductorLabels = () => bands.length === 1;
+
+  function normalizeEntries(entries: BandEntry[]): ChartEntry[] {
+    return entries.map((entry) => {
+      const rawPieces = (entry as BandEntry & { pieces?: unknown }).pieces ?? entry.pieces;
+      const pieces = Array.isArray(rawPieces)
+        ? rawPieces.map((piece) => `${piece}`.trim()).filter(Boolean)
+        : rawPieces != null && `${rawPieces}`.trim().length
+          ? [`${rawPieces}`.trim()]
+          : [];
+
+      return { ...entry, pieces };
+    });
+  }
+
+  function computeConductorChanges(entries: ChartEntry[]): ConductorChange[] {
+    const markers: ConductorChange[] = [];
+    let laneIndex = 0;
+    if (entries.length > 0) {
+      const first = entries[0];
+      if (first.conductor) {
+        const lane = laneIndex % CONDUCTOR_LANES;
+        markers.push({ year: first.year, conductor: first.conductor, lane });
+        laneIndex += 1;
+      }
+    }
+
+    for (let index = 1; index < entries.length; index += 1) {
+      const prev = entries[index - 1];
+      const current = entries[index];
+      if (prev.conductor && current.conductor && prev.conductor !== current.conductor) {
+        const lane = laneIndex % CONDUCTOR_LANES;
+        markers.push({ year: current.year, conductor: current.conductor, lane });
+        laneIndex += 1;
+      }
+    }
+
+    return markers;
+  }
+
+  function updateLabelGeometry() {
+    if (!svgElement) return;
+    const svgRect = svgElement.getBoundingClientRect();
+    const container = svgElement.parentElement;
+    if (!container) return;
+    const containerRect = container.getBoundingClientRect();
+    if (svgRect.width === 0 || svgRect.height === 0) return;
+
+    labelGeometry = {
+      offsetX: svgRect.left - containerRect.left,
+      scaleX: svgRect.width / width,
+      offsetY: svgRect.top - containerRect.top,
+      scaleY: svgRect.height / height
+    };
+  }
+
+  function ensureObserved() {
+    if (!resizeObserver || !svgElement) return;
+    if (observedElement === svgElement) return;
+    if (observedElement) {
+      resizeObserver.unobserve(observedElement);
+    }
+    resizeObserver.observe(svgElement);
+    observedElement = svgElement;
+  }
+
+  onMount(() => {
+    if (typeof ResizeObserver !== 'undefined') {
+      resizeObserver = new ResizeObserver(() => updateLabelGeometry());
+    }
+    ensureObserved();
+    updateLabelGeometry();
+    window.addEventListener('resize', updateLabelGeometry);
+  });
+
+  afterUpdate(() => {
+    ensureObserved();
+    updateLabelGeometry();
+  });
+
+  onDestroy(() => {
+    resizeObserver?.disconnect();
+    window.removeEventListener('resize', updateLabelGeometry);
+  });
+
+  function getConductorLabelProps(change: ConductorChange) {
+    const scale = xScale;
+    if (!scale) {
+      return { anchor: 'middle', dx: 0 } as const;
+    }
+
+    const xPosition = scale(change.year) ?? margin.left;
+    const estimatedWidth = (change.conductor?.length ?? 0) * ESTIMATED_CHARACTER_WIDTH;
+    const halfWidth = estimatedWidth / 2;
+    const chartRight = width - margin.right;
+
+    if (xPosition + halfWidth > chartRight) {
+      return { anchor: 'end', dx: -8 } as const;
+    }
+    if (xPosition - halfWidth < margin.left) {
+      return { anchor: 'start', dx: 8 } as const;
+    }
+    return { anchor: 'middle', dx: 0 } as const;
+  }
+
+  function getConductorLabelY(entries: ChartEntry[], change: ConductorChange) {
+    const entry = entries.find((item) => item.year === change.year);
+    if (!entry) {
+      return margin.top - 8 + change.lane * LANE_HEIGHT;
+    }
+
+    const dotY = yScale(entry.absolute_position);
+
+    const neighbours = entries
+      .filter((item) => item.year >= change.year - 1 && item.year <= change.year + 1)
+      .map((item) => ({ year: item.year, y: yScale(item.absolute_position) }))
+      .sort((a, b) => a.year - b.year);
+
+    const localIndex = neighbours.findIndex((row) => row.year === change.year);
+
+    let placeAbove = true;
+    if (localIndex > 0 && localIndex < neighbours.length - 1) {
+      const prev = neighbours[localIndex - 1];
+      const next = neighbours[localIndex + 1];
+      const aboveSpacePrev = Math.abs(dotY - prev.y);
+      const aboveSpaceNext = Math.abs(dotY - next.y);
+      if (aboveSpacePrev < LABEL_OFFSET_ABOVE + 4 || aboveSpaceNext < LABEL_OFFSET_ABOVE + 4) {
+        placeAbove = false;
+      }
+    }
+
+    const aboveOffset = LABEL_OFFSET_ABOVE + change.lane * (LANE_HEIGHT / 2);
+    const candidateAbove = dotY - aboveOffset;
+    if (placeAbove && candidateAbove > MIN_LABEL_TOP) {
+      return candidateAbove;
+    }
+
+    const laneDepth = change.lane / CONDUCTOR_LANES;
+    const belowOffset = LABEL_OFFSET_BELOW + change.lane * (LANE_HEIGHT / 2) + laneDepth * 24;
+    return Math.min(dotY + belowOffset, MAX_LABEL_BOTTOM);
+  }
+
+  function getTrianglePath(cx: number, cy: number, size: number): string {
+    return `M ${cx} ${cy - size} L ${cx + size} ${cy + size} L ${cx - size} ${cy + size} Z`;
+  }
+
+  let normalizedBands: { band: BandRecord; entries: ChartEntry[] }[] = [];
+  $: normalizedBands = bands.map((band) => ({ band, entries: normalizeEntries(band.entries) }));
+
+  let allEntries: ChartEntry[] = [];
+  $: allEntries = normalizedBands.flatMap((item) => item.entries);
+
+  let yearsDomain: number[] = [];
+  $: yearsDomain = (() => {
+    if (years.length) return years;
+    if (!allEntries.length) return [0];
+    return Array.from(new Set(allEntries.map((entry) => entry.year))).sort((a, b) => a - b);
+  })();
+
+  let xScale = scalePoint<number>().domain([0]).range([margin.left, width - margin.right]);
+  $: xScale = scalePoint<number>().domain(yearsDomain).range([margin.left, width - margin.right]);
+
+  let chartMaxField = 1;
+  $: chartMaxField = maxFieldSize || (allEntries.length ? Math.max(...allEntries.map((entry) => entry.field_size)) : 1);
+
+  let yScale = scaleLinear().domain([chartMaxField + 1, 0]).range([height - margin.bottom, margin.top]);
+  $: yScale = scaleLinear().domain([chartMaxField + 1, 0]).range([height - margin.bottom, margin.top]);
+
+  let series: BandSeries[] = [];
+  $: series = normalizedBands.map((item, index) => {
+    const sortedEntries = [...item.entries].sort((a, b) => a.year - b.year);
+    const timeline = yearsDomain.map((year) => sortedEntries.find((entry) => entry.year === year) ?? null);
+    const pathGenerator = line<ChartEntry | null>()
+      .defined((value): value is ChartEntry => value !== null)
+      .x((entry) => xScale(entry.year) ?? margin.left)
+      .y((entry) => yScale(entry.absolute_position))
+      .curve(curveMonotoneX);
+
+    const pathData = pathGenerator(timeline) ?? undefined;
+    const conductorChanges = showConductorLabels() ? computeConductorChanges(sortedEntries) : [];
+
+    return {
+      band: item.band,
+      entries: sortedEntries,
+      timeline,
+      pathData,
+      conductorChanges,
+      color: LINE_COLORS[index % LINE_COLORS.length],
+      shape: SHAPE_SEQUENCE[index % SHAPE_SEQUENCE.length]
+    } satisfies BandSeries;
+  });
+
+  let conductorLabels: (ConductorChange & { anchor: 'start' | 'middle' | 'end'; dx: number; y: number })[] = [];
+  $: conductorLabels = showConductorLabels() && series.length
+    ? series[0].conductorChanges.map((change) => ({
+        ...change,
+        ...getConductorLabelProps(change),
+        y: getConductorLabelY(series[0].entries, change)
+      }))
+    : [];
+
+  let yTicks: number[] = [];
+  $: yTicks = Array.from(new Set(ticks(1, chartMaxField, 6).map((tick) => Math.round(tick))))
+    .filter((tick) => tick >= 1)
+    .sort((a, b) => a - b);
+  $: if (!yTicks.includes(1)) {
+    yTicks = [1, ...yTicks];
+  }
+
+  let participatingYears: Set<number> = new Set();
+  $: participatingYears = new Set(allEntries.map((entry) => entry.year));
+
+  let labelStep = 1;
+  $: labelStep = yearsDomain.length > 30 ? 5 : yearsDomain.length > 18 ? 3 : 1;
+
+  let yearLabels = yearsDomain;
+  $: yearLabels = yearsDomain.filter((year, index) => index === 0 || index === yearsDomain.length - 1 || year % labelStep === 0);
+
+  let yearLabelPositions: { year: number; x: number; inactive: boolean }[] = [];
+  $: yearLabelPositions = yearLabels.map((year) => {
+    const baseX = xScale(year) ?? margin.left;
+    const x = labelGeometry.offsetX + baseX * labelGeometry.scaleX;
+    return {
+      year,
+      x,
+      inactive: !participatingYears.has(year)
+    };
+  });
+
+  let yearAxisY = height;
+  $: yearAxisY = labelGeometry.offsetY + (height - margin.bottom) * labelGeometry.scaleY + YEAR_AXIS_PADDING;
+
+  let legendDivisions: string[] = [];
+  $: legendDivisions = Array.from(new Set(allEntries.map((entry) => entry.division)));
+
+  const showDivisionLegend = () => legendDivisions.length > 0;
+
+  function showTooltip(event: MouseEvent | FocusEvent, entry: ChartEntry, bandName: string, lineColor: string) {
+    const target = event.currentTarget as SVGElement;
+    const svg = target.ownerSVGElement;
+    if (!svg) return;
+    const rect = svg.getBoundingClientRect();
+    if (event instanceof MouseEvent) {
+      tooltipX = event.clientX - rect.left;
+      tooltipY = event.clientY - rect.top;
+    } else {
+      const elementRect = target.getBoundingClientRect();
+      tooltipX = elementRect.left + elementRect.width / 2 - rect.left;
+      tooltipY = elementRect.top + elementRect.height / 2 - rect.top;
+    }
+    hoveredPoint = { entry, bandName, lineColor };
+  }
+
+  function hideTooltip() {
+    hoveredPoint = null;
+  }
+</script>
+
+<div class="chart-canvas">
+  <svg
+    bind:this={svgElement}
+    viewBox={`0 0 ${width} ${height}`}
+    role="img"
+    aria-label="Band placement over tid"
+  >
+    <defs>
+      <linearGradient id="trajectory" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#2563eb" stop-opacity="0.35" />
+      </linearGradient>
+    </defs>
+
+    <g class="grid">
+      {#each yTicks as tick}
+        <line
+          x1={margin.left}
+          x2={width - margin.right}
+          y1={yScale(tick)}
+          y2={yScale(tick)}
+          stroke="rgba(148, 163, 184, 0.25)"
+          stroke-width="1"
+        />
+        <text
+          x={margin.left - 12}
+          y={yScale(tick) + 4}
+          text-anchor="end"
+          font-size="12"
+          fill="rgba(226, 232, 240, 0.7)"
+        >
+          #{tick}
+        </text>
+      {/each}
+    </g>
+
+    {#each series as seriesData}
+      {#if seriesData.pathData}
+        <path d={seriesData.pathData} fill="none" stroke={seriesData.color} stroke-width="3" stroke-opacity="0.85" />
+      {/if}
+    {/each}
+
+    {#if showConductorLabels()}
+      {#each conductorLabels as change}
+        {#if xScale(change.year) !== undefined}
+          {#key `${change.year}-${change.conductor}`}
+            <g class="conductor-change" aria-hidden="true">
+              <line
+                x1={xScale(change.year)}
+                x2={xScale(change.year)}
+                y1={margin.top}
+                y2={height - margin.bottom}
+                stroke="rgba(248, 250, 252, 0.35)"
+                stroke-dasharray="4 8"
+                stroke-width="1.5"
+              />
+              <text
+                x={xScale(change.year)}
+                y={change.y}
+                text-anchor={change.anchor}
+                dx={change.dx}
+                font-size="11"
+                fill="rgba(226, 232, 240, 0.75)"
+              >
+                {change.conductor}
+              </text>
+            </g>
+          {/key}
+        {/if}
+      {/each}
+    {/if}
+
+    {#each series as seriesData}
+      {#each seriesData.entries as entry (entry.year)}
+        {#if xScale(entry.year) !== undefined}
+          {@const cx = xScale(entry.year) ?? margin.left}
+          {@const cy = yScale(entry.absolute_position)}
+          <g>
+            {#if seriesData.shape === 'circle'}
+              <circle
+                cx={cx}
+                cy={cy}
+                r={SHAPE_SIZE}
+                fill={divisionColors[entry.division] ?? '#f8fafc'}
+                stroke={seriesData.color}
+                stroke-width="1.5"
+                role="button"
+                tabindex="0"
+                aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
+                on:mouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
+                on:mouseleave={hideTooltip}
+                on:focus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
+                on:blur={hideTooltip}
+              />
+            {:else if seriesData.shape === 'square'}
+              <rect
+                x={cx - SHAPE_SIZE}
+                y={cy - SHAPE_SIZE}
+                width={SHAPE_SIZE * 2}
+                height={SHAPE_SIZE * 2}
+                rx="2"
+                fill={divisionColors[entry.division] ?? '#f8fafc'}
+                stroke={seriesData.color}
+                stroke-width="1.5"
+                role="button"
+                tabindex="0"
+                aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
+                on:mouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
+                on:mouseleave={hideTooltip}
+                on:focus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
+                on:blur={hideTooltip}
+              />
+            {:else}
+              <path
+                d={getTrianglePath(cx, cy, SHAPE_SIZE)}
+                fill={divisionColors[entry.division] ?? '#f8fafc'}
+                stroke={seriesData.color}
+                stroke-width="1.5"
+                role="button"
+                tabindex="0"
+                aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
+                on:mouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
+                on:mouseleave={hideTooltip}
+                on:focus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
+                on:blur={hideTooltip}
+              />
+            {/if}
+          </g>
+        {/if}
+      {/each}
+    {/each}
+  </svg>
+
+  {#if hoveredPoint}
+    <div class="tooltip" style={`left: ${tooltipX}px; top: ${tooltipY}px`}>
+      <strong>{hoveredPoint.entry.year} · {hoveredPoint.bandName}</strong>
+      <div>{hoveredPoint.entry.division} · #{hoveredPoint.entry.rank}</div>
+      {#if hoveredPoint.entry.conductor}
+        <div>Dirigent: {hoveredPoint.entry.conductor}</div>
+      {/if}
+      <div>Absolutt plassering: #{hoveredPoint.entry.absolute_position}</div>
+      <div>Deltakere: {hoveredPoint.entry.division_size} / {hoveredPoint.entry.field_size}</div>
+      {#if hoveredPoint.entry.points !== null}
+        <div>Poeng: {hoveredPoint.entry.points} / {hoveredPoint.entry.max_points}</div>
+      {/if}
+      {#if hoveredPoint.entry.pieces.length > 0}
+        <div>Stykker: {hoveredPoint.entry.pieces.join('; ')}</div>
+      {/if}
+    </div>
+  {/if}
+
+  <div class="year-labels" style={`top: ${yearAxisY}px`}>
+    {#each yearLabelPositions as label}
+      <span
+        class:inactive={label.inactive}
+        style={`left: ${label.x}px`}
+      >
+        {label.year}
+      </span>
+    {/each}
+  </div>
+</div>
+
+{#if series.length > 0}
+  <div class="band-legend">
+    {#each series as item}
+      <span>
+        <svg width="42" height="14" aria-hidden="true">
+          <line x1="2" y1="7" x2="40" y2="7" stroke={item.color} stroke-width="2.5" stroke-linecap="round" />
+          {#if item.shape === 'circle'}
+            <circle cx="21" cy="7" r="5" fill="#0f172a" stroke={item.color} stroke-width="2" />
+          {:else if item.shape === 'square'}
+            <rect x="16" y="2" width="10" height="10" rx="2" fill="#0f172a" stroke={item.color} stroke-width="2" />
+          {:else}
+            <path d={getTrianglePath(21, 7, 6)} fill="#0f172a" stroke={item.color} stroke-width="2" />
+          {/if}
+        </svg>
+        {item.band.name}
+      </span>
+    {/each}
+  </div>
+{/if}
+
+{#if showDivisionLegend()}
+  <div class="legend">
+    {#each legendDivisions as division}
+      <span>
+        <i style={`background-color: ${divisionColors[division] ?? '#94a3b8'}`}></i>
+        {division}
+      </span>
+    {/each}
+  </div>
+{/if}
+
+<style>
+  .tooltip {
+    position: absolute;
+    pointer-events: none;
+    white-space: nowrap;
+    padding: 0.5rem 0.75rem;
+    background: rgba(15, 23, 42, 0.9);
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    border-radius: 0.5rem;
+    color: #e2e8f0;
+    font-size: 0.85rem;
+    transform: translate(-50%, calc(-100% - 12px));
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.4);
+  }
+
+  .chart-canvas {
+    position: relative;
+    padding-bottom: 12px;
+  }
+
+  .year-labels {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-size: 0.75rem;
+    color: rgba(226, 232, 240, 0.6);
+    pointer-events: none;
+  }
+
+  .year-labels span {
+    position: absolute;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+
+  .inactive {
+    opacity: 0.35;
+  }
+
+  .conductor-change text {
+    transform: translateY(-4px);
+  }
+
+  .band-legend {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: rgba(226, 232, 240, 0.8);
+  }
+
+  .band-legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .band-legend svg {
+    display: block;
+  }
+
+  .legend {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.8rem;
+    color: rgba(226, 232, 240, 0.6);
+  }
+
+  .legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .legend i {
+    display: inline-block;
+    width: 1rem;
+    height: 0.35rem;
+    border-radius: 999px;
+  }
+</style>
