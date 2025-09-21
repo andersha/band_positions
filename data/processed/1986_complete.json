@@ -14,8 +14,11 @@
       "rank": 1,
       "orchestra": "Os Musikkforening",
       "conductor": "Karl Ole Midtbø",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fanfare, Ballad and Jubilee; Delta Dances for Wind Band (plikt)",
+      "pieces_list": [
+        "Fanfare, Ballad and Jubilee",
+        "Delta Dances for Wind Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.7,
@@ -24,7 +27,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847112"
+      "scraped_at": "2025-09-21T19:51:31.577351"
     },
     {
       "id": "1986-1-divisjon-02-sagene-janitsjarkorps",
@@ -33,8 +36,11 @@
       "rank": 2,
       "orchestra": "Sagene Janitsjarkorps",
       "conductor": "Tom Skjellum",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festival Variations; Delta Dances for Wind Band (plikt)",
+      "pieces_list": [
+        "Festival Variations",
+        "Delta Dances for Wind Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.2,
@@ -43,7 +49,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847115"
+      "scraped_at": "2025-09-21T19:51:31.577354"
     },
     {
       "id": "1986-1-divisjon-02-lillestrøm-musikkorps",
@@ -52,8 +58,11 @@
       "rank": 2,
       "orchestra": "Lillestrøm Musikkorps",
       "conductor": "Christer Johannesen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festive Overture; Delta Dances for Wind Band (plikt)",
+      "pieces_list": [
+        "Festive Overture",
+        "Delta Dances for Wind Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.2,
@@ -62,7 +71,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847118"
+      "scraped_at": "2025-09-21T19:51:31.577358"
     },
     {
       "id": "1986-1-divisjon-04-lier-ungdomskorps",
@@ -71,8 +80,11 @@
       "rank": 4,
       "orchestra": "Lier Ungdomskorps",
       "conductor": "Gunnar Lintvedt",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variants on a Mediaeval Tune; Delta Dances for Wind Band (plikt)",
+      "pieces_list": [
+        "Variants on a Mediaeval Tune",
+        "Delta Dances for Wind Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.7,
@@ -81,7 +93,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847120"
+      "scraped_at": "2025-09-21T19:51:31.577361"
     },
     {
       "id": "1986-1-divisjon-05-stabekk-janitsjarorkester",
@@ -90,8 +102,11 @@
       "rank": 5,
       "orchestra": "Stabekk Janitsjarorkester",
       "conductor": "Terje Wiik Mikkelsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Capriccio Espagnol; Delta Dances for Wind Band (plikt)",
+      "pieces_list": [
+        "Capriccio Espagnol",
+        "Delta Dances for Wind Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.7,
@@ -100,7 +115,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847122"
+      "scraped_at": "2025-09-21T19:51:31.577363"
     },
     {
       "id": "1986-1-divisjon-06-bispehaugen-ungdomskorps",
@@ -109,8 +124,11 @@
       "rank": 6,
       "orchestra": "Bispehaugen Ungdomskorps",
       "conductor": "Knut Lauritzen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "The Planets, 4. sats Jupiter The Bringer of Jollity; Delta Dances for Wind Band (plikt)",
+      "pieces_list": [
+        "The Planets, 4. sats Jupiter The Bringer of Jollity",
+        "Delta Dances for Wind Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.5,
@@ -119,7 +137,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847124"
+      "scraped_at": "2025-09-21T19:51:31.577366"
     },
     {
       "id": "1986-1-divisjon-07-sinsen-konsertorkester",
@@ -128,8 +146,11 @@
       "rank": 7,
       "orchestra": "Sinsen Konsertorkester",
       "conductor": "Camilla Kolchinsky",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Polovetsian Dances from Prince Igor; Delta Dances for Wind Band (plikt)",
+      "pieces_list": [
+        "Polovetsian Dances from Prince Igor",
+        "Delta Dances for Wind Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -138,7 +159,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847126"
+      "scraped_at": "2025-09-21T19:51:31.577368"
     },
     {
       "id": "1986-1-divisjon-08-musikklaget-brage",
@@ -147,8 +168,11 @@
       "rank": 8,
       "orchestra": "Musikklaget Brage",
       "conductor": "Anne Sæther",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "The Thievish Magpie; Delta Dances for Wind Band (plikt)",
+      "pieces_list": [
+        "The Thievish Magpie",
+        "Delta Dances for Wind Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.2,
@@ -157,7 +181,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847129"
+      "scraped_at": "2025-09-21T19:51:31.577370"
     },
     {
       "id": "1986-2-divisjon-01-tromsø-orkesterforenings-janitsjarkorps",
@@ -166,8 +190,11 @@
       "rank": 1,
       "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
       "conductor": "Morten Brenne",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "A Festive Overture (for Concert Band); Ballad for band (plikt)",
+      "pieces_list": [
+        "A Festive Overture (for Concert Band)",
+        "Ballad for band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.3,
@@ -176,7 +203,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847131"
+      "scraped_at": "2025-09-21T19:51:31.577374"
     },
     {
       "id": "1986-2-divisjon-02-årstad-musikkorps",
@@ -185,8 +212,11 @@
       "rank": 2,
       "orchestra": "Årstad Musikkorps",
       "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "First Suite in Eb for Military Band; Ballad for band (plikt)",
+      "pieces_list": [
+        "First Suite in Eb for Military Band",
+        "Ballad for band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.5,
@@ -195,7 +225,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847133"
+      "scraped_at": "2025-09-21T19:51:31.577377"
     },
     {
       "id": "1986-2-divisjon-03-mo-hornmusikk",
@@ -204,8 +234,11 @@
       "rank": 3,
       "orchestra": "Mo Hornmusikk",
       "conductor": "Tor Halvard Nilsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Canticle of the Creatures; Ballad for band (plikt)",
+      "pieces_list": [
+        "Canticle of the Creatures",
+        "Ballad for band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -214,7 +247,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847135"
+      "scraped_at": "2025-09-21T19:51:31.577379"
     },
     {
       "id": "1986-2-divisjon-04-stavanger-musikkorps-av-1919",
@@ -223,8 +256,11 @@
       "rank": 4,
       "orchestra": "Stavanger Musikkorps av 1919",
       "conductor": "Bjarne R. Birkeland",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Viva Musica; Ballad for band (plikt)",
+      "pieces_list": [
+        "Viva Musica",
+        "Ballad for band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -233,7 +269,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847137"
+      "scraped_at": "2025-09-21T19:51:31.577381"
     },
     {
       "id": "1986-2-divisjon-05-lørenskog-musikkorps",
@@ -242,8 +278,11 @@
       "rank": 5,
       "orchestra": "Lørenskog Musikkorps",
       "conductor": "Ola Gudmundsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "A Jubilant Overture; Ballad for band (plikt)",
+      "pieces_list": [
+        "A Jubilant Overture",
+        "Ballad for band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.5,
@@ -252,7 +291,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847140"
+      "scraped_at": "2025-09-21T19:51:31.577384"
     },
     {
       "id": "1986-2-divisjon-06-østre-gausdal-musikkforening",
@@ -261,8 +300,11 @@
       "rank": 6,
       "orchestra": "Østre Gausdal Musikkforening",
       "conductor": "Finn Lund",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Original Suite for Military Band; Ballad for band (plikt)",
+      "pieces_list": [
+        "An Original Suite for Military Band",
+        "Ballad for band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.8,
@@ -271,7 +313,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847142"
+      "scraped_at": "2025-09-21T19:51:31.577386"
     },
     {
       "id": "1986-2-divisjon-07-eidsvåg-musikklag",
@@ -280,8 +322,11 @@
       "rank": 7,
       "orchestra": "Eidsvåg Musikklag",
       "conductor": "Jan L. Jacobsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fantasy on British Sea Songs; Ballad for band (plikt)",
+      "pieces_list": [
+        "Fantasy on British Sea Songs",
+        "Ballad for band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 83.7,
@@ -290,7 +335,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847144"
+      "scraped_at": "2025-09-21T19:51:31.577389"
     },
     {
       "id": "1986-2-divisjon-08-hommelvik-musikkorps",
@@ -299,8 +344,11 @@
       "rank": 8,
       "orchestra": "Hommelvik Musikkorps",
       "conductor": "Hans Petter Aasen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "L'Arlésienne Suite No. 2; Ballad for band (plikt)",
+      "pieces_list": [
+        "L'Arlésienne Suite No. 2",
+        "Ballad for band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 77.0,
@@ -309,7 +357,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847146"
+      "scraped_at": "2025-09-21T19:51:31.577391"
     },
     {
       "id": "1986-2-divisjon-09-musikkforeningen-nidarholm",
@@ -318,8 +366,11 @@
       "rank": 9,
       "orchestra": "Musikkforeningen Nidarholm",
       "conductor": "Per Kvistad Uddu",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fest Polonaise, Op. 12; Ballad for band (plikt)",
+      "pieces_list": [
+        "Fest Polonaise, Op. 12",
+        "Ballad for band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 72.5,
@@ -328,9 +379,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.847148"
+      "scraped_at": "2025-09-21T19:51:31.577394"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:53.848411"
+  "exported_at": "2025-09-21T19:51:31.589581"
 }

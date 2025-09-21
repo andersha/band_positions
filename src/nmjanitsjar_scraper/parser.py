@@ -46,6 +46,12 @@ class JSONParser:
         self._dirigenter = None
         self._musikkstykker = None
         self._repmus = None
+
+        # Lookup indexes populated after data load
+        self._korps_index: Dict[int, Dict[str, Any]] = {}
+        self._dirigenter_index: Dict[int, Dict[str, Any]] = {}
+        self._musikkstykker_index: Dict[int, Dict[str, Any]] = {}
+        self._repertoar_index: Dict[int, List[Dict[str, Any]]] = {}
         
     def _clean_json_content(self, raw_content: str) -> str:
         """
@@ -131,47 +137,59 @@ class JSONParser:
         self._korps = self._fetch_and_cache_json("korps", force_refresh)
         self._dirigenter = self._fetch_and_cache_json("dirigenter", force_refresh)
         self._musikkstykker = self._fetch_and_cache_json("musikkstykker", force_refresh)
-        
+
         # repmus is optional
         try:
             self._repmus = self._fetch_and_cache_json("repmus", force_refresh)
         except Exception:
             console.print("[yellow]Could not load repmus data (non-critical)[/yellow]")
             self._repmus = {"repmus": []}
-        
+
+        # Build fast lookup indexes
+        self._korps_index = {
+            int(korps["korpsnr"]): korps
+            for korps in self._korps.get("korps", [])
+            if korps.get("korpsnr") is not None
+        }
+        self._dirigenter_index = {
+            int(dirigent["dirigentnr"]): dirigent
+            for dirigent in self._dirigenter.get("dirigenter", [])
+            if dirigent.get("dirigentnr") is not None
+        }
+        self._musikkstykker_index = {
+            int(stykke["musikkstykkenr"]): stykke
+            for stykke in self._musikkstykker.get("musikkstykker", [])
+            if stykke.get("musikkstykkenr") is not None
+        }
+
+        repertoar_index: Dict[int, List[Dict[str, Any]]] = {}
+        for rep in self._repmus.get("repmus", []):
+            repertoarnr = rep.get("repertoarnr")
+            if repertoarnr is None:
+                continue
+            key = int(repertoarnr)
+            repertoar_index.setdefault(key, []).append(rep)
+        self._repertoar_index = repertoar_index
+
         console.print("[green]✓ All data loaded successfully[/green]")
-    
+
     def _get_korps_by_nr(self, korpsnr: int) -> Optional[Dict[str, Any]]:
         """Get orchestra info by korpsnr."""
-        for korps in self._korps.get("korps", []):
-            if korps.get("korpsnr") == korpsnr:
-                return korps
-        return None
-    
+        return self._korps_index.get(int(korpsnr)) if korpsnr is not None else None
+
     def _get_dirigent_by_nr(self, dirigentnr: int) -> Optional[Dict[str, Any]]:
         """Get conductor info by dirigentnr."""
-        for dirigent in self._dirigenter.get("dirigenter", []):
-            if dirigent.get("dirigentnr") == dirigentnr:
-                return dirigent
-        return None
-    
+        return self._dirigenter_index.get(int(dirigentnr)) if dirigentnr is not None else None
+
     def _get_musikkstykke_by_nr(self, musikkstykkenr: int) -> Optional[Dict[str, Any]]:
         """Get musical piece info by musikkstykkenr."""
-        for stykke in self._musikkstykker.get("musikkstykker", []):
-            if stykke.get("musikkstykkenr") == musikkstykkenr:
-                return stykke
-        return None
-    
-    def _get_repertoar_for_konkurransenr(self, konkurransenr: int) -> List[Dict[str, Any]]:
-        """Get all musical pieces for a specific competition entry."""
-        if not self._repmus:
+        return self._musikkstykker_index.get(int(musikkstykkenr)) if musikkstykkenr is not None else None
+
+    def _get_repertoar_for_repertoarnr(self, repertoarnr: int) -> List[Dict[str, Any]]:
+        """Get all repertoire entries attached to a specific repertoire id."""
+        if repertoarnr is None:
             return []
-        
-        repertoar = []
-        for rep in self._repmus.get("repmus", []):
-            if rep.get("konkurransenr") == konkurransenr:
-                repertoar.append(rep)
-        return repertoar
+        return self._repertoar_index.get(int(repertoarnr), [])
     
     def parse_year(self, year: int) -> CompetitionYear:
         """
@@ -264,14 +282,32 @@ class JSONParser:
             conductor_name = dirigent_info.get("dirigentnavn") if dirigent_info else None
             
             # Get musical piece info
-            pieces = []
+            pieces: List[str] = []
             if repertoarnr:
-                musikkstykke = self._get_musikkstykke_by_nr(repertoarnr)
-                if musikkstykke:
-                    pieces.append(musikkstykke.get("tittel", "Unknown Piece"))
-            
-            # TODO: Handle multiple pieces using repmus data if available
-            
+                repertoire_entries = self._get_repertoar_for_repertoarnr(repertoarnr)
+                for rep_entry in repertoire_entries:
+                    musikkstykkenr = rep_entry.get("musikkstykkenr")
+                    musikkstykke = self._get_musikkstykke_by_nr(musikkstykkenr) if musikkstykkenr else None
+                    title = musikkstykke.get("tittel") if musikkstykke else None
+                    if not title:
+                        continue
+
+                    label = title.strip()
+                    if not label:
+                        continue
+
+                    plikt = str(rep_entry.get("plikt", "")).strip().upper()
+                    if plikt == "P":
+                        label = f"{label} (plikt)"
+
+                    pieces.append(label)
+
+                # Some historical entries only provide a direct musikkstykkenr
+                if not pieces:
+                    musikkstykke = self._get_musikkstykke_by_nr(repertoarnr)
+                    if musikkstykke and musikkstykke.get("tittel"):
+                        pieces.append(str(musikkstykke["tittel"]).strip())
+
             return Placement(
                 rank=rank,
                 orchestra=orchestra_name,

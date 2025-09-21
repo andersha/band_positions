@@ -1,7 +1,7 @@
 {
   "total_years": 41,
   "year_range": "1981-2025",
-  "total_placements": 2676,
+  "total_placements": 2666,
   "total_awards": 0,
   "years_summary": {
     "1981": {
@@ -368,5 +368,5 @@
       }
     }
   },
-  "exported_at": "2025-08-25T20:48:54.215294"
+  "exported_at": "2025-09-21T19:51:32.040845"
 }

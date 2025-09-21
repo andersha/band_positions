@@ -14,8 +14,11 @@
       "rank": 1,
       "orchestra": "Dragefjellets Musikkorps Bergen",
       "conductor": "Per Hannevold",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fanfare and Choral; Lincolnshire Posy (plikt)",
+      "pieces_list": [
+        "Fanfare and Choral",
+        "Lincolnshire Posy (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.5,
@@ -24,7 +27,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.839596"
+      "scraped_at": "2025-09-21T19:51:31.545965"
     },
     {
       "id": "1983-1-divisjon-02-hamar-musikkorps",
@@ -33,55 +36,22 @@
       "rank": 2,
       "orchestra": "Hamar Musikkorps",
       "conductor": "Ragnar Røgeberg",
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
+      "pieces": "Hjalar; Lincolnshire Posy (plikt)",
+      "pieces_list": [
+        "Hjalar",
+        "Lincolnshire Posy (plikt)"
+      ],
+      "composers": "Ljod",
+      "composers_list": [
+        "Ljod"
+      ],
       "points": 93.2,
       "max_points": 100.0,
       "image_url": null,
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.839599"
-    },
-    {
-      "id": "1983-1-divisjon-03-vestre-aker-musikkorps",
-      "year": 1983,
-      "division": "1. divisjon",
-      "rank": 3,
-      "orchestra": "Vestre Aker Musikkorps",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
-      "points": 93.0,
-      "max_points": 100.0,
-      "image_url": "https://nmbrass.no/nmjanitsjar/static/vestreakermusikkorps.jpg",
-      "orchestra_url": null,
-      "conductor_url": null,
-      "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.839601"
-    },
-    {
-      "id": "1983-1-divisjon-04-sagene-janitsjarkorps",
-      "year": 1983,
-      "division": "1. divisjon",
-      "rank": 4,
-      "orchestra": "Sagene Janitsjarkorps",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
-      "points": 92.9,
-      "max_points": 100.0,
-      "image_url": "https://nmbrass.no/nmjanitsjar/static/sagenejanitsjarkorps.jpg",
-      "orchestra_url": null,
-      "conductor_url": null,
-      "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.839604"
+      "scraped_at": "2025-09-21T19:51:31.545971"
     },
     {
       "id": "1983-1-divisjon-05-bispehaugen-ungdomskorps",
@@ -90,8 +60,11 @@
       "rank": 5,
       "orchestra": "Bispehaugen Ungdomskorps",
       "conductor": "Sigmund Ofstad",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Bergensiana; Lincolnshire Posy (plikt)",
+      "pieces_list": [
+        "Bergensiana",
+        "Lincolnshire Posy (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.9,
@@ -100,83 +73,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.839605"
-    },
-    {
-      "id": "1983-2-divisjon-01-os-musikkforening",
-      "year": 1983,
-      "division": "2. divisjon",
-      "rank": 1,
-      "orchestra": "Os Musikkforening",
-      "conductor": "Karl Ole Midtbø",
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
-      "points": 92.4,
-      "max_points": 100.0,
-      "image_url": "https://nmbrass.no/nmjanitsjar/static/osmusikkforening.jpg",
-      "orchestra_url": null,
-      "conductor_url": null,
-      "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.839608"
-    },
-    {
-      "id": "1983-2-divisjon-02-musikkforeningen-viken",
-      "year": 1983,
-      "division": "2. divisjon",
-      "rank": 2,
-      "orchestra": "Musikkforeningen Viken",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
-      "points": 88.5,
-      "max_points": 100.0,
-      "image_url": "https://nmbrass.no/nmjanitsjar/static/musikkforeningenviken.jpg",
-      "orchestra_url": null,
-      "conductor_url": null,
-      "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.839610"
-    },
-    {
-      "id": "1983-2-divisjon-03-tromsø-orkesterforenings-janitsjarkorps",
-      "year": 1983,
-      "division": "2. divisjon",
-      "rank": 3,
-      "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
-      "conductor": "Arne Bjørhøy",
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
-      "points": 88.2,
-      "max_points": 100.0,
-      "image_url": "https://static.wixstatic.com/media/dd5bbc_b0c682bb35064071b71c0549c444563e.jpg/v1/fill/w_859,h_602,al_c,q_85,usm_0.66_1.00_0.01/dd5bbc_b0c682bb35064071b71c0549c444563e.jpg",
-      "orchestra_url": null,
-      "conductor_url": null,
-      "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.839613"
-    },
-    {
-      "id": "1983-2-divisjon-04-årstad-musikkorps",
-      "year": 1983,
-      "division": "2. divisjon",
-      "rank": 4,
-      "orchestra": "Årstad Musikkorps",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
-      "points": 87.9,
-      "max_points": 100.0,
-      "image_url": null,
-      "orchestra_url": null,
-      "conductor_url": null,
-      "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.839615"
+      "scraped_at": "2025-09-21T19:51:31.545973"
     },
     {
       "id": "1983-2-divisjon-05-nesodden-ungdomskors",
@@ -185,8 +82,11 @@
       "rank": 5,
       "orchestra": "Nesodden Ungdomskors",
       "conductor": "Terje Wiik Mikkelsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Chorale and Shaker Dance; Blow out (plikt)",
+      "pieces_list": [
+        "Chorale and Shaker Dance",
+        "Blow out (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.7,
@@ -195,9 +95,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.839617"
+      "scraped_at": "2025-09-21T19:51:31.545976"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:53.841177"
+  "exported_at": "2025-09-21T19:51:31.555901"
 }

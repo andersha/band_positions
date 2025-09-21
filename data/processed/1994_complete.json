@@ -16,8 +16,12 @@
       "rank": 1,
       "orchestra": "Lillestrøm Musikkorps",
       "conductor": "Ingar Bergby",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Lincolnshire Posy; Music for Prague 1968, 1. sats; Danse Folâtre",
+      "pieces_list": [
+        "Lincolnshire Posy",
+        "Music for Prague 1968, 1. sats",
+        "Danse Folâtre"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.0,
@@ -26,7 +30,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886821"
+      "scraped_at": "2025-09-21T19:51:31.687346"
     },
     {
       "id": "1994-elite-02-vestre-aker-musikkorps",
@@ -35,8 +39,11 @@
       "rank": 2,
       "orchestra": "Vestre Aker Musikkorps",
       "conductor": "Erlend Tunestveit",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Overture for Band, Op. 24; Symphonic Metamorphosis of themes by Carl Maria von Weber",
+      "pieces_list": [
+        "Overture for Band, Op. 24",
+        "Symphonic Metamorphosis of themes by Carl Maria von Weber"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -45,7 +52,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886824"
+      "scraped_at": "2025-09-21T19:51:31.687378"
     },
     {
       "id": "1994-elite-03-dragefjellets-musikkorps-bergen",
@@ -54,8 +61,11 @@
       "rank": 3,
       "orchestra": "Dragefjellets Musikkorps Bergen",
       "conductor": "Lars Kristian Brynhildsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Dionysiaques; Don Juan",
+      "pieces_list": [
+        "Dionysiaques",
+        "Don Juan"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -64,7 +74,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886826"
+      "scraped_at": "2025-09-21T19:51:31.687411"
     },
     {
       "id": "1994-elite-04-nanset-ungdomsmusikkorps",
@@ -73,8 +83,11 @@
       "rank": 4,
       "orchestra": "Nanset Ungdomsmusikkorps",
       "conductor": "Odd Terje Lysebo",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "On Winged Flight: A Divertimento for Band; Dawn's Early Light",
+      "pieces_list": [
+        "On Winged Flight: A Divertimento for Band",
+        "Dawn's Early Light"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -83,7 +96,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886828"
+      "scraped_at": "2025-09-21T19:51:31.687423"
     },
     {
       "id": "1994-elite-05-skjetten-ungdomskorps",
@@ -92,8 +105,12 @@
       "rank": 5,
       "orchestra": "Skjetten Ungdomskorps",
       "conductor": "Svein Greni",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festival Variations; Symphony no. 1, The Lord of the Rings, \"Gollum\"; Fra Hundrad folketonar frå Hardanger",
+      "pieces_list": [
+        "Festival Variations",
+        "Symphony no. 1, The Lord of the Rings, \"Gollum\"",
+        "Fra Hundrad folketonar frå Hardanger"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.0,
@@ -102,7 +119,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886830"
+      "scraped_at": "2025-09-21T19:51:31.687427"
     },
     {
       "id": "1994-elite-06-sagene-janitsjarkorps",
@@ -111,8 +128,12 @@
       "rank": 6,
       "orchestra": "Sagene Janitsjarkorps",
       "conductor": "Tom Skjellum",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Cantus; En Natt på Bloksberg; Symphony no. 4, 1. sats",
+      "pieces_list": [
+        "Cantus",
+        "En Natt på Bloksberg",
+        "Symphony no. 4, 1. sats"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -121,7 +142,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886832"
+      "scraped_at": "2025-09-21T19:51:31.687431"
     },
     {
       "id": "1994-1-divisjon-01-stabekk-janitsjarorkester",
@@ -130,8 +151,10 @@
       "rank": 1,
       "orchestra": "Stabekk Janitsjarorkester",
       "conductor": "Jan Roger Øren",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations on a Hymn by Louis Bourgeois (plikt)",
+      "pieces_list": [
+        "Variations on a Hymn by Louis Bourgeois (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -140,7 +163,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886835"
+      "scraped_at": "2025-09-21T19:51:31.687435"
     },
     {
       "id": "1994-1-divisjon-02-halsen-musikkforening",
@@ -149,8 +172,11 @@
       "rank": 2,
       "orchestra": "Halsen Musikkforening",
       "conductor": "Karl Ole Midtbø",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance; Variations on a Hymn by Louis Bourgeois (plikt)",
+      "pieces_list": [
+        "Incantation and Dance",
+        "Variations on a Hymn by Louis Bourgeois (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.5,
@@ -159,7 +185,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886837"
+      "scraped_at": "2025-09-21T19:51:31.687438"
     },
     {
       "id": "1994-1-divisjon-03-aalesunds-ungdomsmusikkorps",
@@ -168,8 +194,10 @@
       "rank": 3,
       "orchestra": "Aalesunds Ungdomsmusikkorps",
       "conductor": "Arnfinn Dalhaug",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations on a Hymn by Louis Bourgeois (plikt)",
+      "pieces_list": [
+        "Variations on a Hymn by Louis Bourgeois (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.5,
@@ -178,7 +206,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886839"
+      "scraped_at": "2025-09-21T19:51:31.687441"
     },
     {
       "id": "1994-1-divisjon-04-byneset-musikkorps",
@@ -187,8 +215,11 @@
       "rank": 4,
       "orchestra": "Byneset Musikkorps",
       "conductor": "Per Kvistad Uddu",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Illyrian Dances; Variations on a Hymn by Louis Bourgeois (plikt)",
+      "pieces_list": [
+        "Illyrian Dances",
+        "Variations on a Hymn by Louis Bourgeois (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.5,
@@ -197,7 +228,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886841"
+      "scraped_at": "2025-09-21T19:51:31.687444"
     },
     {
       "id": "1994-1-divisjon-05-sandefjord-musikkorps",
@@ -206,8 +237,10 @@
       "rank": 5,
       "orchestra": "Sandefjord Musikkorps",
       "conductor": "Odd Terje Lysebo",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations on a Hymn by Louis Bourgeois (plikt)",
+      "pieces_list": [
+        "Variations on a Hymn by Louis Bourgeois (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -216,7 +249,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886843"
+      "scraped_at": "2025-09-21T19:51:31.687447"
     },
     {
       "id": "1994-1-divisjon-06-bispehaugen-ungdomskorps",
@@ -225,8 +258,10 @@
       "rank": 6,
       "orchestra": "Bispehaugen Ungdomskorps",
       "conductor": "Karl Ole Midtbø",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations on a Hymn by Louis Bourgeois (plikt)",
+      "pieces_list": [
+        "Variations on a Hymn by Louis Bourgeois (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -235,7 +270,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886845"
+      "scraped_at": "2025-09-21T19:51:31.687450"
     },
     {
       "id": "1994-1-divisjon-07-lørenskog-musikkorps",
@@ -244,8 +279,11 @@
       "rank": 7,
       "orchestra": "Lørenskog Musikkorps",
       "conductor": "Pål Gløtta",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphony no. 1, The Lord of the Rings, \"Gandalf\"; Variations on a Hymn by Louis Bourgeois (plikt)",
+      "pieces_list": [
+        "Symphony no. 1, The Lord of the Rings, \"Gandalf\"",
+        "Variations on a Hymn by Louis Bourgeois (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -254,7 +292,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886847"
+      "scraped_at": "2025-09-21T19:51:31.687453"
     },
     {
       "id": "1994-1-divisjon-08-musikkforeningen-nidarholm",
@@ -263,8 +301,11 @@
       "rank": 8,
       "orchestra": "Musikkforeningen Nidarholm",
       "conductor": "Tom Wulff",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Legend, op. 81; Variations on a Hymn by Louis Bourgeois (plikt)",
+      "pieces_list": [
+        "Legend, op. 81",
+        "Variations on a Hymn by Louis Bourgeois (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -273,7 +314,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886849"
+      "scraped_at": "2025-09-21T19:51:31.687456"
     },
     {
       "id": "1994-1-divisjon-09-tønsberg-janitsjarkorps",
@@ -282,8 +323,10 @@
       "rank": 9,
       "orchestra": "Tønsberg Janitsjarkorps",
       "conductor": "Ketil R. Teigen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations on a Hymn by Louis Bourgeois (plikt)",
+      "pieces_list": [
+        "Variations on a Hymn by Louis Bourgeois (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 83.0,
@@ -292,7 +335,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886851"
+      "scraped_at": "2025-09-21T19:51:31.687459"
     },
     {
       "id": "1994-1-divisjon-10-sandvikens-ungdomskorps",
@@ -301,8 +344,10 @@
       "rank": 10,
       "orchestra": "Sandvikens Ungdomskorps",
       "conductor": "Allan Withington",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations on a Hymn by Louis Bourgeois (plikt)",
+      "pieces_list": [
+        "Variations on a Hymn by Louis Bourgeois (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 81.0,
@@ -311,7 +356,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886853"
+      "scraped_at": "2025-09-21T19:51:31.687462"
     },
     {
       "id": "1994-1-divisjon-11-molde-janitsjar",
@@ -320,8 +365,11 @@
       "rank": 11,
       "orchestra": "Molde Janitsjar",
       "conductor": "Leif Skeidsvoll",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations on a Theme of Robert Schumann (\"The Happy Farmer\"); Variations on a Hymn by Louis Bourgeois (plikt)",
+      "pieces_list": [
+        "Variations on a Theme of Robert Schumann (\"The Happy Farmer\")",
+        "Variations on a Hymn by Louis Bourgeois (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 80.5,
@@ -330,7 +378,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886855"
+      "scraped_at": "2025-09-21T19:51:31.687465"
     },
     {
       "id": "1994-1-divisjon-12-sinsen-konsertorkester",
@@ -339,8 +387,10 @@
       "rank": 12,
       "orchestra": "Sinsen Konsertorkester",
       "conductor": "Holger Gulbrandsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations on a Hymn by Louis Bourgeois (plikt)",
+      "pieces_list": [
+        "Variations on a Hymn by Louis Bourgeois (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 80.0,
@@ -349,7 +399,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886857"
+      "scraped_at": "2025-09-21T19:51:31.687468"
     },
     {
       "id": "1994-2-divisjon-01-kolbotn-konsertorkester",
@@ -358,8 +408,11 @@
       "rank": 1,
       "orchestra": "Kolbotn Konsertorkester",
       "conductor": "Erlend Tunestveit",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Theme and Variations for Wind Band, Op. 43a; Variations for Band (plikt)",
+      "pieces_list": [
+        "Theme and Variations for Wind Band, Op. 43a",
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.0,
@@ -368,7 +421,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886859"
+      "scraped_at": "2025-09-21T19:51:31.687471"
     },
     {
       "id": "1994-2-divisjon-02-nittedal-og-hakadal-janitsjar",
@@ -377,8 +430,11 @@
       "rank": 2,
       "orchestra": "Nittedal og Hakadal Janitsjar",
       "conductor": "Ola Gudmundsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Armenian Dances, Part 1; Variations for Band (plikt)",
+      "pieces_list": [
+        "Armenian Dances, Part 1",
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.5,
@@ -387,7 +443,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886861"
+      "scraped_at": "2025-09-21T19:51:31.687474"
     },
     {
       "id": "1994-2-divisjon-03-kolstad-janitsjar",
@@ -396,8 +452,10 @@
       "rank": 3,
       "orchestra": "Kolstad Janitsjar",
       "conductor": "Tom Wulff",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.5,
@@ -406,7 +464,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886863"
+      "scraped_at": "2025-09-21T19:51:31.687477"
     },
     {
       "id": "1994-2-divisjon-04-strinda-ungdomskorps",
@@ -415,8 +473,10 @@
       "rank": 4,
       "orchestra": "Strinda Ungdomskorps",
       "conductor": "Eivind Erdal",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.5,
@@ -425,7 +485,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886865"
+      "scraped_at": "2025-09-21T19:51:31.687480"
     },
     {
       "id": "1994-2-divisjon-05-musikklaget-lurlåt",
@@ -434,8 +494,10 @@
       "rank": 5,
       "orchestra": "Musikklaget Lurlåt",
       "conductor": "Per Grønli",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.0,
@@ -444,7 +506,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886867"
+      "scraped_at": "2025-09-21T19:51:31.687483"
     },
     {
       "id": "1994-2-divisjon-06-alvøens-musikkforening",
@@ -453,8 +515,10 @@
       "rank": 6,
       "orchestra": "Alvøens Musikkforening",
       "conductor": "Jan L. Jacobsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.0,
@@ -463,7 +527,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886869"
+      "scraped_at": "2025-09-21T19:51:31.687485"
     },
     {
       "id": "1994-2-divisjon-07-skjold-nesttun-janitsjar",
@@ -472,8 +536,10 @@
       "rank": 7,
       "orchestra": "Skjold Nesttun Janitsjar",
       "conductor": "Geir Holm",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -482,7 +548,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886871"
+      "scraped_at": "2025-09-21T19:51:31.687488"
     },
     {
       "id": "1994-2-divisjon-08-hønefoss-ungdomskorps",
@@ -491,8 +557,10 @@
       "rank": 8,
       "orchestra": "Hønefoss Ungdomskorps",
       "conductor": "Gunnar Lintvedt",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -501,7 +569,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886873"
+      "scraped_at": "2025-09-21T19:51:31.687491"
     },
     {
       "id": "1994-2-divisjon-09-bjølsen-ungdomskorps",
@@ -510,8 +578,10 @@
       "rank": 9,
       "orchestra": "Bjølsen Ungdomskorps",
       "conductor": "Vidar Myhre",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.6,
@@ -520,7 +590,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886875"
+      "scraped_at": "2025-09-21T19:51:31.687494"
     },
     {
       "id": "1994-2-divisjon-10-ranheim-musikkforening",
@@ -529,8 +599,10 @@
       "rank": 10,
       "orchestra": "Ranheim Musikkforening",
       "conductor": "Arild Hognes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.5,
@@ -539,7 +611,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886877"
+      "scraped_at": "2025-09-21T19:51:31.687496"
     },
     {
       "id": "1994-2-divisjon-11-lungegaardens-musikkorps",
@@ -548,8 +620,10 @@
       "rank": 11,
       "orchestra": "Lungegaardens Musikkorps",
       "conductor": "Sjur Høgberg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.5,
@@ -558,7 +632,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886878"
+      "scraped_at": "2025-09-21T19:51:31.687499"
     },
     {
       "id": "1994-2-divisjon-12-nord-odal-hornmusikk",
@@ -567,8 +641,10 @@
       "rank": 12,
       "orchestra": "Nord-Odal Hornmusikk",
       "conductor": "Trond Korsgård",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -577,7 +653,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886880"
+      "scraped_at": "2025-09-21T19:51:31.687501"
     },
     {
       "id": "1994-2-divisjon-12-musikklaget-brage",
@@ -586,8 +662,10 @@
       "rank": 12,
       "orchestra": "Musikklaget Brage",
       "conductor": "Tore Nedregård",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -596,7 +674,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886882"
+      "scraped_at": "2025-09-21T19:51:31.687504"
     },
     {
       "id": "1994-2-divisjon-14-fana-musikklag",
@@ -605,8 +683,10 @@
       "rank": 14,
       "orchestra": "Fana Musikklag",
       "conductor": "Bengt Florvåg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.5,
@@ -615,7 +695,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886884"
+      "scraped_at": "2025-09-21T19:51:31.687506"
     },
     {
       "id": "1994-2-divisjon-15-hov-musikkorps",
@@ -624,8 +704,10 @@
       "rank": 15,
       "orchestra": "Hov Musikkorps",
       "conductor": "Magne Synnevåg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 83.0,
@@ -634,7 +716,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886886"
+      "scraped_at": "2025-09-21T19:51:31.687509"
     },
     {
       "id": "1994-2-divisjon-16-nordstrand-janitsjarkors",
@@ -643,8 +725,10 @@
       "rank": 16,
       "orchestra": "Nordstrand Janitsjarkors",
       "conductor": "Jørn Simenstad",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 82.0,
@@ -653,7 +737,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886888"
+      "scraped_at": "2025-09-21T19:51:31.687511"
     },
     {
       "id": "1994-2-divisjon-17-jømna/heradsbygd-musikkforening",
@@ -662,8 +746,11 @@
       "rank": 17,
       "orchestra": "Jømna/Heradsbygd Musikkforening",
       "conductor": "Ørnulf Ring",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Sinfonia Nobilissima; Variations for Band (plikt)",
+      "pieces_list": [
+        "Sinfonia Nobilissima",
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 81.0,
@@ -672,7 +759,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886890"
+      "scraped_at": "2025-09-21T19:51:31.687514"
     },
     {
       "id": "1994-2-divisjon-18-hommelvik-musikkorps",
@@ -681,8 +768,10 @@
       "rank": 18,
       "orchestra": "Hommelvik Musikkorps",
       "conductor": "Torstein Siegel",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band (plikt)",
+      "pieces_list": [
+        "Variations for Band (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 80.5,
@@ -691,7 +780,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886892"
+      "scraped_at": "2025-09-21T19:51:31.687517"
     },
     {
       "id": "1994-3-divisjon-01-åsnes-hornmusikk",
@@ -700,8 +789,11 @@
       "rank": 1,
       "orchestra": "Åsnes Hornmusikk",
       "conductor": "Geir Østby",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Four Contrasts for Wind; Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Four Contrasts for Wind",
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -710,7 +802,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886894"
+      "scraped_at": "2025-09-21T19:51:31.687520"
     },
     {
       "id": "1994-3-divisjon-02-heimdal-musikkorps",
@@ -719,8 +811,10 @@
       "rank": 2,
       "orchestra": "Heimdal Musikkorps",
       "conductor": "Endre Ladehaug",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.5,
@@ -729,7 +823,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886896"
+      "scraped_at": "2025-09-21T19:51:31.687523"
     },
     {
       "id": "1994-3-divisjon-03-drammen-konsertorkester",
@@ -738,8 +832,10 @@
       "rank": 3,
       "orchestra": "Drammen Konsertorkester",
       "conductor": "Odd Ulleberg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.5,
@@ -748,7 +844,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886898"
+      "scraped_at": "2025-09-21T19:51:31.687526"
     },
     {
       "id": "1994-3-divisjon-04-eidsvåg-musikklag",
@@ -757,8 +853,10 @@
       "rank": 4,
       "orchestra": "Eidsvåg Musikklag",
       "conductor": "Knut Emil Mjøs",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -767,7 +865,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886900"
+      "scraped_at": "2025-09-21T19:51:31.687529"
     },
     {
       "id": "1994-3-divisjon-05-malvik-musikkorps",
@@ -776,8 +874,10 @@
       "rank": 5,
       "orchestra": "Malvik Musikkorps",
       "conductor": "Reidar Bye",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.5,
@@ -786,7 +886,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886902"
+      "scraped_at": "2025-09-21T19:51:31.687532"
     },
     {
       "id": "1994-3-divisjon-06-osterøy-janitsjar",
@@ -795,8 +895,11 @@
       "rank": 6,
       "orchestra": "Osterøy Janitsjar",
       "conductor": "John Brakstad",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band; Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Variations for Band",
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.5,
@@ -805,7 +908,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886904"
+      "scraped_at": "2025-09-21T19:51:31.687535"
     },
     {
       "id": "1994-3-divisjon-07-bodø-janitsjar",
@@ -814,8 +917,10 @@
       "rank": 7,
       "orchestra": "Bodø Janitsjar",
       "conductor": "Odd André Brasetvik",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -824,7 +929,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886906"
+      "scraped_at": "2025-09-21T19:51:31.687538"
     },
     {
       "id": "1994-3-divisjon-08-haugesund-ungdomskorps",
@@ -833,8 +938,10 @@
       "rank": 8,
       "orchestra": "Haugesund Ungdomskorps",
       "conductor": "Alf Reidar Nilsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.0,
@@ -843,7 +950,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886908"
+      "scraped_at": "2025-09-21T19:51:31.687541"
     },
     {
       "id": "1994-3-divisjon-09-slemmestad-ungdomskorps",
@@ -852,8 +959,11 @@
       "rank": 9,
       "orchestra": "Slemmestad Ungdomskorps",
       "conductor": "Geir Arne Haugsrud",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Punchinello Overture; Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Punchinello Overture",
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 81.0,
@@ -862,7 +972,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886910"
+      "scraped_at": "2025-09-21T19:51:31.687543"
     },
     {
       "id": "1994-3-divisjon-10-ellingsøy-hornmusikk",
@@ -871,8 +981,10 @@
       "rank": 10,
       "orchestra": "Ellingsøy Hornmusikk",
       "conductor": "Jarle Helgesen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 80.5,
@@ -881,7 +993,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886912"
+      "scraped_at": "2025-09-21T19:51:31.687546"
     },
     {
       "id": "1994-3-divisjon-11-strindheim-janitsjar",
@@ -890,8 +1002,10 @@
       "rank": 11,
       "orchestra": "Strindheim Janitsjar",
       "conductor": "Stein Jacobsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 80.0,
@@ -900,7 +1014,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886914"
+      "scraped_at": "2025-09-21T19:51:31.687549"
     },
     {
       "id": "1994-3-divisjon-12-byåsen-musikkorps",
@@ -909,8 +1023,10 @@
       "rank": 12,
       "orchestra": "Byåsen Musikkorps",
       "conductor": "Eivind Rise",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 77.0,
@@ -919,7 +1035,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886916"
+      "scraped_at": "2025-09-21T19:51:31.687552"
     },
     {
       "id": "1994-3-divisjon-13-dokka-musikkorps",
@@ -928,8 +1044,10 @@
       "rank": 13,
       "orchestra": "Dokka Musikkorps",
       "conductor": "Torstein Kristiansen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 76.0,
@@ -938,7 +1056,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886918"
+      "scraped_at": "2025-09-21T19:51:31.687554"
     },
     {
       "id": "1994-3-divisjon-13-fiskerstrand-musikkorps",
@@ -947,8 +1065,10 @@
       "rank": 13,
       "orchestra": "Fiskerstrand Musikkorps",
       "conductor": "Vebjørn Digernes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 76.0,
@@ -957,7 +1077,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886919"
+      "scraped_at": "2025-09-21T19:51:31.687557"
     },
     {
       "id": "1994-3-divisjon-15-hegra-hornmusikklag",
@@ -966,8 +1086,10 @@
       "rank": 15,
       "orchestra": "Hegra Hornmusikklag",
       "conductor": "Jan Selbæk",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 75.0,
@@ -976,7 +1098,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886921"
+      "scraped_at": "2025-09-21T19:51:31.687559"
     },
     {
       "id": "1994-3-divisjon-16-sotra-musikklag",
@@ -985,8 +1107,10 @@
       "rank": 16,
       "orchestra": "Sotra Musikklag",
       "conductor": "Jon Henning Lien",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 72.0,
@@ -995,7 +1119,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886923"
+      "scraped_at": "2025-09-21T19:51:31.687562"
     },
     {
       "id": "1994-3-divisjon-17-oppegård-janitsjar",
@@ -1004,8 +1128,10 @@
       "rank": 17,
       "orchestra": "Oppegård Janitsjar",
       "conductor": "Tor Olav Pettersen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 71.0,
@@ -1014,7 +1140,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886925"
+      "scraped_at": "2025-09-21T19:51:31.687564"
     },
     {
       "id": "1994-3-divisjon-18-åsen-hornmusikklag",
@@ -1023,8 +1149,10 @@
       "rank": 18,
       "orchestra": "Åsen Hornmusikklag",
       "conductor": "Lars Erik Aalberg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Quatro Variazioni Musicali con Tema Populare (plikt)",
+      "pieces_list": [
+        "Quatro Variazioni Musicali con Tema Populare (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 70.0,
@@ -1033,9 +1161,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.886927"
+      "scraped_at": "2025-09-21T19:51:31.687567"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:53.888724"
+  "exported_at": "2025-09-21T19:51:31.693753"
 }

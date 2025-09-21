@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import ast
 import json
 import re
 import unicodedata
@@ -81,6 +82,7 @@ def compute_absolute_positions(df: pd.DataFrame) -> tuple[Dict[str, List[dict]],
                 "points": float(row.points) if pd.notna(row.points) else None,
                 "max_points": float(row.max_points) if pd.notna(row.max_points) else None,
                 "conductor": conductor_value,
+                "pieces": row.pieces_normalized,
             }
             entries_by_band[row.orchestra].append(entry)
 
@@ -91,6 +93,47 @@ def compute_absolute_positions(df: pd.DataFrame) -> tuple[Dict[str, List[dict]],
     return entries_by_band, global_max_field
 
 
+def _parse_piece_list(raw: object) -> list[str]:
+    """Return the cleaned list of pieces for a placement row."""
+
+    if raw is None or (isinstance(raw, float) and pd.isna(raw)):
+        return []
+
+    text = str(raw).strip()
+    if not text:
+        return []
+
+    try:
+        parsed = json.loads(text)
+    except json.JSONDecodeError:
+        try:
+            parsed = ast.literal_eval(text)
+        except (SyntaxError, ValueError):
+            parsed = text
+
+    pieces: list[str] = []
+    if isinstance(parsed, list):
+        for item in parsed:
+            if item is None:
+                continue
+            piece = str(item).strip()
+            if piece:
+                pieces.append(piece)
+    elif isinstance(parsed, str):
+        snippet = parsed.strip()
+        if snippet:
+            pieces.append(snippet)
+    elif isinstance(parsed, tuple):
+        for item in parsed:
+            if item is None:
+                continue
+            piece = str(item).strip()
+            if piece:
+                pieces.append(piece)
+
+    return pieces
+
+
 def load_dataset(csv_path: Path) -> pd.DataFrame:
     df = pd.read_csv(csv_path)
     df = df[df["rank"].notna()].copy()
@@ -98,6 +141,22 @@ def load_dataset(csv_path: Path) -> pd.DataFrame:
     df["year"] = df["year"].astype(int)
     df["division"] = df["division"].astype(str)
     df["orchestra"] = df["orchestra"].astype(str)
+
+    df["pieces_normalized"] = df.apply(
+        lambda row: _parse_piece_list(row.get("pieces_list"))
+        if "pieces_list" in row
+        else _parse_piece_list(None),
+        axis=1,
+    )
+
+    # Fall back to the free-text column when the structured list is empty.
+    mask = df["pieces_normalized"].map(len) == 0
+    if "pieces" in df.columns:
+        df.loc[mask, "pieces_normalized"] = (
+            df.loc[mask, "pieces"].fillna("")
+            .map(lambda value: [value.strip()] if str(value).strip() else [])
+        )
+
     return df
 
 

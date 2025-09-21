@@ -15,8 +15,11 @@
       "rank": 1,
       "orchestra": "Lillestrøm Musikkorps",
       "conductor": "Christer Johannesen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fanfare and Choral; The Hounds of Spring (plikt)",
+      "pieces_list": [
+        "Fanfare and Choral",
+        "The Hounds of Spring (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.0,
@@ -25,7 +28,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858744"
+      "scraped_at": "2025-09-21T19:51:31.630356"
     },
     {
       "id": "1990-1-divisjon-02-sagene-janitsjarkorps",
@@ -33,9 +36,11 @@
       "division": "1. divisjon",
       "rank": 2,
       "orchestra": "Sagene Janitsjarkorps",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
+      "conductor": "Tom Skjellum",
+      "pieces": "En Natt på Bloksberg",
+      "pieces_list": [
+        "En Natt på Bloksberg"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.5,
@@ -44,7 +49,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858747"
+      "scraped_at": "2025-09-21T19:51:31.630361"
     },
     {
       "id": "1990-1-divisjon-03-kolbotn-konsertorkester",
@@ -53,8 +58,10 @@
       "rank": 3,
       "orchestra": "Kolbotn Konsertorkester",
       "conductor": "Erlend Tunestveit",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Illyrian Dances (plikt)",
+      "pieces_list": [
+        "Illyrian Dances (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -63,7 +70,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858749"
+      "scraped_at": "2025-09-21T19:51:31.630364"
     },
     {
       "id": "1990-1-divisjon-04-halsen-musikkforening",
@@ -72,8 +79,11 @@
       "rank": 4,
       "orchestra": "Halsen Musikkforening",
       "conductor": "Sigmund Ofstad",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Forza del Destino; Fiesta Del Pacifico (plikt)",
+      "pieces_list": [
+        "La Forza del Destino",
+        "Fiesta Del Pacifico (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -82,7 +92,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858751"
+      "scraped_at": "2025-09-21T19:51:31.630367"
     },
     {
       "id": "1990-1-divisjon-05-lier-ungdomskorps",
@@ -101,7 +111,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858753"
+      "scraped_at": "2025-09-21T19:51:31.630370"
     },
     {
       "id": "1990-1-divisjon-06-lørenskog-musikkorps",
@@ -110,8 +120,11 @@
       "rank": 6,
       "orchestra": "Lørenskog Musikkorps",
       "conductor": "Pål Gløtta",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "March Slave; Illyrian Dances (plikt)",
+      "pieces_list": [
+        "March Slave",
+        "Illyrian Dances (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.5,
@@ -120,7 +133,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858755"
+      "scraped_at": "2025-09-21T19:51:31.630373"
     },
     {
       "id": "1990-1-divisjon-07-hamar-musikkorps",
@@ -129,8 +142,11 @@
       "rank": 7,
       "orchestra": "Hamar Musikkorps",
       "conductor": "Trond Brenne",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "The Planets, 4. sats Jupiter The Bringer of Jollity; The Hounds of Spring (plikt)",
+      "pieces_list": [
+        "The Planets, 4. sats Jupiter The Bringer of Jollity",
+        "The Hounds of Spring (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -139,7 +155,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858757"
+      "scraped_at": "2025-09-21T19:51:31.630377"
     },
     {
       "id": "1990-1-divisjon-08-skjetten-ungdomskorps",
@@ -158,7 +174,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858759"
+      "scraped_at": "2025-09-21T19:51:31.630380"
     },
     {
       "id": "1990-1-divisjon-09-strusshamn-musikkforening",
@@ -177,7 +193,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858761"
+      "scraped_at": "2025-09-21T19:51:31.630382"
     },
     {
       "id": "1990-1-divisjon-10-opus-82",
@@ -196,7 +212,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858764"
+      "scraped_at": "2025-09-21T19:51:31.630385"
     },
     {
       "id": "1990-1-divisjon-11-tromsø-orkesterforenings-janitsjarkorps",
@@ -215,7 +231,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858766"
+      "scraped_at": "2025-09-21T19:51:31.630389"
     },
     {
       "id": "1990-1-divisjon-12-byneset-musikkorps",
@@ -224,8 +240,11 @@
       "rank": 12,
       "orchestra": "Byneset Musikkorps",
       "conductor": "Arne M. Strand",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Forza del Destino; Illyrian Dances (plikt)",
+      "pieces_list": [
+        "La Forza del Destino",
+        "Illyrian Dances (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 81.0,
@@ -234,7 +253,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858768"
+      "scraped_at": "2025-09-21T19:51:31.630392"
     },
     {
       "id": "1990-2-divisjon-01-sandvikens-ungdomskorps",
@@ -253,7 +272,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858770"
+      "scraped_at": "2025-09-21T19:51:31.630395"
     },
     {
       "id": "1990-2-divisjon-02-nittedal-og-hakadal-janitsjar",
@@ -262,8 +281,11 @@
       "rank": 2,
       "orchestra": "Nittedal og Hakadal Janitsjar",
       "conductor": "Ola Gudmundsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance; Puszta (Four Gypsi Dances) (plikt)",
+      "pieces_list": [
+        "Incantation and Dance",
+        "Puszta (Four Gypsi Dances) (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.5,
@@ -272,7 +294,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858772"
+      "scraped_at": "2025-09-21T19:51:31.630398"
     },
     {
       "id": "1990-2-divisjon-03-musikklaget-brage",
@@ -291,7 +313,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858774"
+      "scraped_at": "2025-09-21T19:51:31.630401"
     },
     {
       "id": "1990-2-divisjon-04-eidsvåg-musikklag",
@@ -310,7 +332,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858776"
+      "scraped_at": "2025-09-21T19:51:31.630404"
     },
     {
       "id": "1990-2-divisjon-05-austrheim-lindås/alversund-musikkorps",
@@ -319,8 +341,11 @@
       "rank": 5,
       "orchestra": "Austrheim-Lindås/Alversund Musikkorps",
       "conductor": "Olav Kristiansen/Kjell Åge Rosnes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "El Camino Real; Puszta (Four Gypsi Dances) (plikt)",
+      "pieces_list": [
+        "El Camino Real",
+        "Puszta (Four Gypsi Dances) (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.25,
@@ -329,7 +354,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858778"
+      "scraped_at": "2025-09-21T19:51:31.630408"
     },
     {
       "id": "1990-2-divisjon-06-strinda-ungdomskorps",
@@ -338,8 +363,10 @@
       "rank": 6,
       "orchestra": "Strinda Ungdomskorps",
       "conductor": "Knut Lauritzen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Tristropha (plikt)",
+      "pieces_list": [
+        "Tristropha (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.25,
@@ -348,7 +375,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858780"
+      "scraped_at": "2025-09-21T19:51:31.630411"
     },
     {
       "id": "1990-2-divisjon-07-namsos-musikkforening",
@@ -357,8 +384,11 @@
       "rank": 7,
       "orchestra": "Namsos Musikkforening",
       "conductor": "Ketil R. Teigen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Divertimento; Tristropha (plikt)",
+      "pieces_list": [
+        "Divertimento",
+        "Tristropha (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.25,
@@ -367,7 +397,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858782"
+      "scraped_at": "2025-09-21T19:51:31.630414"
     },
     {
       "id": "1990-2-divisjon-08-øvre-byåsen-janitsjar",
@@ -386,7 +416,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858784"
+      "scraped_at": "2025-09-21T19:51:31.630417"
     },
     {
       "id": "1990-2-divisjon-09-namsos-janitsjar",
@@ -395,8 +425,11 @@
       "rank": 9,
       "orchestra": "Namsos Janitsjar",
       "conductor": "Rene Kuitert",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Third Suite for Band; Puszta (Four Gypsi Dances) (plikt)",
+      "pieces_list": [
+        "Third Suite for Band",
+        "Puszta (Four Gypsi Dances) (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 83.5,
@@ -405,7 +438,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858786"
+      "scraped_at": "2025-09-21T19:51:31.630420"
     },
     {
       "id": "1990-2-divisjon-10-melhus-janitsjarkorps",
@@ -424,7 +457,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858788"
+      "scraped_at": "2025-09-21T19:51:31.630423"
     },
     {
       "id": "1990-2-divisjon-11-malvik-musikkorps",
@@ -433,8 +466,10 @@
       "rank": 11,
       "orchestra": "Malvik Musikkorps",
       "conductor": "Reidar Bye",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Die Verkaufte Braut",
+      "pieces_list": [
+        "Die Verkaufte Braut"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 80.0,
@@ -443,7 +478,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858790"
+      "scraped_at": "2025-09-21T19:51:31.630426"
     },
     {
       "id": "1990-3-divisjon-01-sotra-musikklag",
@@ -452,8 +487,11 @@
       "rank": 1,
       "orchestra": "Sotra Musikklag",
       "conductor": "Espen Selvik",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Synergi; Chorale and Shaker Dance (plikt)",
+      "pieces_list": [
+        "Synergi",
+        "Chorale and Shaker Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.0,
@@ -462,7 +500,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858792"
+      "scraped_at": "2025-09-21T19:51:31.630429"
     },
     {
       "id": "1990-3-divisjon-02-ytre-rendal-hornmusikklag",
@@ -481,7 +519,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858794"
+      "scraped_at": "2025-09-21T19:51:31.630432"
     },
     {
       "id": "1990-3-divisjon-03-skjold-nesttun-janitsjar",
@@ -500,7 +538,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858796"
+      "scraped_at": "2025-09-21T19:51:31.630435"
     },
     {
       "id": "1990-3-divisjon-04-gaupen-musikkforening",
@@ -519,7 +557,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858798"
+      "scraped_at": "2025-09-21T19:51:31.630437"
     },
     {
       "id": "1990-3-divisjon-05-solberg-musikkorps",
@@ -538,7 +576,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858800"
+      "scraped_at": "2025-09-21T19:51:31.630440"
     },
     {
       "id": "1990-3-divisjon-06-klæbu-musikkorps",
@@ -557,9 +595,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.858801"
+      "scraped_at": "2025-09-21T19:51:31.630443"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:53.860534"
+  "exported_at": "2025-09-21T19:51:31.636554"
 }

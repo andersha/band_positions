@@ -14,8 +14,10 @@
       "rank": 1,
       "orchestra": "Dragefjellets Musikkorps Bergen",
       "conductor": "Lars Kristian Brynhildsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Mutanza (plikt)",
+      "pieces_list": [
+        "Mutanza (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.0,
@@ -24,7 +26,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.850078"
+      "scraped_at": "2025-09-21T19:51:31.597374"
     },
     {
       "id": "1987-1-divisjon-02-sagene-janitsjarkorps",
@@ -33,8 +35,10 @@
       "rank": 2,
       "orchestra": "Sagene Janitsjarkorps",
       "conductor": "Tom Skjellum",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Mutanza (plikt)",
+      "pieces_list": [
+        "Mutanza (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.7,
@@ -43,7 +47,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.850081"
+      "scraped_at": "2025-09-21T19:51:31.597379"
     },
     {
       "id": "1987-1-divisjon-03-lillestrøm-musikkorps",
@@ -52,8 +56,10 @@
       "rank": 3,
       "orchestra": "Lillestrøm Musikkorps",
       "conductor": "Christer Johannesen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Mutanza (plikt)",
+      "pieces_list": [
+        "Mutanza (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.3,
@@ -62,7 +68,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.850083"
+      "scraped_at": "2025-09-21T19:51:31.597382"
     },
     {
       "id": "1987-1-divisjon-04-lier-ungdomskorps",
@@ -71,8 +77,10 @@
       "rank": 4,
       "orchestra": "Lier Ungdomskorps",
       "conductor": "Gunnar Lintvedt",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Mutanza (plikt)",
+      "pieces_list": [
+        "Mutanza (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.0,
@@ -81,7 +89,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.850085"
+      "scraped_at": "2025-09-21T19:51:31.597385"
     },
     {
       "id": "1987-1-divisjon-05-bispehaugen-ungdomskorps",
@@ -90,8 +98,10 @@
       "rank": 5,
       "orchestra": "Bispehaugen Ungdomskorps",
       "conductor": "Knut Lauritzen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Mutanza (plikt)",
+      "pieces_list": [
+        "Mutanza (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.7,
@@ -100,7 +110,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.850087"
+      "scraped_at": "2025-09-21T19:51:31.597387"
     },
     {
       "id": "1987-2-divisjon-01-lørenskog-musikkorps",
@@ -109,8 +119,10 @@
       "rank": 1,
       "orchestra": "Lørenskog Musikkorps",
       "conductor": "Ola Gudmundsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Songs of the West (plikt)",
+      "pieces_list": [
+        "Songs of the West (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.7,
@@ -119,7 +131,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.850090"
+      "scraped_at": "2025-09-21T19:51:31.597391"
     },
     {
       "id": "1987-2-divisjon-02-heimdal-musikkorps",
@@ -128,8 +140,10 @@
       "rank": 2,
       "orchestra": "Heimdal Musikkorps",
       "conductor": "Kjell Jønnum",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Songs of the West (plikt)",
+      "pieces_list": [
+        "Songs of the West (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.3,
@@ -138,7 +152,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.850092"
+      "scraped_at": "2025-09-21T19:51:31.597393"
     },
     {
       "id": "1987-2-divisjon-03-malvik-musikkorps",
@@ -147,8 +161,10 @@
       "rank": 3,
       "orchestra": "Malvik Musikkorps",
       "conductor": "Per Kvistad Uddu",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Songs of the West (plikt)",
+      "pieces_list": [
+        "Songs of the West (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.7,
@@ -157,7 +173,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.850094"
+      "scraped_at": "2025-09-21T19:51:31.597396"
     },
     {
       "id": "1987-2-divisjon-04-sandvikens-ungdomskorps",
@@ -166,8 +182,10 @@
       "rank": 4,
       "orchestra": "Sandvikens Ungdomskorps",
       "conductor": "Truls Tønnesen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Songs of the West (plikt)",
+      "pieces_list": [
+        "Songs of the West (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.3,
@@ -176,9 +194,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.850096"
+      "scraped_at": "2025-09-21T19:51:31.597399"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:53.851309"
+  "exported_at": "2025-09-21T19:51:31.605231"
 }

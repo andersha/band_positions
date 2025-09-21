@@ -15,8 +15,11 @@
       "rank": 1,
       "orchestra": "Dragefjellets Musikkorps Bergen",
       "conductor": "Lars Kristian Brynhildsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festival Variations; Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Festival Variations",
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.5,
@@ -25,7 +28,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869358"
+      "scraped_at": "2025-09-21T19:51:31.653971"
     },
     {
       "id": "1992-1-divisjon-02-lillestrøm-musikkorps",
@@ -34,8 +37,11 @@
       "rank": 2,
       "orchestra": "Lillestrøm Musikkorps",
       "conductor": "Christer Johannesen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festival Variations; Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Festival Variations",
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.0,
@@ -44,7 +50,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869362"
+      "scraped_at": "2025-09-21T19:51:31.653976"
     },
     {
       "id": "1992-1-divisjon-03-sarpsborg-janitsjarkorps",
@@ -53,8 +59,11 @@
       "rank": 3,
       "orchestra": "Sarpsborg Janitsjarkorps",
       "conductor": "Christer Johannesen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations on a Hymn by Louis Bourgeois; Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Variations on a Hymn by Louis Bourgeois",
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.5,
@@ -63,7 +72,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869364"
+      "scraped_at": "2025-09-21T19:51:31.653979"
     },
     {
       "id": "1992-1-divisjon-04-sagene-janitsjarkorps",
@@ -72,8 +81,10 @@
       "rank": 4,
       "orchestra": "Sagene Janitsjarkorps",
       "conductor": "Tom Skjellum",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.5,
@@ -82,7 +93,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869366"
+      "scraped_at": "2025-09-21T19:51:31.653982"
     },
     {
       "id": "1992-1-divisjon-05-vestre-aker-musikkorps",
@@ -91,8 +102,10 @@
       "rank": 5,
       "orchestra": "Vestre Aker Musikkorps",
       "conductor": "Erlend Tunestveit",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.0,
@@ -101,7 +114,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869368"
+      "scraped_at": "2025-09-21T19:51:31.653985"
     },
     {
       "id": "1992-1-divisjon-06-lier-ungdomskorps",
@@ -110,8 +123,10 @@
       "rank": 6,
       "orchestra": "Lier Ungdomskorps",
       "conductor": "Jan Roger Øren",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -120,7 +135,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869370"
+      "scraped_at": "2025-09-21T19:51:31.653988"
     },
     {
       "id": "1992-1-divisjon-07-sandefjord-musikkorps",
@@ -129,8 +144,10 @@
       "rank": 7,
       "orchestra": "Sandefjord Musikkorps",
       "conductor": "Egil Johannes Lysebo",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.5,
@@ -139,7 +156,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869372"
+      "scraped_at": "2025-09-21T19:51:31.653991"
     },
     {
       "id": "1992-1-divisjon-08-aalesunds-ungdomsmusikkorps",
@@ -148,8 +165,10 @@
       "rank": 8,
       "orchestra": "Aalesunds Ungdomsmusikkorps",
       "conductor": "Tor Haram",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.0,
@@ -158,7 +177,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869374"
+      "scraped_at": "2025-09-21T19:51:31.653993"
     },
     {
       "id": "1992-1-divisjon-09-stabekk-janitsjarorkester",
@@ -167,8 +186,11 @@
       "rank": 9,
       "orchestra": "Stabekk Janitsjarorkester",
       "conductor": "Tom Brevik",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Four Scottisch Dances; Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Four Scottisch Dances",
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -177,7 +199,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869376"
+      "scraped_at": "2025-09-21T19:51:31.653996"
     },
     {
       "id": "1992-1-divisjon-10-kolbotn-konsertorkester",
@@ -186,8 +208,11 @@
       "rank": 10,
       "orchestra": "Kolbotn Konsertorkester",
       "conductor": "Erlend Tunestveit",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Soldatumesse; Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Soldatumesse",
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -196,7 +221,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869378"
+      "scraped_at": "2025-09-21T19:51:31.653999"
     },
     {
       "id": "1992-1-divisjon-11-halsen-musikkforening",
@@ -205,8 +230,11 @@
       "rank": 11,
       "orchestra": "Halsen Musikkforening",
       "conductor": "Holger Gulbrandsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphony no. 1 for Band; Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Symphony no. 1 for Band",
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -215,7 +243,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869380"
+      "scraped_at": "2025-09-21T19:51:31.654002"
     },
     {
       "id": "1992-1-divisjon-12-sinsen-konsertorkester",
@@ -224,8 +252,10 @@
       "rank": 12,
       "orchestra": "Sinsen Konsertorkester",
       "conductor": "Holger Gulbrandsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.0,
@@ -234,7 +264,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869382"
+      "scraped_at": "2025-09-21T19:51:31.654005"
     },
     {
       "id": "1992-1-divisjon-13-opus-82",
@@ -243,8 +273,10 @@
       "rank": 13,
       "orchestra": "Opus 82",
       "conductor": "Ingar Bergby",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 83.0,
@@ -253,7 +285,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869384"
+      "scraped_at": "2025-09-21T19:51:31.654008"
     },
     {
       "id": "1992-1-divisjon-14-sandvikens-ungdomskorps",
@@ -262,17 +294,22 @@
       "rank": 14,
       "orchestra": "Sandvikens Ungdomskorps",
       "conductor": "Michael Antrobus",
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
+      "pieces": "Hjalar; Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Hjalar",
+        "Fanfare and Choral (plikt)"
+      ],
+      "composers": "Ljod",
+      "composers_list": [
+        "Ljod"
+      ],
       "points": 81.5,
       "max_points": 100.0,
       "image_url": null,
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869386"
+      "scraped_at": "2025-09-21T19:51:31.654012"
     },
     {
       "id": "1992-1-divisjon-15-lørenskog-musikkorps",
@@ -281,8 +318,11 @@
       "rank": 15,
       "orchestra": "Lørenskog Musikkorps",
       "conductor": "Erlend Tunestveit",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Prologue and Dance; Fanfare and Choral (plikt)",
+      "pieces_list": [
+        "Prologue and Dance",
+        "Fanfare and Choral (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 80.0,
@@ -291,7 +331,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869388"
+      "scraped_at": "2025-09-21T19:51:31.654016"
     },
     {
       "id": "1992-2-divisjon-01-byneset-musikkorps",
@@ -300,8 +340,11 @@
       "rank": 1,
       "orchestra": "Byneset Musikkorps",
       "conductor": "Per Kvistad Uddu",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Second Suite for Band; Cartoon (plikt)",
+      "pieces_list": [
+        "Second Suite for Band",
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 96.0,
@@ -310,7 +353,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869390"
+      "scraped_at": "2025-09-21T19:51:31.654019"
     },
     {
       "id": "1992-2-divisjon-02-nord-odal-hornmusikk",
@@ -319,8 +362,11 @@
       "rank": 2,
       "orchestra": "Nord-Odal Hornmusikk",
       "conductor": "Mardon Åvitsland",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "El Camino Real; Cartoon (plikt)",
+      "pieces_list": [
+        "El Camino Real",
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.0,
@@ -329,7 +375,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869392"
+      "scraped_at": "2025-09-21T19:51:31.654022"
     },
     {
       "id": "1992-2-divisjon-03-kolstad-janitsjar",
@@ -338,8 +384,10 @@
       "rank": 3,
       "orchestra": "Kolstad Janitsjar",
       "conductor": "Torstein Siegel",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Cartoon (plikt)",
+      "pieces_list": [
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -348,7 +396,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869394"
+      "scraped_at": "2025-09-21T19:51:31.654025"
     },
     {
       "id": "1992-2-divisjon-04-østre-aker-musikkorps",
@@ -357,8 +405,10 @@
       "rank": 4,
       "orchestra": "Østre Aker Musikkorps",
       "conductor": "Geir Gaarder",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Cartoon (plikt)",
+      "pieces_list": [
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.0,
@@ -367,7 +417,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869396"
+      "scraped_at": "2025-09-21T19:51:31.654028"
     },
     {
       "id": "1992-2-divisjon-05-molde-janitsjar",
@@ -376,8 +426,11 @@
       "rank": 5,
       "orchestra": "Molde Janitsjar",
       "conductor": "Leif Skeidsvoll",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphony no. 1, The Lord of the Rings, \"Gandalf\"; Cartoon (plikt)",
+      "pieces_list": [
+        "Symphony no. 1, The Lord of the Rings, \"Gandalf\"",
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.5,
@@ -386,7 +439,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869398"
+      "scraped_at": "2025-09-21T19:51:31.654031"
     },
     {
       "id": "1992-2-divisjon-06-ranheim-musikkforening",
@@ -395,8 +448,10 @@
       "rank": 6,
       "orchestra": "Ranheim Musikkforening",
       "conductor": "Arild Hognes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Cartoon (plikt)",
+      "pieces_list": [
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -405,7 +460,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869400"
+      "scraped_at": "2025-09-21T19:51:31.654033"
     },
     {
       "id": "1992-2-divisjon-07-austrheim-lindås/alversund-musikkorps",
@@ -414,8 +469,11 @@
       "rank": 7,
       "orchestra": "Austrheim-Lindås/Alversund Musikkorps",
       "conductor": "Olav Kristiansen/Håkon Sundin",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Sinfonia Nobilissima; Cartoon (plikt)",
+      "pieces_list": [
+        "Sinfonia Nobilissima",
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.0,
@@ -424,7 +482,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869402"
+      "scraped_at": "2025-09-21T19:51:31.654037"
     },
     {
       "id": "1992-2-divisjon-07-nittedal-og-hakadal-janitsjar",
@@ -433,8 +491,11 @@
       "rank": 7,
       "orchestra": "Nittedal og Hakadal Janitsjar",
       "conductor": "Ola Gudmundsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Jericho (Rhapsody for Band); Cartoon (plikt)",
+      "pieces_list": [
+        "Jericho (Rhapsody for Band)",
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.0,
@@ -443,7 +504,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869404"
+      "scraped_at": "2025-09-21T19:51:31.654039"
     },
     {
       "id": "1992-2-divisjon-09-østensjø-janitsjar",
@@ -452,8 +513,10 @@
       "rank": 9,
       "orchestra": "Østensjø Janitsjar",
       "conductor": "Hasse Ørbjo",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Cartoon (plikt)",
+      "pieces_list": [
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.5,
@@ -462,7 +525,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869406"
+      "scraped_at": "2025-09-21T19:51:31.654043"
     },
     {
       "id": "1992-2-divisjon-10-vestsidens-musikkorps",
@@ -471,8 +534,11 @@
       "rank": 10,
       "orchestra": "Vestsidens Musikkorps",
       "conductor": "Steinar Dahl",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Militæroverture, op. 67; Cartoon (plikt)",
+      "pieces_list": [
+        "Militæroverture, op. 67",
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.0,
@@ -481,7 +547,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869408"
+      "scraped_at": "2025-09-21T19:51:31.654045"
     },
     {
       "id": "1992-2-divisjon-11-nordstrand-janitsjarkors",
@@ -490,8 +556,10 @@
       "rank": 11,
       "orchestra": "Nordstrand Janitsjarkors",
       "conductor": "Morten Brenne",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Cartoon (plikt)",
+      "pieces_list": [
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -500,7 +568,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869410"
+      "scraped_at": "2025-09-21T19:51:31.654048"
     },
     {
       "id": "1992-2-divisjon-12-musikklaget-brage",
@@ -509,8 +577,11 @@
       "rank": 12,
       "orchestra": "Musikklaget Brage",
       "conductor": "Tore Nedregård",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Humoreske; Cartoon (plikt)",
+      "pieces_list": [
+        "Humoreske",
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -519,7 +590,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869412"
+      "scraped_at": "2025-09-21T19:51:31.654051"
     },
     {
       "id": "1992-2-divisjon-12-østre-gausdal-musikkforening",
@@ -528,8 +599,11 @@
       "rank": 12,
       "orchestra": "Østre Gausdal Musikkforening",
       "conductor": "Tore Tjernsli",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Folk Festival; Cartoon (plikt)",
+      "pieces_list": [
+        "Folk Festival",
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -538,7 +612,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869414"
+      "scraped_at": "2025-09-21T19:51:31.654054"
     },
     {
       "id": "1992-2-divisjon-14-malvik-musikkorps",
@@ -547,8 +621,10 @@
       "rank": 14,
       "orchestra": "Malvik Musikkorps",
       "conductor": "Reidar Bye",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Cartoon (plikt)",
+      "pieces_list": [
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -557,7 +633,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869416"
+      "scraped_at": "2025-09-21T19:51:31.654057"
     },
     {
       "id": "1992-2-divisjon-15-eidsvoll-janitsjarkorps",
@@ -566,8 +642,11 @@
       "rank": 15,
       "orchestra": "Eidsvoll Janitsjarkorps",
       "conductor": "Rolf Thon",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Morgen, middag og aften; Cartoon (plikt)",
+      "pieces_list": [
+        "Morgen, middag og aften",
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.0,
@@ -576,7 +655,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869418"
+      "scraped_at": "2025-09-21T19:51:31.654059"
     },
     {
       "id": "1992-2-divisjon-16-alvdal-tynset-janitsjarkorps",
@@ -585,8 +664,10 @@
       "rank": 16,
       "orchestra": "Alvdal-Tynset Janitsjarkorps",
       "conductor": "Dag Tunaal",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Cartoon (plikt)",
+      "pieces_list": [
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 81.0,
@@ -595,7 +676,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869420"
+      "scraped_at": "2025-09-21T19:51:31.654062"
     },
     {
       "id": "1992-2-divisjon-17-telefylkets-musikkorps",
@@ -604,8 +685,11 @@
       "rank": 17,
       "orchestra": "Telefylkets Musikkorps",
       "conductor": "Jarl Håvard Borgen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Folk Song Suite for Military Band; Cartoon (plikt)",
+      "pieces_list": [
+        "Folk Song Suite for Military Band",
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 79.0,
@@ -614,7 +698,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869422"
+      "scraped_at": "2025-09-21T19:51:31.654065"
     },
     {
       "id": "1992-2-divisjon-18-meland-musikklag",
@@ -623,8 +707,10 @@
       "rank": 18,
       "orchestra": "Meland Musikklag",
       "conductor": "Michiel Westhof",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Cartoon (plikt)",
+      "pieces_list": [
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 79.0,
@@ -633,7 +719,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869424"
+      "scraped_at": "2025-09-21T19:51:31.654068"
     },
     {
       "id": "1992-2-divisjon-19-åsnes-hornmusikk",
@@ -642,8 +728,11 @@
       "rank": 19,
       "orchestra": "Åsnes Hornmusikk",
       "conductor": "Erik Bergene",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Arabesque; Cartoon (plikt)",
+      "pieces_list": [
+        "Arabesque",
+        "Cartoon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 80.5,
@@ -652,7 +741,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869426"
+      "scraped_at": "2025-09-21T19:51:31.654071"
     },
     {
       "id": "1992-3-divisjon-01-fana-musikklag",
@@ -661,8 +750,10 @@
       "rank": 1,
       "orchestra": "Fana Musikklag",
       "conductor": "Sigurd Grøv Skramsett",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Storia (plikt)",
+      "pieces_list": [
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -671,7 +762,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869428"
+      "scraped_at": "2025-09-21T19:51:31.654074"
     },
     {
       "id": "1992-3-divisjon-02-skjold-nesttun-janitsjar",
@@ -680,8 +771,10 @@
       "rank": 2,
       "orchestra": "Skjold Nesttun Janitsjar",
       "conductor": "Jan Gjendemsjø",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Storia (plikt)",
+      "pieces_list": [
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.5,
@@ -690,7 +783,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869429"
+      "scraped_at": "2025-09-21T19:51:31.654076"
     },
     {
       "id": "1992-3-divisjon-03-hommelvik-musikkorps",
@@ -699,8 +792,10 @@
       "rank": 3,
       "orchestra": "Hommelvik Musikkorps",
       "conductor": "Torstein Siegel",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Storia (plikt)",
+      "pieces_list": [
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -709,7 +804,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869431"
+      "scraped_at": "2025-09-21T19:51:31.654079"
     },
     {
       "id": "1992-3-divisjon-04-frøya-janitsjar",
@@ -718,8 +813,10 @@
       "rank": 4,
       "orchestra": "Frøya Janitsjar",
       "conductor": "Ulf Steinar Berg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Storia (plikt)",
+      "pieces_list": [
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.0,
@@ -728,7 +825,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869433"
+      "scraped_at": "2025-09-21T19:51:31.654082"
     },
     {
       "id": "1992-3-divisjon-04-gloppen-janitsjar",
@@ -737,8 +834,11 @@
       "rank": 4,
       "orchestra": "Gloppen Janitsjar",
       "conductor": "Geir Eikenes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Slavonic Dances; La Storia (plikt)",
+      "pieces_list": [
+        "Slavonic Dances",
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.0,
@@ -747,7 +847,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869436"
+      "scraped_at": "2025-09-21T19:51:31.654088"
     },
     {
       "id": "1992-3-divisjon-06-bodø-janitsjar",
@@ -756,8 +856,11 @@
       "rank": 6,
       "orchestra": "Bodø Janitsjar",
       "conductor": "Odd André Brasetvik",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Overture Die Felsenmühle; La Storia (plikt)",
+      "pieces_list": [
+        "Overture Die Felsenmühle",
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -766,7 +869,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869438"
+      "scraped_at": "2025-09-21T19:51:31.654091"
     },
     {
       "id": "1992-3-divisjon-07-stordal-hornmusikklag",
@@ -775,8 +878,11 @@
       "rank": 7,
       "orchestra": "Stordal Hornmusikklag",
       "conductor": "Odd Fossum",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fall River Overture; La Storia (plikt)",
+      "pieces_list": [
+        "Fall River Overture",
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.5,
@@ -785,7 +891,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869440"
+      "scraped_at": "2025-09-21T19:51:31.654095"
     },
     {
       "id": "1992-3-divisjon-08-strindheim-janitsjar",
@@ -794,8 +900,10 @@
       "rank": 8,
       "orchestra": "Strindheim Janitsjar",
       "conductor": "Stein Jacobsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Storia (plikt)",
+      "pieces_list": [
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -804,7 +912,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869442"
+      "scraped_at": "2025-09-21T19:51:31.654099"
     },
     {
       "id": "1992-3-divisjon-09-ellingsøy-hornmusikk",
@@ -813,8 +921,10 @@
       "rank": 9,
       "orchestra": "Ellingsøy Hornmusikk",
       "conductor": "Knut Dalhaug",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Storia (plikt)",
+      "pieces_list": [
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.5,
@@ -823,7 +933,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869444"
+      "scraped_at": "2025-09-21T19:51:31.654102"
     },
     {
       "id": "1992-3-divisjon-10-steinkjer-ungdomskorps",
@@ -832,8 +942,11 @@
       "rank": 10,
       "orchestra": "Steinkjer Ungdomskorps",
       "conductor": "Ivar Jønvik",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Four Contrasts for Wind; La Storia (plikt)",
+      "pieces_list": [
+        "Four Contrasts for Wind",
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 83.5,
@@ -842,7 +955,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869446"
+      "scraped_at": "2025-09-21T19:51:31.654105"
     },
     {
       "id": "1992-3-divisjon-11-åndalsnes-musikkforening",
@@ -851,8 +964,10 @@
       "rank": 11,
       "orchestra": "Åndalsnes Musikkforening",
       "conductor": "Jenzy Lorkowski",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Storia (plikt)",
+      "pieces_list": [
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 82.5,
@@ -861,7 +976,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869448"
+      "scraped_at": "2025-09-21T19:51:31.654108"
     },
     {
       "id": "1992-3-divisjon-12-kirksæterørens-hornmusikk",
@@ -870,8 +985,10 @@
       "rank": 12,
       "orchestra": "Kirksæterørens Hornmusikk",
       "conductor": "Per Olav Halvorsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Storia (plikt)",
+      "pieces_list": [
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 80.5,
@@ -880,7 +997,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869450"
+      "scraped_at": "2025-09-21T19:51:31.654111"
     },
     {
       "id": "1992-3-divisjon-13-hegra-hornmusikklag",
@@ -889,8 +1006,10 @@
       "rank": 13,
       "orchestra": "Hegra Hornmusikklag",
       "conductor": "Jan Selbæk",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Storia (plikt)",
+      "pieces_list": [
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 80.0,
@@ -899,7 +1018,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869452"
+      "scraped_at": "2025-09-21T19:51:31.654114"
     },
     {
       "id": "1992-3-divisjon-14-skogn-hornmusikklag",
@@ -908,8 +1027,10 @@
       "rank": 14,
       "orchestra": "Skogn Hornmusikklag",
       "conductor": "Morten Hole",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Storia (plikt)",
+      "pieces_list": [
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 79.0,
@@ -918,7 +1039,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869454"
+      "scraped_at": "2025-09-21T19:51:31.654117"
     },
     {
       "id": "1992-3-divisjon-15-rennebu-musikkorps",
@@ -927,8 +1048,10 @@
       "rank": 15,
       "orchestra": "Rennebu Musikkorps",
       "conductor": "Arnfinn Solem",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "La Storia (plikt)",
+      "pieces_list": [
+        "La Storia (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 76.5,
@@ -937,9 +1060,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.869456"
+      "scraped_at": "2025-09-21T19:51:31.654119"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:53.872258"
+  "exported_at": "2025-09-21T19:51:31.661111"
 }

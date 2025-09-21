@@ -17,8 +17,11 @@
       "rank": 1,
       "orchestra": "Lillestrøm Musikkorps",
       "conductor": "Ingar Bergby",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Piece of Mind; Stabsarabesk",
+      "pieces_list": [
+        "Piece of Mind",
+        "Stabsarabesk"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 97.0,
@@ -27,7 +30,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912537"
+      "scraped_at": "2025-09-21T19:51:31.736197"
     },
     {
       "id": "1998-elite-02-nanset-ungdomsmusikkorps",
@@ -36,8 +39,11 @@
       "rank": 2,
       "orchestra": "Nanset Ungdomsmusikkorps",
       "conductor": "Odd Terje Lysebo",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Short Ride in a Fast Machine; Arctic Dreams",
+      "pieces_list": [
+        "Short Ride in a Fast Machine",
+        "Arctic Dreams"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.0,
@@ -46,7 +52,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912541"
+      "scraped_at": "2025-09-21T19:51:31.736201"
     },
     {
       "id": "1998-elite-03-dragefjellets-musikkorps-bergen",
@@ -55,8 +61,11 @@
       "rank": 3,
       "orchestra": "Dragefjellets Musikkorps Bergen",
       "conductor": "Helge Haukås",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Feste Romane; The Roman Carnival",
+      "pieces_list": [
+        "Feste Romane",
+        "The Roman Carnival"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -65,7 +74,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912543"
+      "scraped_at": "2025-09-21T19:51:31.736204"
     },
     {
       "id": "1998-elite-04-sandvikens-ungdomskorps",
@@ -74,8 +83,12 @@
       "rank": 4,
       "orchestra": "Sandvikens Ungdomskorps",
       "conductor": "Ray Farr",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Morning Alleluias for the Winter Solstice; Sun Paints Rainbows on the Vast Waves; Dawn Flight",
+      "pieces_list": [
+        "Morning Alleluias for the Winter Solstice",
+        "Sun Paints Rainbows on the Vast Waves",
+        "Dawn Flight"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -84,7 +97,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912545"
+      "scraped_at": "2025-09-21T19:51:31.736206"
     },
     {
       "id": "1998-elite-05-sarpsborg-janitsjarkorps",
@@ -93,8 +106,11 @@
       "rank": 5,
       "orchestra": "Sarpsborg Janitsjarkorps",
       "conductor": "Geir Holm",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Lincolnshire Posy; Armageddon",
+      "pieces_list": [
+        "Lincolnshire Posy",
+        "Armageddon"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.0,
@@ -103,7 +119,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912547"
+      "scraped_at": "2025-09-21T19:51:31.736208"
     },
     {
       "id": "1998-elite-06-vestre-aker-musikkorps",
@@ -122,7 +138,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912549"
+      "scraped_at": "2025-09-21T19:51:31.736210"
     },
     {
       "id": "1998-elite-07-sandefjord-musikkorps",
@@ -141,7 +157,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912551"
+      "scraped_at": "2025-09-21T19:51:31.736212"
     },
     {
       "id": "1998-elite-08-sinsen-konsertorkester",
@@ -160,7 +176,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912553"
+      "scraped_at": "2025-09-21T19:51:31.736214"
     },
     {
       "id": "1998-1-divisjon-01-aalesunds-ungdomsmusikkorps",
@@ -169,8 +185,11 @@
       "rank": 1,
       "orchestra": "Aalesunds Ungdomsmusikkorps",
       "conductor": "Arnfinn Dalhaug",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fantasy Variations on a Theme by Niccolo Paganini; Postcard (plikt)",
+      "pieces_list": [
+        "Fantasy Variations on a Theme by Niccolo Paganini",
+        "Postcard (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 96.5,
@@ -179,7 +198,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912555"
+      "scraped_at": "2025-09-21T19:51:31.736217"
     },
     {
       "id": "1998-1-divisjon-02-stabekk-janitsjarorkester",
@@ -188,8 +207,11 @@
       "rank": 2,
       "orchestra": "Stabekk Janitsjarorkester",
       "conductor": "Bengt Eklund",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Stormworks; Postcard (plikt)",
+      "pieces_list": [
+        "Stormworks",
+        "Postcard (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 96.5,
@@ -198,7 +220,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912557"
+      "scraped_at": "2025-09-21T19:51:31.736219"
     },
     {
       "id": "1998-1-divisjon-03-opus-82",
@@ -207,8 +229,10 @@
       "rank": 3,
       "orchestra": "Opus 82",
       "conductor": "Christer Bergby",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Postcard (plikt)",
+      "pieces_list": [
+        "Postcard (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 96.0,
@@ -217,7 +241,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912559"
+      "scraped_at": "2025-09-21T19:51:31.736221"
     },
     {
       "id": "1998-1-divisjon-04-kolbotn-konsertorkester",
@@ -226,8 +250,11 @@
       "rank": 4,
       "orchestra": "Kolbotn Konsertorkester",
       "conductor": "Erlend Tunestveit",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "The Year of the Dragon; Postcard (plikt)",
+      "pieces_list": [
+        "The Year of the Dragon",
+        "Postcard (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.5,
@@ -236,7 +263,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912561"
+      "scraped_at": "2025-09-21T19:51:31.736224"
     },
     {
       "id": "1998-1-divisjon-05-greåker-musikkorps",
@@ -245,8 +272,10 @@
       "rank": 5,
       "orchestra": "Greåker Musikkorps",
       "conductor": "Rune André Halvorsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Postcard (plikt)",
+      "pieces_list": [
+        "Postcard (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.5,
@@ -255,7 +284,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912564"
+      "scraped_at": "2025-09-21T19:51:31.736226"
     },
     {
       "id": "1998-1-divisjon-06-skjetten-ungdomskorps",
@@ -264,8 +293,10 @@
       "rank": 6,
       "orchestra": "Skjetten Ungdomskorps",
       "conductor": "Svein Greni",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Postcard (plikt)",
+      "pieces_list": [
+        "Postcard (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.0,
@@ -274,7 +305,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912566"
+      "scraped_at": "2025-09-21T19:51:31.736228"
     },
     {
       "id": "1998-1-divisjon-07-bispehaugen-ungdomskorps",
@@ -283,8 +314,10 @@
       "rank": 7,
       "orchestra": "Bispehaugen Ungdomskorps",
       "conductor": "Michael Antrobus",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Postcard (plikt)",
+      "pieces_list": [
+        "Postcard (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.5,
@@ -293,7 +326,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912567"
+      "scraped_at": "2025-09-21T19:51:31.736230"
     },
     {
       "id": "1998-1-divisjon-08-nittedal-og-hakadal-janitsjar",
@@ -302,8 +335,11 @@
       "rank": 8,
       "orchestra": "Nittedal og Hakadal Janitsjar",
       "conductor": "Trond Elnes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Spartacus; Postcard (plikt)",
+      "pieces_list": [
+        "Spartacus",
+        "Postcard (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -312,7 +348,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912569"
+      "scraped_at": "2025-09-21T19:51:31.736232"
     },
     {
       "id": "1998-1-divisjon-09-vestsidens-musikkorps",
@@ -321,8 +357,11 @@
       "rank": 9,
       "orchestra": "Vestsidens Musikkorps",
       "conductor": "Arild Andersen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Toccata Marziale; Postcard (plikt)",
+      "pieces_list": [
+        "Toccata Marziale",
+        "Postcard (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -331,7 +370,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912571"
+      "scraped_at": "2025-09-21T19:51:31.736234"
     },
     {
       "id": "1998-1-divisjon-10-byneset-musikkorps",
@@ -340,8 +379,11 @@
       "rank": 10,
       "orchestra": "Byneset Musikkorps",
       "conductor": "Per Kvistad Uddu",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Lincolnshire Posy; Postcard (plikt)",
+      "pieces_list": [
+        "Lincolnshire Posy",
+        "Postcard (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -350,7 +392,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912573"
+      "scraped_at": "2025-09-21T19:51:31.736236"
     },
     {
       "id": "1998-1-divisjon-11-drammen-konsertorkester",
@@ -359,8 +401,10 @@
       "rank": 11,
       "orchestra": "Drammen Konsertorkester",
       "conductor": "Jan Roger Øren",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Postcard (plikt)",
+      "pieces_list": [
+        "Postcard (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -369,7 +413,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912575"
+      "scraped_at": "2025-09-21T19:51:31.736238"
     },
     {
       "id": "1998-1-divisjon-12-sagene-janitsjarkorps",
@@ -378,8 +422,10 @@
       "rank": 12,
       "orchestra": "Sagene Janitsjarkorps",
       "conductor": "Tom Skjellum",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Postcard (plikt)",
+      "pieces_list": [
+        "Postcard (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -388,7 +434,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912577"
+      "scraped_at": "2025-09-21T19:51:31.736240"
     },
     {
       "id": "1998-2-divisjon-01-lørenskog-musikkorps",
@@ -397,8 +443,11 @@
       "rank": 1,
       "orchestra": "Lørenskog Musikkorps",
       "conductor": "Kjell Martinsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphonic Rhapsody; Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Symphonic Rhapsody",
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.0,
@@ -407,7 +456,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912579"
+      "scraped_at": "2025-09-21T19:51:31.736242"
     },
     {
       "id": "1998-2-divisjon-02-musikkforeningen-nidarholm",
@@ -416,8 +465,11 @@
       "rank": 2,
       "orchestra": "Musikkforeningen Nidarholm",
       "conductor": "Espen Andersen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Third Suite for Band (Scenes de Ballet); Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Third Suite for Band (Scenes de Ballet)",
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.5,
@@ -426,7 +478,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912581"
+      "scraped_at": "2025-09-21T19:51:31.736244"
     },
     {
       "id": "1998-2-divisjon-03-skjold-nesttun-janitsjar",
@@ -435,8 +487,10 @@
       "rank": 3,
       "orchestra": "Skjold Nesttun Janitsjar",
       "conductor": "Espen Opedal",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.5,
@@ -445,7 +499,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912583"
+      "scraped_at": "2025-09-21T19:51:31.736246"
     },
     {
       "id": "1998-2-divisjon-04-lisleby-musikkorps",
@@ -454,8 +508,10 @@
       "rank": 4,
       "orchestra": "Lisleby Musikkorps",
       "conductor": "Geir Holm",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.0,
@@ -464,7 +520,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912585"
+      "scraped_at": "2025-09-21T19:51:31.736249"
     },
     {
       "id": "1998-2-divisjon-05-hønefoss-ungdomskorps",
@@ -473,8 +529,10 @@
       "rank": 5,
       "orchestra": "Hønefoss Ungdomskorps",
       "conductor": "Øystein Olsen Vadsten",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.0,
@@ -483,7 +541,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912587"
+      "scraped_at": "2025-09-21T19:51:31.736251"
     },
     {
       "id": "1998-2-divisjon-06-kolstad-janitsjar",
@@ -492,8 +550,10 @@
       "rank": 6,
       "orchestra": "Kolstad Janitsjar",
       "conductor": "Nils Graftås",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -502,7 +562,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912589"
+      "scraped_at": "2025-09-21T19:51:31.736253"
     },
     {
       "id": "1998-2-divisjon-07-musikkforeningen-viken",
@@ -511,8 +571,10 @@
       "rank": 7,
       "orchestra": "Musikkforeningen Viken",
       "conductor": "Hans Andreas Kjølberg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -521,7 +583,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912590"
+      "scraped_at": "2025-09-21T19:51:31.736255"
     },
     {
       "id": "1998-2-divisjon-08-sande-musikkorps",
@@ -530,8 +592,10 @@
       "rank": 8,
       "orchestra": "Sande Musikkorps",
       "conductor": "Gunnar Lintvedt",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.5,
@@ -540,7 +604,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912592"
+      "scraped_at": "2025-09-21T19:51:31.736257"
     },
     {
       "id": "1998-2-divisjon-09-lungegaardens-musikkorps",
@@ -549,8 +613,10 @@
       "rank": 9,
       "orchestra": "Lungegaardens Musikkorps",
       "conductor": "Jan L. Jacobsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.5,
@@ -559,7 +625,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912594"
+      "scraped_at": "2025-09-21T19:51:31.736259"
     },
     {
       "id": "1998-2-divisjon-10-mo-hornmusikk",
@@ -568,8 +634,10 @@
       "rank": 10,
       "orchestra": "Mo Hornmusikk",
       "conductor": "Tor Halvard Nilsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -578,7 +646,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912596"
+      "scraped_at": "2025-09-21T19:51:31.736261"
     },
     {
       "id": "1998-2-divisjon-11-tønsberg-musikkorps-av-1919",
@@ -587,8 +655,10 @@
       "rank": 11,
       "orchestra": "Tønsberg Musikkorps av 1919",
       "conductor": "Truls Sanaker",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.5,
@@ -597,7 +667,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912599"
+      "scraped_at": "2025-09-21T19:51:31.736263"
     },
     {
       "id": "1998-2-divisjon-12-oslo-postorkester",
@@ -606,8 +676,10 @@
       "rank": 12,
       "orchestra": "Oslo Postorkester",
       "conductor": "Erik Bergene",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 83.5,
@@ -616,7 +688,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912600"
+      "scraped_at": "2025-09-21T19:51:31.736265"
     },
     {
       "id": "1998-2-divisjon-13-malvik-musikkorps",
@@ -625,8 +697,10 @@
       "rank": 13,
       "orchestra": "Malvik Musikkorps",
       "conductor": "Knut Lauritzen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 83.0,
@@ -635,7 +709,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912602"
+      "scraped_at": "2025-09-21T19:51:31.736267"
     },
     {
       "id": "1998-2-divisjon-14-musikklaget-lurlåt",
@@ -644,8 +718,10 @@
       "rank": 14,
       "orchestra": "Musikklaget Lurlåt",
       "conductor": "Trond Berg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 82.5,
@@ -654,7 +730,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912604"
+      "scraped_at": "2025-09-21T19:51:31.736269"
     },
     {
       "id": "1998-2-divisjon-15-tønsberg-janitsjarkorps",
@@ -663,8 +739,10 @@
       "rank": 15,
       "orchestra": "Tønsberg Janitsjarkorps",
       "conductor": "Thorbjørn Lønmo",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance (plikt)",
+      "pieces_list": [
+        "Incantation and Dance (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 81.5,
@@ -673,7 +751,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912606"
+      "scraped_at": "2025-09-21T19:51:31.736271"
     },
     {
       "id": "1998-3-divisjon-01-alvøens-musikkforening",
@@ -682,8 +760,10 @@
       "rank": 1,
       "orchestra": "Alvøens Musikkforening",
       "conductor": "Steffen Blindheim",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance",
+      "pieces_list": [
+        "Incantation and Dance"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.0,
@@ -692,7 +772,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912608"
+      "scraped_at": "2025-09-21T19:51:31.736273"
     },
     {
       "id": "1998-3-divisjon-02-molde-janitsjar",
@@ -701,8 +781,11 @@
       "rank": 2,
       "orchestra": "Molde Janitsjar",
       "conductor": "Trond Brenne",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symfoni i c-moll, 3. sats, Intermezzo-deler; Armenian Dances, Part 1",
+      "pieces_list": [
+        "Symfoni i c-moll, 3. sats, Intermezzo-deler",
+        "Armenian Dances, Part 1"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -711,7 +794,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912610"
+      "scraped_at": "2025-09-21T19:51:31.736276"
     },
     {
       "id": "1998-3-divisjon-03-bjølsen-ungdomskorps",
@@ -730,7 +813,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912612"
+      "scraped_at": "2025-09-21T19:51:31.736278"
     },
     {
       "id": "1998-3-divisjon-04-strinda-ungdomskorps",
@@ -749,7 +832,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912614"
+      "scraped_at": "2025-09-21T19:51:31.736280"
     },
     {
       "id": "1998-3-divisjon-05-tistedalens-musikkforening",
@@ -768,7 +851,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912616"
+      "scraped_at": "2025-09-21T19:51:31.736282"
     },
     {
       "id": "1998-3-divisjon-06-ådalsbruk-musikkforening",
@@ -787,7 +870,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912618"
+      "scraped_at": "2025-09-21T19:51:31.736284"
     },
     {
       "id": "1998-3-divisjon-07-oslo-janitsjarkorps",
@@ -806,7 +889,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912620"
+      "scraped_at": "2025-09-21T19:51:31.736286"
     },
     {
       "id": "1998-3-divisjon-08-overhalla-janitsjar",
@@ -825,7 +908,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912622"
+      "scraped_at": "2025-09-21T19:51:31.736288"
     },
     {
       "id": "1998-3-divisjon-09-hortens-ungdomsmusikkorps",
@@ -844,7 +927,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912624"
+      "scraped_at": "2025-09-21T19:51:31.736290"
     },
     {
       "id": "1998-3-divisjon-10-ulefoss-musikkorps",
@@ -863,7 +946,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912626"
+      "scraped_at": "2025-09-21T19:51:31.736293"
     },
     {
       "id": "1998-3-divisjon-11-hovin-musikkorps",
@@ -882,7 +965,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912628"
+      "scraped_at": "2025-09-21T19:51:31.736295"
     },
     {
       "id": "1998-3-divisjon-12-strindheim-janitsjar",
@@ -901,7 +984,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912630"
+      "scraped_at": "2025-09-21T19:51:31.736297"
     },
     {
       "id": "1998-3-divisjon-13-jernbanens-musikkorps-oslo",
@@ -920,7 +1003,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912632"
+      "scraped_at": "2025-09-21T19:51:31.736299"
     },
     {
       "id": "1998-3-divisjon-14-dokka-musikkorps",
@@ -939,7 +1022,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912634"
+      "scraped_at": "2025-09-21T19:51:31.736301"
     },
     {
       "id": "1998-4-divisjon-01-fåberg-musikkforening",
@@ -948,8 +1031,10 @@
       "rank": 1,
       "orchestra": "Fåberg Musikkforening",
       "conductor": "Odd Edvard Mikkelsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Illyrian Dances",
+      "pieces_list": [
+        "Illyrian Dances"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.0,
@@ -958,7 +1043,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912636"
+      "scraped_at": "2025-09-21T19:51:31.736303"
     },
     {
       "id": "1998-4-divisjon-02-eidsvoll-janitsjarkorps",
@@ -967,8 +1052,10 @@
       "rank": 2,
       "orchestra": "Eidsvoll Janitsjarkorps",
       "conductor": "Lars Lien",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Sea Songs",
+      "pieces_list": [
+        "Sea Songs"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -977,7 +1064,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912638"
+      "scraped_at": "2025-09-21T19:51:31.736305"
     },
     {
       "id": "1998-4-divisjon-03-nidarvoll-ungdomskorps",
@@ -996,7 +1083,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912640"
+      "scraped_at": "2025-09-21T19:51:31.736307"
     },
     {
       "id": "1998-4-divisjon-04-lillehammer-janitsjar",
@@ -1015,7 +1102,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912642"
+      "scraped_at": "2025-09-21T19:51:31.736309"
     },
     {
       "id": "1998-4-divisjon-05-bøler-janitsjar-og-ila-ungdomskorps",
@@ -1034,7 +1121,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912644"
+      "scraped_at": "2025-09-21T19:51:31.736311"
     },
     {
       "id": "1998-4-divisjon-06-tromsø-orkesterforenings-janitsjarkorps",
@@ -1053,7 +1140,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912646"
+      "scraped_at": "2025-09-21T19:51:31.736314"
     },
     {
       "id": "1998-4-divisjon-07-meland-musikklag",
@@ -1072,7 +1159,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912648"
+      "scraped_at": "2025-09-21T19:51:31.736316"
     },
     {
       "id": "1998-4-divisjon-08-løkken-musikkorps",
@@ -1091,7 +1178,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912650"
+      "scraped_at": "2025-09-21T19:51:31.736318"
     },
     {
       "id": "1998-4-divisjon-09-oppdal-musikkforening/rennebu-musikkorps",
@@ -1110,7 +1197,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912652"
+      "scraped_at": "2025-09-21T19:51:31.736320"
     },
     {
       "id": "1998-4-divisjon-10-hegra-hornmusikklag",
@@ -1129,7 +1216,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912654"
+      "scraped_at": "2025-09-21T19:51:31.736322"
     },
     {
       "id": "1998-4-divisjon-11-frøya-janitsjar",
@@ -1148,9 +1235,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.912656"
+      "scraped_at": "2025-09-21T19:51:31.736324"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:53.914502"
+  "exported_at": "2025-09-21T19:51:31.743065"
 }

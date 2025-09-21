@@ -14,8 +14,11 @@
       "rank": 1,
       "orchestra": "Sarpsborg Ungdomskorps",
       "conductor": "Steinar Haakenstad",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festive Overture; Eufonie (plikt)",
+      "pieces_list": [
+        "Festive Overture",
+        "Eufonie (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -24,7 +27,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.835931"
+      "scraped_at": "2025-09-21T19:51:31.527292"
     },
     {
       "id": "1982-1-divisjon-02-hamar-musikkorps",
@@ -32,9 +35,12 @@
       "division": "1. divisjon",
       "rank": 2,
       "orchestra": "Hamar Musikkorps",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
+      "conductor": "Ragnar Røgeberg",
+      "pieces": "En Natt på Bloksberg; Eufonie (plikt)",
+      "pieces_list": [
+        "En Natt på Bloksberg",
+        "Eufonie (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.9,
@@ -43,7 +49,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.835934"
+      "scraped_at": "2025-09-21T19:51:31.527296"
     },
     {
       "id": "1982-1-divisjon-03-stavanger-musikkorps-av-1919",
@@ -52,8 +58,11 @@
       "rank": 3,
       "orchestra": "Stavanger Musikkorps av 1919",
       "conductor": "Robert Rønnes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture; Eufonie (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture",
+        "Eufonie (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.7,
@@ -62,7 +71,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.835937"
+      "scraped_at": "2025-09-21T19:51:31.527298"
     },
     {
       "id": "1982-1-divisjon-04-sandefjord-musikkorps",
@@ -70,9 +79,12 @@
       "division": "1. divisjon",
       "rank": 4,
       "orchestra": "Sandefjord Musikkorps",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
+      "conductor": "Per Christian Ormar",
+      "pieces": "Akademisk festovertyre, Op. 80; Eufonie (plikt)",
+      "pieces_list": [
+        "Akademisk festovertyre, Op. 80",
+        "Eufonie (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 81.4,
@@ -81,7 +93,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.835939"
+      "scraped_at": "2025-09-21T19:51:31.527301"
     },
     {
       "id": "1982-2-divisjon-01-aalesunds-ungdomsmusikkorps",
@@ -89,9 +101,12 @@
       "division": "2. divisjon",
       "rank": 1,
       "orchestra": "Aalesunds Ungdomsmusikkorps",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
+      "conductor": "Tor Haram",
+      "pieces": "Marinarella; Festive Piece (plikt)",
+      "pieces_list": [
+        "Marinarella",
+        "Festive Piece (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.0,
@@ -100,7 +115,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.835941"
+      "scraped_at": "2025-09-21T19:51:31.527303"
     },
     {
       "id": "1982-2-divisjon-02-årstad-musikkorps",
@@ -108,9 +123,11 @@
       "division": "2. divisjon",
       "rank": 2,
       "orchestra": "Årstad Musikkorps",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
+      "conductor": "Helge Haukås",
+      "pieces": "Festive Piece (plikt)",
+      "pieces_list": [
+        "Festive Piece (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.2,
@@ -119,7 +136,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.835944"
+      "scraped_at": "2025-09-21T19:51:31.527306"
     },
     {
       "id": "1982-2-divisjon-03-heimdal-musikkorps",
@@ -128,8 +145,10 @@
       "rank": 3,
       "orchestra": "Heimdal Musikkorps",
       "conductor": "Nils Kvenild",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festive Piece (plikt)",
+      "pieces_list": [
+        "Festive Piece (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.7,
@@ -138,7 +157,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.835946"
+      "scraped_at": "2025-09-21T19:51:31.527308"
     },
     {
       "id": "1982-2-divisjon-04-musikklaget-brage",
@@ -146,9 +165,11 @@
       "division": "2. divisjon",
       "rank": 4,
       "orchestra": "Musikklaget Brage",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
+      "conductor": "Per Grønli",
+      "pieces": "Festive Piece (plikt)",
+      "pieces_list": [
+        "Festive Piece (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.9,
@@ -157,7 +178,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.835948"
+      "scraped_at": "2025-09-21T19:51:31.527310"
     },
     {
       "id": "1982-2-divisjon-05-strinda-ungdomskorps",
@@ -165,9 +186,11 @@
       "division": "2. divisjon",
       "rank": 5,
       "orchestra": "Strinda Ungdomskorps",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
+      "conductor": "Stein Jacobsen",
+      "pieces": "Festive Piece (plikt)",
+      "pieces_list": [
+        "Festive Piece (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.5,
@@ -176,9 +199,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.835950"
+      "scraped_at": "2025-09-21T19:51:31.527312"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:53.837782"
+  "exported_at": "2025-09-21T19:51:31.535910"
 }

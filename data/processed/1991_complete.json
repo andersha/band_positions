@@ -15,8 +15,11 @@
       "rank": 1,
       "orchestra": "Sinsen Konsertorkester",
       "conductor": "Holger Gulbrandsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Armenian Dances, Part 1; Pineapple Poll (plikt)",
+      "pieces_list": [
+        "Armenian Dances, Part 1",
+        "Pineapple Poll (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 96.0,
@@ -25,7 +28,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863734"
+      "scraped_at": "2025-09-21T19:51:31.641699"
     },
     {
       "id": "1991-1-divisjon-02-lillestrøm-musikkorps",
@@ -34,8 +37,10 @@
       "rank": 2,
       "orchestra": "Lillestrøm Musikkorps",
       "conductor": "Christer Johannesen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festival Overture, Op. 39 (plikt)",
+      "pieces_list": [
+        "Festival Overture, Op. 39 (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.5,
@@ -44,7 +49,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863737"
+      "scraped_at": "2025-09-21T19:51:31.641704"
     },
     {
       "id": "1991-1-divisjon-03-dragefjellets-musikkorps-bergen",
@@ -63,7 +68,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863739"
+      "scraped_at": "2025-09-21T19:51:31.641707"
     },
     {
       "id": "1991-1-divisjon-04-lørenskog-musikkorps",
@@ -72,8 +77,11 @@
       "rank": 4,
       "orchestra": "Lørenskog Musikkorps",
       "conductor": "Erlend Tunestveit",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "The Year of the Dragon; Aegean Festival Overture (plikt)",
+      "pieces_list": [
+        "The Year of the Dragon",
+        "Aegean Festival Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.0,
@@ -82,7 +90,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863741"
+      "scraped_at": "2025-09-21T19:51:31.641710"
     },
     {
       "id": "1991-1-divisjon-05-kolbotn-konsertorkester",
@@ -91,8 +99,11 @@
       "rank": 5,
       "orchestra": "Kolbotn Konsertorkester",
       "conductor": "Oddvar Mikalsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Peterloo Overture; Pineapple Poll (plikt)",
+      "pieces_list": [
+        "Peterloo Overture",
+        "Pineapple Poll (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.5,
@@ -101,7 +112,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863743"
+      "scraped_at": "2025-09-21T19:51:31.641713"
     },
     {
       "id": "1991-1-divisjon-06-aalesunds-ungdomsmusikkorps",
@@ -110,8 +121,11 @@
       "rank": 6,
       "orchestra": "Aalesunds Ungdomsmusikkorps",
       "conductor": "Tor Haram",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphony no. 1 for Band; Burlesque (plikt)",
+      "pieces_list": [
+        "Symphony no. 1 for Band",
+        "Burlesque (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.5,
@@ -120,7 +134,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863745"
+      "scraped_at": "2025-09-21T19:51:31.641716"
     },
     {
       "id": "1991-1-divisjon-07-sagene-janitsjarkorps",
@@ -139,7 +153,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863747"
+      "scraped_at": "2025-09-21T19:51:31.641719"
     },
     {
       "id": "1991-1-divisjon-08-bispehaugen-ungdomskorps",
@@ -148,8 +162,11 @@
       "rank": 8,
       "orchestra": "Bispehaugen Ungdomskorps",
       "conductor": "Knut Lauritzen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "The Year of the Dragon; Burlesque (plikt)",
+      "pieces_list": [
+        "The Year of the Dragon",
+        "Burlesque (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.5,
@@ -158,7 +175,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863749"
+      "scraped_at": "2025-09-21T19:51:31.641722"
     },
     {
       "id": "1991-1-divisjon-09-hamar-musikkorps",
@@ -167,8 +184,11 @@
       "rank": 9,
       "orchestra": "Hamar Musikkorps",
       "conductor": "Trond Brenne",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Armenian Dances, Part 1; Burlesque (plikt)",
+      "pieces_list": [
+        "Armenian Dances, Part 1",
+        "Burlesque (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.5,
@@ -177,7 +197,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863751"
+      "scraped_at": "2025-09-21T19:51:31.641725"
     },
     {
       "id": "1991-1-divisjon-10-sandefjord-musikkorps",
@@ -186,8 +206,11 @@
       "rank": 10,
       "orchestra": "Sandefjord Musikkorps",
       "conductor": "Egil Johannes Lysebo",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphonic Songs for Band; Burlesque (plikt)",
+      "pieces_list": [
+        "Symphonic Songs for Band",
+        "Burlesque (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.0,
@@ -196,7 +219,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863754"
+      "scraped_at": "2025-09-21T19:51:31.641728"
     },
     {
       "id": "1991-1-divisjon-11-strinda-ungdomskorps",
@@ -205,8 +228,11 @@
       "rank": 11,
       "orchestra": "Strinda Ungdomskorps",
       "conductor": "Arild Stav",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Armenian Dances, Part 1; Pineapple Poll (plikt)",
+      "pieces_list": [
+        "Armenian Dances, Part 1",
+        "Pineapple Poll (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -215,7 +241,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863755"
+      "scraped_at": "2025-09-21T19:51:31.641731"
     },
     {
       "id": "1991-1-divisjon-12-sotra-musikklag",
@@ -224,8 +250,11 @@
       "rank": 12,
       "orchestra": "Sotra Musikklag",
       "conductor": "Espen Selvik",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Vårofferet; Aegean Festival Overture (plikt)",
+      "pieces_list": [
+        "Vårofferet",
+        "Aegean Festival Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 81.0,
@@ -234,7 +263,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863757"
+      "scraped_at": "2025-09-21T19:51:31.641734"
     },
     {
       "id": "1991-1-divisjon-13-halsen-musikkforening",
@@ -243,8 +272,11 @@
       "rank": 13,
       "orchestra": "Halsen Musikkforening",
       "conductor": "Holger Gulbrandsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Slavonic Rhapsody No. 2, Op. 269; Burlesque (plikt)",
+      "pieces_list": [
+        "Slavonic Rhapsody No. 2, Op. 269",
+        "Burlesque (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 79.0,
@@ -253,7 +285,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863759"
+      "scraped_at": "2025-09-21T19:51:31.641737"
     },
     {
       "id": "1991-1-divisjon-14-eidsvåg-musikklag",
@@ -272,7 +304,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863761"
+      "scraped_at": "2025-09-21T19:51:31.641740"
     },
     {
       "id": "1991-2-divisjon-01-musikkforeningen-nidarholm",
@@ -281,8 +313,11 @@
       "rank": 1,
       "orchestra": "Musikkforeningen Nidarholm",
       "conductor": "Tom Wulff",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "El Camino Real; Festivo (plikt)",
+      "pieces_list": [
+        "El Camino Real",
+        "Festivo (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.5,
@@ -291,7 +326,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863763"
+      "scraped_at": "2025-09-21T19:51:31.641743"
     },
     {
       "id": "1991-2-divisjon-02-sandvikens-ungdomskorps",
@@ -310,7 +345,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863765"
+      "scraped_at": "2025-09-21T19:51:31.641745"
     },
     {
       "id": "1991-2-divisjon-03-nittedal-og-hakadal-janitsjar",
@@ -318,9 +353,12 @@
       "division": "2. divisjon",
       "rank": 3,
       "orchestra": "Nittedal og Hakadal Janitsjar",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
+      "conductor": "Ola Gudmundsen",
+      "pieces": "Variation on a Korean Folk Song; Festivo (plikt)",
+      "pieces_list": [
+        "Variation on a Korean Folk Song",
+        "Festivo (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -329,7 +367,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863767"
+      "scraped_at": "2025-09-21T19:51:31.641748"
     },
     {
       "id": "1991-2-divisjon-04-sande-musikkorps",
@@ -348,7 +386,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863769"
+      "scraped_at": "2025-09-21T19:51:31.641751"
     },
     {
       "id": "1991-2-divisjon-05-musikklaget-brage",
@@ -357,8 +395,11 @@
       "rank": 5,
       "orchestra": "Musikklaget Brage",
       "conductor": "Tore Nedregård",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Egmont Overture; Suite in B flat (plikt)",
+      "pieces_list": [
+        "Egmont Overture",
+        "Suite in B flat (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.0,
@@ -367,7 +408,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863771"
+      "scraped_at": "2025-09-21T19:51:31.641754"
     },
     {
       "id": "1991-2-divisjon-06-nord-odal-hornmusikk",
@@ -376,8 +417,11 @@
       "rank": 6,
       "orchestra": "Nord-Odal Hornmusikk",
       "conductor": "Mardon Åvitsland",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fantasy on a Colonial Air; American Triptych (plikt)",
+      "pieces_list": [
+        "Fantasy on a Colonial Air",
+        "American Triptych (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -386,7 +430,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863773"
+      "scraped_at": "2025-09-21T19:51:31.641757"
     },
     {
       "id": "1991-2-divisjon-07-namsos-janitsjar",
@@ -395,8 +439,10 @@
       "rank": 7,
       "orchestra": "Namsos Janitsjar",
       "conductor": "Rene Kuitert",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festivo (plikt)",
+      "pieces_list": [
+        "Festivo (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -405,7 +451,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863775"
+      "scraped_at": "2025-09-21T19:51:31.641760"
     },
     {
       "id": "1991-2-divisjon-08-malvik-musikkorps",
@@ -424,7 +470,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863777"
+      "scraped_at": "2025-09-21T19:51:31.641762"
     },
     {
       "id": "1991-2-divisjon-09-namsos-musikkforening",
@@ -433,8 +479,10 @@
       "rank": 9,
       "orchestra": "Namsos Musikkforening",
       "conductor": "Terje Adde",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festivo (plikt)",
+      "pieces_list": [
+        "Festivo (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.5,
@@ -443,7 +491,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863779"
+      "scraped_at": "2025-09-21T19:51:31.641765"
     },
     {
       "id": "1991-2-divisjon-10-molde-janitsjar",
@@ -452,8 +500,11 @@
       "rank": 10,
       "orchestra": "Molde Janitsjar",
       "conductor": "Leif Skeidsvoll",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Pageant of Light; American Triptych (plikt)",
+      "pieces_list": [
+        "Pageant of Light",
+        "American Triptych (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.0,
@@ -462,7 +513,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863781"
+      "scraped_at": "2025-09-21T19:51:31.641768"
     },
     {
       "id": "1991-2-divisjon-11-heimdal-musikkorps",
@@ -481,7 +532,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863782"
+      "scraped_at": "2025-09-21T19:51:31.641770"
     },
     {
       "id": "1991-2-divisjon-12-overhalla-janitsjar",
@@ -490,8 +541,10 @@
       "rank": 12,
       "orchestra": "Overhalla Janitsjar",
       "conductor": "Ola Peder Tyldum",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festivo (plikt)",
+      "pieces_list": [
+        "Festivo (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 78.5,
@@ -500,7 +553,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863784"
+      "scraped_at": "2025-09-21T19:51:31.641773"
     },
     {
       "id": "1991-3-divisjon-01-kolstad-janitsjar",
@@ -519,7 +572,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863786"
+      "scraped_at": "2025-09-21T19:51:31.641776"
     },
     {
       "id": "1991-3-divisjon-02-stovner-og-smedstua-skolekorps",
@@ -528,8 +581,11 @@
       "rank": 2,
       "orchestra": "Stovner og Smedstua Skolekorps",
       "conductor": "Johnny Olsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Declaration, Ballade and Finale; Oregon (plikt)",
+      "pieces_list": [
+        "Declaration, Ballade and Finale",
+        "Oregon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.5,
@@ -538,7 +594,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863788"
+      "scraped_at": "2025-09-21T19:51:31.641779"
     },
     {
       "id": "1991-3-divisjon-03-skjold-nesttun-janitsjar",
@@ -547,8 +603,11 @@
       "rank": 3,
       "orchestra": "Skjold Nesttun Janitsjar",
       "conductor": "Jan Gjendemsjø",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Ballet Egyptien; Oregon (plikt)",
+      "pieces_list": [
+        "Ballet Egyptien",
+        "Oregon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -557,7 +616,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863790"
+      "scraped_at": "2025-09-21T19:51:31.641782"
     },
     {
       "id": "1991-3-divisjon-04-åndalsnes-musikkforening",
@@ -576,7 +635,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863792"
+      "scraped_at": "2025-09-21T19:51:31.641784"
     },
     {
       "id": "1991-3-divisjon-05-strindheim-janitsjar",
@@ -595,7 +654,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863794"
+      "scraped_at": "2025-09-21T19:51:31.641787"
     },
     {
       "id": "1991-3-divisjon-06-musikklaget-lurlåt",
@@ -604,8 +663,11 @@
       "rank": 6,
       "orchestra": "Musikklaget Lurlåt",
       "conductor": "Per Grønli",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Four Contrasts for Wind; Rikudim (plikt)",
+      "pieces_list": [
+        "Four Contrasts for Wind",
+        "Rikudim (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.5,
@@ -614,7 +676,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863796"
+      "scraped_at": "2025-09-21T19:51:31.641790"
     },
     {
       "id": "1991-3-divisjon-07-steinkjer-ungdomskorps",
@@ -623,8 +685,11 @@
       "rank": 7,
       "orchestra": "Steinkjer Ungdomskorps",
       "conductor": "Ivar Jønvik",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Novena; Oregon (plikt)",
+      "pieces_list": [
+        "Novena",
+        "Oregon (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.5,
@@ -633,7 +698,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863798"
+      "scraped_at": "2025-09-21T19:51:31.641797"
     },
     {
       "id": "1991-3-divisjon-08-frøya-janitsjar",
@@ -652,9 +717,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.863800"
+      "scraped_at": "2025-09-21T19:51:31.641801"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:53.865385"
+  "exported_at": "2025-09-21T19:51:31.648029"
 }

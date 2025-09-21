@@ -14,8 +14,11 @@
       "rank": 1,
       "orchestra": "Dragefjellets Musikkorps Bergen",
       "conductor": "Ragnar Maalen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variants on a Mediaeval Tune; De lystige koner i Windsor (plikt)",
+      "pieces_list": [
+        "Variants on a Mediaeval Tune",
+        "De lystige koner i Windsor (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 96.5,
@@ -24,7 +27,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.831541"
+      "scraped_at": "2025-09-21T19:51:31.505570"
     },
     {
       "id": "1981-1-divisjon-02-bispehaugen-ungdomskorps",
@@ -33,8 +36,11 @@
       "rank": 2,
       "orchestra": "Bispehaugen Ungdomskorps",
       "conductor": "Sigmund Ofstad",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "En Natt på Bloksberg; De lystige koner i Windsor (plikt)",
+      "pieces_list": [
+        "En Natt på Bloksberg",
+        "De lystige koner i Windsor (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.2,
@@ -43,7 +49,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.831549"
+      "scraped_at": "2025-09-21T19:51:31.505578"
     },
     {
       "id": "1981-2-divisjon-01-nittedal-og-hakadal-janitsjar",
@@ -52,8 +58,11 @@
       "rank": 1,
       "orchestra": "Nittedal og Hakadal Janitsjar",
       "conductor": "Rolf Myhre",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "First Suite in Eb for Military Band; Sinfonietta (plikt)",
+      "pieces_list": [
+        "First Suite in Eb for Military Band",
+        "Sinfonietta (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.4,
@@ -62,7 +71,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.831552"
+      "scraped_at": "2025-09-21T19:51:31.505582"
     },
     {
       "id": "1981-2-divisjon-02-sandefjord-musikkorps",
@@ -71,8 +80,11 @@
       "rank": 2,
       "orchestra": "Sandefjord Musikkorps",
       "conductor": "Per Christian Ormar",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festive Overture; Sinfonietta (plikt)",
+      "pieces_list": [
+        "Festive Overture",
+        "Sinfonietta (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.4,
@@ -81,7 +93,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.831555"
+      "scraped_at": "2025-09-21T19:51:31.505585"
     },
     {
       "id": "1981-2-divisjon-03-årstad-musikkorps",
@@ -90,8 +102,11 @@
       "rank": 3,
       "orchestra": "Årstad Musikkorps",
       "conductor": "Helge Haukås",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Horda Rapsodi; Sinfonietta (plikt)",
+      "pieces_list": [
+        "Horda Rapsodi",
+        "Sinfonietta (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.5,
@@ -100,7 +115,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.831558"
+      "scraped_at": "2025-09-21T19:51:31.505587"
     },
     {
       "id": "1981-2-divisjon-04-sandvikens-ungdomskorps",
@@ -109,8 +124,11 @@
       "rank": 4,
       "orchestra": "Sandvikens Ungdomskorps",
       "conductor": "Truls Tønnesen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Second Suite in F for Military Band; Sinfonietta (plikt)",
+      "pieces_list": [
+        "Second Suite in F for Military Band",
+        "Sinfonietta (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 83.4,
@@ -119,9 +137,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.831560"
+      "scraped_at": "2025-09-21T19:51:31.505590"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:53.834243"
+  "exported_at": "2025-09-21T19:51:31.525876"
 }

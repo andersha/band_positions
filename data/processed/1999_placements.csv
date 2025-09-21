@@ -1,64 +1,64 @@
 id,year,division,rank,orchestra,conductor,pieces,pieces_list,composers,composers_list,points,max_points,image_url,orchestra_url,conductor_url,piece_urls,scraped_at
-1999-elite-01-lillestrøm-musikkorps,1999,Elite,1,Lillestrøm Musikkorps,Ingar Bergby,,[],,[],93.0,100.0,https://www.lillestrom-musikkorps.no/data/files/bilde17-brussel1.jpg,,,,2025-08-25T20:48:53.919522
-1999-elite-02-sarpsborg-janitsjarkorps,1999,Elite,2,Sarpsborg Janitsjarkorps,Geir Holm,,[],,[],91.0,100.0,https://nmbrass.no/nmjanitsjar/static/sarpsborgjanitsjarkorps.jpg,,,,2025-08-25T20:48:53.919534
-1999-elite-03-dragefjellets-musikkorps-bergen,1999,Elite,3,Dragefjellets Musikkorps Bergen,,,[],,[],89.0,100.0,http://dragene.no/wp-content/uploads/2016/03/12821425_10154123000919101_6934214023861599412_n.jpg,,,,2025-08-25T20:48:53.919536
-1999-elite-04-vestre-aker-musikkorps,1999,Elite,4,Vestre Aker Musikkorps,Thomas Rimul,,[],,[],88.0,100.0,https://nmbrass.no/nmjanitsjar/static/vestreakermusikkorps.jpg,,,,2025-08-25T20:48:53.919538
-1999-elite-05-sandefjord-musikkorps,1999,Elite,5,Sandefjord Musikkorps,Odd Terje Lysebo,,[],,[],86.0,100.0,http://www.sandefjord-musikkorps.no/assets/images/vi-er-smk.jpg,,,,2025-08-25T20:48:53.919540
-1999-elite-06-sandvikens-ungdomskorps,1999,Elite,6,Sandvikens Ungdomskorps,Ray Farr,,[],,[],85.0,100.0,,,,,2025-08-25T20:48:53.919542
-1999-elite-07-aalesunds-ungdomsmusikkorps,1999,Elite,7,Aalesunds Ungdomsmusikkorps,Arnfinn Dalhaug,,[],,[],83.0,100.0,,,,,2025-08-25T20:48:53.919544
-1999-1-divisjon-01-skjetten-ungdomskorps,1999,1. divisjon,1,Skjetten Ungdomskorps,Svein Greni,,[],,[],95.0,100.0,,,,,2025-08-25T20:48:53.919546
-1999-1-divisjon-02-kolbotn-konsertorkester,1999,1. divisjon,2,Kolbotn Konsertorkester,Erlend Tunestveit,,[],,[],93.0,100.0,,,,,2025-08-25T20:48:53.919548
-1999-1-divisjon-03-nittedal-og-hakadal-janitsjar,1999,1. divisjon,3,Nittedal og Hakadal Janitsjar,Trond Elnes,,[],,[],91.0,100.0,http://musikkorps.no/wp-content/uploads/2015/01/NM-Nittedal-og-Hakadal-Janitsjar.jpg,,,,2025-08-25T20:48:53.919551
-1999-1-divisjon-04-opus-82,1999,1. divisjon,4,Opus 82,Rune Bergman,,[],,[],90.5,100.0,"https://static.wixstatic.com/media/8835a5_5cd78cff169f454fb6d0a54169c9106d.jpg/v1/fill/w_472,h_330,al_c,q_80,usm_0.66_1.00_0.01/8835a5_5cd78cff169f454fb6d0a54169c9106d.jpg",,,,2025-08-25T20:48:53.919553
-1999-1-divisjon-05-byneset-musikkorps,1999,1. divisjon,5,Byneset Musikkorps,Per Kvistad Uddu,,[],,[],90.0,100.0,https://nmbrass.no/nmjanitsjar/static/bynesetmusikkorps.jpg,,,,2025-08-25T20:48:53.919554
-1999-1-divisjon-06-sagene-janitsjarkorps,1999,1. divisjon,6,Sagene Janitsjarkorps,Kjell Martinsen,,[],,[],89.0,100.0,https://nmbrass.no/nmjanitsjar/static/sagenejanitsjarkorps.jpg,,,,2025-08-25T20:48:53.919556
-1999-1-divisjon-07-skjold-nesttun-janitsjar,1999,1. divisjon,7,Skjold Nesttun Janitsjar,Espen Opedal,,[],,[],89.0,100.0,https://nmbrass.no/nmjanitsjar/static/skjoldnesttunjanitsjar.jpg,,,,2025-08-25T20:48:53.919558
-1999-1-divisjon-08-musikkforeningen-nidarholm,1999,1. divisjon,8,Musikkforeningen Nidarholm,Espen Andersen,,[],,[],88.0,100.0,https://nidarholm.no/data/gallery/gallery1/img/dsc0378-web.jpg,,,,2025-08-25T20:48:53.919560
-1999-1-divisjon-09-halsen-musikkforening,1999,1. divisjon,9,Halsen Musikkforening,Michael Antrobus,,[],,[],87.5,100.0,,,,,2025-08-25T20:48:53.919562
-1999-1-divisjon-10-greåker-musikkorps,1999,1. divisjon,10,Greåker Musikkorps,Rune André Halvorsen,,[],,[],86.5,100.0,,,,,2025-08-25T20:48:53.919564
-1999-1-divisjon-11-lørenskog-musikkorps,1999,1. divisjon,11,Lørenskog Musikkorps,Hans Andreas Kjølberg,,[],,[],86.0,100.0,https://nmbrass.no/nmjanitsjar/static/lorenskogmusikkorps.jpg,,,,2025-08-25T20:48:53.919566
-1999-1-divisjon-12-bispehaugen-ungdomskorps,1999,1. divisjon,12,Bispehaugen Ungdomskorps,Michael Antrobus,,[],,[],85.0,100.0,https://nmbrass.no/nmjanitsjar/static/bispehaugenungdomskorps.jpg,,,,2025-08-25T20:48:53.919568
-1999-2-divisjon-01-drammen-konsertorkester,1999,2. divisjon,1,Drammen Konsertorkester,John-Philip Hannevik,,[],,[],95.0,100.0,https://nmbrass.no/nmjanitsjar/static/drammenkonsertorkester.jpg,,,,2025-08-25T20:48:53.919570
-1999-2-divisjon-02-musikklaget-lurlåt,1999,2. divisjon,2,Musikklaget Lurlåt,Per Grønli,,[],,[],91.5,100.0,,,,,2025-08-25T20:48:53.919572
-1999-2-divisjon-03-strinda-ungdomskorps,1999,2. divisjon,3,Strinda Ungdomskorps,Tomas Carstensen,,[],,[],91.0,100.0,,,,,2025-08-25T20:48:53.919574
-1999-2-divisjon-04-kolstad-janitsjar,1999,2. divisjon,4,Kolstad Janitsjar,Nils Graftås,,[],,[],90.0,100.0,,,,,2025-08-25T20:48:53.919575
-1999-2-divisjon-05-sande-musikkorps,1999,2. divisjon,5,Sande Musikkorps,Gunnar Lintvedt,,[],,[],89.5,100.0,,,,,2025-08-25T20:48:53.919577
-1999-2-divisjon-06-vestsidens-musikkorps,1999,2. divisjon,6,Vestsidens Musikkorps,Arild Andersen,,[],,[],89.5,100.0,https://nmbrass.no/nmjanitsjar/static/vestsidensmusikkorps.jpg,,,,2025-08-25T20:48:53.919579
-1999-2-divisjon-07-musikkforeningen-viken,1999,2. divisjon,7,Musikkforeningen Viken,Hans Andreas Kjølberg,,[],,[],89.0,100.0,https://nmbrass.no/nmjanitsjar/static/musikkforeningenviken.jpg,,,,2025-08-25T20:48:53.919581
-1999-2-divisjon-08-åsane-musikklag,1999,2. divisjon,8,Åsane Musikklag,Helge Haukås,,[],,[],88.5,100.0,http://www.aasanemusikklag.no/data/_uploaded/image/aml2015-mindre.jpg,,,,2025-08-25T20:48:53.919583
-1999-2-divisjon-09-bjølsen-ungdomskorps,1999,2. divisjon,9,Bjølsen Ungdomskorps,Per Gjermund Storrø,,[],,[],88.0,100.0,,,,,2025-08-25T20:48:53.919584
-1999-2-divisjon-10-bodø-harmonimusikk,1999,2. divisjon,10,Bodø Harmonimusikk,Vidar Seeberg,,[],,[],87.0,100.0,https://www.gratisnettsted.com/login/members/imagemanager/images/2afe4567e1bf64d32a5527244d104cea/Bilder/NM2015.JPG,,,,2025-08-25T20:48:53.919586
-1999-2-divisjon-11-lisleby-musikkorps,1999,2. divisjon,11,Lisleby Musikkorps,Christer Bergby,,[],,[],85.0,100.0,https://nmbrass.no/nmjanitsjar/static/lislebymusikkorps.jpg,,,,2025-08-25T20:48:53.919588
-1999-2-divisjon-12-alvøens-musikkforening,1999,2. divisjon,12,Alvøens Musikkforening,Steffen Blindheim,,[],,[],82.5,100.0,,,,,2025-08-25T20:48:53.919590
-1999-2-divisjon-13-nordstrand-janitsjarkors,1999,2. divisjon,13,Nordstrand Janitsjarkors,Rune Bergman,,[],,[],81.5,100.0,http://njkweb.no/wordpress/wp-content/uploads/2015/01/cropped-njk-korpsbilde-calella-201411.jpg,,,,2025-08-25T20:48:53.919591
-1999-2-divisjon-14-borge-musikkorps,1999,2. divisjon,14,Borge Musikkorps,Kjell Martinsen,,[],,[],81.0,100.0,https://nmbrass.no/nmjanitsjar/static/borgemusikkorps.jpg,,,,2025-08-25T20:48:53.919593
-1999-2-divisjon-15-molde-janitsjar,1999,2. divisjon,15,Molde Janitsjar,Leif Skeidsvoll/Stein Åge Sørlie,,[],,[],80.5,100.0,,,,,2025-08-25T20:48:53.919595
-1999-3-divisjon-01-ranheim-musikkforening,1999,3. divisjon,1,Ranheim Musikkforening,Arild Hognes,,[],,[],95.0,100.0,https://nmbrass.no/nmjanitsjar/static/ranheimmusikkforening.png,,,,2025-08-25T20:48:53.919597
-1999-3-divisjon-02-hortens-ungdomsmusikkorps,1999,3. divisjon,2,Hortens Ungdomsmusikkorps,Gunnar Lintvedt,,[],,[],94.0,100.0,,,,,2025-08-25T20:48:53.919598
-1999-3-divisjon-03-oslo-postorkester,1999,3. divisjon,3,Oslo Postorkester,Erik Bergene,,[],,[],93.0,100.0,https://nmbrass.no/nmjanitsjar/static/oslopostorkester.jpg,,,,2025-08-25T20:48:53.919600
-1999-3-divisjon-04-fåberg-musikkforening,1999,3. divisjon,4,Fåberg Musikkforening,Odd Edvard Mikkelsen,,[],,[],91.0,100.0,https://nmbrass.no/nmjanitsjar/static/fabergmusikkforening.jpg,,,,2025-08-25T20:48:53.919602
-1999-3-divisjon-05-mo-hornmusikk,1999,3. divisjon,5,Mo Hornmusikk,Tor Halvard Nilsen,,[],,[],90.0,100.0,https://nmbrass.no/nmjanitsjar/static/mohornmusikk.jpg,,,,2025-08-25T20:48:53.919604
-1999-3-divisjon-06-modum-janitsjar,1999,3. divisjon,6,Modum Janitsjar,Øystein Olsen Vadsten,,[],,[],88.0,100.0,,,,,2025-08-25T20:48:53.919606
-1999-3-divisjon-07-malvik-musikkorps,1999,3. divisjon,7,Malvik Musikkorps,Knut Lauritzen,,[],,[],87.0,100.0,,,,,2025-08-25T20:48:53.919607
-1999-3-divisjon-08-oslo-janitsjarkorps,1999,3. divisjon,8,Oslo Janitsjarkorps,Geir Arne Haugsrud,,[],,[],86.0,100.0,,,,,2025-08-25T20:48:53.919614
-1999-3-divisjon-09-åsnes-hornmusikk,1999,3. divisjon,9,Åsnes Hornmusikk,Geir Østby,,[],,[],85.0,100.0,,,,,2025-08-25T20:48:53.919616
-1999-3-divisjon-10-sarpsborg-musikkorps,1999,3. divisjon,10,Sarpsborg Musikkorps,Tore Halvorsen,,[],,[],84.0,100.0,,,,,2025-08-25T20:48:53.919618
-1999-3-divisjon-11-eidsvoll-janitsjarkorps,1999,3. divisjon,11,Eidsvoll Janitsjarkorps,Trond Rønning,,[],,[],82.0,100.0,https://nmbrass.no/nmjanitsjar/static/eidsvolljanitsjarkorps.jpg,,,,2025-08-25T20:48:53.919620
-1999-3-divisjon-12-fana-musikklag,1999,3. divisjon,12,Fana Musikklag,Kjell Erik Husom,,[],,[],81.0,100.0,,,,,2025-08-25T20:48:53.919621
-1999-3-divisjon-13-ådalsbruk-musikkforening,1999,3. divisjon,13,Ådalsbruk Musikkforening,Thorbjørn Lunde,,[],,[],80.0,100.0,https://nmbrass.no/nmjanitsjar/static/aadalsbrukmusikkforening.jpg,,,,2025-08-25T20:48:53.919623
-1999-3-divisjon-14-alversund-musikklag,1999,3. divisjon,14,Alversund Musikklag,Eirik Gjerdevik,,[],,[],78.0,100.0,,,,,2025-08-25T20:48:53.919626
-1999-3-divisjon-15-arna-janitsjar,1999,3. divisjon,15,Arna Janitsjar,Jan-Erik Nordtvedt,,[],,[],77.5,100.0,,,,,2025-08-25T20:48:53.919628
-1999-4-divisjon-01-bømlo-janitsjar,1999,4. divisjon,1,Bømlo Janitsjar,Erling Johan Myrseth,,[],,[],95.0,100.0,,,,,2025-08-25T20:48:53.919631
-1999-4-divisjon-02-dokka-musikkorps,1999,4. divisjon,2,Dokka Musikkorps,Ola Fredheim Haug,,[],,[],93.0,100.0,,,,,2025-08-25T20:48:53.919633
-1999-4-divisjon-03-nidarvoll-ungdomskorps,1999,4. divisjon,3,Nidarvoll Ungdomskorps,John Arve Viset,,[],,[],91.0,100.0,,,,,2025-08-25T20:48:53.919635
-1999-4-divisjon-04-meland-musikklag,1999,4. divisjon,4,Meland Musikklag,Marit Tømmermo,,[],,[],90.0,100.0,,,,,2025-08-25T20:48:53.919637
-1999-4-divisjon-04-strindheim-janitsjar,1999,4. divisjon,4,Strindheim Janitsjar,Stein Jacobsen,,[],,[],90.0,100.0,https://nmbrass.no/nmjanitsjar/static/strindheimjanitsjar.jpg,,,,2025-08-25T20:48:53.919639
-1999-4-divisjon-06-skatval-hornmusikklag,1999,4. divisjon,6,Skatval Hornmusikklag,Geir Lauvås,,[],,[],89.0,100.0,,,,,2025-08-25T20:48:53.919642
-1999-4-divisjon-06-vinne-musikkorps,1999,4. divisjon,6,Vinne Musikkorps,Torbjørn Fossum,,[],,[],89.0,100.0,,,,,2025-08-25T20:48:53.919644
-1999-4-divisjon-08-lillehammer-janitsjar,1999,4. divisjon,8,Lillehammer Janitsjar,Ola Dahl,,[],,[],88.0,100.0,,,,,2025-08-25T20:48:53.919646
-1999-4-divisjon-09-østre-gausdal-musikkforening,1999,4. divisjon,9,Østre Gausdal Musikkforening,Anne Mette Mauseth,,[],,[],87.0,100.0,https://nmbrass.no/nmjanitsjar/static/ostregausdalmusikkforening.jpg,,,,2025-08-25T20:48:53.919649
-1999-4-divisjon-10-heimdal-musikkorps,1999,4. divisjon,10,Heimdal Musikkorps,Odd Steinar Mørkved,,[],,[],86.0,100.0,https://nmbrass.no/nmjanitsjar/static/heimdalmusikkorps.jpg,,,,2025-08-25T20:48:53.919651
-1999-4-divisjon-11-otta-musikkforening,1999,4. divisjon,11,Otta Musikkforening,Morten Graff,,[],,[],85.0,100.0,,,,,2025-08-25T20:48:53.919653
-1999-4-divisjon-12-hegra-hornmusikklag,1999,4. divisjon,12,Hegra Hornmusikklag,Guro Haugan,,[],,[],84.0,100.0,,,,,2025-08-25T20:48:53.919655
-1999-4-divisjon-12-trysil-musikklag,1999,4. divisjon,12,Trysil Musikklag,Terje Østby,,[],,[],84.0,100.0,,,,,2025-08-25T20:48:53.919657
-1999-4-divisjon-14-meråker-musikkorps,1999,4. divisjon,14,Meråker Musikkorps,Ole Ivar Teigen,,[],,[],83.0,100.0,,,,,2025-08-25T20:48:53.919659
+1999-elite-01-lillestrøm-musikkorps,1999,Elite,1,Lillestrøm Musikkorps,Ingar Bergby,"Theme and Variations for Wind Band, Op. 43a; Symphony in B flat for Concert Band","['Theme and Variations for Wind Band, Op. 43a', 'Symphony in B flat for Concert Band']",,[],93.0,100.0,https://www.lillestrom-musikkorps.no/data/files/bilde17-brussel1.jpg,,,,2025-09-21T19:51:31.748116
+1999-elite-02-sarpsborg-janitsjarkorps,1999,Elite,2,Sarpsborg Janitsjarkorps,Geir Holm,Symphony in B flat for Concert Band; Fanfare and Choral,"['Symphony in B flat for Concert Band', 'Fanfare and Choral']",,[],91.0,100.0,https://nmbrass.no/nmjanitsjar/static/sarpsborgjanitsjarkorps.jpg,,,,2025-09-21T19:51:31.748119
+1999-elite-03-dragefjellets-musikkorps-bergen,1999,Elite,3,Dragefjellets Musikkorps Bergen,Lars Kristian Brynhildsen,Tam o'Shanter,"[""Tam o'Shanter""]",,[],89.0,100.0,http://dragene.no/wp-content/uploads/2016/03/12821425_10154123000919101_6934214023861599412_n.jpg,,,,2025-09-21T19:51:31.748125
+1999-elite-04-vestre-aker-musikkorps,1999,Elite,4,Vestre Aker Musikkorps,Thomas Rimul,,[],,[],88.0,100.0,https://nmbrass.no/nmjanitsjar/static/vestreakermusikkorps.jpg,,,,2025-09-21T19:51:31.748127
+1999-elite-05-sandefjord-musikkorps,1999,Elite,5,Sandefjord Musikkorps,Odd Terje Lysebo,,[],,[],86.0,100.0,http://www.sandefjord-musikkorps.no/assets/images/vi-er-smk.jpg,,,,2025-09-21T19:51:31.748129
+1999-elite-06-sandvikens-ungdomskorps,1999,Elite,6,Sandvikens Ungdomskorps,Ray Farr,,[],,[],85.0,100.0,,,,,2025-09-21T19:51:31.748131
+1999-elite-07-aalesunds-ungdomsmusikkorps,1999,Elite,7,Aalesunds Ungdomsmusikkorps,Arnfinn Dalhaug,,[],,[],83.0,100.0,,,,,2025-09-21T19:51:31.748133
+1999-1-divisjon-01-skjetten-ungdomskorps,1999,1. divisjon,1,Skjetten Ungdomskorps,Svein Greni,"Mutanza; Legend, op. 81 (plikt)","['Mutanza', 'Legend, op. 81 (plikt)']",,[],95.0,100.0,,,,,2025-09-21T19:51:31.748136
+1999-1-divisjon-02-kolbotn-konsertorkester,1999,1. divisjon,2,Kolbotn Konsertorkester,Erlend Tunestveit,"Dionysiaques; Legend, op. 81 (plikt)","['Dionysiaques', 'Legend, op. 81 (plikt)']",,[],93.0,100.0,,,,,2025-09-21T19:51:31.748138
+1999-1-divisjon-03-nittedal-og-hakadal-janitsjar,1999,1. divisjon,3,Nittedal og Hakadal Janitsjar,Trond Elnes,"Changes; Legend, op. 81 (plikt)","['Changes', 'Legend, op. 81 (plikt)']",,[],91.0,100.0,http://musikkorps.no/wp-content/uploads/2015/01/NM-Nittedal-og-Hakadal-Janitsjar.jpg,,,,2025-09-21T19:51:31.748141
+1999-1-divisjon-04-opus-82,1999,1. divisjon,4,Opus 82,Rune Bergman,"Legend, op. 81 (plikt)","['Legend, op. 81 (plikt)']",,[],90.5,100.0,"https://static.wixstatic.com/media/8835a5_5cd78cff169f454fb6d0a54169c9106d.jpg/v1/fill/w_472,h_330,al_c,q_80,usm_0.66_1.00_0.01/8835a5_5cd78cff169f454fb6d0a54169c9106d.jpg",,,,2025-09-21T19:51:31.748143
+1999-1-divisjon-05-byneset-musikkorps,1999,1. divisjon,5,Byneset Musikkorps,Per Kvistad Uddu,"Theatre Music; Legend, op. 81 (plikt)","['Theatre Music', 'Legend, op. 81 (plikt)']",,[],90.0,100.0,https://nmbrass.no/nmjanitsjar/static/bynesetmusikkorps.jpg,,,,2025-09-21T19:51:31.748145
+1999-1-divisjon-06-sagene-janitsjarkorps,1999,1. divisjon,6,Sagene Janitsjarkorps,Kjell Martinsen,"Legend, op. 81 (plikt)","['Legend, op. 81 (plikt)']",,[],89.0,100.0,https://nmbrass.no/nmjanitsjar/static/sagenejanitsjarkorps.jpg,,,,2025-09-21T19:51:31.748147
+1999-1-divisjon-07-skjold-nesttun-janitsjar,1999,1. divisjon,7,Skjold Nesttun Janitsjar,Espen Opedal,"Reminiscencia Gitana; Legend, op. 81 (plikt)","['Reminiscencia Gitana', 'Legend, op. 81 (plikt)']",,[],89.0,100.0,https://nmbrass.no/nmjanitsjar/static/skjoldnesttunjanitsjar.jpg,,,,2025-09-21T19:51:31.748149
+1999-1-divisjon-08-musikkforeningen-nidarholm,1999,1. divisjon,8,Musikkforeningen Nidarholm,Espen Andersen,"Fanfare and Choral; Legend, op. 81 (plikt)","['Fanfare and Choral', 'Legend, op. 81 (plikt)']",,[],88.0,100.0,https://nidarholm.no/data/gallery/gallery1/img/dsc0378-web.jpg,,,,2025-09-21T19:51:31.748151
+1999-1-divisjon-09-halsen-musikkforening,1999,1. divisjon,9,Halsen Musikkforening,Michael Antrobus,"Legend, op. 81 (plikt)","['Legend, op. 81 (plikt)']",,[],87.5,100.0,,,,,2025-09-21T19:51:31.748153
+1999-1-divisjon-10-greåker-musikkorps,1999,1. divisjon,10,Greåker Musikkorps,Rune André Halvorsen,"Legend, op. 81 (plikt)","['Legend, op. 81 (plikt)']",,[],86.5,100.0,,,,,2025-09-21T19:51:31.748156
+1999-1-divisjon-11-lørenskog-musikkorps,1999,1. divisjon,11,Lørenskog Musikkorps,Hans Andreas Kjølberg,"Peterloo Overture; Legend, op. 81 (plikt)","['Peterloo Overture', 'Legend, op. 81 (plikt)']",,[],86.0,100.0,https://nmbrass.no/nmjanitsjar/static/lorenskogmusikkorps.jpg,,,,2025-09-21T19:51:31.748158
+1999-1-divisjon-12-bispehaugen-ungdomskorps,1999,1. divisjon,12,Bispehaugen Ungdomskorps,Michael Antrobus,"Legend, op. 81 (plikt)","['Legend, op. 81 (plikt)']",,[],85.0,100.0,https://nmbrass.no/nmjanitsjar/static/bispehaugenungdomskorps.jpg,,,,2025-09-21T19:51:31.748160
+1999-2-divisjon-01-drammen-konsertorkester,1999,2. divisjon,1,Drammen Konsertorkester,John-Philip Hannevik,Theatre Music; Odyssey (Overture on an Epic Poem) (plikt),"['Theatre Music', 'Odyssey (Overture on an Epic Poem) (plikt)']",,[],95.0,100.0,https://nmbrass.no/nmjanitsjar/static/drammenkonsertorkester.jpg,,,,2025-09-21T19:51:31.748162
+1999-2-divisjon-02-musikklaget-lurlåt,1999,2. divisjon,2,Musikklaget Lurlåt,Per Grønli,Odyssey (Overture on an Epic Poem) (plikt),['Odyssey (Overture on an Epic Poem) (plikt)'],,[],91.5,100.0,,,,,2025-09-21T19:51:31.748164
+1999-2-divisjon-03-strinda-ungdomskorps,1999,2. divisjon,3,Strinda Ungdomskorps,Tomas Carstensen,"Symphony no. 1, The Lord of the Rings, ""Gandalf""; Odyssey (Overture on an Epic Poem) (plikt)","['Symphony no. 1, The Lord of the Rings, ""Gandalf""', 'Odyssey (Overture on an Epic Poem) (plikt)']",,[],91.0,100.0,,,,,2025-09-21T19:51:31.748166
+1999-2-divisjon-04-kolstad-janitsjar,1999,2. divisjon,4,Kolstad Janitsjar,Nils Graftås,Odyssey (Overture on an Epic Poem) (plikt),['Odyssey (Overture on an Epic Poem) (plikt)'],,[],90.0,100.0,,,,,2025-09-21T19:51:31.748168
+1999-2-divisjon-05-sande-musikkorps,1999,2. divisjon,5,Sande Musikkorps,Gunnar Lintvedt,Odyssey (Overture on an Epic Poem) (plikt),['Odyssey (Overture on an Epic Poem) (plikt)'],,[],89.5,100.0,,,,,2025-09-21T19:51:31.748170
+1999-2-divisjon-06-vestsidens-musikkorps,1999,2. divisjon,6,Vestsidens Musikkorps,Arild Andersen,Odyssey (Overture on an Epic Poem) (plikt),['Odyssey (Overture on an Epic Poem) (plikt)'],,[],89.5,100.0,https://nmbrass.no/nmjanitsjar/static/vestsidensmusikkorps.jpg,,,,2025-09-21T19:51:31.748172
+1999-2-divisjon-07-musikkforeningen-viken,1999,2. divisjon,7,Musikkforeningen Viken,Hans Andreas Kjølberg,Odyssey (Overture on an Epic Poem) (plikt),['Odyssey (Overture on an Epic Poem) (plikt)'],,[],89.0,100.0,https://nmbrass.no/nmjanitsjar/static/musikkforeningenviken.jpg,,,,2025-09-21T19:51:31.748174
+1999-2-divisjon-08-åsane-musikklag,1999,2. divisjon,8,Åsane Musikklag,Helge Haukås,Odyssey (Overture on an Epic Poem) (plikt),['Odyssey (Overture on an Epic Poem) (plikt)'],,[],88.5,100.0,http://www.aasanemusikklag.no/data/_uploaded/image/aml2015-mindre.jpg,,,,2025-09-21T19:51:31.748176
+1999-2-divisjon-09-bjølsen-ungdomskorps,1999,2. divisjon,9,Bjølsen Ungdomskorps,Per Gjermund Storrø,Odyssey (Overture on an Epic Poem) (plikt),['Odyssey (Overture on an Epic Poem) (plikt)'],,[],88.0,100.0,,,,,2025-09-21T19:51:31.748179
+1999-2-divisjon-10-bodø-harmonimusikk,1999,2. divisjon,10,Bodø Harmonimusikk,Vidar Seeberg,Odyssey (Overture on an Epic Poem) (plikt),['Odyssey (Overture on an Epic Poem) (plikt)'],,[],87.0,100.0,https://www.gratisnettsted.com/login/members/imagemanager/images/2afe4567e1bf64d32a5527244d104cea/Bilder/NM2015.JPG,,,,2025-09-21T19:51:31.748181
+1999-2-divisjon-11-lisleby-musikkorps,1999,2. divisjon,11,Lisleby Musikkorps,Christer Bergby,Odyssey (Overture on an Epic Poem) (plikt),['Odyssey (Overture on an Epic Poem) (plikt)'],,[],85.0,100.0,https://nmbrass.no/nmjanitsjar/static/lislebymusikkorps.jpg,,,,2025-09-21T19:51:31.748183
+1999-2-divisjon-12-alvøens-musikkforening,1999,2. divisjon,12,Alvøens Musikkforening,Steffen Blindheim,Odyssey (Overture on an Epic Poem) (plikt),['Odyssey (Overture on an Epic Poem) (plikt)'],,[],82.5,100.0,,,,,2025-09-21T19:51:31.748185
+1999-2-divisjon-13-nordstrand-janitsjarkors,1999,2. divisjon,13,Nordstrand Janitsjarkors,Rune Bergman,Odyssey (Overture on an Epic Poem) (plikt),['Odyssey (Overture on an Epic Poem) (plikt)'],,[],81.5,100.0,http://njkweb.no/wordpress/wp-content/uploads/2015/01/cropped-njk-korpsbilde-calella-201411.jpg,,,,2025-09-21T19:51:31.748187
+1999-2-divisjon-14-borge-musikkorps,1999,2. divisjon,14,Borge Musikkorps,Kjell Martinsen,Odyssey (Overture on an Epic Poem) (plikt),['Odyssey (Overture on an Epic Poem) (plikt)'],,[],81.0,100.0,https://nmbrass.no/nmjanitsjar/static/borgemusikkorps.jpg,,,,2025-09-21T19:51:31.748189
+1999-2-divisjon-15-molde-janitsjar,1999,2. divisjon,15,Molde Janitsjar,Leif Skeidsvoll/Stein Åge Sørlie,Sinfonia Nobilissima; Odyssey (Overture on an Epic Poem) (plikt),"['Sinfonia Nobilissima', 'Odyssey (Overture on an Epic Poem) (plikt)']",,[],80.5,100.0,,,,,2025-09-21T19:51:31.748191
+1999-3-divisjon-01-ranheim-musikkforening,1999,3. divisjon,1,Ranheim Musikkforening,Arild Hognes,Mountain Panorama,['Mountain Panorama'],,[],95.0,100.0,https://nmbrass.no/nmjanitsjar/static/ranheimmusikkforening.png,,,,2025-09-21T19:51:31.748193
+1999-3-divisjon-02-hortens-ungdomsmusikkorps,1999,3. divisjon,2,Hortens Ungdomsmusikkorps,Gunnar Lintvedt,Concita for Band,['Concita for Band'],,[],94.0,100.0,,,,,2025-09-21T19:51:31.748195
+1999-3-divisjon-03-oslo-postorkester,1999,3. divisjon,3,Oslo Postorkester,Erik Bergene,Jig,['Jig'],,[],93.0,100.0,https://nmbrass.no/nmjanitsjar/static/oslopostorkester.jpg,,,,2025-09-21T19:51:31.748197
+1999-3-divisjon-04-fåberg-musikkforening,1999,3. divisjon,4,Fåberg Musikkforening,Odd Edvard Mikkelsen,,[],,[],91.0,100.0,https://nmbrass.no/nmjanitsjar/static/fabergmusikkforening.jpg,,,,2025-09-21T19:51:31.748199
+1999-3-divisjon-05-mo-hornmusikk,1999,3. divisjon,5,Mo Hornmusikk,Tor Halvard Nilsen,,[],,[],90.0,100.0,https://nmbrass.no/nmjanitsjar/static/mohornmusikk.jpg,,,,2025-09-21T19:51:31.748201
+1999-3-divisjon-06-modum-janitsjar,1999,3. divisjon,6,Modum Janitsjar,Øystein Olsen Vadsten,,[],,[],88.0,100.0,,,,,2025-09-21T19:51:31.748203
+1999-3-divisjon-07-malvik-musikkorps,1999,3. divisjon,7,Malvik Musikkorps,Knut Lauritzen,,[],,[],87.0,100.0,,,,,2025-09-21T19:51:31.748205
+1999-3-divisjon-08-oslo-janitsjarkorps,1999,3. divisjon,8,Oslo Janitsjarkorps,Geir Arne Haugsrud,,[],,[],86.0,100.0,,,,,2025-09-21T19:51:31.748207
+1999-3-divisjon-09-åsnes-hornmusikk,1999,3. divisjon,9,Åsnes Hornmusikk,Geir Østby,,[],,[],85.0,100.0,,,,,2025-09-21T19:51:31.748210
+1999-3-divisjon-10-sarpsborg-musikkorps,1999,3. divisjon,10,Sarpsborg Musikkorps,Tore Halvorsen,,[],,[],84.0,100.0,,,,,2025-09-21T19:51:31.748213
+1999-3-divisjon-11-eidsvoll-janitsjarkorps,1999,3. divisjon,11,Eidsvoll Janitsjarkorps,Trond Rønning,,[],,[],82.0,100.0,https://nmbrass.no/nmjanitsjar/static/eidsvolljanitsjarkorps.jpg,,,,2025-09-21T19:51:31.748215
+1999-3-divisjon-12-fana-musikklag,1999,3. divisjon,12,Fana Musikklag,Kjell Erik Husom,,[],,[],81.0,100.0,,,,,2025-09-21T19:51:31.748217
+1999-3-divisjon-13-ådalsbruk-musikkforening,1999,3. divisjon,13,Ådalsbruk Musikkforening,Thorbjørn Lunde,,[],,[],80.0,100.0,https://nmbrass.no/nmjanitsjar/static/aadalsbrukmusikkforening.jpg,,,,2025-09-21T19:51:31.748219
+1999-3-divisjon-14-alversund-musikklag,1999,3. divisjon,14,Alversund Musikklag,Eirik Gjerdevik,,[],,[],78.0,100.0,,,,,2025-09-21T19:51:31.748221
+1999-3-divisjon-15-arna-janitsjar,1999,3. divisjon,15,Arna Janitsjar,Jan-Erik Nordtvedt,,[],,[],77.5,100.0,,,,,2025-09-21T19:51:31.748223
+1999-4-divisjon-01-bømlo-janitsjar,1999,4. divisjon,1,Bømlo Janitsjar,Erling Johan Myrseth,First Suite in Eb for Military Band,['First Suite in Eb for Military Band'],,[],95.0,100.0,,,,,2025-09-21T19:51:31.748226
+1999-4-divisjon-02-dokka-musikkorps,1999,4. divisjon,2,Dokka Musikkorps,Ola Fredheim Haug,,[],,[],93.0,100.0,,,,,2025-09-21T19:51:31.748228
+1999-4-divisjon-03-nidarvoll-ungdomskorps,1999,4. divisjon,3,Nidarvoll Ungdomskorps,John Arve Viset,,[],,[],91.0,100.0,,,,,2025-09-21T19:51:31.748230
+1999-4-divisjon-04-meland-musikklag,1999,4. divisjon,4,Meland Musikklag,Marit Tømmermo,,[],,[],90.0,100.0,,,,,2025-09-21T19:51:31.748231
+1999-4-divisjon-04-strindheim-janitsjar,1999,4. divisjon,4,Strindheim Janitsjar,Stein Jacobsen,,[],,[],90.0,100.0,https://nmbrass.no/nmjanitsjar/static/strindheimjanitsjar.jpg,,,,2025-09-21T19:51:31.748233
+1999-4-divisjon-06-skatval-hornmusikklag,1999,4. divisjon,6,Skatval Hornmusikklag,Geir Lauvås,,[],,[],89.0,100.0,,,,,2025-09-21T19:51:31.748235
+1999-4-divisjon-06-vinne-musikkorps,1999,4. divisjon,6,Vinne Musikkorps,Torbjørn Fossum,Oregon,['Oregon'],,[],89.0,100.0,,,,,2025-09-21T19:51:31.748237
+1999-4-divisjon-08-lillehammer-janitsjar,1999,4. divisjon,8,Lillehammer Janitsjar,Ola Dahl,,[],,[],88.0,100.0,,,,,2025-09-21T19:51:31.748239
+1999-4-divisjon-09-østre-gausdal-musikkforening,1999,4. divisjon,9,Østre Gausdal Musikkforening,Anne Mette Mauseth,,[],,[],87.0,100.0,https://nmbrass.no/nmjanitsjar/static/ostregausdalmusikkforening.jpg,,,,2025-09-21T19:51:31.748241
+1999-4-divisjon-10-heimdal-musikkorps,1999,4. divisjon,10,Heimdal Musikkorps,Odd Steinar Mørkved,,[],,[],86.0,100.0,https://nmbrass.no/nmjanitsjar/static/heimdalmusikkorps.jpg,,,,2025-09-21T19:51:31.748243
+1999-4-divisjon-11-otta-musikkforening,1999,4. divisjon,11,Otta Musikkforening,Morten Graff,,[],,[],85.0,100.0,,,,,2025-09-21T19:51:31.748245
+1999-4-divisjon-12-hegra-hornmusikklag,1999,4. divisjon,12,Hegra Hornmusikklag,Guro Haugan,,[],,[],84.0,100.0,,,,,2025-09-21T19:51:31.748247
+1999-4-divisjon-12-trysil-musikklag,1999,4. divisjon,12,Trysil Musikklag,Terje Østby,,[],,[],84.0,100.0,,,,,2025-09-21T19:51:31.748249
+1999-4-divisjon-14-meråker-musikkorps,1999,4. divisjon,14,Meråker Musikkorps,Ole Ivar Teigen,,[],,[],83.0,100.0,,,,,2025-09-21T19:51:31.748251

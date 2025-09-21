@@ -19,8 +19,10 @@
       "rank": 1,
       "orchestra": "Sandvikens Ungdomskorps",
       "conductor": "Tormod Flaten",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphony no. 1, ‘Gilgamesh’",
+      "pieces_list": [
+        "Symphony no. 1, ‘Gilgamesh’"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.0,
@@ -29,7 +31,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082938"
+      "scraped_at": "2025-09-21T19:51:31.862193"
     },
     {
       "id": "2011-elite-02-dragefjellets-musikkorps-bergen",
@@ -38,8 +40,11 @@
       "rank": 2,
       "orchestra": "Dragefjellets Musikkorps Bergen",
       "conductor": "Ingar Bergby",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Norsk Rapsodi nr. 2; Symphony in B flat for Concert Band",
+      "pieces_list": [
+        "Norsk Rapsodi nr. 2",
+        "Symphony in B flat for Concert Band"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.5,
@@ -48,7 +53,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082941"
+      "scraped_at": "2025-09-21T19:51:31.862197"
     },
     {
       "id": "2011-elite-03-musikkforeningen-nidarholm",
@@ -57,8 +62,12 @@
       "rank": 3,
       "orchestra": "Musikkforeningen Nidarholm",
       "conductor": "Bjørn Sagstad",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Cerebral Vortex; Orgie et Dances fra Antoine et Cléopâtre; Lollapalooza",
+      "pieces_list": [
+        "Cerebral Vortex",
+        "Orgie et Dances fra Antoine et Cléopâtre",
+        "Lollapalooza"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -67,7 +76,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082944"
+      "scraped_at": "2025-09-21T19:51:31.862199"
     },
     {
       "id": "2011-elite-04-sarpsborg-janitsjarkorps",
@@ -76,8 +85,11 @@
       "rank": 4,
       "orchestra": "Sarpsborg Janitsjarkorps",
       "conductor": "Geir Holm",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Dionysiaques; Vientos",
+      "pieces_list": [
+        "Dionysiaques",
+        "Vientos"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -86,7 +98,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082946"
+      "scraped_at": "2025-09-21T19:51:31.862202"
     },
     {
       "id": "2011-elite-05-lillestrøm-musikkorps",
@@ -95,8 +107,11 @@
       "rank": 5,
       "orchestra": "Lillestrøm Musikkorps",
       "conductor": "Trond Sverre Myhre",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fantasy Variations; Spiritual Planet",
+      "pieces_list": [
+        "Fantasy Variations",
+        "Spiritual Planet"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.0,
@@ -105,7 +120,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082948"
+      "scraped_at": "2025-09-21T19:51:31.862204"
     },
     {
       "id": "2011-elite-06-vestre-aker-musikkorps",
@@ -114,8 +129,10 @@
       "rank": 6,
       "orchestra": "Vestre Aker Musikkorps",
       "conductor": "Thomas Rimul",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Belkis: Regina di Saba",
+      "pieces_list": [
+        "Belkis: Regina di Saba"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -124,7 +141,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082950"
+      "scraped_at": "2025-09-21T19:51:31.862206"
     },
     {
       "id": "2011-elite-07-kolbotn-konsertorkester",
@@ -133,8 +150,10 @@
       "rank": 7,
       "orchestra": "Kolbotn Konsertorkester",
       "conductor": "Sverre Stakston Olsrud",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphony no. 4",
+      "pieces_list": [
+        "Symphony no. 4"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.0,
@@ -143,7 +162,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082952"
+      "scraped_at": "2025-09-21T19:51:31.862208"
     },
     {
       "id": "2011-elite-08-nittedal-og-hakadal-janitsjar",
@@ -152,17 +171,22 @@
       "rank": 8,
       "orchestra": "Nittedal og Hakadal Janitsjar",
       "conductor": "John-Philip Hannevik",
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
+      "pieces": "Wind Blitz; Rumpelstilzchen",
+      "pieces_list": [
+        "Wind Blitz",
+        "Rumpelstilzchen"
+      ],
+      "composers": "a fairytale for Symphonic Wind Ensemble",
+      "composers_list": [
+        "a fairytale for Symphonic Wind Ensemble"
+      ],
       "points": 88.0,
       "max_points": 100.0,
       "image_url": "http://musikkorps.no/wp-content/uploads/2015/01/NM-Nittedal-og-Hakadal-Janitsjar.jpg",
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082954"
+      "scraped_at": "2025-09-21T19:51:31.862211"
     },
     {
       "id": "2011-elite-09-drammen-konsertorkester",
@@ -171,8 +195,11 @@
       "rank": 9,
       "orchestra": "Drammen Konsertorkester",
       "conductor": "Rune Bergman",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Ildfuglen; Short Ride in a Fast Machine",
+      "pieces_list": [
+        "Ildfuglen",
+        "Short Ride in a Fast Machine"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -181,7 +208,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082955"
+      "scraped_at": "2025-09-21T19:51:31.862213"
     },
     {
       "id": "2011-elite-10-sandefjord-musikkorps",
@@ -190,8 +217,11 @@
       "rank": 10,
       "orchestra": "Sandefjord Musikkorps",
       "conductor": "Odd Terje Lysebo",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symfoni nr. 2, Venus de las Luces; Cheetah",
+      "pieces_list": [
+        "Symfoni nr. 2, Venus de las Luces",
+        "Cheetah"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -200,7 +230,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082957"
+      "scraped_at": "2025-09-21T19:51:31.862215"
     },
     {
       "id": "2011-1-divisjon-01-christiania-blåseensemble",
@@ -209,8 +239,11 @@
       "rank": 1,
       "orchestra": "Christiania Blåseensemble",
       "conductor": "Thor Anders Trelease-Eriksen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Equus; Poseidon",
+      "pieces_list": [
+        "Equus",
+        "Poseidon"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.5,
@@ -219,7 +252,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082960"
+      "scraped_at": "2025-09-21T19:51:31.862218"
     },
     {
       "id": "2011-1-divisjon-02-kolbu-janitsjarkorps",
@@ -228,8 +261,11 @@
       "rank": 2,
       "orchestra": "Kolbu Janitsjarkorps",
       "conductor": "Christian Skarbø Tenfjord",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fantasia per la vita e la Morte; January fra Winter Dances",
+      "pieces_list": [
+        "Fantasia per la vita e la Morte",
+        "January fra Winter Dances"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.0,
@@ -238,7 +274,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082961"
+      "scraped_at": "2025-09-21T19:51:31.862220"
     },
     {
       "id": "2011-1-divisjon-03-sagene-janitsjarkorps",
@@ -247,17 +283,21 @@
       "rank": 3,
       "orchestra": "Sagene Janitsjarkorps",
       "conductor": "Tom Skjellum",
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
+      "pieces": "Symphony no. 1",
+      "pieces_list": [
+        "Symphony no. 1"
+      ],
+      "composers": "Asgard",
+      "composers_list": [
+        "Asgard"
+      ],
       "points": 93.0,
       "max_points": 100.0,
       "image_url": "https://nmbrass.no/nmjanitsjar/static/sagenejanitsjarkorps.jpg",
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082963"
+      "scraped_at": "2025-09-21T19:51:31.862223"
     },
     {
       "id": "2011-1-divisjon-04-lørenskog-musikkorps",
@@ -266,8 +306,11 @@
       "rank": 4,
       "orchestra": "Lørenskog Musikkorps",
       "conductor": "Tarjei W. Grimsby",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fanfare and Choral; The Year of the Dragon",
+      "pieces_list": [
+        "Fanfare and Choral",
+        "The Year of the Dragon"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -276,7 +319,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082965"
+      "scraped_at": "2025-09-21T19:51:31.862225"
     },
     {
       "id": "2011-1-divisjon-05-alvøens-musikkforening",
@@ -285,8 +328,10 @@
       "rank": 5,
       "orchestra": "Alvøens Musikkforening",
       "conductor": "Bengt Florvåg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Pinocchio",
+      "pieces_list": [
+        "Pinocchio"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.5,
@@ -295,7 +340,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082967"
+      "scraped_at": "2025-09-21T19:51:31.862228"
     },
     {
       "id": "2011-1-divisjon-06-borge-musikkorps",
@@ -304,8 +349,10 @@
       "rank": 6,
       "orchestra": "Borge Musikkorps",
       "conductor": "Hans Andreas Kjølberg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Atmospheres",
+      "pieces_list": [
+        "Atmospheres"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.0,
@@ -314,7 +361,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082969"
+      "scraped_at": "2025-09-21T19:51:31.862230"
     },
     {
       "id": "2011-1-divisjon-07-skjold-nesttun-janitsjar",
@@ -323,8 +370,11 @@
       "rank": 7,
       "orchestra": "Skjold Nesttun Janitsjar",
       "conductor": "Bengt Florvåg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Die Druiden; Trittico",
+      "pieces_list": [
+        "Die Druiden",
+        "Trittico"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -333,7 +383,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082971"
+      "scraped_at": "2025-09-21T19:51:31.862232"
     },
     {
       "id": "2011-1-divisjon-08-stabekk-janitsjarorkester",
@@ -342,8 +392,11 @@
       "rank": 8,
       "orchestra": "Stabekk Janitsjarorkester",
       "conductor": "Vegard Landaas",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Theme and Variations for Wind Band, Op. 43a; Poéme du Feu",
+      "pieces_list": [
+        "Theme and Variations for Wind Band, Op. 43a",
+        "Poéme du Feu"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.5,
@@ -352,7 +405,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082973"
+      "scraped_at": "2025-09-21T19:51:31.862234"
     },
     {
       "id": "2011-1-divisjon-09-mo-hornmusikk",
@@ -361,8 +414,11 @@
       "rank": 9,
       "orchestra": "Mo Hornmusikk",
       "conductor": "Reid Gilje",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Aegean Festival Overture; Peacock Variations (Tema, Var. I, II, III, VII, VIII, IX, XIV, XV, XVI, Finale)",
+      "pieces_list": [
+        "Aegean Festival Overture",
+        "Peacock Variations (Tema, Var. I, II, III, VII, VIII, IX, XIV, XV, XVI, Finale)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.0,
@@ -371,7 +427,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082975"
+      "scraped_at": "2025-09-21T19:51:31.862236"
     },
     {
       "id": "2011-1-divisjon-10-halsen-musikkforening",
@@ -380,8 +436,11 @@
       "rank": 10,
       "orchestra": "Halsen Musikkforening",
       "conductor": "Espen Andersen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Evocazioni; Sunrise at Angel`s Gate",
+      "pieces_list": [
+        "Evocazioni",
+        "Sunrise at Angel`s Gate"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -390,7 +449,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082977"
+      "scraped_at": "2025-09-21T19:51:31.862238"
     },
     {
       "id": "2011-1-divisjon-11-sande-musikkorps",
@@ -399,8 +458,11 @@
       "rank": 11,
       "orchestra": "Sande Musikkorps",
       "conductor": "Jan Roger Øren",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Traveler; Firestorm",
+      "pieces_list": [
+        "Traveler",
+        "Firestorm"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -409,7 +471,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082979"
+      "scraped_at": "2025-09-21T19:51:31.862241"
     },
     {
       "id": "2011-1-divisjon-12-skedsmo-janitsjarorkester",
@@ -418,8 +480,11 @@
       "rank": 12,
       "orchestra": "Skedsmo Janitsjarorkester",
       "conductor": "Martin Torp",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Blue Shades; Symphony no. 1, \"Journey in the Dark\"",
+      "pieces_list": [
+        "Blue Shades",
+        "Symphony no. 1, \"Journey in the Dark\""
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -428,7 +493,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082981"
+      "scraped_at": "2025-09-21T19:51:31.862243"
     },
     {
       "id": "2011-1-divisjon-13-bispehaugen-ungdomskorps",
@@ -437,8 +502,11 @@
       "rank": 13,
       "orchestra": "Bispehaugen Ungdomskorps",
       "conductor": "Tomas Carstensen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "In Memoriam; Liturgical Dances",
+      "pieces_list": [
+        "In Memoriam",
+        "Liturgical Dances"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.0,
@@ -447,7 +515,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082983"
+      "scraped_at": "2025-09-21T19:51:31.862245"
     },
     {
       "id": "2011-2-divisjon-01-opus-82",
@@ -456,8 +524,11 @@
       "rank": 1,
       "orchestra": "Opus 82",
       "conductor": "Pål Wilhelm Magnussen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Theme and Variations for Wind Band, Op. 43a; Postcard",
+      "pieces_list": [
+        "Theme and Variations for Wind Band, Op. 43a",
+        "Postcard"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 96.0,
@@ -466,7 +537,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082985"
+      "scraped_at": "2025-09-21T19:51:31.862247"
     },
     {
       "id": "2011-2-divisjon-02-tønsberg-janitsjarkorps",
@@ -475,8 +546,11 @@
       "rank": 2,
       "orchestra": "Tønsberg Janitsjarkorps",
       "conductor": "Egil Johannes Lysebo",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Galactic Empires; Wild Nights!",
+      "pieces_list": [
+        "Galactic Empires",
+        "Wild Nights!"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.0,
@@ -485,7 +559,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082987"
+      "scraped_at": "2025-09-21T19:51:31.862249"
     },
     {
       "id": "2011-2-divisjon-03-stavanger-musikkorps-av-1919",
@@ -494,8 +568,11 @@
       "rank": 3,
       "orchestra": "Stavanger Musikkorps av 1919",
       "conductor": "Morten Evjeberg Hansen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphonic Metamorphosis on themes from Saint-Saëns 3rd Symphony; Esprit de Corps",
+      "pieces_list": [
+        "Symphonic Metamorphosis on themes from Saint-Saëns 3rd Symphony",
+        "Esprit de Corps"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.5,
@@ -504,7 +581,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082989"
+      "scraped_at": "2025-09-21T19:51:31.862252"
     },
     {
       "id": "2011-2-divisjon-04-lisleby-musikkorps",
@@ -513,8 +590,11 @@
       "rank": 4,
       "orchestra": "Lisleby Musikkorps",
       "conductor": "Erlend Tunestveit",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Vesuvius; Symphony in B flat for Concert Band, 2. og 3. sats",
+      "pieces_list": [
+        "Vesuvius",
+        "Symphony in B flat for Concert Band, 2. og 3. sats"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -523,7 +603,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082991"
+      "scraped_at": "2025-09-21T19:51:31.862254"
     },
     {
       "id": "2011-2-divisjon-05-vestsidens-musikkorps",
@@ -532,8 +612,11 @@
       "rank": 5,
       "orchestra": "Vestsidens Musikkorps",
       "conductor": "Arild Andersen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fanfare and Allegro; Masquerade for Band, Op. 102",
+      "pieces_list": [
+        "Fanfare and Allegro",
+        "Masquerade for Band, Op. 102"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.5,
@@ -542,7 +625,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082992"
+      "scraped_at": "2025-09-21T19:51:31.862256"
     },
     {
       "id": "2011-2-divisjon-06-lungegaardens-musikkorps",
@@ -551,8 +634,11 @@
       "rank": 6,
       "orchestra": "Lungegaardens Musikkorps",
       "conductor": "Stian E. Svendsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Equus; Blue Shades",
+      "pieces_list": [
+        "Equus",
+        "Blue Shades"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -561,7 +647,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082994"
+      "scraped_at": "2025-09-21T19:51:31.862258"
     },
     {
       "id": "2011-2-divisjon-07-aalesunds-ungdomsmusikkorps",
@@ -570,8 +656,11 @@
       "rank": 7,
       "orchestra": "Aalesunds Ungdomsmusikkorps",
       "conductor": "Sindre Dalhaug",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Pastorale; Blue Shades",
+      "pieces_list": [
+        "Pastorale",
+        "Blue Shades"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.0,
@@ -580,7 +669,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082996"
+      "scraped_at": "2025-09-21T19:51:31.862260"
     },
     {
       "id": "2011-2-divisjon-08-bjølsen-ungdomskorps",
@@ -589,8 +678,11 @@
       "rank": 8,
       "orchestra": "Bjølsen Ungdomskorps",
       "conductor": "Frode Amundsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Tam o'Shanter; Equus",
+      "pieces_list": [
+        "Tam o'Shanter",
+        "Equus"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -599,7 +691,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.082998"
+      "scraped_at": "2025-09-21T19:51:31.862262"
     },
     {
       "id": "2011-2-divisjon-09-sinsen-konsertorkester",
@@ -608,8 +700,11 @@
       "rank": 9,
       "orchestra": "Sinsen Konsertorkester",
       "conductor": "Trond Elnes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Theme and Variations for Wind Band, Op. 43a; The Dolly Suite, Op. 56, 4., 1. og 6. sats",
+      "pieces_list": [
+        "Theme and Variations for Wind Band, Op. 43a",
+        "The Dolly Suite, Op. 56, 4., 1. og 6. sats"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.5,
@@ -618,7 +713,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083000"
+      "scraped_at": "2025-09-21T19:51:31.862264"
     },
     {
       "id": "2011-2-divisjon-10-greåker-musikkorps",
@@ -627,8 +722,11 @@
       "rank": 10,
       "orchestra": "Greåker Musikkorps",
       "conductor": "Terje Gravningsmyhr",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Blue Shades; Fugal Overture",
+      "pieces_list": [
+        "Blue Shades",
+        "Fugal Overture"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.5,
@@ -637,7 +735,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083002"
+      "scraped_at": "2025-09-21T19:51:31.862267"
     },
     {
       "id": "2011-2-divisjon-11-ranheim-musikkforening",
@@ -646,8 +744,11 @@
       "rank": 11,
       "orchestra": "Ranheim Musikkforening",
       "conductor": "Hans Andreas Kjølberg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Blue Shades; Sleep",
+      "pieces_list": [
+        "Blue Shades",
+        "Sleep"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.0,
@@ -656,7 +757,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083004"
+      "scraped_at": "2025-09-21T19:51:31.862269"
     },
     {
       "id": "2011-2-divisjon-12-tresfjord-janitsjar",
@@ -665,8 +766,11 @@
       "rank": 12,
       "orchestra": "Tresfjord Janitsjar",
       "conductor": "Arnfinn Dalhaug",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Canzona; The Hounds of Spring",
+      "pieces_list": [
+        "Canzona",
+        "The Hounds of Spring"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.0,
@@ -675,7 +779,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083006"
+      "scraped_at": "2025-09-21T19:51:31.862271"
     },
     {
       "id": "2011-2-divisjon-13-byneset-musikkorps",
@@ -684,8 +788,12 @@
       "rank": 13,
       "orchestra": "Byneset Musikkorps",
       "conductor": "Peter Hatfield",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "March in B flat; Lux Aurumque; Wild Nights!",
+      "pieces_list": [
+        "March in B flat",
+        "Lux Aurumque",
+        "Wild Nights!"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -694,7 +802,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083007"
+      "scraped_at": "2025-09-21T19:51:31.862273"
     },
     {
       "id": "2011-2-divisjon-14-tromsø-orkesterforenings-janitsjarkorps",
@@ -703,8 +811,12 @@
       "rank": 14,
       "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
       "conductor": "Sten Ivar Frydenlund",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "The Iron Foundry, Op. 19; Introduzione al S; Orient et Occident, Op. 25",
+      "pieces_list": [
+        "The Iron Foundry, Op. 19",
+        "Introduzione al S",
+        "Orient et Occident, Op. 25"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -713,7 +825,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083010"
+      "scraped_at": "2025-09-21T19:51:31.862276"
     },
     {
       "id": "2011-2-divisjon-15-østensjø-janitsjar",
@@ -722,8 +834,11 @@
       "rank": 15,
       "orchestra": "Østensjø Janitsjar",
       "conductor": "Trond Nilsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Gallimaufry; Slava!",
+      "pieces_list": [
+        "Gallimaufry",
+        "Slava!"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.5,
@@ -732,7 +847,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083011"
+      "scraped_at": "2025-09-21T19:51:31.862278"
     },
     {
       "id": "2011-2-divisjon-16-strusshamn-musikkforening",
@@ -741,8 +856,11 @@
       "rank": 16,
       "orchestra": "Strusshamn Musikkforening",
       "conductor": "Reid Gilje",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Invocation and Toccata; The Saga of Haakon the Good",
+      "pieces_list": [
+        "Invocation and Toccata",
+        "The Saga of Haakon the Good"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 83.5,
@@ -751,7 +869,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083013"
+      "scraped_at": "2025-09-21T19:51:31.862280"
     },
     {
       "id": "2011-3-divisjon-01-hovin-musikkorps",
@@ -760,8 +878,10 @@
       "rank": 1,
       "orchestra": "Hovin Musikkorps",
       "conductor": "Eirik Bøhn Berntsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphony no. 1 for Band",
+      "pieces_list": [
+        "Symphony no. 1 for Band"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.0,
@@ -770,7 +890,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083015"
+      "scraped_at": "2025-09-21T19:51:31.862282"
     },
     {
       "id": "2011-3-divisjon-02-asker-musikkorps",
@@ -779,8 +899,10 @@
       "rank": 2,
       "orchestra": "Asker Musikkorps",
       "conductor": "Rune Bergman",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Machu Picchu - City in the sky - the mystery of the hidden sun Temple",
+      "pieces_list": [
+        "Machu Picchu - City in the sky - the mystery of the hidden sun Temple"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.5,
@@ -789,7 +911,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083017"
+      "scraped_at": "2025-09-21T19:51:31.862285"
     },
     {
       "id": "2011-3-divisjon-03-fåberg-musikkforening",
@@ -798,8 +920,10 @@
       "rank": 3,
       "orchestra": "Fåberg Musikkforening",
       "conductor": "Helge Haukås",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Of Sailors of Whales",
+      "pieces_list": [
+        "Of Sailors of Whales"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -808,7 +932,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083019"
+      "scraped_at": "2025-09-21T19:51:31.862287"
     },
     {
       "id": "2011-3-divisjon-04-arendal-byorkester",
@@ -817,8 +941,11 @@
       "rank": 4,
       "orchestra": "Arendal Byorkester",
       "conductor": "Britt Hilde Våge",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Sheperd's Hey, English Morris Dance; Poet and Peasant",
+      "pieces_list": [
+        "Sheperd's Hey, English Morris Dance",
+        "Poet and Peasant"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -827,7 +954,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083021"
+      "scraped_at": "2025-09-21T19:51:31.862289"
     },
     {
       "id": "2011-3-divisjon-05-kongsberg-byorkester",
@@ -836,8 +963,10 @@
       "rank": 5,
       "orchestra": "Kongsberg Byorkester",
       "conductor": "Geir Arne Haugsrud",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Paris Sketches",
+      "pieces_list": [
+        "Paris Sketches"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.5,
@@ -846,7 +975,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083023"
+      "scraped_at": "2025-09-21T19:51:31.862291"
     },
     {
       "id": "2011-3-divisjon-06-ådalsbruk-musikkforening",
@@ -855,8 +984,10 @@
       "rank": 6,
       "orchestra": "Ådalsbruk Musikkforening",
       "conductor": "Trond Elnes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Give us this Day",
+      "pieces_list": [
+        "Give us this Day"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.0,
@@ -865,7 +996,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083025"
+      "scraped_at": "2025-09-21T19:51:31.862293"
     },
     {
       "id": "2011-3-divisjon-07-malvik-musikkorps",
@@ -874,8 +1005,11 @@
       "rank": 7,
       "orchestra": "Malvik Musikkorps",
       "conductor": "Bjørn Erik Heggli",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Sing Sang Sung; Toccata e Corale",
+      "pieces_list": [
+        "Sing Sang Sung",
+        "Toccata e Corale"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.0,
@@ -884,7 +1018,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083027"
+      "scraped_at": "2025-09-21T19:51:31.862295"
     },
     {
       "id": "2011-3-divisjon-08-åsane-musikklag",
@@ -893,8 +1027,11 @@
       "rank": 8,
       "orchestra": "Åsane Musikklag",
       "conductor": "Håvar Olsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "A Jubilant Overture; Variation on a Korean Folk Song",
+      "pieces_list": [
+        "A Jubilant Overture",
+        "Variation on a Korean Folk Song"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.5,
@@ -903,7 +1040,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083029"
+      "scraped_at": "2025-09-21T19:51:31.862298"
     },
     {
       "id": "2011-3-divisjon-09-modum-janitsjar",
@@ -912,8 +1049,10 @@
       "rank": 9,
       "orchestra": "Modum Janitsjar",
       "conductor": "Njål Inge Enger",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "The Seasons",
+      "pieces_list": [
+        "The Seasons"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -922,7 +1061,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083031"
+      "scraped_at": "2025-09-21T19:51:31.862300"
     },
     {
       "id": "2011-3-divisjon-10-eina-musikkforening",
@@ -931,8 +1070,10 @@
       "rank": 10,
       "orchestra": "Eina Musikkforening",
       "conductor": "Ola Fredheim Haug",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Give us this Day",
+      "pieces_list": [
+        "Give us this Day"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.5,
@@ -941,7 +1082,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083033"
+      "scraped_at": "2025-09-21T19:51:31.862302"
     },
     {
       "id": "2011-3-divisjon-11-melhus-janitsjarkorps",
@@ -950,8 +1091,11 @@
       "rank": 11,
       "orchestra": "Melhus Janitsjarkorps",
       "conductor": "Jens Einar Kvenild",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "A Springtime Celebration; Variations on a Renaissance Theme",
+      "pieces_list": [
+        "A Springtime Celebration",
+        "Variations on a Renaissance Theme"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.0,
@@ -960,7 +1104,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083035"
+      "scraped_at": "2025-09-21T19:51:31.862304"
     },
     {
       "id": "2011-3-divisjon-12-gjøvik-bykorps",
@@ -969,8 +1113,11 @@
       "rank": 12,
       "orchestra": "Gjøvik Bykorps",
       "conductor": "Espen Aslaksen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "The Year of the Dragon, 2. sats; Dimensions",
+      "pieces_list": [
+        "The Year of the Dragon, 2. sats",
+        "Dimensions"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -979,7 +1126,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083039"
+      "scraped_at": "2025-09-21T19:51:31.862306"
     },
     {
       "id": "2011-3-divisjon-13-fana-musikklag",
@@ -988,8 +1135,11 @@
       "rank": 13,
       "orchestra": "Fana Musikklag",
       "conductor": "Bjarte Riseng",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Arabesque; Lux Aurumque",
+      "pieces_list": [
+        "Arabesque",
+        "Lux Aurumque"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -998,7 +1148,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083041"
+      "scraped_at": "2025-09-21T19:51:31.862308"
     },
     {
       "id": "2011-3-divisjon-14-heimdal-musikkorps",
@@ -1007,8 +1157,10 @@
       "rank": 14,
       "orchestra": "Heimdal Musikkorps",
       "conductor": "Per Kvistad Uddu",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Terra Vulcana",
+      "pieces_list": [
+        "Terra Vulcana"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -1017,7 +1169,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083043"
+      "scraped_at": "2025-09-21T19:51:31.862310"
     },
     {
       "id": "2011-3-divisjon-15-åsnes-hornmusikk",
@@ -1026,8 +1178,10 @@
       "rank": 15,
       "orchestra": "Åsnes Hornmusikk",
       "conductor": "John-Philip Hannevik",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Mountain Ridge and Headlands",
+      "pieces_list": [
+        "Mountain Ridge and Headlands"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -1036,7 +1190,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083045"
+      "scraped_at": "2025-09-21T19:51:31.862314"
     },
     {
       "id": "2011-3-divisjon-16-nidarvoll-ungdomskorps",
@@ -1045,8 +1199,10 @@
       "rank": 16,
       "orchestra": "Nidarvoll Ungdomskorps",
       "conductor": "Tomas Carstensen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Purcell Variants",
+      "pieces_list": [
+        "Purcell Variants"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.0,
@@ -1055,7 +1211,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083047"
+      "scraped_at": "2025-09-21T19:51:31.862317"
     },
     {
       "id": "2011-4-divisjon-01-asker-og-bærum-ungdomskorps",
@@ -1064,8 +1220,11 @@
       "rank": 1,
       "orchestra": "Asker og Bærum Ungdomskorps",
       "conductor": "Maria Nygård Molund",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band; Fanfare and Choral",
+      "pieces_list": [
+        "Variations for Band",
+        "Fanfare and Choral"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 96.0,
@@ -1074,7 +1233,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083049"
+      "scraped_at": "2025-09-21T19:51:31.862319"
     },
     {
       "id": "2011-4-divisjon-02-østre-gausdal-musikkforening",
@@ -1083,8 +1242,11 @@
       "rank": 2,
       "orchestra": "Østre Gausdal Musikkforening",
       "conductor": "Lage Robak",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Pilatus: Mountain of Dragons; Rollo Takes a Walk",
+      "pieces_list": [
+        "Pilatus: Mountain of Dragons",
+        "Rollo Takes a Walk"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.0,
@@ -1093,7 +1255,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083051"
+      "scraped_at": "2025-09-21T19:51:31.862322"
     },
     {
       "id": "2011-4-divisjon-03-hov-musikkorps",
@@ -1102,8 +1264,11 @@
       "rank": 3,
       "orchestra": "Hov Musikkorps",
       "conductor": "Morten Fagerjord",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "El Camino Real; Hine e Hine, Maori Lullaby",
+      "pieces_list": [
+        "El Camino Real",
+        "Hine e Hine, Maori Lullaby"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -1112,7 +1277,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083053"
+      "scraped_at": "2025-09-21T19:51:31.862324"
     },
     {
       "id": "2011-4-divisjon-04-oslo-postorkester",
@@ -1121,8 +1286,10 @@
       "rank": 4,
       "orchestra": "Oslo Postorkester",
       "conductor": "Erik Bergene",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "The Wind in the Willows",
+      "pieces_list": [
+        "The Wind in the Willows"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.5,
@@ -1131,7 +1298,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083055"
+      "scraped_at": "2025-09-21T19:51:31.862326"
     },
     {
       "id": "2011-4-divisjon-05-byåsen-musikkorps",
@@ -1140,8 +1307,10 @@
       "rank": 5,
       "orchestra": "Byåsen Musikkorps",
       "conductor": "Magne Østlie Hjelmervik",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Banja Luka",
+      "pieces_list": [
+        "Banja Luka"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -1150,7 +1319,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083057"
+      "scraped_at": "2025-09-21T19:51:31.862328"
     },
     {
       "id": "2011-4-divisjon-06-haugesund-janitsjarorkester",
@@ -1159,8 +1328,11 @@
       "rank": 6,
       "orchestra": "Haugesund Janitsjarorkester",
       "conductor": "Alf Reidar Nilsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Heroic Sketches; Sahara",
+      "pieces_list": [
+        "Heroic Sketches",
+        "Sahara"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.5,
@@ -1169,7 +1341,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083059"
+      "scraped_at": "2025-09-21T19:51:31.862330"
     },
     {
       "id": "2011-4-divisjon-07-gloppen-janitsjar",
@@ -1178,8 +1350,12 @@
       "rank": 7,
       "orchestra": "Gloppen Janitsjar",
       "conductor": "John Rune Ødven",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Irish Tune from County Derry; Sheperd's Hey, English Morris Dance; Flåklypa Medley",
+      "pieces_list": [
+        "Irish Tune from County Derry",
+        "Sheperd's Hey, English Morris Dance",
+        "Flåklypa Medley"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.0,
@@ -1188,7 +1364,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083061"
+      "scraped_at": "2025-09-21T19:51:31.862332"
     },
     {
       "id": "2011-4-divisjon-08-strinda-ungdomskorps",
@@ -1197,8 +1373,11 @@
       "rank": 8,
       "orchestra": "Strinda Ungdomskorps",
       "conductor": "Magne Østlie Hjelmervik",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Prelude, Siciliano and Rondo (Prelude); El Camino Real",
+      "pieces_list": [
+        "Prelude, Siciliano and Rondo (Prelude)",
+        "El Camino Real"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.5,
@@ -1207,7 +1386,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083063"
+      "scraped_at": "2025-09-21T19:51:31.862334"
     },
     {
       "id": "2011-4-divisjon-09-ås-og-vestby-musikkorps-/-moss-og-omegn-janitsjar",
@@ -1216,17 +1395,22 @@
       "rank": 9,
       "orchestra": "Ås og Vestby Musikkorps / Moss og omegn Janitsjar",
       "conductor": "Erlend Tunestveit/Sverre Caspersen",
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
+      "pieces": "Autobiography; Toccata Marziale",
+      "pieces_list": [
+        "Autobiography",
+        "Toccata Marziale"
+      ],
+      "composers": "Part Two",
+      "composers_list": [
+        "Part Two"
+      ],
       "points": 88.0,
       "max_points": 100.0,
       "image_url": null,
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083065"
+      "scraped_at": "2025-09-21T19:51:31.862337"
     },
     {
       "id": "2011-4-divisjon-10-dokka-musikkorps",
@@ -1235,8 +1419,10 @@
       "rank": 10,
       "orchestra": "Dokka Musikkorps",
       "conductor": "Andres Halla",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band",
+      "pieces_list": [
+        "Variations for Band"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.5,
@@ -1245,7 +1431,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083067"
+      "scraped_at": "2025-09-21T19:51:31.862340"
     },
     {
       "id": "2011-4-divisjon-11-skatval-hornmusikklag",
@@ -1254,8 +1440,11 @@
       "rank": 11,
       "orchestra": "Skatval Hornmusikklag",
       "conductor": "Arild Hognes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Excelsior; Spring Pictures",
+      "pieces_list": [
+        "Excelsior",
+        "Spring Pictures"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -1264,7 +1453,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083069"
+      "scraped_at": "2025-09-21T19:51:31.862342"
     },
     {
       "id": "2011-4-divisjon-12-vålerenga-janitsjarkorps",
@@ -1273,8 +1462,11 @@
       "rank": 12,
       "orchestra": "Vålerenga Janitsjarkorps",
       "conductor": "Trond Elnes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festival Prelude; Noah’s Ark",
+      "pieces_list": [
+        "Festival Prelude",
+        "Noah’s Ark"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -1283,7 +1475,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083071"
+      "scraped_at": "2025-09-21T19:51:31.862344"
     },
     {
       "id": "2011-4-divisjon-13-musikkorpset-tempo",
@@ -1292,8 +1484,11 @@
       "rank": 13,
       "orchestra": "Musikkorpset TEMPO",
       "conductor": "Stein Åge Sørlie",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fra Borge; Orient et Occident, Op. 25",
+      "pieces_list": [
+        "Fra Borge",
+        "Orient et Occident, Op. 25"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -1302,7 +1497,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083073"
+      "scraped_at": "2025-09-21T19:51:31.862346"
     },
     {
       "id": "2011-4-divisjon-14-jernbanens-musikkorps-oslo",
@@ -1311,8 +1506,11 @@
       "rank": 14,
       "orchestra": "Jernbanens Musikkorps Oslo",
       "conductor": "Bjørn Morten Kjærnes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Unisons; The Hounds of Spring",
+      "pieces_list": [
+        "Unisons",
+        "The Hounds of Spring"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.5,
@@ -1321,7 +1519,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083075"
+      "scraped_at": "2025-09-21T19:51:31.862348"
     },
     {
       "id": "2011-4-divisjon-15-tolga-os-janitsjar",
@@ -1330,17 +1528,21 @@
       "rank": 15,
       "orchestra": "Tolga-Os Janitsjar",
       "conductor": "Nils Graftås",
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
+      "pieces": "Lincolnshire Posy,",
+      "pieces_list": [
+        "Lincolnshire Posy,"
+      ],
+      "composers": "5. sats",
+      "composers_list": [
+        "5. sats"
+      ],
       "points": 84.5,
       "max_points": 100.0,
       "image_url": null,
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083077"
+      "scraped_at": "2025-09-21T19:51:31.862351"
     },
     {
       "id": "2011-5-divisjon-01-alvdal-tynset-janitsjarkorps",
@@ -1349,8 +1551,12 @@
       "rank": 1,
       "orchestra": "Alvdal-Tynset Janitsjarkorps",
       "conductor": "Nils Graftås",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Intrada Festivo; Hennepin County Dawn; Seagate Overture",
+      "pieces_list": [
+        "Intrada Festivo",
+        "Hennepin County Dawn",
+        "Seagate Overture"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.0,
@@ -1359,7 +1565,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083079"
+      "scraped_at": "2025-09-21T19:51:31.862353"
     },
     {
       "id": "2011-5-divisjon-02-eidsvoll-janitsjarkorps",
@@ -1368,8 +1574,10 @@
       "rank": 2,
       "orchestra": "Eidsvoll Janitsjarkorps",
       "conductor": "Jon Harald Bjørnson",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Theatre Music",
+      "pieces_list": [
+        "Theatre Music"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -1378,7 +1586,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083081"
+      "scraped_at": "2025-09-21T19:51:31.862355"
     },
     {
       "id": "2011-5-divisjon-03-molde-janitsjar",
@@ -1387,8 +1595,10 @@
       "rank": 3,
       "orchestra": "Molde Janitsjar",
       "conductor": "Nils Magne Abelseth",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Theatre Music",
+      "pieces_list": [
+        "Theatre Music"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -1397,7 +1607,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083082"
+      "scraped_at": "2025-09-21T19:51:31.862357"
     },
     {
       "id": "2011-5-divisjon-04-oppdal-musikkforening/rennebu-musikkorps",
@@ -1406,8 +1616,11 @@
       "rank": 4,
       "orchestra": "Oppdal Musikkforening/Rennebu Musikkorps",
       "conductor": "Ingrid Øien og Morten Hole",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Dawn of a New Day; La Storia",
+      "pieces_list": [
+        "Dawn of a New Day",
+        "La Storia"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.0,
@@ -1416,7 +1629,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083084"
+      "scraped_at": "2025-09-21T19:51:31.862360"
     },
     {
       "id": "2011-5-divisjon-05-akershus-konsertorkester",
@@ -1425,8 +1638,11 @@
       "rank": 5,
       "orchestra": "Akershus Konsertorkester",
       "conductor": "Tommy-René Stordal",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "The Witch and the Saint; Fresh",
+      "pieces_list": [
+        "The Witch and the Saint",
+        "Fresh"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.5,
@@ -1435,7 +1651,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083086"
+      "scraped_at": "2025-09-21T19:51:31.862362"
     },
     {
       "id": "2011-5-divisjon-06-musikklaget-kornetten",
@@ -1444,8 +1660,11 @@
       "rank": 6,
       "orchestra": "Musikklaget Kornetten",
       "conductor": "Håvard Hinsverk",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "March of the Belgian Paratroopers; Pageant of Light",
+      "pieces_list": [
+        "March of the Belgian Paratroopers",
+        "Pageant of Light"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -1454,7 +1673,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083088"
+      "scraped_at": "2025-09-21T19:51:31.862364"
     },
     {
       "id": "2011-5-divisjon-07-musikklaget-ulf",
@@ -1463,8 +1682,10 @@
       "rank": 7,
       "orchestra": "Musikklaget Ulf",
       "conductor": "Jette Hougaard Holstad",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Music for a Festival",
+      "pieces_list": [
+        "Music for a Festival"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.0,
@@ -1473,7 +1694,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083090"
+      "scraped_at": "2025-09-21T19:51:31.862366"
     },
     {
       "id": "2011-5-divisjon-08-hasund-og-dimnøy-ungdomsmusikkorps",
@@ -1482,8 +1703,11 @@
       "rank": 8,
       "orchestra": "Hasund og Dimnøy Ungdomsmusikkorps",
       "conductor": "Kjellstein Knotten",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Of a Distant Star; Svein Uræd",
+      "pieces_list": [
+        "Of a Distant Star",
+        "Svein Uræd"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -1492,7 +1716,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083093"
+      "scraped_at": "2025-09-21T19:51:31.862368"
     },
     {
       "id": "2011-5-divisjon-09-drøbak-musikkorps",
@@ -1501,8 +1725,10 @@
       "rank": 9,
       "orchestra": "Drøbak Musikkorps",
       "conductor": "Martin Torp",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Second Suite in F for Military Band",
+      "pieces_list": [
+        "Second Suite in F for Military Band"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.5,
@@ -1511,7 +1737,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083095"
+      "scraped_at": "2025-09-21T19:51:31.862370"
     },
     {
       "id": "2011-5-divisjon-10-tvedestrand-musikkorps",
@@ -1520,8 +1746,10 @@
       "rank": 10,
       "orchestra": "Tvedestrand Musikkorps",
       "conductor": "Rune Hansen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Atlantic Odyssey",
+      "pieces_list": [
+        "Atlantic Odyssey"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -1530,7 +1758,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083097"
+      "scraped_at": "2025-09-21T19:51:31.862372"
     },
     {
       "id": "2011-5-divisjon-11-bømlo-janitsjar",
@@ -1539,8 +1767,10 @@
       "rank": 11,
       "orchestra": "Bømlo Janitsjar",
       "conductor": "Stein Høyland",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Music for a Festival",
+      "pieces_list": [
+        "Music for a Festival"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -1549,7 +1779,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083099"
+      "scraped_at": "2025-09-21T19:51:31.862375"
     },
     {
       "id": "2011-5-divisjon-12-nannestad-janitsjarkorps",
@@ -1558,8 +1788,11 @@
       "rank": 12,
       "orchestra": "Nannestad Janitsjarkorps",
       "conductor": "Hans Petter Karlsson",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Cassiopeia; Lux Aurumque",
+      "pieces_list": [
+        "Cassiopeia",
+        "Lux Aurumque"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.0,
@@ -1568,7 +1801,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083101"
+      "scraped_at": "2025-09-21T19:51:31.862377"
     },
     {
       "id": "2011-5-divisjon-13-levanger-musikkforening",
@@ -1577,8 +1810,12 @@
       "rank": 13,
       "orchestra": "Levanger Musikkforening",
       "conductor": "Runar Valheim Værnes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Concert Prelude; Bergartilleribataljon nr. 3's Marsj; Blue-Tail Fly",
+      "pieces_list": [
+        "Concert Prelude",
+        "Bergartilleribataljon nr. 3's Marsj",
+        "Blue-Tail Fly"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 83.0,
@@ -1587,7 +1824,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083103"
+      "scraped_at": "2025-09-21T19:51:31.862379"
     },
     {
       "id": "2011-6-divisjon-01-musikklaget-brage",
@@ -1596,8 +1833,11 @@
       "rank": 1,
       "orchestra": "Musikklaget Brage",
       "conductor": "Jette Hougaard Holstad",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Cajun Folk Songs, 1. sats; To a New Dawn",
+      "pieces_list": [
+        "Cajun Folk Songs, 1. sats",
+        "To a New Dawn"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 96.0,
@@ -1606,7 +1846,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083105"
+      "scraped_at": "2025-09-21T19:51:31.862381"
     },
     {
       "id": "2011-6-divisjon-02-hommelvik-musikkorps",
@@ -1615,8 +1855,11 @@
       "rank": 2,
       "orchestra": "Hommelvik Musikkorps",
       "conductor": "Arild Hognes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "James Bond 007 Selection; Flight of The Pegasus",
+      "pieces_list": [
+        "James Bond 007 Selection",
+        "Flight of The Pegasus"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -1625,7 +1868,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083106"
+      "scraped_at": "2025-09-21T19:51:31.862385"
     },
     {
       "id": "2011-6-divisjon-03-søndre-nittedal-veterankorps",
@@ -1634,8 +1877,11 @@
       "rank": 3,
       "orchestra": "Søndre Nittedal Veterankorps",
       "conductor": "Tormod Wergeland Haug",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Where the River Flows; A Klezmer Karnival",
+      "pieces_list": [
+        "Where the River Flows",
+        "A Klezmer Karnival"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.0,
@@ -1644,7 +1890,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083109"
+      "scraped_at": "2025-09-21T19:51:31.862388"
     },
     {
       "id": "2011-6-divisjon-04-vinne-musikkorps",
@@ -1653,8 +1899,11 @@
       "rank": 4,
       "orchestra": "Vinne Musikkorps",
       "conductor": "Morten Christiansen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Autobiography - Part Two, sats 1 - 3; La Storia",
+      "pieces_list": [
+        "Autobiography - Part Two, sats 1 - 3",
+        "La Storia"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -1663,7 +1912,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083110"
+      "scraped_at": "2025-09-21T19:51:31.862390"
     },
     {
       "id": "2011-6-divisjon-05-haugesund-ungdomskorps",
@@ -1672,8 +1921,12 @@
       "rank": 5,
       "orchestra": "Haugesund Ungdomskorps",
       "conductor": "Trygve André Tvedt",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Holmenkålmas; Second Suite in F for Military Band, 2. sats; Into the Storm",
+      "pieces_list": [
+        "Holmenkålmas",
+        "Second Suite in F for Military Band, 2. sats",
+        "Into the Storm"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 82.0,
@@ -1682,7 +1935,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083112"
+      "scraped_at": "2025-09-21T19:51:31.862393"
     },
     {
       "id": "2011-6-divisjon-06-musikklaget-liv",
@@ -1691,8 +1944,12 @@
       "rank": 6,
       "orchestra": "Musikklaget Liv",
       "conductor": "Lars Erik Aalberg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Ungarsk Dans nr. 5; La Storia; Bojarenes Indtogsmarch",
+      "pieces_list": [
+        "Ungarsk Dans nr. 5",
+        "La Storia",
+        "Bojarenes Indtogsmarch"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 78.0,
@@ -1701,9 +1958,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:54.083115"
+      "scraped_at": "2025-09-21T19:51:31.862395"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:54.085253"
+  "exported_at": "2025-09-21T19:51:31.867845"
 }

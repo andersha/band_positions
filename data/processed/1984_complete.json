@@ -14,8 +14,11 @@
       "rank": 1,
       "orchestra": "Stabekk Janitsjarorkester",
       "conductor": "Terje Wiik Mikkelsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Overtyre til Barbereren i Sevilla; Epiphany (plikt)",
+      "pieces_list": [
+        "Overtyre til Barbereren i Sevilla",
+        "Epiphany (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.3,
@@ -24,26 +27,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.843952"
-    },
-    {
-      "id": "1984-1-divisjon-02-bispehaugen-ungdomskorps",
-      "year": 1984,
-      "division": "1. divisjon",
-      "rank": 2,
-      "orchestra": "Bispehaugen Ungdomskorps",
-      "conductor": null,
-      "pieces": null,
-      "pieces_list": [],
-      "composers": null,
-      "composers_list": [],
-      "points": 89.7,
-      "max_points": 100.0,
-      "image_url": "https://nmbrass.no/nmjanitsjar/static/bispehaugenungdomskorps.jpg",
-      "orchestra_url": null,
-      "conductor_url": null,
-      "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.843956"
+      "scraped_at": "2025-09-21T19:51:31.564061"
     },
     {
       "id": "1984-2-divisjon-01-lier-ungdomskorps",
@@ -52,8 +36,10 @@
       "rank": 1,
       "orchestra": "Lier Ungdomskorps",
       "conductor": "Gunnar Lintvedt",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Alpen Sketches (plikt)",
+      "pieces_list": [
+        "Alpen Sketches (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.7,
@@ -62,7 +48,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.843958"
+      "scraped_at": "2025-09-21T19:51:31.564065"
     },
     {
       "id": "1984-2-divisjon-05-slemmestad-ungdomskorps",
@@ -71,8 +57,11 @@
       "rank": 5,
       "orchestra": "Slemmestad Ungdomskorps",
       "conductor": "Arvid Evju",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Raymond Overture; Alpen Sketches (plikt)",
+      "pieces_list": [
+        "Raymond Overture",
+        "Alpen Sketches (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.5,
@@ -81,9 +70,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.843961"
+      "scraped_at": "2025-09-21T19:51:31.564068"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:53.845311"
+  "exported_at": "2025-09-21T19:51:31.571578"
 }

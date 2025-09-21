@@ -16,8 +16,11 @@
       "rank": 1,
       "orchestra": "Lillestrøm Musikkorps",
       "conductor": "Ingar Bergby",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphony in B flat for Concert Band; Polovetsian Dances from Prince Igor",
+      "pieces_list": [
+        "Symphony in B flat for Concert Band",
+        "Polovetsian Dances from Prince Igor"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.0,
@@ -26,7 +29,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893269"
+      "scraped_at": "2025-09-21T19:51:31.699653"
     },
     {
       "id": "1995-elite-02-vestre-aker-musikkorps",
@@ -35,8 +38,11 @@
       "rank": 2,
       "orchestra": "Vestre Aker Musikkorps",
       "conductor": "Erlend Tunestveit",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Feste Romane; Metamorfoser",
+      "pieces_list": [
+        "Feste Romane",
+        "Metamorfoser"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 93.0,
@@ -45,7 +51,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893272"
+      "scraped_at": "2025-09-21T19:51:31.699657"
     },
     {
       "id": "1995-elite-03-nanset-ungdomsmusikkorps",
@@ -54,8 +60,10 @@
       "rank": 3,
       "orchestra": "Nanset Ungdomsmusikkorps",
       "conductor": "Odd Terje Lysebo",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Concerto pour Grand Orchestre d´Harmonie",
+      "pieces_list": [
+        "Concerto pour Grand Orchestre d´Harmonie"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.5,
@@ -64,7 +72,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893275"
+      "scraped_at": "2025-09-21T19:51:31.699660"
     },
     {
       "id": "1995-elite-04-skjetten-ungdomskorps",
@@ -73,8 +81,11 @@
       "rank": 4,
       "orchestra": "Skjetten Ungdomskorps",
       "conductor": "Hans Andreas Kjølberg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Petite Suite; Konzertmusik Für Blasorchester",
+      "pieces_list": [
+        "Petite Suite",
+        "Konzertmusik Für Blasorchester"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -83,7 +94,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893277"
+      "scraped_at": "2025-09-21T19:51:31.699663"
     },
     {
       "id": "1995-elite-05-stabekk-janitsjarorkester",
@@ -92,8 +103,12 @@
       "rank": 5,
       "orchestra": "Stabekk Janitsjarorkester",
       "conductor": "Jan Roger Øren",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festival Variations; Molly on the Shore; Symphony no. 1, The Lord of the Rings, \"Gandalf\"",
+      "pieces_list": [
+        "Festival Variations",
+        "Molly on the Shore",
+        "Symphony no. 1, The Lord of the Rings, \"Gandalf\""
+      ],
       "composers": null,
       "composers_list": [],
       "points": 85.0,
@@ -102,7 +117,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893279"
+      "scraped_at": "2025-09-21T19:51:31.699666"
     },
     {
       "id": "1995-1-divisjon-01-halsen-musikkforening",
@@ -111,8 +126,11 @@
       "rank": 1,
       "orchestra": "Halsen Musikkforening",
       "conductor": "Ray Farr",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Torch Dance; Invocation and Toccata (plikt)",
+      "pieces_list": [
+        "Torch Dance",
+        "Invocation and Toccata (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.5,
@@ -121,7 +139,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893281"
+      "scraped_at": "2025-09-21T19:51:31.699670"
     },
     {
       "id": "1995-1-divisjon-02-byneset-musikkorps",
@@ -130,8 +148,11 @@
       "rank": 2,
       "orchestra": "Byneset Musikkorps",
       "conductor": "Per Kvistad Uddu",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphonic Overture; Invocation and Toccata (plikt)",
+      "pieces_list": [
+        "Symphonic Overture",
+        "Invocation and Toccata (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 94.5,
@@ -140,7 +161,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893283"
+      "scraped_at": "2025-09-21T19:51:31.699672"
     },
     {
       "id": "1995-1-divisjon-03-kolbotn-konsertorkester",
@@ -149,8 +170,11 @@
       "rank": 3,
       "orchestra": "Kolbotn Konsertorkester",
       "conductor": "Erlend Tunestveit",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Opus Partus; Invocation and Toccata (plikt)",
+      "pieces_list": [
+        "Opus Partus",
+        "Invocation and Toccata (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 92.5,
@@ -159,7 +183,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893285"
+      "scraped_at": "2025-09-21T19:51:31.699675"
     },
     {
       "id": "1995-1-divisjon-04-sandefjord-musikkorps",
@@ -168,8 +192,11 @@
       "rank": 4,
       "orchestra": "Sandefjord Musikkorps",
       "conductor": "Odd Terje Lysebo",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "In the Spring, At the Time When Kings Go Off to War; Invocation and Toccata (plikt)",
+      "pieces_list": [
+        "In the Spring, At the Time When Kings Go Off to War",
+        "Invocation and Toccata (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 91.5,
@@ -178,7 +205,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893287"
+      "scraped_at": "2025-09-21T19:51:31.699678"
     },
     {
       "id": "1995-1-divisjon-05-sagene-janitsjarkorps",
@@ -187,8 +214,11 @@
       "rank": 5,
       "orchestra": "Sagene Janitsjarkorps",
       "conductor": "Tom Skjellum",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Fantasy Variations on a Theme by Niccolo Paganini; Invocation and Toccata (plikt)",
+      "pieces_list": [
+        "Fantasy Variations on a Theme by Niccolo Paganini",
+        "Invocation and Toccata (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -197,7 +227,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893289"
+      "scraped_at": "2025-09-21T19:51:31.699681"
     },
     {
       "id": "1995-1-divisjon-06-nittedal-og-hakadal-janitsjar",
@@ -206,8 +236,11 @@
       "rank": 6,
       "orchestra": "Nittedal og Hakadal Janitsjar",
       "conductor": "Christer Bergby",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Festival Overture, Op. 39; Invocation and Toccata (plikt)",
+      "pieces_list": [
+        "Festival Overture, Op. 39",
+        "Invocation and Toccata (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 89.0,
@@ -216,7 +249,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893290"
+      "scraped_at": "2025-09-21T19:51:31.699683"
     },
     {
       "id": "1995-1-divisjon-07-lørenskog-musikkorps",
@@ -225,8 +258,11 @@
       "rank": 7,
       "orchestra": "Lørenskog Musikkorps",
       "conductor": "Pål Gløtta",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphony no. 1 for Band; Invocation and Toccata (plikt)",
+      "pieces_list": [
+        "Symphony no. 1 for Band",
+        "Invocation and Toccata (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 88.5,
@@ -235,7 +271,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893292"
+      "scraped_at": "2025-09-21T19:51:31.699686"
     },
     {
       "id": "1995-1-divisjon-08-kolstad-janitsjar",
@@ -244,8 +280,11 @@
       "rank": 8,
       "orchestra": "Kolstad Janitsjar",
       "conductor": "Gavin David Lee",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Punchinello Overture; Invocation and Toccata (plikt)",
+      "pieces_list": [
+        "Punchinello Overture",
+        "Invocation and Toccata (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -254,7 +293,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893294"
+      "scraped_at": "2025-09-21T19:51:31.699689"
     },
     {
       "id": "1995-1-divisjon-09-tønsberg-janitsjarkorps",
@@ -263,8 +302,11 @@
       "rank": 9,
       "orchestra": "Tønsberg Janitsjarkorps",
       "conductor": "Arild Moen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Do Not Go Gentle Into That Good Night; Invocation and Toccata (plikt)",
+      "pieces_list": [
+        "Do Not Go Gentle Into That Good Night",
+        "Invocation and Toccata (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -273,7 +315,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893296"
+      "scraped_at": "2025-09-21T19:51:31.699692"
     },
     {
       "id": "1995-1-divisjon-10-bispehaugen-ungdomskorps",
@@ -282,8 +324,11 @@
       "rank": 10,
       "orchestra": "Bispehaugen Ungdomskorps",
       "conductor": "Torstein Siegel",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Mutanza; Invocation and Toccata (plikt)",
+      "pieces_list": [
+        "Mutanza",
+        "Invocation and Toccata (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.5,
@@ -292,7 +337,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893298"
+      "scraped_at": "2025-09-21T19:51:31.699695"
     },
     {
       "id": "1995-1-divisjon-11-musikkforeningen-nidarholm",
@@ -301,8 +346,11 @@
       "rank": 11,
       "orchestra": "Musikkforeningen Nidarholm",
       "conductor": "Per Anders Emilsen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphony no. 1 for Band; Invocation and Toccata (plikt)",
+      "pieces_list": [
+        "Symphony no. 1 for Band",
+        "Invocation and Toccata (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -311,7 +359,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893300"
+      "scraped_at": "2025-09-21T19:51:31.699697"
     },
     {
       "id": "1995-1-divisjon-12-opus-82",
@@ -320,8 +368,11 @@
       "rank": 12,
       "orchestra": "Opus 82",
       "conductor": "Christer Bergby",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Sinfonia Nobilissima; Invocation and Toccata (plikt)",
+      "pieces_list": [
+        "Sinfonia Nobilissima",
+        "Invocation and Toccata (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 83.5,
@@ -330,7 +381,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893302"
+      "scraped_at": "2025-09-21T19:51:31.699700"
     },
     {
       "id": "1995-2-divisjon-01-sinsen-konsertorkester",
@@ -339,8 +390,10 @@
       "rank": 1,
       "orchestra": "Sinsen Konsertorkester",
       "conductor": "Halvor Holm",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.5,
@@ -349,7 +402,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893304"
+      "scraped_at": "2025-09-21T19:51:31.699703"
     },
     {
       "id": "1995-2-divisjon-02-sandvikens-ungdomskorps",
@@ -358,8 +411,11 @@
       "rank": 2,
       "orchestra": "Sandvikens Ungdomskorps",
       "conductor": "Karl Ole Midtbø",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Incantation and Dance; An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "Incantation and Dance",
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.0,
@@ -368,7 +424,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893306"
+      "scraped_at": "2025-09-21T19:51:31.699706"
     },
     {
       "id": "1995-2-divisjon-03-drammen-konsertorkester",
@@ -377,8 +433,10 @@
       "rank": 3,
       "orchestra": "Drammen Konsertorkester",
       "conductor": "Odd Ulleberg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 90.0,
@@ -387,7 +445,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893308"
+      "scraped_at": "2025-09-21T19:51:31.699708"
     },
     {
       "id": "1995-2-divisjon-04-sande-musikkorps",
@@ -396,8 +454,10 @@
       "rank": 4,
       "orchestra": "Sande Musikkorps",
       "conductor": "Gunnar Lintvedt",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.5,
@@ -406,7 +466,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893310"
+      "scraped_at": "2025-09-21T19:51:31.699711"
     },
     {
       "id": "1995-2-divisjon-05-musikklaget-lurlåt",
@@ -415,8 +475,10 @@
       "rank": 5,
       "orchestra": "Musikklaget Lurlåt",
       "conductor": "Per Grønli",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -425,7 +487,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893312"
+      "scraped_at": "2025-09-21T19:51:31.699713"
     },
     {
       "id": "1995-2-divisjon-06-heimdal-musikkorps",
@@ -434,8 +496,10 @@
       "rank": 6,
       "orchestra": "Heimdal Musikkorps",
       "conductor": "Endre Ladehaug",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 87.0,
@@ -444,7 +508,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893314"
+      "scraped_at": "2025-09-21T19:51:31.699716"
     },
     {
       "id": "1995-2-divisjon-07-strinda-ungdomskorps",
@@ -453,8 +517,10 @@
       "rank": 7,
       "orchestra": "Strinda Ungdomskorps",
       "conductor": "Eivind Erdal",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -463,7 +529,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893316"
+      "scraped_at": "2025-09-21T19:51:31.699718"
     },
     {
       "id": "1995-2-divisjon-08-lungegaardens-musikkorps",
@@ -472,8 +538,10 @@
       "rank": 8,
       "orchestra": "Lungegaardens Musikkorps",
       "conductor": "Sjur Høgberg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 86.0,
@@ -482,7 +550,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893318"
+      "scraped_at": "2025-09-21T19:51:31.699721"
     },
     {
       "id": "1995-2-divisjon-09-hønefoss-ungdomskorps",
@@ -491,8 +559,10 @@
       "rank": 9,
       "orchestra": "Hønefoss Ungdomskorps",
       "conductor": "Gunnar Lintvedt",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 82.5,
@@ -501,7 +571,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893320"
+      "scraped_at": "2025-09-21T19:51:31.699724"
     },
     {
       "id": "1995-2-divisjon-10-vestsidens-musikkorps",
@@ -510,8 +580,10 @@
       "rank": 10,
       "orchestra": "Vestsidens Musikkorps",
       "conductor": "Arild Andersen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 82.0,
@@ -520,7 +592,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893321"
+      "scraped_at": "2025-09-21T19:51:31.699726"
     },
     {
       "id": "1995-2-divisjon-11-musikklaget-brage",
@@ -529,8 +601,10 @@
       "rank": 11,
       "orchestra": "Musikklaget Brage",
       "conductor": "Kjell Kipperberg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 81.5,
@@ -539,7 +613,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893323"
+      "scraped_at": "2025-09-21T19:51:31.699729"
     },
     {
       "id": "1995-2-divisjon-12-åsnes-hornmusikk",
@@ -548,8 +622,10 @@
       "rank": 12,
       "orchestra": "Åsnes Hornmusikk",
       "conductor": "Erik Bergene",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 81.0,
@@ -558,7 +634,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893325"
+      "scraped_at": "2025-09-21T19:51:31.699731"
     },
     {
       "id": "1995-2-divisjon-13-molde-janitsjar",
@@ -567,8 +643,11 @@
       "rank": 13,
       "orchestra": "Molde Janitsjar",
       "conductor": "Leif Skeidsvoll",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Variations for Band; An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "Variations for Band",
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 79.5,
@@ -577,7 +656,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893327"
+      "scraped_at": "2025-09-21T19:51:31.699734"
     },
     {
       "id": "1995-2-divisjon-14-bjølsen-ungdomskorps",
@@ -586,8 +665,10 @@
       "rank": 14,
       "orchestra": "Bjølsen Ungdomskorps",
       "conductor": "Vidar Myhre",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 79.0,
@@ -596,7 +677,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893329"
+      "scraped_at": "2025-09-21T19:51:31.699737"
     },
     {
       "id": "1995-2-divisjon-15-nord-odal-hornmusikk",
@@ -605,8 +686,10 @@
       "rank": 15,
       "orchestra": "Nord-Odal Hornmusikk",
       "conductor": "Per Øien",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 79.0,
@@ -615,7 +698,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893331"
+      "scraped_at": "2025-09-21T19:51:31.699739"
     },
     {
       "id": "1995-2-divisjon-16-hamar-musikkorps",
@@ -624,8 +707,10 @@
       "rank": 16,
       "orchestra": "Hamar Musikkorps",
       "conductor": "Mardon Åvitsland",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 78.0,
@@ -634,7 +719,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893333"
+      "scraped_at": "2025-09-21T19:51:31.699746"
     },
     {
       "id": "1995-2-divisjon-17-ranheim-musikkforening",
@@ -643,8 +728,10 @@
       "rank": 17,
       "orchestra": "Ranheim Musikkforening",
       "conductor": "Arild Hognes",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 77.5,
@@ -653,7 +740,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893335"
+      "scraped_at": "2025-09-21T19:51:31.699749"
     },
     {
       "id": "1995-2-divisjon-18-skjold-nesttun-janitsjar",
@@ -662,8 +749,11 @@
       "rank": 18,
       "orchestra": "Skjold Nesttun Janitsjar",
       "conductor": "John Arild Suther",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Symphonischer Tanz No. 4; An Outdoor Overture (plikt)",
+      "pieces_list": [
+        "Symphonischer Tanz No. 4",
+        "An Outdoor Overture (plikt)"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 75.0,
@@ -672,7 +762,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893336"
+      "scraped_at": "2025-09-21T19:51:31.699752"
     },
     {
       "id": "1995-3-divisjon-01-greåker-musikkorps",
@@ -681,8 +771,11 @@
       "rank": 1,
       "orchestra": "Greåker Musikkorps",
       "conductor": "Hans Andreas Kjølberg",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Legend, op. 81; Pastorale",
+      "pieces_list": [
+        "Legend, op. 81",
+        "Pastorale"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 95.0,
@@ -691,7 +784,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893339"
+      "scraped_at": "2025-09-21T19:51:31.699755"
     },
     {
       "id": "1995-3-divisjon-02-eidsvåg-musikklag",
@@ -710,7 +803,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893341"
+      "scraped_at": "2025-09-21T19:51:31.699757"
     },
     {
       "id": "1995-3-divisjon-03-mo-hornmusikk",
@@ -729,7 +822,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893342"
+      "scraped_at": "2025-09-21T19:51:31.699760"
     },
     {
       "id": "1995-3-divisjon-04-hortens-ungdomsmusikkorps",
@@ -748,7 +841,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893344"
+      "scraped_at": "2025-09-21T19:51:31.699763"
     },
     {
       "id": "1995-3-divisjon-05-hovin-musikkorps",
@@ -767,7 +860,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893346"
+      "scraped_at": "2025-09-21T19:51:31.699765"
     },
     {
       "id": "1995-3-divisjon-06-hov-musikkorps",
@@ -786,7 +879,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893348"
+      "scraped_at": "2025-09-21T19:51:31.699768"
     },
     {
       "id": "1995-3-divisjon-06-oslo-postorkester",
@@ -805,7 +898,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893350"
+      "scraped_at": "2025-09-21T19:51:31.699770"
     },
     {
       "id": "1995-3-divisjon-08-overhalla-janitsjar",
@@ -824,7 +917,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893352"
+      "scraped_at": "2025-09-21T19:51:31.699773"
     },
     {
       "id": "1995-3-divisjon-09-jernbanens-musikkorps-oslo",
@@ -843,7 +936,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893356"
+      "scraped_at": "2025-09-21T19:51:31.699776"
     },
     {
       "id": "1995-3-divisjon-09-lillehammer-janitsjar",
@@ -862,7 +955,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893359"
+      "scraped_at": "2025-09-21T19:51:31.699778"
     },
     {
       "id": "1995-3-divisjon-11-dokka-musikkorps",
@@ -881,7 +974,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893360"
+      "scraped_at": "2025-09-21T19:51:31.699780"
     },
     {
       "id": "1995-3-divisjon-11-strindheim-janitsjar",
@@ -900,7 +993,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893362"
+      "scraped_at": "2025-09-21T19:51:31.699783"
     },
     {
       "id": "1995-3-divisjon-13-egersund-musikkorps",
@@ -919,7 +1012,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893364"
+      "scraped_at": "2025-09-21T19:51:31.699785"
     },
     {
       "id": "1995-3-divisjon-13-malvik-musikkorps",
@@ -938,7 +1031,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893366"
+      "scraped_at": "2025-09-21T19:51:31.699788"
     },
     {
       "id": "1995-3-divisjon-15-støren-musikkorps",
@@ -957,7 +1050,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893368"
+      "scraped_at": "2025-09-21T19:51:31.699790"
     },
     {
       "id": "1995-3-divisjon-16-alversund-musikklag",
@@ -966,8 +1059,11 @@
       "rank": 16,
       "orchestra": "Alversund Musikklag",
       "conductor": "Olav Kristiansen",
-      "pieces": null,
-      "pieces_list": [],
+      "pieces": "Concert Prelude; First Suite in Eb for Military Band, 1. og 3. sats",
+      "pieces_list": [
+        "Concert Prelude",
+        "First Suite in Eb for Military Band, 1. og 3. sats"
+      ],
       "composers": null,
       "composers_list": [],
       "points": 84.0,
@@ -976,7 +1072,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893370"
+      "scraped_at": "2025-09-21T19:51:31.699793"
     },
     {
       "id": "1995-3-divisjon-16-nidarvoll-ungdomskorps",
@@ -995,7 +1091,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893372"
+      "scraped_at": "2025-09-21T19:51:31.699796"
     },
     {
       "id": "1995-3-divisjon-18-byåsen-musikkorps",
@@ -1014,7 +1110,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893374"
+      "scraped_at": "2025-09-21T19:51:31.699798"
     },
     {
       "id": "1995-3-divisjon-18-nordbygda/tysse-musikklag",
@@ -1033,7 +1129,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893375"
+      "scraped_at": "2025-09-21T19:51:31.699801"
     },
     {
       "id": "1995-3-divisjon-20-gloppen-janitsjar",
@@ -1052,7 +1148,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893377"
+      "scraped_at": "2025-09-21T19:51:31.699803"
     },
     {
       "id": "1995-3-divisjon-20-tistedalens-musikkforening",
@@ -1071,7 +1167,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893379"
+      "scraped_at": "2025-09-21T19:51:31.699806"
     },
     {
       "id": "1995-3-divisjon-22-modum-janitsjar",
@@ -1090,7 +1186,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893381"
+      "scraped_at": "2025-09-21T19:51:31.699808"
     },
     {
       "id": "1995-3-divisjon-23-jernbanens-musikkorps-hedmark",
@@ -1109,7 +1205,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893383"
+      "scraped_at": "2025-09-21T19:51:31.699811"
     },
     {
       "id": "1995-3-divisjon-24-valldal-hornmusikklag",
@@ -1128,9 +1224,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-08-25T20:48:53.893385"
+      "scraped_at": "2025-09-21T19:51:31.699813"
     }
   ],
   "awards": [],
-  "exported_at": "2025-08-25T20:48:53.895232"
+  "exported_at": "2025-09-21T19:51:31.706945"
 }
