@@ -9,6 +9,8 @@
   let searchTerm = '';
   let selectedBand: BandRecord | null = null;
   let focusedIndex = -1;
+  let initialUrlSyncDone = false;
+  let lastSyncedSlug: string | null = null;
 
   onMount(async () => {
     try {
@@ -23,6 +25,62 @@
       loading = false;
     }
   });
+
+  onMount(() => {
+    const handlePopState = () => {
+      if (!dataset) return;
+      syncSelectionFromURL();
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  });
+
+  function getBandSlugFromURL(): string | null {
+    if (typeof window === 'undefined') return null;
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get('band');
+    return slug ? slug.trim() : null;
+  }
+
+  function updateUrlForBand(band: BandRecord | null): void {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    if (band) {
+      params.set('band', band.slug);
+    } else {
+      params.delete('band');
+    }
+    const query = params.toString();
+    const newUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
+    window.history.replaceState({}, '', newUrl);
+  }
+
+  function syncSelectionFromURL(): void {
+    if (!dataset) return;
+    const slug = getBandSlugFromURL();
+    if (!slug) {
+      selectedBand = null;
+      if (searchTerm !== '') {
+        searchTerm = '';
+      }
+      focusedIndex = -1;
+      return;
+    }
+
+    const match = dataset.bands.find((band) => band.slug === slug);
+    if (match) {
+      selectedBand = match;
+      searchTerm = match.name;
+      focusedIndex = -1;
+    } else {
+      selectedBand = null;
+      if (searchTerm !== '') {
+        searchTerm = '';
+      }
+      focusedIndex = -1;
+      updateUrlForBand(null);
+    }
+  }
 
   $: trimmed = searchTerm.trim();
   $: lowered = trimmed.toLowerCase();
@@ -82,6 +140,20 @@
   $: coverageDescription = dataset
     ? `Dekker ${dataset.bands.length} korps · ${years.length} år (${dataset.metadata.min_year}–${dataset.metadata.max_year})`
     : '';
+
+  $: if (dataset && !initialUrlSyncDone) {
+    syncSelectionFromURL();
+    initialUrlSyncDone = true;
+    lastSyncedSlug = selectedBand ? selectedBand.slug : null;
+  }
+
+  $: if (initialUrlSyncDone) {
+    const currentSlug = selectedBand ? selectedBand.slug : null;
+    if (currentSlug !== lastSyncedSlug) {
+      updateUrlForBand(selectedBand);
+      lastSyncedSlug = currentSlug;
+    }
+  }
 </script>
 
 <main>
