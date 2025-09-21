@@ -107,19 +107,23 @@ select {
 
 .chart-canvas {
   position: relative;
+  padding-bottom: 12px;
 }
 
 .year-labels {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 0.75rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
   font-size: 0.75rem;
   color: rgba(226, 232, 240, 0.6);
+  pointer-events: none;
 }
 
 .year-labels span {
-  width: 3ch;
-  text-align: center;
+  position: absolute;
+  transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 .legend {
