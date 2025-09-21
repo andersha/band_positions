@@ -65,6 +65,12 @@ def compute_absolute_positions(df: pd.DataFrame) -> tuple[Dict[str, List[dict]],
         for row in year_df.itertuples():
             offset = offsets[row.division]
             absolute_position = offset + int(row.rank)
+            conductor = row.conductor
+            if isinstance(conductor, float) and pd.isna(conductor):
+                conductor_value: str | None = None
+            else:
+                conductor_value = str(conductor).strip() or None
+
             entry = {
                 "year": int(row.year),
                 "division": row.division,
@@ -74,6 +80,7 @@ def compute_absolute_positions(df: pd.DataFrame) -> tuple[Dict[str, List[dict]],
                 "field_size": cumulative,
                 "points": float(row.points) if pd.notna(row.points) else None,
                 "max_points": float(row.max_points) if pd.notna(row.max_points) else None,
+                "conductor": conductor_value,
             }
             entries_by_band[row.orchestra].append(entry)
 
