@@ -19,6 +19,10 @@
         throw new Error(`Kunne ikke laste data (status ${response.status})`);
       }
       dataset = (await response.json()) as BandDataset;
+      if (syncSelectionFromURL({ updateHistory: false })) {
+        initialUrlSyncDone = true;
+        lastSyncedSlug = selectedBand ? selectedBand.slug : null;
+      }
     } catch (err) {
       error = err instanceof Error ? err.message : 'Ukjent feil ved lasting av data.';
     } finally {
@@ -29,7 +33,9 @@
   onMount(() => {
     const handlePopState = () => {
       if (!dataset) return;
-      syncSelectionFromURL();
+      if (syncSelectionFromURL()) {
+        lastSyncedSlug = selectedBand ? selectedBand.slug : null;
+      }
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
@@ -39,7 +45,7 @@
     if (typeof window === 'undefined') return null;
     const params = new URLSearchParams(window.location.search);
     const slug = params.get('band');
-    return slug ? slug.trim() : null;
+    return slug ? decodeURIComponent(slug.trim()) : null;
   }
 
   function updateUrlForBand(band: BandRecord | null): void {
@@ -55,31 +61,49 @@
     window.history.replaceState({}, '', newUrl);
   }
 
-  function syncSelectionFromURL(): void {
-    if (!dataset) return;
-    const slug = getBandSlugFromURL();
-    if (!slug) {
+  function syncSelectionFromURL({ updateHistory = false }: { updateHistory?: boolean } = {}): boolean {
+    if (!dataset) return false;
+    const slugParam = getBandSlugFromURL();
+
+    if (!slugParam) {
       selectedBand = null;
       if (searchTerm !== '') {
         searchTerm = '';
       }
       focusedIndex = -1;
-      return;
+      lastSyncedSlug = null;
+      if (updateHistory) {
+        updateUrlForBand(null);
+      }
+      return true;
     }
 
-    const match = dataset.bands.find((band) => band.slug === slug);
+    const normalized = slugParam.toLowerCase();
+    const match = dataset.bands.find(
+      (band) => band.slug === slugParam || band.slug === normalized || band.name.toLowerCase() === normalized
+    );
+
     if (match) {
       selectedBand = match;
       searchTerm = match.name;
       focusedIndex = -1;
-    } else {
-      selectedBand = null;
-      if (searchTerm !== '') {
-        searchTerm = '';
+      lastSyncedSlug = match.slug;
+      if (updateHistory) {
+        updateUrlForBand(match);
       }
-      focusedIndex = -1;
+      return true;
+    }
+
+    selectedBand = null;
+    if (searchTerm !== '') {
+      searchTerm = '';
+    }
+    focusedIndex = -1;
+    lastSyncedSlug = null;
+    if (updateHistory) {
       updateUrlForBand(null);
     }
+    return false;
   }
 
   $: trimmed = searchTerm.trim();
@@ -142,9 +166,10 @@
     : '';
 
   $: if (dataset && !initialUrlSyncDone) {
-    syncSelectionFromURL();
-    initialUrlSyncDone = true;
-    lastSyncedSlug = selectedBand ? selectedBand.slug : null;
+    if (syncSelectionFromURL({ updateHistory: true })) {
+      initialUrlSyncDone = true;
+      lastSyncedSlug = selectedBand ? selectedBand.slug : null;
+    }
   }
 
   $: if (initialUrlSyncDone) {
