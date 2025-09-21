@@ -1300,5 +1300,120 @@
   "Midnight Music|Irwin Bazelon": null,
   "Pastorale|Clifton Williams": null,
   "Danse Folâtre|Claude T. Smith": null,
-  "Chorale and Shaker Dance|John P. Zdechlik": null
+  "Chorale and Shaker Dance|John P. Zdechlik": null,
+  "Capriccio & Canzone|Helge Hurum": null,
+  "Musica Tripartite|John Brakstad": null,
+  "Childrens March|Percy Aldridge Grainger": null,
+  "Fra Borge|Torstein Aagaard-Nilsen": null,
+  "Ubu Rex : Burlesque Suite 1., 2., 3. og 5. sats|Krzysztof Penderecki, arr. Henning Brauel": null,
+  "Windows of the World|Peter Graham": {
+    "title": "Windows of the World",
+    "url": "https://www.windrep.org/Windows_of_the_World",
+    "composer": "Peter Graham (transcribed by composer)",
+    "duration_minutes": 20.0,
+    "difficulty": "Grade 5",
+    "grade_level": 5,
+    "category": "Fanfare"
+  },
+  "Symphonic Suite|Clifton Williams": {
+    "title": "Symphonic Suite",
+    "url": "https://www.windrep.org/Symphonic_Suite",
+    "composer": "Clifton Williams",
+    "duration_minutes": 13.833333333333334,
+    "difficulty": "Grade 5",
+    "grade_level": 5,
+    "category": "Suites"
+  },
+  "Dances from Crete|Adam Gorb": {
+    "title": "Dances from Crete",
+    "url": "https://www.windrep.org/Dances_from_Crete",
+    "composer": "Adam Gorb",
+    "duration_minutes": 19.0,
+    "difficulty": "Grade 5",
+    "grade_level": 5,
+    "category": "Suites"
+  },
+  "The Magnetic Mountain|Mario Bürki": null,
+  "Hanover Festival|Philip Sparke": {
+    "title": "Hanover Festival",
+    "url": "https://www.windrep.org/Hanover_Festival",
+    "composer": "Philip Sparke",
+    "duration_minutes": 8.416666666666666,
+    "difficulty": "Grade 4",
+    "grade_level": 4,
+    "category": "Symphony"
+  },
+  "The Old Railwaystation|John Brakstad": null,
+  "Flåklypa Medley|Bent Fabricius Bjerre, arr. Lars Erik Gudim": null,
+  "Les Parapluis de Cherbourg|Legrand/Demy, arr. Øyvind Westby": null,
+  "Orient Express|Philip Sparke": {
+    "title": "Orient Express",
+    "url": "https://www.windrep.org/Orient_Express",
+    "composer": "Philip Sparke",
+    "duration_minutes": 8.233333333333333,
+    "difficulty": "Grade 5",
+    "grade_level": 5,
+    "category": "March"
+  },
+  "Man in the Ice|Otto M. Schwarz": null,
+  "Lux Futura|Kevin Houben": {
+    "title": "Lux Futura",
+    "url": "https://www.windrep.org/Lux_Futura",
+    "composer": "Kevin Houben",
+    "duration_minutes": 17.166666666666668,
+    "difficulty": "Grade 6",
+    "grade_level": 6,
+    "category": "Two, 2019, Winner"
+  },
+  "Battle of Hearts|Bert Appermont": null,
+  "Yosemite Autumn|Mark Camphouse": {
+    "title": "Yosemite Autumn",
+    "url": "https://www.windrep.org/Yosemite_Autumn",
+    "composer": "Mark Camphouse",
+    "duration_minutes": 8.0,
+    "difficulty": "Grade 4",
+    "grade_level": 4,
+    "category": "Is Likewise Historically Well Established, Particularly Its Use Of Motif, Through Richard Strauss'S Don Juan, Ein Heldenlaben, And Till Eulenspiegels Lustige Striche"
+  },
+  "Symphony no. 1 for Band|Claude T. Smith": null,
+  "Lebuinus ex Daventria|Peter Kleine Schaars": null,
+  "Variation on a Korean Folk Song|John Barnes Chance": null,
+  "Zehn Märsche, um den Sieg zu verfehlen|Mauricio Kagel": null,
+  "Mannin Veen|Haydn Wood": {
+    "title": "Mannin Veen: Dear Isle of Man",
+    "url": "https://www.windrep.org/Mannin_Veen:_Dear_Isle_of_Man",
+    "composer": "Haydn Wood (arr. William James Duthoit)",
+    "duration_minutes": 10.583333333333334,
+    "difficulty": "Grade 5",
+    "grade_level": 5,
+    "category": "I"
+  },
+  "Eine Kleine Yiddishe Ragmusik|Adam Gorb": {
+    "title": "Eine Kleine Yiddishe Ragmusik",
+    "url": "https://www.windrep.org/Eine_Kleine_Yiddishe_Ragmusik",
+    "composer": "Adam Gorb",
+    "duration_minutes": 5.25,
+    "difficulty": "Grade 4",
+    "grade_level": 4,
+    "category": "Symphony"
+  },
+  "Sinfonia Festiva|Arne Running": null,
+  "Serenade for Wind Band|Derek Bourgeois": {
+    "title": "Serenade for Wind Instruments (Bird)",
+    "url": "https://www.windrep.org/Serenade_for_Wind_Instruments_(Bird)",
+    "composer": "Arthur Bird (ed. Bradley Genevro)",
+    "duration_minutes": 12.0,
+    "difficulty": "Grade 5",
+    "grade_level": 5,
+    "category": "March"
+  },
+  "Trittico|Václav Nelhýbel": {
+    "title": "Trittico (Nelhybel)",
+    "url": "https://www.windrep.org/Trittico_(Nelhybel)",
+    "composer": "Vaclav Nelhybel",
+    "duration_minutes": 11.0,
+    "difficulty": "Grade 6",
+    "grade_level": 6,
+    "category": "1963]]"
+  }
 }
