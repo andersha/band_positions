@@ -6,6 +6,7 @@
   export let bands: BandRecord[] = [];
   export let years: number[] = [];
   export let maxFieldSize = 0;
+  export let yMode: 'absolute' | 'relative' = 'relative';
 
   const margin = { top: 24, right: 48, bottom: 48, left: 72 };
   const width = 880;
@@ -61,6 +62,24 @@
   let tooltipY = 0;
 
   const showConductorLabels = () => bands.length === 1;
+
+  function getRelativePercent(entry: ChartEntry): number {
+    if (entry.absolute_position == null) {
+      return 0;
+    }
+    const denominator = entry.field_size ?? chartMaxField ?? maxFieldSize ?? 1;
+    if (!denominator) {
+      return 0;
+    }
+    return (entry.absolute_position / denominator) * 100;
+  }
+
+  function getEntryYValue(entry: ChartEntry): number {
+    if (yMode === 'relative') {
+      return getRelativePercent(entry);
+    }
+    return entry.absolute_position ?? 0;
+  }
 
   function normalizeEntries(entries: BandEntry[]): ChartEntry[] {
     return entries.map((entry) => {
@@ -171,11 +190,11 @@
       return margin.top - 8 + change.lane * LANE_HEIGHT;
     }
 
-    const dotY = yScale(entry.absolute_position);
+    const dotY = yScale(getEntryYValue(entry));
 
     const neighbours = entries
       .filter((item) => item.year >= change.year - 1 && item.year <= change.year + 1)
-      .map((item) => ({ year: item.year, y: yScale(item.absolute_position) }))
+      .map((item) => ({ year: item.year, y: yScale(getEntryYValue(item)) }))
       .sort((a, b) => a.year - b.year);
 
     const localIndex = neighbours.findIndex((row) => row.year === change.year);
@@ -225,8 +244,11 @@
   let chartMaxField = 1;
   $: chartMaxField = maxFieldSize || (allEntries.length ? Math.max(...allEntries.map((entry) => entry.field_size)) : 1);
 
-  let yScale = scaleLinear().domain([chartMaxField + 1, 0]).range([height - margin.bottom, margin.top]);
-  $: yScale = scaleLinear().domain([chartMaxField + 1, 0]).range([height - margin.bottom, margin.top]);
+  let yDomain: [number, number] = [chartMaxField + 1, 0];
+  $: yDomain = yMode === 'relative' ? [100, 0] : [chartMaxField + 1, 0];
+
+  let yScale = scaleLinear().domain(yDomain).range([height - margin.bottom, margin.top]);
+  $: yScale = scaleLinear().domain(yDomain).range([height - margin.bottom, margin.top]);
 
   let series: BandSeries[] = [];
   $: series = normalizedBands.map((item, index) => {
@@ -235,7 +257,7 @@
     const pathGenerator = line<ChartEntry | null>()
       .defined((value): value is ChartEntry => value !== null)
       .x((entry) => xScale(entry.year) ?? margin.left)
-      .y((entry) => yScale(entry.absolute_position))
+      .y((entry) => yScale(getEntryYValue(entry)))
       .curve(curveMonotoneX);
 
     const pathData = pathGenerator(timeline) ?? undefined;
@@ -262,11 +284,17 @@
     : [];
 
   let yTicks: number[] = [];
-  $: yTicks = Array.from(new Set(ticks(1, chartMaxField, 6).map((tick) => Math.round(tick))))
-    .filter((tick) => tick >= 1)
-    .sort((a, b) => a - b);
-  $: if (!yTicks.includes(1)) {
-    yTicks = [1, ...yTicks];
+  $: {
+    if (yMode === 'relative') {
+      yTicks = Array.from({ length: 11 }, (_, index) => index * 10);
+    } else {
+      yTicks = Array.from(new Set(ticks(1, chartMaxField, 6).map((tick) => Math.round(tick))))
+        .filter((tick) => tick >= 1)
+        .sort((a, b) => a - b);
+      if (!yTicks.includes(1)) {
+        yTicks = [1, ...yTicks];
+      }
+    }
   }
 
   let participatingYears: Set<number> = new Set();
@@ -349,7 +377,7 @@
           font-size="12"
           fill="rgba(226, 232, 240, 0.7)"
         >
-          #{tick}
+          {yMode === 'relative' ? `${tick}%` : `#${tick}`}
         </text>
       {/each}
     </g>
@@ -394,7 +422,9 @@
       {#each seriesData.entries as entry (entry.year)}
         {#if xScale(entry.year) !== undefined}
           {@const cx = xScale(entry.year) ?? margin.left}
-          {@const cy = yScale(entry.absolute_position)}
+          {@const cy = yScale(getEntryYValue(entry))}
+          {@const hasFieldSize = (entry.field_size ?? 0) > 0}
+          {@const relativeLabel = hasFieldSize ? `${getRelativePercent(entry).toFixed(1)}%` : null}
           <g>
             {#if seriesData.shape === 'circle'}
               <circle
@@ -406,7 +436,7 @@
                 stroke-width="1.5"
                 role="button"
                 tabindex="0"
-                aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
+                aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position}${relativeLabel ? ` · relativ ${relativeLabel}` : ''})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
                 on:mouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
                 on:mouseleave={hideTooltip}
                 on:focus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
@@ -424,7 +454,7 @@
                 stroke-width="1.5"
                 role="button"
                 tabindex="0"
-                aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
+                aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position}${relativeLabel ? ` · relativ ${relativeLabel}` : ''})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
                 on:mouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
                 on:mouseleave={hideTooltip}
                 on:focus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
@@ -438,7 +468,7 @@
                 stroke-width="1.5"
                 role="button"
                 tabindex="0"
-                aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
+                aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position}${relativeLabel ? ` · relativ ${relativeLabel}` : ''})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
                 on:mouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
                 on:mouseleave={hideTooltip}
                 on:focus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
@@ -459,7 +489,11 @@
         <div>Dirigent: {hoveredPoint.entry.conductor}</div>
       {/if}
       <div>Absolutt plassering: #{hoveredPoint.entry.absolute_position}</div>
-      <div>Deltakere: {hoveredPoint.entry.division_size} / {hoveredPoint.entry.field_size}</div>
+      {#if (hoveredPoint.entry.field_size ?? 0) > 0}
+        {@const relativePercent = getRelativePercent(hoveredPoint.entry).toFixed(1)}
+        <div>Relativ plassering: {relativePercent}%</div>
+      {/if}
+      <div>Deltakere: {hoveredPoint.entry.division_size} (div) / {hoveredPoint.entry.field_size} (totalt)</div>
       {#if hoveredPoint.entry.points !== null}
         <div>Poeng: {hoveredPoint.entry.points} / {hoveredPoint.entry.max_points}</div>
       {/if}

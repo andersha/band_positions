@@ -4,7 +4,9 @@
   import type { BandDataset, BandRecord } from './lib/types';
 
   const URL_PARAM_KEY = 'band';
+  const URL_MODE_KEY = 'mode';
   const URL_SEPARATOR = ',';
+  const DEFAULT_MODE: 'absolute' | 'relative' = 'relative';
 
   let dataset: BandDataset | null = null;
   let loading = true;
@@ -14,6 +16,7 @@
   let focusedIndex = -1;
   let initialUrlSyncDone = false;
   let lastSyncedSignature = '';
+  let yAxisMode: 'absolute' | 'relative' = DEFAULT_MODE;
 
   onMount(async () => {
     try {
@@ -23,8 +26,9 @@
       }
       dataset = (await response.json()) as BandDataset;
       syncSelectionFromURL({ updateHistory: false });
-      initialUrlSyncDone = true;
       lastSyncedSignature = getSelectedSignature();
+      updateUrlState(selectedBands, yAxisMode);
+      initialUrlSyncDone = true;
     } catch (err) {
       error = err instanceof Error ? err.message : 'Ukjent feil ved lasting av data.';
     } finally {
@@ -42,8 +46,12 @@
     return () => window.removeEventListener('popstate', handlePopState);
   });
 
-  function getSelectedSignature(bands: BandRecord[] = selectedBands): string {
-    return bands.map((band) => band.slug).join(URL_SEPARATOR);
+  function getSelectedSignature(
+    bands: BandRecord[] = selectedBands,
+    mode: 'absolute' | 'relative' = yAxisMode
+  ): string {
+    const bandSignature = bands.map((band) => band.slug).join(URL_SEPARATOR);
+    return `${mode}:${bandSignature}`;
   }
 
   function getSlugsFromURL(): string[] {
@@ -57,7 +65,15 @@
       .filter(Boolean);
   }
 
-  function updateUrlForBands(bands: BandRecord[]): void {
+  function getModeFromURL(): 'absolute' | 'relative' {
+    if (typeof window === 'undefined') return DEFAULT_MODE;
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get(URL_MODE_KEY);
+    const normalized = raw ? raw.toLowerCase() : null;
+    return normalized === 'absolute' ? 'absolute' : 'relative';
+  }
+
+  function updateUrlState(bands: BandRecord[], mode: 'absolute' | 'relative'): void {
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams(window.location.search);
     if (bands.length) {
@@ -68,25 +84,36 @@
     } else {
       params.delete(URL_PARAM_KEY);
     }
+    params.set(URL_MODE_KEY, mode);
     const query = params.toString();
     const newUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
     window.history.replaceState({}, '', newUrl);
   }
 
   function syncSelectionFromURL({ updateHistory = false } = {}): boolean {
-    if (!dataset) return false;
+    const modeFromUrl = getModeFromURL();
+    let stateChanged = false;
+    if (modeFromUrl !== yAxisMode) {
+      yAxisMode = modeFromUrl;
+      stateChanged = true;
+    }
+
+    if (!dataset) {
+      return stateChanged;
+    }
     const slugs = getSlugsFromURL();
 
     if (slugs.length === 0) {
       if (selectedBands.length > 0) {
         selectedBands = [];
+        stateChanged = true;
       }
       searchTerm = '';
       focusedIndex = -1;
       if (updateHistory) {
-        updateUrlForBands([]);
+        updateUrlState([], yAxisMode);
       }
-      return true;
+      return stateChanged;
     }
 
     const matches: BandRecord[] = [];
@@ -107,12 +134,12 @@
       searchTerm = '';
       focusedIndex = -1;
       if (updateHistory) {
-        updateUrlForBands(matches);
+        updateUrlState(matches, yAxisMode);
       }
       return true;
     }
 
-    return false;
+    return stateChanged;
   }
 
   $: trimmed = searchTerm.trim();
@@ -179,7 +206,7 @@
   $: if (initialUrlSyncDone) {
     const signature = getSelectedSignature();
     if (signature !== lastSyncedSignature) {
-      updateUrlForBands(selectedBands);
+      updateUrlState(selectedBands, yAxisMode);
       lastSyncedSignature = signature;
     }
   }
@@ -250,6 +277,27 @@
     <section class="status error">{error}</section>
   {:else if selectedBands.length > 0}
     <section class="chart-card">
+      <div class="mode-toggle">
+        <span class="mode-toggle__label">Plassering:</span>
+        <div class="mode-toggle__buttons" role="group" aria-label="Velg plasseringsvisning">
+          <button
+            type="button"
+            class:selected={yAxisMode === 'absolute'}
+            aria-pressed={yAxisMode === 'absolute'}
+            on:click={() => (yAxisMode = 'absolute')}
+          >
+            Absolutt
+          </button>
+          <button
+            type="button"
+            class:selected={yAxisMode === 'relative'}
+            aria-pressed={yAxisMode === 'relative'}
+            on:click={() => (yAxisMode = 'relative')}
+          >
+            Relativ
+          </button>
+        </div>
+      </div>
       <div class="chart-header">
         <h2>{chartHeading}</h2>
         <p>{coverageDescription}</p>
@@ -257,7 +305,7 @@
           <p class="comparison-summary">{comparisonSummary}</p>
         {/if}
       </div>
-      <BandTrajectoryChart {years} {maxFieldSize} bands={selectedBands} />
+      <BandTrajectoryChart {years} {maxFieldSize} bands={selectedBands} yMode={yAxisMode} />
     </section>
   {:else}
     <section class="empty-state">
@@ -394,6 +442,7 @@
     border-radius: 1rem;
     border: 1px solid rgba(148, 163, 184, 0.2);
     box-shadow: 0 18px 40px rgba(15, 23, 42, 0.35);
+    position: relative;
   }
 
   .chart-header {
@@ -401,6 +450,7 @@
     flex-direction: column;
     gap: 0.35rem;
     margin-bottom: 1.25rem;
+    padding-right: 8rem;
   }
 
   .chart-header h2 {
@@ -417,5 +467,60 @@
   .comparison-summary {
     color: rgba(148, 163, 184, 0.85);
     font-size: 0.85rem;
+  }
+
+  .mode-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.85rem;
+    color: rgba(226, 232, 240, 0.8);
+  }
+
+  .mode-toggle__label {
+    font-weight: 600;
+    color: rgba(226, 232, 240, 0.85);
+  }
+
+  .mode-toggle__buttons {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.25rem;
+    border-radius: 999px;
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(59, 130, 246, 0.35);
+  }
+
+  .mode-toggle button {
+    appearance: none;
+    background: transparent;
+    border: none;
+    color: rgba(226, 232, 240, 0.7);
+    padding: 0.35rem 0.9rem;
+    cursor: pointer;
+    font-size: inherit;
+    border-radius: 999px;
+    line-height: 1.2;
+    transition: background 0.18s ease, color 0.18s ease;
+  }
+
+  .mode-toggle button:hover {
+    color: rgba(226, 232, 240, 0.92);
+  }
+
+  .mode-toggle button.selected {
+    background: rgba(59, 130, 246, 0.35);
+    color: #e0f2fe;
+    font-weight: 600;
+  }
+
+  .mode-toggle button:focus-visible {
+    outline: 2px solid rgba(59, 130, 246, 0.65);
+    outline-offset: 2px;
+    border-radius: 4px;
   }
 </style>
