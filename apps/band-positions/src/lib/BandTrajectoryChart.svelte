@@ -7,6 +7,7 @@
   export let years: number[] = [];
   export let maxFieldSize = 0;
   export let yMode: 'absolute' | 'relative' = 'relative';
+  export let showConductorMarkers = true;
 
   const margin = { top: 24, right: 48, bottom: 48, left: 72 };
   const width = 880;
@@ -57,11 +58,13 @@
   let resizeObserver: ResizeObserver | null = null;
   let observedElement: SVGSVGElement | null = null;
 
+  type AggregatedPlacement = ChartEntry & { band_name?: string; aggregate_entries?: ChartEntry[] };
+
   let hoveredPoint: { entry: ChartEntry; bandName: string; lineColor: string } | null = null;
   let tooltipX = 0;
   let tooltipY = 0;
 
-  const showConductorLabels = () => bands.length === 1;
+  const showConductorLabels = () => showConductorMarkers && bands.length === 1;
 
   function getRelativePercent(entry: ChartEntry): number {
     if (entry.absolute_position == null) {
@@ -225,6 +228,28 @@
     return `M ${cx} ${cy - size} L ${cx + size} ${cy + size} L ${cx - size} ${cy + size} Z`;
   }
 
+  function getDivisionOrder(division: string): number {
+    if (!division) return Number.POSITIVE_INFINITY;
+    const normalized = division.trim().toLowerCase();
+    if (normalized === 'elite') {
+      return 0;
+    }
+    const match = normalized.match(/(\d+)/);
+    if (match) {
+      return parseInt(match[1], 10);
+    }
+    return Number.POSITIVE_INFINITY;
+  }
+
+  function compareDivisions(a: string, b: string): number {
+    const orderA = getDivisionOrder(a);
+    const orderB = getDivisionOrder(b);
+    if (orderA !== orderB) {
+      return orderA - orderB;
+    }
+    return a.localeCompare(b);
+  }
+
   let normalizedBands: { band: BandRecord; entries: ChartEntry[] }[] = [];
   $: normalizedBands = bands.map((band) => ({ band, entries: normalizeEntries(band.entries) }));
 
@@ -321,7 +346,9 @@
   $: yearAxisY = labelGeometry.offsetY + (height - margin.bottom) * labelGeometry.scaleY + YEAR_AXIS_PADDING;
 
   let legendDivisions: string[] = [];
-  $: legendDivisions = Array.from(new Set(allEntries.map((entry) => entry.division)));
+  $: legendDivisions = Array.from(new Set(allEntries.map((entry) => entry.division)))
+    .filter((division): division is string => typeof division === 'string' && division.length > 0)
+    .sort(compareDivisions);
 
   const showDivisionLegend = () => legendDivisions.length > 0;
 
@@ -343,6 +370,10 @@
 
   function hideTooltip() {
     hoveredPoint = null;
+  }
+
+  function getAggregatedPlacements(entry: ChartEntry): ChartEntry[] | undefined {
+    return (entry as AggregatedPlacement).aggregate_entries;
   }
 </script>
 
@@ -482,23 +513,48 @@
   </svg>
 
   {#if hoveredPoint}
+    {@const aggregated = getAggregatedPlacements(hoveredPoint.entry)}
     <div class="tooltip" style={`left: ${tooltipX}px; top: ${tooltipY}px`}>
       <strong>{hoveredPoint.entry.year} · {hoveredPoint.bandName}</strong>
-      <div>{hoveredPoint.entry.division} · #{hoveredPoint.entry.rank}</div>
-      {#if hoveredPoint.entry.conductor}
-        <div>Dirigent: {hoveredPoint.entry.conductor}</div>
-      {/if}
-      <div>Absolutt plassering: #{hoveredPoint.entry.absolute_position}</div>
-      {#if (hoveredPoint.entry.field_size ?? 0) > 0}
-        {@const relativePercent = getRelativePercent(hoveredPoint.entry).toFixed(1)}
-        <div>Relativ plassering: {relativePercent}%</div>
-      {/if}
-      <div>Deltakere: {hoveredPoint.entry.division_size} (div) / {hoveredPoint.entry.field_size} (totalt)</div>
-      {#if hoveredPoint.entry.points !== null}
-        <div>Poeng: {hoveredPoint.entry.points} / {hoveredPoint.entry.max_points}</div>
-      {/if}
-      {#if hoveredPoint.entry.pieces.length > 0}
-        <div>Stykker: {hoveredPoint.entry.pieces.join('; ')}</div>
+      {#if aggregated && aggregated.length}
+        {#each aggregated as placement, index}
+          <div class="tooltip-band">
+            <div class="tooltip-band__title">{placement.band_name ?? 'Ukjent korps'}</div>
+            <div>{placement.division} · #{placement.rank}</div>
+            <div>Absolutt plassering: #{placement.absolute_position}</div>
+            {#if (placement.field_size ?? 0) > 0}
+              {@const relativePercent = getRelativePercent(placement).toFixed(1)}
+              <div>Relativ plassering: {relativePercent}%</div>
+            {/if}
+            <div>Deltakere: {placement.division_size} (div) / {placement.field_size} (totalt)</div>
+            {#if placement.points !== null}
+              <div>Poeng: {placement.points} / {placement.max_points}</div>
+            {/if}
+            {#if placement.pieces.length > 0}
+              <div>Stykker: {placement.pieces.join('; ')}</div>
+            {/if}
+          </div>
+          {#if index < aggregated.length - 1}
+            <div class="tooltip-divider"></div>
+          {/if}
+        {/each}
+      {:else}
+        <div>{hoveredPoint.entry.division} · #{hoveredPoint.entry.rank}</div>
+        {#if hoveredPoint.entry.conductor}
+          <div>Dirigent: {hoveredPoint.entry.conductor}</div>
+        {/if}
+        <div>Absolutt plassering: #{hoveredPoint.entry.absolute_position}</div>
+        {#if (hoveredPoint.entry.field_size ?? 0) > 0}
+          {@const relativePercent = getRelativePercent(hoveredPoint.entry).toFixed(1)}
+          <div>Relativ plassering: {relativePercent}%</div>
+        {/if}
+        <div>Deltakere: {hoveredPoint.entry.division_size} (div) / {hoveredPoint.entry.field_size} (totalt)</div>
+        {#if hoveredPoint.entry.points !== null}
+          <div>Poeng: {hoveredPoint.entry.points} / {hoveredPoint.entry.max_points}</div>
+        {/if}
+        {#if hoveredPoint.entry.pieces.length > 0}
+          <div>Stykker: {hoveredPoint.entry.pieces.join('; ')}</div>
+        {/if}
       {/if}
     </div>
   {/if}
@@ -559,6 +615,28 @@
     font-size: 0.85rem;
     transform: translate(-50%, calc(-100% - 12px));
     box-shadow: 0 10px 24px rgba(15, 23, 42, 0.4);
+  }
+
+  .tooltip-band {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    margin-top: 0.35rem;
+  }
+
+  .tooltip-band:first-of-type {
+    margin-top: 0.5rem;
+  }
+
+  .tooltip-band__title {
+    font-weight: 600;
+    color: #e2e8f0;
+  }
+
+  .tooltip-divider {
+    height: 1px;
+    margin: 0.35rem 0;
+    background: rgba(148, 163, 184, 0.3);
   }
 
   .chart-canvas {
