@@ -245,6 +245,15 @@
     return `${activeView}|${yAxisMode}|${bandSignature}|${conductorSignature}`;
   }
 
+  function syncUrlIfReady(): void {
+    if (!initialUrlSyncDone) return;
+    const signature = getSelectedSignature();
+    if (signature !== lastSyncedSignature) {
+      updateUrlState();
+      lastSyncedSignature = signature;
+    }
+  }
+
   function chooseRecord(record: BandRecord): void {
     if (activeView === 'bands') {
       if (selectedBands.some((item) => item.slug === record.slug)) return;
@@ -255,6 +264,7 @@
     }
     searchTerm = '';
     focusedIndex = -1;
+    syncUrlIfReady();
   }
 
   function removeRecord(slug: string): void {
@@ -264,6 +274,7 @@
       selectedConductors = selectedConductors.filter((item) => item.slug !== slug);
     }
     focusedIndex = -1;
+    syncUrlIfReady();
   }
 
   function handleSubmit(): void {
@@ -300,6 +311,13 @@
     activeView = view;
     searchTerm = '';
     focusedIndex = -1;
+    syncUrlIfReady();
+  }
+
+  function setYAxisMode(mode: 'absolute' | 'relative'): void {
+    if (yAxisMode === mode) return;
+    yAxisMode = mode;
+    syncUrlIfReady();
   }
 
   onMount(async () => {
@@ -371,14 +389,6 @@
     activeView === 'bands'
       ? 'Søk etter et janitsjarkorps for å se hvordan den samlede plasseringen utvikler seg år for år, på tvers av alle divisjoner.'
       : 'Søk etter en dirigent for å se hvordan deres beste plassering utvikler seg år for år, basert på korpsene de dirigerte.';
-
-  $: if (initialUrlSyncDone) {
-    const signature = getSelectedSignature();
-    if (signature !== lastSyncedSignature) {
-      updateUrlState();
-      lastSyncedSignature = signature;
-    }
-  }
 
   $: chartHeading =
     activeSelection.length === 1
@@ -465,7 +475,7 @@
             type="button"
             class:selected={yAxisMode === 'absolute'}
             aria-pressed={yAxisMode === 'absolute'}
-            on:click={() => (yAxisMode = 'absolute')}
+            on:click={() => setYAxisMode('absolute')}
           >
             Absolutt
           </button>
@@ -473,7 +483,7 @@
             type="button"
             class:selected={yAxisMode === 'relative'}
             aria-pressed={yAxisMode === 'relative'}
-            on:click={() => (yAxisMode = 'relative')}
+            on:click={() => setYAxisMode('relative')}
           >
             Relativ
           </button>
