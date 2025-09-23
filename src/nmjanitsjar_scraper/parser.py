@@ -30,6 +30,8 @@ class JSONParser:
         "repmus": f"{JSON_BASE_URL}/repmus.json"
     }
     
+    KNOWLEDGE_FILE = Path("meta/manual_overrides.json")
+
     def __init__(self, cache_dir: Path = None):
         """
         Initialize JSON parser.
@@ -39,7 +41,7 @@ class JSONParser:
         """
         self.cache_dir = cache_dir or Path("data/json")
         self.cache_dir.mkdir(parents=True, exist_ok=True)
-        
+
         # Data caches
         self._konkurranser = None
         self._korps = None
@@ -52,6 +54,9 @@ class JSONParser:
         self._dirigenter_index: Dict[int, Dict[str, Any]] = {}
         self._musikkstykker_index: Dict[int, Dict[str, Any]] = {}
         self._repertoar_index: Dict[int, List[Dict[str, Any]]] = {}
+
+        # Local knowledge overrides
+        self.manual_overrides: Dict[str, Dict[str, str]] = self._load_manual_overrides()
         
     def _clean_json_content(self, raw_content: str) -> str:
         """
@@ -173,6 +178,90 @@ class JSONParser:
 
         console.print("[green]✓ All data loaded successfully[/green]")
 
+    def _load_manual_overrides(self) -> Dict[str, Dict[str, str]]:
+        """Load optional manual overrides for known data gaps."""
+        default: Dict[str, Dict[str, str]] = {"conductors": {}}
+        path = self.KNOWLEDGE_FILE
+        if not path.exists():
+            return default
+
+        try:
+            with path.open("r", encoding="utf-8") as handle:
+                data = json.load(handle)
+        except (json.JSONDecodeError, OSError) as exc:
+            console.print(
+                f"[yellow]Warning: failed to load manual overrides from {path}: {exc}[/yellow]"
+            )
+            return default
+
+        # Ensure expected structure even if file is missing specific sections.
+        if "conductors" not in data or not isinstance(data["conductors"], dict):
+            data["conductors"] = {}
+
+        return data
+
+    def _get_manual_conductor(self, year: Optional[int], korpsnr: Optional[int]) -> Optional[str]:
+        """Lookup a manually specified conductor override."""
+        if year is None or korpsnr is None:
+            return None
+        key = f"{int(year)}:{int(korpsnr)}"
+        return self.manual_overrides.get("conductors", {}).get(key)
+
+    def _normalize_identifier(self, identifier: Any) -> Optional[int]:
+        """Return a clean integer identifier or None when not available."""
+        if identifier is None:
+            return None
+        if isinstance(identifier, str):
+            candidate = identifier.strip()
+            if candidate in {"", "-", "--"}:
+                return None
+        try:
+            return int(identifier)
+        except (TypeError, ValueError):
+            return None
+
+    def _normalize_rank(self, rank: Any) -> Optional[int]:
+        """Return a valid rank integer or None when unavailable."""
+        if isinstance(rank, (int, float)) and not isinstance(rank, bool):
+            return int(rank)
+        if isinstance(rank, str):
+            candidate = rank.strip()
+            if candidate in {"", "-", "--"}:
+                return None
+            try:
+                return int(candidate)
+            except ValueError:
+                return None
+        return None
+
+    def _normalize_points(self, value: Any) -> Optional[float]:
+        """Return numeric points; treat dashes and malformed strings as missing."""
+        if value is None:
+            return None
+        if isinstance(value, (int, float)) and not isinstance(value, bool):
+            return float(value)
+        if isinstance(value, str):
+            candidate = value.strip()
+            if candidate in {"", "-", "--"}:
+                return None
+
+            # Some records append suffixes like "-1" or use commas as decimal separators.
+            parts = candidate.split("-")
+            if parts:
+                candidate = parts[0]
+            candidate = candidate.replace(",", ".").strip()
+            # Remove any stray percent or whitespace characters.
+            candidate = candidate.rstrip("%")
+
+            try:
+                return float(candidate)
+            except ValueError:
+                console.print(
+                    f"[yellow]Warning: could not parse points value '{value}' as float; treating as missing[/yellow]"
+                )
+                return None
+        return None
+
     def _get_korps_by_nr(self, korpsnr: int) -> Optional[Dict[str, Any]]:
         """Get orchestra info by korpsnr."""
         return self._korps_index.get(int(korpsnr)) if korpsnr is not None else None
@@ -185,7 +274,7 @@ class JSONParser:
         """Get musical piece info by musikkstykkenr."""
         return self._musikkstykker_index.get(int(musikkstykkenr)) if musikkstykkenr is not None else None
 
-    def _get_repertoar_for_repertoarnr(self, repertoarnr: int) -> List[Dict[str, Any]]:
+    def _get_repertoar_for_repertoarnr(self, repertoarnr: Optional[int]) -> List[Dict[str, Any]]:
         """Get all repertoire entries attached to a specific repertoire id."""
         if repertoarnr is None:
             return []
@@ -266,27 +355,34 @@ class JSONParser:
         """Parse a single competition placement from JSON data."""
         try:
             # Get basic data
-            rank = comp_data.get("plassering")
-            points = comp_data.get("poengtotalt")
+            rank = self._normalize_rank(comp_data.get("plassering"))
+            points = self._normalize_points(comp_data.get("poengtotalt"))
             korpsnr = comp_data.get("korpsnr")
-            dirigentnr = comp_data.get("dirigentnr")
-            repertoarnr = comp_data.get("repertoarnr")
-            
+            dirigentnr = self._normalize_identifier(comp_data.get("dirigentnr"))
+            repertoarnr = self._normalize_identifier(comp_data.get("repertoarnr"))
+
             # Get orchestra info
             korps_info = self._get_korps_by_nr(korpsnr) if korpsnr else None
             orchestra_name = korps_info.get("korpsnavn", f"Unknown Orchestra #{korpsnr}") if korps_info else f"Unknown Orchestra #{korpsnr}"
             image_url = korps_info.get("bildelink") if korps_info and korps_info.get("bildelink") != "-" else None
-            
+
             # Get conductor info
             dirigent_info = self._get_dirigent_by_nr(dirigentnr) if dirigentnr else None
             conductor_name = dirigent_info.get("dirigentnavn") if dirigent_info else None
+
+            manual_conductor = self._get_manual_conductor(comp_data.get("aarstall"), korpsnr)
+            if manual_conductor:
+                conductor_name = manual_conductor
+
+            if not conductor_name:
+                conductor_name = "Ukjent"
             
             # Get musical piece info
             pieces: List[str] = []
-            if repertoarnr:
+            if repertoarnr is not None:
                 repertoire_entries = self._get_repertoar_for_repertoarnr(repertoarnr)
                 for rep_entry in repertoire_entries:
-                    musikkstykkenr = rep_entry.get("musikkstykkenr")
+                    musikkstykkenr = self._normalize_identifier(rep_entry.get("musikkstykkenr"))
                     musikkstykke = self._get_musikkstykke_by_nr(musikkstykkenr) if musikkstykkenr else None
                     title = musikkstykke.get("tittel") if musikkstykke else None
                     if not title:

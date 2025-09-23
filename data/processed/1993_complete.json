@@ -29,7 +29,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674587"
+      "scraped_at": "2025-09-23T12:51:04.452206"
     },
     {
       "id": "1993-elite-02-lillestrøm-musikkorps",
@@ -52,7 +52,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674595"
+      "scraped_at": "2025-09-23T12:51:04.452210"
     },
     {
       "id": "1993-elite-03-dragefjellets-musikkorps-bergen",
@@ -74,7 +74,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674599"
+      "scraped_at": "2025-09-23T12:51:04.452213"
     },
     {
       "id": "1993-elite-04-vestre-aker-musikkorps",
@@ -97,7 +97,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674602"
+      "scraped_at": "2025-09-23T12:51:04.452215"
     },
     {
       "id": "1993-elite-05-sarpsborg-janitsjarkorps",
@@ -120,7 +120,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674605"
+      "scraped_at": "2025-09-23T12:51:04.452218"
     },
     {
       "id": "1993-elite-06-sagene-janitsjarkorps",
@@ -143,7 +143,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674608"
+      "scraped_at": "2025-09-23T12:51:04.452220"
     },
     {
       "id": "1993-1-divisjon-01-skjetten-ungdomskorps",
@@ -165,7 +165,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674612"
+      "scraped_at": "2025-09-23T12:51:04.452223"
     },
     {
       "id": "1993-1-divisjon-02-sinsen-konsertorkester",
@@ -186,7 +186,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674615"
+      "scraped_at": "2025-09-23T12:51:04.452225"
     },
     {
       "id": "1993-1-divisjon-03-sandefjord-musikkorps",
@@ -207,7 +207,50 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674617"
+      "scraped_at": "2025-09-23T12:51:04.452227"
+    },
+    {
+      "id": "1993-1-divisjon-04-opus-82",
+      "year": 1993,
+      "division": "1. divisjon",
+      "rank": 4,
+      "orchestra": "Opus 82",
+      "conductor": "Ingar Bergby",
+      "pieces": "Punchinello Overture (plikt)",
+      "pieces_list": [
+        "Punchinello Overture (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": "https://static.wixstatic.com/media/8835a5_5cd78cff169f454fb6d0a54169c9106d.jpg/v1/fill/w_472,h_330,al_c,q_80,usm_0.66_1.00_0.01/8835a5_5cd78cff169f454fb6d0a54169c9106d.jpg",
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452229"
+    },
+    {
+      "id": "1993-1-divisjon-05-bispehaugen-ungdomskorps",
+      "year": 1993,
+      "division": "1. divisjon",
+      "rank": 5,
+      "orchestra": "Bispehaugen Ungdomskorps",
+      "conductor": "Karl Ole Midtbø",
+      "pieces": "Festival Overture, Op. 39; Punchinello Overture (plikt)",
+      "pieces_list": [
+        "Festival Overture, Op. 39",
+        "Punchinello Overture (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": "https://nmbrass.no/nmjanitsjar/static/bispehaugenungdomskorps.jpg",
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452231"
     },
     {
       "id": "1993-1-divisjon-06-halsen-musikkforening",
@@ -229,7 +272,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674621"
+      "scraped_at": "2025-09-23T12:51:04.452234"
     },
     {
       "id": "1993-1-divisjon-07-sandvikens-ungdomskorps",
@@ -250,7 +293,29 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674623"
+      "scraped_at": "2025-09-23T12:51:04.452236"
+    },
+    {
+      "id": "1993-1-divisjon-08-byneset-musikkorps",
+      "year": 1993,
+      "division": "1. divisjon",
+      "rank": 8,
+      "orchestra": "Byneset Musikkorps",
+      "conductor": "Per Kvistad Uddu",
+      "pieces": "Symphony no. 1 for Band; Punchinello Overture (plikt)",
+      "pieces_list": [
+        "Symphony no. 1 for Band",
+        "Punchinello Overture (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": "https://nmbrass.no/nmjanitsjar/static/bynesetmusikkorps.jpg",
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452238"
     },
     {
       "id": "1993-1-divisjon-09-lørenskog-musikkorps",
@@ -272,7 +337,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674626"
+      "scraped_at": "2025-09-23T12:51:04.452240"
     },
     {
       "id": "1993-1-divisjon-10-musikkforeningen-nidarholm",
@@ -294,7 +359,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674629"
+      "scraped_at": "2025-09-23T12:51:04.452242"
     },
     {
       "id": "1993-1-divisjon-11-hamar-musikkorps",
@@ -315,7 +380,29 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674632"
+      "scraped_at": "2025-09-23T12:51:04.452244"
+    },
+    {
+      "id": "1993-1-divisjon-12-kolbotn-konsertorkester",
+      "year": 1993,
+      "division": "1. divisjon",
+      "rank": 12,
+      "orchestra": "Kolbotn Konsertorkester",
+      "conductor": "Kari Slinning",
+      "pieces": "Mutanza; Punchinello Overture (plikt)",
+      "pieces_list": [
+        "Mutanza",
+        "Punchinello Overture (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452246"
     },
     {
       "id": "1993-2-divisjon-01-hønefoss-ungdomskorps",
@@ -336,7 +423,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674635"
+      "scraped_at": "2025-09-23T12:51:04.452249"
     },
     {
       "id": "1993-2-divisjon-02-molde-janitsjar",
@@ -358,7 +445,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674637"
+      "scraped_at": "2025-09-23T12:51:04.452251"
     },
     {
       "id": "1993-2-divisjon-03-sande-musikkorps",
@@ -379,7 +466,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674640"
+      "scraped_at": "2025-09-23T12:51:04.452253"
     },
     {
       "id": "1993-2-divisjon-04-nittedal-og-hakadal-janitsjar",
@@ -401,7 +488,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674643"
+      "scraped_at": "2025-09-23T12:51:04.452255"
     },
     {
       "id": "1993-2-divisjon-05-skjold-nesttun-janitsjar",
@@ -422,7 +509,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674646"
+      "scraped_at": "2025-09-23T12:51:04.452257"
     },
     {
       "id": "1993-2-divisjon-06-alvøens-musikkforening",
@@ -443,7 +530,91 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674648"
+      "scraped_at": "2025-09-23T12:51:04.452260"
+    },
+    {
+      "id": "1993-2-divisjon-07-ranheim-musikkforening",
+      "year": 1993,
+      "division": "2. divisjon",
+      "rank": 7,
+      "orchestra": "Ranheim Musikkforening",
+      "conductor": "Arild Hognes",
+      "pieces": "Dimensions (plikt)",
+      "pieces_list": [
+        "Dimensions (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": "https://nmbrass.no/nmjanitsjar/static/ranheimmusikkforening.png",
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452262"
+    },
+    {
+      "id": "1993-2-divisjon-08-hommelvik-musikkorps",
+      "year": 1993,
+      "division": "2. divisjon",
+      "rank": 8,
+      "orchestra": "Hommelvik Musikkorps",
+      "conductor": "Torstein Siegel",
+      "pieces": "Dimensions (plikt)",
+      "pieces_list": [
+        "Dimensions (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452264"
+    },
+    {
+      "id": "1993-2-divisjon-09-vestsidens-musikkorps",
+      "year": 1993,
+      "division": "2. divisjon",
+      "rank": 9,
+      "orchestra": "Vestsidens Musikkorps",
+      "conductor": "Arild Andersen",
+      "pieces": "Dimensions (plikt)",
+      "pieces_list": [
+        "Dimensions (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": "https://nmbrass.no/nmjanitsjar/static/vestsidensmusikkorps.jpg",
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452266"
+    },
+    {
+      "id": "1993-2-divisjon-10-østre-aker-musikkorps",
+      "year": 1993,
+      "division": "2. divisjon",
+      "rank": 10,
+      "orchestra": "Østre Aker Musikkorps",
+      "conductor": "Geir Gaarder",
+      "pieces": "Dimensions (plikt)",
+      "pieces_list": [
+        "Dimensions (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452268"
     },
     {
       "id": "1993-2-divisjon-11-hov-musikkorps",
@@ -464,7 +635,50 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674651"
+      "scraped_at": "2025-09-23T12:51:04.452270"
+    },
+    {
+      "id": "1993-2-divisjon-12-strinda-ungdomskorps",
+      "year": 1993,
+      "division": "2. divisjon",
+      "rank": 12,
+      "orchestra": "Strinda Ungdomskorps",
+      "conductor": "Eivind Erdal",
+      "pieces": "Dimensions (plikt)",
+      "pieces_list": [
+        "Dimensions (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452272"
+    },
+    {
+      "id": "1993-2-divisjon-13-nordfjord-ungdomskorps",
+      "year": 1993,
+      "division": "2. divisjon",
+      "rank": 13,
+      "orchestra": "Nordfjord Ungdomskorps",
+      "conductor": "Bjørn Morten Kjærnes",
+      "pieces": "El Camino Real; Dimensions (plikt)",
+      "pieces_list": [
+        "El Camino Real",
+        "Dimensions (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452274"
     },
     {
       "id": "1993-2-divisjon-14-eidsvoll-janitsjarkorps",
@@ -486,7 +700,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674654"
+      "scraped_at": "2025-09-23T12:51:04.452277"
     },
     {
       "id": "1993-2-divisjon-15-åsnes-hornmusikk",
@@ -507,7 +721,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674656"
+      "scraped_at": "2025-09-23T12:51:04.452279"
     },
     {
       "id": "1993-2-divisjon-16-lungegaardens-musikkorps",
@@ -528,7 +742,28 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674659"
+      "scraped_at": "2025-09-23T12:51:04.452281"
+    },
+    {
+      "id": "1993-2-divisjon-17-øvre-byåsen-janitsjar",
+      "year": 1993,
+      "division": "2. divisjon",
+      "rank": 17,
+      "orchestra": "Øvre Byåsen Janitsjar",
+      "conductor": "Brynjar Sonstad",
+      "pieces": "Dimensions (plikt)",
+      "pieces_list": [
+        "Dimensions (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452292"
     },
     {
       "id": "1993-2-divisjon-18-austrheim-lindås/alversund-musikkorps",
@@ -552,7 +787,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674663"
+      "scraped_at": "2025-09-23T12:51:04.452296"
     },
     {
       "id": "1993-3-divisjon-01-musikklaget-lurlåt",
@@ -573,7 +808,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674666"
+      "scraped_at": "2025-09-23T12:51:04.452299"
     },
     {
       "id": "1993-3-divisjon-02-stordal-hornmusikklag",
@@ -594,7 +829,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674669"
+      "scraped_at": "2025-09-23T12:51:04.452301"
     },
     {
       "id": "1993-3-divisjon-03-jømna/heradsbygd-musikkforening",
@@ -615,7 +850,28 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674672"
+      "scraped_at": "2025-09-23T12:51:04.452303"
+    },
+    {
+      "id": "1993-3-divisjon-04-bjølsen-ungdomskorps",
+      "year": 1993,
+      "division": "3. divisjon",
+      "rank": 4,
+      "orchestra": "Bjølsen Ungdomskorps",
+      "conductor": "Vidar Myhre",
+      "pieces": "3 Fragments for Band (plikt)",
+      "pieces_list": [
+        "3 Fragments for Band (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452305"
     },
     {
       "id": "1993-3-divisjon-05-strindheim-janitsjar",
@@ -636,7 +892,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674674"
+      "scraped_at": "2025-09-23T12:51:04.452308"
     },
     {
       "id": "1993-3-divisjon-06-lillehammer-janitsjar",
@@ -658,7 +914,28 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674677"
+      "scraped_at": "2025-09-23T12:51:04.452310"
+    },
+    {
+      "id": "1993-3-divisjon-07-byåsen-musikkorps",
+      "year": 1993,
+      "division": "3. divisjon",
+      "rank": 7,
+      "orchestra": "Byåsen Musikkorps",
+      "conductor": "Eivind Rise",
+      "pieces": "3 Fragments for Band (plikt)",
+      "pieces_list": [
+        "3 Fragments for Band (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452312"
     },
     {
       "id": "1993-3-divisjon-08-osterøy-janitsjar",
@@ -679,7 +956,29 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674680"
+      "scraped_at": "2025-09-23T12:51:04.452314"
+    },
+    {
+      "id": "1993-3-divisjon-09-bodø-janitsjar",
+      "year": 1993,
+      "division": "3. divisjon",
+      "rank": 9,
+      "orchestra": "Bodø Janitsjar",
+      "conductor": "Odd André Brasetvik",
+      "pieces": "Tribute to Irving Berlin; 3 Fragments for Band (plikt)",
+      "pieces_list": [
+        "Tribute to Irving Berlin",
+        "3 Fragments for Band (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452317"
     },
     {
       "id": "1993-3-divisjon-10-dokka-musikkorps",
@@ -700,9 +999,30 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.674682"
+      "scraped_at": "2025-09-23T12:51:04.452319"
+    },
+    {
+      "id": "1993-3-divisjon-11-averøy-ungdomskorps",
+      "year": 1993,
+      "division": "3. divisjon",
+      "rank": 11,
+      "orchestra": "Averøy Ungdomskorps",
+      "conductor": "Bjørn Gjendem",
+      "pieces": "3 Fragments for Band (plikt)",
+      "pieces_list": [
+        "3 Fragments for Band (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.452321"
     }
   ],
   "awards": [],
-  "exported_at": "2025-09-21T19:51:31.681671"
+  "exported_at": "2025-09-23T12:51:04.454166"
 }

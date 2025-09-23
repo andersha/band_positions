@@ -30,7 +30,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799323"
+      "scraped_at": "2025-09-23T12:51:04.498157"
     },
     {
       "id": "2004-elite-02-lillestrøm-musikkorps",
@@ -52,7 +52,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799326"
+      "scraped_at": "2025-09-23T12:51:04.498161"
     },
     {
       "id": "2004-elite-03-vestre-aker-musikkorps",
@@ -73,7 +73,29 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799329"
+      "scraped_at": "2025-09-23T12:51:04.498163"
+    },
+    {
+      "id": "2004-elite-04-sinsen-konsertorkester",
+      "year": 2004,
+      "division": "Elite",
+      "rank": 4,
+      "orchestra": "Sinsen Konsertorkester",
+      "conductor": "Ukjent",
+      "pieces": "Symphonic Metamorphosis of themes by Carl Maria von Weber; Emblems",
+      "pieces_list": [
+        "Symphonic Metamorphosis of themes by Carl Maria von Weber",
+        "Emblems"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": 91.0,
+      "max_points": 100.0,
+      "image_url": "https://nmbrass.no/nmjanitsjar/static/sinsenmusikkorps.jpg",
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.498165"
     },
     {
       "id": "2004-elite-05-dragefjellets-musikkorps-bergen",
@@ -95,7 +117,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799331"
+      "scraped_at": "2025-09-23T12:51:04.498167"
     },
     {
       "id": "2004-elite-06-nittedal-og-hakadal-janitsjar",
@@ -116,7 +138,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799333"
+      "scraped_at": "2025-09-23T12:51:04.498169"
     },
     {
       "id": "2004-elite-07-musikkforeningen-nidarholm",
@@ -137,7 +159,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799335"
+      "scraped_at": "2025-09-23T12:51:04.498171"
     },
     {
       "id": "2004-elite-08-sandvikens-ungdomskorps",
@@ -160,7 +182,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799338"
+      "scraped_at": "2025-09-23T12:51:04.498174"
     },
     {
       "id": "2004-1-divisjon-01-opus-82",
@@ -182,7 +204,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799340"
+      "scraped_at": "2025-09-23T12:51:04.498176"
     },
     {
       "id": "2004-1-divisjon-02-sandefjord-musikkorps",
@@ -204,7 +226,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799343"
+      "scraped_at": "2025-09-23T12:51:04.498179"
     },
     {
       "id": "2004-1-divisjon-03-sagene-janitsjarkorps",
@@ -226,7 +248,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799345"
+      "scraped_at": "2025-09-23T12:51:04.498181"
     },
     {
       "id": "2004-1-divisjon-04-romerike-konsertorkester",
@@ -248,7 +270,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799347"
+      "scraped_at": "2025-09-23T12:51:04.498183"
     },
     {
       "id": "2004-1-divisjon-05-kolbotn-konsertorkester",
@@ -270,7 +292,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799349"
+      "scraped_at": "2025-09-23T12:51:04.498185"
     },
     {
       "id": "2004-1-divisjon-06-borge-musikkorps",
@@ -292,7 +314,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799351"
+      "scraped_at": "2025-09-23T12:51:04.498187"
     },
     {
       "id": "2004-1-divisjon-07-drammen-konsertorkester",
@@ -314,7 +336,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799353"
+      "scraped_at": "2025-09-23T12:51:04.498189"
     },
     {
       "id": "2004-1-divisjon-08-bispehaugen-ungdomskorps",
@@ -336,7 +358,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799355"
+      "scraped_at": "2025-09-23T12:51:04.498191"
     },
     {
       "id": "2004-1-divisjon-09-vestsidens-musikkorps",
@@ -358,7 +380,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799357"
+      "scraped_at": "2025-09-23T12:51:04.498192"
     },
     {
       "id": "2004-1-divisjon-10-lørenskog-musikkorps",
@@ -380,7 +402,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799360"
+      "scraped_at": "2025-09-23T12:51:04.498195"
     },
     {
       "id": "2004-1-divisjon-11-tromsø-orkesterforenings-janitsjarkorps",
@@ -402,7 +424,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799362"
+      "scraped_at": "2025-09-23T12:51:04.498197"
     },
     {
       "id": "2004-1-divisjon-12-halsen-musikkforening",
@@ -424,7 +446,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799364"
+      "scraped_at": "2025-09-23T12:51:04.498199"
     },
     {
       "id": "2004-2-divisjon-01-sande-musikkorps",
@@ -446,7 +468,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799366"
+      "scraped_at": "2025-09-23T12:51:04.498201"
     },
     {
       "id": "2004-2-divisjon-02-mo-hornmusikk",
@@ -468,7 +490,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799369"
+      "scraped_at": "2025-09-23T12:51:04.498203"
     },
     {
       "id": "2004-2-divisjon-03-kolbu-janitsjarkorps",
@@ -490,7 +512,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799371"
+      "scraped_at": "2025-09-23T12:51:04.498205"
     },
     {
       "id": "2004-2-divisjon-04-strusshamn-musikkforening",
@@ -512,7 +534,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799373"
+      "scraped_at": "2025-09-23T12:51:04.498207"
     },
     {
       "id": "2004-2-divisjon-05-lungegaardens-musikkorps",
@@ -534,7 +556,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799375"
+      "scraped_at": "2025-09-23T12:51:04.498209"
     },
     {
       "id": "2004-2-divisjon-06-tønsberg-janitsjarkorps",
@@ -556,7 +578,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799377"
+      "scraped_at": "2025-09-23T12:51:04.498211"
     },
     {
       "id": "2004-2-divisjon-07-alvøens-musikkforening",
@@ -578,7 +600,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799379"
+      "scraped_at": "2025-09-23T12:51:04.498213"
     },
     {
       "id": "2004-2-divisjon-08-hønefoss-ungdomskorps",
@@ -600,7 +622,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799381"
+      "scraped_at": "2025-09-23T12:51:04.498215"
     },
     {
       "id": "2004-2-divisjon-09-skjold-nesttun-janitsjar",
@@ -622,7 +644,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799383"
+      "scraped_at": "2025-09-23T12:51:04.498217"
     },
     {
       "id": "2004-2-divisjon-10-østensjø-janitsjar",
@@ -646,7 +668,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799386"
+      "scraped_at": "2025-09-23T12:51:04.498220"
     },
     {
       "id": "2004-2-divisjon-11-lisleby-musikkorps",
@@ -668,7 +690,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799389"
+      "scraped_at": "2025-09-23T12:51:04.498222"
     },
     {
       "id": "2004-2-divisjon-12-åsane-musikklag",
@@ -690,7 +712,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799391"
+      "scraped_at": "2025-09-23T12:51:04.498224"
     },
     {
       "id": "2004-2-divisjon-13-molde-janitsjar",
@@ -712,7 +734,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799393"
+      "scraped_at": "2025-09-23T12:51:04.498226"
     },
     {
       "id": "2004-2-divisjon-14-musikkforeningen-viken",
@@ -734,7 +756,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799395"
+      "scraped_at": "2025-09-23T12:51:04.498228"
     },
     {
       "id": "2004-2-divisjon-15-moelv-musikkforening",
@@ -756,7 +778,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799397"
+      "scraped_at": "2025-09-23T12:51:04.498230"
     },
     {
       "id": "2004-3-divisjon-01-eidsvoll-janitsjarkorps",
@@ -777,7 +799,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799399"
+      "scraped_at": "2025-09-23T12:51:04.498232"
     },
     {
       "id": "2004-3-divisjon-02-heimdal-musikkorps",
@@ -798,7 +820,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799401"
+      "scraped_at": "2025-09-23T12:51:04.498234"
     },
     {
       "id": "2004-3-divisjon-03-bjølsen-ungdomskorps",
@@ -820,7 +842,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799404"
+      "scraped_at": "2025-09-23T12:51:04.498236"
     },
     {
       "id": "2004-3-divisjon-04-r20",
@@ -842,7 +864,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799406"
+      "scraped_at": "2025-09-23T12:51:04.498238"
     },
     {
       "id": "2004-3-divisjon-05-fåberg-musikkforening",
@@ -863,7 +885,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799408"
+      "scraped_at": "2025-09-23T12:51:04.498240"
     },
     {
       "id": "2004-3-divisjon-06-ranheim-musikkforening",
@@ -885,7 +907,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799410"
+      "scraped_at": "2025-09-23T12:51:04.498242"
     },
     {
       "id": "2004-3-divisjon-07-kolstad-janitsjar",
@@ -907,7 +929,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799412"
+      "scraped_at": "2025-09-23T12:51:04.498244"
     },
     {
       "id": "2004-3-divisjon-08-hovin-musikkorps",
@@ -929,7 +951,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799414"
+      "scraped_at": "2025-09-23T12:51:04.498246"
     },
     {
       "id": "2004-3-divisjon-09-slemmestad-ungdomskorps",
@@ -950,7 +972,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799416"
+      "scraped_at": "2025-09-23T12:51:04.498248"
     },
     {
       "id": "2004-3-divisjon-10-strindheim-janitsjar",
@@ -971,7 +993,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799418"
+      "scraped_at": "2025-09-23T12:51:04.498250"
     },
     {
       "id": "2004-3-divisjon-11-fana-musikklag",
@@ -996,7 +1018,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799421"
+      "scraped_at": "2025-09-23T12:51:04.498253"
     },
     {
       "id": "2004-3-divisjon-12-ski-janitsjar",
@@ -1018,7 +1040,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799423"
+      "scraped_at": "2025-09-23T12:51:04.498255"
     },
     {
       "id": "2004-3-divisjon-13-strinda-ungdomskorps",
@@ -1039,7 +1061,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799425"
+      "scraped_at": "2025-09-23T12:51:04.498257"
     },
     {
       "id": "2004-3-divisjon-14-hortens-ungdomsmusikkorps",
@@ -1061,7 +1083,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799428"
+      "scraped_at": "2025-09-23T12:51:04.498259"
     },
     {
       "id": "2004-3-divisjon-15-ådalsbruk-musikkforening",
@@ -1083,7 +1105,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799430"
+      "scraped_at": "2025-09-23T12:51:04.498261"
     },
     {
       "id": "2004-4-divisjon-01-ok-janitsjar",
@@ -1105,7 +1127,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799432"
+      "scraped_at": "2025-09-23T12:51:04.498263"
     },
     {
       "id": "2004-4-divisjon-02-nidarvoll-ungdomskorps",
@@ -1126,7 +1148,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799435"
+      "scraped_at": "2025-09-23T12:51:04.498265"
     },
     {
       "id": "2004-4-divisjon-03-bømlo-janitsjar",
@@ -1147,7 +1169,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799437"
+      "scraped_at": "2025-09-23T12:51:04.498267"
     },
     {
       "id": "2004-4-divisjon-04-skatval-hornmusikklag",
@@ -1169,7 +1191,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799439"
+      "scraped_at": "2025-09-23T12:51:04.498269"
     },
     {
       "id": "2004-4-divisjon-05-vålerenga-janitsjarkorps",
@@ -1191,7 +1213,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799441"
+      "scraped_at": "2025-09-23T12:51:04.498271"
     },
     {
       "id": "2004-4-divisjon-06-eina-musikkforening",
@@ -1212,7 +1234,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799443"
+      "scraped_at": "2025-09-23T12:51:04.498273"
     },
     {
       "id": "2004-4-divisjon-07-nordre-aker-janitsjar/grefsen-ungdomskorps",
@@ -1233,7 +1255,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799445"
+      "scraped_at": "2025-09-23T12:51:04.498275"
     },
     {
       "id": "2004-4-divisjon-08-lillehammer-janitsjar",
@@ -1254,7 +1276,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799447"
+      "scraped_at": "2025-09-23T12:51:04.498277"
     },
     {
       "id": "2004-4-divisjon-09-brumunddal-musikkorps",
@@ -1275,7 +1297,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799449"
+      "scraped_at": "2025-09-23T12:51:04.498280"
     },
     {
       "id": "2004-4-divisjon-10-østre-gausdal-musikkforening",
@@ -1296,7 +1318,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799451"
+      "scraped_at": "2025-09-23T12:51:04.498282"
     },
     {
       "id": "2004-4-divisjon-11-namsos-musikkorps",
@@ -1318,7 +1340,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799453"
+      "scraped_at": "2025-09-23T12:51:04.498284"
     },
     {
       "id": "2004-4-divisjon-12-torp-musikkorps",
@@ -1340,7 +1362,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799456"
+      "scraped_at": "2025-09-23T12:51:04.498287"
     },
     {
       "id": "2004-4-divisjon-13-oslo-postorkester",
@@ -1362,7 +1384,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799458"
+      "scraped_at": "2025-09-23T12:51:04.498289"
     },
     {
       "id": "2004-4-divisjon-14-hvaler-musikkforening",
@@ -1384,7 +1406,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799460"
+      "scraped_at": "2025-09-23T12:51:04.498291"
     },
     {
       "id": "2004-4-divisjon-15-vinne-musikkorps",
@@ -1406,7 +1428,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799462"
+      "scraped_at": "2025-09-23T12:51:04.498293"
     },
     {
       "id": "2004-4-divisjon-16-solberg-musikkorps",
@@ -1429,7 +1451,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799464"
+      "scraped_at": "2025-09-23T12:51:04.498295"
     },
     {
       "id": "2004-4-divisjon-17-dokka-musikkorps",
@@ -1451,7 +1473,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799467"
+      "scraped_at": "2025-09-23T12:51:04.498297"
     },
     {
       "id": "2004-4-divisjon-18-stange/vallset-musikkforening",
@@ -1473,9 +1495,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.799469"
+      "scraped_at": "2025-09-23T12:51:04.498299"
     }
   ],
   "awards": [],
-  "exported_at": "2025-09-21T19:51:31.804672"
+  "exported_at": "2025-09-23T12:51:04.500510"
 }

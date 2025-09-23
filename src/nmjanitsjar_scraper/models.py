@@ -13,7 +13,7 @@ from datetime import datetime
 class Placement(BaseModel):
     """Represents a single orchestra's placement in a division."""
     
-    rank: int = Field(..., description="Placement rank (1st, 2nd, etc.)")
+    rank: Optional[int] = Field(None, description="Placement rank (1st, 2nd, etc.)")
     orchestra: str = Field(..., description="Orchestra name")
     pieces: List[str] = Field(default_factory=list, description="Musical pieces performed")
     points: Optional[float] = Field(None, description="Points scored (max 100)")

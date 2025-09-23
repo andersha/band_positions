@@ -27,7 +27,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577351"
+      "scraped_at": "2025-09-23T12:51:04.408329"
     },
     {
       "id": "1986-1-divisjon-02-sagene-janitsjarkorps",
@@ -49,7 +49,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577354"
+      "scraped_at": "2025-09-23T12:51:04.408332"
     },
     {
       "id": "1986-1-divisjon-02-lillestrøm-musikkorps",
@@ -71,7 +71,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577358"
+      "scraped_at": "2025-09-23T12:51:04.408335"
     },
     {
       "id": "1986-1-divisjon-04-lier-ungdomskorps",
@@ -93,7 +93,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577361"
+      "scraped_at": "2025-09-23T12:51:04.408338"
     },
     {
       "id": "1986-1-divisjon-05-stabekk-janitsjarorkester",
@@ -115,7 +115,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577363"
+      "scraped_at": "2025-09-23T12:51:04.408340"
     },
     {
       "id": "1986-1-divisjon-06-bispehaugen-ungdomskorps",
@@ -137,7 +137,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577366"
+      "scraped_at": "2025-09-23T12:51:04.408343"
     },
     {
       "id": "1986-1-divisjon-07-sinsen-konsertorkester",
@@ -159,7 +159,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577368"
+      "scraped_at": "2025-09-23T12:51:04.408345"
     },
     {
       "id": "1986-1-divisjon-08-musikklaget-brage",
@@ -181,7 +181,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577370"
+      "scraped_at": "2025-09-23T12:51:04.408348"
     },
     {
       "id": "1986-2-divisjon-01-tromsø-orkesterforenings-janitsjarkorps",
@@ -203,7 +203,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577374"
+      "scraped_at": "2025-09-23T12:51:04.408350"
     },
     {
       "id": "1986-2-divisjon-02-årstad-musikkorps",
@@ -211,7 +211,7 @@
       "division": "2. divisjon",
       "rank": 2,
       "orchestra": "Årstad Musikkorps",
-      "conductor": null,
+      "conductor": "Ukjent",
       "pieces": "First Suite in Eb for Military Band; Ballad for band (plikt)",
       "pieces_list": [
         "First Suite in Eb for Military Band",
@@ -225,7 +225,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577377"
+      "scraped_at": "2025-09-23T12:51:04.408353"
     },
     {
       "id": "1986-2-divisjon-03-mo-hornmusikk",
@@ -247,7 +247,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577379"
+      "scraped_at": "2025-09-23T12:51:04.408355"
     },
     {
       "id": "1986-2-divisjon-04-stavanger-musikkorps-av-1919",
@@ -269,7 +269,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577381"
+      "scraped_at": "2025-09-23T12:51:04.408357"
     },
     {
       "id": "1986-2-divisjon-05-lørenskog-musikkorps",
@@ -291,7 +291,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577384"
+      "scraped_at": "2025-09-23T12:51:04.408360"
     },
     {
       "id": "1986-2-divisjon-06-østre-gausdal-musikkforening",
@@ -313,7 +313,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577386"
+      "scraped_at": "2025-09-23T12:51:04.408362"
     },
     {
       "id": "1986-2-divisjon-07-eidsvåg-musikklag",
@@ -335,7 +335,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577389"
+      "scraped_at": "2025-09-23T12:51:04.408364"
     },
     {
       "id": "1986-2-divisjon-08-hommelvik-musikkorps",
@@ -357,7 +357,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577391"
+      "scraped_at": "2025-09-23T12:51:04.408366"
     },
     {
       "id": "1986-2-divisjon-09-musikkforeningen-nidarholm",
@@ -379,9 +379,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.577394"
+      "scraped_at": "2025-09-23T12:51:04.408369"
     }
   ],
   "awards": [],
-  "exported_at": "2025-09-21T19:51:31.589581"
+  "exported_at": "2025-09-23T12:51:04.409808"
 }

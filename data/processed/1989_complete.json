@@ -28,7 +28,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610665"
+      "scraped_at": "2025-09-23T12:51:04.413442"
     },
     {
       "id": "1989-1-divisjon-02-bispehaugen-ungdomskorps",
@@ -50,7 +50,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610671"
+      "scraped_at": "2025-09-23T12:51:04.413444"
     },
     {
       "id": "1989-1-divisjon-03-lillestrøm-musikkorps",
@@ -72,7 +72,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610674"
+      "scraped_at": "2025-09-23T12:51:04.413447"
     },
     {
       "id": "1989-1-divisjon-04-skjetten-ungdomskorps",
@@ -94,7 +94,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610678"
+      "scraped_at": "2025-09-23T12:51:04.413449"
     },
     {
       "id": "1989-1-divisjon-05-lørenskog-musikkorps",
@@ -116,7 +116,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610681"
+      "scraped_at": "2025-09-23T12:51:04.413451"
     },
     {
       "id": "1989-1-divisjon-06-opus-82",
@@ -138,7 +138,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610684"
+      "scraped_at": "2025-09-23T12:51:04.413453"
     },
     {
       "id": "1989-1-divisjon-07-lier-ungdomskorps",
@@ -160,7 +160,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610687"
+      "scraped_at": "2025-09-23T12:51:04.413456"
     },
     {
       "id": "1989-2-divisjon-01-halsen-musikkforening",
@@ -182,7 +182,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610690"
+      "scraped_at": "2025-09-23T12:51:04.413458"
     },
     {
       "id": "1989-2-divisjon-02-sande-musikkorps",
@@ -204,7 +204,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610693"
+      "scraped_at": "2025-09-23T12:51:04.413460"
     },
     {
       "id": "1989-2-divisjon-03-bodø-harmonimusikk",
@@ -226,7 +226,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610696"
+      "scraped_at": "2025-09-23T12:51:04.413463"
     },
     {
       "id": "1989-2-divisjon-04-slemmestad-ungdomskorps",
@@ -248,7 +248,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610698"
+      "scraped_at": "2025-09-23T12:51:04.413465"
     },
     {
       "id": "1989-2-divisjon-05-austrheim-lindås-janitsjar",
@@ -270,7 +270,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610701"
+      "scraped_at": "2025-09-23T12:51:04.413467"
     },
     {
       "id": "1989-2-divisjon-06-hønefoss-ungdomskorps",
@@ -292,7 +292,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610705"
+      "scraped_at": "2025-09-23T12:51:04.413469"
     },
     {
       "id": "1989-2-divisjon-07-nittedal-og-hakadal-janitsjar",
@@ -314,7 +314,29 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610707"
+      "scraped_at": "2025-09-23T12:51:04.413471"
+    },
+    {
+      "id": "1989-2-divisjon-08-skjeberg-musikkorps",
+      "year": 1989,
+      "division": "2. divisjon",
+      "rank": 8,
+      "orchestra": "Skjeberg Musikkorps",
+      "conductor": "Reidar Bergby",
+      "pieces": "A Jubilant Overture; Norwegian Suite for Band (plikt)",
+      "pieces_list": [
+        "A Jubilant Overture",
+        "Norwegian Suite for Band (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.413473"
     },
     {
       "id": "1989-3-divisjon-01-musikkforeningen-nidarholm",
@@ -336,7 +358,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610710"
+      "scraped_at": "2025-09-23T12:51:04.413475"
     },
     {
       "id": "1989-3-divisjon-02-gjallarhorn",
@@ -358,7 +380,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610713"
+      "scraped_at": "2025-09-23T12:51:04.413477"
     },
     {
       "id": "1989-3-divisjon-03-bryne-musikkorps",
@@ -380,9 +402,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.610716"
+      "scraped_at": "2025-09-23T12:51:04.413479"
     }
   ],
   "awards": [],
-  "exported_at": "2025-09-21T19:51:31.620783"
+  "exported_at": "2025-09-23T12:51:04.414682"
 }

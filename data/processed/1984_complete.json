@@ -27,7 +27,49 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.564061"
+      "scraped_at": "2025-09-23T12:51:04.405725"
+    },
+    {
+      "id": "1984-1-divisjon-02-bispehaugen-ungdomskorps",
+      "year": 1984,
+      "division": "1. divisjon",
+      "rank": 2,
+      "orchestra": "Bispehaugen Ungdomskorps",
+      "conductor": "Ukjent",
+      "pieces": "Epiphany (plikt)",
+      "pieces_list": [
+        "Epiphany (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": 89.7,
+      "max_points": 100.0,
+      "image_url": "https://nmbrass.no/nmjanitsjar/static/bispehaugenungdomskorps.jpg",
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.405728"
+    },
+    {
+      "id": "1984-1-divisjon-03-aalesunds-ungdomsmusikkorps",
+      "year": 1984,
+      "division": "1. divisjon",
+      "rank": 3,
+      "orchestra": "Aalesunds Ungdomsmusikkorps",
+      "conductor": "Ukjent",
+      "pieces": "Epiphany (plikt)",
+      "pieces_list": [
+        "Epiphany (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.405731"
     },
     {
       "id": "1984-2-divisjon-01-lier-ungdomskorps",
@@ -48,7 +90,28 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.564065"
+      "scraped_at": "2025-09-23T12:51:04.405733"
+    },
+    {
+      "id": "1984-2-divisjon-03-malvik-musikkorps",
+      "year": 1984,
+      "division": "2. divisjon",
+      "rank": 3,
+      "orchestra": "Malvik Musikkorps",
+      "conductor": "Kjell Jønnum",
+      "pieces": "Alpen Sketches (plikt)",
+      "pieces_list": [
+        "Alpen Sketches (plikt)"
+      ],
+      "composers": null,
+      "composers_list": [],
+      "points": null,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-23T12:51:04.405736"
     },
     {
       "id": "1984-2-divisjon-05-slemmestad-ungdomskorps",
@@ -70,9 +133,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-21T19:51:31.564068"
+      "scraped_at": "2025-09-23T12:51:04.405738"
     }
   ],
   "awards": [],
-  "exported_at": "2025-09-21T19:51:31.571578"
+  "exported_at": "2025-09-23T12:51:04.407250"
 }
