@@ -26,7 +26,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.760490"
+      "scraped_at": "2025-09-23T13:59:30.292800"
     },
     {
       "id": "1987-1-divisjon-02-sagene-janitsjarkorps",
@@ -47,7 +47,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.760493"
+      "scraped_at": "2025-09-23T13:59:30.292803"
     },
     {
       "id": "1987-1-divisjon-03-lillestrøm-musikkorps",
@@ -68,7 +68,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.760495"
+      "scraped_at": "2025-09-23T13:59:30.292806"
     },
     {
       "id": "1987-1-divisjon-04-lier-ungdomskorps",
@@ -89,7 +89,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.760498"
+      "scraped_at": "2025-09-23T13:59:30.292808"
     },
     {
       "id": "1987-1-divisjon-05-bispehaugen-ungdomskorps",
@@ -110,7 +110,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.760500"
+      "scraped_at": "2025-09-23T13:59:30.292810"
     },
     {
       "id": "1987-2-divisjon-01-lørenskog-musikkorps",
@@ -131,7 +131,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.760502"
+      "scraped_at": "2025-09-23T13:59:30.292813"
     },
     {
       "id": "1987-2-divisjon-02-heimdal-musikkorps",
@@ -152,7 +152,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.760504"
+      "scraped_at": "2025-09-23T13:59:30.292816"
     },
     {
       "id": "1987-2-divisjon-03-malvik-musikkorps",
@@ -173,7 +173,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.760507"
+      "scraped_at": "2025-09-23T13:59:30.292818"
     },
     {
       "id": "1987-2-divisjon-04-sandvikens-ungdomskorps",
@@ -194,9 +194,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.760509"
+      "scraped_at": "2025-09-23T13:59:30.292820"
     }
   ],
   "awards": [],
-  "exported_at": "2025-09-23T13:20:59.761669"
+  "exported_at": "2025-09-23T13:59:30.296548"
 }

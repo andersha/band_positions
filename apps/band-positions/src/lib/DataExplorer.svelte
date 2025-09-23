@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { BandDataset, BandEntry } from './types';
+  import { slugify } from './slugify';
 
   export let dataset: BandDataset | null = null;
 
@@ -84,9 +85,8 @@
     return base;
   }
 
-  function formatPieces(pieces: string[]): string {
-    if (!pieces.length) return '–';
-    return pieces.join(' · ');
+  function formatPieces(pieces: string[]): string[] {
+    return pieces.map((piece) => piece.trim()).filter(Boolean);
   }
 
   function formatGeneratedTimestamp(value: string | null): string | null {
@@ -152,7 +152,7 @@
 
 <section class="data-view">
   <div class="data-lead">
-    <h2>Resultater per divisjon</h2>
+    <h2>Resultatlister per divisjon</h2>
     {#if formattedGeneratedAt}
       <p>Data oppdatert {formattedGeneratedAt}</p>
     {/if}
@@ -215,7 +215,23 @@
                 <td data-label="Korps">{band}</td>
                 <td data-label="Dirigent">{entry.conductor ?? 'Ukjent'}</td>
                 <td data-label="Poeng">{formatPoints(entry.points, entry.max_points)}</td>
-                <td data-label="Program">{formatPieces(entry.pieces)}</td>
+                <td data-label="Program" class="program-cell">
+                  {#if true}
+                    {@const pieces = formatPieces(entry.pieces)}
+                    {#if pieces.length === 0}
+                      <span>–</span>
+                    {:else}
+                      {#each pieces as piece, index}
+                        <a
+                          href={`?view=pieces&piece=${encodeURIComponent(slugify(piece))}`}
+                          class="program-link"
+                        >
+                          {piece}
+                        </a>{index < pieces.length - 1 ? ', ' : ''}
+                      {/each}
+                    {/if}
+                  {/if}
+                </td>
               </tr>
             {/each}
           </tbody>
@@ -326,6 +342,20 @@
     border-top: 1px solid var(--color-border);
     color: var(--color-text-primary);
     font-size: 0.95rem;
+  }
+
+  .program-cell {
+    white-space: normal;
+  }
+
+  .program-link {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .program-link:hover,
+  .program-link:focus-visible {
+    text-decoration: underline;
   }
 
   td[data-label]::before {

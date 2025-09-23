@@ -27,7 +27,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.743420"
+      "scraped_at": "2025-09-23T13:59:30.207747"
     },
     {
       "id": "1981-1-divisjon-02-bispehaugen-ungdomskorps",
@@ -49,7 +49,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.743428"
+      "scraped_at": "2025-09-23T13:59:30.207759"
     },
     {
       "id": "1981-2-divisjon-01-nittedal-og-hakadal-janitsjar",
@@ -71,7 +71,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.743432"
+      "scraped_at": "2025-09-23T13:59:30.207766"
     },
     {
       "id": "1981-2-divisjon-02-sandefjord-musikkorps",
@@ -93,7 +93,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.743435"
+      "scraped_at": "2025-09-23T13:59:30.207771"
     },
     {
       "id": "1981-2-divisjon-03-årstad-musikkorps",
@@ -115,7 +115,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.743438"
+      "scraped_at": "2025-09-23T13:59:30.207776"
     },
     {
       "id": "1981-2-divisjon-04-sandvikens-ungdomskorps",
@@ -137,9 +137,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.743441"
+      "scraped_at": "2025-09-23T13:59:30.207781"
     }
   ],
   "awards": [],
-  "exported_at": "2025-09-23T13:20:59.747232"
+  "exported_at": "2025-09-23T13:59:30.241038"
 }

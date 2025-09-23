@@ -27,7 +27,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.748451"
+      "scraped_at": "2025-09-23T13:59:30.248591"
     },
     {
       "id": "1982-1-divisjon-02-hamar-musikkorps",
@@ -49,7 +49,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.748455"
+      "scraped_at": "2025-09-23T13:59:30.248598"
     },
     {
       "id": "1982-1-divisjon-03-stavanger-musikkorps-av-1919",
@@ -71,7 +71,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.748457"
+      "scraped_at": "2025-09-23T13:59:30.248604"
     },
     {
       "id": "1982-1-divisjon-04-sandefjord-musikkorps",
@@ -93,7 +93,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.748460"
+      "scraped_at": "2025-09-23T13:59:30.248609"
     },
     {
       "id": "1982-2-divisjon-01-aalesunds-ungdomsmusikkorps",
@@ -115,7 +115,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.748462"
+      "scraped_at": "2025-09-23T13:59:30.248614"
     },
     {
       "id": "1982-2-divisjon-02-årstad-musikkorps",
@@ -136,7 +136,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.748465"
+      "scraped_at": "2025-09-23T13:59:30.248619"
     },
     {
       "id": "1982-2-divisjon-03-heimdal-musikkorps",
@@ -157,7 +157,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.748467"
+      "scraped_at": "2025-09-23T13:59:30.248624"
     },
     {
       "id": "1982-2-divisjon-04-musikklaget-brage",
@@ -178,7 +178,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.748469"
+      "scraped_at": "2025-09-23T13:59:30.248628"
     },
     {
       "id": "1982-2-divisjon-05-strinda-ungdomskorps",
@@ -199,9 +199,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.748471"
+      "scraped_at": "2025-09-23T13:59:30.248633"
     }
   ],
   "awards": [],
-  "exported_at": "2025-09-23T13:20:59.750186"
+  "exported_at": "2025-09-23T13:59:30.258067"
 }

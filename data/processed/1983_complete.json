@@ -27,7 +27,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.751535"
+      "scraped_at": "2025-09-23T13:59:30.263909"
     },
     {
       "id": "1983-1-divisjon-02-hamar-musikkorps",
@@ -51,7 +51,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.751540"
+      "scraped_at": "2025-09-23T13:59:30.263917"
     },
     {
       "id": "1983-1-divisjon-03-vestre-aker-musikkorps",
@@ -73,7 +73,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.751543"
+      "scraped_at": "2025-09-23T13:59:30.263921"
     },
     {
       "id": "1983-1-divisjon-04-sagene-janitsjarkorps",
@@ -95,7 +95,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.751545"
+      "scraped_at": "2025-09-23T13:59:30.263925"
     },
     {
       "id": "1983-1-divisjon-05-bispehaugen-ungdomskorps",
@@ -117,7 +117,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.751547"
+      "scraped_at": "2025-09-23T13:59:30.263929"
     },
     {
       "id": "1983-2-divisjon-01-os-musikkforening",
@@ -138,7 +138,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.751550"
+      "scraped_at": "2025-09-23T13:59:30.263933"
     },
     {
       "id": "1983-2-divisjon-02-musikkforeningen-viken",
@@ -159,7 +159,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.751552"
+      "scraped_at": "2025-09-23T13:59:30.263936"
     },
     {
       "id": "1983-2-divisjon-03-tromsø-orkesterforenings-janitsjarkorps",
@@ -180,7 +180,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.751554"
+      "scraped_at": "2025-09-23T13:59:30.263940"
     },
     {
       "id": "1983-2-divisjon-04-årstad-musikkorps",
@@ -201,7 +201,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.751557"
+      "scraped_at": "2025-09-23T13:59:30.263944"
     },
     {
       "id": "1983-2-divisjon-05-nesodden-ungdomskors",
@@ -223,9 +223,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.751559"
+      "scraped_at": "2025-09-23T13:59:30.263947"
     }
   ],
   "awards": [],
-  "exported_at": "2025-09-23T13:20:59.753449"
+  "exported_at": "2025-09-23T13:59:30.271053"
 }

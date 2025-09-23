@@ -2,12 +2,14 @@
   import { onMount } from 'svelte';
   import BandTrajectoryChart from './lib/BandTrajectoryChart.svelte';
   import DataExplorer from './lib/DataExplorer.svelte';
-  import type { BandDataset, BandRecord, BandEntry } from './lib/types';
+  import PiecePerformances from './lib/PiecePerformances.svelte';
+  import { slugify } from './lib/slugify';
+  import type { BandDataset, BandRecord, BandEntry, PieceRecord } from './lib/types';
 
-  type ViewType = 'bands' | 'conductors' | 'data';
+  type ViewType = 'bands' | 'conductors' | 'pieces' | 'data';
   type Theme = 'light' | 'dark';
 
-  const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor' } as const;
+  const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor', pieces: 'piece' } as const;
   const URL_MODE_KEY = 'mode';
   const URL_VIEW_KEY = 'view';
   const URL_SEPARATOR = ',';
@@ -18,39 +20,31 @@
   const viewLabels: Record<ViewType, string> = {
     bands: 'Korps',
     conductors: 'Dirigent',
-    data: 'Data'
+    pieces: 'Stykke',
+    data: 'Resultat'
   };
-  const viewOrder: ViewType[] = ['bands', 'conductors', 'data'];
+  const viewOrder: ViewType[] = ['bands', 'conductors', 'pieces', 'data'];
 
   let dataset: BandDataset | null = null;
   let conductorRecords: BandRecord[] = [];
+  let pieceRecords: PieceRecord[] = [];
   let loading = true;
   let error: string | null = null;
   let searchTerm = '';
   let selectedBands: BandRecord[] = [];
   let selectedConductors: BandRecord[] = [];
+  let selectedPieces: PieceRecord[] = [];
   let focusedIndex = -1;
   let initialUrlSyncDone = false;
   let lastSyncedSignature = '';
   let yAxisMode: 'absolute' | 'relative' = DEFAULT_MODE;
   let activeView: ViewType = DEFAULT_VIEW;
-  let activeRecords: BandRecord[] = [];
-  let activeSelection: BandRecord[] = [];
+  let activeRecords: Array<BandRecord | PieceRecord> = [];
+  let activeSelection: Array<BandRecord | PieceRecord> = [];
   let theme: Theme = 'dark';
 
-  function slugify(value: string): string {
-    return (
-      value
-        .normalize('NFKD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .toLowerCase()
-        .trim()
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-+|-+$/g, '') || 'uidentifisert'
-    );
-  }
-
   type ConductorPlacement = BandEntry & { band_name?: string };
+  type PiecePerformance = BandEntry & { band_name: string };
 
   function cloneEntry(entry: BandEntry, bandName?: string): ConductorPlacement {
     const clonedPieces = Array.isArray(entry.pieces)
@@ -128,6 +122,42 @@
       .sort((a, b) => a.name.localeCompare(b.name));
   }
 
+  function buildPieceRecords(bands: BandRecord[]): PieceRecord[] {
+    const records = new Map<string, PieceRecord>();
+
+    for (const band of bands) {
+      for (const entry of band.entries) {
+        const pieces = Array.isArray(entry.pieces)
+          ? entry.pieces
+          : entry.pieces != null
+            ? [`${entry.pieces}`]
+            : [];
+
+        for (const rawPiece of pieces) {
+          const name = rawPiece.trim();
+          if (!name) continue;
+
+          const slug = slugify(name);
+          let record = records.get(slug);
+          if (!record) {
+            record = { name, slug, performances: [] };
+            records.set(slug, record);
+          }
+
+          record.performances.push({ band: band.name, entry });
+        }
+      }
+    }
+
+    return Array.from(records.values()).map((record) => ({
+      ...record,
+      performances: record.performances.map(({ band, entry }) => ({
+        band,
+        entry: { ...entry, pieces: [...entry.pieces] }
+      }))
+    })).sort((a, b) => a.name.localeCompare(b.name));
+  }
+
   function getUrlParamKey(view: ViewType): string {
     return URL_PARAM_KEYS[view];
   }
@@ -187,7 +217,10 @@
     if (raw === 'conductors' || raw === 'dirigent' || raw === 'conductor') {
       return 'conductors';
     }
-    if (raw === 'data') {
+    if (raw === 'pieces' || raw === 'piece' || raw === 'stykke' || raw === 'stykker') {
+      return 'pieces';
+    }
+    if (raw === 'data' || raw === 'resultat' || raw === 'results') {
       return 'data';
     }
     return 'bands';
@@ -204,15 +237,15 @@
       .filter(Boolean);
   }
 
-  function findMatches(records: BandRecord[], slugs: string[]): BandRecord[] {
+  function findMatches<T extends { slug: string }>(records: T[], slugs: string[]): T[] {
     if (!records.length || !slugs.length) return [];
     const recordMap = new Map(records.map((record) => [record.slug, record] as const));
     return slugs
       .map((slug) => recordMap.get(slug) ?? recordMap.get(slug.toLowerCase()))
-      .filter((record): record is BandRecord => Boolean(record));
+      .filter((record): record is T => Boolean(record));
   }
 
-  function areSelectionsEqual(a: BandRecord[], b: BandRecord[]): boolean {
+  function areSelectionsEqual<T extends { slug: string }>(a: T[], b: T[]): boolean {
     if (a.length !== b.length) return false;
     return a.every((record, index) => record.slug === b[index].slug);
   }
@@ -235,6 +268,13 @@
       params.set(getUrlParamKey('conductors'), conductorSlugs);
     } else {
       params.delete(getUrlParamKey('conductors'));
+    }
+
+    const pieceSlugs = selectedPieces.map((piece) => encodeURIComponent(piece.slug)).join(URL_SEPARATOR);
+    if (pieceSlugs.length) {
+      params.set(getUrlParamKey('pieces'), pieceSlugs);
+    } else {
+      params.delete(getUrlParamKey('pieces'));
     }
 
     params.set(URL_MODE_KEY, yAxisMode);
@@ -279,6 +319,15 @@
       stateChanged = true;
     }
 
+    if (!pieceRecords.length) {
+      pieceRecords = buildPieceRecords(dataset.bands);
+    }
+    const pieceMatches = findMatches(pieceRecords, getSlugsFromURL('pieces'));
+    if (!areSelectionsEqual(selectedPieces, pieceMatches)) {
+      selectedPieces = pieceMatches;
+      stateChanged = true;
+    }
+
     if (updateHistory) {
       updateUrlState();
     }
@@ -289,7 +338,8 @@
   function getSelectedSignature(): string {
     const bandSignature = selectedBands.map((band) => band.slug).join(URL_SEPARATOR);
     const conductorSignature = selectedConductors.map((conductor) => conductor.slug).join(URL_SEPARATOR);
-    return `${activeView}|${yAxisMode}|${bandSignature}|${conductorSignature}`;
+    const pieceSignature = selectedPieces.map((piece) => piece.slug).join(URL_SEPARATOR);
+    return `${activeView}|${yAxisMode}|${bandSignature}|${conductorSignature}|${pieceSignature}`;
   }
 
   function syncUrlIfReady(): void {
@@ -301,13 +351,17 @@
     }
   }
 
-  function chooseRecord(record: BandRecord): void {
+  function chooseRecord(record: BandRecord | PieceRecord): void {
     if (activeView === 'bands') {
       if (selectedBands.some((item) => item.slug === record.slug)) return;
       selectedBands = [...selectedBands, record];
-    } else {
+    } else if (activeView === 'conductors') {
       if (selectedConductors.some((item) => item.slug === record.slug)) return;
       selectedConductors = [...selectedConductors, record];
+    } else {
+      const pieceRecord = record as PieceRecord;
+      if (selectedPieces.some((item) => item.slug === pieceRecord.slug)) return;
+      selectedPieces = [...selectedPieces, pieceRecord];
     }
     searchTerm = '';
     focusedIndex = -1;
@@ -317,8 +371,10 @@
   function removeRecord(slug: string): void {
     if (activeView === 'bands') {
       selectedBands = selectedBands.filter((item) => item.slug !== slug);
-    } else {
+    } else if (activeView === 'conductors') {
       selectedConductors = selectedConductors.filter((item) => item.slug !== slug);
+    } else {
+      selectedPieces = selectedPieces.filter((item) => item.slug !== slug);
     }
     focusedIndex = -1;
     syncUrlIfReady();
@@ -378,6 +434,7 @@
       }
       dataset = (await response.json()) as BandDataset;
       conductorRecords = buildConductorRecords(dataset.bands);
+      pieceRecords = buildPieceRecords(dataset.bands);
       syncSelectionFromURL({ updateHistory: false });
       lastSyncedSignature = getSelectedSignature();
       updateUrlState();
@@ -401,17 +458,21 @@
 
   $: trimmed = searchTerm.trim();
   $: lowered = trimmed.toLowerCase();
-  $: isEntityView = activeView === 'bands' || activeView === 'conductors';
+  $: isEntityView = activeView === 'bands' || activeView === 'conductors' || activeView === 'pieces';
   $: activeRecords = isEntityView
     ? activeView === 'bands'
       ? dataset?.bands ?? []
-      : conductorRecords
+      : activeView === 'conductors'
+        ? conductorRecords
+        : pieceRecords
     : [];
   $: activeSelection = activeView === 'bands'
     ? selectedBands
     : activeView === 'conductors'
       ? selectedConductors
-      : [];
+      : activeView === 'pieces'
+        ? selectedPieces
+        : [];
   $: suggestions =
     isEntityView && activeRecords && lowered.length >= 2
       ? activeRecords
@@ -428,9 +489,15 @@
   $: entityCount = isEntityView
     ? activeView === 'bands'
       ? dataset?.bands.length ?? 0
-      : conductorRecords.length
+      : activeView === 'conductors'
+        ? conductorRecords.length
+        : pieceRecords.length
     : 0;
-  $: entityLabel = activeView === 'bands' ? 'korps' : activeView === 'conductors' ? 'dirigenter' : 'korps';
+  $: entityLabel = activeView === 'bands'
+    ? 'korps'
+    : activeView === 'conductors'
+      ? 'dirigenter'
+      : 'stykker';
   let coverageDescription = '';
   $: coverageDescription = dataset
     ? `Dekker ${entityCount} ${entityLabel} · ${years.length} år (${dataset.metadata.min_year}–${dataset.metadata.max_year})`
@@ -440,19 +507,41 @@
     ? 'Begynn å skrive et korpsnavn (minst 2 bokstaver)…'
     : activeView === 'conductors'
       ? 'Begynn å skrive et dirigentnavn (minst 2 bokstaver)…'
-      : '';
-  $: searchLabel = activeView === 'bands' ? 'Søk etter korps' : 'Søk etter dirigent';
-  $: suggestionsLabel = activeView === 'bands' ? 'Korpsforslag' : 'Dirigentforslag';
-  $: selectionLabel = activeView === 'bands' ? 'Valgte korps' : 'Valgte dirigenter';
-  $: emptyStateTitle = activeView === 'bands' ? 'Ingen korps valgt ennå' : 'Ingen dirigenter valgt ennå';
+      : activeView === 'pieces'
+        ? 'Begynn å skrive en stykketittel (minst 2 bokstaver)…'
+        : '';
+  $: searchLabel = activeView === 'bands'
+    ? 'Søk etter korps'
+    : activeView === 'conductors'
+      ? 'Søk etter dirigent'
+      : 'Søk etter musikkstykke';
+  $: suggestionsLabel = activeView === 'bands'
+    ? 'Korpsforslag'
+    : activeView === 'conductors'
+      ? 'Dirigentforslag'
+      : 'Stykke-forslag';
+  $: selectionLabel = activeView === 'bands'
+    ? 'Valgte korps'
+    : activeView === 'conductors'
+      ? 'Valgte dirigenter'
+      : 'Valgte stykker';
+  $: emptyStateTitle = activeView === 'bands'
+    ? 'Ingen korps valgt ennå'
+    : activeView === 'conductors'
+      ? 'Ingen dirigenter valgt ennå'
+      : 'Ingen stykker valgt ennå';
   $: emptyStateBody = activeView === 'bands'
     ? 'Finn et navn i søkefeltet for å tegne kurven for samlet plassering.'
-    : 'Finn en dirigent i søkefeltet for å tegne kurven for samlet plassering.';
+    : activeView === 'conductors'
+      ? 'Finn en dirigent i søkefeltet for å tegne kurven for samlet plassering.'
+      : 'Finn et musikkstykke i søkefeltet for å se alle registrerte fremføringer.';
   $: leadText = activeView === 'bands'
     ? 'Søk etter et janitsjarkorps for å se hvordan den samlede plasseringen utvikler seg år for år, på tvers av alle divisjoner.'
     : activeView === 'conductors'
       ? 'Søk etter en dirigent for å se hvordan deres beste plassering utvikler seg år for år, basert på korpsene de dirigerte.'
-      : 'Velg et år og en divisjon for å vise resultatlisten i den valgte finalen.';
+      : activeView === 'pieces'
+        ? 'Søk etter et musikkstykke for å se alle fremføringer vi har registrert.'
+        : 'Velg et år og en divisjon for å vise resultatlisten i den valgte finalen.';
   $: themeToggleLabel = theme === 'dark' ? 'Bytt til lyst tema' : 'Bytt til mørkt tema';
   $: themeToggleText = theme === 'dark' ? 'Mørk' : 'Lys';
   $: themeToggleIcon = theme === 'dark' ? '🌙' : '☀️';
@@ -466,13 +555,19 @@
 
   $: comparisonSummary =
     activeSelection.length > 1 ? activeSelection.map((record) => record.name).join(' · ') : '';
+
+  $: pieceSelection = activeView === 'pieces' ? (activeSelection as PieceRecord[]) : [];
+  $: chartSelection =
+    activeView === 'bands' || activeView === 'conductors'
+      ? (activeSelection as BandRecord[])
+      : [];
 </script>
 
 <main>
   <header class="page-header">
-    <h1>NM Janitsjar: Plassering over tid</h1>
+    <h1>NM Janitsjar</h1>
     <div class="header-controls">
-      <div class="view-toggle" role="group" aria-label="Bytt mellom korps- og dirigentvisning">
+      <div class="view-toggle" role="group" aria-label="Bytt visning">
         {#each viewOrder as view}
           <button
             type="button"
@@ -550,43 +645,47 @@
     <section class="status">Ingen data tilgjengelig.</section>
   {:else if isEntityView}
     {#if activeSelection.length > 0}
-      <section class="chart-card">
-        <div class="mode-toggle">
-          <span class="mode-toggle__label">Plassering:</span>
-          <div class="mode-toggle__buttons" role="group" aria-label="Velg plasseringsvisning">
-            <button
-              type="button"
-              class:selected={yAxisMode === 'absolute'}
-              aria-pressed={yAxisMode === 'absolute'}
-              on:click={() => setYAxisMode('absolute')}
-            >
-              Absolutt
-            </button>
-            <button
-              type="button"
-              class:selected={yAxisMode === 'relative'}
-              aria-pressed={yAxisMode === 'relative'}
-              on:click={() => setYAxisMode('relative')}
-            >
-              Relativ
-            </button>
+      {#if activeView === 'pieces'}
+        <PiecePerformances pieces={pieceSelection} />
+      {:else}
+        <section class="chart-card">
+          <div class="mode-toggle">
+            <span class="mode-toggle__label">Plassering:</span>
+            <div class="mode-toggle__buttons" role="group" aria-label="Velg plasseringsvisning">
+              <button
+                type="button"
+                class:selected={yAxisMode === 'absolute'}
+                aria-pressed={yAxisMode === 'absolute'}
+                on:click={() => setYAxisMode('absolute')}
+              >
+                Absolutt
+              </button>
+              <button
+                type="button"
+                class:selected={yAxisMode === 'relative'}
+                aria-pressed={yAxisMode === 'relative'}
+                on:click={() => setYAxisMode('relative')}
+              >
+                Relativ
+              </button>
+            </div>
           </div>
-        </div>
-        <div class="chart-header">
-          <h2>{chartHeading}</h2>
-          <p>{coverageDescription}</p>
-          {#if comparisonSummary}
-            <p class="comparison-summary">{comparisonSummary}</p>
-          {/if}
-        </div>
-        <BandTrajectoryChart
-          {years}
-          {maxFieldSize}
-          bands={activeSelection}
-          yMode={yAxisMode}
-          showConductorMarkers={activeView === 'bands'}
-        />
-      </section>
+          <div class="chart-header">
+            <h2>{chartHeading}</h2>
+            <p>{coverageDescription}</p>
+            {#if comparisonSummary}
+              <p class="comparison-summary">{comparisonSummary}</p>
+            {/if}
+          </div>
+          <BandTrajectoryChart
+            {years}
+            {maxFieldSize}
+            bands={chartSelection}
+            yMode={yAxisMode}
+            showConductorMarkers={activeView === 'bands'}
+          />
+        </section>
+      {/if}
     {:else}
       <section class="empty-state">
         <h2>{emptyStateTitle}</h2>

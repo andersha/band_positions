@@ -30,3 +30,14 @@ export interface BandDataset {
   bands: BandRecord[];
   metadata: DatasetMetadata;
 }
+
+export interface PiecePerformance {
+  band: string;
+  entry: BandEntry;
+}
+
+export interface PieceRecord {
+  name: string;
+  slug: string;
+  performances: PiecePerformance[];
+}

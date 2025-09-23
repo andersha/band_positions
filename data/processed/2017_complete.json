@@ -32,7 +32,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.945984"
+      "scraped_at": "2025-09-23T13:59:30.569024"
     },
     {
       "id": "2017-elite-02-musikkforeningen-nidarholm",
@@ -54,7 +54,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.945988"
+      "scraped_at": "2025-09-23T13:59:30.569028"
     },
     {
       "id": "2017-elite-03-christiania-blåseensemble",
@@ -77,7 +77,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.945991"
+      "scraped_at": "2025-09-23T13:59:30.569030"
     },
     {
       "id": "2017-elite-04-vestre-aker-musikkorps",
@@ -99,7 +99,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.945993"
+      "scraped_at": "2025-09-23T13:59:30.569033"
     },
     {
       "id": "2017-elite-05-dragefjellets-musikkorps-bergen",
@@ -121,7 +121,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.945995"
+      "scraped_at": "2025-09-23T13:59:30.569036"
     },
     {
       "id": "2017-elite-06-mo-hornmusikk",
@@ -143,7 +143,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.945998"
+      "scraped_at": "2025-09-23T13:59:30.569038"
     },
     {
       "id": "2017-elite-07-opus-82",
@@ -165,7 +165,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946000"
+      "scraped_at": "2025-09-23T13:59:30.569040"
     },
     {
       "id": "2017-elite-08-sarpsborg-janitsjarkorps",
@@ -187,7 +187,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946002"
+      "scraped_at": "2025-09-23T13:59:30.569042"
     },
     {
       "id": "2017-elite-09-sandvikens-ungdomskorps",
@@ -209,7 +209,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946004"
+      "scraped_at": "2025-09-23T13:59:30.569045"
     },
     {
       "id": "2017-elite-10-greåker-musikkorps",
@@ -232,7 +232,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946007"
+      "scraped_at": "2025-09-23T13:59:30.569047"
     },
     {
       "id": "2017-1-divisjon-01-strusshamn-musikkforening",
@@ -253,7 +253,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946009"
+      "scraped_at": "2025-09-23T13:59:30.569050"
     },
     {
       "id": "2017-1-divisjon-02-kolbu-janitsjarkorps",
@@ -275,7 +275,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946012"
+      "scraped_at": "2025-09-23T13:59:30.569052"
     },
     {
       "id": "2017-1-divisjon-03-stavanger-musikkorps-av-1919",
@@ -296,7 +296,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946014"
+      "scraped_at": "2025-09-23T13:59:30.569054"
     },
     {
       "id": "2017-1-divisjon-04-byneset-musikkorps",
@@ -320,7 +320,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946017"
+      "scraped_at": "2025-09-23T13:59:30.569058"
     },
     {
       "id": "2017-1-divisjon-05-skjold-nesttun-janitsjar",
@@ -341,7 +341,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946019"
+      "scraped_at": "2025-09-23T13:59:30.569060"
     },
     {
       "id": "2017-1-divisjon-06-drammen-konsertorkester",
@@ -363,7 +363,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946023"
+      "scraped_at": "2025-09-23T13:59:30.569062"
     },
     {
       "id": "2017-1-divisjon-07-ådalsbruk-musikkforening",
@@ -385,7 +385,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946026"
+      "scraped_at": "2025-09-23T13:59:30.569065"
     },
     {
       "id": "2017-1-divisjon-08-alvøens-musikkforening",
@@ -406,7 +406,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946028"
+      "scraped_at": "2025-09-23T13:59:30.569067"
     },
     {
       "id": "2017-1-divisjon-09-kolbotn-konsertorkester",
@@ -428,7 +428,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946031"
+      "scraped_at": "2025-09-23T13:59:30.569070"
     },
     {
       "id": "2017-1-divisjon-10-borge-musikkorps",
@@ -450,7 +450,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946033"
+      "scraped_at": "2025-09-23T13:59:30.569072"
     },
     {
       "id": "2017-1-divisjon-11-sandefjord-musikkorps",
@@ -473,7 +473,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946036"
+      "scraped_at": "2025-09-23T13:59:30.569074"
     },
     {
       "id": "2017-1-divisjon-12-vestsidens-musikkorps",
@@ -495,7 +495,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946038"
+      "scraped_at": "2025-09-23T13:59:30.569076"
     },
     {
       "id": "2017-1-divisjon-13-sande-musikkorps",
@@ -516,7 +516,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946040"
+      "scraped_at": "2025-09-23T13:59:30.569079"
     },
     {
       "id": "2017-2-divisjon-01-bjergsted-blåseensemble",
@@ -538,7 +538,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946042"
+      "scraped_at": "2025-09-23T13:59:30.569081"
     },
     {
       "id": "2017-2-divisjon-02-nittedal-og-hakadal-janitsjar",
@@ -559,7 +559,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946044"
+      "scraped_at": "2025-09-23T13:59:30.569085"
     },
     {
       "id": "2017-2-divisjon-03-stabekk-janitsjarorkester",
@@ -581,7 +581,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946047"
+      "scraped_at": "2025-09-23T13:59:30.569088"
     },
     {
       "id": "2017-2-divisjon-04-bispehaugen-ungdomskorps",
@@ -602,7 +602,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946049"
+      "scraped_at": "2025-09-23T13:59:30.569090"
     },
     {
       "id": "2017-2-divisjon-05-halsen-musikkforening",
@@ -626,7 +626,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946052"
+      "scraped_at": "2025-09-23T13:59:30.569093"
     },
     {
       "id": "2017-2-divisjon-06-aalesunds-ungdomsmusikkorps",
@@ -647,7 +647,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946054"
+      "scraped_at": "2025-09-23T13:59:30.569095"
     },
     {
       "id": "2017-2-divisjon-07-gjøvik-bykorps",
@@ -671,7 +671,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946056"
+      "scraped_at": "2025-09-23T13:59:30.569098"
     },
     {
       "id": "2017-2-divisjon-07-bjølsen-ungdomskorps",
@@ -694,7 +694,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946059"
+      "scraped_at": "2025-09-23T13:59:30.569101"
     },
     {
       "id": "2017-2-divisjon-09-sinsen-konsertorkester",
@@ -716,7 +716,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946061"
+      "scraped_at": "2025-09-23T13:59:30.569103"
     },
     {
       "id": "2017-2-divisjon-10-lungegaardens-musikkorps",
@@ -737,7 +737,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946063"
+      "scraped_at": "2025-09-23T13:59:30.569105"
     },
     {
       "id": "2017-2-divisjon-11-lørenskog-musikkorps",
@@ -760,7 +760,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946066"
+      "scraped_at": "2025-09-23T13:59:30.569108"
     },
     {
       "id": "2017-2-divisjon-12-sykkylven-janitsjarorkester",
@@ -781,7 +781,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946068"
+      "scraped_at": "2025-09-23T13:59:30.569110"
     },
     {
       "id": "2017-2-divisjon-13-hov-musikkorps",
@@ -803,7 +803,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946070"
+      "scraped_at": "2025-09-23T13:59:30.569112"
     },
     {
       "id": "2017-2-divisjon-14-os-musikkforening",
@@ -824,7 +824,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946072"
+      "scraped_at": "2025-09-23T13:59:30.569114"
     },
     {
       "id": "2017-2-divisjon-15-tromsø-orkesterforenings-janitsjarkorps",
@@ -845,7 +845,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946075"
+      "scraped_at": "2025-09-23T13:59:30.569117"
     },
     {
       "id": "2017-2-divisjon-16-lisleby-musikkorps",
@@ -867,7 +867,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946077"
+      "scraped_at": "2025-09-23T13:59:30.569119"
     },
     {
       "id": "2017-3-divisjon-01-asker-musikkorps",
@@ -888,7 +888,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946079"
+      "scraped_at": "2025-09-23T13:59:30.569121"
     },
     {
       "id": "2017-3-divisjon-02-prosjekt-mmxix",
@@ -910,7 +910,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946081"
+      "scraped_at": "2025-09-23T13:59:30.569124"
     },
     {
       "id": "2017-3-divisjon-03-sofienberg-musikkorps",
@@ -931,7 +931,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946084"
+      "scraped_at": "2025-09-23T13:59:30.569126"
     },
     {
       "id": "2017-3-divisjon-04-sagene-janitsjarkorps",
@@ -952,7 +952,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946086"
+      "scraped_at": "2025-09-23T13:59:30.569128"
     },
     {
       "id": "2017-3-divisjon-05-asker-og-bærum-ungdomskorps",
@@ -973,7 +973,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946088"
+      "scraped_at": "2025-09-23T13:59:30.569130"
     },
     {
       "id": "2017-3-divisjon-06-strindheim-janitsjar",
@@ -994,7 +994,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946091"
+      "scraped_at": "2025-09-23T13:59:30.569132"
     },
     {
       "id": "2017-3-divisjon-07-ranheim-musikkforening",
@@ -1015,7 +1015,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946093"
+      "scraped_at": "2025-09-23T13:59:30.569134"
     },
     {
       "id": "2017-3-divisjon-08-åsane-musikklag",
@@ -1037,7 +1037,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946095"
+      "scraped_at": "2025-09-23T13:59:30.569137"
     },
     {
       "id": "2017-3-divisjon-09-hovin-musikkorps",
@@ -1058,7 +1058,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946097"
+      "scraped_at": "2025-09-23T13:59:30.569139"
     },
     {
       "id": "2017-3-divisjon-10-fåberg-musikkforening",
@@ -1080,7 +1080,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946099"
+      "scraped_at": "2025-09-23T13:59:30.569141"
     },
     {
       "id": "2017-3-divisjon-11-tønsberg-janitsjarkorps",
@@ -1101,7 +1101,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946103"
+      "scraped_at": "2025-09-23T13:59:30.569145"
     },
     {
       "id": "2017-3-divisjon-12-tresfjord-janitsjar",
@@ -1122,7 +1122,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946105"
+      "scraped_at": "2025-09-23T13:59:30.569147"
     },
     {
       "id": "2017-3-divisjon-13-bodø-harmonimusikk",
@@ -1144,7 +1144,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946108"
+      "scraped_at": "2025-09-23T13:59:30.569150"
     },
     {
       "id": "2017-3-divisjon-14-oslo-postorkester",
@@ -1165,7 +1165,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946110"
+      "scraped_at": "2025-09-23T13:59:30.569152"
     },
     {
       "id": "2017-3-divisjon-15-skedsmo-janitsjarorkester",
@@ -1187,7 +1187,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946112"
+      "scraped_at": "2025-09-23T13:59:30.569154"
     },
     {
       "id": "2017-3-divisjon-16-arendal-byorkester",
@@ -1209,7 +1209,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946115"
+      "scraped_at": "2025-09-23T13:59:30.569156"
     },
     {
       "id": "2017-4-divisjon-01-fet-janitsjar",
@@ -1231,7 +1231,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946117"
+      "scraped_at": "2025-09-23T13:59:30.569159"
     },
     {
       "id": "2017-4-divisjon-02-eina-musikkforening",
@@ -1252,7 +1252,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946119"
+      "scraped_at": "2025-09-23T13:59:30.569161"
     },
     {
       "id": "2017-4-divisjon-03-bøler-janitsjar-og-ila-ungdomskorps",
@@ -1273,7 +1273,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946121"
+      "scraped_at": "2025-09-23T13:59:30.569163"
     },
     {
       "id": "2017-4-divisjon-04-nes-janitsjarkorps",
@@ -1294,7 +1294,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946124"
+      "scraped_at": "2025-09-23T13:59:30.569165"
     },
     {
       "id": "2017-4-divisjon-05-musikklaget-ulf",
@@ -1315,7 +1315,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946126"
+      "scraped_at": "2025-09-23T13:59:30.569167"
     },
     {
       "id": "2017-4-divisjon-06-østre-gausdal-musikkforening",
@@ -1336,7 +1336,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946128"
+      "scraped_at": "2025-09-23T13:59:30.569170"
     },
     {
       "id": "2017-4-divisjon-07-musikkforeningen-viken",
@@ -1358,7 +1358,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946130"
+      "scraped_at": "2025-09-23T13:59:30.569172"
     },
     {
       "id": "2017-4-divisjon-08-arne-musikforening",
@@ -1379,7 +1379,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946132"
+      "scraped_at": "2025-09-23T13:59:30.569174"
     },
     {
       "id": "2017-4-divisjon-08-svolvær-musikkforening",
@@ -1401,7 +1401,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946135"
+      "scraped_at": "2025-09-23T13:59:30.569176"
     },
     {
       "id": "2017-4-divisjon-10-ringsaker-janitjsar",
@@ -1424,7 +1424,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946137"
+      "scraped_at": "2025-09-23T13:59:30.569179"
     },
     {
       "id": "2017-4-divisjon-11-oppegård-janitsjar",
@@ -1446,7 +1446,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946140"
+      "scraped_at": "2025-09-23T13:59:30.569182"
     },
     {
       "id": "2017-4-divisjon-12-østensjø-janitsjar",
@@ -1470,7 +1470,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946142"
+      "scraped_at": "2025-09-23T13:59:30.569184"
     },
     {
       "id": "2017-4-divisjon-13-heimdal-musikkorps",
@@ -1491,7 +1491,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946144"
+      "scraped_at": "2025-09-23T13:59:30.569186"
     },
     {
       "id": "2017-4-divisjon-14-melhus-janitsjarkorps",
@@ -1513,7 +1513,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946147"
+      "scraped_at": "2025-09-23T13:59:30.569189"
     },
     {
       "id": "2017-4-divisjon-15-eidsvoll-janitsjarkorps",
@@ -1536,7 +1536,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946149"
+      "scraped_at": "2025-09-23T13:59:30.569191"
     },
     {
       "id": "2017-4-divisjon-16-musikklaget-kornetten",
@@ -1558,7 +1558,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946151"
+      "scraped_at": "2025-09-23T13:59:30.569193"
     },
     {
       "id": "2017-5-divisjon-01-kongsberg-byorkester",
@@ -1579,7 +1579,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946153"
+      "scraped_at": "2025-09-23T13:59:30.569196"
     },
     {
       "id": "2017-5-divisjon-02-musikklaget-brage",
@@ -1600,7 +1600,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946155"
+      "scraped_at": "2025-09-23T13:59:30.569198"
     },
     {
       "id": "2017-5-divisjon-03-tolga-os-janitsjar",
@@ -1621,7 +1621,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946158"
+      "scraped_at": "2025-09-23T13:59:30.569200"
     },
     {
       "id": "2017-5-divisjon-04-åsnes-hornmusikk",
@@ -1642,7 +1642,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946160"
+      "scraped_at": "2025-09-23T13:59:30.569202"
     },
     {
       "id": "2017-5-divisjon-05-nannestad-janitsjarkorps",
@@ -1663,7 +1663,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946162"
+      "scraped_at": "2025-09-23T13:59:30.569205"
     },
     {
       "id": "2017-5-divisjon-06-drøbak-musikkorps",
@@ -1686,7 +1686,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946165"
+      "scraped_at": "2025-09-23T13:59:30.569207"
     },
     {
       "id": "2017-5-divisjon-07-strinda-ungdomskorps",
@@ -1708,7 +1708,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946168"
+      "scraped_at": "2025-09-23T13:59:30.569210"
     },
     {
       "id": "2017-5-divisjon-08-byåsen-musikkorps",
@@ -1730,7 +1730,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946170"
+      "scraped_at": "2025-09-23T13:59:30.569212"
     },
     {
       "id": "2017-5-divisjon-09-jernbanens-musikkorps-oslo",
@@ -1753,7 +1753,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946172"
+      "scraped_at": "2025-09-23T13:59:30.569215"
     },
     {
       "id": "2017-5-divisjon-10-brevik-musikkorps",
@@ -1775,7 +1775,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946175"
+      "scraped_at": "2025-09-23T13:59:30.569217"
     },
     {
       "id": "2017-5-divisjon-11-rælingen-musikklag",
@@ -1797,7 +1797,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946177"
+      "scraped_at": "2025-09-23T13:59:30.569220"
     },
     {
       "id": "2017-5-divisjon-12-tvedestrand-musikkorps",
@@ -1819,7 +1819,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946179"
+      "scraped_at": "2025-09-23T13:59:30.569222"
     },
     {
       "id": "2017-5-divisjon-13-torshov-janitsjarorkester",
@@ -1840,7 +1840,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946181"
+      "scraped_at": "2025-09-23T13:59:30.569224"
     },
     {
       "id": "2017-5-divisjon-14-moss-og-omegn-janitsjar",
@@ -1862,7 +1862,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946183"
+      "scraped_at": "2025-09-23T13:59:30.569226"
     },
     {
       "id": "2017-5-divisjon-15-gloppen-janitsjar",
@@ -1884,7 +1884,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946186"
+      "scraped_at": "2025-09-23T13:59:30.569228"
     },
     {
       "id": "2017-5-divisjon-16-odda-musikklag",
@@ -1905,7 +1905,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946188"
+      "scraped_at": "2025-09-23T13:59:30.569230"
     },
     {
       "id": "2017-6-divisjon-01-vålerenga-janitsjarkorps",
@@ -1926,7 +1926,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946190"
+      "scraped_at": "2025-09-23T13:59:30.569233"
     },
     {
       "id": "2017-6-divisjon-02-haugesund-janitsjarorkester",
@@ -1949,7 +1949,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946193"
+      "scraped_at": "2025-09-23T13:59:30.569235"
     },
     {
       "id": "2017-6-divisjon-03-malvik-musikkorps",
@@ -1971,7 +1971,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946196"
+      "scraped_at": "2025-09-23T13:59:30.569239"
     },
     {
       "id": "2017-6-divisjon-04-musikklaget-ustemt",
@@ -1993,7 +1993,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946199"
+      "scraped_at": "2025-09-23T13:59:30.569241"
     },
     {
       "id": "2017-6-divisjon-05-hommelvik-musikkorps",
@@ -2015,7 +2015,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946201"
+      "scraped_at": "2025-09-23T13:59:30.569243"
     },
     {
       "id": "2017-6-divisjon-06-bømlo-janitsjar",
@@ -2036,7 +2036,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946203"
+      "scraped_at": "2025-09-23T13:59:30.569246"
     },
     {
       "id": "2017-6-divisjon-07-hamar-musikkorps",
@@ -2057,7 +2057,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946206"
+      "scraped_at": "2025-09-23T13:59:30.569248"
     },
     {
       "id": "2017-6-divisjon-08-namsos-musikkorps",
@@ -2078,7 +2078,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946208"
+      "scraped_at": "2025-09-23T13:59:30.569250"
     },
     {
       "id": "2017-6-divisjon-09-ås-og-vestby-musikkorps",
@@ -2100,7 +2100,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946210"
+      "scraped_at": "2025-09-23T13:59:30.569253"
     },
     {
       "id": "2017-6-divisjon-10-dokka-musikkorps",
@@ -2121,7 +2121,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946212"
+      "scraped_at": "2025-09-23T13:59:30.569255"
     },
     {
       "id": "2017-6-divisjon-11-hegra-hornmusikklag",
@@ -2144,7 +2144,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946214"
+      "scraped_at": "2025-09-23T13:59:30.569257"
     },
     {
       "id": "2017-6-divisjon-12-hadeland-janitsjar",
@@ -2165,7 +2165,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946217"
+      "scraped_at": "2025-09-23T13:59:30.569259"
     },
     {
       "id": "2017-6-divisjon-13-skatval-hornmusikklag",
@@ -2187,7 +2187,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946219"
+      "scraped_at": "2025-09-23T13:59:30.569261"
     },
     {
       "id": "2017-6-divisjon-14-klæbu-musikkorps",
@@ -2210,7 +2210,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946221"
+      "scraped_at": "2025-09-23T13:59:30.569264"
     },
     {
       "id": "2017-6-divisjon-15-musikkorpset-tempo",
@@ -2231,7 +2231,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946223"
+      "scraped_at": "2025-09-23T13:59:30.569266"
     },
     {
       "id": "2017-7-divisjon-01-hønefoss-ungdomskorps",
@@ -2252,7 +2252,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946226"
+      "scraped_at": "2025-09-23T13:59:30.569268"
     },
     {
       "id": "2017-7-divisjon-02-follebu-og-vestre-gausdal-musikkforening",
@@ -2274,7 +2274,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946228"
+      "scraped_at": "2025-09-23T13:59:30.569271"
     },
     {
       "id": "2017-7-divisjon-03-åndalsnes-musikkforening",
@@ -2297,7 +2297,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946231"
+      "scraped_at": "2025-09-23T13:59:30.569273"
     },
     {
       "id": "2017-7-divisjon-04-østerdølenes-musikkorps-oslo",
@@ -2318,7 +2318,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946233"
+      "scraped_at": "2025-09-23T13:59:30.569275"
     },
     {
       "id": "2017-7-divisjon-05-søndre-nittedal-veterankorps",
@@ -2340,7 +2340,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946235"
+      "scraped_at": "2025-09-23T13:59:30.569278"
     },
     {
       "id": "2017-7-divisjon-06-tillerblæsen",
@@ -2363,7 +2363,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946237"
+      "scraped_at": "2025-09-23T13:59:30.569280"
     },
     {
       "id": "2017-7-divisjon-07-østerdal-prosjektkorps",
@@ -2385,7 +2385,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946240"
+      "scraped_at": "2025-09-23T13:59:30.569283"
     },
     {
       "id": "2017-7-divisjon-08-oslo-janitsjarkorps",
@@ -2406,7 +2406,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946242"
+      "scraped_at": "2025-09-23T13:59:30.569285"
     },
     {
       "id": "2017-7-divisjon-09-raufoss-musikkorps",
@@ -2428,7 +2428,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946244"
+      "scraped_at": "2025-09-23T13:59:30.569287"
     },
     {
       "id": "2017-7-divisjon-10-løkken-musikkorps",
@@ -2449,7 +2449,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946246"
+      "scraped_at": "2025-09-23T13:59:30.569289"
     },
     {
       "id": "2017-7-divisjon-11-vinne-musikkorps",
@@ -2471,7 +2471,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946249"
+      "scraped_at": "2025-09-23T13:59:30.569292"
     },
     {
       "id": "2017-7-divisjon-12-eid-musikklag",
@@ -2494,7 +2494,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946251"
+      "scraped_at": "2025-09-23T13:59:30.569294"
     },
     {
       "id": "2017-7-divisjon-13-alversund-musikklag",
@@ -2516,7 +2516,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946253"
+      "scraped_at": "2025-09-23T13:59:30.569296"
     },
     {
       "id": "2017-7-divisjon-14-musikklaget-laat",
@@ -2538,7 +2538,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946255"
+      "scraped_at": "2025-09-23T13:59:30.569298"
     },
     {
       "id": "2017-7-divisjon-15-nordre-aker-janitsjar/grefsen-ungdomskorps",
@@ -2560,7 +2560,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946258"
+      "scraped_at": "2025-09-23T13:59:30.569301"
     },
     {
       "id": "2017-7-divisjon-16-åfjord-janitsjar",
@@ -2582,7 +2582,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946260"
+      "scraped_at": "2025-09-23T13:59:30.569303"
     },
     {
       "id": "2017-7-divisjon-17-flatåsen-musikkorps",
@@ -2604,7 +2604,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946263"
+      "scraped_at": "2025-09-23T13:59:30.569305"
     },
     {
       "id": "2017-7-divisjon-17-lillehammer-janitsjar",
@@ -2625,9 +2625,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T13:20:59.946265"
+      "scraped_at": "2025-09-23T13:59:30.569308"
     }
   ],
   "awards": [],
-  "exported_at": "2025-09-23T13:20:59.948391"
+  "exported_at": "2025-09-23T13:59:30.574714"
 }
