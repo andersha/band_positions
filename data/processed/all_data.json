@@ -1,7 +1,7 @@
 {
   "total_years": 41,
   "year_range": "1981-2025",
-  "total_placements": 2697,
+  "total_placements": 2777,
   "total_awards": 0,
   "years_summary": {
     "1981": {
@@ -221,7 +221,13 @@
       }
     },
     "2007": {
-      "error": "'<' not supported between instances of 'str' and 'int'"
+      "total_orchestras": 80,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/processed/2007_placements.csv",
+        "awards_csv": "data/processed/2007_awards.csv",
+        "complete_json": "data/processed/2007_complete.json"
+      }
     },
     "2008": {
       "total_orchestras": 80,
@@ -368,5 +374,5 @@
       }
     }
   },
-  "exported_at": "2025-09-23T12:51:04.620294"
+  "exported_at": "2025-09-23T13:21:00.010527"
 }

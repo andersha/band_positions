@@ -322,8 +322,12 @@ class JSONParser:
         # Parse each division
         divisions = []
         for divisjon_name, comps in divisions_data.items():
-            # Sort by placement
-            comps.sort(key=lambda x: x.get("plassering", 999))
+            # Sort by placement, allowing unknown ranks to fall to the end
+            def placement_key(comp: Dict[str, Any]) -> int:
+                normalized = self._normalize_rank(comp.get("plassering"))
+                return normalized if normalized is not None else 999
+
+            comps.sort(key=placement_key)
             
             placements = []
             for comp in comps:

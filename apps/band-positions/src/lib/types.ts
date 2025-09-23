@@ -1,0 +1,32 @@
+export interface BandEntry {
+  year: number;
+  division: string;
+  rank: number | null;
+  division_size: number | null;
+  absolute_position: number | null;
+  field_size: number | null;
+  points: number | null;
+  max_points: number | null;
+  conductor: string | null;
+  pieces: string[];
+}
+
+export interface BandRecord {
+  name: string;
+  slug: string;
+  entries: BandEntry[];
+}
+
+export interface DatasetMetadata {
+  years: number[];
+  divisions: string[];
+  max_field_size: number;
+  min_year: number;
+  max_year: number;
+  generated_at: string;
+}
+
+export interface BandDataset {
+  bands: BandRecord[];
+  metadata: DatasetMetadata;
+}

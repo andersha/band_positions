@@ -17,3 +17,6 @@ Pytest drives validation; place files as `tests/<module>/test_<feature>.py`. Moc
 
 ## Commit & Pull Request Guidelines
 History mixes narrative subjects with Conventional prefixes (`fix: more analysis`), so prefer concise imperative messages and add `feat:`/`fix:` when scope is clear. Isolate scraper logic, analytics, and notebook updates into separate commits. Pull requests should include a summary, test evidence (`poetry run pytest` output or equivalent), related issue links, and screenshots or sample CLI output whenever analytics formatting changes. Request review and wait for CI or local checks to finish before merging.
+
+## Data Coverage Notes
+- NM Janitsjar was cancelled in 2020 and 2021 because of the COVID-19 pandemic. The source site (nmjanitsjar.no) does not publish placements for those seasons, so our processed dataset has deliberate gaps for those years.

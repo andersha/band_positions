@@ -1,9 +1,10 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import BandTrajectoryChart from './lib/BandTrajectoryChart.svelte';
+  import DataExplorer from './lib/DataExplorer.svelte';
   import type { BandDataset, BandRecord, BandEntry } from './lib/types';
 
-  type ViewType = 'bands' | 'conductors';
+  type ViewType = 'bands' | 'conductors' | 'data';
   type Theme = 'light' | 'dark';
 
   const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor' } as const;
@@ -16,9 +17,10 @@
 
   const viewLabels: Record<ViewType, string> = {
     bands: 'Korps',
-    conductors: 'Dirigent'
+    conductors: 'Dirigent',
+    data: 'Data'
   };
-  const viewOrder: ViewType[] = ['bands', 'conductors'];
+  const viewOrder: ViewType[] = ['bands', 'conductors', 'data'];
 
   let dataset: BandDataset | null = null;
   let conductorRecords: BandRecord[] = [];
@@ -185,6 +187,9 @@
     if (raw === 'conductors' || raw === 'dirigent' || raw === 'conductor') {
       return 'conductors';
     }
+    if (raw === 'data') {
+      return 'data';
+    }
     return 'bands';
   }
 
@@ -233,7 +238,7 @@
     }
 
     params.set(URL_MODE_KEY, yAxisMode);
-    params.set(URL_VIEW_KEY, activeView === 'conductors' ? 'conductors' : 'bands');
+    params.set(URL_VIEW_KEY, activeView);
 
     const query = params.toString();
     const newUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
@@ -396,10 +401,19 @@
 
   $: trimmed = searchTerm.trim();
   $: lowered = trimmed.toLowerCase();
-  $: activeRecords = activeView === 'bands' ? dataset?.bands ?? [] : conductorRecords;
-  $: activeSelection = activeView === 'bands' ? selectedBands : selectedConductors;
+  $: isEntityView = activeView === 'bands' || activeView === 'conductors';
+  $: activeRecords = isEntityView
+    ? activeView === 'bands'
+      ? dataset?.bands ?? []
+      : conductorRecords
+    : [];
+  $: activeSelection = activeView === 'bands'
+    ? selectedBands
+    : activeView === 'conductors'
+      ? selectedConductors
+      : [];
   $: suggestions =
-    activeRecords && lowered.length >= 2
+    isEntityView && activeRecords && lowered.length >= 2
       ? activeRecords
           .filter(
             (record) =>
@@ -411,29 +425,34 @@
 
   $: years = dataset ? dataset.metadata.years : [];
   $: maxFieldSize = dataset ? dataset.metadata.max_field_size : 0;
-  $: entityCount = activeView === 'bands' ? dataset?.bands.length ?? 0 : conductorRecords.length;
-  $: entityLabel = activeView === 'bands' ? 'korps' : 'dirigenter';
+  $: entityCount = isEntityView
+    ? activeView === 'bands'
+      ? dataset?.bands.length ?? 0
+      : conductorRecords.length
+    : 0;
+  $: entityLabel = activeView === 'bands' ? 'korps' : activeView === 'conductors' ? 'dirigenter' : 'korps';
   let coverageDescription = '';
   $: coverageDescription = dataset
     ? `Dekker ${entityCount} ${entityLabel} · ${years.length} år (${dataset.metadata.min_year}–${dataset.metadata.max_year})`
     : '';
 
-  $: searchPlaceholder =
-    activeView === 'bands'
-      ? 'Begynn å skrive et korpsnavn (minst 2 bokstaver)…'
-      : 'Begynn å skrive et dirigentnavn (minst 2 bokstaver)…';
+  $: searchPlaceholder = activeView === 'bands'
+    ? 'Begynn å skrive et korpsnavn (minst 2 bokstaver)…'
+    : activeView === 'conductors'
+      ? 'Begynn å skrive et dirigentnavn (minst 2 bokstaver)…'
+      : '';
   $: searchLabel = activeView === 'bands' ? 'Søk etter korps' : 'Søk etter dirigent';
   $: suggestionsLabel = activeView === 'bands' ? 'Korpsforslag' : 'Dirigentforslag';
   $: selectionLabel = activeView === 'bands' ? 'Valgte korps' : 'Valgte dirigenter';
   $: emptyStateTitle = activeView === 'bands' ? 'Ingen korps valgt ennå' : 'Ingen dirigenter valgt ennå';
-  $: emptyStateBody =
-    activeView === 'bands'
-      ? 'Finn et navn i søkefeltet for å tegne kurven for samlet plassering.'
-      : 'Finn en dirigent i søkefeltet for å tegne kurven for samlet plassering.';
-  $: leadText =
-    activeView === 'bands'
-      ? 'Søk etter et janitsjarkorps for å se hvordan den samlede plasseringen utvikler seg år for år, på tvers av alle divisjoner.'
-      : 'Søk etter en dirigent for å se hvordan deres beste plassering utvikler seg år for år, basert på korpsene de dirigerte.';
+  $: emptyStateBody = activeView === 'bands'
+    ? 'Finn et navn i søkefeltet for å tegne kurven for samlet plassering.'
+    : 'Finn en dirigent i søkefeltet for å tegne kurven for samlet plassering.';
+  $: leadText = activeView === 'bands'
+    ? 'Søk etter et janitsjarkorps for å se hvordan den samlede plasseringen utvikler seg år for år, på tvers av alle divisjoner.'
+    : activeView === 'conductors'
+      ? 'Søk etter en dirigent for å se hvordan deres beste plassering utvikler seg år for år, basert på korpsene de dirigerte.'
+      : 'Velg et år og en divisjon for å vise resultatlisten i den valgte finalen.';
   $: themeToggleLabel = theme === 'dark' ? 'Bytt til lyst tema' : 'Bytt til mørkt tema';
   $: themeToggleText = theme === 'dark' ? 'Mørk' : 'Lys';
   $: themeToggleIcon = theme === 'dark' ? '🌙' : '☀️';
@@ -478,96 +497,104 @@
   </header>
   <p class="lead">{leadText}</p>
 
-  <form class="search" on:submit|preventDefault={handleSubmit}>
-    <label class="sr-only" for="entity-search">{searchLabel}</label>
-    <input
-      id="entity-search"
-      type="search"
-      placeholder={searchPlaceholder}
-      bind:value={searchTerm}
-      on:input={onInput}
-      on:keydown={handleKeyDown}
-      autocomplete="off"
-    />
-  </form>
+  {#if isEntityView}
+    <form class="search" on:submit|preventDefault={handleSubmit}>
+      <label class="sr-only" for="entity-search">{searchLabel}</label>
+      <input
+        id="entity-search"
+        type="search"
+        placeholder={searchPlaceholder}
+        bind:value={searchTerm}
+        on:input={onInput}
+        on:keydown={handleKeyDown}
+        autocomplete="off"
+      />
+    </form>
 
-  {#if activeSelection.length > 0}
-    <div class="selected-entities" role="list" aria-label={selectionLabel}>
-      {#each activeSelection as record, index}
-        <span class="selected-entity" role="listitem">
-          <span class="selected-entity__index">{index + 1}</span>
-          <span class="selected-entity__name">{record.name}</span>
-          <button type="button" aria-label={`Fjern ${record.name}`} on:click={() => removeRecord(record.slug)}>
-            ×
-          </button>
-        </span>
-      {/each}
-    </div>
-  {/if}
+    {#if activeSelection.length > 0}
+      <div class="selected-entities" role="list" aria-label={selectionLabel}>
+        {#each activeSelection as record, index}
+          <span class="selected-entity" role="listitem">
+            <span class="selected-entity__index">{index + 1}</span>
+            <span class="selected-entity__name">{record.name}</span>
+            <button type="button" aria-label={`Fjern ${record.name}`} on:click={() => removeRecord(record.slug)}>
+              ×
+            </button>
+          </span>
+        {/each}
+      </div>
+    {/if}
 
-  {#if suggestions.length > 0}
-    <div class="suggestions" role="listbox" aria-label={suggestionsLabel}>
-      {#each suggestions as record, index}
-        <div
-          class="suggestion {index === focusedIndex ? 'active' : ''}"
-          role="option"
-          tabindex="-1"
-          aria-selected={index === focusedIndex}
-          on:mousedown|preventDefault={() => chooseRecord(record)}
-        >
-          {record.name}
-        </div>
-      {/each}
-    </div>
+    {#if suggestions.length > 0}
+      <div class="suggestions" role="listbox" aria-label={suggestionsLabel}>
+        {#each suggestions as record, index}
+          <div
+            class="suggestion {index === focusedIndex ? 'active' : ''}"
+            role="option"
+            tabindex="-1"
+            aria-selected={index === focusedIndex}
+            on:mousedown|preventDefault={() => chooseRecord(record)}
+          >
+            {record.name}
+          </div>
+        {/each}
+      </div>
+    {/if}
   {/if}
 
   {#if loading}
     <section class="status">Laster data…</section>
   {:else if error}
     <section class="status error">{error}</section>
-  {:else if activeSelection.length > 0}
-    <section class="chart-card">
-      <div class="mode-toggle">
-        <span class="mode-toggle__label">Plassering:</span>
-        <div class="mode-toggle__buttons" role="group" aria-label="Velg plasseringsvisning">
-          <button
-            type="button"
-            class:selected={yAxisMode === 'absolute'}
-            aria-pressed={yAxisMode === 'absolute'}
-            on:click={() => setYAxisMode('absolute')}
-          >
-            Absolutt
-          </button>
-          <button
-            type="button"
-            class:selected={yAxisMode === 'relative'}
-            aria-pressed={yAxisMode === 'relative'}
-            on:click={() => setYAxisMode('relative')}
-          >
-            Relativ
-          </button>
+  {:else if !dataset}
+    <section class="status">Ingen data tilgjengelig.</section>
+  {:else if isEntityView}
+    {#if activeSelection.length > 0}
+      <section class="chart-card">
+        <div class="mode-toggle">
+          <span class="mode-toggle__label">Plassering:</span>
+          <div class="mode-toggle__buttons" role="group" aria-label="Velg plasseringsvisning">
+            <button
+              type="button"
+              class:selected={yAxisMode === 'absolute'}
+              aria-pressed={yAxisMode === 'absolute'}
+              on:click={() => setYAxisMode('absolute')}
+            >
+              Absolutt
+            </button>
+            <button
+              type="button"
+              class:selected={yAxisMode === 'relative'}
+              aria-pressed={yAxisMode === 'relative'}
+              on:click={() => setYAxisMode('relative')}
+            >
+              Relativ
+            </button>
+          </div>
         </div>
-      </div>
-      <div class="chart-header">
-        <h2>{chartHeading}</h2>
-        <p>{coverageDescription}</p>
-        {#if comparisonSummary}
-          <p class="comparison-summary">{comparisonSummary}</p>
-        {/if}
-      </div>
-      <BandTrajectoryChart
-        {years}
-        {maxFieldSize}
-        bands={activeSelection}
-        yMode={yAxisMode}
-        showConductorMarkers={activeView === 'bands'}
-      />
-    </section>
+        <div class="chart-header">
+          <h2>{chartHeading}</h2>
+          <p>{coverageDescription}</p>
+          {#if comparisonSummary}
+            <p class="comparison-summary">{comparisonSummary}</p>
+          {/if}
+        </div>
+        <BandTrajectoryChart
+          {years}
+          {maxFieldSize}
+          bands={activeSelection}
+          yMode={yAxisMode}
+          showConductorMarkers={activeView === 'bands'}
+        />
+      </section>
+    {:else}
+      <section class="empty-state">
+        <h2>{emptyStateTitle}</h2>
+        <p>{emptyStateBody}</p>
+      </section>
+    {/if}
   {:else}
-    <section class="empty-state">
-      <h2>{emptyStateTitle}</h2>
-      <p>{emptyStateBody}</p>
-    </section>
+    <DataExplorer {dataset} />
   {/if}
 </main>
 

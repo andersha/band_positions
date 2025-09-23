@@ -48,7 +48,10 @@ class DataExporter:
             Normalized placement data as dictionary
         """
         # Generate unique ID
-        placement_id = f"{year}-{division.lower().replace(' ', '-').replace('.', '')}-{placement.rank:02d}-{placement.orchestra.lower().replace(' ', '-')}"
+        division_slug = division.lower().replace(' ', '-').replace('.', '')
+        rank_component = f"{int(placement.rank):02d}" if placement.rank is not None else "xx"
+        orchestra_slug = placement.orchestra.lower().replace(' ', '-').replace('.', '') if placement.orchestra else "ukjent"
+        placement_id = f"{year}-{division_slug}-{rank_component}-{orchestra_slug}"
         
         # Split composer from pieces if present
         pieces_with_composers = []

@@ -174,6 +174,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 1,
+          "division_size": 15,
+          "absolute_position": 22,
+          "field_size": 79,
+          "points": 96.0,
+          "max_points": 100.0,
+          "conductor": "Rune Bergman",
+          "pieces": [
+            "Ride",
+            "Machu Picchu - City in the sky - the mystery of the hidden sun Temple"
+          ]
+        },
+        {
           "year": 2008,
           "division": "1. divisjon",
           "rank": 6,
@@ -964,6 +979,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 11,
+          "division_size": 15,
+          "absolute_position": 32,
+          "field_size": 79,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Bengt Florvåg",
+          "pieces": [
+            "Carmen Suite",
+            "The West Symphoni, 1. sats The Blue Wolf on the Plateau"
+          ]
+        },
+        {
           "year": 2008,
           "division": "2. divisjon",
           "rank": 5,
@@ -1222,6 +1252,21 @@
       "name": "Arendal Byorkester",
       "slug": "arendal-byorkester",
       "entries": [
+        {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 7,
+          "division_size": 15,
+          "absolute_position": 43,
+          "field_size": 79,
+          "points": 86.5,
+          "max_points": 100.0,
+          "conductor": "Britt Hilde Våge",
+          "pieces": [
+            "The Rejoicing",
+            "Mannin Veen"
+          ]
+        },
         {
           "year": 2008,
           "division": "3. divisjon",
@@ -1804,6 +1849,20 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 15,
+          "division_size": 15,
+          "absolute_position": 51,
+          "field_size": 79,
+          "points": 80.0,
+          "max_points": 100.0,
+          "conductor": "Erik Bergene",
+          "pieces": [
+            "Third Suite for Band (Scenes de Ballet)"
+          ]
+        },
+        {
           "year": 2008,
           "division": "4. divisjon",
           "rank": 8,
@@ -2039,6 +2098,21 @@
       "name": "Asker og Bærum Ungdomskorps",
       "slug": "asker-og-brum-ungdomskorps",
       "entries": [
+        {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 13,
+          "division_size": 13,
+          "absolute_position": 79,
+          "field_size": 79,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Maria Nygård Molund",
+          "pieces": [
+            "First Suite in Eb for Military Band, 1. og 3. sats",
+            "Tales of the Unexpected"
+          ]
+        },
         {
           "year": 2008,
           "division": "5. divisjon",
@@ -2718,6 +2792,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "Elite",
+          "rank": 8,
+          "division_size": 9,
+          "absolute_position": 8,
+          "field_size": 79,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Tomas Carstensen",
+          "pieces": [
+            "Sketches of Pain",
+            "Chakra"
+          ]
+        },
+        {
           "year": 2008,
           "division": "Elite",
           "rank": 9,
@@ -3217,6 +3306,20 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 15,
+          "absolute_position": 24,
+          "field_size": 79,
+          "points": 93.0,
+          "max_points": 100.0,
+          "conductor": "Trond Elnes",
+          "pieces": [
+            "Cantus Laetus"
+          ]
+        },
+        {
           "year": 2008,
           "division": "2. divisjon",
           "rank": 11,
@@ -3533,6 +3636,20 @@
           "pieces": [
             "Childrens March",
             "Eg ser deg utfor gluggen"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 4,
+          "division_size": 15,
+          "absolute_position": 55,
+          "field_size": 79,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Knut Thorbjørnsen",
+          "pieces": [
+            "Divertimento for Band"
           ]
         },
         {
@@ -3966,6 +4083,21 @@
           "conductor": "Christer Bergby",
           "pieces": [
             "Symphonic Dances from \"West Side Story\""
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "1. divisjon",
+          "rank": 3,
+          "division_size": 12,
+          "absolute_position": 12,
+          "field_size": 79,
+          "points": 94.0,
+          "max_points": 100.0,
+          "conductor": "Christer Bergby",
+          "pieces": [
+            "Konzertmusik Für Blasorchester",
+            "O Mensch, Bewein' Dein' Sünde Gross"
           ]
         },
         {
@@ -4589,6 +4721,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "1. divisjon",
+          "rank": 4,
+          "division_size": 12,
+          "absolute_position": 13,
+          "field_size": 79,
+          "points": 93.0,
+          "max_points": 100.0,
+          "conductor": "Tomas Carstensen",
+          "pieces": [
+            "Time to Take Back the Knights",
+            "Testament"
+          ]
+        },
+        {
           "year": 2008,
           "division": "1. divisjon",
           "rank": 11,
@@ -4879,6 +5026,20 @@
           "conductor": "Magne Østlie Hjelmervik",
           "pieces": [
             "Second Suite in F for Military Band"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 8,
+          "division_size": 15,
+          "absolute_position": 59,
+          "field_size": 79,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Magne Østlie Hjelmervik",
+          "pieces": [
+            "Puszta (Four Gypsi Dances)"
           ]
         },
         {
@@ -5995,6 +6156,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 13,
+          "division_size": 15,
+          "absolute_position": 64,
+          "field_size": 79,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Ole Kristian Nyhagen",
+          "pieces": [
+            "Concert Prelude",
+            "First Suite for Band, 2. og 3. sats"
+          ]
+        },
+        {
           "year": 2008,
           "division": "4. divisjon",
           "rank": 12,
@@ -6158,6 +6334,21 @@
           "pieces": [
             "Slavonic Dances",
             "Rhapsody from the Low Countries"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 6,
+          "division_size": 15,
+          "absolute_position": 57,
+          "field_size": 79,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Arne Ottar Ødegård",
+          "pieces": [
+            "Suite Provencale",
+            "All Glory Told"
           ]
         }
       ]
@@ -6398,6 +6589,21 @@
           "pieces": [
             "Symphony in B flat for Concert Band",
             "Variasjoner over en folketone fra Valdres"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "Elite",
+          "rank": 1,
+          "division_size": 9,
+          "absolute_position": 1,
+          "field_size": 79,
+          "points": 98.0,
+          "max_points": 100.0,
+          "conductor": "Gary Peterson",
+          "pieces": [
+            "Sinfonietta for Concert Band",
+            "Dionysiaques"
           ]
         },
         {
@@ -6839,6 +7045,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 12,
+          "absolute_position": 14,
+          "field_size": 79,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Ante Skaug",
+          "pieces": [
+            "Symphony no. 2 for Band",
+            "Blue Shades"
+          ]
+        },
+        {
           "year": 2008,
           "division": "1. divisjon",
           "rank": 12,
@@ -7125,6 +7346,21 @@
           "pieces": [
             "Indiana Jones And The Temple Of Doom",
             "Eine Kleine Yiddishe Ragmusik"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 12,
+          "division_size": 13,
+          "absolute_position": 78,
+          "field_size": 79,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Gunnar Røen",
+          "pieces": [
+            "H. C. Andersen-Suite, 1. og 2. sats",
+            "Puszta (Four Gypsi Dances)"
           ]
         },
         {
@@ -7577,6 +7813,21 @@
           "pieces": [
             "Hjalar-Ljod",
             "Fanfare and Choral"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 15,
+          "absolute_position": 28,
+          "field_size": 79,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Erling Johan Myrseth",
+          "pieces": [
+            "Illyrian Dances",
+            "Tam o'Shanter"
           ]
         },
         {
@@ -9100,6 +9351,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 15,
+          "absolute_position": 25,
+          "field_size": 79,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Morten Fagerjord",
+          "pieces": [
+            "Sinfonia Nobilissima",
+            "Cold Shower/Köld sturta"
+          ]
+        },
+        {
           "year": 2008,
           "division": "2. divisjon",
           "rank": 12,
@@ -9522,6 +9788,20 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 14,
+          "division_size": 15,
+          "absolute_position": 50,
+          "field_size": 79,
+          "points": 81.0,
+          "max_points": 100.0,
+          "conductor": "Njål Inge Enger",
+          "pieces": [
+            "Capriccio & Canzone"
+          ]
+        },
+        {
           "year": 2008,
           "division": "2. divisjon",
           "rank": 8,
@@ -9900,6 +10180,20 @@
           "pieces": []
         },
         {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 7,
+          "division_size": 15,
+          "absolute_position": 58,
+          "field_size": 79,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "John Rune Ødven",
+          "pieces": [
+            "First Suite in Eb for Military Band"
+          ]
+        },
+        {
           "year": 2009,
           "division": "4. divisjon",
           "rank": 6,
@@ -10117,6 +10411,21 @@
           "pieces": [
             "Symphony no. 5, Finale",
             "Fanfare and Allegro (plikt)"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 1,
+          "division_size": 13,
+          "absolute_position": 67,
+          "field_size": 79,
+          "points": 97.0,
+          "max_points": 100.0,
+          "conductor": "Christer Bergby",
+          "pieces": [
+            "Concita for Band",
+            "Fantasie on a Danish Theme"
           ]
         },
         {
@@ -10373,6 +10682,28 @@
           "pieces": [
             "Prelude, Siciliano and Rondo",
             "A Symphonic Portrait"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grorud Ungdomskorps",
+      "slug": "grorud-ungdomskorps",
+      "entries": [
+        {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 11,
+          "division_size": 13,
+          "absolute_position": 77,
+          "field_size": 79,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Maria Nygård Molund",
+          "pieces": [
+            "Waltz no. 2",
+            "Norwegian Dance no. 2",
+            "Fallskjärmsjägar-Marsch"
           ]
         }
       ]
@@ -10754,6 +11085,21 @@
           "pieces": [
             "The Haunter Of The Dark",
             "Paganini Variations"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "1. divisjon",
+          "rank": 10,
+          "division_size": 12,
+          "absolute_position": 19,
+          "field_size": 79,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Espen Andersen",
+          "pieces": [
+            "Symphonic Metamorphoses (Rei Mei)",
+            "Sinfonia Festiva"
           ]
         },
         {
@@ -11189,6 +11535,21 @@
       "slug": "hasund-og-dimny-ungdomsmusikkorps",
       "entries": [
         {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 7,
+          "division_size": 13,
+          "absolute_position": 73,
+          "field_size": 79,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Kjellstein Knotten",
+          "pieces": [
+            "Prelude for an Occasion",
+            "Inspiration"
+          ]
+        },
+        {
           "year": 2011,
           "division": "5. divisjon",
           "rank": 8,
@@ -11522,6 +11883,21 @@
           "pieces": [
             "The Iliad",
             "Wedding Dance"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 2,
+          "division_size": 13,
+          "absolute_position": 68,
+          "field_size": 79,
+          "points": 93.0,
+          "max_points": 100.0,
+          "conductor": "Sverre Vågen Jr.",
+          "pieces": [
+            "Rising Dragons",
+            "Fest i Dovregubbens Hall"
           ]
         },
         {
@@ -12016,6 +12392,20 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 10,
+          "division_size": 15,
+          "absolute_position": 46,
+          "field_size": 79,
+          "points": 85.5,
+          "max_points": 100.0,
+          "conductor": "Per Kvistad Uddu",
+          "pieces": [
+            "Jericho"
+          ]
+        },
+        {
           "year": 2008,
           "division": "3. divisjon",
           "rank": 8,
@@ -12276,6 +12666,21 @@
           "pieces": [
             "Marcia Carolus Rex",
             "First Suite in Eb for Military Band"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 1,
+          "division_size": 15,
+          "absolute_position": 37,
+          "field_size": 79,
+          "points": 93.0,
+          "max_points": 100.0,
+          "conductor": "Rune André Halvorsen",
+          "pieces": [
+            "Finska Rytteriets Marsch i Trettioåriga Kriget",
+            "Four Scottisch Dances"
           ]
         }
       ]
@@ -12753,6 +13158,20 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 4,
+          "division_size": 15,
+          "absolute_position": 55,
+          "field_size": 79,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Ola Fredheim Haug",
+          "pieces": [
+            "Voyage"
+          ]
+        },
+        {
           "year": 2008,
           "division": "4. divisjon",
           "rank": 9,
@@ -13111,6 +13530,20 @@
           "conductor": "Martin Torp",
           "pieces": [
             "Gallimaufry"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 5,
+          "division_size": 15,
+          "absolute_position": 41,
+          "field_size": 79,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Martin Torp",
+          "pieces": [
+            "Overture to a new Age"
           ]
         },
         {
@@ -14611,6 +15044,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "1. divisjon",
+          "rank": 12,
+          "division_size": 12,
+          "absolute_position": 21,
+          "field_size": 79,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Rune André Halvorsen",
+          "pieces": [
+            "First Suite in Eb for Military Band",
+            "Sowetan Spring"
+          ]
+        },
+        {
           "year": 2008,
           "division": "1. divisjon",
           "rank": 5,
@@ -14913,6 +15361,20 @@
           "pieces": [
             "Variations on a Theme of Robert Schumann (\"The Happy Farmer\")",
             "Symphony no. 1, The Lord of the Rings, \"Gandalf\""
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 13,
+          "division_size": 15,
+          "absolute_position": 34,
+          "field_size": 79,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Christian Skarbø Tenfjord",
+          "pieces": [
+            "Firestorm"
           ]
         },
         {
@@ -15328,6 +15790,21 @@
       "slug": "kongsberg-byorkester",
       "entries": [
         {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 15,
+          "absolute_position": 26,
+          "field_size": 79,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Gunnar Lintvedt",
+          "pieces": [
+            "Puszta (Four Gypsi Dances)",
+            "Firework"
+          ]
+        },
+        {
           "year": 2008,
           "division": "2. divisjon",
           "rank": 14,
@@ -15573,6 +16050,21 @@
             "Sheperd's Hey, English Morris Dance",
             "Alte Swingkameraden"
           ]
+        },
+        {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 9,
+          "division_size": 13,
+          "absolute_position": 75,
+          "field_size": 79,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Arnfinn Solem",
+          "pieces": [
+            "La Storia",
+            "John Williams Fantasy"
+          ]
         }
       ]
     },
@@ -15671,6 +16163,21 @@
       "name": "Levanger Musikkforening",
       "slug": "levanger-musikkforening",
       "entries": [
+        {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 9,
+          "division_size": 13,
+          "absolute_position": 75,
+          "field_size": 79,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Jan-Erik Hybertsen",
+          "pieces": [
+            "Concita for Band",
+            "Oregon"
+          ]
+        },
         {
           "year": 2009,
           "division": "5. divisjon",
@@ -16350,6 +16857,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "Elite",
+          "rank": 2,
+          "division_size": 9,
+          "absolute_position": 2,
+          "field_size": 79,
+          "points": 96.0,
+          "max_points": 100.0,
+          "conductor": "Trond Sverre Myhre",
+          "pieces": [
+            "Dionysiaques",
+            "Piece of Mind"
+          ]
+        },
+        {
           "year": 2008,
           "division": "Elite",
           "rank": 1,
@@ -16724,6 +17246,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 12,
+          "absolute_position": 14,
+          "field_size": 79,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Hans Andreas Kjølberg",
+          "pieces": [
+            "Sunrise at Angel`s Gate",
+            "Danza de los Duendes"
+          ]
+        },
+        {
           "year": 2008,
           "division": "1. divisjon",
           "rank": 10,
@@ -16950,6 +17487,27 @@
       ]
     },
     {
+      "name": "LKAB Musikkorps",
+      "slug": "lkab-musikkorps",
+      "entries": [
+        {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 4,
+          "division_size": 13,
+          "absolute_position": 70,
+          "field_size": 79,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Runar Sollie",
+          "pieces": [
+            "Nimrod",
+            "Second Suite in F for Military Band"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Lungegaardens Musikkorps",
       "slug": "lungegaardens-musikkorps",
       "entries": [
@@ -17110,6 +17668,20 @@
           "conductor": "Stian E. Svendsen",
           "pieces": [
             "Symphony no. 2 for Band"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 10,
+          "division_size": 15,
+          "absolute_position": 31,
+          "field_size": 79,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Stian E. Svendsen",
+          "pieces": [
+            "Armageddon"
           ]
         },
         {
@@ -17840,6 +18412,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 2,
+          "division_size": 15,
+          "absolute_position": 23,
+          "field_size": 79,
+          "points": 94.0,
+          "max_points": 100.0,
+          "conductor": "Tarjei W. Grimsby",
+          "pieces": [
+            "Variations on a Hymn by Louis Bourgeois",
+            "Incantation and Dance"
+          ]
+        },
+        {
           "year": 2008,
           "division": "1. divisjon",
           "rank": 9,
@@ -18331,6 +18918,21 @@
           "pieces": [
             "Jupiter",
             "Latin Games"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 11,
+          "division_size": 15,
+          "absolute_position": 47,
+          "field_size": 79,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Knut Lauritzen",
+          "pieces": [
+            "El Camino Real",
+            "The Big Bang"
           ]
         },
         {
@@ -19025,6 +19627,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "1. divisjon",
+          "rank": 9,
+          "division_size": 12,
+          "absolute_position": 18,
+          "field_size": 79,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Tor Halvard Nilsen",
+          "pieces": [
+            "Lincolnshire Posy",
+            "Tam o'Shanter"
+          ]
+        },
+        {
           "year": 2008,
           "division": "1. divisjon",
           "rank": 7,
@@ -19342,6 +19959,20 @@
           "conductor": "Øystein Olsen Vadsten",
           "pieces": [
             "Four Norfolk Dances"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 5,
+          "division_size": 15,
+          "absolute_position": 41,
+          "field_size": 79,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Øystein Olsen Vadsten",
+          "pieces": [
+            "Theatre Music"
           ]
         },
         {
@@ -19847,6 +20478,20 @@
           "pieces": [
             "Symphony no. 1 for Band, sats 2 (March) og sats 3 (Lyric song)",
             "Militæroverture, op. 67"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 2,
+          "division_size": 15,
+          "absolute_position": 53,
+          "field_size": 79,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Halvor Holm",
+          "pieces": [
+            "For All The Saints"
           ]
         },
         {
@@ -20389,6 +21034,21 @@
           "pieces": [
             "Sketches of Pain",
             "Feste Romane, 1."
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "Elite",
+          "rank": 4,
+          "division_size": 9,
+          "absolute_position": 4,
+          "field_size": 79,
+          "points": 94.0,
+          "max_points": 100.0,
+          "conductor": "Thomas Rimul",
+          "pieces": [
+            "Antiphonale",
+            "Scythian Suite, Op. 20"
           ]
         },
         {
@@ -22395,6 +23055,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 15,
+          "division_size": 15,
+          "absolute_position": 66,
+          "field_size": 79,
+          "points": 80.0,
+          "max_points": 100.0,
+          "conductor": "Rene Kuitert",
+          "pieces": [
+            "Oregon",
+            "The Greater Glory"
+          ]
+        },
+        {
           "year": 2013,
           "division": "6. divisjon",
           "rank": 11,
@@ -23132,6 +23807,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 8,
+          "division_size": 15,
+          "absolute_position": 44,
+          "field_size": 79,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Arne Johansen",
+          "pieces": [
+            "New Waves",
+            "Eg ser deg utfor gluggen"
+          ]
+        },
+        {
           "year": 2008,
           "division": "3. divisjon",
           "rank": 12,
@@ -23567,6 +24257,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "Elite",
+          "rank": 9,
+          "division_size": 9,
+          "absolute_position": 9,
+          "field_size": 79,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Christian Skarbø Tenfjord",
+          "pieces": [
+            "In Memoriam",
+            "Passacaglia"
+          ]
+        },
+        {
           "year": 2008,
           "division": "Elite",
           "rank": 5,
@@ -23942,6 +24647,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 10,
+          "division_size": 15,
+          "absolute_position": 61,
+          "field_size": 79,
+          "points": 84.5,
+          "max_points": 100.0,
+          "conductor": "Lars Martin Hurrød",
+          "pieces": [
+            "Prelude and Celebration",
+            "Prelude, Siciliano and Rondo"
+          ]
+        },
+        {
           "year": 2009,
           "division": "5. divisjon",
           "rank": 2,
@@ -24203,6 +24923,22 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 14,
+          "division_size": 15,
+          "absolute_position": 65,
+          "field_size": 79,
+          "points": 81.0,
+          "max_points": 100.0,
+          "conductor": "Andreas Olsson",
+          "pieces": [
+            "Drottningholmsmusiken",
+            "Norwegian Dance",
+            "Windows of the World, 1. sats"
+          ]
+        },
+        {
           "year": 2016,
           "division": "7. divisjon",
           "rank": 13,
@@ -24402,6 +25138,22 @@
           "pieces": [
             "First Suite for Band, 1. og 2. sats",
             "Life Dances"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 8,
+          "division_size": 15,
+          "absolute_position": 29,
+          "field_size": 79,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Benny Solli",
+          "pieces": [
+            "Shortcut Home",
+            "Waltz no. 2",
+            "The Hounds of Spring"
           ]
         },
         {
@@ -25653,6 +26405,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 4,
+          "division_size": 15,
+          "absolute_position": 40,
+          "field_size": 79,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Anne Løkkerbekken",
+          "pieces": [
+            "Hans Christian Andersen Suite, 1., 5. og 6. sats",
+            "The Playground Project"
+          ]
+        },
+        {
           "year": 2008,
           "division": "3. divisjon",
           "rank": 15,
@@ -26203,6 +26970,20 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 9,
+          "division_size": 15,
+          "absolute_position": 60,
+          "field_size": 79,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Martin Torp",
+          "pieces": [
+            "First Suite for Band"
+          ]
+        },
+        {
           "year": 2008,
           "division": "4. divisjon",
           "rank": 10,
@@ -26393,6 +27174,22 @@
           "pieces": [
             "Appalachian Overture",
             "Armenian Dances, Part 1"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 12,
+          "division_size": 15,
+          "absolute_position": 33,
+          "field_size": 79,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Erlend Eide",
+          "pieces": [
+            "Candide Overture",
+            "Daydream",
+            "Incantation and Dance"
           ]
         },
         {
@@ -26634,6 +27431,20 @@
       "name": "Raufoss Musikkorps",
       "slug": "raufoss-musikkorps",
       "entries": [
+        {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 6,
+          "division_size": 13,
+          "absolute_position": 72,
+          "field_size": 79,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Ingunn Martinsen",
+          "pieces": [
+            "Theatre Music"
+          ]
+        },
         {
           "year": 2008,
           "division": "4. divisjon",
@@ -27419,6 +28230,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "Elite",
+          "rank": 3,
+          "division_size": 9,
+          "absolute_position": 3,
+          "field_size": 79,
+          "points": 95.0,
+          "max_points": 100.0,
+          "conductor": "Tom Skjellum",
+          "pieces": [
+            "Traveler",
+            "Harrison’s Dream"
+          ]
+        },
+        {
           "year": 2008,
           "division": "Elite",
           "rank": 6,
@@ -27900,6 +28726,20 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "1. divisjon",
+          "rank": 1,
+          "division_size": 12,
+          "absolute_position": 10,
+          "field_size": 79,
+          "points": 97.0,
+          "max_points": 100.0,
+          "conductor": "Helge Haukås",
+          "pieces": [
+            "Symphony no. 1, ‘Gilgamesh’"
+          ]
+        },
+        {
           "year": 2008,
           "division": "Elite",
           "rank": 10,
@@ -28341,6 +29181,20 @@
           "conductor": "Odd Terje Lysebo",
           "pieces": [
             "Symphony II"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "1. divisjon",
+          "rank": 2,
+          "division_size": 12,
+          "absolute_position": 11,
+          "field_size": 79,
+          "points": 96.0,
+          "max_points": 100.0,
+          "conductor": "Odd Terje Lysebo",
+          "pieces": [
+            "A Child’s Garden of Dreams, 1., 2., 3. og 5. sats"
           ]
         },
         {
@@ -28893,6 +29747,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "Elite",
+          "rank": 5,
+          "division_size": 9,
+          "absolute_position": 5,
+          "field_size": 79,
+          "points": 93.0,
+          "max_points": 100.0,
+          "conductor": "Tormod Flaten",
+          "pieces": [
+            "Symphonic Variations",
+            "Purcell Variants"
+          ]
+        },
+        {
           "year": 2008,
           "division": "Elite",
           "rank": 7,
@@ -29327,6 +30196,21 @@
           "conductor": "Geir Holm",
           "pieces": [
             "Symphony no. 1, \"La Vall de la Murta\""
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "Elite",
+          "rank": 6,
+          "division_size": 9,
+          "absolute_position": 6,
+          "field_size": 79,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Geir Holm",
+          "pieces": [
+            "Gloses II",
+            "Stabsarabesk"
           ]
         },
         {
@@ -30203,6 +31087,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 12,
+          "division_size": 15,
+          "absolute_position": 63,
+          "field_size": 79,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Geir Ulseth",
+          "pieces": [
+            "Majestetic Prelude",
+            "Inspiration"
+          ]
+        },
+        {
           "year": 2008,
           "division": "4. divisjon",
           "rank": 11,
@@ -30470,6 +31369,21 @@
           "pieces": [
             "Jubilee Overture",
             "Be Thou my Vision"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 1,
+          "division_size": 15,
+          "absolute_position": 52,
+          "field_size": 79,
+          "points": 93.0,
+          "max_points": 100.0,
+          "conductor": "Hans Petter Karlsson",
+          "pieces": [
+            "Goddess of Fire",
+            "Folk Song Suite for Military Band"
           ]
         },
         {
@@ -30807,6 +31721,21 @@
           "conductor": "Erik Bergene",
           "pieces": [
             "Symphonic Songs for Band"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 12,
+          "division_size": 15,
+          "absolute_position": 48,
+          "field_size": 79,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Erik Bergene",
+          "pieces": [
+            "Variations on a Theme of Robert Schumann (\"The Happy Farmer\")",
+            "Puszta, 4. sats"
           ]
         },
         {
@@ -31287,6 +32216,22 @@
             "Fanfare and Choral",
             "The Alcotts",
             "Tam o'Shanter"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "1. divisjon",
+          "rank": 7,
+          "division_size": 12,
+          "absolute_position": 16,
+          "field_size": 79,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Bengt Florvåg",
+          "pieces": [
+            "Godspeed",
+            "Symphonic Movement",
+            "Fiesta Del Pacifico"
           ]
         },
         {
@@ -32441,6 +33386,20 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 13,
+          "division_size": 15,
+          "absolute_position": 49,
+          "field_size": 79,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Jan Magnus Dahle",
+          "pieces": [
+            "Lincolnshire Posy"
+          ]
+        },
+        {
           "year": 2008,
           "division": "3. divisjon",
           "rank": 9,
@@ -33020,6 +33979,20 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 14,
+          "division_size": 15,
+          "absolute_position": 35,
+          "field_size": 79,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Espen Andersen",
+          "pieces": [
+            "Third Suite for Band (Scenes de Ballet)"
+          ]
+        },
+        {
           "year": 2008,
           "division": "3. divisjon",
           "rank": 11,
@@ -33453,6 +34426,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 11,
+          "division_size": 15,
+          "absolute_position": 62,
+          "field_size": 79,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Erlend Eide",
+          "pieces": [
+            "Fantasy on British Sea Songs",
+            "Hanover Festival"
+          ]
+        },
+        {
           "year": 2008,
           "division": "4. divisjon",
           "rank": 3,
@@ -33768,6 +34756,21 @@
           "conductor": "Reid Gilje",
           "pieces": [
             "Between the Two Rivers"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 15,
+          "absolute_position": 26,
+          "field_size": 79,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Reid Gilje",
+          "pieces": [
+            "Symfonisk Dans no. 2",
+            "The Land of the Long White Cloud"
           ]
         },
         {
@@ -34096,6 +35099,21 @@
       "name": "Sykkylven Janitsjarorkester",
       "slug": "sykkylven-janitsjarorkester",
       "entries": [
+        {
+          "year": 2007,
+          "division": "1. divisjon",
+          "rank": 11,
+          "division_size": 12,
+          "absolute_position": 20,
+          "field_size": 79,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Rune Bergman",
+          "pieces": [
+            "Stabsarabesk",
+            "Divertimento"
+          ]
+        },
         {
           "year": 2008,
           "division": "2. divisjon",
@@ -34695,6 +35713,22 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 3,
+          "division_size": 13,
+          "absolute_position": 69,
+          "field_size": 79,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Roger Fjeldet",
+          "pieces": [
+            "Blowing",
+            "Irish Tune from County Derry",
+            "Sheperd's Hey, English Morris Dance"
+          ]
+        },
+        {
           "year": 2008,
           "division": "4. divisjon",
           "rank": 5,
@@ -34788,6 +35822,20 @@
             "Firework",
             "In Thou Be Near",
             "A Jubilant Overture"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 8,
+          "division_size": 15,
+          "absolute_position": 44,
+          "field_size": 79,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Nils Graftås",
+          "pieces": [
+            "Armenian Dances, Part 1"
           ]
         },
         {
@@ -35561,6 +36609,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 8,
+          "division_size": 15,
+          "absolute_position": 29,
+          "field_size": 79,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Maria Medby Tollefsen",
+          "pieces": [
+            "Waltz no. 2",
+            "Festival Overture, Op. 39"
+          ]
+        },
+        {
           "year": 2008,
           "division": "2. divisjon",
           "rank": 15,
@@ -35905,6 +36968,20 @@
       "name": "Tvedestrand Musikkorps",
       "slug": "tvedestrand-musikkorps",
       "entries": [
+        {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 8,
+          "division_size": 13,
+          "absolute_position": 74,
+          "field_size": 79,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Rune Hansen",
+          "pieces": [
+            "The Power of the Megatsunami"
+          ]
+        },
         {
           "year": 2008,
           "division": "4. divisjon",
@@ -36302,6 +37379,20 @@
           "conductor": "Egil Johannes Lysebo",
           "pieces": [
             "Lochinvar"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "2. divisjon",
+          "rank": 15,
+          "division_size": 15,
+          "absolute_position": 36,
+          "field_size": 79,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Egil Johannes Lysebo",
+          "pieces": [
+            "Symphony no. 2"
           ]
         },
         {
@@ -37028,6 +38119,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "Elite",
+          "rank": 7,
+          "division_size": 9,
+          "absolute_position": 7,
+          "field_size": 79,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Thomas Rimul",
+          "pieces": [
+            "Introduzione al S",
+            "Concerto for Orchestra"
+          ]
+        },
+        {
           "year": 2008,
           "division": "Elite",
           "rank": 4,
@@ -37530,6 +38636,20 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "1. divisjon",
+          "rank": 8,
+          "division_size": 12,
+          "absolute_position": 17,
+          "field_size": 79,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Arild Andersen",
+          "pieces": [
+            "Second Symphony"
+          ]
+        },
+        {
           "year": 2008,
           "division": "1. divisjon",
           "rank": 8,
@@ -37893,6 +39013,21 @@
           "pieces": [
             "Prelude, Siciliano and Rondo",
             "Concita for Band"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "4. divisjon",
+          "rank": 3,
+          "division_size": 15,
+          "absolute_position": 54,
+          "field_size": 79,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Johnny Olsen",
+          "pieces": [
+            "Dominion of the Sky",
+            "Declaration, Ballade and Finale"
           ]
         },
         {
@@ -38316,6 +39451,21 @@
           "conductor": "Trond Elnes",
           "pieces": [
             "Othello"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 2,
+          "division_size": 15,
+          "absolute_position": 38,
+          "field_size": 79,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Trond Elnes",
+          "pieces": [
+            "Pastorale",
+            "Torch Dance"
           ]
         },
         {
@@ -39139,6 +40289,21 @@
           ]
         },
         {
+          "year": 2007,
+          "division": "3. divisjon",
+          "rank": 3,
+          "division_size": 15,
+          "absolute_position": 39,
+          "field_size": 79,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Asbjørn Hauge",
+          "pieces": [
+            "Sinfonia Nobilissima",
+            "Variations for Band"
+          ]
+        },
+        {
           "year": 2008,
           "division": "3. divisjon",
           "rank": 5,
@@ -39764,6 +40929,20 @@
           "pieces": [
             "\"Loch Ness\"",
             "Festivo (plikt)"
+          ]
+        },
+        {
+          "year": 2007,
+          "division": "5. divisjon",
+          "rank": 5,
+          "division_size": 13,
+          "absolute_position": 71,
+          "field_size": 79,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Martin Torp",
+          "pieces": [
+            "Paris Sketches"
           ]
         },
         {
@@ -40551,6 +41730,7 @@
       2004,
       2005,
       2006,
+      2007,
       2008,
       2009,
       2010,
@@ -40581,6 +41761,6 @@
     "max_field_size": 120,
     "min_year": 1981,
     "max_year": 2025,
-    "generated_at": "2025-09-23T10:51:26+00:00"
+    "generated_at": "2025-09-23T11:21:09+00:00"
   }
 }

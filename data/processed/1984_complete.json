@@ -27,7 +27,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T12:51:04.405725"
+      "scraped_at": "2025-09-23T13:20:59.754715"
     },
     {
       "id": "1984-1-divisjon-02-bispehaugen-ungdomskorps",
@@ -48,7 +48,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T12:51:04.405728"
+      "scraped_at": "2025-09-23T13:20:59.754721"
     },
     {
       "id": "1984-1-divisjon-03-aalesunds-ungdomsmusikkorps",
@@ -69,7 +69,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T12:51:04.405731"
+      "scraped_at": "2025-09-23T13:20:59.754724"
     },
     {
       "id": "1984-2-divisjon-01-lier-ungdomskorps",
@@ -90,7 +90,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T12:51:04.405733"
+      "scraped_at": "2025-09-23T13:20:59.754727"
     },
     {
       "id": "1984-2-divisjon-03-malvik-musikkorps",
@@ -111,7 +111,7 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T12:51:04.405736"
+      "scraped_at": "2025-09-23T13:20:59.754729"
     },
     {
       "id": "1984-2-divisjon-05-slemmestad-ungdomskorps",
@@ -133,9 +133,9 @@
       "orchestra_url": null,
       "conductor_url": null,
       "piece_urls": null,
-      "scraped_at": "2025-09-23T12:51:04.405738"
+      "scraped_at": "2025-09-23T13:20:59.754732"
     }
   ],
   "awards": [],
-  "exported_at": "2025-09-23T12:51:04.407250"
+  "exported_at": "2025-09-23T13:20:59.756580"
 }
