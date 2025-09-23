@@ -329,7 +329,11 @@
   $: labelStep = yearsDomain.length > 30 ? 5 : yearsDomain.length > 18 ? 3 : 1;
 
   let yearLabels = yearsDomain;
-  $: yearLabels = yearsDomain.filter((year, index) => index === 0 || index === yearsDomain.length - 1 || year % labelStep === 0);
+  $: yearLabels = yearsDomain.filter((year, index) => {
+    if (index === 0 || index === yearsDomain.length - 1) return true;
+    if (year === 2019) return true;
+    return year % labelStep === 0;
+  });
 
   let yearLabelPositions: { year: number; x: number; inactive: boolean }[] = [];
   $: yearLabelPositions = yearLabels.map((year) => {
@@ -406,7 +410,7 @@
           y={yScale(tick) + 4}
           text-anchor="end"
           font-size="12"
-          fill="rgba(226, 232, 240, 0.7)"
+          fill="var(--color-text-secondary)"
         >
           {yMode === 'relative' ? `${tick}%` : `#${tick}`}
         </text>
@@ -429,7 +433,7 @@
                 x2={xScale(change.year)}
                 y1={margin.top}
                 y2={height - margin.bottom}
-                stroke="rgba(248, 250, 252, 0.35)"
+                stroke="var(--color-conductor-line)"
                 stroke-dasharray="4 8"
                 stroke-width="1.5"
               />
@@ -439,7 +443,7 @@
                 text-anchor={change.anchor}
                 dx={change.dx}
                 font-size="11"
-                fill="rgba(226, 232, 240, 0.75)"
+                fill="var(--color-text-secondary)"
               >
                 {change.conductor}
               </text>
@@ -578,11 +582,11 @@
         <svg width="42" height="14" aria-hidden="true">
           <line x1="2" y1="7" x2="40" y2="7" stroke={item.color} stroke-width="2.5" stroke-linecap="round" />
           {#if item.shape === 'circle'}
-            <circle cx="21" cy="7" r="5" fill="#0f172a" stroke={item.color} stroke-width="2" />
+            <circle cx="21" cy="7" r="5" fill="var(--color-input-bg, #0f172a)" stroke={item.color} stroke-width="2" />
           {:else if item.shape === 'square'}
-            <rect x="16" y="2" width="10" height="10" rx="2" fill="#0f172a" stroke={item.color} stroke-width="2" />
+            <rect x="16" y="2" width="10" height="10" rx="2" fill="var(--color-input-bg, #0f172a)" stroke={item.color} stroke-width="2" />
           {:else}
-            <path d={getTrianglePath(21, 7, 6)} fill="#0f172a" stroke={item.color} stroke-width="2" />
+            <path d={getTrianglePath(21, 7, 6)} fill="var(--color-input-bg, #0f172a)" stroke={item.color} stroke-width="2" />
           {/if}
         </svg>
         {item.band.name}
@@ -608,10 +612,10 @@
     pointer-events: none;
     white-space: nowrap;
     padding: 0.5rem 0.75rem;
-    background: rgba(15, 23, 42, 0.9);
-    border: 1px solid rgba(148, 163, 184, 0.3);
+    background: var(--color-tooltip-bg);
+    border: 1px solid var(--color-tooltip-border);
     border-radius: 0.5rem;
-    color: #e2e8f0;
+    color: var(--color-tooltip-text);
     font-size: 0.85rem;
     transform: translate(-50%, calc(-100% - 12px));
     box-shadow: 0 10px 24px rgba(15, 23, 42, 0.4);
@@ -630,13 +634,13 @@
 
   .tooltip-band__title {
     font-weight: 600;
-    color: #e2e8f0;
+    color: var(--color-tooltip-text);
   }
 
   .tooltip-divider {
     height: 1px;
     margin: 0.35rem 0;
-    background: rgba(148, 163, 184, 0.3);
+    background: var(--color-divider);
   }
 
   .chart-canvas {
@@ -650,7 +654,7 @@
     right: 0;
     top: 0;
     font-size: 0.75rem;
-    color: rgba(226, 232, 240, 0.6);
+    color: var(--color-text-secondary);
     pointer-events: none;
   }
 
@@ -661,7 +665,8 @@
   }
 
   .inactive {
-    opacity: 0.35;
+    opacity: 1;
+    color: var(--color-year-inactive);
   }
 
   .conductor-change text {
@@ -674,7 +679,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     font-size: 0.85rem;
-    color: rgba(226, 232, 240, 0.8);
+    color: var(--color-text-secondary);
   }
 
   .band-legend span {
@@ -693,7 +698,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     font-size: 0.8rem;
-    color: rgba(226, 232, 240, 0.6);
+    color: var(--color-text-muted);
   }
 
   .legend span {

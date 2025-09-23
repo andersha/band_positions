@@ -4,6 +4,7 @@
   import type { BandDataset, BandRecord, BandEntry } from './lib/types';
 
   type ViewType = 'bands' | 'conductors';
+  type Theme = 'light' | 'dark';
 
   const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor' } as const;
   const URL_MODE_KEY = 'mode';
@@ -11,6 +12,7 @@
   const URL_SEPARATOR = ',';
   const DEFAULT_MODE: 'absolute' | 'relative' = 'relative';
   const DEFAULT_VIEW: ViewType = 'bands';
+  const THEME_STORAGE_KEY = 'nmjanitsjar-theme';
 
   const viewLabels: Record<ViewType, string> = {
     bands: 'Korps',
@@ -32,6 +34,7 @@
   let activeView: ViewType = DEFAULT_VIEW;
   let activeRecords: BandRecord[] = [];
   let activeSelection: BandRecord[] = [];
+  let theme: Theme = 'dark';
 
   function slugify(value: string): string {
     return (
@@ -133,6 +136,45 @@
     const raw = params.get(URL_MODE_KEY);
     const normalized = raw ? raw.toLowerCase() : null;
     return normalized === 'absolute' ? 'absolute' : 'relative';
+  }
+
+  function resolveInitialTheme(): Theme {
+    if (typeof window === 'undefined') return 'dark';
+    try {
+      const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
+      if (stored === 'light' || stored === 'dark') {
+        return stored;
+      }
+    } catch (err) {
+      console.error('Kunne ikke lese lagret tema', err);
+    }
+    const prefersLight = window.matchMedia?.('(prefers-color-scheme: light)').matches;
+    return prefersLight ? 'light' : 'dark';
+  }
+
+  function applyThemePreference(nextTheme: Theme): void {
+    if (typeof document === 'undefined') return;
+    if (nextTheme === 'dark') {
+      document.documentElement.removeAttribute('data-theme');
+    } else {
+      document.documentElement.dataset.theme = 'light';
+    }
+  }
+
+  function setTheme(nextTheme: Theme): void {
+    theme = nextTheme;
+    applyThemePreference(nextTheme);
+    if (typeof window !== 'undefined') {
+      try {
+        window.localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
+      } catch (err) {
+        console.error('Kunne ikke lagre tema', err);
+      }
+    }
+  }
+
+  function toggleTheme(): void {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
   }
 
   function getViewFromURL(): ViewType {
@@ -322,6 +364,9 @@
 
   onMount(async () => {
     try {
+      const initialTheme = resolveInitialTheme();
+      theme = initialTheme;
+      applyThemePreference(initialTheme);
       const response = await fetch('data/band_positions.json');
       if (!response.ok) {
         throw new Error(`Kunne ikke laste data (status ${response.status})`);
@@ -389,6 +434,9 @@
     activeView === 'bands'
       ? 'Søk etter et janitsjarkorps for å se hvordan den samlede plasseringen utvikler seg år for år, på tvers av alle divisjoner.'
       : 'Søk etter en dirigent for å se hvordan deres beste plassering utvikler seg år for år, basert på korpsene de dirigerte.';
+  $: themeToggleLabel = theme === 'dark' ? 'Bytt til lyst tema' : 'Bytt til mørkt tema';
+  $: themeToggleText = theme === 'dark' ? 'Mørk' : 'Lys';
+  $: themeToggleIcon = theme === 'dark' ? '🌙' : '☀️';
 
   $: chartHeading =
     activeSelection.length === 1
@@ -404,17 +452,28 @@
 <main>
   <header class="page-header">
     <h1>NM Janitsjar: Plassering over tid</h1>
-    <div class="view-toggle" role="group" aria-label="Bytt mellom korps- og dirigentvisning">
-      {#each viewOrder as view}
-        <button
-          type="button"
-          class:selected={activeView === view}
-          aria-pressed={activeView === view}
-          on:click={() => setView(view)}
-        >
-          {viewLabels[view]}
-        </button>
-      {/each}
+    <div class="header-controls">
+      <div class="view-toggle" role="group" aria-label="Bytt mellom korps- og dirigentvisning">
+        {#each viewOrder as view}
+          <button
+            type="button"
+            class:selected={activeView === view}
+            aria-pressed={activeView === view}
+            on:click={() => setView(view)}
+          >
+            {viewLabels[view]}
+          </button>
+        {/each}
+      </div>
+      <button
+        class="theme-toggle"
+        type="button"
+        on:click={toggleTheme}
+        aria-label={themeToggleLabel}
+      >
+        <span aria-hidden="true">{themeToggleIcon}</span>
+        <span class="theme-toggle__text">{themeToggleText}</span>
+      </button>
     </div>
   </header>
   <p class="lead">{leadText}</p>
@@ -530,12 +589,18 @@
   h1 {
     margin: 0;
     font-size: 2rem;
-    color: #e0f2fe;
+    color: var(--color-text-primary);
   }
 
   .lead {
     margin: 0;
-    color: rgba(226, 232, 240, 0.8);
+    color: var(--color-text-secondary);
+  }
+
+  .header-controls {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
   }
 
   .view-toggle {
@@ -543,16 +608,16 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.25rem;
-    background: rgba(15, 23, 42, 0.65);
+    background: var(--color-mode-toggle-bg);
     border-radius: 999px;
-    border: 1px solid rgba(59, 130, 246, 0.35);
+    border: 1px solid var(--color-mode-toggle-border);
   }
 
   .view-toggle button {
     appearance: none;
     border: none;
     background: transparent;
-    color: rgba(226, 232, 240, 0.75);
+    color: var(--color-text-secondary);
     padding: 0.4rem 1.1rem;
     border-radius: 999px;
     font-size: 0.9rem;
@@ -561,18 +626,47 @@
   }
 
   .view-toggle button:hover {
-    color: rgba(226, 232, 240, 0.95);
+    color: var(--color-text-primary);
   }
 
   .view-toggle button.selected {
-    background: rgba(59, 130, 246, 0.35);
-    color: #e0f2fe;
+    background: var(--color-accent-strong);
+    color: var(--color-text-primary);
     font-weight: 600;
   }
 
   .view-toggle button:focus-visible {
-    outline: 2px solid rgba(59, 130, 246, 0.65);
+    outline: 2px solid var(--color-accent);
     outline-offset: 2px;
+  }
+
+  .theme-toggle {
+    appearance: none;
+    border: 1px solid var(--color-mode-toggle-border);
+    background: var(--color-mode-toggle-bg);
+    color: var(--color-text-secondary);
+    border-radius: 999px;
+    padding: 0.35rem 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.18s ease, color 0.18s ease, border 0.18s ease;
+  }
+
+  .theme-toggle:hover {
+    color: var(--color-text-primary);
+    border-color: var(--color-accent);
+  }
+
+  .theme-toggle:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  .theme-toggle__text {
+    font-weight: 600;
   }
 
   .search {
@@ -591,23 +685,6 @@
     border: 0;
   }
 
-  .search input {
-    width: 100%;
-    padding: 0.9rem 1.1rem;
-    border-radius: 0.9rem;
-    border: 1px solid rgba(148, 163, 184, 0.25);
-    background: rgba(15, 23, 42, 0.85);
-    color: #e2e8f0;
-    font-size: 1rem;
-    transition: border 0.15s ease, box-shadow 0.15s ease;
-  }
-
-  .search input:focus {
-    outline: none;
-    border-color: rgba(59, 130, 246, 0.75);
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
-  }
-
   .selected-entities {
     display: flex;
     flex-wrap: wrap;
@@ -621,9 +698,9 @@
     gap: 0.4rem;
     padding: 0.3rem 0.6rem;
     border-radius: 999px;
-    background: rgba(59, 130, 246, 0.16);
-    border: 1px solid rgba(59, 130, 246, 0.35);
-    color: #e0f2fe;
+    background: var(--color-chip-bg);
+    border: 1px solid var(--color-chip-border);
+    color: var(--color-text-primary);
     font-size: 0.85rem;
   }
 
@@ -634,14 +711,14 @@
     width: 1.45rem;
     height: 1.45rem;
     border-radius: 50%;
-    background: rgba(59, 130, 246, 0.45);
+    background: var(--color-chip-index-bg);
     font-size: 0.75rem;
   }
 
   .selected-entity button {
     border: none;
     background: transparent;
-    color: rgba(226, 232, 240, 0.85);
+    color: var(--color-text-secondary);
     cursor: pointer;
     font-size: 1rem;
     padding: 0;
@@ -649,7 +726,7 @@
   }
 
   .selected-entity button:hover {
-    color: #fca5a5;
+    color: var(--color-warning);
   }
 
   .selected-entity__name {
@@ -658,21 +735,21 @@
 
   .status {
     margin-top: 2rem;
-    color: rgba(226, 232, 240, 0.8);
+    color: var(--color-text-secondary);
   }
 
   .status.error {
-    color: #fca5a5;
+    color: var(--color-warning);
   }
 
   .suggestions {
     display: flex;
     flex-direction: column;
     margin-top: 0.75rem;
-    border: 1px solid rgba(148, 163, 184, 0.25);
+    border: 1px solid var(--color-border);
     border-radius: 0.6rem;
     overflow: hidden;
-    background: rgba(15, 23, 42, 0.85);
+    background: var(--color-surface-elevated);
   }
 
   .suggestion {
@@ -680,26 +757,23 @@
     cursor: pointer;
   }
 
-  .suggestion:hover {
-    background: rgba(59, 130, 246, 0.2);
-  }
-
+  .suggestion:hover,
   .suggestion.active {
-    background-color: rgba(59, 130, 246, 0.25);
+    background: var(--color-accent-strong);
   }
 
   .empty-state {
     margin-top: 3rem;
     text-align: center;
-    color: rgba(226, 232, 240, 0.75);
+    color: var(--color-text-muted);
   }
 
   .chart-card {
     margin-top: 2.5rem;
     padding: 1.5rem;
-    background: rgba(15, 23, 42, 0.85);
+    background: var(--color-surface-card);
     border-radius: 1rem;
-    border: 1px solid rgba(148, 163, 184, 0.2);
+    border: 1px solid var(--color-border);
     box-shadow: 0 18px 40px rgba(15, 23, 42, 0.35);
     position: relative;
   }
@@ -715,16 +789,16 @@
   .chart-header h2 {
     margin: 0;
     font-size: 1.45rem;
-    color: #38bdf8;
+    color: var(--color-accent);
   }
 
   .chart-header p {
     margin: 0;
-    color: rgba(226, 232, 240, 0.7);
+    color: var(--color-text-secondary);
   }
 
   .comparison-summary {
-    color: rgba(148, 163, 184, 0.85);
+    color: var(--color-text-muted);
     font-size: 0.85rem;
   }
 
@@ -736,12 +810,12 @@
     align-items: center;
     gap: 0.6rem;
     font-size: 0.85rem;
-    color: rgba(226, 232, 240, 0.8);
+    color: var(--color-text-secondary);
   }
 
   .mode-toggle__label {
     font-weight: 600;
-    color: rgba(226, 232, 240, 0.85);
+    color: var(--color-text-primary);
   }
 
   .mode-toggle__buttons {
@@ -750,15 +824,15 @@
     gap: 0.5rem;
     padding: 0.25rem;
     border-radius: 999px;
-    background: rgba(15, 23, 42, 0.7);
-    border: 1px solid rgba(59, 130, 246, 0.35);
+    background: var(--color-mode-toggle-bg);
+    border: 1px solid var(--color-mode-toggle-border);
   }
 
   .mode-toggle button {
     appearance: none;
     background: transparent;
     border: none;
-    color: rgba(226, 232, 240, 0.7);
+    color: var(--color-text-secondary);
     padding: 0.35rem 0.9rem;
     cursor: pointer;
     border-radius: 999px;
@@ -768,17 +842,17 @@
   }
 
   .mode-toggle button:hover {
-    color: rgba(226, 232, 240, 0.92);
+    color: var(--color-text-primary);
   }
 
   .mode-toggle button.selected {
-    background: rgba(59, 130, 246, 0.35);
-    color: #e0f2fe;
+    background: var(--color-accent-strong);
+    color: var(--color-text-primary);
     font-weight: 600;
   }
 
   .mode-toggle button:focus-visible {
-    outline: 2px solid rgba(59, 130, 246, 0.65);
+    outline: 2px solid var(--color-accent);
     outline-offset: 2px;
     border-radius: 4px;
   }
@@ -792,6 +866,11 @@
       position: static;
       justify-content: flex-end;
       margin-bottom: 1rem;
+    }
+
+    .header-controls {
+      width: 100%;
+      justify-content: flex-end;
     }
   }
 </style>
