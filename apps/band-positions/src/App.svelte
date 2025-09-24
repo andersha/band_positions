@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { preventDefault } from 'svelte/legacy';
+
   import { onMount } from 'svelte';
   import BandTrajectoryChart from './lib/BandTrajectoryChart.svelte';
   import DataExplorer from './lib/DataExplorer.svelte';
@@ -25,23 +27,21 @@
   };
   const viewOrder: ViewType[] = ['bands', 'conductors', 'pieces', 'data'];
 
-  let dataset: BandDataset | null = null;
-  let conductorRecords: BandRecord[] = [];
-  let pieceRecords: PieceRecord[] = [];
-  let loading = true;
-  let error: string | null = null;
-  let searchTerm = '';
-  let selectedBands: BandRecord[] = [];
-  let selectedConductors: BandRecord[] = [];
-  let selectedPieces: PieceRecord[] = [];
-  let focusedIndex = -1;
+  let dataset: BandDataset | null = $state(null);
+  let conductorRecords: BandRecord[] = $state([]);
+  let pieceRecords: PieceRecord[] = $state([]);
+  let loading = $state(true);
+  let error: string | null = $state(null);
+  let searchTerm = $state('');
+  let selectedBands: BandRecord[] = $state([]);
+  let selectedConductors: BandRecord[] = $state([]);
+  let selectedPieces: PieceRecord[] = $state([]);
+  let focusedIndex = $state(-1);
   let initialUrlSyncDone = false;
   let lastSyncedSignature = '';
-  let yAxisMode: 'absolute' | 'relative' = DEFAULT_MODE;
-  let activeView: ViewType = DEFAULT_VIEW;
-  let activeRecords: Array<BandRecord | PieceRecord> = [];
-  let activeSelection: Array<BandRecord | PieceRecord> = [];
-  let theme: Theme = 'dark';
+  let yAxisMode: 'absolute' | 'relative' = $state(DEFAULT_MODE);
+  let activeView: ViewType = $state(DEFAULT_VIEW);
+  let theme: Theme = $state('dark');
 
   type ConductorPlacement = BandEntry & { band_name?: string };
   type PiecePerformance = BandEntry & { band_name: string };
@@ -456,25 +456,25 @@
     return () => window.removeEventListener('popstate', handlePopState);
   });
 
-  $: trimmed = searchTerm.trim();
-  $: lowered = trimmed.toLowerCase();
-  $: isEntityView = activeView === 'bands' || activeView === 'conductors' || activeView === 'pieces';
-  $: activeRecords = isEntityView
+  let trimmed = $derived(searchTerm.trim());
+  let lowered = $derived(trimmed.toLowerCase());
+  let isEntityView = $derived(activeView === 'bands' || activeView === 'conductors' || activeView === 'pieces');
+  let activeRecords = $derived(isEntityView
     ? activeView === 'bands'
       ? dataset?.bands ?? []
       : activeView === 'conductors'
         ? conductorRecords
         : pieceRecords
-    : [];
-  $: activeSelection = activeView === 'bands'
+    : []);
+  let activeSelection = $derived(activeView === 'bands'
     ? selectedBands
     : activeView === 'conductors'
       ? selectedConductors
       : activeView === 'pieces'
         ? selectedPieces
-        : [];
-  $: suggestions =
-    isEntityView && activeRecords && lowered.length >= 2
+        : []);
+  let suggestions =
+    $derived(isEntityView && activeRecords && lowered.length >= 2
       ? activeRecords
           .filter(
             (record) =>
@@ -482,85 +482,84 @@
               !activeSelection.some((selected) => selected.slug === record.slug)
           )
           .slice(0, 10)
-      : [];
+      : []);
 
-  $: years = dataset ? dataset.metadata.years : [];
-  $: maxFieldSize = dataset ? dataset.metadata.max_field_size : 0;
-  $: entityCount = isEntityView
+  let years = $derived(dataset ? dataset.metadata.years : []);
+  let maxFieldSize = $derived(dataset ? dataset.metadata.max_field_size : 0);
+  let entityCount = $derived(isEntityView
     ? activeView === 'bands'
       ? dataset?.bands.length ?? 0
       : activeView === 'conductors'
         ? conductorRecords.length
         : pieceRecords.length
-    : 0;
-  $: entityLabel = activeView === 'bands'
+    : 0);
+  let entityLabel = $derived(activeView === 'bands'
     ? 'korps'
     : activeView === 'conductors'
       ? 'dirigenter'
-      : 'stykker';
-  let coverageDescription = '';
-  $: coverageDescription = dataset
+      : 'stykker');
+  let coverageDescription = $derived(dataset
     ? `Dekker ${entityCount} ${entityLabel} · ${years.length} år (${dataset.metadata.min_year}–${dataset.metadata.max_year})`
-    : '';
+    : '');
 
-  $: searchPlaceholder = activeView === 'bands'
+  let searchPlaceholder = $derived(activeView === 'bands'
     ? 'Begynn å skrive et korpsnavn (minst 2 bokstaver)…'
     : activeView === 'conductors'
       ? 'Begynn å skrive et dirigentnavn (minst 2 bokstaver)…'
       : activeView === 'pieces'
         ? 'Begynn å skrive en stykketittel (minst 2 bokstaver)…'
-        : '';
-  $: searchLabel = activeView === 'bands'
+        : '');
+  let searchLabel = $derived(activeView === 'bands'
     ? 'Søk etter korps'
     : activeView === 'conductors'
       ? 'Søk etter dirigent'
-      : 'Søk etter musikkstykke';
-  $: suggestionsLabel = activeView === 'bands'
+      : 'Søk etter musikkstykke');
+  let suggestionsLabel = $derived(activeView === 'bands'
     ? 'Korpsforslag'
     : activeView === 'conductors'
       ? 'Dirigentforslag'
-      : 'Stykke-forslag';
-  $: selectionLabel = activeView === 'bands'
+      : 'Stykke-forslag');
+  let selectionLabel = $derived(activeView === 'bands'
     ? 'Valgte korps'
     : activeView === 'conductors'
       ? 'Valgte dirigenter'
-      : 'Valgte stykker';
-  $: emptyStateTitle = activeView === 'bands'
+      : 'Valgte stykker');
+  let emptyStateTitle = $derived(activeView === 'bands'
     ? 'Ingen korps valgt ennå'
     : activeView === 'conductors'
       ? 'Ingen dirigenter valgt ennå'
-      : 'Ingen stykker valgt ennå';
-  $: emptyStateBody = activeView === 'bands'
+      : 'Ingen stykker valgt ennå');
+  let emptyStateBody = $derived(activeView === 'bands'
     ? 'Finn et navn i søkefeltet for å tegne kurven for samlet plassering.'
     : activeView === 'conductors'
       ? 'Finn en dirigent i søkefeltet for å tegne kurven for samlet plassering.'
-      : 'Finn et musikkstykke i søkefeltet for å se alle registrerte fremføringer.';
-  $: leadText = activeView === 'bands'
+      : 'Finn et musikkstykke i søkefeltet for å se alle registrerte fremføringer.');
+  let leadText = $derived(activeView === 'bands'
     ? 'Søk etter et janitsjarkorps for å se hvordan den samlede plasseringen utvikler seg år for år, på tvers av alle divisjoner.'
     : activeView === 'conductors'
       ? 'Søk etter en dirigent for å se hvordan deres beste plassering utvikler seg år for år, basert på korpsene de dirigerte.'
       : activeView === 'pieces'
         ? 'Søk etter et musikkstykke for å se alle fremføringer vi har registrert.'
-        : 'Velg et år og en divisjon for å vise resultatlisten i den valgte finalen.';
-  $: themeToggleLabel = theme === 'dark' ? 'Bytt til lyst tema' : 'Bytt til mørkt tema';
-  $: themeToggleText = theme === 'dark' ? 'Mørk' : 'Lys';
-  $: themeToggleIcon = theme === 'dark' ? '🌙' : '☀️';
+        : 'Velg et år og en divisjon for å vise resultatlisten i den valgte finalen.');
+  let themeToggleLabel = $derived(theme === 'dark' ? 'Bytt til lyst tema' : 'Bytt til mørkt tema');
+  let themeToggleText = $derived(theme === 'dark' ? 'Mørk' : 'Lys');
+  let themeToggleIcon = $derived(theme === 'dark' ? '🌙' : '☀️');
 
-  $: chartHeading =
-    activeSelection.length === 1
+  let chartHeading =
+    $derived(activeSelection.length === 1
       ? activeSelection[0].name
       : activeSelection.length > 1
         ? `${activeSelection.length} ${entityLabel} valgt`
-        : '';
+        : '');
 
-  $: comparisonSummary =
-    activeSelection.length > 1 ? activeSelection.map((record) => record.name).join(' · ') : '';
+  let comparisonSummary =
+    $derived(activeSelection.length > 1 ? activeSelection.map((record) => record.name).join(' · ') : '');
 
-  $: pieceSelection = activeView === 'pieces' ? (activeSelection as PieceRecord[]) : [];
-  $: chartSelection =
-    activeView === 'bands' || activeView === 'conductors'
+  let pieceSelection = $derived(activeView === 'pieces' ? (activeSelection as PieceRecord[]) : []);
+  let chartSelection =
+    $derived(activeView === 'bands' || activeView === 'conductors'
       ? (activeSelection as BandRecord[])
-      : [];
+      : []);
 </script>
 
 <main>
@@ -573,7 +572,7 @@
             type="button"
             class:selected={activeView === view}
             aria-pressed={activeView === view}
-            on:click={() => setView(view)}
+            onclick={() => setView(view)}
           >
             {viewLabels[view]}
           </button>
@@ -582,7 +581,7 @@
       <button
         class="theme-toggle"
         type="button"
-        on:click={toggleTheme}
+        onclick={toggleTheme}
         aria-label={themeToggleLabel}
       >
         <span aria-hidden="true">{themeToggleIcon}</span>
@@ -593,15 +592,15 @@
   <p class="lead">{leadText}</p>
 
   {#if isEntityView}
-    <form class="search" on:submit|preventDefault={handleSubmit}>
+    <form class="search" onsubmit={preventDefault(handleSubmit)}>
       <label class="sr-only" for="entity-search">{searchLabel}</label>
       <input
         id="entity-search"
         type="search"
         placeholder={searchPlaceholder}
         bind:value={searchTerm}
-        on:input={onInput}
-        on:keydown={handleKeyDown}
+        oninput={onInput}
+        onkeydown={handleKeyDown}
         autocomplete="off"
       />
     </form>
@@ -612,7 +611,7 @@
           <span class="selected-entity" role="listitem">
             <span class="selected-entity__index">{index + 1}</span>
             <span class="selected-entity__name">{record.name}</span>
-            <button type="button" aria-label={`Fjern ${record.name}`} on:click={() => removeRecord(record.slug)}>
+            <button type="button" aria-label={`Fjern ${record.name}`} onclick={() => removeRecord(record.slug)}>
               ×
             </button>
           </span>
@@ -628,7 +627,7 @@
             role="option"
             tabindex="-1"
             aria-selected={index === focusedIndex}
-            on:mousedown|preventDefault={() => chooseRecord(record)}
+            onmousedown={preventDefault(() => chooseRecord(record))}
           >
             {record.name}
           </div>
@@ -656,7 +655,7 @@
                 type="button"
                 class:selected={yAxisMode === 'absolute'}
                 aria-pressed={yAxisMode === 'absolute'}
-                on:click={() => setYAxisMode('absolute')}
+                onclick={() => setYAxisMode('absolute')}
               >
                 Absolutt
               </button>
@@ -664,7 +663,7 @@
                 type="button"
                 class:selected={yAxisMode === 'relative'}
                 aria-pressed={yAxisMode === 'relative'}
-                on:click={() => setYAxisMode('relative')}
+                onclick={() => setYAxisMode('relative')}
               >
                 Relativ
               </button>

@@ -1,7 +1,11 @@
 <script lang="ts">
   import type { PieceRecord, PiecePerformance } from './types';
 
-  export let pieces: PieceRecord[] = [];
+  interface Props {
+    pieces?: PieceRecord[];
+  }
+
+  let { pieces = [] }: Props = $props();
 
   const pointsFormatter = new Intl.NumberFormat('nb-NO', {
     minimumFractionDigits: 1,
@@ -28,10 +32,10 @@
     return rank != null ? `${rank}` : '–';
   }
 
-  $: sortedPieces = pieces.map((piece) => ({
+  let sortedPieces = $derived(pieces.map((piece) => ({
     ...piece,
     performances: sortPerformances(piece.performances)
-  }));
+  })));
 </script>
 
 <section class="pieces-view">

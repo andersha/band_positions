@@ -1,8 +1,13 @@
 <script lang="ts">
+
   import type { BandDataset, BandEntry } from './types';
   import { slugify } from './slugify';
 
-  export let dataset: BandDataset | null = null;
+  interface Props {
+    dataset?: BandDataset | null;
+  }
+
+  let { dataset = null }: Props = $props();
 
   type TableRow = {
     band: string;
@@ -14,16 +19,16 @@
     maximumFractionDigits: 1
   });
 
-  let availableYears: number[] = [];
-  let selectedYear: number | null = null;
-  let divisionsForYear: string[] = [];
-  let selectedDivision: string | null = null;
-  let tableRows: TableRow[] = [];
-  let divisionSize: number | null = null;
-  let fieldSize: number | null = null;
-  let generatedAt: string | null = null;
+  let availableYears: number[] = $state([]);
+  let selectedYear: number | null = $state(null);
+  let divisionsForYear: string[] = $state([]);
+  let selectedDivision: string | null = $state(null);
+  let tableRows: TableRow[] = $state([]);
+  let divisionSize: number | null = $state(null);
+  let fieldSize: number | null = $state(null);
+  let generatedAt: string | null = $state(null);
 
-  let yearDivisionMap: Map<number, Map<string, TableRow[]>> = new Map();
+  let yearDivisionMap: Map<number, Map<string, TableRow[]>> = $state(new Map());
 
   function buildYearDivisionMap(source: BandDataset): Map<number, Map<string, TableRow[]>> {
     const map = new Map<number, Map<string, TableRow[]>>();
@@ -110,44 +115,50 @@
     selectedDivision = (event.target as HTMLSelectElement).value || null;
   }
 
-  $: if (dataset) {
-    yearDivisionMap = buildYearDivisionMap(dataset);
-    availableYears = dataset.metadata.years;
-    generatedAt = dataset.metadata.generated_at ?? null;
-    selectedYear = ensureYearSelection(availableYears);
-  } else {
-    yearDivisionMap = new Map();
-    availableYears = [];
-    generatedAt = null;
-    selectedYear = null;
-  }
+  $effect(() => {
+    if (dataset) {
+      yearDivisionMap = buildYearDivisionMap(dataset);
+      availableYears = dataset.metadata.years;
+      generatedAt = dataset.metadata.generated_at ?? null;
+      selectedYear = ensureYearSelection(availableYears);
+    } else {
+      yearDivisionMap = new Map();
+      availableYears = [];
+      generatedAt = null;
+      selectedYear = null;
+    }
+  });
 
-  $: if (dataset && selectedYear != null) {
-    const divisionsMap = yearDivisionMap.get(selectedYear) ?? new Map<string, TableRow[]>();
-    const ordered = dataset.metadata.divisions.filter((division) => divisionsMap.has(division));
-    const remaining = Array.from(divisionsMap.keys()).filter((division) => !ordered.includes(division)).sort();
-    divisionsForYear = [...ordered, ...remaining];
-    selectedDivision = ensureDivisionSelection(divisionsForYear);
-  } else {
-    divisionsForYear = [];
-    selectedDivision = null;
-  }
+  $effect(() => {
+    if (dataset && selectedYear != null) {
+      const divisionsMap = yearDivisionMap.get(selectedYear) ?? new Map<string, TableRow[]>();
+      const ordered = dataset.metadata.divisions.filter((division) => divisionsMap.has(division));
+      const remaining = Array.from(divisionsMap.keys()).filter((division) => !ordered.includes(division)).sort();
+      divisionsForYear = [...ordered, ...remaining];
+      selectedDivision = ensureDivisionSelection(divisionsForYear);
+    } else {
+      divisionsForYear = [];
+      selectedDivision = null;
+    }
+  });
 
-  $: if (selectedYear != null && selectedDivision && yearDivisionMap.has(selectedYear)) {
-    const rows = yearDivisionMap.get(selectedYear)?.get(selectedDivision) ?? [];
-    tableRows = sortRows(rows);
-    const first = tableRows[0]?.entry;
-    const computedDivisionSize = first?.division_size ?? tableRows.length;
-    divisionSize = computedDivisionSize && computedDivisionSize > 0 ? computedDivisionSize : null;
-    const computedFieldSize = first?.field_size ?? null;
-    fieldSize = computedFieldSize && computedFieldSize > 0 ? computedFieldSize : null;
-  } else {
-    tableRows = [];
-    divisionSize = null;
-    fieldSize = null;
-  }
+  $effect(() => {
+    if (selectedYear != null && selectedDivision && yearDivisionMap.has(selectedYear)) {
+      const rows = yearDivisionMap.get(selectedYear)?.get(selectedDivision) ?? [];
+      tableRows = sortRows(rows);
+      const first = tableRows[0]?.entry;
+      const computedDivisionSize = first?.division_size ?? tableRows.length;
+      divisionSize = computedDivisionSize && computedDivisionSize > 0 ? computedDivisionSize : null;
+      const computedFieldSize = first?.field_size ?? null;
+      fieldSize = computedFieldSize && computedFieldSize > 0 ? computedFieldSize : null;
+    } else {
+      tableRows = [];
+      divisionSize = null;
+      fieldSize = null;
+    }
+  });
 
-  $: formattedGeneratedAt = formatGeneratedTimestamp(generatedAt);
+  let formattedGeneratedAt = $derived(formatGeneratedTimestamp(generatedAt));
 </script>
 
 <section class="data-view">
@@ -166,7 +177,7 @@
     <div class="data-controls">
       <label class="control">
         <span>År</span>
-        <select on:change={handleYearChange}>
+        <select onchange={handleYearChange}>
           {#each availableYears as year}
             <option value={year} selected={selectedYear === year}>{year}</option>
           {/each}
@@ -174,7 +185,7 @@
       </label>
       <label class="control">
         <span>Divisjon</span>
-        <select on:change={handleDivisionChange}>
+        <select onchange={handleDivisionChange}>
           {#if divisionsForYear.length === 0}
             <option value="" selected>Ingen divisjoner</option>
           {:else}

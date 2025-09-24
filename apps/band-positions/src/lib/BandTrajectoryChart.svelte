@@ -1,13 +1,21 @@
 <script lang="ts">
-  import { onDestroy, onMount, afterUpdate } from 'svelte';
+  import { onDestroy, onMount } from 'svelte';
   import { scaleLinear, scalePoint, line, curveMonotoneX, ticks } from 'd3';
   import type { BandEntry, BandRecord } from './types';
 
-  export let bands: BandRecord[] = [];
-  export let years: number[] = [];
-  export let maxFieldSize = 0;
-  export let yMode: 'absolute' | 'relative' = 'relative';
-  export let showConductorMarkers = true;
+  let { 
+    bands = [], 
+    years = [], 
+    maxFieldSize = 0, 
+    yMode = 'relative', 
+    showConductorMarkers = true 
+  } = $props<{
+    bands?: BandRecord[];
+    years?: number[];
+    maxFieldSize?: number;
+    yMode?: 'absolute' | 'relative';
+    showConductorMarkers?: boolean;
+  }>();
 
   const margin = { top: 24, right: 48, bottom: 48, left: 72 };
   const width = 880;
@@ -53,16 +61,16 @@
     conductorChanges: ConductorChange[];
   }
 
-  let svgElement: SVGSVGElement | null = null;
-  let labelGeometry = { offsetX: 0, scaleX: 1, offsetY: 0, scaleY: 1 };
+  let svgElement = $state<SVGSVGElement | null>(null);
+  let labelGeometry = $state({ offsetX: 0, scaleX: 1, offsetY: 0, scaleY: 1 });
   let resizeObserver: ResizeObserver | null = null;
   let observedElement: SVGSVGElement | null = null;
 
   type AggregatedPlacement = ChartEntry & { band_name?: string; aggregate_entries?: ChartEntry[] };
 
-  let hoveredPoint: { entry: ChartEntry; bandName: string; lineColor: string } | null = null;
-  let tooltipX = 0;
-  let tooltipY = 0;
+  let hoveredPoint = $state<{ entry: ChartEntry; bandName: string; lineColor: string } | null>(null);
+  let tooltipX = $state(0);
+  let tooltipY = $state(0);
 
   const showConductorLabels = () => showConductorMarkers && bands.length === 1;
 
@@ -157,7 +165,8 @@
     window.addEventListener('resize', updateLabelGeometry);
   });
 
-  afterUpdate(() => {
+  $effect(() => {
+    // This runs after each update, similar to afterUpdate
     ensureObserved();
     updateLabelGeometry();
   });
@@ -250,33 +259,25 @@
     return a.localeCompare(b);
   }
 
-  let normalizedBands: { band: BandRecord; entries: ChartEntry[] }[] = [];
-  $: normalizedBands = bands.map((band) => ({ band, entries: normalizeEntries(band.entries) }));
+  let normalizedBands = $derived(bands.map((band) => ({ band, entries: normalizeEntries(band.entries) })));
 
-  let allEntries: ChartEntry[] = [];
-  $: allEntries = normalizedBands.flatMap((item) => item.entries);
+  let allEntries = $derived(normalizedBands.flatMap((item) => item.entries));
 
-  let yearsDomain: number[] = [];
-  $: yearsDomain = (() => {
+  let yearsDomain = $derived((() => {
     if (years.length) return years;
     if (!allEntries.length) return [0];
     return Array.from(new Set(allEntries.map((entry) => entry.year))).sort((a, b) => a - b);
-  })();
+  })());
 
-  let xScale = scalePoint<number>().domain([0]).range([margin.left, width - margin.right]);
-  $: xScale = scalePoint<number>().domain(yearsDomain).range([margin.left, width - margin.right]);
+  let xScale = $derived(scalePoint<number>().domain(yearsDomain).range([margin.left, width - margin.right]));
 
-  let chartMaxField = 1;
-  $: chartMaxField = maxFieldSize || (allEntries.length ? Math.max(...allEntries.map((entry) => entry.field_size)) : 1);
+  let chartMaxField = $derived(maxFieldSize || (allEntries.length ? Math.max(...allEntries.map((entry) => entry.field_size)) : 1));
 
-  let yDomain: [number, number] = [chartMaxField + 1, 0];
-  $: yDomain = yMode === 'relative' ? [100, 0] : [chartMaxField + 1, 0];
+  let yDomain = $derived<[number, number]>(yMode === 'relative' ? [100, 0] : [chartMaxField + 1, 0]);
 
-  let yScale = scaleLinear().domain(yDomain).range([height - margin.bottom, margin.top]);
-  $: yScale = scaleLinear().domain(yDomain).range([height - margin.bottom, margin.top]);
+  let yScale = $derived(scaleLinear().domain(yDomain).range([height - margin.bottom, margin.top]));
 
-  let series: BandSeries[] = [];
-  $: series = normalizedBands.map((item, index) => {
+  let series = $derived(normalizedBands.map((item, index) => {
     const sortedEntries = [...item.entries].sort((a, b) => a.year - b.year);
     const timeline = yearsDomain.map((year) => sortedEntries.find((entry) => entry.year === year) ?? null);
     const pathGenerator = line<ChartEntry | null>()
@@ -297,19 +298,18 @@
       color: LINE_COLORS[index % LINE_COLORS.length],
       shape: SHAPE_SEQUENCE[index % SHAPE_SEQUENCE.length]
     } satisfies BandSeries;
-  });
+  }));
 
-  let conductorLabels: (ConductorChange & { anchor: 'start' | 'middle' | 'end'; dx: number; y: number })[] = [];
-  $: conductorLabels = showConductorLabels() && series.length
+  let conductorLabels = $derived(showConductorLabels() && series.length
     ? series[0].conductorChanges.map((change) => ({
         ...change,
         ...getConductorLabelProps(change),
         y: getConductorLabelY(series[0].entries, change)
       }))
-    : [];
+    : []);
 
-  let yTicks: number[] = [];
-  $: {
+  let yTicks = $state<number[]>([]);
+  $effect(() => {
     if (yMode === 'relative') {
       yTicks = Array.from({ length: 11 }, (_, index) => index * 10);
     } else {
@@ -320,23 +320,19 @@
         yTicks = [1, ...yTicks];
       }
     }
-  }
+  });
 
-  let participatingYears: Set<number> = new Set();
-  $: participatingYears = new Set(allEntries.map((entry) => entry.year));
+  let participatingYears = $derived(new Set(allEntries.map((entry) => entry.year)));
 
-  let labelStep = 1;
-  $: labelStep = yearsDomain.length > 30 ? 5 : yearsDomain.length > 18 ? 3 : 1;
+  let labelStep = $derived(yearsDomain.length > 30 ? 5 : yearsDomain.length > 18 ? 3 : 1);
 
-  let yearLabels = yearsDomain;
-  $: yearLabels = yearsDomain.filter((year, index) => {
+  let yearLabels = $derived(yearsDomain.filter((year, index) => {
     if (index === 0 || index === yearsDomain.length - 1) return true;
     if (year === 2019) return true;
     return year % labelStep === 0;
-  });
+  }));
 
-  let yearLabelPositions: { year: number; x: number; inactive: boolean }[] = [];
-  $: yearLabelPositions = yearLabels.map((year) => {
+  let yearLabelPositions = $derived(yearLabels.map((year) => {
     const baseX = xScale(year) ?? margin.left;
     const x = labelGeometry.offsetX + baseX * labelGeometry.scaleX;
     return {
@@ -344,15 +340,13 @@
       x,
       inactive: !participatingYears.has(year)
     };
-  });
+  }));
 
-  let yearAxisY = height;
-  $: yearAxisY = labelGeometry.offsetY + (height - margin.bottom) * labelGeometry.scaleY + YEAR_AXIS_PADDING;
+  let yearAxisY = $derived(labelGeometry.offsetY + (height - margin.bottom) * labelGeometry.scaleY + YEAR_AXIS_PADDING);
 
-  let legendDivisions: string[] = [];
-  $: legendDivisions = Array.from(new Set(allEntries.map((entry) => entry.division)))
+  let legendDivisions = $derived(Array.from(new Set(allEntries.map((entry) => entry.division)))
     .filter((division): division is string => typeof division === 'string' && division.length > 0)
-    .sort(compareDivisions);
+    .sort(compareDivisions));
 
   const showDivisionLegend = () => legendDivisions.length > 0;
 
@@ -472,10 +466,10 @@
                 role="button"
                 tabindex="0"
                 aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position}${relativeLabel ? ` · relativ ${relativeLabel}` : ''})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
-                on:mouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
-                on:mouseleave={hideTooltip}
-                on:focus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
-                on:blur={hideTooltip}
+                onmouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
+                onmouseleave={hideTooltip}
+                onfocus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
+                onblur={hideTooltip}
               />
             {:else if seriesData.shape === 'square'}
               <rect
@@ -490,10 +484,10 @@
                 role="button"
                 tabindex="0"
                 aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position}${relativeLabel ? ` · relativ ${relativeLabel}` : ''})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
-                on:mouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
-                on:mouseleave={hideTooltip}
-                on:focus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
-                on:blur={hideTooltip}
+                onmouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
+                onmouseleave={hideTooltip}
+                onfocus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
+                onblur={hideTooltip}
               />
             {:else}
               <path
@@ -504,10 +498,10 @@
                 role="button"
                 tabindex="0"
                 aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position}${relativeLabel ? ` · relativ ${relativeLabel}` : ''})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
-                on:mouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
-                on:mouseleave={hideTooltip}
-                on:focus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
-                on:blur={hideTooltip}
+                onmouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
+                onmouseleave={hideTooltip}
+                onfocus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
+                onblur={hideTooltip}
               />
             {/if}
           </g>
