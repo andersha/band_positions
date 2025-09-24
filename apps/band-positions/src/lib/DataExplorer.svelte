@@ -24,12 +24,17 @@
 
   // Derived values that recalculate when dataset changes
   let yearDivisionMap = $derived(dataset ? buildYearDivisionMap(dataset) : new Map());
-  let availableYears = $derived(dataset?.metadata?.years || []);
+  let availableYears = $derived(() => {
+    if (!dataset || !dataset.metadata || !Array.isArray(dataset.metadata.years)) {
+      return [];
+    }
+    return dataset.metadata.years;
+  });
   let generatedAt = $derived(dataset?.metadata?.generated_at ?? null);
   
   // Derived divisions for the selected year
   let divisionsForYear = $derived(() => {
-    if (!dataset || selectedYear == null || !yearDivisionMap.has(selectedYear)) {
+    if (!dataset || !dataset.metadata || !Array.isArray(dataset.metadata.divisions) || selectedYear == null || !yearDivisionMap.has(selectedYear)) {
       return [];
     }
     const divisionsMap = yearDivisionMap.get(selectedYear) ?? new Map<string, TableRow[]>();
@@ -169,9 +174,10 @@
 
   // Single effect to handle initial selections when dataset changes
   $effect(() => {
-    if (dataset && availableYears.length > 0) {
+    const years = availableYears;
+    if (dataset && years && years.length > 0) {
       // Set initial year if not set or invalid
-      const newSelectedYear = ensureYearSelection(availableYears);
+      const newSelectedYear = ensureYearSelection(years);
       if (selectedYear !== newSelectedYear) {
         selectedYear = newSelectedYear;
       }
@@ -184,8 +190,9 @@
   
   // Effect to handle division selection when year changes or divisions change
   $effect(() => {
-    if (selectedYear != null && divisionsForYear.length > 0) {
-      const newSelectedDivision = ensureDivisionSelection(divisionsForYear);
+    const divisions = divisionsForYear;
+    if (selectedYear != null && divisions && divisions.length > 0) {
+      const newSelectedDivision = ensureDivisionSelection(divisions);
       if (selectedDivision !== newSelectedDivision) {
         selectedDivision = newSelectedDivision;
       }
@@ -204,6 +211,11 @@
     {#if formattedGeneratedAt}
       <p>Data oppdatert {formattedGeneratedAt}</p>
     {/if}
+  </div>
+
+  <!-- Debug info -->
+  <div style="font-size: 12px; color: #666; margin: 10px 0;">
+    Debug: dataset={!!dataset}, availableYears={availableYears?.length || 0}, selectedYear={selectedYear}, selectedDivision={selectedDivision}, divisionsForYear={divisionsForYear?.length || 0}, tableRows={tableRows?.length || 0}
   </div>
 
   {#if !dataset}
