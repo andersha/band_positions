@@ -33,8 +33,23 @@
   function buildYearDivisionMap(source: BandDataset): Map<number, Map<string, TableRow[]>> {
     const map = new Map<number, Map<string, TableRow[]>>();
 
+    if (!source?.bands || !Array.isArray(source.bands)) {
+      console.warn('Invalid dataset provided to buildYearDivisionMap');
+      return map;
+    }
+
     for (const band of source.bands) {
+      if (!band || !band.entries || !Array.isArray(band.entries)) {
+        console.warn('Invalid band data:', band);
+        continue;
+      }
+      
       for (const entry of band.entries) {
+        if (!entry || typeof entry.year !== 'number' || !entry.division) {
+          console.warn('Invalid entry data:', entry);
+          continue;
+        }
+        
         let yearBucket = map.get(entry.year);
         if (!yearBucket) {
           yearBucket = new Map();
@@ -118,33 +133,62 @@
     selectedDivision = (event.target as HTMLSelectElement).value || null;
   }
 
+  // Initialize data when dataset changes
   $effect(() => {
-    if (dataset) {
-      yearDivisionMap = buildYearDivisionMap(dataset);
-      availableYears = dataset.metadata.years;
-      generatedAt = dataset.metadata.generated_at ?? null;
-      selectedYear = ensureYearSelection(availableYears);
-    } else {
+    try {
+      if (dataset) {
+        yearDivisionMap = buildYearDivisionMap(dataset);
+        availableYears = dataset.metadata?.years || [];
+        generatedAt = dataset.metadata?.generated_at ?? null;
+        
+        // Set initial year selection without triggering other effects
+        const newSelectedYear = ensureYearSelection(availableYears);
+        if (newSelectedYear !== selectedYear) {
+          selectedYear = newSelectedYear;
+        }
+      } else {
+        yearDivisionMap = new Map();
+        availableYears = [];
+        generatedAt = null;
+        selectedYear = null;
+        divisionsForYear = [];
+        selectedDivision = null;
+        tableRows = [];
+        divisionSize = null;
+        fieldSize = null;
+      }
+    } catch (error) {
+      console.error('Error in DataExplorer initialization:', error);
+      // Reset to safe state
       yearDivisionMap = new Map();
       availableYears = [];
       generatedAt = null;
       selectedYear = null;
+      divisionsForYear = [];
+      selectedDivision = null;
+      tableRows = [];
+      divisionSize = null;
+      fieldSize = null;
     }
   });
 
+  // Update divisions when year changes
   $effect(() => {
-    if (dataset && selectedYear != null) {
+    if (dataset && selectedYear != null && yearDivisionMap.has(selectedYear)) {
       const divisionsMap = yearDivisionMap.get(selectedYear) ?? new Map<string, TableRow[]>();
       const ordered = dataset.metadata.divisions.filter((division) => divisionsMap.has(division));
       const remaining = Array.from(divisionsMap.keys()).filter((division) => !ordered.includes(division)).sort();
       divisionsForYear = [...ordered, ...remaining];
-      selectedDivision = ensureDivisionSelection(divisionsForYear);
-    } else {
-      divisionsForYear = [];
-      selectedDivision = null;
+      
+      // Set division selection without triggering infinite loop
+      const newSelectedDivision = ensureDivisionSelection(divisionsForYear);
+      if (newSelectedDivision !== selectedDivision) {
+        selectedDivision = newSelectedDivision;
+      }
     }
   });
 
+  // Update table rows when year or division changes
   $effect(() => {
     if (selectedYear != null && selectedDivision && yearDivisionMap.has(selectedYear)) {
       const rows = yearDivisionMap.get(selectedYear)?.get(selectedDivision) ?? [];
@@ -154,7 +198,8 @@
       divisionSize = computedDivisionSize && computedDivisionSize > 0 ? computedDivisionSize : null;
       const computedFieldSize = first?.field_size ?? null;
       fieldSize = computedFieldSize && computedFieldSize > 0 ? computedFieldSize : null;
-    } else {
+    } else if (selectedYear != null || selectedDivision != null) {
+      // Only clear if we have some selection but it's invalid
       tableRows = [];
       divisionSize = null;
       fieldSize = null;
