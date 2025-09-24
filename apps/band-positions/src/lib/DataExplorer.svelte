@@ -101,8 +101,11 @@
       return value;
     }
     return new Intl.DateTimeFormat('nb-NO', {
-      dateStyle: 'medium',
-      timeStyle: 'short'
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
     }).format(date);
   }
 

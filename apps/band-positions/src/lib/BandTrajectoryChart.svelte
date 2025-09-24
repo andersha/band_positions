@@ -259,31 +259,31 @@
     return a.localeCompare(b);
   }
 
-  let normalizedBands = $derived(bands.map((band) => ({ band, entries: normalizeEntries(band.entries) })));
+  let normalizedBands = $derived(bands.map((band: BandRecord) => ({ band, entries: normalizeEntries(band.entries) })));
 
-  let allEntries = $derived(normalizedBands.flatMap((item) => item.entries));
+  let allEntries = $derived(normalizedBands.flatMap((item: any) => item.entries));
 
   let yearsDomain = $derived((() => {
     if (years.length) return years;
     if (!allEntries.length) return [0];
-    return Array.from(new Set(allEntries.map((entry) => entry.year))).sort((a, b) => a - b);
+    return Array.from(new Set(allEntries.map((entry: ChartEntry) => entry.year))).sort((a: number, b: number) => a - b);
   })());
 
   let xScale = $derived(scalePoint<number>().domain(yearsDomain).range([margin.left, width - margin.right]));
 
-  let chartMaxField = $derived(maxFieldSize || (allEntries.length ? Math.max(...allEntries.map((entry) => entry.field_size)) : 1));
+  let chartMaxField = $derived(maxFieldSize || (allEntries.length ? Math.max(...allEntries.map((entry: ChartEntry) => entry.field_size ?? 0)) : 1));
 
   let yDomain = $derived<[number, number]>(yMode === 'relative' ? [100, 0] : [chartMaxField + 1, 0]);
 
   let yScale = $derived(scaleLinear().domain(yDomain).range([height - margin.bottom, margin.top]));
 
-  let series = $derived(normalizedBands.map((item, index) => {
+  let series = $derived(normalizedBands.map((item: any, index: number) => {
     const sortedEntries = [...item.entries].sort((a, b) => a.year - b.year);
-    const timeline = yearsDomain.map((year) => sortedEntries.find((entry) => entry.year === year) ?? null);
+    const timeline = yearsDomain.map((year: number) => sortedEntries.find((entry) => entry.year === year) ?? null);
     const pathGenerator = line<ChartEntry | null>()
-      .defined((value): value is ChartEntry => value !== null)
-      .x((entry) => xScale(entry.year) ?? margin.left)
-      .y((entry) => yScale(getEntryYValue(entry)))
+      .defined((value: any): value is ChartEntry => value !== null)
+      .x((entry: ChartEntry) => xScale(entry.year) ?? margin.left)
+      .y((entry: ChartEntry) => yScale(getEntryYValue(entry)))
       .curve(curveMonotoneX);
 
     const pathData = pathGenerator(timeline) ?? undefined;
@@ -301,7 +301,7 @@
   }));
 
   let conductorLabels = $derived(showConductorLabels() && series.length
-    ? series[0].conductorChanges.map((change) => ({
+    ? series[0].conductorChanges.map((change: any) => ({
         ...change,
         ...getConductorLabelProps(change),
         y: getConductorLabelY(series[0].entries, change)
@@ -313,26 +313,26 @@
     if (yMode === 'relative') {
       yTicks = Array.from({ length: 11 }, (_, index) => index * 10);
     } else {
-      yTicks = Array.from(new Set(ticks(1, chartMaxField, 6).map((tick) => Math.round(tick))))
-        .filter((tick) => tick >= 1)
-        .sort((a, b) => a - b);
+      yTicks = Array.from(new Set(ticks(1, chartMaxField, 6).map((tick: any) => Math.round(tick))))
+        .filter((tick: any) => tick >= 1)
+        .sort((a: any, b: any) => a - b);
       if (!yTicks.includes(1)) {
         yTicks = [1, ...yTicks];
       }
     }
   });
 
-  let participatingYears = $derived(new Set(allEntries.map((entry) => entry.year)));
+  let participatingYears = $derived(new Set(allEntries.map((entry: ChartEntry) => entry.year)));
 
   let labelStep = $derived(yearsDomain.length > 30 ? 5 : yearsDomain.length > 18 ? 3 : 1);
 
-  let yearLabels = $derived(yearsDomain.filter((year, index) => {
+  let yearLabels = $derived(yearsDomain.filter((year: number, index: number) => {
     if (index === 0 || index === yearsDomain.length - 1) return true;
     if (year === 2019) return true;
     return year % labelStep === 0;
   }));
 
-  let yearLabelPositions = $derived(yearLabels.map((year) => {
+  let yearLabelPositions = $derived(yearLabels.map((year: number) => {
     const baseX = xScale(year) ?? margin.left;
     const x = labelGeometry.offsetX + baseX * labelGeometry.scaleX;
     return {
@@ -344,7 +344,7 @@
 
   let yearAxisY = $derived(labelGeometry.offsetY + (height - margin.bottom) * labelGeometry.scaleY + YEAR_AXIS_PADDING);
 
-  let legendDivisions = $derived(Array.from(new Set(allEntries.map((entry) => entry.division)))
+  let legendDivisions = $derived(Array.from(new Set(allEntries.map((entry: ChartEntry) => entry.division)))
     .filter((division): division is string => typeof division === 'string' && division.length > 0)
     .sort(compareDivisions));
 

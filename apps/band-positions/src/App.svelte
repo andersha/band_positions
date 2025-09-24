@@ -159,7 +159,8 @@
   }
 
   function getUrlParamKey(view: ViewType): string {
-    return URL_PARAM_KEYS[view];
+    if (view === 'data') return 'data'; // fallback for data view
+    return URL_PARAM_KEYS[view as keyof typeof URL_PARAM_KEYS];
   }
 
   function getModeFromURL(): 'absolute' | 'relative' {
@@ -354,10 +355,10 @@
   function chooseRecord(record: BandRecord | PieceRecord): void {
     if (activeView === 'bands') {
       if (selectedBands.some((item) => item.slug === record.slug)) return;
-      selectedBands = [...selectedBands, record];
+      selectedBands = [...selectedBands, record as BandRecord];
     } else if (activeView === 'conductors') {
       if (selectedConductors.some((item) => item.slug === record.slug)) return;
-      selectedConductors = [...selectedConductors, record];
+      selectedConductors = [...selectedConductors, record as BandRecord];
     } else {
       const pieceRecord = record as PieceRecord;
       if (selectedPieces.some((item) => item.slug === pieceRecord.slug)) return;
@@ -382,7 +383,7 @@
 
   function handleSubmit(): void {
     if (trimmed.length === 0) return;
-    const exact = activeRecords.find((record) => record.name.toLowerCase() === lowered);
+    const exact = activeRecords.find((record: any) => record.name.toLowerCase() === lowered);
     if (exact) {
       chooseRecord(exact);
     } else if (suggestions.length > 0) {
@@ -477,7 +478,7 @@
     $derived(isEntityView && activeRecords && lowered.length >= 2
       ? activeRecords
           .filter(
-            (record) =>
+            (record: any) =>
               record.name.toLowerCase().includes(lowered) &&
               !activeSelection.some((selected) => selected.slug === record.slug)
           )
