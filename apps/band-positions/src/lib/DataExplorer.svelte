@@ -19,16 +19,50 @@
     maximumFractionDigits: 1
   });
 
-  let availableYears: number[] = $state([]);
   let selectedYear: number | null = $state(null);
-  let divisionsForYear: string[] = $state([]);
   let selectedDivision: string | null = $state(null);
-  let tableRows: TableRow[] = $state([]);
-  let divisionSize: number | null = $state(null);
-  let fieldSize: number | null = $state(null);
-  let generatedAt: string | null = $state(null);
 
-  let yearDivisionMap: Map<number, Map<string, TableRow[]>> = $state(new Map());
+  // Derived values that recalculate when dataset changes
+  let yearDivisionMap = $derived(dataset ? buildYearDivisionMap(dataset) : new Map());
+  let availableYears = $derived(dataset?.metadata?.years || []);
+  let generatedAt = $derived(dataset?.metadata?.generated_at ?? null);
+  
+  // Derived divisions for the selected year
+  let divisionsForYear = $derived(() => {
+    if (!dataset || selectedYear == null || !yearDivisionMap.has(selectedYear)) {
+      return [];
+    }
+    const divisionsMap = yearDivisionMap.get(selectedYear) ?? new Map<string, TableRow[]>();
+    const ordered = dataset.metadata.divisions.filter((division) => divisionsMap.has(division));
+    const remaining = Array.from(divisionsMap.keys()).filter((division) => !ordered.includes(division)).sort();
+    return [...ordered, ...remaining];
+  });
+  
+  // Derived table rows for selected year/division
+  let tableData = $derived(() => {
+    if (selectedYear != null && selectedDivision && yearDivisionMap.has(selectedYear)) {
+      const rows = yearDivisionMap.get(selectedYear)?.get(selectedDivision) ?? [];
+      const sortedRows = sortRows(rows);
+      const first = sortedRows[0]?.entry;
+      const computedDivisionSize = first?.division_size ?? sortedRows.length;
+      const computedFieldSize = first?.field_size ?? null;
+      
+      return {
+        tableRows: sortedRows,
+        divisionSize: computedDivisionSize && computedDivisionSize > 0 ? computedDivisionSize : null,
+        fieldSize: computedFieldSize && computedFieldSize > 0 ? computedFieldSize : null
+      };
+    }
+    return {
+      tableRows: [],
+      divisionSize: null,
+      fieldSize: null
+    };
+  });
+  
+  let tableRows = $derived(tableData.tableRows);
+  let divisionSize = $derived(tableData.divisionSize);
+  let fieldSize = $derived(tableData.fieldSize);
 
   function buildYearDivisionMap(source: BandDataset): Map<number, Map<string, TableRow[]>> {
     const map = new Map<number, Map<string, TableRow[]>>();
@@ -133,76 +167,31 @@
     selectedDivision = (event.target as HTMLSelectElement).value || null;
   }
 
-  // Initialize data when dataset changes
+  // Single effect to handle initial selections when dataset changes
   $effect(() => {
-    try {
-      if (dataset) {
-        yearDivisionMap = buildYearDivisionMap(dataset);
-        availableYears = dataset.metadata?.years || [];
-        generatedAt = dataset.metadata?.generated_at ?? null;
-        
-        // Set initial year selection without triggering other effects
-        const newSelectedYear = ensureYearSelection(availableYears);
-        if (newSelectedYear !== selectedYear) {
-          selectedYear = newSelectedYear;
-        }
-      } else {
-        yearDivisionMap = new Map();
-        availableYears = [];
-        generatedAt = null;
-        selectedYear = null;
-        divisionsForYear = [];
-        selectedDivision = null;
-        tableRows = [];
-        divisionSize = null;
-        fieldSize = null;
+    if (dataset && availableYears.length > 0) {
+      // Set initial year if not set or invalid
+      const newSelectedYear = ensureYearSelection(availableYears);
+      if (selectedYear !== newSelectedYear) {
+        selectedYear = newSelectedYear;
       }
-    } catch (error) {
-      console.error('Error in DataExplorer initialization:', error);
-      // Reset to safe state
-      yearDivisionMap = new Map();
-      availableYears = [];
-      generatedAt = null;
+    } else {
+      // Clear selections when no dataset
       selectedYear = null;
-      divisionsForYear = [];
       selectedDivision = null;
-      tableRows = [];
-      divisionSize = null;
-      fieldSize = null;
     }
   });
-
-  // Update divisions when year changes
+  
+  // Effect to handle division selection when year changes or divisions change
   $effect(() => {
-    if (dataset && selectedYear != null && yearDivisionMap.has(selectedYear)) {
-      const divisionsMap = yearDivisionMap.get(selectedYear) ?? new Map<string, TableRow[]>();
-      const ordered = dataset.metadata.divisions.filter((division) => divisionsMap.has(division));
-      const remaining = Array.from(divisionsMap.keys()).filter((division) => !ordered.includes(division)).sort();
-      divisionsForYear = [...ordered, ...remaining];
-      
-      // Set division selection without triggering infinite loop
+    if (selectedYear != null && divisionsForYear.length > 0) {
       const newSelectedDivision = ensureDivisionSelection(divisionsForYear);
-      if (newSelectedDivision !== selectedDivision) {
+      if (selectedDivision !== newSelectedDivision) {
         selectedDivision = newSelectedDivision;
       }
-    }
-  });
-
-  // Update table rows when year or division changes
-  $effect(() => {
-    if (selectedYear != null && selectedDivision && yearDivisionMap.has(selectedYear)) {
-      const rows = yearDivisionMap.get(selectedYear)?.get(selectedDivision) ?? [];
-      tableRows = sortRows(rows);
-      const first = tableRows[0]?.entry;
-      const computedDivisionSize = first?.division_size ?? tableRows.length;
-      divisionSize = computedDivisionSize && computedDivisionSize > 0 ? computedDivisionSize : null;
-      const computedFieldSize = first?.field_size ?? null;
-      fieldSize = computedFieldSize && computedFieldSize > 0 ? computedFieldSize : null;
-    } else if (selectedYear != null || selectedDivision != null) {
-      // Only clear if we have some selection but it's invalid
-      tableRows = [];
-      divisionSize = null;
-      fieldSize = null;
+    } else if (selectedYear != null) {
+      // Clear division if year is set but no divisions available
+      selectedDivision = null;
     }
   });
 
