@@ -38,51 +38,48 @@
     return [...ordered, ...remaining];
   })());
   
-  // Derived table rows for selected year/division
-  let tableData = $derived(() => {
+  // Direct derived table rows for selected year/division
+  let tableRows = $derived((() => {
     if (selectedYear != null && selectedDivision && yearDivisionMap.has(selectedYear)) {
-      const rows = yearDivisionMap.get(selectedYear)?.get(selectedDivision) ?? [];
-      const sortedRows = sortRows(rows);
-      const first = sortedRows[0]?.entry;
-      const computedDivisionSize = first?.division_size ?? sortedRows.length;
-      const computedFieldSize = first?.field_size ?? null;
-      
-      return {
-        tableRows: sortedRows,
-        divisionSize: computedDivisionSize && computedDivisionSize > 0 ? computedDivisionSize : null,
-        fieldSize: computedFieldSize && computedFieldSize > 0 ? computedFieldSize : null
-      };
+      const yearMap = yearDivisionMap.get(selectedYear!);
+      const rows = yearMap?.get(selectedDivision) ?? [];
+      return sortRows(rows);
     }
-    return {
-      tableRows: [],
-      divisionSize: null,
-      fieldSize: null
-    };
-  });
+    return [];
+  })());
   
-  let tableRows = $derived(tableData.tableRows);
-  let divisionSize = $derived(tableData.divisionSize);
-  let fieldSize = $derived(tableData.fieldSize);
+  let divisionSize = $derived((() => {
+    if (tableRows.length > 0) {
+      const first = tableRows[0]?.entry;
+      const computedDivisionSize = first?.division_size ?? tableRows.length;
+      return computedDivisionSize && computedDivisionSize > 0 ? computedDivisionSize : null;
+    }
+    return null;
+  })());
+  
+  let fieldSize = $derived((() => {
+    if (tableRows.length > 0) {
+      const first = tableRows[0]?.entry;
+      const computedFieldSize = first?.field_size ?? null;
+      return computedFieldSize && computedFieldSize > 0 ? computedFieldSize : null;
+    }
+    return null;
+  })());
 
   function buildYearDivisionMap(source: BandDataset): Map<number, Map<string, TableRow[]>> {
     const map = new Map<number, Map<string, TableRow[]>>();
-
-    console.log('buildYearDivisionMap called', { source: !!source, bands: source?.bands?.length, metadata: !!source?.metadata });
     
     if (!source?.bands || !Array.isArray(source.bands)) {
-      console.warn('Invalid dataset provided to buildYearDivisionMap');
       return map;
     }
-
+    
     for (const band of source.bands) {
       if (!band || !band.entries || !Array.isArray(band.entries)) {
-        console.warn('Invalid band data:', band);
         continue;
       }
       
       for (const entry of band.entries) {
         if (!entry || typeof entry.year !== 'number' || !entry.division) {
-          console.warn('Invalid entry data:', entry);
           continue;
         }
         
@@ -208,10 +205,6 @@
     {/if}
   </div>
 
-  <!-- Debug info -->
-  <div style="font-size: 12px; color: #666; margin: 10px 0;">
-    Debug: dataset={!!dataset}, availableYears={availableYears?.length || 0}, selectedYear={selectedYear}, selectedDivision={selectedDivision}, divisionsForYear={divisionsForYear?.length || 0}, tableRows={tableRows?.length || 0}
-  </div>
 
   {#if !dataset}
     <p class="data-status">Kunne ikke finne datasettet.</p>
