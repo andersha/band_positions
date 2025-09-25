@@ -35,14 +35,14 @@
   const LINE_COLORS = ['#38bdf8', '#f97316', '#22c55e', '#a855f7', '#f43f5e', '#facc15', '#14b8a6'];
   const SHAPE_SEQUENCE: MarkerShape[] = ['circle', 'square', 'triangle'];
   const SHAPE_SIZE = 6;
-  const CONDUCTOR_LANES = 3;
-  const LANE_HEIGHT = 18;
-  const LABEL_OFFSET_ABOVE = 18;
-  const LABEL_OFFSET_BELOW = 22;
-  const MIN_LABEL_TOP = margin.top + 6;
-  const MAX_LABEL_BOTTOM = height - margin.bottom - 12;
+  const LANE_HEIGHT = 24;
+  const LABEL_OFFSET_ABOVE = 26;
+  const LABEL_OFFSET_BELOW = 30;
+  const MIN_LABEL_TOP = margin.top + 12;
+  const MAX_LABEL_BOTTOM = height - margin.bottom - 22;
   const YEAR_AXIS_PADDING = 10;
   const ESTIMATED_CHARACTER_WIDTH = 6;
+  const LANE_SEQUENCE = [0, 1, 2, 3];
 
   type MarkerShape = 'circle' | 'square' | 'triangle';
 
@@ -138,8 +138,7 @@
     if (entries.length > 0) {
       const first = entries[0];
       if (first.conductor) {
-        const lane = laneIndex % CONDUCTOR_LANES;
-        markers.push({ year: first.year, conductor: first.conductor, lane });
+        markers.push({ year: first.year, conductor: first.conductor, lane: laneIndex });
         laneIndex += 1;
       }
     }
@@ -148,8 +147,7 @@
       const prev = entries[index - 1];
       const current = entries[index];
       if (prev.conductor && current.conductor && prev.conductor !== current.conductor) {
-        const lane = laneIndex % CONDUCTOR_LANES;
-        markers.push({ year: current.year, conductor: current.conductor, lane });
+        markers.push({ year: current.year, conductor: current.conductor, lane: laneIndex });
         laneIndex += 1;
       }
     }
@@ -213,24 +211,29 @@
     window.removeEventListener('resize', updateLabelGeometry);
   });
 
-  function getConductorLabelProps(change: ConductorChange) {
+  function getLaneTier(lane: number): number {
+    return LANE_SEQUENCE[lane % LANE_SEQUENCE.length] ?? 0;
+  }
+
+  function getConductorLabelProps(change: ConductorChange, maxLineLength: number) {
     const scale = xScale;
     if (!scale) {
-      return { anchor: 'middle', dx: 0 } as const;
+      return { anchor: 'middle' as const, dx: 0 };
     }
 
     const xPosition = scale(change.year) ?? margin.left;
-    const estimatedWidth = (change.conductor?.length ?? 0) * ESTIMATED_CHARACTER_WIDTH;
-    const halfWidth = estimatedWidth / 2;
-    const chartRight = width - margin.right;
+    const boundaryPadding = 48;
+    const chartLeft = margin.left - boundaryPadding;
+    const chartRight = width - margin.right + boundaryPadding;
+    const estimatedWidth = (Math.max(maxLineLength, 1) * ESTIMATED_CHARACTER_WIDTH) / 2;
 
-    if (xPosition + halfWidth > chartRight) {
-      return { anchor: 'end', dx: -8 } as const;
+    if (xPosition + estimatedWidth > chartRight) {
+      return { anchor: 'end' as const, dx: 0 };
     }
-    if (xPosition - halfWidth < margin.left) {
-      return { anchor: 'start', dx: 8 } as const;
+    if (xPosition - estimatedWidth < chartLeft) {
+      return { anchor: 'start' as const, dx: 0 };
     }
-    return { anchor: 'middle', dx: 0 } as const;
+    return { anchor: 'middle' as const, dx: 0 };
   }
 
   function splitConductorLabel(name: string | null | undefined): string[] {
@@ -248,13 +251,17 @@
     return [firstPart, lastPart];
   }
 
-  function getConductorLabelY(entries: ChartEntry[], change: ConductorChange) {
+  function getConductorLabelY(entries: ChartEntry[], change: ConductorChange, labelLines?: string[]) {
     const entry = entries.find((item) => item.year === change.year);
+    const tier = getLaneTier(change.lane);
     if (!entry) {
-      return margin.top - 8 + change.lane * LANE_HEIGHT;
+      return margin.top - 8 + tier * (LANE_HEIGHT + 6);
     }
 
     const dotY = yScale(getEntryYValue(entry));
+    const lines = labelLines ?? splitConductorLabel(change.conductor);
+    const linesCount = Math.max(lines.length, 1);
+    const lineOffset = (linesCount - 1) * 6;
 
     const neighbours = entries
       .filter((item) => item.year >= change.year - 1 && item.year <= change.year + 1)
@@ -274,15 +281,25 @@
       }
     }
 
-    const aboveOffset = LABEL_OFFSET_ABOVE + change.lane * (LANE_HEIGHT / 2);
+    const tierSpacing = LANE_HEIGHT + 10;
+    const aboveOffset = LABEL_OFFSET_ABOVE + tier * tierSpacing + lineOffset;
     const candidateAbove = dotY - aboveOffset;
     if (placeAbove && candidateAbove > MIN_LABEL_TOP) {
       return candidateAbove;
     }
 
-    const laneDepth = change.lane / CONDUCTOR_LANES;
-    const belowOffset = LABEL_OFFSET_BELOW + change.lane * (LANE_HEIGHT / 2) + laneDepth * 24;
-    return Math.min(dotY + belowOffset, MAX_LABEL_BOTTOM);
+    const belowOffset = LABEL_OFFSET_BELOW + tier * tierSpacing + lineOffset;
+    const candidateBelow = dotY + belowOffset;
+    if (candidateBelow <= MAX_LABEL_BOTTOM) {
+      return candidateBelow;
+    }
+
+    const fallback = MAX_LABEL_BOTTOM - tier * tierSpacing;
+    if (fallback > MIN_LABEL_TOP) {
+      return fallback;
+    }
+
+    return Math.max(MIN_LABEL_TOP, Math.min(MAX_LABEL_BOTTOM, dotY));
   }
 
   function getTrianglePath(cx: number, cy: number, size: number): string {
@@ -372,12 +389,17 @@
 
   let conductorLabels = $derived(
     showConductorLabels() && series.length
-      ? series[0].conductorChanges.map((change) => ({
-          ...change,
-          ...getConductorLabelProps(change),
-          y: getConductorLabelY(series[0].entries, change),
-          labelLines: splitConductorLabel(change.conductor)
-        }))
+      ? series[0].conductorChanges.map((change) => {
+          const labelLines = splitConductorLabel(change.conductor);
+          const maxLineLength = labelLines.reduce((max, line) => Math.max(max, line.length), 0);
+          const labelProps = getConductorLabelProps(change, maxLineLength);
+          return {
+            ...change,
+            ...labelProps,
+            y: getConductorLabelY(series[0].entries, change, labelLines),
+            labelLines
+          };
+        })
       : []
   );
 
