@@ -171,7 +171,7 @@
 
   // Single effect to handle initial selections when dataset changes
   $effect(() => {
-    if (dataset && availableYears && availableYears.length > 0) {
+    if (dataset && availableYears && Array.isArray(availableYears) && availableYears.length > 0) {
       // Set initial year if not set or invalid
       const newSelectedYear = ensureYearSelection(availableYears);
       if (selectedYear !== newSelectedYear) {
@@ -186,7 +186,7 @@
   
   // Effect to handle division selection when year changes or divisions change
   $effect(() => {
-    if (selectedYear != null && divisionsForYear && divisionsForYear.length > 0) {
+    if (selectedYear != null && divisionsForYear && Array.isArray(divisionsForYear) && divisionsForYear.length > 0) {
       const newSelectedDivision = ensureDivisionSelection(divisionsForYear);
       if (selectedDivision !== newSelectedDivision) {
         selectedDivision = newSelectedDivision;
@@ -210,19 +210,19 @@
 
   <!-- Debug info -->
   <div style="font-size: 12px; color: #666; margin: 10px 0;">
-    Debug: dataset={!!dataset}, availableYears={availableYears.length}, selectedYear={selectedYear}, selectedDivision={selectedDivision}, divisionsForYear={divisionsForYear.length}, tableRows={tableRows.length}
+    Debug: dataset={!!dataset}, availableYears={availableYears?.length || 0}, selectedYear={selectedYear}, selectedDivision={selectedDivision}, divisionsForYear={divisionsForYear?.length || 0}, tableRows={tableRows?.length || 0}
   </div>
 
   {#if !dataset}
     <p class="data-status">Kunne ikke finne datasettet.</p>
-  {:else if !availableYears.length}
+  {:else if !availableYears || !availableYears.length}
     <p class="data-status">Ingen årsdata tilgjengelig.</p>
   {:else}
     <div class="data-controls">
       <label class="control">
         <span>År</span>
         <select onchange={handleYearChange}>
-          {#each availableYears as year}
+          {#each availableYears || [] as year}
             <option value={year} selected={selectedYear === year}>{year}</option>
           {/each}
         </select>
@@ -230,7 +230,7 @@
       <label class="control">
         <span>Divisjon</span>
         <select onchange={handleDivisionChange}>
-          {#if divisionsForYear.length === 0}
+          {#if !divisionsForYear || divisionsForYear.length === 0}
             <option value="" selected>Ingen divisjoner</option>
           {:else}
             {#each divisionsForYear as division}
@@ -249,7 +249,7 @@
       {/if}
     </div>
 
-    {#if tableRows.length === 0}
+    {#if !tableRows || tableRows.length === 0}
       <p class="data-status">Ingen resultater for valgt kombinasjon.</p>
     {:else}
       <div class="table-wrapper" role="region" aria-live="polite">
