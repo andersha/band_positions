@@ -40,5 +40,18 @@ export interface PieceRecord {
   name: string;
   slug: string;
   composer?: string | null;
+  composerNames?: string[];
   performances: PiecePerformance[];
+}
+
+export interface ComposerPieceSummary {
+  name: string;
+  slug: string;
+}
+
+export interface ComposerRecord {
+  name: string;
+  slug: string;
+  normalized: string;
+  pieces: ComposerPieceSummary[];
 }

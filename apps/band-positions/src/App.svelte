@@ -5,13 +5,15 @@
   import BandTrajectoryChart from './lib/BandTrajectoryChart.svelte';
   import DataExplorer from './lib/DataExplorer.svelte';
   import PiecePerformances from './lib/PiecePerformances.svelte';
+  import ComposerPieces from './lib/ComposerPieces.svelte';
   import { slugify } from './lib/slugify';
-  import type { BandDataset, BandRecord, BandEntry, PieceRecord } from './lib/types';
+  import { extractComposerNames, normalizeComposerName } from './lib/composerUtils';
+  import type { BandDataset, BandRecord, BandEntry, PieceRecord, ComposerRecord } from './lib/types';
 
-  type ViewType = 'bands' | 'conductors' | 'pieces' | 'data';
+  type ViewType = 'bands' | 'conductors' | 'pieces' | 'composers' | 'data';
   type Theme = 'light' | 'dark';
 
-  const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor', pieces: 'piece' } as const;
+  const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor', pieces: 'piece', composers: 'composer' } as const;
   const URL_MODE_KEY = 'mode';
   const URL_VIEW_KEY = 'view';
   const URL_SEPARATOR = ',';
@@ -23,19 +25,22 @@
     bands: 'Korps',
     conductors: 'Dirigent',
     pieces: 'Stykke',
+    composers: 'Komponist',
     data: 'Resultat'
   };
-  const viewOrder: ViewType[] = ['bands', 'conductors', 'pieces', 'data'];
+  const viewOrder: ViewType[] = ['bands', 'conductors', 'pieces', 'composers', 'data'];
 
   let dataset = $state<BandDataset | null>(null);
   let conductorRecords = $state<BandRecord[]>([]);
   let pieceRecords = $state<PieceRecord[]>([]);
+  let composerRecords = $state<ComposerRecord[]>([]);
   let loading = $state(true);
   let error = $state<string | null>(null);
   let searchTerm = $state('');
   let selectedBands = $state<BandRecord[]>([]);
   let selectedConductors = $state<BandRecord[]>([]);
   let selectedPieces = $state<PieceRecord[]>([]);
+  let selectedComposers = $state<ComposerRecord[]>([]);
   let focusedIndex = $state(-1);
   let initialUrlSyncDone = false;
   let lastSyncedSignature = '';
@@ -57,6 +62,7 @@
   }
 
   let pieceComposerIndex = new Map<string, PieceMetadataEntry[]>();
+  let composerPieceIndex = new Map<string, ComposerRecord>();
 
   function buildPieceComposerIndex(metadata: PieceMetadataEntry[]): Map<string, PieceMetadataEntry[]> {
     const index = new Map<string, PieceMetadataEntry[]>();
@@ -255,15 +261,16 @@
 
           const slug = slugify(name);
           let record = records.get(slug);
+          const composerRaw = findComposerForPiece(name, composerIndex);
+          const composerNames = composerRaw ? extractComposerNames(composerRaw) : [];
+          const composerDisplay = composerNames.length > 0 ? composerNames.join(', ') : null;
+
           if (!record) {
-            const composer = findComposerForPiece(name, composerIndex);
-            record = { name, slug, composer: composer ?? null, performances: [] };
+            record = { name, slug, composer: composerDisplay, composerNames, performances: [] };
             records.set(slug, record);
-          } else if (!record.composer) {
-            const composer = findComposerForPiece(name, composerIndex);
-            if (composer) {
-              record.composer = composer;
-            }
+          } else if ((!record.composer || !(record.composerNames?.length)) && composerDisplay) {
+            record.composer = composerDisplay;
+            record.composerNames = composerNames;
           }
 
           record.performances.push({ band: band.name, entry });
@@ -278,6 +285,54 @@
         entry: { ...entry, pieces: [...entry.pieces] }
       }))
     })).sort((a, b) => a.name.localeCompare(b.name));
+  }
+
+  function buildComposerRecords(pieces: PieceRecord[]): ComposerRecord[] {
+    const records = new Map<string, {
+      name: string;
+      slug: string;
+      normalized: string;
+      pieces: Map<string, { name: string; slug: string }>;
+    }>();
+
+    for (const piece of pieces) {
+      const composerNames = piece.composerNames && piece.composerNames.length > 0
+        ? piece.composerNames
+        : extractComposerNames(piece.composer ?? null);
+      if (!composerNames.length) continue;
+
+      for (const rawName of composerNames) {
+        const normalizedName = normalizeComposerName(rawName);
+        if (!normalizedName) continue;
+        const slug = slugify(normalizedName);
+        if (!slug || slug === 'uidentifisert') continue;
+
+        let record = records.get(slug);
+        if (!record) {
+          record = {
+            name: normalizedName,
+            slug,
+            normalized: normalizedName.toLowerCase(),
+            pieces: new Map()
+          };
+          records.set(slug, record);
+        }
+
+        if (!record.pieces.has(piece.slug)) {
+          record.pieces.set(piece.slug, { name: piece.name, slug: piece.slug });
+        }
+      }
+    }
+
+    const sorted = Array.from(records.values()).map((record) => ({
+      name: record.name,
+      slug: record.slug,
+      normalized: record.normalized,
+      pieces: Array.from(record.pieces.values()).sort((a, b) => a.name.localeCompare(b.name))
+    })).sort((a, b) => a.name.localeCompare(b.name));
+
+    composerPieceIndex = new Map(sorted.map((record) => [record.slug, record]));
+    return sorted;
   }
 
   function getUrlParamKey(view: ViewType): string {
@@ -343,6 +398,9 @@
     if (raw === 'pieces' || raw === 'piece' || raw === 'stykke' || raw === 'stykker') {
       return 'pieces';
     }
+    if (raw === 'composers' || raw === 'komponist' || raw === 'composer') {
+      return 'composers';
+    }
     if (raw === 'data' || raw === 'resultat' || raw === 'results') {
       return 'data';
     }
@@ -400,6 +458,15 @@
       params.delete(getUrlParamKey('pieces'));
     }
 
+    const composerSlugs = selectedComposers
+      .map((composer) => encodeURIComponent(composer.slug))
+      .join(URL_SEPARATOR);
+    if (composerSlugs.length) {
+      params.set(getUrlParamKey('composers'), composerSlugs);
+    } else {
+      params.delete(getUrlParamKey('composers'));
+    }
+
     params.set(URL_MODE_KEY, yAxisMode);
     params.set(URL_VIEW_KEY, activeView);
 
@@ -444,10 +511,20 @@
 
     if (!pieceRecords.length) {
       pieceRecords = buildPieceRecords(dataset.bands, pieceComposerIndex);
+      composerRecords = buildComposerRecords(pieceRecords);
     }
     const pieceMatches = findMatches(pieceRecords, getSlugsFromURL('pieces'));
     if (!areSelectionsEqual(selectedPieces, pieceMatches)) {
       selectedPieces = pieceMatches;
+      stateChanged = true;
+    }
+
+    if (!composerRecords.length) {
+      composerRecords = buildComposerRecords(pieceRecords);
+    }
+    const composerMatches = findMatches(composerRecords, getSlugsFromURL('composers'));
+    if (!areSelectionsEqual(selectedComposers, composerMatches)) {
+      selectedComposers = composerMatches;
       stateChanged = true;
     }
 
@@ -462,7 +539,8 @@
     const bandSignature = selectedBands.map((band) => band.slug).join(URL_SEPARATOR);
     const conductorSignature = selectedConductors.map((conductor) => conductor.slug).join(URL_SEPARATOR);
     const pieceSignature = selectedPieces.map((piece) => piece.slug).join(URL_SEPARATOR);
-    return `${activeView}|${yAxisMode}|${bandSignature}|${conductorSignature}|${pieceSignature}`;
+    const composerSignature = selectedComposers.map((composer) => composer.slug).join(URL_SEPARATOR);
+    return `${activeView}|${yAxisMode}|${bandSignature}|${conductorSignature}|${pieceSignature}|${composerSignature}`;
   }
 
   function syncUrlIfReady(): void {
@@ -474,17 +552,21 @@
     }
   }
 
-  function chooseRecord(record: BandRecord | PieceRecord): void {
+  function chooseRecord(record: BandRecord | PieceRecord | ComposerRecord): void {
     if (activeView === 'bands') {
       if (selectedBands.some((item) => item.slug === record.slug)) return;
       selectedBands = [...selectedBands, record as BandRecord];
     } else if (activeView === 'conductors') {
       if (selectedConductors.some((item) => item.slug === record.slug)) return;
       selectedConductors = [...selectedConductors, record as BandRecord];
-    } else {
+    } else if (activeView === 'pieces') {
       const pieceRecord = record as PieceRecord;
       if (selectedPieces.some((item) => item.slug === pieceRecord.slug)) return;
       selectedPieces = [...selectedPieces, pieceRecord];
+    } else if (activeView === 'composers') {
+      const composerRecord = record as ComposerRecord;
+      if (selectedComposers.some((item) => item.slug === composerRecord.slug)) return;
+      selectedComposers = [...selectedComposers, composerRecord];
     }
     searchTerm = '';
     focusedIndex = -1;
@@ -496,8 +578,10 @@
       selectedBands = selectedBands.filter((item) => item.slug !== slug);
     } else if (activeView === 'conductors') {
       selectedConductors = selectedConductors.filter((item) => item.slug !== slug);
-    } else {
+    } else if (activeView === 'pieces') {
       selectedPieces = selectedPieces.filter((item) => item.slug !== slug);
+    } else if (activeView === 'composers') {
+      selectedComposers = selectedComposers.filter((item) => item.slug !== slug);
     }
     focusedIndex = -1;
     syncUrlIfReady();
@@ -586,6 +670,7 @@
       dataset = parsedDataset;
       conductorRecords = buildConductorRecords(parsedDataset.bands);
       pieceRecords = buildPieceRecords(parsedDataset.bands, pieceComposerIndex);
+      composerRecords = buildComposerRecords(pieceRecords);
       syncSelectionFromURL({ updateHistory: false });
       lastSyncedSignature = getSelectedSignature();
       updateUrlState();
@@ -609,13 +694,20 @@
 
   let trimmed = $derived(searchTerm.trim());
   let lowered = $derived(trimmed.toLowerCase());
-  let isEntityView = $derived(activeView === 'bands' || activeView === 'conductors' || activeView === 'pieces');
+  let isEntityView = $derived(
+    activeView === 'bands' ||
+    activeView === 'conductors' ||
+    activeView === 'pieces' ||
+    activeView === 'composers'
+  );
   let activeRecords = $derived(isEntityView
     ? activeView === 'bands'
       ? dataset?.bands ?? []
       : activeView === 'conductors'
         ? conductorRecords
-        : pieceRecords
+        : activeView === 'pieces'
+          ? pieceRecords
+          : composerRecords
     : []);
   let activeSelection = $derived(activeView === 'bands'
     ? selectedBands
@@ -623,7 +715,9 @@
       ? selectedConductors
       : activeView === 'pieces'
         ? selectedPieces
-        : []);
+        : activeView === 'composers'
+          ? selectedComposers
+          : []);
   let suggestions =
     $derived(isEntityView && activeRecords && lowered.length >= 2
       ? activeRecords
@@ -642,13 +736,17 @@
       ? dataset?.bands.length ?? 0
       : activeView === 'conductors'
         ? conductorRecords.length
-        : pieceRecords.length
+        : activeView === 'pieces'
+          ? pieceRecords.length
+          : composerRecords.length
     : 0);
   let entityLabel = $derived(activeView === 'bands'
     ? 'korps'
     : activeView === 'conductors'
       ? 'dirigenter'
-      : 'stykker');
+      : activeView === 'pieces'
+        ? 'stykker'
+        : 'komponister');
   let coverageDescription = $derived(dataset
     ? `Dekker ${entityCount} ${entityLabel} · ${years.length} år (${dataset.metadata.min_year}–${dataset.metadata.max_year})`
     : '');
@@ -659,39 +757,53 @@
       ? 'Begynn å skrive et dirigentnavn (minst 2 bokstaver)…'
       : activeView === 'pieces'
         ? 'Begynn å skrive en stykketittel (minst 2 bokstaver)…'
-        : '');
+        : activeView === 'composers'
+          ? 'Begynn å skrive et komponistnavn (minst 2 bokstaver)…'
+          : '');
   let searchLabel = $derived(activeView === 'bands'
     ? 'Søk etter korps'
     : activeView === 'conductors'
       ? 'Søk etter dirigent'
-      : 'Søk etter musikkstykke');
+      : activeView === 'pieces'
+        ? 'Søk etter musikkstykke'
+        : 'Søk etter komponist');
   let suggestionsLabel = $derived(activeView === 'bands'
     ? 'Korpsforslag'
     : activeView === 'conductors'
       ? 'Dirigentforslag'
-      : 'Stykke-forslag');
+      : activeView === 'pieces'
+        ? 'Stykke-forslag'
+        : 'Komponistforslag');
   let selectionLabel = $derived(activeView === 'bands'
     ? 'Valgte korps'
     : activeView === 'conductors'
       ? 'Valgte dirigenter'
-      : 'Valgte stykker');
+      : activeView === 'pieces'
+        ? 'Valgte stykker'
+        : 'Valgte komponister');
   let emptyStateTitle = $derived(activeView === 'bands'
     ? 'Ingen korps valgt ennå'
     : activeView === 'conductors'
       ? 'Ingen dirigenter valgt ennå'
-      : 'Ingen stykker valgt ennå');
+      : activeView === 'pieces'
+        ? 'Ingen stykker valgt ennå'
+        : 'Ingen komponister valgt ennå');
   let emptyStateBody = $derived(activeView === 'bands'
     ? 'Finn et navn i søkefeltet for å tegne kurven for samlet plassering.'
     : activeView === 'conductors'
       ? 'Finn en dirigent i søkefeltet for å tegne kurven for samlet plassering.'
-      : 'Finn et musikkstykke i søkefeltet for å se alle registrerte fremføringer.');
+      : activeView === 'pieces'
+        ? 'Finn et musikkstykke i søkefeltet for å se alle registrerte fremføringer.'
+        : 'Finn en komponist i søkefeltet for å se hvilke stykker vi har registrert av dem.');
   let leadText = $derived(activeView === 'bands'
     ? 'Søk etter et janitsjarkorps for å se hvordan den samlede plasseringen utvikler seg år for år, på tvers av alle divisjoner.'
     : activeView === 'conductors'
       ? 'Søk etter en dirigent for å se hvordan deres beste plassering utvikler seg år for år, basert på korpsene de dirigerte.'
       : activeView === 'pieces'
         ? 'Søk etter et musikkstykke for å se alle fremføringer vi har registrert.'
-        : 'Velg et år og en divisjon for å vise resultatlisten i den valgte finalen.');
+        : activeView === 'composers'
+          ? 'Søk etter en komponist for å se hvilke NM-stykker de står bak.'
+          : 'Velg et år og en divisjon for å vise resultatlisten i den valgte finalen.');
   let themeToggleLabel = $derived(theme === 'dark' ? 'Bytt til lyst tema' : 'Bytt til mørkt tema');
   let themeToggleText = $derived(theme === 'dark' ? 'Mørk' : 'Lys');
   let themeToggleIcon = $derived(theme === 'dark' ? '🌙' : '☀️');
@@ -707,6 +819,7 @@
     $derived(activeSelection.length > 1 ? activeSelection.map((record) => record.name).join(' · ') : '');
 
   let pieceSelection = $derived(activeView === 'pieces' ? (activeSelection as PieceRecord[]) : []);
+  let composerSelection = $derived(activeView === 'composers' ? (activeSelection as ComposerRecord[]) : []);
   let chartSelection =
     $derived(activeView === 'bands' || activeView === 'conductors'
       ? (activeSelection as BandRecord[])
@@ -797,6 +910,8 @@
     {#if activeSelection.length > 0}
       {#if activeView === 'pieces'}
         <PiecePerformances pieces={pieceSelection} />
+      {:else if activeView === 'composers'}
+        <ComposerPieces composers={composerSelection} />
       {:else}
         <section class="chart-card">
           <div class="mode-toggle">

@@ -1,5 +1,7 @@
 <script lang="ts">
   import type { PieceRecord, PiecePerformance } from './types';
+  import { extractComposerNames } from './composerUtils';
+  import { slugify } from './slugify';
 
   interface Props {
     pieces?: PieceRecord[];
@@ -23,6 +25,16 @@
     });
   }
 
+  function resolveComposerNames(piece: PieceRecord): string[] {
+    if (piece.composerNames && piece.composerNames.length > 0) {
+      return piece.composerNames;
+    }
+    if (piece.composer) {
+      return extractComposerNames(piece.composer);
+    }
+    return [];
+  }
+
   function formatPoints(points: number | null): string {
     if (points == null) return '–';
     return pointsFormatter.format(points);
@@ -40,11 +52,23 @@
 
 <section class="pieces-view">
   {#each sortedPieces as piece}
+    {@const composerNames = resolveComposerNames(piece)}
     <article class="piece-card">
       <header class="piece-header">
         <div>
           <h2>{piece.name}</h2>
-          {#if piece.composer}
+          {#if composerNames.length > 0}
+            <p class="piece-composer">
+              {#each composerNames as composerName, index}
+                <a
+                  href={`?view=composers&composer=${encodeURIComponent(slugify(composerName))}`}
+                  class="composer-link"
+                >
+                  {composerName}
+                </a>{index < composerNames.length - 1 ? ', ' : ''}
+              {/each}
+            </p>
+          {:else if piece.composer}
             <p class="piece-composer">{piece.composer}</p>
           {/if}
           <p class="piece-count">{piece.performances.length} fremføringer</p>
@@ -65,13 +89,35 @@
           </thead>
           <tbody>
             {#each piece.performances as performance}
+              {@const conductorName = performance.entry.conductor?.trim() ?? ''}
+              {@const hasConductor = conductorName.length > 0}
+              {@const conductorSlug = hasConductor ? slugify(conductorName) : ''}
+              {@const bandSlug = slugify(performance.band)}
               <tr>
                 <td data-label="År">{performance.entry.year}</td>
                 <td data-label="Divisjon">{performance.entry.division}</td>
-                <td data-label="Korps">{performance.band}</td>
+                <td data-label="Korps">
+                  <a
+                    href={`?view=bands&band=${encodeURIComponent(bandSlug)}`}
+                    class="entity-link"
+                  >
+                    {performance.band}
+                  </a>
+                </td>
                 <td data-label="Plass">{formatRank(performance.entry.rank)}</td>
                 <td data-label="Poeng">{formatPoints(performance.entry.points)}</td>
-                <td data-label="Dirigent">{performance.entry.conductor ?? 'Ukjent'}</td>
+                <td data-label="Dirigent">
+                  {#if hasConductor}
+                    <a
+                      href={`?view=conductors&conductor=${encodeURIComponent(conductorSlug)}`}
+                      class="entity-link"
+                    >
+                      {conductorName}
+                    </a>
+                  {:else}
+                    <span>Ukjent</span>
+                  {/if}
+                </td>
               </tr>
             {/each}
           </tbody>
@@ -119,6 +165,26 @@
   .piece-header .piece-composer {
     font-size: 0.95rem;
     font-style: italic;
+  }
+
+  .piece-header .piece-composer .composer-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .piece-header .piece-composer .composer-link:hover,
+  .piece-header .piece-composer .composer-link:focus-visible {
+    text-decoration: underline;
+  }
+
+  .entity-link {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .entity-link:hover,
+  .entity-link:focus-visible {
+    text-decoration: underline;
   }
 
   .piece-header .piece-count {
