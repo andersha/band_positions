@@ -52,6 +52,34 @@ python quick_analysis.py
 
 # Launch Jupyter for detailed analysis
 poetry run jupyter notebook notebooks/competition_analysis.ipynb
+
+# Run piece analysis with WindRep.org enrichment
+python run_windrep_analysis.py
+
+# Export comprehensive piece analysis to files
+python export_piece_analysis.py
+
+# Launch piece analysis notebook
+python run_piece_analysis_notebook.py
+```
+
+### ⚡ Frontend Development (Svelte 5 + Vite)
+```bash
+# Setup Node.js environment
+cd apps/band-positions
+npm install
+
+# Development server with hot reload
+npm run dev -- --open
+
+# Generate data for visualization
+python ../../scripts/generate_band_positions.py
+
+# Build for production (GitHub Pages)
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
 ### ⚡ Code Quality
@@ -70,12 +98,12 @@ pytest --cov=src/nmjanitsjar_scraper
 
 ## High-level Architecture
 
-The application follows a modular 4-stage pipeline architecture:
+The application follows a modular 4-stage pipeline architecture with additional analysis and visualization layers:
 
 ```
-URLDiscovery → JSONParser → DataExporter → Analytics
-     ↓             ↓            ↓           ↓
-  (URLs)      (Raw JSON)   (CSV/JSON)  (Reports)
+URLDiscovery → JSONParser → DataExporter → Analytics → PieceAnalysis → Visualization
+     ↓             ↓            ↓           ↓           ↓              ↓
+  (URLs)      (Raw JSON)   (CSV/JSON)  (Reports)  (WindRep Data)  (Svelte App)
 ```
 
 ### Core Components
@@ -84,9 +112,12 @@ URLDiscovery → JSONParser → DataExporter → Analytics
 2. **JSONParser** (`parser.py`): Fetches and parses JSON data from nmjanitsjar.no APIs  
 3. **DataExporter** (`exporter.py`): Normalizes and exports data to CSV/JSON formats
 4. **Analytics** (`analytics.py`): Provides statistical analysis and reporting
-5. **CLI** (`cli.py`): Unified command-line interface for all operations
-6. **Models** (`models.py`): Pydantic data models with validation
-7. **HTMLFetcher** (`fetcher.py`): Legacy HTML scraping (mostly deprecated)
+5. **PieceAnalysis** (`piece_analysis.py`): WindRep.org integration for piece metadata enrichment
+6. **CLI** (`cli.py`): Unified command-line interface for all operations
+7. **Models** (`models.py`): Pydantic data models with validation
+8. **DataGeneration** (`scripts/generate_band_positions.py`): Generates visualization data for frontend
+9. **Frontend** (`apps/band-positions/`): Svelte 5 + D3.js interactive visualization app
+10. **HTMLFetcher** (`fetcher.py`): Legacy HTML scraping (mostly deprecated)
 
 ### Data Flow
 
@@ -154,6 +185,30 @@ Uses `argparse` with subcommands for modular functionality:
 - **Graceful Degradation**: Handles missing years/data
 - **Data Validation**: Pydantic ensures data integrity
 
+## Frontend Architecture
+
+The visualization layer is built with modern web technologies for interactive data exploration:
+
+### Tech Stack
+- **Svelte 5**: Reactive component framework with runes for state management
+- **TypeScript**: Type-safe development with full IDE support
+- **D3.js**: Data-driven document manipulation and charting
+- **Vite**: Fast development server and build tool
+- **GitHub Pages**: Static hosting with automated deployment
+
+### Data Flow
+```
+Python Scripts → band_positions.json → Svelte Components → D3 Visualizations → Interactive UI
+```
+
+### Key Features
+- **Multi-view Interface**: Bands, conductors, pieces, and raw data exploration
+- **Interactive Charts**: Click-to-select trajectories with smooth animations
+- **Responsive Design**: Works across desktop and mobile devices
+- **URL State Management**: Shareable URLs with encoded selections
+- **Theme Support**: Light/dark mode with system preference detection
+- **Performance Optimized**: Virtual scrolling for large datasets
+
 ### Data Normalization Logic
 - **Unique IDs**: Generated as `{year}-{division}-{rank:02d}-{orchestra}`
 - **Composer Extraction**: Splits "Piece – Composer" format automatically
@@ -170,18 +225,35 @@ nmjanitsjar/
 │   ├── parser.py               # JSON API parsing and data extraction
 │   ├── exporter.py             # CSV/JSON export with normalization
 │   ├── analytics.py            # Statistical analysis and reporting
+│   ├── piece_analysis.py       # WindRep.org integration for piece metadata
 │   ├── cli.py                  # Command-line interface (main entry point)
 │   └── fetcher.py              # Legacy HTML scraping (deprecated)
+├── apps/
+│   └── band-positions/         # Svelte 5 frontend application
+│       ├── src/                # TypeScript/Svelte components
+│       ├── public/             # Static assets and generated data
+│       ├── package.json        # Node.js dependencies
+│       └── vite.config.ts      # Build configuration
+├── scripts/
+│   └── generate_band_positions.py  # Data generation for visualization
 ├── data/
 │   ├── json/                   # Cached JSON API responses
 │   ├── processed/              # Final CSV/JSON exports (per year)
+│   ├── piece_analysis/         # Piece analysis exports
 │   └── raw/                    # Legacy HTML cache (unused)
 ├── meta/                       # Metadata and configuration
-│   └── yearly_urls.json        # Discovered URL cache
+│   ├── yearly_urls.json        # Discovered URL cache
+│   └── manual_overrides.json   # Manual data corrections
 ├── notebooks/                  # Jupyter analysis notebooks
-│   └── competition_analysis.ipynb  # Comprehensive data analysis
+│   ├── competition_analysis.ipynb    # Comprehensive data analysis
+│   └── piece_analysis.ipynb          # Musical piece analysis
+├── docs/
+│   └── PIECE_ANALYSIS.md       # Piece analysis documentation
 ├── tests/                      # Unit tests (currently empty - needs implementation)
 ├── quick_analysis.py           # Standalone visualization script
+├── run_windrep_analysis.py     # WindRep.org enrichment script
+├── run_piece_analysis_notebook.py   # Piece analysis notebook launcher
+├── export_piece_analysis.py    # Comprehensive piece analysis export
 └── pyproject.toml              # Poetry configuration and dependencies
 ```
 
