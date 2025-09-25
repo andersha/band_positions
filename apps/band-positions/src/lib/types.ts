@@ -39,5 +39,6 @@ export interface PiecePerformance {
 export interface PieceRecord {
   name: string;
   slug: string;
+  composer?: string | null;
   performances: PiecePerformance[];
 }

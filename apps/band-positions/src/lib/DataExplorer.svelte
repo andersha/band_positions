@@ -23,7 +23,9 @@
   let selectedDivision: string | null = $state(null);
 
   // Derived values that recalculate when dataset changes
-  let yearDivisionMap = $derived(dataset ? buildYearDivisionMap(dataset) : new Map());
+  let yearDivisionMap = $derived(dataset
+    ? buildYearDivisionMap(dataset)
+    : new Map<number, Map<string, TableRow[]>>());
   let availableYears = $derived(dataset?.metadata?.years ?? []);
   let generatedAt = $derived(dataset?.metadata?.generated_at ?? null);
   
@@ -34,7 +36,9 @@
     }
     const divisionsMap = yearDivisionMap.get(selectedYear) ?? new Map<string, TableRow[]>();
     const ordered = dataset.metadata.divisions.filter((division) => divisionsMap.has(division));
-    const remaining = Array.from(divisionsMap.keys()).filter((division) => !ordered.includes(division)).sort();
+    const remaining = Array.from<string>(divisionsMap.keys())
+      .filter((division) => !ordered.includes(division))
+      .sort();
     return [...ordered, ...remaining];
   })());
   
@@ -42,7 +46,7 @@
   let tableRows = $derived((() => {
     if (selectedYear != null && selectedDivision && yearDivisionMap.has(selectedYear)) {
       const yearMap = yearDivisionMap.get(selectedYear!);
-      const rows = yearMap?.get(selectedDivision) ?? [];
+      const rows = (selectedDivision && yearMap?.get(selectedDivision)) ?? [];
       return sortRows(rows);
     }
     return [];
@@ -260,8 +264,26 @@
             {#each tableRows as { band, entry }}
               <tr>
                 <td data-label="Plass">{formatRank(entry.rank)}</td>
-                <td data-label="Korps">{band}</td>
-                <td data-label="Dirigent">{entry.conductor ?? 'Ukjent'}</td>
+                <td data-label="Korps">
+                  <a
+                    href={`?view=bands&band=${encodeURIComponent(slugify(band))}`}
+                    class="entity-link"
+                  >
+                    {band}
+                  </a>
+                </td>
+                <td data-label="Dirigent">
+                  {#if entry.conductor && entry.conductor.trim().length > 0}
+                    <a
+                      href={`?view=conductors&conductor=${encodeURIComponent(slugify(entry.conductor))}`}
+                      class="entity-link"
+                    >
+                      {entry.conductor.trim()}
+                    </a>
+                  {:else}
+                    <span>Ukjent</span>
+                  {/if}
+                </td>
                 <td data-label="Poeng">{formatPoints(entry.points, entry.max_points)}</td>
                 <td data-label="Program" class="program-cell">
                   {#if true}
@@ -396,13 +418,16 @@
     white-space: normal;
   }
 
-  .program-link {
+  .program-link,
+  .entity-link {
     color: var(--color-accent);
     text-decoration: none;
   }
 
   .program-link:hover,
-  .program-link:focus-visible {
+  .program-link:focus-visible,
+  .entity-link:hover,
+  .entity-link:focus-visible {
     text-decoration: underline;
   }
 

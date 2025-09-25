@@ -27,24 +27,137 @@
   };
   const viewOrder: ViewType[] = ['bands', 'conductors', 'pieces', 'data'];
 
-  let dataset: BandDataset | null = $state(null);
-  let conductorRecords: BandRecord[] = $state([]);
-  let pieceRecords: PieceRecord[] = $state([]);
+  let dataset = $state<BandDataset | null>(null);
+  let conductorRecords = $state<BandRecord[]>([]);
+  let pieceRecords = $state<PieceRecord[]>([]);
   let loading = $state(true);
-  let error: string | null = $state(null);
+  let error = $state<string | null>(null);
   let searchTerm = $state('');
-  let selectedBands: BandRecord[] = $state([]);
-  let selectedConductors: BandRecord[] = $state([]);
-  let selectedPieces: PieceRecord[] = $state([]);
+  let selectedBands = $state<BandRecord[]>([]);
+  let selectedConductors = $state<BandRecord[]>([]);
+  let selectedPieces = $state<PieceRecord[]>([]);
   let focusedIndex = $state(-1);
   let initialUrlSyncDone = false;
   let lastSyncedSignature = '';
-  let yAxisMode: 'absolute' | 'relative' = $state(DEFAULT_MODE);
-  let activeView: ViewType = $state(DEFAULT_VIEW);
-  let theme: Theme = $state('dark');
+  let yAxisMode = $state<'absolute' | 'relative'>(DEFAULT_MODE);
+  let activeView = $state<ViewType>(DEFAULT_VIEW);
+  let theme = $state<Theme>('dark');
 
   type ConductorPlacement = BandEntry & { band_name?: string };
   type PiecePerformance = BandEntry & { band_name: string };
+
+  interface PieceMetadataEntry {
+    title: string;
+    slug: string;
+    composer: string | null;
+  }
+
+  interface PieceMetadataDataset {
+    pieces?: PieceMetadataEntry[];
+  }
+
+  let pieceComposerIndex = new Map<string, PieceMetadataEntry[]>();
+
+  function buildPieceComposerIndex(metadata: PieceMetadataEntry[]): Map<string, PieceMetadataEntry[]> {
+    const index = new Map<string, PieceMetadataEntry[]>();
+    for (const entry of metadata) {
+      if (!entry || !entry.slug) continue;
+      const slug = entry.slug.trim();
+      if (!slug) continue;
+      const bucket = index.get(slug);
+      if (bucket) {
+        bucket.push(entry);
+      } else {
+        index.set(slug, [entry]);
+      }
+    }
+    return index;
+  }
+
+  const QUOTE_CHARS = /["'«»“”„‟]/g;
+  const PARENTHESIS_CONTENT = /\([^)]*\)/g;
+
+  function stripParenthetical(value: string): string {
+    return value.replace(PARENTHESIS_CONTENT, ' ');
+  }
+
+  function normalizePieceTitle(value: string): string {
+    return value.replace(QUOTE_CHARS, '').replace(/\s+/g, ' ').trim().toLowerCase();
+  }
+
+  function getCandidateSlugs(name: string): string[] {
+    const trimmed = name.trim();
+    if (!trimmed) return [];
+
+    const variants = new Set<string>();
+    const baseSlug = slugify(trimmed);
+    if (baseSlug && baseSlug !== 'uidentifisert') variants.add(baseSlug);
+
+    const withoutParentheses = stripParenthetical(trimmed);
+    const slugWithoutParentheses = slugify(withoutParentheses);
+    if (slugWithoutParentheses && slugWithoutParentheses !== 'uidentifisert') {
+      variants.add(slugWithoutParentheses);
+    }
+
+    const cleaned = normalizePieceTitle(trimmed);
+    const slugDashNormalized = slugify(cleaned.replace(/[-–—]/g, ' '));
+    if (slugDashNormalized && slugDashNormalized !== 'uidentifisert') {
+      variants.add(slugDashNormalized);
+    }
+
+    const slugColonNormalized = slugify(cleaned.replace(/[:;·]/g, ' '));
+    if (slugColonNormalized && slugColonNormalized !== 'uidentifisert') {
+      variants.add(slugColonNormalized);
+    }
+
+    const baseTitleCandidates: string[] = [];
+    if (withoutParentheses.includes('-')) {
+      baseTitleCandidates.push(withoutParentheses.split(/[-–—]/)[0]);
+    }
+    if (withoutParentheses.includes(':')) {
+      baseTitleCandidates.push(withoutParentheses.split(':')[0]);
+    }
+
+    for (const candidate of baseTitleCandidates) {
+      const slugCandidate = slugify(candidate);
+      if (slugCandidate && slugCandidate !== 'uidentifisert') {
+        variants.add(slugCandidate);
+      }
+    }
+
+    return Array.from(variants);
+  }
+
+  function findComposerForPiece(name: string, index: Map<string, PieceMetadataEntry[]>): string | null {
+    const candidateSlugs = getCandidateSlugs(name);
+    if (!candidateSlugs.length) return null;
+
+    const normalizedName = normalizePieceTitle(name);
+    const normalizedNameNoParentheses = normalizePieceTitle(stripParenthetical(name));
+
+    for (const slug of candidateSlugs) {
+      const bucket = index.get(slug);
+      if (!bucket || bucket.length === 0) continue;
+
+      if (bucket.length === 1) {
+        return bucket[0].composer ?? null;
+      }
+
+      const exactMatch = bucket.find(
+        (entry) => normalizePieceTitle(entry.title) === normalizedName
+      );
+      if (exactMatch) return exactMatch.composer ?? null;
+
+      const baseMatch = bucket.find(
+        (entry) => normalizePieceTitle(stripParenthetical(entry.title)) === normalizedNameNoParentheses
+      );
+      if (baseMatch) return baseMatch.composer ?? null;
+
+      return bucket[0].composer ?? null;
+    }
+
+    return null;
+  }
 
   function cloneEntry(entry: BandEntry, bandName?: string): ConductorPlacement {
     const clonedPieces = Array.isArray(entry.pieces)
@@ -122,7 +235,10 @@
       .sort((a, b) => a.name.localeCompare(b.name));
   }
 
-  function buildPieceRecords(bands: BandRecord[]): PieceRecord[] {
+  function buildPieceRecords(
+    bands: BandRecord[],
+    composerIndex: Map<string, PieceMetadataEntry[]>
+  ): PieceRecord[] {
     const records = new Map<string, PieceRecord>();
 
     for (const band of bands) {
@@ -140,8 +256,14 @@
           const slug = slugify(name);
           let record = records.get(slug);
           if (!record) {
-            record = { name, slug, performances: [] };
+            const composer = findComposerForPiece(name, composerIndex);
+            record = { name, slug, composer: composer ?? null, performances: [] };
             records.set(slug, record);
+          } else if (!record.composer) {
+            const composer = findComposerForPiece(name, composerIndex);
+            if (composer) {
+              record.composer = composer;
+            }
           }
 
           record.performances.push({ band: band.name, entry });
@@ -321,7 +443,7 @@
     }
 
     if (!pieceRecords.length) {
-      pieceRecords = buildPieceRecords(dataset.bands);
+      pieceRecords = buildPieceRecords(dataset.bands, pieceComposerIndex);
     }
     const pieceMatches = findMatches(pieceRecords, getSlugsFromURL('pieces'));
     if (!areSelectionsEqual(selectedPieces, pieceMatches)) {
@@ -429,13 +551,41 @@
       const initialTheme = resolveInitialTheme();
       theme = initialTheme;
       applyThemePreference(initialTheme);
-      const response = await fetch('data/band_positions.json');
-      if (!response.ok) {
-        throw new Error(`Kunne ikke laste data (status ${response.status})`);
+
+      const [positionsResponse, metadataResponse] = await Promise.all([
+        fetch('data/band_positions.json'),
+        fetch('data/piece_metadata.json')
+      ]);
+
+      if (!positionsResponse.ok) {
+        throw new Error(`Kunne ikke laste data (status ${positionsResponse.status})`);
       }
-      dataset = (await response.json()) as BandDataset;
-      conductorRecords = buildConductorRecords(dataset.bands);
-      pieceRecords = buildPieceRecords(dataset.bands);
+
+      let metadataEntries: PieceMetadataEntry[] = [];
+      if (metadataResponse.ok) {
+        try {
+          const metadata = (await metadataResponse.json()) as PieceMetadataDataset;
+          const entries = Array.isArray(metadata.pieces) ? metadata.pieces : [];
+          metadataEntries = entries
+            .filter((entry): entry is PieceMetadataEntry => Boolean(entry?.title && entry?.slug))
+            .map((entry) => ({
+              title: entry.title.trim(),
+              slug: entry.slug.trim(),
+              composer: entry.composer ?? null
+            }));
+        } catch (metadataError) {
+          console.warn('Kunne ikke tolke stykke-metadata', metadataError);
+        }
+      } else {
+        console.warn(`Kunne ikke laste stykke-metadata (status ${metadataResponse.status})`);
+      }
+
+      pieceComposerIndex = buildPieceComposerIndex(metadataEntries);
+
+      const parsedDataset = (await positionsResponse.json()) as BandDataset;
+      dataset = parsedDataset;
+      conductorRecords = buildConductorRecords(parsedDataset.bands);
+      pieceRecords = buildPieceRecords(parsedDataset.bands, pieceComposerIndex);
       syncSelectionFromURL({ updateHistory: false });
       lastSyncedSignature = getSelectedSignature();
       updateUrlState();

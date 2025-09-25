@@ -44,7 +44,10 @@
       <header class="piece-header">
         <div>
           <h2>{piece.name}</h2>
-          <p>{piece.performances.length} fremføringer</p>
+          {#if piece.composer}
+            <p class="piece-composer">{piece.composer}</p>
+          {/if}
+          <p class="piece-count">{piece.performances.length} fremføringer</p>
         </div>
       </header>
 
@@ -111,6 +114,19 @@
     margin: 0.25rem 0 0;
     color: var(--color-text-secondary);
     font-size: 0.9rem;
+  }
+
+  .piece-header .piece-composer {
+    font-size: 0.95rem;
+    font-style: italic;
+  }
+
+  .piece-header .piece-count {
+    font-size: 0.85rem;
+  }
+
+  .piece-header .piece-composer + .piece-count {
+    margin-top: 0.15rem;
   }
 
   .table-wrapper {

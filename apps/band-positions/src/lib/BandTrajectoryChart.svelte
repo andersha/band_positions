@@ -45,7 +45,17 @@
   const ESTIMATED_CHARACTER_WIDTH = 6;
 
   type MarkerShape = 'circle' | 'square' | 'triangle';
-  type ChartEntry = BandEntry & { pieces: string[] };
+
+  type RawAggregatedEntry = BandEntry & {
+    band_name?: string;
+    aggregate_entries?: BandEntry[];
+  };
+
+  type ChartEntry = BandEntry & {
+    pieces: string[];
+    band_name?: string;
+    aggregate_entries?: ChartEntry[];
+  };
   interface ConductorChange {
     year: number;
     conductor: string;
@@ -66,7 +76,6 @@
   let resizeObserver: ResizeObserver | null = null;
   let observedElement: SVGSVGElement | null = null;
 
-  type AggregatedPlacement = ChartEntry & { band_name?: string; aggregate_entries?: ChartEntry[] };
 
   let hoveredPoint = $state<{ entry: ChartEntry; bandName: string; lineColor: string } | null>(null);
   let tooltipX = $state(0);
@@ -92,17 +101,35 @@
     return entry.absolute_position ?? 0;
   }
 
-  function normalizeEntries(entries: BandEntry[]): ChartEntry[] {
-    return entries.map((entry) => {
-      const rawPieces = (entry as BandEntry & { pieces?: unknown }).pieces ?? entry.pieces;
-      const pieces = Array.isArray(rawPieces)
-        ? rawPieces.map((piece) => `${piece}`.trim()).filter(Boolean)
-        : rawPieces != null && `${rawPieces}`.trim().length
-          ? [`${rawPieces}`.trim()]
-          : [];
+  function normalizeEntry(entry: BandEntry): ChartEntry {
+    const rawPieces = (entry as BandEntry & { pieces?: unknown }).pieces ?? entry.pieces;
+    const pieces = Array.isArray(rawPieces)
+      ? rawPieces.map((piece) => `${piece}`.trim()).filter(Boolean)
+      : rawPieces != null && `${rawPieces}`.trim().length
+        ? [`${rawPieces}`.trim()]
+        : [];
 
-      return { ...entry, pieces };
-    });
+    const normalized: ChartEntry = {
+      ...entry,
+      pieces
+    };
+
+    const rawAggregated = entry as RawAggregatedEntry;
+    if (rawAggregated.band_name != null) {
+      normalized.band_name = rawAggregated.band_name;
+    }
+
+    if (Array.isArray(rawAggregated.aggregate_entries) && rawAggregated.aggregate_entries.length > 0) {
+      normalized.aggregate_entries = rawAggregated.aggregate_entries.map((aggregateEntry) =>
+        normalizeEntry(aggregateEntry)
+      );
+    }
+
+    return normalized;
+  }
+
+  function normalizeEntries(entries: BandEntry[]): ChartEntry[] {
+    return entries.map((entry) => normalizeEntry(entry));
   }
 
   function computeConductorChanges(entries: ChartEntry[]): ConductorChange[] {
@@ -206,6 +233,21 @@
     return { anchor: 'middle', dx: 0 } as const;
   }
 
+  function splitConductorLabel(name: string | null | undefined): string[] {
+    const trimmed = name?.trim();
+    if (!trimmed) return [''];
+    const parts = trimmed.split(/\s+/);
+    if (parts.length <= 1) {
+      return [trimmed];
+    }
+    const lastPart = parts.pop() as string;
+    const firstPart = parts.join(' ');
+    if (!firstPart) {
+      return [lastPart];
+    }
+    return [firstPart, lastPart];
+  }
+
   function getConductorLabelY(entries: ChartEntry[], change: ConductorChange) {
     const entry = entries.find((item) => item.year === change.year);
     if (!entry) {
@@ -269,14 +311,28 @@
     return a.localeCompare(b);
   }
 
-  let normalizedBands = $derived(bands.map((band: BandRecord) => ({ band, entries: normalizeEntries(band.entries) })));
+  interface NormalizedBand {
+    band: BandRecord;
+    entries: ChartEntry[];
+  }
 
-  let allEntries = $derived(normalizedBands.flatMap((item: any) => item.entries));
+  let normalizedBands = $derived<NormalizedBand[]>(bands.map((band: BandRecord) => ({
+    band,
+    entries: normalizeEntries(band.entries)
+  })));
+
+  let allEntries = $derived<ChartEntry[]>(
+    normalizedBands.reduce<ChartEntry[]>((accumulator, item) => {
+      accumulator.push(...item.entries);
+      return accumulator;
+    }, [])
+  );
 
   let yearsDomain = $derived((() => {
     if (years.length) return years;
     if (!allEntries.length) return [0];
-    return Array.from(new Set(allEntries.map((entry: ChartEntry) => entry.year))).sort((a: number, b: number) => a - b);
+    const yearSet = new Set<number>(allEntries.map((entry) => entry.year));
+    return Array.from<number>(yearSet).sort((a, b) => a - b);
   })());
 
   let xScale = $derived(scalePoint<number>().domain(yearsDomain).range([margin.left, width - margin.right]));
@@ -287,17 +343,21 @@
 
   let yScale = $derived(scaleLinear().domain(yDomain).range([height - margin.bottom, margin.top]));
 
-  let series = $derived(normalizedBands.map((item: any, index: number) => {
+  let series = $derived(normalizedBands.map((item, index) => {
     const sortedEntries = [...item.entries].sort((a, b) => a.year - b.year);
-    const timeline = yearsDomain.map((year: number) => sortedEntries.find((entry) => entry.year === year) ?? null);
+    const timeline: (ChartEntry | null)[] = yearsDomain.map((year: number) =>
+      sortedEntries.find((entry) => entry.year === year) ?? null
+    );
     const pathGenerator = line<ChartEntry | null>()
-      .defined((value: any): value is ChartEntry => value !== null)
-      .x((entry: ChartEntry) => xScale(entry.year) ?? margin.left)
-      .y((entry: ChartEntry) => yScale(getEntryYValue(entry)))
+      .defined((value): value is ChartEntry => value !== null)
+      .x((entry) => (entry ? xScale(entry.year) ?? margin.left : margin.left))
+      .y((entry) => (entry ? yScale(getEntryYValue(entry)) : yScale(yDomain[1])))
       .curve(curveMonotoneX);
 
     const pathData = pathGenerator(timeline) ?? undefined;
-    const conductorChanges = showConductorLabels() ? computeConductorChanges(sortedEntries) : [];
+    const conductorChanges: ConductorChange[] = showConductorLabels()
+      ? computeConductorChanges(sortedEntries)
+      : [];
 
     return {
       band: item.band,
@@ -310,29 +370,32 @@
     } satisfies BandSeries;
   }));
 
-  let conductorLabels = $derived(showConductorLabels() && series.length
-    ? series[0].conductorChanges.map((change: any) => ({
-        ...change,
-        ...getConductorLabelProps(change),
-        y: getConductorLabelY(series[0].entries, change)
-      }))
-    : []);
+  let conductorLabels = $derived(
+    showConductorLabels() && series.length
+      ? series[0].conductorChanges.map((change) => ({
+          ...change,
+          ...getConductorLabelProps(change),
+          y: getConductorLabelY(series[0].entries, change),
+          labelLines: splitConductorLabel(change.conductor)
+        }))
+      : []
+  );
 
   let yTicks = $derived((() => {
     if (yMode === 'relative') {
       return Array.from({ length: 11 }, (_, index) => index * 10);
     } else {
-      const ticks_calculated = Array.from(new Set(ticks(1, chartMaxField, 6).map((tick: any) => Math.round(tick))))
-        .filter((tick: any) => tick >= 1)
-        .sort((a: any, b: any) => a - b);
-      if (!ticks_calculated.includes(1)) {
-        return [1, ...ticks_calculated];
+      const tickValues = Array.from(new Set<number>(ticks(1, chartMaxField, 6).map((tick) => Math.round(tick))))
+        .filter((tick) => tick >= 1)
+        .sort((a, b) => a - b);
+      if (!tickValues.includes(1)) {
+        return [1, ...tickValues];
       }
-      return ticks_calculated;
+      return tickValues;
     }
   })());
 
-  let participatingYears = $derived(new Set(allEntries.map((entry: ChartEntry) => entry.year)));
+  let participatingYears = $derived(new Set(allEntries.map((entry) => entry.year)));
 
   let labelStep = $derived(yearsDomain.length > 30 ? 5 : yearsDomain.length > 18 ? 3 : 1);
 
@@ -381,7 +444,7 @@
   }
 
   function getAggregatedPlacements(entry: ChartEntry): ChartEntry[] | undefined {
-    return (entry as AggregatedPlacement).aggregate_entries;
+    return entry.aggregate_entries;
   }
 </script>
 
@@ -449,7 +512,11 @@
                 font-size="11"
                 fill="var(--color-text-secondary)"
               >
-                {change.conductor}
+                {#each change.labelLines as line, index}
+                  <tspan x={xScale(change.year)} dy={index === 0 ? 0 : '1.1em'}>
+                    {line}
+                  </tspan>
+                {/each}
               </text>
             </g>
           {/key}
