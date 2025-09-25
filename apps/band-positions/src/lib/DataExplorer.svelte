@@ -24,16 +24,11 @@
 
   // Derived values that recalculate when dataset changes
   let yearDivisionMap = $derived(dataset ? buildYearDivisionMap(dataset) : new Map());
-  let availableYears = $derived(() => {
-    if (!dataset || !dataset.metadata || !Array.isArray(dataset.metadata.years)) {
-      return [];
-    }
-    return dataset.metadata.years;
-  });
+  let availableYears = $derived(dataset?.metadata?.years ?? []);
   let generatedAt = $derived(dataset?.metadata?.generated_at ?? null);
   
   // Derived divisions for the selected year
-  let divisionsForYear = $derived(() => {
+  let divisionsForYear = $derived((() => {
     if (!dataset || !dataset.metadata || !Array.isArray(dataset.metadata.divisions) || selectedYear == null || !yearDivisionMap.has(selectedYear)) {
       return [];
     }
@@ -41,7 +36,7 @@
     const ordered = dataset.metadata.divisions.filter((division) => divisionsMap.has(division));
     const remaining = Array.from(divisionsMap.keys()).filter((division) => !ordered.includes(division)).sort();
     return [...ordered, ...remaining];
-  });
+  })());
   
   // Derived table rows for selected year/division
   let tableData = $derived(() => {
@@ -72,6 +67,8 @@
   function buildYearDivisionMap(source: BandDataset): Map<number, Map<string, TableRow[]>> {
     const map = new Map<number, Map<string, TableRow[]>>();
 
+    console.log('buildYearDivisionMap called', { source: !!source, bands: source?.bands?.length, metadata: !!source?.metadata });
+    
     if (!source?.bands || !Array.isArray(source.bands)) {
       console.warn('Invalid dataset provided to buildYearDivisionMap');
       return map;
@@ -174,10 +171,9 @@
 
   // Single effect to handle initial selections when dataset changes
   $effect(() => {
-    const years = availableYears;
-    if (dataset && years && years.length > 0) {
+    if (dataset && availableYears && availableYears.length > 0) {
       // Set initial year if not set or invalid
-      const newSelectedYear = ensureYearSelection(years);
+      const newSelectedYear = ensureYearSelection(availableYears);
       if (selectedYear !== newSelectedYear) {
         selectedYear = newSelectedYear;
       }
@@ -190,9 +186,8 @@
   
   // Effect to handle division selection when year changes or divisions change
   $effect(() => {
-    const divisions = divisionsForYear;
-    if (selectedYear != null && divisions && divisions.length > 0) {
-      const newSelectedDivision = ensureDivisionSelection(divisions);
+    if (selectedYear != null && divisionsForYear && divisionsForYear.length > 0) {
+      const newSelectedDivision = ensureDivisionSelection(divisionsForYear);
       if (selectedDivision !== newSelectedDivision) {
         selectedDivision = newSelectedDivision;
       }
@@ -215,7 +210,7 @@
 
   <!-- Debug info -->
   <div style="font-size: 12px; color: #666; margin: 10px 0;">
-    Debug: dataset={!!dataset}, availableYears={availableYears?.length || 0}, selectedYear={selectedYear}, selectedDivision={selectedDivision}, divisionsForYear={divisionsForYear?.length || 0}, tableRows={tableRows?.length || 0}
+    Debug: dataset={!!dataset}, availableYears={availableYears.length}, selectedYear={selectedYear}, selectedDivision={selectedDivision}, divisionsForYear={divisionsForYear.length}, tableRows={tableRows.length}
   </div>
 
   {#if !dataset}
