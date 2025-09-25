@@ -138,12 +138,22 @@
     const containerRect = container.getBoundingClientRect();
     if (svgRect.width === 0 || svgRect.height === 0) return;
 
-    labelGeometry = {
+    const newGeometry = {
       offsetX: svgRect.left - containerRect.left,
       scaleX: svgRect.width / width,
       offsetY: svgRect.top - containerRect.top,
       scaleY: svgRect.height / height
     };
+    
+    // Only update if values actually changed to prevent infinite loops
+    if (
+      Math.abs(newGeometry.offsetX - labelGeometry.offsetX) > 0.1 ||
+      Math.abs(newGeometry.scaleX - labelGeometry.scaleX) > 0.001 ||
+      Math.abs(newGeometry.offsetY - labelGeometry.offsetY) > 0.1 ||
+      Math.abs(newGeometry.scaleY - labelGeometry.scaleY) > 0.001
+    ) {
+      labelGeometry = newGeometry;
+    }
   }
 
   function ensureObserved() {
@@ -308,19 +318,19 @@
       }))
     : []);
 
-  let yTicks = $state<number[]>([]);
-  $effect(() => {
+  let yTicks = $derived((() => {
     if (yMode === 'relative') {
-      yTicks = Array.from({ length: 11 }, (_, index) => index * 10);
+      return Array.from({ length: 11 }, (_, index) => index * 10);
     } else {
-      yTicks = Array.from(new Set(ticks(1, chartMaxField, 6).map((tick: any) => Math.round(tick))))
+      const ticks_calculated = Array.from(new Set(ticks(1, chartMaxField, 6).map((tick: any) => Math.round(tick))))
         .filter((tick: any) => tick >= 1)
         .sort((a: any, b: any) => a - b);
-      if (!yTicks.includes(1)) {
-        yTicks = [1, ...yTicks];
+      if (!ticks_calculated.includes(1)) {
+        return [1, ...ticks_calculated];
       }
+      return ticks_calculated;
     }
-  });
+  })());
 
   let participatingYears = $derived(new Set(allEntries.map((entry: ChartEntry) => entry.year)));
 
