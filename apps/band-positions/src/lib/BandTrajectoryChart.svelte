@@ -712,6 +712,7 @@
     font-size: 0.85rem;
     transform: translate(-50%, calc(-100% - 12px));
     box-shadow: 0 10px 24px rgba(15, 23, 42, 0.4);
+    z-index: 5;
   }
 
   .tooltip-band {

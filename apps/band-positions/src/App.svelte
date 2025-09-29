@@ -47,6 +47,8 @@
   let yAxisMode = $state<'absolute' | 'relative'>(DEFAULT_MODE);
   let activeView = $state<ViewType>(DEFAULT_VIEW);
   let theme = $state<Theme>('dark');
+  let menuOpen = $state(false);
+  let modeMenuOpen = $state(false);
 
   type ConductorPlacement = BandEntry & { band_name?: string };
   type PiecePerformance = BandEntry & { band_name: string };
@@ -383,8 +385,26 @@
     }
   }
 
+  function closeMenu(): void {
+    menuOpen = false;
+  }
+
+  function toggleMenu(): void {
+    menuOpen = !menuOpen;
+  }
+
+  function closeModeMenu(): void {
+    modeMenuOpen = false;
+  }
+
+  function toggleModeMenu(): void {
+    modeMenuOpen = !modeMenuOpen;
+  }
+
   function toggleTheme(): void {
     setTheme(theme === 'dark' ? 'light' : 'dark');
+    closeMenu();
+    closeModeMenu();
   }
 
   function getViewFromURL(): ViewType {
@@ -617,16 +637,26 @@
   }
 
   function setView(view: ViewType): void {
-    if (view === activeView) return;
+    if (view === activeView) {
+      closeMenu();
+      closeModeMenu();
+      return;
+    }
     activeView = view;
     searchTerm = '';
     focusedIndex = -1;
+    closeMenu();
+    closeModeMenu();
     syncUrlIfReady();
   }
 
   function setYAxisMode(mode: 'absolute' | 'relative'): void {
-    if (yAxisMode === mode) return;
+    if (yAxisMode === mode) {
+      closeModeMenu();
+      return;
+    }
     yAxisMode = mode;
+    closeModeMenu();
     syncUrlIfReady();
   }
 
@@ -807,6 +837,8 @@
   let themeToggleLabel = $derived(theme === 'dark' ? 'Bytt til lyst tema' : 'Bytt til mørkt tema');
   let themeToggleText = $derived(theme === 'dark' ? 'Mørk' : 'Lys');
   let themeToggleIcon = $derived(theme === 'dark' ? '🌙' : '☀️');
+  let menuToggleLabel = $derived(menuOpen ? 'Lukk meny' : 'Åpne meny');
+  let modeMenuToggleLabel = $derived(modeMenuOpen ? 'Lukk tilpassingsmeny' : 'Åpne tilpassingsmeny');
 
   let chartHeading =
     $derived(activeSelection.length === 1
@@ -828,8 +860,25 @@
 
 <main>
   <header class="page-header">
-    <h1>NM Janitsjar</h1>
-    <div class="header-controls">
+    <div class="page-header__title">
+      <h1>NM Janitsjar</h1>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label={menuToggleLabel}
+        aria-expanded={menuOpen}
+        aria-controls="primary-controls"
+        onclick={toggleMenu}
+      >
+        <span class="menu-toggle__icon" aria-hidden="true">☰</span>
+        <span class="menu-toggle__text">Meny</span>
+      </button>
+    </div>
+    <div
+      class="header-controls"
+      id="primary-controls"
+      class:header-controls--mobile-open={menuOpen}
+    >
       <div class="view-toggle" role="group" aria-label="Bytt visning">
         {#each viewOrder as view}
           <button
@@ -868,20 +917,6 @@
         autocomplete="off"
       />
     </form>
-
-    {#if activeSelection.length > 0}
-      <div class="selected-entities" role="list" aria-label={selectionLabel}>
-        {#each activeSelection as record, index}
-          <span class="selected-entity" role="listitem">
-            <span class="selected-entity__index">{index + 1}</span>
-            <span class="selected-entity__name">{record.name}</span>
-            <button type="button" aria-label={`Fjern ${record.name}`} onclick={() => removeRecord(record.slug)}>
-              ×
-            </button>
-          </span>
-        {/each}
-      </div>
-    {/if}
 
     {#if suggestions.length > 0}
       <div class="suggestions" role="listbox" aria-label={suggestionsLabel}>
@@ -934,6 +969,36 @@
                 Relativ
               </button>
             </div>
+            <button
+              type="button"
+              class="mode-toggle__menu-trigger"
+              aria-label={modeMenuToggleLabel}
+              aria-expanded={modeMenuOpen}
+              aria-controls="mode-toggle-menu"
+              onclick={toggleModeMenu}
+            >
+              Tilpass
+            </button>
+            {#if modeMenuOpen}
+              <div class="mode-toggle__menu" id="mode-toggle-menu" role="menu">
+                <button
+                  type="button"
+                  class:selected={yAxisMode === 'absolute'}
+                  aria-pressed={yAxisMode === 'absolute'}
+                  onclick={() => setYAxisMode('absolute')}
+                >
+                  Absolutt
+                </button>
+                <button
+                  type="button"
+                  class:selected={yAxisMode === 'relative'}
+                  aria-pressed={yAxisMode === 'relative'}
+                  onclick={() => setYAxisMode('relative')}
+                >
+                  Relativ
+                </button>
+              </div>
+            {/if}
           </div>
           <div class="chart-header">
             <h2>{chartHeading}</h2>
@@ -951,6 +1016,17 @@
           />
         </section>
       {/if}
+      <div class="selected-entities selected-entities--below" role="list" aria-label={selectionLabel}>
+        {#each activeSelection as record, index}
+          <span class="selected-entity" role="listitem">
+            <span class="selected-entity__index">{index + 1}</span>
+            <span class="selected-entity__name">{record.name}</span>
+            <button type="button" aria-label={`Fjern ${record.name}`} onclick={() => removeRecord(record.slug)}>
+              ×
+            </button>
+          </span>
+        {/each}
+      </div>
     {:else}
       <section class="empty-state">
         <h2>{emptyStateTitle}</h2>
@@ -966,7 +1042,7 @@
   main {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.125rem;
   }
 
   .page-header {
@@ -975,6 +1051,12 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
+  }
+
+  .page-header__title {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
   }
 
   h1 {
@@ -992,6 +1074,33 @@
     display: inline-flex;
     align-items: center;
     gap: 0.75rem;
+  }
+
+  .menu-toggle {
+    display: none;
+    appearance: none;
+    border: 1px solid var(--color-mode-toggle-border);
+    background: var(--color-mode-toggle-bg);
+    color: var(--color-text-secondary);
+    border-radius: 0.75rem;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: color 0.18s ease, border 0.18s ease;
+  }
+
+  .menu-toggle:hover,
+  .menu-toggle:focus-visible {
+    color: var(--color-text-primary);
+    border-color: var(--color-accent);
+  }
+
+  .menu-toggle__icon {
+    font-size: 1.1rem;
+  }
+
+  .menu-toggle__text {
+    font-weight: 600;
   }
 
   .view-toggle {
@@ -1080,7 +1189,11 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-top: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .selected-entities--below {
+    margin-top: 1rem;
   }
 
   .selected-entity {
@@ -1136,7 +1249,7 @@
   .suggestions {
     display: flex;
     flex-direction: column;
-    margin-top: 0.75rem;
+    margin-top: 0.4rem;
     border: 1px solid var(--color-border);
     border-radius: 0.6rem;
     overflow: hidden;
@@ -1160,7 +1273,7 @@
   }
 
   .chart-card {
-    margin-top: 2.5rem;
+    margin-top: 1.25rem;
     padding: 1.5rem;
     background: var(--color-surface-card);
     border-radius: 1rem;
@@ -1202,6 +1315,7 @@
     gap: 0.6rem;
     font-size: 0.85rem;
     color: var(--color-text-secondary);
+    z-index: 1;
   }
 
   .mode-toggle__label {
@@ -1219,7 +1333,8 @@
     border: 1px solid var(--color-mode-toggle-border);
   }
 
-  .mode-toggle button {
+  .mode-toggle__buttons button,
+  .mode-toggle__menu button {
     appearance: none;
     background: transparent;
     border: none;
@@ -1232,36 +1347,158 @@
     transition: background 0.18s ease, color 0.18s ease;
   }
 
-  .mode-toggle button:hover {
+  .mode-toggle__buttons button:hover,
+  .mode-toggle__menu button:hover {
     color: var(--color-text-primary);
   }
 
-  .mode-toggle button.selected {
+  .mode-toggle__buttons button.selected,
+  .mode-toggle__menu button.selected {
     background: var(--color-accent-strong);
     color: var(--color-text-primary);
     font-weight: 600;
   }
 
-  .mode-toggle button:focus-visible {
+  .mode-toggle__buttons button:focus-visible,
+  .mode-toggle__menu button:focus-visible,
+  .mode-toggle__menu-trigger:focus-visible {
     outline: 2px solid var(--color-accent);
     outline-offset: 2px;
     border-radius: 4px;
   }
 
+  .mode-toggle__menu-trigger {
+    display: none;
+    appearance: none;
+    border: 1px solid var(--color-mode-toggle-border);
+    background: var(--color-mode-toggle-bg);
+    color: var(--color-text-secondary);
+    border-radius: 999px;
+    padding: 0.45rem 0.9rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: color 0.18s ease, border 0.18s ease;
+  }
+
+  .mode-toggle__menu-trigger:hover {
+    color: var(--color-text-primary);
+    border-color: var(--color-accent);
+  }
+
+  .mode-toggle__menu {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+    background: var(--color-surface-elevated);
+    border: 1px solid var(--color-border);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.35);
+    min-width: 8.5rem;
+  }
+
+  .mode-toggle__menu button {
+    justify-content: flex-start;
+    border-radius: 0.6rem;
+  }
+
   @media (max-width: 640px) {
-    .chart-header {
-      padding-right: 0;
+    .page-header {
+      align-items: flex-start;
     }
 
-    .mode-toggle {
-      position: static;
-      justify-content: flex-end;
-      margin-bottom: 1rem;
+    .page-header__title {
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .menu-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
     }
 
     .header-controls {
+      display: none;
       width: 100%;
-      justify-content: flex-end;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: center;
+      gap: 0.75rem;
+      background: var(--color-surface-card);
+      border: 1px solid var(--color-border);
+      border-radius: 0.9rem;
+      padding: 0.75rem;
+      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.35);
+    }
+
+    .header-controls--mobile-open {
+      display: flex;
+    }
+
+    .header-controls .view-toggle {
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: transparent;
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      gap: 0.75rem;
+    }
+
+    .header-controls .view-toggle button {
+      flex: 1 1 calc(50% - 0.5rem);
+      border: 1px solid var(--color-mode-toggle-border);
+      border-radius: 0.85rem;
+      background: var(--color-mode-toggle-bg);
+      padding: 0.6rem 0.9rem;
+    }
+
+    .header-controls .theme-toggle {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .lead {
+      display: none;
+    }
+
+    .selected-entities,
+    .selected-entities--below {
+      margin-top: 1rem;
+    }
+
+    .chart-header {
+      padding-right: 4.5rem;
+    }
+
+    .mode-toggle {
+      top: 0.75rem;
+      right: 0.75rem;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.4rem;
+    }
+
+    .mode-toggle__label {
+      display: none;
+    }
+
+    .mode-toggle__buttons {
+      display: none;
+    }
+
+    .mode-toggle__menu-trigger {
+      display: inline-flex;
+    }
+
+    .mode-toggle__menu {
+      gap: 0.3rem;
     }
   }
 </style>
