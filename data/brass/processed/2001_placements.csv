@@ -1,0 +1,51 @@
+id,year,division,rank,orchestra,conductor,pieces,pieces_list,composers,composers_list,points,max_points,image_url,orchestra_url,conductor_url,piece_urls,scraped_at
+2001-elite-01-eikanger-bjørsvik-musikklag,2001,Elite,1,Eikanger-Bjørsvik Musikklag,Dr. Nicholas Childs,Concerto Grosso,['Concerto Grosso'],Derek Bourgeois,['Derek Bourgeois'],97.0,100.0,,,,,2025-09-29T23:32:39.703343
+2001-elite-02-stavanger-brass-band,2001,Elite,2,Stavanger Brass Band,Frank Renton,Montage,['Montage'],Peter Graham,['Peter Graham'],96.0,100.0,,,,,2025-09-29T23:32:39.703356
+2001-elite-03-krohnengen-brass-band,2001,Elite,3,Krohnengen Brass Band,Ray Farr,Dove Descending,['Dove Descending'],Philip Wilby,['Philip Wilby'],94.5,100.0,,,,,2025-09-29T23:32:39.703362
+2001-elite-04-sandefjord-brass-symposium,2001,Elite,4,Sandefjord Brass Symposium,Bryan Hurdley,Jazz,['Jazz'],Philip Wilby,['Philip Wilby'],92.5,100.0,,,,,2025-09-29T23:32:39.703366
+2001-elite-05-manger-musikklag,2001,Elite,5,Manger Musikklag,Allan Withington,Dances and Arias,['Dances and Arias'],Edward Gregson,['Edward Gregson'],90.5,100.0,,,,,2025-09-29T23:32:39.703371
+2001-elite-06-jaren-hornmusikkforening,2001,Elite,6,Jaren Hornmusikkforening,Helge Haukås,Journey into Freedom,['Journey into Freedom'],Eric Ball,['Eric Ball'],90.5,100.0,,,,,2025-09-29T23:32:39.703375
+2001-elite-07-tertnes-brass,2001,Elite,7,Tertnes Brass,Michael Antrobus,Harmony Music,['Harmony Music'],Philip Sparke,['Philip Sparke'],90.5,100.0,,,,,2025-09-29T23:32:39.703379
+2001-elite-08-oslofjord-brass,2001,Elite,8,Oslofjord Brass,Selmer Simonsen,Dances and Arias,['Dances and Arias'],Edward Gregson,['Edward Gregson'],88.5,100.0,,,,,2025-09-29T23:32:39.703382
+2001-1-divisjon-01-ila-brass-band,2001,1. divisjon,1,Ila Brass Band,Bjørn Sagstad,Masquerade,['Masquerade'],Philip Wilby,['Philip Wilby'],96.0,100.0,,,,,2025-09-29T23:32:39.703387
+2001-1-divisjon-02-molde-brass-band,2001,1. divisjon,2,Molde Brass Band,Alan Morrison,Tristan Encounters,['Tristan Encounters'],Martin Ellerby,['Martin Ellerby'],95.0,100.0,,,,,2025-09-29T23:32:39.703391
+2001-1-divisjon-03-sola-brass-band,2001,1. divisjon,3,Sola Brass Band,Russell Gray,,[],,[],94.0,100.0,,,,,2025-09-29T23:32:39.703394
+2001-1-divisjon-04-tomra-brass-band,2001,1. divisjon,4,Tomra Brass Band,Arnfinn Dalhaug,Dove Descending,['Dove Descending'],Philip Wilby,['Philip Wilby'],93.0,100.0,,,,,2025-09-29T23:32:39.703398
+2001-1-divisjon-05-radøy-brass,2001,1. divisjon,5,Radøy Brass,Torstein Aagaard-Nilsen,,[],,[],90.0,100.0,,,,,2025-09-29T23:32:39.703401
+2001-1-divisjon-06-askøy-brass-band,2001,1. divisjon,6,Askøy Brass Band,Egil Magnussen,Firestorm,['Firestorm'],Stephen Bulla,['Stephen Bulla'],89.0,100.0,,,,,2025-09-29T23:32:39.703405
+2001-1-divisjon-07-trondheim-politis-brassband,2001,1. divisjon,7,Trondheim Politis Brassband,Odd Steinar Mørkved,Victorian Snapshots - On Ratcliff Highway,['Victorian Snapshots - On Ratcliff Highway'],Ray Steadman-Allen,['Ray Steadman-Allen'],88.0,100.0,,,,,2025-09-29T23:32:39.703410
+2001-1-divisjon-08-oster-brass,2001,1. divisjon,8,Oster Brass,Gareth Jones,Dances and Arias,['Dances and Arias'],Edward Gregson,['Edward Gregson'],86.0,100.0,,,,,2025-09-29T23:32:39.703413
+2001-1-divisjon-09-sagvåg-musikklag,2001,1. divisjon,9,Sagvåg Musikklag,Jan Magne Olsen,,[],,[],85.0,100.0,,,,,2025-09-29T23:32:39.703416
+2001-1-divisjon-10-vennesla-kristne-brass,2001,1. divisjon,10,Vennesla Kristne Brass,Bjørn Breistein,,[],,[],84.0,100.0,,,,,2025-09-29T23:32:39.703420
+2001-1-divisjon-11-ørskog-brass,2001,1. divisjon,11,Ørskog Brass,John Hudson,Sounds,['Sounds'],John Golland,['John Golland'],83.0,100.0,,,,,2025-09-29T23:32:39.703424
+2001-1-divisjon-12-kleppe-musikklag,2001,1. divisjon,12,Kleppe Musikklag,Eirik Gjerdevik,The Essence of Time,['The Essence of Time'],Peter Graham,['Peter Graham'],82.0,100.0,,,,,2025-09-29T23:32:39.703428
+2001-2-divisjon-01-alexander-brass-band,2001,2. divisjon,1,Alexander Brass Band,Morten Evjeberg Hansen,Quintessence,['Quintessence'],Robert Redhead,['Robert Redhead'],94.0,100.0,,,,,2025-09-29T23:32:39.703431
+2001-2-divisjon-02-sørum-musikklag,2001,2. divisjon,2,Sørum Musikklag,Trond Elnes,Journey into Freedom,['Journey into Freedom'],Eric Ball,['Eric Ball'],93.0,100.0,,,,,2025-09-29T23:32:39.703435
+2001-2-divisjon-03-brøttum-brass,2001,2. divisjon,3,Brøttum Brass,Thorbjørn Lunde,Blitz,['Blitz'],Derek Bourgeois,['Derek Bourgeois'],92.0,100.0,,,,,2025-09-29T23:32:39.703439
+2001-2-divisjon-04-hornorkesteret-stavanger,2001,2. divisjon,4,Hornorkesteret Stavanger,Morten Evjeberg Hansen,Victorian Snapshots - On Ratcliff Highway,['Victorian Snapshots - On Ratcliff Highway'],Ray Steadman-Allen,['Ray Steadman-Allen'],91.0,100.0,,,,,2025-09-29T23:32:39.703443
+2001-2-divisjon-05-musikkorpset-gjallarhorn,2001,2. divisjon,5,Musikkorpset Gjallarhorn,Rolf Aksel Gilje,Brass Metamorphosis,['Brass Metamorphosis'],James Curnow,['James Curnow'],90.0,100.0,,,,,2025-09-29T23:32:39.703446
+2001-2-divisjon-06-laksevåg-musikkforening,2001,2. divisjon,6,Laksevåg Musikkforening,Ray Farr,Culloden Moor,['Culloden Moor'],Gareth Wood,['Gareth Wood'],89.0,100.0,,,,,2025-09-29T23:32:39.703450
+2001-2-divisjon-07-flesland-musikklag,2001,2. divisjon,7,Flesland Musikklag,Tom Eide Osa,Prisms,['Prisms'],Peter Graham,['Peter Graham'],88.0,100.0,,,,,2025-09-29T23:32:39.703454
+2001-2-divisjon-08-sem-musikkorps,2001,2. divisjon,8,Sem Musikkorps,Laurence Harries,Quintessence,['Quintessence'],Robert Redhead,['Robert Redhead'],87.0,100.0,,,,,2025-09-29T23:32:39.703457
+2001-2-divisjon-09-kopervik-musikkorps,2001,2. divisjon,9,Kopervik Musikkorps,Melvin White,Odyssey,['Odyssey'],Kevin Norbury,['Kevin Norbury'],86.0,100.0,,,,,2025-09-29T23:32:39.703461
+2001-2-divisjon-10-stangaland-brass,2001,2. divisjon,10,Stangaland Brass,Steinar Andsnes,Variations on a Chord,['Variations on a Chord'],Jan de Haan,['Jan de Haan'],85.0,100.0,,,,,2025-09-29T23:32:39.703464
+2001-2-divisjon-11-austrheim-lindås-musikklag,2001,2. divisjon,11,Austrheim Lindås Musikklag,Christian Pettersen Breistein,The Land of the Long White Cloud - Aotearoa,['The Land of the Long White Cloud - Aotearoa'],Philip Sparke,['Philip Sparke'],84.0,100.0,,,,,2025-09-29T23:32:39.703468
+2001-2-divisjon-12-tysnes-musikklag,2001,2. divisjon,12,Tysnes Musikklag,Yngve Nikolaisen,Connotations,['Connotations'],Edward Gregson,['Edward Gregson'],83.0,100.0,,,,,2025-09-29T23:32:39.703472
+2001-2-divisjon-13-haukås-musikklag,2001,2. divisjon,13,Haukås Musikklag,Knut Harald Rydland,Princethorpe Variations,['Princethorpe Variations'],Kenneth Downie,['Kenneth Downie'],79.0,100.0,,,,,2025-09-29T23:32:39.703475
+2001-2-divisjon-14-oltedal-ålgård-musikkorps,2001,2. divisjon,14,Oltedal-Ålgård Musikkorps,Russell Gray,Variations for Brass Band,['Variations for Brass Band'],Vaughan Williams,['Vaughan Williams'],77.0,100.0,,,,,2025-09-29T23:32:39.703479
+2001-3-divisjon-01-frei-hornmusikk,2001,3. divisjon,1,Frei Hornmusikk,Stein Åge Sørlie,,[],,[],94.0,100.0,,,,,2025-09-29T23:32:39.703483
+2001-3-divisjon-02-bergen-brass-band,2001,3. divisjon,2,Bergen Brass Band,Knut Harald Rydland,,[],,[],93.0,100.0,,,,,2025-09-29T23:32:39.703486
+2001-3-divisjon-03-rosendal-musikklag,2001,3. divisjon,3,Rosendal Musikklag,Yngve Nikolaisen,,[],,[],92.0,100.0,,,,,2025-09-29T23:32:39.703489
+2001-3-divisjon-04-jølster-musikklag,2001,3. divisjon,4,Jølster Musikklag,Gunnar Smaadal,Variations on a Chord,['Variations on a Chord'],Jan de Haan,['Jan de Haan'],90.0,100.0,,,,,2025-09-29T23:32:39.703492
+2001-3-divisjon-05-skodje-ungdomskorps,2001,3. divisjon,5,Skodje Ungdomskorps,Henrik Dagestad-Dalhaug,,[],,[],89.0,100.0,,,,,2025-09-29T23:32:39.703495
+2001-3-divisjon-06-follesø-musikklag,2001,3. divisjon,6,Follesø Musikklag,Reid Gilje,,[],,[],87.0,100.0,,,,,2025-09-29T23:32:39.703498
+2001-3-divisjon-07-rong-brass,2001,3. divisjon,7,Rong Brass,Oddvar Nøstdal,,[],,[],86.0,100.0,,,,,2025-09-29T23:32:39.703501
+2001-3-divisjon-08-hasle-brass,2001,3. divisjon,8,Hasle Brass,Tarjei Gilbrant,,[],,[],85.0,100.0,,,,,2025-09-29T23:32:39.703505
+2001-3-divisjon-09-stavanger-kommunes-korps,2001,3. divisjon,9,Stavanger Kommunes Korps,Gunnar Hodne,Music for a Festival,['Music for a Festival'],Philip Sparke,['Philip Sparke'],84.0,100.0,,,,,2025-09-29T23:32:39.703508
+2001-3-divisjon-10-førde-musikkorps,2001,3. divisjon,10,Førde Musikkorps,Pål W. Jøsok,,[],,[],82.0,100.0,,,,,2025-09-29T23:32:39.703512
+2001-3-divisjon-11-langhus-brass,2001,3. divisjon,11,Langhus Brass,John-Philip Hannevik,,[],,[],81.0,100.0,,,,,2025-09-29T23:32:39.703515
+2001-3-divisjon-12-gjøvik-bybrass,2001,3. divisjon,12,Gjøvik Bybrass,Ukjent,,[],,[],80.0,100.0,,,,,2025-09-29T23:32:39.703518
+2001-3-divisjon-13-lismarkens-musikforening,2001,3. divisjon,13,Lismarkens Musikforening,Botolv Gjeldaker,,[],,[],78.0,100.0,,,,,2025-09-29T23:32:39.703521
+2001-3-divisjon-14-grenland-brass,2001,3. divisjon,14,Grenland Brass,Ketil Klingberg,,[],,[],77.0,100.0,,,,,2025-09-29T23:32:39.703524
+2001-3-divisjon-15-randaberg-musikkorps,2001,3. divisjon,15,Randaberg Musikkorps,Ebbe Sivertsen,,[],,[],76.0,100.0,,,,,2025-09-29T23:32:39.703527
+2001-3-divisjon-16-nes-musikkforening,2001,3. divisjon,16,Nes Musikkforening,Andres Halla,,[],,[],75.0,100.0,,,,,2025-09-29T23:32:39.703530

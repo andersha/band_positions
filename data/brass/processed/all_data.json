@@ -1,0 +1,216 @@
+{
+  "total_years": 23,
+  "year_range": "2001-2025",
+  "total_placements": 1628,
+  "total_awards": 0,
+  "years_summary": {
+    "2001": {
+      "total_orchestras": 50,
+      "divisions": 4,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2001_placements.csv",
+        "awards_csv": "data/brass/processed/2001_awards.csv",
+        "complete_json": "data/brass/processed/2001_complete.json"
+      }
+    },
+    "2002": {
+      "total_orchestras": 55,
+      "divisions": 4,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2002_placements.csv",
+        "awards_csv": "data/brass/processed/2002_awards.csv",
+        "complete_json": "data/brass/processed/2002_complete.json"
+      }
+    },
+    "2003": {
+      "total_orchestras": 60,
+      "divisions": 5,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2003_placements.csv",
+        "awards_csv": "data/brass/processed/2003_awards.csv",
+        "complete_json": "data/brass/processed/2003_complete.json"
+      }
+    },
+    "2004": {
+      "total_orchestras": 62,
+      "divisions": 5,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2004_placements.csv",
+        "awards_csv": "data/brass/processed/2004_awards.csv",
+        "complete_json": "data/brass/processed/2004_complete.json"
+      }
+    },
+    "2005": {
+      "total_orchestras": 64,
+      "divisions": 5,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2005_placements.csv",
+        "awards_csv": "data/brass/processed/2005_awards.csv",
+        "complete_json": "data/brass/processed/2005_complete.json"
+      }
+    },
+    "2006": {
+      "total_orchestras": 64,
+      "divisions": 5,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2006_placements.csv",
+        "awards_csv": "data/brass/processed/2006_awards.csv",
+        "complete_json": "data/brass/processed/2006_complete.json"
+      }
+    },
+    "2007": {
+      "total_orchestras": 63,
+      "divisions": 5,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2007_placements.csv",
+        "awards_csv": "data/brass/processed/2007_awards.csv",
+        "complete_json": "data/brass/processed/2007_complete.json"
+      }
+    },
+    "2008": {
+      "total_orchestras": 69,
+      "divisions": 5,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2008_placements.csv",
+        "awards_csv": "data/brass/processed/2008_awards.csv",
+        "complete_json": "data/brass/processed/2008_complete.json"
+      }
+    },
+    "2009": {
+      "total_orchestras": 72,
+      "divisions": 5,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2009_placements.csv",
+        "awards_csv": "data/brass/processed/2009_awards.csv",
+        "complete_json": "data/brass/processed/2009_complete.json"
+      }
+    },
+    "2010": {
+      "total_orchestras": 73,
+      "divisions": 5,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2010_placements.csv",
+        "awards_csv": "data/brass/processed/2010_awards.csv",
+        "complete_json": "data/brass/processed/2010_complete.json"
+      }
+    },
+    "2011": {
+      "total_orchestras": 73,
+      "divisions": 5,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2011_placements.csv",
+        "awards_csv": "data/brass/processed/2011_awards.csv",
+        "complete_json": "data/brass/processed/2011_complete.json"
+      }
+    },
+    "2012": {
+      "total_orchestras": 77,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2012_placements.csv",
+        "awards_csv": "data/brass/processed/2012_awards.csv",
+        "complete_json": "data/brass/processed/2012_complete.json"
+      }
+    },
+    "2013": {
+      "total_orchestras": 74,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2013_placements.csv",
+        "awards_csv": "data/brass/processed/2013_awards.csv",
+        "complete_json": "data/brass/processed/2013_complete.json"
+      }
+    },
+    "2014": {
+      "total_orchestras": 78,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2014_placements.csv",
+        "awards_csv": "data/brass/processed/2014_awards.csv",
+        "complete_json": "data/brass/processed/2014_complete.json"
+      }
+    },
+    "2015": {
+      "total_orchestras": 80,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2015_placements.csv",
+        "awards_csv": "data/brass/processed/2015_awards.csv",
+        "complete_json": "data/brass/processed/2015_complete.json"
+      }
+    },
+    "2016": {
+      "total_orchestras": 76,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2016_placements.csv",
+        "awards_csv": "data/brass/processed/2016_awards.csv",
+        "complete_json": "data/brass/processed/2016_complete.json"
+      }
+    },
+    "2017": {
+      "total_orchestras": 79,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2017_placements.csv",
+        "awards_csv": "data/brass/processed/2017_awards.csv",
+        "complete_json": "data/brass/processed/2017_complete.json"
+      }
+    },
+    "2018": {
+      "total_orchestras": 76,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2018_placements.csv",
+        "awards_csv": "data/brass/processed/2018_awards.csv",
+        "complete_json": "data/brass/processed/2018_complete.json"
+      }
+    },
+    "2019": {
+      "total_orchestras": 76,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2019_placements.csv",
+        "awards_csv": "data/brass/processed/2019_awards.csv",
+        "complete_json": "data/brass/processed/2019_complete.json"
+      }
+    },
+    "2020": {
+      "total_orchestras": 75,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2020_placements.csv",
+        "awards_csv": "data/brass/processed/2020_awards.csv",
+        "complete_json": "data/brass/processed/2020_complete.json"
+      }
+    },
+    "2023": {
+      "total_orchestras": 76,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2023_placements.csv",
+        "awards_csv": "data/brass/processed/2023_awards.csv",
+        "complete_json": "data/brass/processed/2023_complete.json"
+      }
+    },
+    "2024": {
+      "total_orchestras": 76,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2024_placements.csv",
+        "awards_csv": "data/brass/processed/2024_awards.csv",
+        "complete_json": "data/brass/processed/2024_complete.json"
+      }
+    },
+    "2025": {
+      "total_orchestras": 80,
+      "divisions": 6,
+      "exported_files": {
+        "placements_csv": "data/brass/processed/2025_placements.csv",
+        "awards_csv": "data/brass/processed/2025_awards.csv",
+        "complete_json": "data/brass/processed/2025_complete.json"
+      }
+    }
+  },
+  "exported_at": "2025-09-29T23:32:39.818888"
+}

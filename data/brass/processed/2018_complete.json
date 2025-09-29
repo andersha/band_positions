@@ -1,0 +1,1765 @@
+{
+  "year": 2018,
+  "total_orchestras": 76,
+  "total_divisions": 6,
+  "divisions": [
+    "Elite",
+    "1. divisjon",
+    "2. divisjon",
+    "3. divisjon",
+    "4. divisjon",
+    "5. divisjon"
+  ],
+  "placements": [
+    {
+      "id": "2018-elite-01-eikanger-bjørsvik-musikklag",
+      "year": 2018,
+      "division": "Elite",
+      "rank": 1,
+      "orchestra": "Eikanger-Bjørsvik Musikklag",
+      "conductor": "Ingar Bergby",
+      "pieces": "Partita",
+      "pieces_list": [
+        "Partita"
+      ],
+      "composers": "Wilfred Heaton",
+      "composers_list": [
+        "Wilfred Heaton"
+      ],
+      "points": 98.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783099"
+    },
+    {
+      "id": "2018-elite-02-manger-musikklag",
+      "year": 2018,
+      "division": "Elite",
+      "rank": 2,
+      "orchestra": "Manger Musikklag",
+      "conductor": "Peter Sebastian Szilvay",
+      "pieces": "Raveling, Unraveling - in search of La Valse",
+      "pieces_list": [
+        "Raveling, Unraveling - in search of La Valse"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 96.75,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783102"
+    },
+    {
+      "id": "2018-elite-03-stavanger-brass-band",
+      "year": 2018,
+      "division": "Elite",
+      "rank": 3,
+      "orchestra": "Stavanger Brass Band",
+      "conductor": "Allan Withington",
+      "pieces": "Goldberg 2012",
+      "pieces_list": [
+        "Goldberg 2012"
+      ],
+      "composers": "Svein Henrik Giske",
+      "composers_list": [
+        "Svein Henrik Giske"
+      ],
+      "points": 95.75,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783104"
+    },
+    {
+      "id": "2018-elite-04-oslo-brass-band",
+      "year": 2018,
+      "division": "Elite",
+      "rank": 4,
+      "orchestra": "Oslo Brass Band",
+      "conductor": "Robert Solberg Nilsen",
+      "pieces": "Dove Descending",
+      "pieces_list": [
+        "Dove Descending"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 94.75,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783107"
+    },
+    {
+      "id": "2018-elite-05-bjørsvik-brass",
+      "year": 2018,
+      "division": "Elite",
+      "rank": 5,
+      "orchestra": "Bjørsvik Brass",
+      "conductor": "Andreas Hanson",
+      "pieces": "Revelation",
+      "pieces_list": [
+        "Revelation"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 94.25,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783109"
+    },
+    {
+      "id": "2018-elite-06-tertnes-brass",
+      "year": 2018,
+      "division": "Elite",
+      "rank": 6,
+      "orchestra": "Tertnes Brass",
+      "conductor": "Martin Philip Winter",
+      "pieces": "As If A Voice Were In Them...",
+      "pieces_list": [
+        "As If A Voice Were In Them..."
+      ],
+      "composers": "Oliver Waespi",
+      "composers_list": [
+        "Oliver Waespi"
+      ],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783111"
+    },
+    {
+      "id": "2018-elite-07-jaren-hornmusikkforening",
+      "year": 2018,
+      "division": "Elite",
+      "rank": 7,
+      "orchestra": "Jaren Hornmusikkforening",
+      "conductor": "Florent Didier",
+      "pieces": "Journey of the Lone Wolf",
+      "pieces_list": [
+        "Journey of the Lone Wolf"
+      ],
+      "composers": "Simon Dobson",
+      "composers_list": [
+        "Simon Dobson"
+      ],
+      "points": 92.75,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783114"
+    },
+    {
+      "id": "2018-elite-08-molde-brass-band",
+      "year": 2018,
+      "division": "Elite",
+      "rank": 8,
+      "orchestra": "Molde Brass Band",
+      "conductor": "Russell Gray",
+      "pieces": "Music of the Spheres",
+      "pieces_list": [
+        "Music of the Spheres"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 92.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783116"
+    },
+    {
+      "id": "2018-elite-09-krohnengen-brass-band",
+      "year": 2018,
+      "division": "Elite",
+      "rank": 9,
+      "orchestra": "Krohnengen Brass Band",
+      "conductor": "Dr. Nicholas Childs",
+      "pieces": "Extreme Make-Over",
+      "pieces_list": [
+        "Extreme Make-Over"
+      ],
+      "composers": "Johan de Meij",
+      "composers_list": [
+        "Johan de Meij"
+      ],
+      "points": 92.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783118"
+    },
+    {
+      "id": "2018-elite-10-kleppe-musikklag",
+      "year": 2018,
+      "division": "Elite",
+      "rank": 10,
+      "orchestra": "Kleppe Musikklag",
+      "conductor": "John-Philip Hannevik",
+      "pieces": "Journey of the Lone Wolf",
+      "pieces_list": [
+        "Journey of the Lone Wolf"
+      ],
+      "composers": "Simon Dobson",
+      "composers_list": [
+        "Simon Dobson"
+      ],
+      "points": 90.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783120"
+    },
+    {
+      "id": "2018-1-divisjon-01-musikkorpset-gjallarhorn",
+      "year": 2018,
+      "division": "1. divisjon",
+      "rank": 1,
+      "orchestra": "Musikkorpset Gjallarhorn",
+      "conductor": "Rune Gundersen",
+      "pieces": "Of Distant Memories",
+      "pieces_list": [
+        "Of Distant Memories"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 95.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783123"
+    },
+    {
+      "id": "2018-1-divisjon-02-oslofjord-brass",
+      "year": 2018,
+      "division": "1. divisjon",
+      "rank": 2,
+      "orchestra": "Oslofjord Brass",
+      "conductor": "Rune Hannisdal",
+      "pieces": "Sinfonietta no. 3",
+      "pieces_list": [
+        "Sinfonietta no. 3"
+      ],
+      "composers": "Etienne Crausaz",
+      "composers_list": [
+        "Etienne Crausaz"
+      ],
+      "points": 95.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783125"
+    },
+    {
+      "id": "2018-1-divisjon-03-ila-brass-band",
+      "year": 2018,
+      "division": "1. divisjon",
+      "rank": 3,
+      "orchestra": "Ila Brass Band",
+      "conductor": "Adam Cooke",
+      "pieces": "Metropolis 1927",
+      "pieces_list": [
+        "Metropolis 1927"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 94.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783127"
+    },
+    {
+      "id": "2018-1-divisjon-04-askøy-brass-band",
+      "year": 2018,
+      "division": "1. divisjon",
+      "rank": 4,
+      "orchestra": "Askøy Brass Band",
+      "conductor": "Reid Gilje",
+      "pieces": "Journey of the Lone Wolf",
+      "pieces_list": [
+        "Journey of the Lone Wolf"
+      ],
+      "composers": "Simon Dobson",
+      "composers_list": [
+        "Simon Dobson"
+      ],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783129"
+    },
+    {
+      "id": "2018-1-divisjon-05-hasle-brass",
+      "year": 2018,
+      "division": "1. divisjon",
+      "rank": 5,
+      "orchestra": "Hasle Brass",
+      "conductor": "Robert Solberg Nilsen",
+      "pieces": "Dances and Arias",
+      "pieces_list": [
+        "Dances and Arias"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 93.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783131"
+    },
+    {
+      "id": "2018-1-divisjon-06-radøy-brass",
+      "year": 2018,
+      "division": "1. divisjon",
+      "rank": 6,
+      "orchestra": "Radøy Brass",
+      "conductor": "Torstein Aagaard-Nilsen",
+      "pieces": "Tallis Variations",
+      "pieces_list": [
+        "Tallis Variations"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 91.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783134"
+    },
+    {
+      "id": "2018-1-divisjon-07-sandefjord-brass-symposium",
+      "year": 2018,
+      "division": "1. divisjon",
+      "rank": 7,
+      "orchestra": "Sandefjord Brass Symposium",
+      "conductor": "Chris Johnson",
+      "pieces": "Noatun",
+      "pieces_list": [
+        "Noatun"
+      ],
+      "composers": "Chris Johnson",
+      "composers_list": [
+        "Chris Johnson"
+      ],
+      "points": 90.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783136"
+    },
+    {
+      "id": "2018-1-divisjon-08-flesland-musikklag",
+      "year": 2018,
+      "division": "1. divisjon",
+      "rank": 8,
+      "orchestra": "Flesland Musikklag",
+      "conductor": "Thor-Arne Pedersen",
+      "pieces": "A Lowry Sketchbook",
+      "pieces_list": [
+        "A Lowry Sketchbook"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783138"
+    },
+    {
+      "id": "2018-1-divisjon-09-rong-brass",
+      "year": 2018,
+      "division": "1. divisjon",
+      "rank": 9,
+      "orchestra": "Rong Brass",
+      "conductor": "Erik Janssen",
+      "pieces": "Sounds",
+      "pieces_list": [
+        "Sounds"
+      ],
+      "composers": "John Golland",
+      "composers_list": [
+        "John Golland"
+      ],
+      "points": 88.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783140"
+    },
+    {
+      "id": "2018-1-divisjon-10-brøttum-brass",
+      "year": 2018,
+      "division": "1. divisjon",
+      "rank": 10,
+      "orchestra": "Brøttum Brass",
+      "conductor": "Ray Farr",
+      "pieces": "Journey to the Centre of the Earth",
+      "pieces_list": [
+        "Journey to the Centre of the Earth"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783142"
+    },
+    {
+      "id": "2018-1-divisjon-11-sola-brass-band",
+      "year": 2018,
+      "division": "1. divisjon",
+      "rank": 11,
+      "orchestra": "Sola Brass Band",
+      "conductor": "Garry Cutt",
+      "pieces": "English Heritage",
+      "pieces_list": [
+        "English Heritage"
+      ],
+      "composers": "George Lloyd",
+      "composers_list": [
+        "George Lloyd"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783145"
+    },
+    {
+      "id": "2018-1-divisjon-12-tomra-brass-band",
+      "year": 2018,
+      "division": "1. divisjon",
+      "rank": 12,
+      "orchestra": "Tomra Brass Band",
+      "conductor": "Stian E. Svendsen",
+      "pieces": "Paganini Variations",
+      "pieces_list": [
+        "Paganini Variations"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 86.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783147"
+    },
+    {
+      "id": "2018-2-divisjon-01-oster-brass",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 1,
+      "orchestra": "Oster Brass",
+      "conductor": "Eirik Gjerdevik",
+      "pieces": "Dances and Arias",
+      "pieces_list": [
+        "Dances and Arias"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783149"
+    },
+    {
+      "id": "2018-2-divisjon-02-tertnes-amatørkorps",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 2,
+      "orchestra": "Tertnes Amatørkorps",
+      "conductor": "Tormod Flaten",
+      "pieces": "The Essence of Time",
+      "pieces_list": [
+        "The Essence of Time"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 92.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783151"
+    },
+    {
+      "id": "2018-2-divisjon-03-manger-old-star-brass",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 3,
+      "orchestra": "Manger Old Star Brass",
+      "conductor": "Marit Tømmermo",
+      "pieces": "Connotations",
+      "pieces_list": [
+        "Connotations"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 91.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783153"
+    },
+    {
+      "id": "2018-2-divisjon-04-sørum-musikklag",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 4,
+      "orchestra": "Sørum Musikklag",
+      "conductor": "Ray Farr",
+      "pieces": "Time Machine",
+      "pieces_list": [
+        "Time Machine"
+      ],
+      "composers": "Thomas Doss",
+      "composers_list": [
+        "Thomas Doss"
+      ],
+      "points": 90.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783155"
+    },
+    {
+      "id": "2018-2-divisjon-05-alexander-brass-band",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 5,
+      "orchestra": "Alexander Brass Band",
+      "conductor": "Morten Evjeberg Hansen",
+      "pieces": "Five Blooms in a Welsh Garden",
+      "pieces_list": [
+        "Five Blooms in a Welsh Garden"
+      ],
+      "composers": "Gareth Wood",
+      "composers_list": [
+        "Gareth Wood"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783158"
+    },
+    {
+      "id": "2018-2-divisjon-06-jølster-musikklag",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 6,
+      "orchestra": "Jølster Musikklag",
+      "conductor": "Arvid Anthun",
+      "pieces": "Ballet for Band",
+      "pieces_list": [
+        "Ballet for Band"
+      ],
+      "composers": "Joseph Horovitz",
+      "composers_list": [
+        "Joseph Horovitz"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783160"
+    },
+    {
+      "id": "2018-2-divisjon-07-tysnes-musikklag",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 7,
+      "orchestra": "Tysnes Musikklag",
+      "conductor": "Yngve Nikolaisen",
+      "pieces": "The Plantagenets",
+      "pieces_list": [
+        "The Plantagenets"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 86.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783162"
+    },
+    {
+      "id": "2018-2-divisjon-08-sagvåg-musikklag",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 8,
+      "orchestra": "Sagvåg Musikklag",
+      "conductor": "Yngve Nikolaisen",
+      "pieces": "Dances and Arias",
+      "pieces_list": [
+        "Dances and Arias"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 85.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783164"
+    },
+    {
+      "id": "2018-2-divisjon-09-haukås-musikklag",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 9,
+      "orchestra": "Haukås Musikklag",
+      "conductor": "Jan Egil Jørgensen",
+      "pieces": "The Son of Light",
+      "pieces_list": [
+        "The Son of Light"
+      ],
+      "composers": "Bertrand Moren",
+      "composers_list": [
+        "Bertrand Moren"
+      ],
+      "points": 84.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783167"
+    },
+    {
+      "id": "2018-2-divisjon-10-ørskog-brass",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 10,
+      "orchestra": "Ørskog Brass",
+      "conductor": "Jonathan Bates",
+      "pieces": "The Raid",
+      "pieces_list": [
+        "The Raid"
+      ],
+      "composers": "Oliver Waespi",
+      "composers_list": [
+        "Oliver Waespi"
+      ],
+      "points": 83.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783169"
+    },
+    {
+      "id": "2018-2-divisjon-11-gjøvik-bybrass",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 11,
+      "orchestra": "Gjøvik Bybrass",
+      "conductor": "Christian Tenfjord",
+      "pieces": "Journey to the Centre of the Earth",
+      "pieces_list": [
+        "Journey to the Centre of the Earth"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 82.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783171"
+    },
+    {
+      "id": "2018-2-divisjon-12-agder-brass",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 12,
+      "orchestra": "Agder Brass",
+      "conductor": "Thomas Swatland",
+      "pieces": "The Land of the Long White Cloud - Aotearoa",
+      "pieces_list": [
+        "The Land of the Long White Cloud - Aotearoa"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 81.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783173"
+    },
+    {
+      "id": "2018-2-divisjon-13-tromsø-brass",
+      "year": 2018,
+      "division": "2. divisjon",
+      "rank": 13,
+      "orchestra": "Tromsø Brass",
+      "conductor": "Geir Davidsen",
+      "pieces": "Equilibrium",
+      "pieces_list": [
+        "Equilibrium"
+      ],
+      "composers": "Paul Lovatt-Cooper",
+      "composers_list": [
+        "Paul Lovatt-Cooper"
+      ],
+      "points": 80.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783176"
+    },
+    {
+      "id": "2018-3-divisjon-01-fjell-brass",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 1,
+      "orchestra": "Fjell Brass",
+      "conductor": "Joseph Cook",
+      "pieces": "Flashback",
+      "pieces_list": [
+        "Flashback"
+      ],
+      "composers": "Jan de Haan",
+      "composers_list": [
+        "Jan de Haan"
+      ],
+      "points": 96.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783178"
+    },
+    {
+      "id": "2018-3-divisjon-02-stangaland-brass",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 2,
+      "orchestra": "Stangaland Brass",
+      "conductor": "Melvin White",
+      "pieces": "Spectrum",
+      "pieces_list": [
+        "Spectrum"
+      ],
+      "composers": "Gilbert Vinter",
+      "composers_list": [
+        "Gilbert Vinter"
+      ],
+      "points": 95.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783180"
+    },
+    {
+      "id": "2018-3-divisjon-03-follesø-musikklag",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 3,
+      "orchestra": "Follesø Musikklag",
+      "conductor": "Jacob Vilhelm Larsen",
+      "pieces": "The Saga of Tyrfing",
+      "pieces_list": [
+        "The Saga of Tyrfing"
+      ],
+      "composers": "Jacob Vilhelm Larsen",
+      "composers_list": [
+        "Jacob Vilhelm Larsen"
+      ],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783182"
+    },
+    {
+      "id": "2018-3-divisjon-04-laksevåg-musikkforening",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 4,
+      "orchestra": "Laksevåg Musikkforening",
+      "conductor": "Fredrick Schjelderup",
+      "pieces": "Sollicitus for Brassband and Percussion",
+      "pieces_list": [
+        "Sollicitus for Brassband and Percussion"
+      ],
+      "composers": "Fredrick Schjelderup",
+      "composers_list": [
+        "Fredrick Schjelderup"
+      ],
+      "points": 93.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783185"
+    },
+    {
+      "id": "2018-3-divisjon-05-nes-musikkforening",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 5,
+      "orchestra": "Nes Musikkforening",
+      "conductor": "Thorbjørn Lunde",
+      "pieces": "Quintessence",
+      "pieces_list": [
+        "Quintessence"
+      ],
+      "composers": "Robert Redhead",
+      "composers_list": [
+        "Robert Redhead"
+      ],
+      "points": 91.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783187"
+    },
+    {
+      "id": "2018-3-divisjon-06-lindås-brass",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 6,
+      "orchestra": "Lindås Brass",
+      "conductor": "Hilde Margrethe Brevik Grytten",
+      "pieces": "Trittico",
+      "pieces_list": [
+        "Trittico"
+      ],
+      "composers": "James Curnow",
+      "composers_list": [
+        "James Curnow"
+      ],
+      "points": 90.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783189"
+    },
+    {
+      "id": "2018-3-divisjon-07-bjørvika-brass-band",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 7,
+      "orchestra": "Bjørvika Brass Band",
+      "conductor": "Robert Solberg Nilsen",
+      "pieces": "Journey into Freedom",
+      "pieces_list": [
+        "Journey into Freedom"
+      ],
+      "composers": "Eric Ball",
+      "composers_list": [
+        "Eric Ball"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783192"
+    },
+    {
+      "id": "2018-3-divisjon-08-bergen-brass-band",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 8,
+      "orchestra": "Bergen Brass Band",
+      "conductor": "Thor-Arne Pedersen",
+      "pieces": "The Land of the Long White Cloud - Aotearoa",
+      "pieces_list": [
+        "The Land of the Long White Cloud - Aotearoa"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783194"
+    },
+    {
+      "id": "2018-3-divisjon-09-trondheim-politis-brassband",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 9,
+      "orchestra": "Trondheim Politis Brassband",
+      "conductor": "Espen Andersen",
+      "pieces": "Coventry Variations",
+      "pieces_list": [
+        "Coventry Variations"
+      ],
+      "composers": "Bramwell Tovey",
+      "composers_list": [
+        "Bramwell Tovey"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783196"
+    },
+    {
+      "id": "2018-3-divisjon-10-gjesdal-brass-band",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 10,
+      "orchestra": "Gjesdal Brass Band",
+      "conductor": "Jonas Skartveit Rogne",
+      "pieces": "Ravenscroft Variations",
+      "pieces_list": [
+        "Ravenscroft Variations"
+      ],
+      "composers": "Jacob Vilhelm Larsen",
+      "composers_list": [
+        "Jacob Vilhelm Larsen"
+      ],
+      "points": 86.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783199"
+    },
+    {
+      "id": "2018-3-divisjon-11-skui-brassband",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 11,
+      "orchestra": "Skui Brassband",
+      "conductor": "Thor-Willy Karlsen",
+      "pieces": "Prisms",
+      "pieces_list": [
+        "Prisms"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 85.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783201"
+    },
+    {
+      "id": "2018-3-divisjon-12-valdres-brass-band",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 12,
+      "orchestra": "Valdres Brass Band",
+      "conductor": "Thorgeir Thunestvedt",
+      "pieces": "The Land of the Long White Cloud - Aotearoa",
+      "pieces_list": [
+        "The Land of the Long White Cloud - Aotearoa"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 84.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783203"
+    },
+    {
+      "id": "2018-3-divisjon-13-florø-hornmusikk",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 13,
+      "orchestra": "Florø Hornmusikk",
+      "conductor": "Torgeir Halvorsen",
+      "pieces": "Firestorm",
+      "pieces_list": [
+        "Firestorm"
+      ],
+      "composers": "Stephen Bulla",
+      "composers_list": [
+        "Stephen Bulla"
+      ],
+      "points": 83.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783205"
+    },
+    {
+      "id": "2018-3-divisjon-14-fræna-musikkorps",
+      "year": 2018,
+      "division": "3. divisjon",
+      "rank": 14,
+      "orchestra": "Fræna Musikkorps",
+      "conductor": "Randi Anita Dale",
+      "pieces": "Hinemoa",
+      "pieces_list": [
+        "Hinemoa"
+      ],
+      "composers": "Gareth Wood",
+      "composers_list": [
+        "Gareth Wood"
+      ],
+      "points": 82.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783207"
+    },
+    {
+      "id": "2018-4-divisjon-01-stavanger-kommunes-korps",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 1,
+      "orchestra": "Stavanger Kommunes Korps",
+      "conductor": "Gwyn Evans",
+      "pieces": "Images for Brass",
+      "pieces_list": [
+        "Images for Brass"
+      ],
+      "composers": "Stephen Bulla",
+      "composers_list": [
+        "Stephen Bulla"
+      ],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783210"
+    },
+    {
+      "id": "2018-4-divisjon-02-kos---krohnengen-old-stars",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 2,
+      "orchestra": "KOS - Krohnengen Old Stars",
+      "conductor": "Øyvind Raknes Nikolaisen",
+      "pieces": "Pageantry",
+      "pieces_list": [
+        "Pageantry"
+      ],
+      "composers": "Herbert Howells",
+      "composers_list": [
+        "Herbert Howells"
+      ],
+      "points": 93.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783212"
+    },
+    {
+      "id": "2018-4-divisjon-03-kjølsdalen-musikklag",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 3,
+      "orchestra": "Kjølsdalen Musikklag",
+      "conductor": "Arvid Anthun",
+      "pieces": "The Prizewinners",
+      "pieces_list": [
+        "The Prizewinners"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 92.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783214"
+    },
+    {
+      "id": "2018-4-divisjon-04-filadelfia-hornorkester-drammen",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 4,
+      "orchestra": "Filadelfia Hornorkester Drammen",
+      "conductor": "Pål André Grimstad Worren",
+      "pieces": "The Day of The Lord",
+      "pieces_list": [
+        "The Day of The Lord"
+      ],
+      "composers": "Steven Ponsford",
+      "composers_list": [
+        "Steven Ponsford"
+      ],
+      "points": 91.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783216"
+    },
+    {
+      "id": "2018-4-divisjon-05-lyshornet-brass",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 5,
+      "orchestra": "Lyshornet Brass",
+      "conductor": "Øyvind Raknes Nikolaisen",
+      "pieces": "Labour and Love",
+      "pieces_list": [
+        "Labour and Love"
+      ],
+      "composers": "Percy E. Fletcher",
+      "composers_list": [
+        "Percy E. Fletcher"
+      ],
+      "points": 90.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783219"
+    },
+    {
+      "id": "2018-4-divisjon-06-tysvær-brass",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 6,
+      "orchestra": "Tysvær Brass",
+      "conductor": "Paul Hughes",
+      "pieces": "Kingdom of Dragons",
+      "pieces_list": [
+        "Kingdom of Dragons"
+      ],
+      "composers": "Philip Harper",
+      "composers_list": [
+        "Philip Harper"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783221"
+    },
+    {
+      "id": "2018-4-divisjon-07-moen-musikkforening",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 7,
+      "orchestra": "Moen Musikkforening",
+      "conductor": "Ole Kristian Egge",
+      "pieces": "Triptych",
+      "pieces_list": [
+        "Triptych"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783223"
+    },
+    {
+      "id": "2018-4-divisjon-08-hetlevik-musikklag",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 8,
+      "orchestra": "Hetlevik Musikklag",
+      "conductor": "Patrik Randefalk",
+      "pieces": "Sinfonietta",
+      "pieces_list": [
+        "Sinfonietta"
+      ],
+      "composers": "Alan Fernie",
+      "composers_list": [
+        "Alan Fernie"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783225"
+    },
+    {
+      "id": "2018-4-divisjon-09-flora-bremanger-brassband",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 9,
+      "orchestra": "Flora-Bremanger Brassband",
+      "conductor": "Johnny Sælemyr",
+      "pieces": "Triptych",
+      "pieces_list": [
+        "Triptych"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 86.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783227"
+    },
+    {
+      "id": "2018-4-divisjon-10-sotra-brass",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 10,
+      "orchestra": "Sotra Brass",
+      "conductor": "Ben Hirons",
+      "pieces": "Olympus",
+      "pieces_list": [
+        "Olympus"
+      ],
+      "composers": "Philip Harper",
+      "composers_list": [
+        "Philip Harper"
+      ],
+      "points": 86.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783230"
+    },
+    {
+      "id": "2018-4-divisjon-11-flå-musikkorps",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 11,
+      "orchestra": "Flå Musikkorps",
+      "conductor": "Odd Steinar Mørkved",
+      "pieces": "Triptych",
+      "pieces_list": [
+        "Triptych"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 85.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783232"
+    },
+    {
+      "id": "2018-4-divisjon-12-brumunddal-brass",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 12,
+      "orchestra": "Brumunddal Brass",
+      "conductor": "Per Kristian Ødegård Syversen",
+      "pieces": "Labour and Love",
+      "pieces_list": [
+        "Labour and Love"
+      ],
+      "composers": "Percy E. Fletcher",
+      "composers_list": [
+        "Percy E. Fletcher"
+      ],
+      "points": 84.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783234"
+    },
+    {
+      "id": "2018-4-divisjon-13-indre-torungen-brass-ensemble",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 13,
+      "orchestra": "Indre Torungen Brass Ensemble",
+      "conductor": "Lars-Bjørnar Strengenes",
+      "pieces": "Three Extraordinary Journeys",
+      "pieces_list": [
+        "Three Extraordinary Journeys"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 83.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783236"
+    },
+    {
+      "id": "2018-4-divisjon-14-langhus-brass",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 14,
+      "orchestra": "Langhus Brass",
+      "conductor": "Ukjent",
+      "pieces": "Saint-Saëns Variations",
+      "pieces_list": [
+        "Saint-Saëns Variations"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 82.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783238"
+    },
+    {
+      "id": "2018-4-divisjon-15-holmestrand-ungdomskorps",
+      "year": 2018,
+      "division": "4. divisjon",
+      "rank": 15,
+      "orchestra": "Holmestrand Ungdomskorps",
+      "conductor": "Arild Ovrum",
+      "pieces": "Sinfonietta: The Town Beneath the Cliff",
+      "pieces_list": [
+        "Sinfonietta: The Town Beneath the Cliff"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 80.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783241"
+    },
+    {
+      "id": "2018-5-divisjon-01-randaberg-musikkorps",
+      "year": 2018,
+      "division": "5. divisjon",
+      "rank": 1,
+      "orchestra": "Randaberg Musikkorps",
+      "conductor": "Pål Magne Austnes-Underhaug",
+      "pieces": "Lake of the Moon",
+      "pieces_list": [
+        "Lake of the Moon"
+      ],
+      "composers": "Kevin Houben",
+      "composers_list": [
+        "Kevin Houben"
+      ],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783243"
+    },
+    {
+      "id": "2018-5-divisjon-02-frei-hornmusikk",
+      "year": 2018,
+      "division": "5. divisjon",
+      "rank": 2,
+      "orchestra": "Frei Hornmusikk",
+      "conductor": "Jens Kristian Mordal",
+      "pieces": "Three Saints",
+      "pieces_list": [
+        "Three Saints"
+      ],
+      "composers": "Goff Richards",
+      "composers_list": [
+        "Goff Richards"
+      ],
+      "points": 92.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783245"
+    },
+    {
+      "id": "2018-5-divisjon-03-rosendal-musikklag",
+      "year": 2018,
+      "division": "5. divisjon",
+      "rank": 3,
+      "orchestra": "Rosendal Musikklag",
+      "conductor": "Yngve Nikolaisen",
+      "pieces": "Portrait of a City",
+      "pieces_list": [
+        "Portrait of a City"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 91.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783247"
+    },
+    {
+      "id": "2018-5-divisjon-04-grenland-brass",
+      "year": 2018,
+      "division": "5. divisjon",
+      "rank": 4,
+      "orchestra": "Grenland Brass",
+      "conductor": "Tommy Sørby",
+      "pieces": "Purcell Variations",
+      "pieces_list": [
+        "Purcell Variations"
+      ],
+      "composers": "Kenneth Downie",
+      "composers_list": [
+        "Kenneth Downie"
+      ],
+      "points": 90.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783249"
+    },
+    {
+      "id": "2018-5-divisjon-05-lismarka/mesnali-brass",
+      "year": 2018,
+      "division": "5. divisjon",
+      "rank": 5,
+      "orchestra": "Lismarka/Mesnali Brass",
+      "conductor": "Andres Halla",
+      "pieces": "Friendly Takeover",
+      "pieces_list": [
+        "Friendly Takeover"
+      ],
+      "composers": "Oliver Waespi",
+      "composers_list": [
+        "Oliver Waespi"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783252"
+    },
+    {
+      "id": "2018-5-divisjon-06-norheimsund-musikklag",
+      "year": 2018,
+      "division": "5. divisjon",
+      "rank": 6,
+      "orchestra": "Norheimsund Musikklag",
+      "conductor": "Patrik Randefalk",
+      "pieces": "Labour and Love",
+      "pieces_list": [
+        "Labour and Love"
+      ],
+      "composers": "Percy E. Fletcher",
+      "composers_list": [
+        "Percy E. Fletcher"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783254"
+    },
+    {
+      "id": "2018-5-divisjon-07-saksumdal-musikkforening",
+      "year": 2018,
+      "division": "5. divisjon",
+      "rank": 7,
+      "orchestra": "Saksumdal Musikkforening",
+      "conductor": "Andres Halla",
+      "pieces": "A Gallimaufry Suite",
+      "pieces_list": [
+        "A Gallimaufry Suite"
+      ],
+      "composers": "Philip Harper",
+      "composers_list": [
+        "Philip Harper"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783256"
+    },
+    {
+      "id": "2018-5-divisjon-08-skeie-brass",
+      "year": 2018,
+      "division": "5. divisjon",
+      "rank": 8,
+      "orchestra": "Skeie Brass",
+      "conductor": "Nigel Fielding",
+      "pieces": "Three Haworth Impressions",
+      "pieces_list": [
+        "Three Haworth Impressions"
+      ],
+      "composers": "Gordon Langford",
+      "composers_list": [
+        "Gordon Langford"
+      ],
+      "points": 86.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783258"
+    },
+    {
+      "id": "2018-5-divisjon-09-imi-brass",
+      "year": 2018,
+      "division": "5. divisjon",
+      "rank": 9,
+      "orchestra": "IMI Brass",
+      "conductor": "Per-Erik Petersen",
+      "pieces": "To Serve and to Save",
+      "pieces_list": [
+        "To Serve and to Save"
+      ],
+      "composers": "Dudley Bright",
+      "composers_list": [
+        "Dudley Bright"
+      ],
+      "points": 85.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783260"
+    },
+    {
+      "id": "2018-5-divisjon-10-lillehammer-brass",
+      "year": 2018,
+      "division": "5. divisjon",
+      "rank": 10,
+      "orchestra": "Lillehammer Brass",
+      "conductor": "Jon Kristian Solberg",
+      "pieces": "Rhapsody in Brass",
+      "pieces_list": [
+        "Rhapsody in Brass"
+      ],
+      "composers": "Dean Goffin",
+      "composers_list": [
+        "Dean Goffin"
+      ],
+      "points": 83.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783262"
+    },
+    {
+      "id": "2018-5-divisjon-11-herøy-brass",
+      "year": 2018,
+      "division": "5. divisjon",
+      "rank": 11,
+      "orchestra": "Herøy Brass",
+      "conductor": "Ukjent",
+      "pieces": "The Graces of Love",
+      "pieces_list": [
+        "The Graces of Love"
+      ],
+      "composers": "Oliver Waespi",
+      "composers_list": [
+        "Oliver Waespi"
+      ],
+      "points": 82.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783265"
+    },
+    {
+      "id": "2018-5-divisjon-12-ålvik-musikklag",
+      "year": 2018,
+      "division": "5. divisjon",
+      "rank": 12,
+      "orchestra": "Ålvik Musikklag",
+      "conductor": "Torbjørn Dagestad Jr",
+      "pieces": "Youth Salutes a Master",
+      "pieces_list": [
+        "Youth Salutes a Master"
+      ],
+      "composers": "Eric Ball",
+      "composers_list": [
+        "Eric Ball"
+      ],
+      "points": 81.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.783267"
+    }
+  ],
+  "awards": [],
+  "exported_at": "2025-09-29T23:32:39.784918"
+}

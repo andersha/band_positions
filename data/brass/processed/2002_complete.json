@@ -1,0 +1,1220 @@
+{
+  "year": 2002,
+  "total_orchestras": 55,
+  "total_divisions": 4,
+  "divisions": [
+    "Elite",
+    "1. divisjon",
+    "2. divisjon",
+    "3. divisjon"
+  ],
+  "placements": [
+    {
+      "id": "2002-elite-01-manger-musikklag",
+      "year": 2002,
+      "division": "Elite",
+      "rank": 1,
+      "orchestra": "Manger Musikklag",
+      "conductor": "Allan Withington",
+      "pieces": "Montage",
+      "pieces_list": [
+        "Montage"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 96.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711687"
+    },
+    {
+      "id": "2002-elite-02-krohnengen-brass-band",
+      "year": 2002,
+      "division": "Elite",
+      "rank": 2,
+      "orchestra": "Krohnengen Brass Band",
+      "conductor": "Ray Farr",
+      "pieces": "Revelation",
+      "pieces_list": [
+        "Revelation"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711693"
+    },
+    {
+      "id": "2002-elite-03-stavanger-brass-band",
+      "year": 2002,
+      "division": "Elite",
+      "rank": 3,
+      "orchestra": "Stavanger Brass Band",
+      "conductor": "Steve Bastable",
+      "pieces": "Tristan Encounters",
+      "pieces_list": [
+        "Tristan Encounters"
+      ],
+      "composers": "Martin Ellerby",
+      "composers_list": [
+        "Martin Ellerby"
+      ],
+      "points": 93.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711696"
+    },
+    {
+      "id": "2002-elite-04-molde-brass-band",
+      "year": 2002,
+      "division": "Elite",
+      "rank": 4,
+      "orchestra": "Molde Brass Band",
+      "conductor": "Alan Morrison",
+      "pieces": "Harrison's Dream",
+      "pieces_list": [
+        "Harrison's Dream"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 91.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711700"
+    },
+    {
+      "id": "2002-elite-05-oslofjord-brass",
+      "year": 2002,
+      "division": "Elite",
+      "rank": 5,
+      "orchestra": "Oslofjord Brass",
+      "conductor": "Peter Parkes",
+      "pieces": "Contest Music",
+      "pieces_list": [
+        "Contest Music"
+      ],
+      "composers": "Wilfred Heaton",
+      "composers_list": [
+        "Wilfred Heaton"
+      ],
+      "points": 91.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711703"
+    },
+    {
+      "id": "2002-elite-06-sandefjord-brass-symposium",
+      "year": 2002,
+      "division": "Elite",
+      "rank": 6,
+      "orchestra": "Sandefjord Brass Symposium",
+      "conductor": "Garry Cutt",
+      "pieces": "Dove Descending",
+      "pieces_list": [
+        "Dove Descending"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 90.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711706"
+    },
+    {
+      "id": "2002-elite-07-eikanger-bjørsvik-musikklag",
+      "year": 2002,
+      "division": "Elite",
+      "rank": 7,
+      "orchestra": "Eikanger-Bjørsvik Musikklag",
+      "conductor": "Howard Snell",
+      "pieces": "Daphnis et Cloé, 2nd Suite",
+      "pieces_list": [
+        "Daphnis et Cloé, 2nd Suite"
+      ],
+      "composers": "Maurice Ravel, arr: Howard Snell",
+      "composers_list": [
+        "Maurice Ravel, arr: Howard Snell"
+      ],
+      "points": 90.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711710"
+    },
+    {
+      "id": "2002-elite-08-ila-brass-band",
+      "year": 2002,
+      "division": "Elite",
+      "rank": 8,
+      "orchestra": "Ila Brass Band",
+      "conductor": "Frank Renton",
+      "pieces": "Between the Moon and Mexico",
+      "pieces_list": [
+        "Between the Moon and Mexico"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 89.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711714"
+    },
+    {
+      "id": "2002-elite-09-jaren-hornmusikkforening",
+      "year": 2002,
+      "division": "Elite",
+      "rank": 9,
+      "orchestra": "Jaren Hornmusikkforening",
+      "conductor": "Helge Haukås",
+      "pieces": "Klang (!)",
+      "pieces_list": [
+        "Klang (!)"
+      ],
+      "composers": "Ørjan Matre",
+      "composers_list": [
+        "Ørjan Matre"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711717"
+    },
+    {
+      "id": "2002-elite-10-tertnes-brass",
+      "year": 2002,
+      "division": "Elite",
+      "rank": 10,
+      "orchestra": "Tertnes Brass",
+      "conductor": "Michael Antrobus",
+      "pieces": "A Lowry Sketchbook",
+      "pieces_list": [
+        "A Lowry Sketchbook"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711720"
+    },
+    {
+      "id": "2002-1-divisjon-01-alexander-brass-band",
+      "year": 2002,
+      "division": "1. divisjon",
+      "rank": 1,
+      "orchestra": "Alexander Brass Band",
+      "conductor": "Philip Sparke",
+      "pieces": "Tallis Variations",
+      "pieces_list": [
+        "Tallis Variations"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 97.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711724"
+    },
+    {
+      "id": "2002-1-divisjon-02-askøy-brass-band",
+      "year": 2002,
+      "division": "1. divisjon",
+      "rank": 2,
+      "orchestra": "Askøy Brass Band",
+      "conductor": "Yngve Nikolaisen",
+      "pieces": "The Forest of Dean",
+      "pieces_list": [
+        "The Forest of Dean"
+      ],
+      "composers": "Derek Bourgeois",
+      "composers_list": [
+        "Derek Bourgeois"
+      ],
+      "points": 95.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711727"
+    },
+    {
+      "id": "2002-1-divisjon-03-tomra-brass-band",
+      "year": 2002,
+      "division": "1. divisjon",
+      "rank": 3,
+      "orchestra": "Tomra Brass Band",
+      "conductor": "Arnfinn Dalhaug",
+      "pieces": "Atlantic",
+      "pieces_list": [
+        "Atlantic"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711730"
+    },
+    {
+      "id": "2002-1-divisjon-04-kleppe-musikklag",
+      "year": 2002,
+      "division": "1. divisjon",
+      "rank": 4,
+      "orchestra": "Kleppe Musikklag",
+      "conductor": "Eirik Gjerdevik",
+      "pieces": "Dances and Arias",
+      "pieces_list": [
+        "Dances and Arias"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 93.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711733"
+    },
+    {
+      "id": "2002-1-divisjon-05-sagvåg-musikklag",
+      "year": 2002,
+      "division": "1. divisjon",
+      "rank": 5,
+      "orchestra": "Sagvåg Musikklag",
+      "conductor": "Michael Fowles",
+      "pieces": "Tallis Variations",
+      "pieces_list": [
+        "Tallis Variations"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 92.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711737"
+    },
+    {
+      "id": "2002-1-divisjon-06-sola-brass-band",
+      "year": 2002,
+      "division": "1. divisjon",
+      "rank": 6,
+      "orchestra": "Sola Brass Band",
+      "conductor": "Russell Gray",
+      "pieces": "Diversions on a Bass Theme",
+      "pieces_list": [
+        "Diversions on a Bass Theme"
+      ],
+      "composers": "George Lloyd",
+      "composers_list": [
+        "George Lloyd"
+      ],
+      "points": 91.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711740"
+    },
+    {
+      "id": "2002-1-divisjon-07-sørum-musikklag",
+      "year": 2002,
+      "division": "1. divisjon",
+      "rank": 7,
+      "orchestra": "Sørum Musikklag",
+      "conductor": "Trond Elnes",
+      "pieces": "A Lowry Sketchbook",
+      "pieces_list": [
+        "A Lowry Sketchbook"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 90.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711743"
+    },
+    {
+      "id": "2002-1-divisjon-08-brøttum-brass",
+      "year": 2002,
+      "division": "1. divisjon",
+      "rank": 8,
+      "orchestra": "Brøttum Brass",
+      "conductor": "Thorbjørn Lunde",
+      "pieces": "Paganini Variations",
+      "pieces_list": [
+        "Paganini Variations"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711746"
+    },
+    {
+      "id": "2002-1-divisjon-09-radøy-brass",
+      "year": 2002,
+      "division": "1. divisjon",
+      "rank": 9,
+      "orchestra": "Radøy Brass",
+      "conductor": "Gareth Pritchard",
+      "pieces": "English Heritage",
+      "pieces_list": [
+        "English Heritage"
+      ],
+      "composers": "George Lloyd",
+      "composers_list": [
+        "George Lloyd"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711749"
+    },
+    {
+      "id": "2002-1-divisjon-10-oster-brass",
+      "year": 2002,
+      "division": "1. divisjon",
+      "rank": 10,
+      "orchestra": "Oster Brass",
+      "conductor": "Reid Gilje",
+      "pieces": "A Lowry Sketchbook",
+      "pieces_list": [
+        "A Lowry Sketchbook"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711752"
+    },
+    {
+      "id": "2002-1-divisjon-11-trondheim-politis-brassband",
+      "year": 2002,
+      "division": "1. divisjon",
+      "rank": 11,
+      "orchestra": "Trondheim Politis Brassband",
+      "conductor": "Odd Steinar Mørkved",
+      "pieces": "Odyssey",
+      "pieces_list": [
+        "Odyssey"
+      ],
+      "composers": "Kevin Norbury",
+      "composers_list": [
+        "Kevin Norbury"
+      ],
+      "points": 86.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711755"
+    },
+    {
+      "id": "2002-2-divisjon-01-vennesla-kristne-brass",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 1,
+      "orchestra": "Vennesla Kristne Brass",
+      "conductor": "Bjørn Breistein",
+      "pieces": "The Land of the Long White Cloud - Aotearoa",
+      "pieces_list": [
+        "The Land of the Long White Cloud - Aotearoa"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 96.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711759"
+    },
+    {
+      "id": "2002-2-divisjon-02-hornorkesteret-stavanger",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 2,
+      "orchestra": "Hornorkesteret Stavanger",
+      "conductor": "Morten Evjeberg Hansen",
+      "pieces": "The Forest of Dean",
+      "pieces_list": [
+        "The Forest of Dean"
+      ],
+      "composers": "Derek Bourgeois",
+      "composers_list": [
+        "Derek Bourgeois"
+      ],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711762"
+    },
+    {
+      "id": "2002-2-divisjon-03-musikkorpset-gjallarhorn",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 3,
+      "orchestra": "Musikkorpset Gjallarhorn",
+      "conductor": "Alan Fernie",
+      "pieces": "Spectrum",
+      "pieces_list": [
+        "Spectrum"
+      ],
+      "composers": "Gilbert Vinter",
+      "composers_list": [
+        "Gilbert Vinter"
+      ],
+      "points": 93.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711765"
+    },
+    {
+      "id": "2002-2-divisjon-04-stangaland-brass",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 4,
+      "orchestra": "Stangaland Brass",
+      "conductor": "Stian E. Svendsen",
+      "pieces": "Five Blooms in a Welsh Garden",
+      "pieces_list": [
+        "Five Blooms in a Welsh Garden"
+      ],
+      "composers": "Gareth Wood",
+      "composers_list": [
+        "Gareth Wood"
+      ],
+      "points": 92.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711768"
+    },
+    {
+      "id": "2002-2-divisjon-05-flesland-musikklag",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 5,
+      "orchestra": "Flesland Musikklag",
+      "conductor": "Egil Magnussen",
+      "pieces": "Natalis",
+      "pieces_list": [
+        "Natalis"
+      ],
+      "composers": "Martin Ellerby",
+      "composers_list": [
+        "Martin Ellerby"
+      ],
+      "points": 91.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711771"
+    },
+    {
+      "id": "2002-2-divisjon-06-kopervik-musikkorps",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 6,
+      "orchestra": "Kopervik Musikkorps",
+      "conductor": "Richard Evans",
+      "pieces": "The Land of the Long White Cloud - Aotearoa",
+      "pieces_list": [
+        "The Land of the Long White Cloud - Aotearoa"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711774"
+    },
+    {
+      "id": "2002-2-divisjon-07-ørskog-brass",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 7,
+      "orchestra": "Ørskog Brass",
+      "conductor": "John Hudson",
+      "pieces": "The Land of the Long White Cloud - Aotearoa",
+      "pieces_list": [
+        "The Land of the Long White Cloud - Aotearoa"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711778"
+    },
+    {
+      "id": "2002-2-divisjon-08-austrheim-lindås-musikklag",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 8,
+      "orchestra": "Austrheim Lindås Musikklag",
+      "conductor": "Christian Pettersen Breistein",
+      "pieces": "The Plantagenets",
+      "pieces_list": [
+        "The Plantagenets"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711781"
+    },
+    {
+      "id": "2002-2-divisjon-08-tromsø-brass",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 8,
+      "orchestra": "Tromsø Brass",
+      "conductor": "Ukjent",
+      "pieces": "Journey into Freedom",
+      "pieces_list": [
+        "Journey into Freedom"
+      ],
+      "composers": "Eric Ball",
+      "composers_list": [
+        "Eric Ball"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711784"
+    },
+    {
+      "id": "2002-2-divisjon-10-frei-hornmusikk",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 10,
+      "orchestra": "Frei Hornmusikk",
+      "conductor": "Stein Åge Sørlie",
+      "pieces": "Resurgam",
+      "pieces_list": [
+        "Resurgam"
+      ],
+      "composers": "Eric Ball",
+      "composers_list": [
+        "Eric Ball"
+      ],
+      "points": 85.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711787"
+    },
+    {
+      "id": "2002-2-divisjon-11-tysnes-musikklag",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 11,
+      "orchestra": "Tysnes Musikklag",
+      "conductor": "Jan Magne Olsen",
+      "pieces": "Endeavour",
+      "pieces_list": [
+        "Endeavour"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 84.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711790"
+    },
+    {
+      "id": "2002-2-divisjon-12-laksevåg-musikkforening",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 12,
+      "orchestra": "Laksevåg Musikkforening",
+      "conductor": "Ray Farr",
+      "pieces": "John O'Gaunt",
+      "pieces_list": [
+        "John O'Gaunt"
+      ],
+      "composers": "Gilbert Vinter",
+      "composers_list": [
+        "Gilbert Vinter"
+      ],
+      "points": 83.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711794"
+    },
+    {
+      "id": "2002-2-divisjon-13-rosendal-musikklag",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 13,
+      "orchestra": "Rosendal Musikklag",
+      "conductor": "Pål W. Jøsok",
+      "pieces": "Diversions for Brass Band",
+      "pieces_list": [
+        "Diversions for Brass Band"
+      ],
+      "composers": "Derek Bourgeois",
+      "composers_list": [
+        "Derek Bourgeois"
+      ],
+      "points": 81.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711797"
+    },
+    {
+      "id": "2002-2-divisjon-14-bergen-brass-band",
+      "year": 2002,
+      "division": "2. divisjon",
+      "rank": 14,
+      "orchestra": "Bergen Brass Band",
+      "conductor": "Knut Harald Rydland",
+      "pieces": "Rhapsody in Brass",
+      "pieces_list": [
+        "Rhapsody in Brass"
+      ],
+      "composers": "Dean Goffin",
+      "composers_list": [
+        "Dean Goffin"
+      ],
+      "points": 80.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711800"
+    },
+    {
+      "id": "2002-3-divisjon-01-oslo-brass-band",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 1,
+      "orchestra": "Oslo Brass Band",
+      "conductor": "Helge Haukås",
+      "pieces": "Dances and Arias",
+      "pieces_list": [
+        "Dances and Arias"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 96.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711803"
+    },
+    {
+      "id": "2002-3-divisjon-02-oltedal-ålgård-musikkorps",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 2,
+      "orchestra": "Oltedal-Ålgård Musikkorps",
+      "conductor": "Russell Gray",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 95.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711806"
+    },
+    {
+      "id": "2002-3-divisjon-03-skodje-ungdomskorps",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 3,
+      "orchestra": "Skodje Ungdomskorps",
+      "conductor": "Henrik Dagestad-Dalhaug",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711808"
+    },
+    {
+      "id": "2002-3-divisjon-04-haukås-musikklag",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 4,
+      "orchestra": "Haukås Musikklag",
+      "conductor": "Knut Harald Rydland",
+      "pieces": "Labour and Love",
+      "pieces_list": [
+        "Labour and Love"
+      ],
+      "composers": "Percy E. Fletcher",
+      "composers_list": [
+        "Percy E. Fletcher"
+      ],
+      "points": 93.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711812"
+    },
+    {
+      "id": "2002-3-divisjon-05-hasle-brass",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 5,
+      "orchestra": "Hasle Brass",
+      "conductor": "Tarjei Gilbrant",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 92.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711814"
+    },
+    {
+      "id": "2002-3-divisjon-06-nes-musikkforening",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 6,
+      "orchestra": "Nes Musikkforening",
+      "conductor": "Andres Halla",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 91.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711817"
+    },
+    {
+      "id": "2002-3-divisjon-07-jølster-musikklag",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 7,
+      "orchestra": "Jølster Musikklag",
+      "conductor": "Gunnar Smaadal",
+      "pieces": "Music for a Festival",
+      "pieces_list": [
+        "Music for a Festival"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 90.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711820"
+    },
+    {
+      "id": "2002-3-divisjon-08-skeie-brass",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 8,
+      "orchestra": "Skeie Brass",
+      "conductor": "Einar Mæland",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711823"
+    },
+    {
+      "id": "2002-3-divisjon-09-fræna-musikkorps",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 9,
+      "orchestra": "Fræna Musikkorps",
+      "conductor": "Jens Kristian Mordal",
+      "pieces": "Music for a Festival",
+      "pieces_list": [
+        "Music for a Festival"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711826"
+    },
+    {
+      "id": "2002-3-divisjon-10-follesø-musikklag",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 10,
+      "orchestra": "Follesø Musikklag",
+      "conductor": "Reid Gilje",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711829"
+    },
+    {
+      "id": "2002-3-divisjon-11-rong-brass",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 11,
+      "orchestra": "Rong Brass",
+      "conductor": "Oddvar Nøstdal",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 86.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711832"
+    },
+    {
+      "id": "2002-3-divisjon-12-randaberg-musikkorps",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 12,
+      "orchestra": "Randaberg Musikkorps",
+      "conductor": "Stein Olav Hindaker",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 85.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711834"
+    },
+    {
+      "id": "2002-3-divisjon-13-brumund/nordaasen-musikkforening",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 13,
+      "orchestra": "Brumund/Nordaasen Musikkforening",
+      "conductor": "Thorbjørn Lunde",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 84.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711837"
+    },
+    {
+      "id": "2002-3-divisjon-13-gjøvik-bybrass",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 13,
+      "orchestra": "Gjøvik Bybrass",
+      "conductor": "Roar Bjerkehagen",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 84.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711840"
+    },
+    {
+      "id": "2002-3-divisjon-13-ungdomskorpset-samklang",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 13,
+      "orchestra": "Ungdomskorpset Samklang",
+      "conductor": "Tormod Flaten",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 84.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711842"
+    },
+    {
+      "id": "2002-3-divisjon-16-førde-musikkorps",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 16,
+      "orchestra": "Førde Musikkorps",
+      "conductor": "Pål W. Jøsok",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 83.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711845"
+    },
+    {
+      "id": "2002-3-divisjon-16-lismarkens-musikforening",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 16,
+      "orchestra": "Lismarkens Musikforening",
+      "conductor": "Erling Johan Myrseth",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 83.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711847"
+    },
+    {
+      "id": "2002-3-divisjon-18-stavanger-kommunes-korps",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 18,
+      "orchestra": "Stavanger Kommunes Korps",
+      "conductor": "Per Inge Austnes",
+      "pieces": "Sinfonietta - The Dawning",
+      "pieces_list": [
+        "Sinfonietta - The Dawning"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 82.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711851"
+    },
+    {
+      "id": "2002-3-divisjon-19-sauda-musikklag",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 19,
+      "orchestra": "Sauda Musikklag",
+      "conductor": "Thormod Gilje",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 81.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711853"
+    },
+    {
+      "id": "2002-3-divisjon-20-bamble-musikkorps",
+      "year": 2002,
+      "division": "3. divisjon",
+      "rank": 20,
+      "orchestra": "Bamble Musikkorps",
+      "conductor": "Jon Mikal Guldager",
+      "pieces": null,
+      "pieces_list": [],
+      "composers": null,
+      "composers_list": [],
+      "points": 80.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.711856"
+    }
+  ],
+  "awards": [],
+  "exported_at": "2025-09-29T23:32:39.713918"
+}

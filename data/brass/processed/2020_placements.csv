@@ -1,0 +1,76 @@
+id,year,division,rank,orchestra,conductor,pieces,pieces_list,composers,composers_list,points,max_points,image_url,orchestra_url,conductor_url,piece_urls,scraped_at
+2020-elite-01-stavanger-brass-band,2020,Elite,1,Stavanger Brass Band,Allan Withington,The Turing Test,['The Turing Test'],Simon Dobson,['Simon Dobson'],98.5,100.0,,,,,2025-09-29T23:32:39.791872
+2020-elite-02-manger-musikklag,2020,Elite,2,Manger Musikklag,Peter Sebastian Szilvay,Midnight's Butterflies,"[""Midnight's Butterflies""]",Maurice Donnet-Monay,['Maurice Donnet-Monay'],95.75,100.0,,,,,2025-09-29T23:32:39.791875
+2020-elite-03-eikanger-bjørsvik-musikklag,2020,Elite,3,Eikanger-Bjørsvik Musikklag,Ingar Bergby,Spiriti,['Spiriti'],Thomas Doss,['Thomas Doss'],95.0,100.0,,,,,2025-09-29T23:32:39.791878
+2020-elite-04-jaren-hornmusikkforening,2020,Elite,4,Jaren Hornmusikkforening,Florent Didier,VENOM - HorrorShow II,['VENOM - HorrorShow II'],Simon Dobson,['Simon Dobson'],94.0,100.0,,,,,2025-09-29T23:32:39.791880
+2020-elite-05-krohnengen-brass-band,2020,Elite,5,Krohnengen Brass Band,Dr. Nicholas Childs,Fraternity,['Fraternity'],Thierry Deleruyelle,['Thierry Deleruyelle'],93.25,100.0,,,,,2025-09-29T23:32:39.791882
+2020-elite-06-tertnes-brass,2020,Elite,6,Tertnes Brass,Martin Philip Winter,Metropolis 1927,['Metropolis 1927'],Peter Graham,['Peter Graham'],92.75,100.0,,,,,2025-09-29T23:32:39.791885
+2020-elite-07-kleppe-musikklag,2020,Elite,7,Kleppe Musikklag,John-Philip Hannevik,As If A Voice Were In Them...,['As If A Voice Were In Them...'],Oliver Waespi,['Oliver Waespi'],92.0,100.0,,,,,2025-09-29T23:32:39.791887
+2020-elite-08-bjørsvik-brass,2020,Elite,8,Bjørsvik Brass,Andreas Hanson,The Night to Sing,['The Night to Sing'],Bramwell Tovey,['Bramwell Tovey'],91.75,100.0,,,,,2025-09-29T23:32:39.791889
+2020-elite-09-oslofjord-brass,2020,Elite,9,Oslofjord Brass,Frode Amundsen,Where Angels Fly,['Where Angels Fly'],Kevin Houben,['Kevin Houben'],91.5,100.0,,,,,2025-09-29T23:32:39.791891
+2020-elite-10-oslo-brass-band,2020,Elite,10,Oslo Brass Band,Ivan Meylemans,The Turing Test,['The Turing Test'],Simon Dobson,['Simon Dobson'],91.0,100.0,,,,,2025-09-29T23:32:39.791893
+2020-1-divisjon-01-ila-brass-band,2020,1. divisjon,1,Ila Brass Band,Magnus Brandseth,Myth Forest - Hestefallstjønn,['Myth Forest - Hestefallstjønn'],Stig Nordhagen,['Stig Nordhagen'],97.0,100.0,,,,,2025-09-29T23:32:39.791896
+2020-1-divisjon-02-rong-brass,2020,1. divisjon,2,Rong Brass,Erik Janssen,Bipolar(ity),['Bipolar(ity)'],Stijn Aertgeerts,['Stijn Aertgeerts'],96.0,100.0,,,,,2025-09-29T23:32:39.791898
+2020-1-divisjon-03-askøy-brass-band,2020,1. divisjon,3,Askøy Brass Band,Reid Gilje,Destination Moon,['Destination Moon'],Paul Raphael,['Paul Raphael'],94.0,100.0,,,,,2025-09-29T23:32:39.791901
+2020-1-divisjon-04-musikkorpset-gjallarhorn,2020,1. divisjon,4,Musikkorpset Gjallarhorn,Adam Cooke,Rococo Variations,['Rococo Variations'],Edward Gregson,['Edward Gregson'],93.5,100.0,,,,,2025-09-29T23:32:39.791903
+2020-1-divisjon-05-radøy-brass,2020,1. divisjon,5,Radøy Brass,Bjørn Breistein,Brass Blót,['Brass Blót'],Håkon Berge,['Håkon Berge'],93.0,100.0,,,,,2025-09-29T23:32:39.791905
+2020-1-divisjon-06-tomra-brass-band,2020,1. divisjon,6,Tomra Brass Band,Frans Violet,Dynasty,['Dynasty'],Peter Graham,['Peter Graham'],92.0,100.0,,,,,2025-09-29T23:32:39.791907
+2020-1-divisjon-07-molde-brass-band,2020,1. divisjon,7,Molde Brass Band,Russell Gray,Titan's Progress,"[""Titan's Progress""]",Hermann Pallhuber,['Hermann Pallhuber'],90.0,100.0,,,,,2025-09-29T23:32:39.791910
+2020-1-divisjon-08-flesland-musikklag,2020,1. divisjon,8,Flesland Musikklag,Thor-Arne Pedersen,The 39th Parallel,['The 39th Parallel'],Peter Graham,['Peter Graham'],89.0,100.0,,,,,2025-09-29T23:32:39.791912
+2020-1-divisjon-09-brøttum-brass,2020,1. divisjon,9,Brøttum Brass,Ray Farr,Elgar Variations,['Elgar Variations'],Martin Ellerby,['Martin Ellerby'],88.0,100.0,,,,,2025-09-29T23:32:39.791914
+2020-1-divisjon-10-hasle-brass,2020,1. divisjon,10,Hasle Brass,Robert Solberg Nilsen,Sinfonietta no. 3,['Sinfonietta no. 3'],Etienne Crausaz,['Etienne Crausaz'],87.0,100.0,,,,,2025-09-29T23:32:39.791916
+2020-1-divisjon-11-sola-brass-band,2020,1. divisjon,11,Sola Brass Band,Gwyn Evans,Earthrise,['Earthrise'],Nigel Clarke,['Nigel Clarke'],86.0,100.0,,,,,2025-09-29T23:32:39.791918
+2020-1-divisjon-12-sandefjord-brass-symposium,2020,1. divisjon,12,Sandefjord Brass Symposium,Helge Haukås,Of Distant Memories,['Of Distant Memories'],Edward Gregson,['Edward Gregson'],85.0,100.0,,,,,2025-09-29T23:32:39.791920
+2020-2-divisjon-01-ørskog-brass,2020,2. divisjon,1,Ørskog Brass,Jonathan Bates,Amundsen,['Amundsen'],Jonathan Bates,['Jonathan Bates'],97.0,100.0,,,,,2025-09-29T23:32:39.791923
+2020-2-divisjon-02-follesø-musikklag,2020,2. divisjon,2,Follesø Musikklag,Thorgeir Thunestvedt,Salome,['Salome'],Gareth Wood,['Gareth Wood'],96.0,100.0,,,,,2025-09-29T23:32:39.791925
+2020-2-divisjon-03-fjell-brass,2020,2. divisjon,3,Fjell Brass,Joseph Cook,The Patriots,['The Patriots'],Jan de Haan,['Jan de Haan'],95.5,100.0,,,,,2025-09-29T23:32:39.791927
+2020-2-divisjon-04-jølster-musikklag,2020,2. divisjon,4,Jølster Musikklag,Torstein Aagaard-Nilsen,The Binding of The Wolf,['The Binding of The Wolf'],Torstein Aagaard-Nilsen,['Torstein Aagaard-Nilsen'],95.0,100.0,,,,,2025-09-29T23:32:39.791929
+2020-2-divisjon-05-oster-brass,2020,2. divisjon,5,Oster Brass,David Morton,Sinfonietta no. 3,['Sinfonietta no. 3'],Etienne Crausaz,['Etienne Crausaz'],94.0,100.0,,,,,2025-09-29T23:32:39.791932
+2020-2-divisjon-06-lindås-brass,2020,2. divisjon,6,Lindås Brass,Vidar Nordli,Purcell Variations,['Purcell Variations'],Kenneth Downie,['Kenneth Downie'],93.5,100.0,,,,,2025-09-29T23:32:39.791934
+2020-2-divisjon-07-manger-old-star-brass,2020,2. divisjon,7,Manger Old Star Brass,Margareth Sutherland Antrobus,Prisms,['Prisms'],Peter Graham,['Peter Graham'],93.0,100.0,,,,,2025-09-29T23:32:39.791936
+2020-2-divisjon-08-tertnes-amatørkorps,2020,2. divisjon,8,Tertnes Amatørkorps,Tormod Flaten,English Heritage,['English Heritage'],George Lloyd,['George Lloyd'],92.5,100.0,,,,,2025-09-29T23:32:39.791938
+2020-2-divisjon-09-sørum-musikklag,2020,2. divisjon,9,Sørum Musikklag,Elsine Haugstad,Firestorm,['Firestorm'],Stephen Bulla,['Stephen Bulla'],92.0,100.0,,,,,2025-09-29T23:32:39.791941
+2020-2-divisjon-10-tysnes-musikklag,2020,2. divisjon,10,Tysnes Musikklag,Yngve Nikolaisen,Excalibur,['Excalibur'],Jan Van der Roost,['Jan Van der Roost'],91.0,100.0,,,,,2025-09-29T23:32:39.791943
+2020-2-divisjon-11-alexander-brass-band,2020,2. divisjon,11,Alexander Brass Band,Morten Evjeberg Hansen,Brass Metamorphosis,['Brass Metamorphosis'],James Curnow,['James Curnow'],90.0,100.0,,,,,2025-09-29T23:32:39.791945
+2020-2-divisjon-12-nes-musikkforening,2020,2. divisjon,12,Nes Musikkforening,Thorbjørn Lunde,Journey into Freedom,['Journey into Freedom'],Eric Ball,['Eric Ball'],89.0,100.0,,,,,2025-09-29T23:32:39.791948
+2020-2-divisjon-13-kos---krohnengen-old-stars,2020,2. divisjon,13,KOS - Krohnengen Old Stars,Øyvind Raknes Nikolaisen,Rhapsody in Brass,['Rhapsody in Brass'],Dean Goffin,['Dean Goffin'],88.0,100.0,,,,,2025-09-29T23:32:39.791950
+2020-3-divisjon-01-bergen-brass-band,2020,3. divisjon,1,Bergen Brass Band,Thor-Arne Pedersen,Flashback,['Flashback'],Jan de Haan,['Jan de Haan'],94.5,100.0,,,,,2025-09-29T23:32:39.791952
+2020-3-divisjon-02-trondheim-politis-brassband,2020,3. divisjon,2,Trondheim Politis Brassband,Espen Andersen,The Patriots,['The Patriots'],Jan de Haan,['Jan de Haan'],94.0,100.0,,,,,2025-09-29T23:32:39.791954
+2020-3-divisjon-03-stavanger-kommunes-korps,2020,3. divisjon,3,Stavanger Kommunes Korps,Morten Øvrebekk,Variations on Maccabeus,['Variations on Maccabeus'],Kevin Norbury,['Kevin Norbury'],93.0,100.0,,,,,2025-09-29T23:32:39.791957
+2020-3-divisjon-04-sagvåg-musikklag,2020,3. divisjon,4,Sagvåg Musikklag,Tom Davoren,Brass Triumphant,['Brass Triumphant'],Gareth Wood,['Gareth Wood'],92.5,100.0,,,,,2025-09-29T23:32:39.791959
+2020-3-divisjon-05-tromsø-brass,2020,3. divisjon,5,Tromsø Brass,Maria Molund,Blitz,['Blitz'],Derek Bourgeois,['Derek Bourgeois'],92.0,100.0,,,,,2025-09-29T23:32:39.791961
+2020-3-divisjon-06-haukås-musikklag,2020,3. divisjon,6,Haukås Musikklag,Yngve Nikolaisen,The Saga of Haakon the Good,['The Saga of Haakon the Good'],Philip Sparke,['Philip Sparke'],91.5,100.0,,,,,2025-09-29T23:32:39.791963
+2020-3-divisjon-07-stangaland-brass,2020,3. divisjon,7,Stangaland Brass,Paul Hughes,Turris Fortissima,['Turris Fortissima'],Steven Ponsford,['Steven Ponsford'],91.0,100.0,,,,,2025-09-29T23:32:39.791965
+2020-3-divisjon-08-lyshornet-brass,2020,3. divisjon,8,Lyshornet Brass,Øyvind Raknes Nikolaisen,Sinfonietta No 2,['Sinfonietta No 2'],Etienne Crausaz,['Etienne Crausaz'],90.5,100.0,,,,,2025-09-29T23:32:39.791968
+2020-3-divisjon-09-bjørvika-brass-band,2020,3. divisjon,9,Bjørvika Brass Band,Robert Solberg Nilsen,Resurgam,['Resurgam'],Eric Ball,['Eric Ball'],90.0,100.0,,,,,2025-09-29T23:32:39.791970
+2020-3-divisjon-10-laksevåg-musikkforening,2020,3. divisjon,10,Laksevåg Musikkforening,Fredrick Schjelderup,The Saga of Tyrfing,['The Saga of Tyrfing'],Jacob Vilhelm Larsen,['Jacob Vilhelm Larsen'],88.0,100.0,,,,,2025-09-29T23:32:39.791972
+2020-3-divisjon-11-valdres-brass-band,2020,3. divisjon,11,Valdres Brass Band,Ukjent,The Three Musketeers,['The Three Musketeers'],George Hespe,['George Hespe'],87.5,100.0,,,,,2025-09-29T23:32:39.791975
+2020-3-divisjon-12-skui-brassband,2020,3. divisjon,12,Skui Brassband,Hans Andreas Kjølberg,A London Overture,['A London Overture'],Philip Sparke,['Philip Sparke'],87.0,100.0,,,,,2025-09-29T23:32:39.791977
+2020-3-divisjon-13-agder-brass,2020,3. divisjon,13,Agder Brass,Eirik Gjerdevik,Tallis Variations,['Tallis Variations'],Philip Sparke,['Philip Sparke'],86.5,100.0,,,,,2025-09-29T23:32:39.791979
+2020-3-divisjon-14-gjøvik-bybrass,2020,3. divisjon,14,Gjøvik Bybrass,Morten Fagerjord,Harmonious Variations,['Harmonious Variations'],Gordon Langford,['Gordon Langford'],86.0,100.0,,,,,2025-09-29T23:32:39.791981
+2020-3-divisjon-15-norheimsund-musikklag,2020,3. divisjon,15,Norheimsund Musikklag,Patrik Randefalk,Dimensions,['Dimensions'],Peter Graham,['Peter Graham'],85.5,100.0,,,,,2025-09-29T23:32:39.791983
+2020-4-divisjon-01-moen-musikkforening,2020,4. divisjon,1,Moen Musikkforening,Ole Kristian Egge,Purcell Variations,['Purcell Variations'],Kenneth Downie,['Kenneth Downie'],93.0,100.0,,,,,2025-09-29T23:32:39.791986
+2020-4-divisjon-02-gjesdal-brass-band,2020,4. divisjon,2,Gjesdal Brass Band,Jonas Skartveit Rogne,Royal Parks,['Royal Parks'],George Lloyd,['George Lloyd'],92.0,100.0,,,,,2025-09-29T23:32:39.791988
+2020-4-divisjon-03-filadelfia-hornorkester-drammen,2020,4. divisjon,3,Filadelfia Hornorkester Drammen,Pål André Grimstad Worren,Aspects of Praise,['Aspects of Praise'],William Himes,['William Himes'],91.0,100.0,,,,,2025-09-29T23:32:39.791990
+2020-4-divisjon-04-flora-bremanger-brassband,2020,4. divisjon,4,Flora-Bremanger Brassband,Johnny Sælemyr,Labour and Love,['Labour and Love'],Percy E. Fletcher,['Percy E. Fletcher'],90.0,100.0,,,,,2025-09-29T23:32:39.791992
+2020-4-divisjon-05-kjølsdalen-musikklag,2020,4. divisjon,5,Kjølsdalen Musikklag,Arvid Anthun,A Malvern Suite,['A Malvern Suite'],Philip Sparke,['Philip Sparke'],89.5,100.0,,,,,2025-09-29T23:32:39.791995
+2020-4-divisjon-06-tysvær-brass,2020,4. divisjon,6,Tysvær Brass,Martin Kinn,Ascension,['Ascension'],Fredrick Schjelderup,['Fredrick Schjelderup'],89.0,100.0,,,,,2025-09-29T23:32:39.791997
+2020-4-divisjon-07-fræna-musikkorps,2020,4. divisjon,7,Fræna Musikkorps,Jens Kristian Mordal,Lake of the Moon,['Lake of the Moon'],Kevin Houben,['Kevin Houben'],88.5,100.0,,,,,2025-09-29T23:32:39.791999
+2020-4-divisjon-08-hetlevik-musikklag,2020,4. divisjon,8,Hetlevik Musikklag,Sturle Berntsen,A Celtic Suite,['A Celtic Suite'],Philip Sparke,['Philip Sparke'],88.0,100.0,,,,,2025-09-29T23:32:39.792001
+2020-4-divisjon-09-grenland-brass,2020,4. divisjon,9,Grenland Brass,Tommy Sørby,Resurgam,['Resurgam'],Eric Ball,['Eric Ball'],87.5,100.0,,,,,2025-09-29T23:32:39.792003
+2020-4-divisjon-10-saksumdal-musikkforening,2020,4. divisjon,10,Saksumdal Musikkforening,Andres Halla,Olympus,['Olympus'],Philip Harper,['Philip Harper'],87.0,100.0,,,,,2025-09-29T23:32:39.792006
+2020-4-divisjon-11-imi-brass,2020,4. divisjon,11,IMI Brass,Halvor Gaard,Portrait of a City,['Portrait of a City'],Philip Sparke,['Philip Sparke'],86.0,100.0,,,,,2025-09-29T23:32:39.792008
+2020-4-divisjon-12-indre-torungen-brass-ensemble,2020,4. divisjon,12,Indre Torungen Brass Ensemble,Lars-Bjørnar Strengenes,Viking Age,['Viking Age'],Thierry Deleruyelle,['Thierry Deleruyelle'],85.0,100.0,,,,,2025-09-29T23:32:39.792010
+2020-4-divisjon-13-florø-hornmusikk,2020,4. divisjon,13,Florø Hornmusikk,Torgeir Halvorsen,Variations on `Laudate Dominum´,['Variations on `Laudate Dominum´'],Edward Gregson,['Edward Gregson'],84.0,100.0,,,,,2025-09-29T23:32:39.792013
+2020-4-divisjon-14-frei-hornmusikk,2020,4. divisjon,14,Frei Hornmusikk,Stein Åge Sørlie,The King of Kings,['The King of Kings'],Eric Ball,['Eric Ball'],83.0,100.0,,,,,2025-09-29T23:32:39.792015
+2020-5-divisjon-01-flå-musikkorps,2020,5. divisjon,1,Flå Musikkorps,Odd Steinar Mørkved,Dimensions,['Dimensions'],Peter Graham,['Peter Graham'],93.0,100.0,,,,,2025-09-29T23:32:39.792017
+2020-5-divisjon-02-sotra-brass,2020,5. divisjon,2,Sotra Brass,Ben Hirons,A Cambrian Suite,['A Cambrian Suite'],Michael Ball,['Michael Ball'],91.5,100.0,,,,,2025-09-29T23:32:39.792020
+2020-5-divisjon-03-skeie-brass,2020,5. divisjon,3,Skeie Brass,Nigel Fielding,Viking Age,['Viking Age'],Thierry Deleruyelle,['Thierry Deleruyelle'],91.0,100.0,,,,,2025-09-29T23:32:39.792022
+2020-5-divisjon-04-holmestrand-ungdomskorps,2020,5. divisjon,4,Holmestrand Ungdomskorps,Arild Ovrum,Evolution - Five States of Change,['Evolution - Five States of Change'],Philip Sparke,['Philip Sparke'],90.0,100.0,,,,,2025-09-29T23:32:39.792024
+2020-5-divisjon-05-randaberg-musikkorps,2020,5. divisjon,5,Randaberg Musikkorps,Pål Magne Austnes-Underhaug,Dimensions,['Dimensions'],Peter Graham,['Peter Graham'],89.0,100.0,,,,,2025-09-29T23:32:39.792026
+2020-5-divisjon-06-langhus-brass,2020,5. divisjon,6,Langhus Brass,Ukjent,A Malvern Suite,['A Malvern Suite'],Philip Sparke,['Philip Sparke'],88.0,100.0,,,,,2025-09-29T23:32:39.792028
+2020-5-divisjon-07-fjordbrass-lavik,2020,5. divisjon,7,Fjordbrass Lavik,Jason Burn,The Dark Side of the Moon,['The Dark Side of the Moon'],Paul Lovatt-Cooper,['Paul Lovatt-Cooper'],87.0,100.0,,,,,2025-09-29T23:32:39.792031
+2020-5-divisjon-08-riska-brass-band,2020,5. divisjon,8,Riska Brass Band,Espen Westbye,Olympus,['Olympus'],Philip Harper,['Philip Harper'],86.0,100.0,,,,,2025-09-29T23:32:39.792033
+2020-5-divisjon-09-lismarka/mesnali-brass,2020,5. divisjon,9,Lismarka/Mesnali Brass,Andres Halla,Mountain Views,['Mountain Views'],Bertrand Moren,['Bertrand Moren'],84.0,100.0,,,,,2025-09-29T23:32:39.792035
+2020-5-divisjon-10-brumunddal-brass,2020,5. divisjon,10,Brumunddal Brass,Ukjent,Viking Age,['Viking Age'],Thierry Deleruyelle,['Thierry Deleruyelle'],83.0,100.0,,,,,2025-09-29T23:32:39.792037
+2020-5-divisjon-11-otta-musikkforening,2020,5. divisjon,11,Otta Musikkforening,Per Kristian Ødegård Syversen,The Graces of Love,['The Graces of Love'],Oliver Waespi,['Oliver Waespi'],82.0,100.0,,,,,2025-09-29T23:32:39.792039

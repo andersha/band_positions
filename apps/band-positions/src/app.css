@@ -59,6 +59,26 @@
   color-scheme: light;
 }
 
+/* Brass band theme - purple colors (dark mode) */
+:root[data-band-type='brass'] {
+  --gradient-page: linear-gradient(180deg, #1e1b3a 0%, #2d2355 60%, #3d2f6d 100%);
+  --color-accent: #c084fc;
+  --color-accent-strong: rgba(192, 132, 252, 0.35);
+  --color-chip-bg: rgba(192, 132, 252, 0.16);
+  --color-chip-border: rgba(192, 132, 252, 0.35);
+  --color-chip-index-bg: rgba(192, 132, 252, 0.45);
+}
+
+/* Brass band theme - purple colors (light mode) */
+:root[data-theme='light'][data-band-type='brass'] {
+  --gradient-page: linear-gradient(180deg, #faf5ff 0%, #f3e8ff 100%);
+  --color-accent: #9333ea;
+  --color-accent-strong: rgba(147, 51, 234, 0.4);
+  --color-chip-bg: rgba(147, 51, 234, 0.12);
+  --color-chip-border: rgba(147, 51, 234, 0.3);
+  --color-chip-index-bg: rgba(147, 51, 234, 0.2);
+}
+
 body {
   margin: 0;
   min-height: 100vh;

@@ -1,13 +1,14 @@
 <script lang="ts">
 
-  import type { BandDataset, BandEntry } from './types';
+  import type { BandDataset, BandEntry, BandType } from './types';
   import { slugify } from './slugify';
 
   interface Props {
     dataset?: BandDataset | null;
+    bandType?: BandType;
   }
 
-  let { dataset = null }: Props = $props();
+  let { dataset = null, bandType = 'wind' }: Props = $props();
 
   type TableRow = {
     band: string;
@@ -266,7 +267,7 @@
                 <td data-label="Plass">{formatRank(entry.rank)}</td>
                 <td data-label="Korps">
                   <a
-                    href={`?view=bands&band=${encodeURIComponent(slugify(band))}`}
+                    href={`?type=${bandType}&view=bands&band=${encodeURIComponent(slugify(band))}`}
                     class="entity-link"
                   >
                     {band}
@@ -275,7 +276,7 @@
                 <td data-label="Dirigent">
                   {#if entry.conductor && entry.conductor.trim().length > 0}
                     <a
-                      href={`?view=conductors&conductor=${encodeURIComponent(slugify(entry.conductor))}`}
+                      href={`?type=${bandType}&view=conductors&conductor=${encodeURIComponent(slugify(entry.conductor))}`}
                       class="entity-link"
                     >
                       {entry.conductor.trim()}
@@ -293,7 +294,7 @@
                     {:else}
                       {#each pieces as piece, index}
                         <a
-                          href={`?view=pieces&piece=${encodeURIComponent(slugify(piece))}`}
+                          href={`?type=${bandType}&view=pieces&piece=${encodeURIComponent(slugify(piece))}`}
                           class="program-link"
                         >
                           {piece}

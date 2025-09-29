@@ -1,0 +1,65 @@
+id,year,division,rank,orchestra,conductor,pieces,pieces_list,composers,composers_list,points,max_points,image_url,orchestra_url,conductor_url,piece_urls,scraped_at
+2006-elite-01-stavanger-brass-band,2006,Elite,1,Stavanger Brass Band,Russell Gray,Eden,['Eden'],John Pickard,['John Pickard'],96.5,100.0,,,,,2025-09-29T23:32:39.731468
+2006-elite-02-manger-musikklag,2006,Elite,2,Manger Musikklag,Robert Childs,Cantigas,['Cantigas'],Torstein Aagaard-Nilsen,['Torstein Aagaard-Nilsen'],96.0,100.0,,,,,2025-09-29T23:32:39.731474
+2006-elite-03-eikanger-bjørsvik-musikklag,2006,Elite,3,Eikanger-Bjørsvik Musikklag,Dr. Nicholas Childs,Journey to the Centre of the Earth,['Journey to the Centre of the Earth'],Peter Graham,['Peter Graham'],94.0,100.0,,,,,2025-09-29T23:32:39.731477
+2006-elite-04-oslofjord-brass,2006,Elite,4,Oslofjord Brass,Michael Antrobus,Whitsun Wakes,['Whitsun Wakes'],Michael Ball,['Michael Ball'],91.5,100.0,,,,,2025-09-29T23:32:39.731480
+2006-elite-05-molde-brass-band,2006,Elite,5,Molde Brass Band,Garry Cutt,Ginnungagap... Seeming emptiness,['Ginnungagap... Seeming emptiness'],Johan Evenepoel,['Johan Evenepoel'],90.5,100.0,,,,,2025-09-29T23:32:39.731483
+2006-elite-06-sandefjord-brass-symposium,2006,Elite,6,Sandefjord Brass Symposium,Ray Farr,Music for the Moving Image,['Music for the Moving Image'],Philip Wilby,['Philip Wilby'],89.5,100.0,,,,,2025-09-29T23:32:39.731489
+2006-elite-07-ila-brass-band,2006,Elite,7,Ila Brass Band,Trond Korsgård,Guovssahasat,['Guovssahasat'],Per-Anders Emilsen,['Per-Anders Emilsen'],89.0,100.0,,,,,2025-09-29T23:32:39.731492
+2006-elite-08-tertnes-brass,2006,Elite,8,Tertnes Brass,Bjørn Breistein,Contest Music,['Contest Music'],Wilfred Heaton,['Wilfred Heaton'],88.5,100.0,,,,,2025-09-29T23:32:39.731495
+2006-elite-09-krohnengen-brass-band,2006,Elite,9,Krohnengen Brass Band,Allan Withington,Music of the Spheres,['Music of the Spheres'],Philip Sparke,['Philip Sparke'],88.5,100.0,,,,,2025-09-29T23:32:39.731497
+2006-elite-10-jaren-hornmusikkforening,2006,Elite,10,Jaren Hornmusikkforening,Helge Haukås,Montage,['Montage'],Peter Graham,['Peter Graham'],86.5,100.0,,,,,2025-09-29T23:32:39.731500
+2006-1-divisjon-01-tomra-brass-band,2006,1. divisjon,1,Tomra Brass Band,Frans Violet,Journey to the Centre of the Earth,['Journey to the Centre of the Earth'],Peter Graham,['Peter Graham'],95.0,100.0,,,,,2025-09-29T23:32:39.731503
+2006-1-divisjon-02-oslo-brass-band,2006,1. divisjon,2,Oslo Brass Band,Michael Antrobus,Paganini Variations,['Paganini Variations'],Philip Wilby,['Philip Wilby'],94.0,100.0,,,,,2025-09-29T23:32:39.731505
+2006-1-divisjon-03-kleppe-musikklag,2006,1. divisjon,3,Kleppe Musikklag,Eirik Gjerdevik,English Heritage,['English Heritage'],George Lloyd,['George Lloyd'],92.0,100.0,,,,,2025-09-29T23:32:39.731508
+2006-1-divisjon-04-sola-brass-band,2006,1. divisjon,4,Sola Brass Band,Rune Gundersen,Dances and Arias,['Dances and Arias'],Edward Gregson,['Edward Gregson'],91.0,100.0,,,,,2025-09-29T23:32:39.731510
+2006-1-divisjon-05-alexander-brass-band,2006,1. divisjon,5,Alexander Brass Band,Morten Evjeberg Hansen,Between the Two Rivers,['Between the Two Rivers'],Philip Sparke,['Philip Sparke'],90.0,100.0,,,,,2025-09-29T23:32:39.731513
+2006-1-divisjon-06-askøy-brass-band,2006,1. divisjon,6,Askøy Brass Band,Helge Haukås,Journey into Freedom,['Journey into Freedom'],Eric Ball,['Eric Ball'],89.0,100.0,,,,,2025-09-29T23:32:39.731516
+2006-1-divisjon-07-haukås-musikklag,2006,1. divisjon,7,Haukås Musikklag,Thor-Arne Pedersen,Tallis Variations,['Tallis Variations'],Philip Sparke,['Philip Sparke'],88.0,100.0,,,,,2025-09-29T23:32:39.731518
+2006-1-divisjon-08-radøy-brass,2006,1. divisjon,8,Radøy Brass,Gareth Pritchard,Odyssey,['Odyssey'],Kevin Norbury,['Kevin Norbury'],87.0,100.0,,,,,2025-09-29T23:32:39.731521
+2006-1-divisjon-09-oster-brass,2006,1. divisjon,9,Oster Brass,Reid Gilje,Variations on an Enigma,['Variations on an Enigma'],Philip Sparke,['Philip Sparke'],85.0,100.0,,,,,2025-09-29T23:32:39.731523
+2006-1-divisjon-10-brøttum-brass,2006,1. divisjon,10,Brøttum Brass,Thorbjørn Lunde,Chivalry,['Chivalry'],Martin Ellerby,['Martin Ellerby'],84.0,100.0,,,,,2025-09-29T23:32:39.731526
+2006-1-divisjon-11-tromsø-brass,2006,1. divisjon,11,Tromsø Brass,Robert Skoglund Jensen,Babylonian Tablets,['Babylonian Tablets'],Geir Davidsen,['Geir Davidsen'],82.0,100.0,,,,,2025-09-29T23:32:39.731528
+2006-1-divisjon-12-vennesla-kristne-brass,2006,1. divisjon,12,Vennesla Kristne Brass,David Tellefsen,The Pilgrim,['The Pilgrim'],Kenneth Downie,['Kenneth Downie'],80.0,100.0,,,,,2025-09-29T23:32:39.731531
+2006-2-divisjon-01-follesø-musikklag,2006,2. divisjon,1,Follesø Musikklag,Egil Magnussen,Kaleidoscope,['Kaleidoscope'],Philip Sparke,['Philip Sparke'],93.0,100.0,,,,,2025-09-29T23:32:39.731533
+2006-2-divisjon-02-sørum-musikklag,2006,2. divisjon,2,Sørum Musikklag,Erling Johan Myrseth,Trittico,['Trittico'],James Curnow,['James Curnow'],92.0,100.0,,,,,2025-09-29T23:32:39.731536
+2006-2-divisjon-03-tysnes-musikklag,2006,2. divisjon,3,Tysnes Musikklag,Eirik Gjerdevik,A London Overture,['A London Overture'],Philip Sparke,['Philip Sparke'],91.0,100.0,,,,,2025-09-29T23:32:39.731538
+2006-2-divisjon-04-hornorkesteret-stavanger,2006,2. divisjon,4,Hornorkesteret Stavanger,Geir Karlson,Variations on a Ninth,['Variations on a Ninth'],Gilbert Vinter,['Gilbert Vinter'],89.0,100.0,,,,,2025-09-29T23:32:39.731541
+2006-2-divisjon-05-bergen-brass-band,2006,2. divisjon,5,Bergen Brass Band,Stian E. Svendsen,A London Overture,['A London Overture'],Philip Sparke,['Philip Sparke'],88.0,100.0,,,,,2025-09-29T23:32:39.731543
+2006-2-divisjon-06-ørskog-brass,2006,2. divisjon,6,Ørskog Brass,Henrik Dagestad-Dalhaug,Trittico,['Trittico'],James Curnow,['James Curnow'],87.0,100.0,,,,,2025-09-29T23:32:39.731545
+2006-2-divisjon-07-sagvåg-musikklag,2006,2. divisjon,7,Sagvåg Musikklag,Håvard Kroka,Blitz,['Blitz'],Derek Bourgeois,['Derek Bourgeois'],86.0,100.0,,,,,2025-09-29T23:32:39.731548
+2006-2-divisjon-08-tertnes-amatørkorps,2006,2. divisjon,8,Tertnes Amatørkorps,Tormod Flaten,Quintessence,['Quintessence'],Robert Redhead,['Robert Redhead'],85.0,100.0,,,,,2025-09-29T23:32:39.731551
+2006-2-divisjon-09-stangaland-brass,2006,2. divisjon,9,Stangaland Brass,Eirik Gjerdevik,Trittico,['Trittico'],James Curnow,['James Curnow'],84.0,100.0,,,,,2025-09-29T23:32:39.731553
+2006-2-divisjon-10-flesland-musikklag,2006,2. divisjon,10,Flesland Musikklag,Bengt Florvåg,The Land of the Long White Cloud - Aotearoa,['The Land of the Long White Cloud - Aotearoa'],Philip Sparke,['Philip Sparke'],83.0,100.0,,,,,2025-09-29T23:32:39.731555
+2006-2-divisjon-11-fræna-musikkorps,2006,2. divisjon,11,Fræna Musikkorps,Jens Kristian Mordal,Firestorm,['Firestorm'],Stephen Bulla,['Stephen Bulla'],82.0,100.0,,,,,2025-09-29T23:32:39.731558
+2006-2-divisjon-12-trondheim-politis-brassband,2006,2. divisjon,12,Trondheim Politis Brassband,Odd Steinar Mørkved,Ballet for Band,['Ballet for Band'],Joseph Horovitz,['Joseph Horovitz'],81.0,100.0,,,,,2025-09-29T23:32:39.731561
+2006-2-divisjon-13-borge-brass-band,2006,2. divisjon,13,Borge Brass Band,Torstein Aagaard-Nilsen,Partita on St. Theodulph,['Partita on St. Theodulph'],Kevin Norbury,['Kevin Norbury'],80.0,100.0,,,,,2025-09-29T23:32:39.731563
+2006-3-divisjon-01-jølster-musikklag,2006,3. divisjon,1,Jølster Musikklag,Arvid Anthun,Voyage of Discovery,['Voyage of Discovery'],Goff Richards,['Goff Richards'],98.0,100.0,,,,,2025-09-29T23:32:39.731566
+2006-3-divisjon-02-gjesdal-brass-band,2006,3. divisjon,2,Gjesdal Brass Band,Christian Tenfjord,Festivity,['Festivity'],Leslie Condon,['Leslie Condon'],97.0,100.0,,,,,2025-09-29T23:32:39.731568
+2006-3-divisjon-03-rong-brass,2006,3. divisjon,3,Rong Brass,Reid Gilje,Purcell Variations,['Purcell Variations'],Kenneth Downie,['Kenneth Downie'],94.0,100.0,,,,,2025-09-29T23:32:39.731570
+2006-3-divisjon-04-laksevåg-musikkforening,2006,3. divisjon,4,Laksevåg Musikkforening,Tom Brevik,The Land of the Long White Cloud - Aotearoa,['The Land of the Long White Cloud - Aotearoa'],Philip Sparke,['Philip Sparke'],93.0,100.0,,,,,2025-09-29T23:32:39.731573
+2006-3-divisjon-05-hasle-brass,2006,3. divisjon,5,Hasle Brass,Michael Antrobus,The Land of the Long White Cloud - Aotearoa,['The Land of the Long White Cloud - Aotearoa'],Philip Sparke,['Philip Sparke'],92.0,100.0,,,,,2025-09-29T23:32:39.731575
+2006-3-divisjon-06-musikkorpset-gjallarhorn,2006,3. divisjon,6,Musikkorpset Gjallarhorn,Espen Westbye,Excalibur,['Excalibur'],Jan Van der Roost,['Jan Van der Roost'],90.0,100.0,,,,,2025-09-29T23:32:39.731578
+2006-3-divisjon-07-fagernes-musikkorps,2006,3. divisjon,7,Fagernes Musikkorps,Tor Arthur Hagen,The Plantagenets,['The Plantagenets'],Edward Gregson,['Edward Gregson'],89.0,100.0,,,,,2025-09-29T23:32:39.731580
+2006-3-divisjon-08-gjøvik-bybrass,2006,3. divisjon,8,Gjøvik Bybrass,Roar Bjerkehagen,The Plantagenets,['The Plantagenets'],Edward Gregson,['Edward Gregson'],88.0,100.0,,,,,2025-09-29T23:32:39.731583
+2006-3-divisjon-09-lindås-brass,2006,3. divisjon,9,Lindås Brass,Pål Magne Austnes-Underhaug,Rhapsody in Brass,['Rhapsody in Brass'],Dean Goffin,['Dean Goffin'],87.0,100.0,,,,,2025-09-29T23:32:39.731585
+2006-3-divisjon-10-skui-brassband,2006,3. divisjon,10,Skui Brassband,Henrik Dagestad-Dalhaug,Renaissance,['Renaissance'],Peter Graham,['Peter Graham'],86.0,100.0,,,,,2025-09-29T23:32:39.731590
+2006-3-divisjon-11-nes-musikkforening,2006,3. divisjon,11,Nes Musikkforening,Andres Halla,Firestorm,['Firestorm'],Stephen Bulla,['Stephen Bulla'],85.0,100.0,,,,,2025-09-29T23:32:39.731593
+2006-3-divisjon-12-skodje-ungdomskorps,2006,3. divisjon,12,Skodje Ungdomskorps,Gary MacPhee,Endeavour,['Endeavour'],Philip Sparke,['Philip Sparke'],84.0,100.0,,,,,2025-09-29T23:32:39.731596
+2006-4-divisjon-01-kopervik-musikkorps,2006,4. divisjon,1,Kopervik Musikkorps,Selmer Simonsen,Voyage of Discovery,['Voyage of Discovery'],Goff Richards,['Goff Richards'],96.0,100.0,,,,,2025-09-29T23:32:39.731598
+2006-4-divisjon-02-imi-brass,2006,4. divisjon,2,IMI Brass,Per-Erik Petersen,To Serve and to Save,['To Serve and to Save'],Dudley Bright,['Dudley Bright'],91.0,100.0,,,,,2025-09-29T23:32:39.731601
+2006-4-divisjon-03-rosendal-musikklag,2006,4. divisjon,3,Rosendal Musikklag,Jan Magne Olsen,Essay,['Essay'],Edward Gregson,['Edward Gregson'],90.0,100.0,,,,,2025-09-29T23:32:39.731603
+2006-4-divisjon-04-frei-hornmusikk,2006,4. divisjon,4,Frei Hornmusikk,Stein Åge Sørlie,Inspiration,['Inspiration'],Jan de Haan,['Jan de Haan'],89.0,100.0,,,,,2025-09-29T23:32:39.731606
+2006-4-divisjon-05-grenland-brass,2006,4. divisjon,5,Grenland Brass,Ukjent,Kaleidoscope,['Kaleidoscope'],Philip Sparke,['Philip Sparke'],88.0,100.0,,,,,2025-09-29T23:32:39.731608
+2006-4-divisjon-06-hordvik-musikklag,2006,4. divisjon,6,Hordvik Musikklag,Knut Emil Mjøs,Triptych,['Triptych'],Philip Sparke,['Philip Sparke'],86.0,100.0,,,,,2025-09-29T23:32:39.731612
+2006-4-divisjon-06-skeie-brass,2006,4. divisjon,6,Skeie Brass,Einar Mæland,Kaleidoscope,['Kaleidoscope'],Philip Sparke,['Philip Sparke'],86.0,100.0,,,,,2025-09-29T23:32:39.731614
+2006-4-divisjon-08-brumunddal-brass,2006,4. divisjon,8,Brumunddal Brass,Botolv Gjeldaker,A Mendip Celebration,['A Mendip Celebration'],Darrol Barry,['Darrol Barry'],85.0,100.0,,,,,2025-09-29T23:32:39.731617
+2006-4-divisjon-09-lalm-musikkforening,2006,4. divisjon,9,Lalm Musikkforening,Morten Graff,Vikingkirken,['Vikingkirken'],Torstein Aagaard-Nilsen,['Torstein Aagaard-Nilsen'],84.0,100.0,,,,,2025-09-29T23:32:39.731619
+2006-4-divisjon-10-kjølsdalen-musikklag,2006,4. divisjon,10,Kjølsdalen Musikklag,Ukjent,The Four Noble Truths,['The Four Noble Truths'],Philip Sparke,['Philip Sparke'],83.0,100.0,,,,,2025-09-29T23:32:39.731622
+2006-4-divisjon-10-lismarka/mesnali-brass,2006,4. divisjon,10,Lismarka/Mesnali Brass,Morten Fagerjord,A Celtic Suite,['A Celtic Suite'],Philip Sparke,['Philip Sparke'],83.0,100.0,,,,,2025-09-29T23:32:39.731624
+2006-4-divisjon-12-hetlevik-musikklag,2006,4. divisjon,12,Hetlevik Musikklag,Jan Arne Pupe,A Malvern Suite,['A Malvern Suite'],Philip Sparke,['Philip Sparke'],82.0,100.0,,,,,2025-09-29T23:32:39.731626
+2006-4-divisjon-13-rudsbygd-brass,2006,4. divisjon,13,Rudsbygd Brass,Grethe Berntsen,Schattdorf Impressions,['Schattdorf Impressions'],Darrol Barry,['Darrol Barry'],82.0,100.0,,,,,2025-09-29T23:32:39.731629
+2006-4-divisjon-13-eigersund-blåseorkester,2006,4. divisjon,13,Eigersund Blåseorkester,Dag Voigt,A Malvern Suite,['A Malvern Suite'],Philip Sparke,['Philip Sparke'],81.0,100.0,,,,,2025-09-29T23:32:39.731631
+2006-4-divisjon-15-lyshornet-brass,2006,4. divisjon,15,Lyshornet Brass,Oddvar Nøstdal,A Salford Sinfonietta,['A Salford Sinfonietta'],Darrol Barry,['Darrol Barry'],80.0,100.0,,,,,2025-09-29T23:32:39.731634
+2006-4-divisjon-15-sauda-musikklag,2006,4. divisjon,15,Sauda Musikklag,Eli-Jorun Tangeraas,Hinode,['Hinode'],Peter Graham,['Peter Graham'],80.0,100.0,,,,,2025-09-29T23:32:39.731636
+2006-4-divisjon-17-kvikne-hornmusikk,2006,4. divisjon,17,Kvikne Hornmusikk,Geir Morten Øien,Orient Express,['Orient Express'],Philip Sparke,['Philip Sparke'],79.0,100.0,,,,,2025-09-29T23:32:39.731639

@@ -1,0 +1,73 @@
+id,year,division,rank,orchestra,conductor,pieces,pieces_list,composers,composers_list,points,max_points,image_url,orchestra_url,conductor_url,piece_urls,scraped_at
+2009-elite-01-eikanger-bjørsvik-musikklag,2009,Elite,1,Eikanger-Bjørsvik Musikklag,Dr. Nicholas Childs,Extreme Make-Over,['Extreme Make-Over'],Johan de Meij,['Johan de Meij'],96.5,100.0,,,,,2025-09-29T23:32:39.744274
+2009-elite-02-oslo-brass-band,2009,Elite,2,Oslo Brass Band,Frode Amundsen,The Night to Sing,['The Night to Sing'],Bramwell Tovey,['Bramwell Tovey'],94.0,100.0,,,,,2025-09-29T23:32:39.744278
+2009-elite-03-molde-brass-band,2009,Elite,3,Molde Brass Band,Garry Cutt,A Lowry Sketchbook,['A Lowry Sketchbook'],Philip Wilby,['Philip Wilby'],92.5,100.0,,,,,2025-09-29T23:32:39.744280
+2009-elite-04-stavanger-brass-band,2009,Elite,4,Stavanger Brass Band,Allan Withington,Revelation,['Revelation'],Philip Wilby,['Philip Wilby'],91.5,100.0,,,,,2025-09-29T23:32:39.744282
+2009-elite-05-ila-brass-band,2009,Elite,5,Ila Brass Band,Thomas Rimul,Exergy Re-Revisited,['Exergy Re-Revisited'],Dag Egil Njaa,['Dag Egil Njaa'],91.5,100.0,,,,,2025-09-29T23:32:39.744284
+2009-elite-06-krohnengen-brass-band,2009,Elite,6,Krohnengen Brass Band,Ray Farr,Concerto for Brass Band,['Concerto for Brass Band'],Kenneth Downie,['Kenneth Downie'],91.0,100.0,,,,,2025-09-29T23:32:39.744287
+2009-elite-07-manger-musikklag,2009,Elite,7,Manger Musikklag,Peter Sebastian Szilvay,Troglodyte Transition,['Troglodyte Transition'],Craig Farr,['Craig Farr'],91.0,100.0,,,,,2025-09-29T23:32:39.744289
+2009-elite-08-oslofjord-brass,2009,Elite,8,Oslofjord Brass,Armin Renggli,Journey to the Centre of the Earth,['Journey to the Centre of the Earth'],Peter Graham,['Peter Graham'],89.5,100.0,,,,,2025-09-29T23:32:39.744291
+2009-elite-09-jaren-hornmusikkforening,2009,Elite,9,Jaren Hornmusikkforening,Helge Haukås,Paganini Variations,['Paganini Variations'],Philip Wilby,['Philip Wilby'],88.0,100.0,,,,,2025-09-29T23:32:39.744293
+2009-elite-10-sandefjord-brass-symposium,2009,Elite,10,Sandefjord Brass Symposium,Michael Antrobus,Tristan Encounters,['Tristan Encounters'],Martin Ellerby,['Martin Ellerby'],86.5,100.0,,,,,2025-09-29T23:32:39.744298
+2009-1-divisjon-01-tertnes-brass,2009,1. divisjon,1,Tertnes Brass,Gary Peterson,Dances and Arias,['Dances and Arias'],Edward Gregson,['Edward Gregson'],97.0,100.0,,,,,2025-09-29T23:32:39.744300
+2009-1-divisjon-02-sola-brass-band,2009,1. divisjon,2,Sola Brass Band,Selmer Simonsen,Music of the Spheres,['Music of the Spheres'],Philip Sparke,['Philip Sparke'],96.0,100.0,,,,,2025-09-29T23:32:39.744302
+2009-1-divisjon-03-askøy-brass-band,2009,1. divisjon,3,Askøy Brass Band,Egil Magnussen,English Heritage,['English Heritage'],George Lloyd,['George Lloyd'],94.0,100.0,,,,,2025-09-29T23:32:39.744305
+2009-1-divisjon-04-jølster-musikklag,2009,1. divisjon,4,Jølster Musikklag,Arvid Anthun,Ballet for Band,['Ballet for Band'],Joseph Horovitz,['Joseph Horovitz'],93.0,100.0,,,,,2025-09-29T23:32:39.744307
+2009-1-divisjon-05-tomra-brass-band,2009,1. divisjon,5,Tomra Brass Band,Frans Violet,Concerto for Brass Band,['Concerto for Brass Band'],Kenneth Downie,['Kenneth Downie'],92.0,100.0,,,,,2025-09-29T23:32:39.744309
+2009-1-divisjon-06-sørum-musikklag,2009,1. divisjon,6,Sørum Musikklag,Christian Tenfjord,Dove Descending,['Dove Descending'],Philip Wilby,['Philip Wilby'],91.0,100.0,,,,,2025-09-29T23:32:39.744312
+2009-1-divisjon-07-kopervik-musikkorps,2009,1. divisjon,7,Kopervik Musikkorps,Simon Dobson,Journey to the Centre of the Earth,['Journey to the Centre of the Earth'],Peter Graham,['Peter Graham'],90.0,100.0,,,,,2025-09-29T23:32:39.744314
+2009-1-divisjon-07-laksevåg-musikkforening,2009,1. divisjon,7,Laksevåg Musikkforening,Tom Brevik,Tallis Variations,['Tallis Variations'],Philip Sparke,['Philip Sparke'],90.0,100.0,,,,,2025-09-29T23:32:39.744316
+2009-1-divisjon-09-tertnes-amatørkorps,2009,1. divisjon,9,Tertnes Amatørkorps,Martin Philip Winter,Pageantry,['Pageantry'],Herbert Howells,['Herbert Howells'],89.0,100.0,,,,,2025-09-29T23:32:39.744318
+2009-1-divisjon-10-ørskog-brass,2009,1. divisjon,10,Ørskog Brass,John Hudson,Spectrum,['Spectrum'],Gilbert Vinter,['Gilbert Vinter'],88.0,100.0,,,,,2025-09-29T23:32:39.744321
+2009-1-divisjon-11-oster-brass,2009,1. divisjon,11,Oster Brass,Torstein Aagaard-Nilsen,The Essence of Time,['The Essence of Time'],Peter Graham,['Peter Graham'],87.0,100.0,,,,,2025-09-29T23:32:39.744323
+2009-1-divisjon-12-radøy-brass,2009,1. divisjon,12,Radøy Brass,Tormod Flaten,Dances and Alleluias,['Dances and Alleluias'],Philip Sparke,['Philip Sparke'],86.0,100.0,,,,,2025-09-29T23:32:39.744325
+2009-2-divisjon-01-kleppe-musikklag,2009,2. divisjon,1,Kleppe Musikklag,Russell Gray,Tallis Variations,['Tallis Variations'],Philip Sparke,['Philip Sparke'],96.0,100.0,,,,,2025-09-29T23:32:39.744327
+2009-2-divisjon-02-alexander-brass-band,2009,2. divisjon,2,Alexander Brass Band,Morten Evjeberg Hansen,The Saga of Haakon the Good,['The Saga of Haakon the Good'],Philip Sparke,['Philip Sparke'],94.0,100.0,,,,,2025-09-29T23:32:39.744330
+2009-2-divisjon-03-rong-brass,2009,2. divisjon,3,Rong Brass,Stian E. Svendsen,The Forest of Dean,['The Forest of Dean'],Derek Bourgeois,['Derek Bourgeois'],93.0,100.0,,,,,2025-09-29T23:32:39.744332
+2009-2-divisjon-04-brøttum-brass,2009,2. divisjon,4,Brøttum Brass,Erling Johan Myrseth,Tallis Variations,['Tallis Variations'],Philip Sparke,['Philip Sparke'],91.0,100.0,,,,,2025-09-29T23:32:39.744334
+2009-2-divisjon-05-flesland-musikklag,2009,2. divisjon,5,Flesland Musikklag,Patrik Randefalk,Endeavour,['Endeavour'],Philip Sparke,['Philip Sparke'],90.0,100.0,,,,,2025-09-29T23:32:39.744336
+2009-2-divisjon-06-haukås-musikklag,2009,2. divisjon,6,Haukås Musikklag,Thor-Arne Pedersen,Swedish Festival Music,['Swedish Festival Music'],Kenneth Downie,['Kenneth Downie'],89.0,100.0,,,,,2025-09-29T23:32:39.744339
+2009-2-divisjon-06-musikkorpset-gjallarhorn,2009,2. divisjon,6,Musikkorpset Gjallarhorn,Espen Westbye,Heart of a Salvationist,['Heart of a Salvationist'],Anders Beijer,['Anders Beijer'],89.0,100.0,,,,,2025-09-29T23:32:39.744341
+2009-2-divisjon-08-stangaland-brass,2009,2. divisjon,8,Stangaland Brass,Reid Gilje,Rhapsody in Brass,['Rhapsody in Brass'],Dean Goffin,['Dean Goffin'],88.0,100.0,,,,,2025-09-29T23:32:39.744343
+2009-2-divisjon-08-hornorkesteret-stavanger,2009,2. divisjon,8,Hornorkesteret Stavanger,Clive Zwanswiniski,The Land of the Long White Cloud - Aotearoa,['The Land of the Long White Cloud - Aotearoa'],Philip Sparke,['Philip Sparke'],88.0,100.0,,,,,2025-09-29T23:32:39.744345
+2009-2-divisjon-10-sagvåg-musikklag,2009,2. divisjon,10,Sagvåg Musikklag,Håvard Kroka,Dances and Arias,['Dances and Arias'],Edward Gregson,['Edward Gregson'],87.0,100.0,,,,,2025-09-29T23:32:39.744348
+2009-2-divisjon-11-skui-brassband,2009,2. divisjon,11,Skui Brassband,John-Philip Hannevik,Aspects of Praise,['Aspects of Praise'],William Himes,['William Himes'],86.0,100.0,,,,,2025-09-29T23:32:39.744350
+2009-2-divisjon-12-gjesdal-brass-band,2009,2. divisjon,12,Gjesdal Brass Band,Jonas Skartveit Rogne,Blazon,['Blazon'],Peter Graham,['Peter Graham'],85.0,100.0,,,,,2025-09-29T23:32:39.744352
+2009-2-divisjon-13-trondheim-politis-brassband,2009,2. divisjon,13,Trondheim Politis Brassband,Peter Hatfield,Dances and Arias,['Dances and Arias'],Edward Gregson,['Edward Gregson'],83.0,100.0,,,,,2025-09-29T23:32:39.744354
+2009-3-divisjon-01-tromsø-brass,2009,3. divisjon,1,Tromsø Brass,Tor-Kristian Ravnanger Innbjør,Myte,['Myte'],Torstein Aagaard-Nilsen,['Torstein Aagaard-Nilsen'],96.0,100.0,,,,,2025-09-29T23:32:39.744356
+2009-3-divisjon-02-frei-hornmusikk,2009,3. divisjon,2,Frei Hornmusikk,Kim Lofthouse,Song of the Eternal,['Song of the Eternal'],Leslie Condon,['Leslie Condon'],93.0,100.0,,,,,2025-09-29T23:32:39.744359
+2009-3-divisjon-03-follesø-musikklag,2009,3. divisjon,3,Follesø Musikklag,Reid Gilje,Purcell Variations,['Purcell Variations'],Kenneth Downie,['Kenneth Downie'],92.0,100.0,,,,,2025-09-29T23:32:39.744361
+2009-3-divisjon-04-fræna-musikkorps,2009,3. divisjon,4,Fræna Musikkorps,Jens Kristian Mordal,The Present Age,['The Present Age'],Leslie Condon,['Leslie Condon'],91.0,100.0,,,,,2025-09-29T23:32:39.744363
+2009-3-divisjon-05-fjell-brass,2009,3. divisjon,5,Fjell Brass,Svein Henrik Giske,Blazon,['Blazon'],Peter Graham,['Peter Graham'],90.0,100.0,,,,,2025-09-29T23:32:39.744365
+2009-3-divisjon-06-manger-old-star-brass,2009,3. divisjon,6,Manger Old Star Brass,Johannes Mangersnes,Triumphant Rhapsody,['Triumphant Rhapsody'],Gilbert Vinter,['Gilbert Vinter'],89.0,100.0,,,,,2025-09-29T23:32:39.744368
+2009-3-divisjon-07-bergen-brass-band,2009,3. divisjon,7,Bergen Brass Band,Bjørn Breistein,The Forest of Dean,['The Forest of Dean'],Derek Bourgeois,['Derek Bourgeois'],88.0,100.0,,,,,2025-09-29T23:32:39.744370
+2009-3-divisjon-08-borge-brass-band,2009,3. divisjon,8,Borge Brass Band,Oddvar Nøstdal,Variations on Maccabeus,['Variations on Maccabeus'],Kevin Norbury,['Kevin Norbury'],87.0,100.0,,,,,2025-09-29T23:32:39.744372
+2009-3-divisjon-09-lindås-brass,2009,3. divisjon,9,Lindås Brass,Hogne Holmås,Tallis Variations,['Tallis Variations'],Philip Sparke,['Philip Sparke'],86.0,100.0,,,,,2025-09-29T23:32:39.744374
+2009-3-divisjon-10-hasle-brass,2009,3. divisjon,10,Hasle Brass,Frode Amundsen,Kaleidoscope,['Kaleidoscope'],Philip Sparke,['Philip Sparke'],85.0,100.0,,,,,2025-09-29T23:32:39.744377
+2009-3-divisjon-11-torskangerpoll-musikklag,2009,3. divisjon,11,Torskangerpoll Musikklag,Eirik Gjerdevik,Music for a Festival,['Music for a Festival'],Philip Sparke,['Philip Sparke'],84.0,100.0,,,,,2025-09-29T23:32:39.744379
+2009-3-divisjon-12-hordvik-musikklag,2009,3. divisjon,12,Hordvik Musikklag,Knut Emil Mjøs,Toccata Festiva,['Toccata Festiva'],Jan Van der Roost,['Jan Van der Roost'],83.0,100.0,,,,,2025-09-29T23:32:39.744381
+2009-3-divisjon-13-kjølsdalen-musikklag,2009,3. divisjon,13,Kjølsdalen Musikklag,Gerard Rooker,Rhapsody in Brass,['Rhapsody in Brass'],Dean Goffin,['Dean Goffin'],82.0,100.0,,,,,2025-09-29T23:32:39.744383
+2009-3-divisjon-14-grenland-brass,2009,3. divisjon,14,Grenland Brass,Sigurd Grøv Skramsett,Diversions - Variations on a Swiss Folk Song,['Diversions - Variations on a Swiss Folk Song'],Philip Sparke,['Philip Sparke'],81.0,100.0,,,,,2025-09-29T23:32:39.744385
+2009-3-divisjon-15-gjøvik-bybrass,2009,3. divisjon,15,Gjøvik Bybrass,Trond Elnes,The Essence of Time,['The Essence of Time'],Peter Graham,['Peter Graham'],80.0,100.0,,,,,2025-09-29T23:32:39.744389
+2009-4-divisjon-01-bjørsvik-brass,2009,4. divisjon,1,Bjørsvik Brass,Russell Gray,Journey into Freedom,['Journey into Freedom'],Eric Ball,['Eric Ball'],98.0,100.0,,,,,2025-09-29T23:32:39.744391
+2009-4-divisjon-02-flora-bremanger-brassband,2009,4. divisjon,2,Flora-Bremanger Brassband,Johnny Sælemyr,Triptych,['Triptych'],Philip Sparke,['Philip Sparke'],90.0,100.0,,,,,2025-09-29T23:32:39.744394
+2009-4-divisjon-03-kristiansand-brass-band,2009,4. divisjon,3,Kristiansand Brass Band,David Tellefsen,Princethorpe Variations,['Princethorpe Variations'],Kenneth Downie,['Kenneth Downie'],89.0,100.0,,,,,2025-09-29T23:32:39.744396
+2009-4-divisjon-04-lismarka/mesnali-brass,2009,4. divisjon,4,Lismarka/Mesnali Brass,Morten Fagerjord,,[],,[],88.0,100.0,,,,,2025-09-29T23:32:39.744398
+2009-4-divisjon-05-flå-musikkorps,2009,4. divisjon,5,Flå Musikkorps,Odd Steinar Mørkved,Music for a Festival,['Music for a Festival'],Philip Sparke,['Philip Sparke'],87.0,100.0,,,,,2025-09-29T23:32:39.744400
+2009-4-divisjon-05-rosendal-musikklag,2009,4. divisjon,5,Rosendal Musikklag,Torstein Hatlevik,,[],,[],87.0,100.0,,,,,2025-09-29T23:32:39.744402
+2009-4-divisjon-05-fagernes-musikkorps,2009,4. divisjon,5,Fagernes Musikkorps,Odd Arne Erlandsen,,[],,[],87.0,100.0,,,,,2025-09-29T23:32:39.744404
+2009-4-divisjon-08-nes-musikkforening,2009,4. divisjon,8,Nes Musikkforening,Andres Halla,,[],,[],86.0,100.0,,,,,2025-09-29T23:32:39.744406
+2009-4-divisjon-09-randaberg-musikkorps,2009,4. divisjon,9,Randaberg Musikkorps,Selmer Simonsen,,[],,[],85.0,100.0,,,,,2025-09-29T23:32:39.744407
+2009-4-divisjon-09-langhus-brass,2009,4. divisjon,9,Langhus Brass,Idar Torskangerpoll,,[],,[],85.0,100.0,,,,,2025-09-29T23:32:39.744409
+2009-4-divisjon-09-musikkorpset-heimdal,2009,4. divisjon,9,Musikkorpset Heimdal,Pål W. Jøsok,Valerius Variations,['Valerius Variations'],Philip Sparke,['Philip Sparke'],85.0,100.0,,,,,2025-09-29T23:32:39.744411
+2009-4-divisjon-12-stavanger-kommunes-korps,2009,4. divisjon,12,Stavanger Kommunes Korps,Morten Øvrebekk,The Dark Side of the Moon,['The Dark Side of the Moon'],Paul Lovatt-Cooper,['Paul Lovatt-Cooper'],84.0,100.0,,,,,2025-09-29T23:32:39.744414
+2009-4-divisjon-12-salhus-musikklag,2009,4. divisjon,12,Salhus Musikklag,Sindre Dalhaug,Lydian Pictures,['Lydian Pictures'],Simon Dobson,['Simon Dobson'],84.0,100.0,,,,,2025-09-29T23:32:39.744416
+2009-4-divisjon-12-skeie-brass,2009,4. divisjon,12,Skeie Brass,Espen Westbye,The Talisman,['The Talisman'],Frank Hughes,['Frank Hughes'],84.0,100.0,,,,,2025-09-29T23:32:39.744418
+2009-4-divisjon-15-imi-brass,2009,4. divisjon,15,IMI Brass,Per-Erik Petersen,Joshua,['Joshua'],Erik Samuel Silfverberg,['Erik Samuel Silfverberg'],83.0,100.0,,,,,2025-09-29T23:32:39.744420
+2009-4-divisjon-16-hetlevik-musikklag,2009,4. divisjon,16,Hetlevik Musikklag,Øyvind Raknes Nikolaisen,,[],,[],82.0,100.0,,,,,2025-09-29T23:32:39.744422
+2009-4-divisjon-16-lyshornet-brass,2009,4. divisjon,16,Lyshornet Brass,Knut Harald Rydland,Partita,['Partita'],Edward Gregson,['Edward Gregson'],82.0,100.0,,,,,2025-09-29T23:32:39.744424
+2009-4-divisjon-16-harøy-musikklag,2009,4. divisjon,16,Harøy Musikklag,Nils Magne Abelseth,,[],,[],82.0,100.0,,,,,2025-09-29T23:32:39.744426
+2009-4-divisjon-19-lalm-musikkforening,2009,4. divisjon,19,Lalm Musikkforening,Morten Graff,,[],,[],81.0,100.0,,,,,2025-09-29T23:32:39.744428
+2009-4-divisjon-19-florø-hornmusikk,2009,4. divisjon,19,Florø Hornmusikk,Kjell Erik Husom,,[],,[],81.0,100.0,,,,,2025-09-29T23:32:39.744430
+2009-4-divisjon-21-rudsbygd-brass,2009,4. divisjon,21,Rudsbygd Brass,Morten Fagerjord,,[],,[],80.0,100.0,,,,,2025-09-29T23:32:39.744432
+2009-4-divisjon-21-brumunddal-brass,2009,4. divisjon,21,Brumunddal Brass,Morten Sanner,,[],,[],80.0,100.0,,,,,2025-09-29T23:32:39.744434

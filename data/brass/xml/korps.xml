@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<korpskatalog>
+  <korps>
+    <divisjon>Elite</divisjon>
+    <korpsnavn>Manger Musikklag</korpsnavn>
+    <korpsnr>3</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Elite</divisjon>
+    <korpsnavn>Eikanger-Bjørsvik Musikklag</korpsnavn>
+    <korpsnr>2</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Elite</divisjon>
+    <korpsnavn>Stavanger Brass Band</korpsnavn>
+    <korpsnr>1</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Elite</divisjon>
+    <korpsnavn>Bjørsvik Brass</korpsnavn>
+    <korpsnr>5</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Elite</divisjon>
+    <korpsnavn>Oslofjord Brass</korpsnavn>
+    <korpsnr>13</korpsnr>
+    <se />
+    <fylke>Oslo</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Elite</divisjon>
+    <korpsnavn>Kleppe Musikklag</korpsnavn>
+    <korpsnr>9</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Elite</divisjon>
+    <korpsnavn>Brøttum Brass</korpsnavn>
+    <korpsnr>24</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Elite</divisjon>
+    <korpsnavn>Tertnes Brass</korpsnavn>
+    <korpsnr>12</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Elite</divisjon>
+    <korpsnavn>Oslo Brass Band</korpsnavn>
+    <korpsnr>4</korpsnr>
+    <se />
+    <fylke>Oslo</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Elite</divisjon>
+    <korpsnavn>Ila Brass Band</korpsnavn>
+    <korpsnr>10</korpsnr>
+    <se />
+    <fylke>Trøndelag</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>1. divisjon</divisjon>
+    <korpsnavn>Jaren Hornmusikkforening</korpsnavn>
+    <korpsnr>8</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>1. divisjon</divisjon>
+    <korpsnavn>Musikkorpset Gjallarhorn</korpsnavn>
+    <korpsnr>23</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>1. divisjon</divisjon>
+    <korpsnavn>Rong Brass</korpsnavn>
+    <korpsnr>34</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>1. divisjon</divisjon>
+    <korpsnavn>Molde Brass Band</korpsnavn>
+    <korpsnr>7</korpsnr>
+    <se />
+    <fylke>Møre og Romsdal</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>1. divisjon</divisjon>
+    <korpsnavn>Askøy Brass Band</korpsnavn>
+    <korpsnr>14</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>1. divisjon</divisjon>
+    <korpsnavn>Krohnengen Brass Band</korpsnavn>
+    <korpsnr>6</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>1. divisjon</divisjon>
+    <korpsnavn>Tomra Brass Band</korpsnavn>
+    <korpsnr>17</korpsnr>
+    <se />
+    <fylke>Møre og Romsdal</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>1. divisjon</divisjon>
+    <korpsnavn>Sandefjord Brass Symposium</korpsnavn>
+    <korpsnr>16</korpsnr>
+    <se />
+    <fylke>Vestfold og Telemark</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>1. divisjon</divisjon>
+    <korpsnavn>Radøy Brass</korpsnavn>
+    <korpsnr>28</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>1. divisjon</divisjon>
+    <korpsnavn>Ørskog Brass</korpsnavn>
+    <korpsnr>21</korpsnr>
+    <se />
+    <fylke>Møre og Romsdal</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>1. divisjon</divisjon>
+    <korpsnavn>Hasle Brass</korpsnavn>
+    <korpsnr>15</korpsnr>
+    <se />
+    <fylke>Oslo</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>1. divisjon</divisjon>
+    <korpsnavn>Follesø Musikklag</korpsnavn>
+    <korpsnr>36</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Flesland Musikklag</korpsnavn>
+    <korpsnr>20</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Tysnes Musikklag</korpsnavn>
+    <korpsnr>33</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Trondheim Politis Brassband</korpsnavn>
+    <korpsnr>30</korpsnr>
+    <se />
+    <fylke>Trøndelag</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Sola Brass Band</korpsnavn>
+    <korpsnr>11</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Gjesdal Brass Band</korpsnavn>
+    <korpsnr>39</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Sørum Musikklag</korpsnavn>
+    <korpsnr>22</korpsnr>
+    <se />
+    <fylke>Viken</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Agder Brass</korpsnavn>
+    <korpsnr>25</korpsnr>
+    <se />
+    <fylke>Agder</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Stangaland Brass</korpsnavn>
+    <korpsnr>41</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Haukås Musikklag</korpsnavn>
+    <korpsnr>27</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Jølster Musikklag</korpsnavn>
+    <korpsnr>29</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Oster Brass</korpsnavn>
+    <korpsnr>19</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Fjell Brass</korpsnavn>
+    <korpsnr>32</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>2. divisjon</divisjon>
+    <korpsnavn>Lindås Brass</korpsnavn>
+    <korpsnr>44</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Bergen Brass Band</korpsnavn>
+    <korpsnr>37</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Tromsø Brass</korpsnavn>
+    <korpsnr>26</korpsnr>
+    <se />
+    <fylke>Troms og Finnmark</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Bjørvika Brass Band</korpsnavn>
+    <korpsnr>53</korpsnr>
+    <se />
+    <fylke>Oslo</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Stavanger Kommunes Korps</korpsnavn>
+    <korpsnr>62</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Manger Old Star Brass</korpsnavn>
+    <korpsnr>40</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Sagvåg Musikklag</korpsnavn>
+    <korpsnr>31</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Gjøvik Bybrass</korpsnavn>
+    <korpsnr>42</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>KOS - Krohnengen Old Stars</korpsnavn>
+    <korpsnr>94</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Nes Musikkforening</korpsnavn>
+    <korpsnr>61</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Riska Brass Band</korpsnavn>
+    <korpsnr>96</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Alexander Brass Band</korpsnavn>
+    <korpsnr>35</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Haugaland Brass Band</korpsnavn>
+    <korpsnr>123</korpsnr>
+    <se />
+    <fylke>-</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Lyshornet Brass</korpsnavn>
+    <korpsnr>58</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Skui Brassband</korpsnavn>
+    <korpsnr>49</korpsnr>
+    <se />
+    <fylke>Viken</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>3. divisjon</divisjon>
+    <korpsnavn>Tertnes Amatørkorps</korpsnavn>
+    <korpsnr>18</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Moen Musikkforening</korpsnavn>
+    <korpsnr>65</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Kjølsdalen Musikklag</korpsnavn>
+    <korpsnr>84</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Evanger Musikklag</korpsnavn>
+    <korpsnr>122</korpsnr>
+    <se />
+    <fylke>-</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Herøy Brass</korpsnavn>
+    <korpsnr>97</korpsnr>
+    <se />
+    <fylke>Møre og Romsdal</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Rosendal Musikklag</korpsnavn>
+    <korpsnr>71</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Laksevåg Musikkforening</korpsnavn>
+    <korpsnr>38</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Saksumdal Musikkforening</korpsnavn>
+    <korpsnr>78</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Grenland Brass</korpsnavn>
+    <korpsnr>56</korpsnr>
+    <se />
+    <fylke>Vestfold og Telemark</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Flora-Bremanger Brassband</korpsnavn>
+    <korpsnr>47</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Flå Musikkorps</korpsnavn>
+    <korpsnr>43</korpsnr>
+    <se />
+    <fylke>Trøndelag</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Jonsvatnet Brass</korpsnavn>
+    <korpsnr>120</korpsnr>
+    <se />
+    <fylke>Trøndelag</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>IMI Brass</korpsnavn>
+    <korpsnr>59</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Valdres Brass Band</korpsnavn>
+    <korpsnr>54</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Filadelfia Hornorkester Drammen</korpsnavn>
+    <korpsnr>66</korpsnr>
+    <se />
+    <fylke>Viken</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>4. divisjon</divisjon>
+    <korpsnavn>Holmestrand Brass</korpsnavn>
+    <korpsnr>119</korpsnr>
+    <se />
+    <fylke>Vestfold og Telemark</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Hetlevik Musikklag</korpsnavn>
+    <korpsnr>64</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Randaberg Musikkorps</korpsnavn>
+    <korpsnr>69</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Skeie Brass</korpsnavn>
+    <korpsnr>70</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Eikelandsfjorden Musikklag</korpsnavn>
+    <korpsnr>79</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Seim Musikklag</korpsnavn>
+    <korpsnr>73</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Brumunddal Brass</korpsnavn>
+    <korpsnr>63</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Torpa BygdeBrass</korpsnavn>
+    <korpsnr>121</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Frei Hornmusikk</korpsnavn>
+    <korpsnr>55</korpsnr>
+    <se />
+    <fylke>Møre og Romsdal</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Austevoll Brass</korpsnavn>
+    <korpsnr>125</korpsnr>
+    <se />
+    <fylke>-</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Norheimsund Musikklag</korpsnavn>
+    <korpsnr>95</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Lalm Musikkforening</korpsnavn>
+    <korpsnr>90</korpsnr>
+    <se />
+    <fylke>Møre og Romsdal</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Langhus Brass</korpsnavn>
+    <korpsnr>46</korpsnr>
+    <se />
+    <fylke>Viken</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Lismarka/Mesnali Brass</korpsnavn>
+    <korpsnr>48</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Haus Musikklag</korpsnavn>
+    <korpsnr>77</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>5. divisjon</divisjon>
+    <korpsnavn>Florø Hornmusikk</korpsnavn>
+    <korpsnr>68</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Fræna Musikkorps</korpsnavn>
+    <korpsnr>45</korpsnr>
+    <se />
+    <fylke>Møre og Romsdal</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Alsvåg Brass Band</korpsnavn>
+    <korpsnr>83</korpsnr>
+    <se />
+    <fylke>Nordland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Austrheim Lindås Musikklag</korpsnavn>
+    <korpsnr>107</korpsnr>
+    <se>44</se>
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Bamble Musikkorps</korpsnavn>
+    <korpsnr>112</korpsnr>
+    <se />
+    <fylke>Vestfold og Telemark</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Bertnes Brass</korpsnavn>
+    <korpsnr>76</korpsnr>
+    <se />
+    <fylke>Nordland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Borge Brass Band</korpsnavn>
+    <korpsnr>52</korpsnr>
+    <se />
+    <fylke>Nordland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Brumund/Nordaasen Musikkforening</korpsnavn>
+    <korpsnr>110</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Eidsberg Brassband</korpsnavn>
+    <korpsnr>114</korpsnr>
+    <se />
+    <fylke>Viken</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Eigersund Blåseorkester</korpsnavn>
+    <korpsnr>100</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Fagernes Musikkorps</korpsnavn>
+    <korpsnr>86</korpsnr>
+    <se>54</se>
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Fitjar Musikklag</korpsnavn>
+    <korpsnr>105</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Fjordbrass Lavik</korpsnavn>
+    <korpsnr>85</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Førde Musikkorps</korpsnavn>
+    <korpsnr>109</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Harøy Musikklag</korpsnavn>
+    <korpsnr>89</korpsnr>
+    <se />
+    <fylke>Møre og Romsdal</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Hof Hornmusikk</korpsnavn>
+    <korpsnr>93</korpsnr>
+    <se />
+    <fylke>Vestfold og Telemark</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Holmestrand Ungdomskorps</korpsnavn>
+    <korpsnr>74</korpsnr>
+    <se />
+    <fylke>Vestfold og Telemark</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Hordvik Musikklag</korpsnavn>
+    <korpsnr>50</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Hornorkesteret Stavanger</korpsnavn>
+    <korpsnr>87</korpsnr>
+    <se>-</se>
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Indre Torungen Brass Ensemble</korpsnavn>
+    <korpsnr>57</korpsnr>
+    <se />
+    <fylke>Agder</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Kopervik Musikkorps</korpsnavn>
+    <korpsnr>91</korpsnr>
+    <se>-</se>
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Kristiansand Brass Band</korpsnavn>
+    <korpsnr>92</korpsnr>
+    <se>25</se>
+    <fylke>Agder</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Kvikne Hornmusikk</korpsnavn>
+    <korpsnr>102</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Laukvik Brass</korpsnavn>
+    <korpsnr>115</korpsnr>
+    <se />
+    <fylke>Nordland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Lillehammer Brass</korpsnavn>
+    <korpsnr>72</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Lismarkens Musikforening</korpsnavn>
+    <korpsnr>111</korpsnr>
+    <se>48</se>
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Musikklaget Gjallarhorn</korpsnavn>
+    <korpsnr>124</korpsnr>
+    <se />
+    <fylke>-</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Musikkorpset Heimdal</korpsnavn>
+    <korpsnr>75</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Nordlys XO</korpsnavn>
+    <korpsnr>81</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Oltedal Musikkorps</korpsnavn>
+    <korpsnr>117</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Oltedal-Ålgård Musikkorps</korpsnavn>
+    <korpsnr>108</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Otta Musikkforening</korpsnavn>
+    <korpsnr>106</korpsnr>
+    <se />
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Rudsbygd Brass</korpsnavn>
+    <korpsnr>82</korpsnr>
+    <se>72</se>
+    <fylke>Innlandet</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Salhus Musikklag</korpsnavn>
+    <korpsnr>60</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Sauda Musikklag</korpsnavn>
+    <korpsnr>101</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Sem Musikkorps</korpsnavn>
+    <korpsnr>113</korpsnr>
+    <se />
+    <fylke>Vestfold og Telemark</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Skittenelv Musikkorps</korpsnavn>
+    <korpsnr>103</korpsnr>
+    <se />
+    <fylke>Troms og Finnmark</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Skodje Ungdomskorps</korpsnavn>
+    <korpsnr>99</korpsnr>
+    <se />
+    <fylke>Møre og Romsdal</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Sotra Brass</korpsnavn>
+    <korpsnr>67</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Torskangerpoll Musikklag</korpsnavn>
+    <korpsnr>88</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Tysvær Brass</korpsnavn>
+    <korpsnr>51</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Ungdomskorpset Samklang</korpsnavn>
+    <korpsnr>104</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Vennesla Kristne Brass</korpsnavn>
+    <korpsnr>98</korpsnr>
+    <se>25</se>
+    <fylke>Agder</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Øygarden Ungdomskorps</korpsnavn>
+    <korpsnr>116</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Ålgård Musikkorps</korpsnavn>
+    <korpsnr>118</korpsnr>
+    <se />
+    <fylke>Rogaland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>
+  <korps>
+    <divisjon>Øvrige</divisjon>
+    <korpsnavn>Ålvik Musikklag</korpsnavn>
+    <korpsnr>80</korpsnr>
+    <se />
+    <fylke>Vestland</fylke>
+    <bildelink>-</bildelink>
+    <bildetekst>-</bildetekst>
+    <hjemmeside>-</hjemmeside>
+  </korps>  
+</korpskatalog>

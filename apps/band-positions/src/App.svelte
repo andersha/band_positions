@@ -8,7 +8,7 @@
   import ComposerPieces from './lib/ComposerPieces.svelte';
   import { slugify } from './lib/slugify';
   import { extractComposerNames, normalizeComposerName } from './lib/composerUtils';
-  import type { BandDataset, BandRecord, BandEntry, PieceRecord, ComposerRecord } from './lib/types';
+  import type { BandDataset, BandRecord, BandEntry, PieceRecord, ComposerRecord, BandType } from './lib/types';
 
   type ViewType = 'bands' | 'conductors' | 'pieces' | 'composers' | 'data';
   type Theme = 'light' | 'dark';
@@ -16,10 +16,13 @@
   const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor', pieces: 'piece', composers: 'composer' } as const;
   const URL_MODE_KEY = 'mode';
   const URL_VIEW_KEY = 'view';
+  const URL_BAND_TYPE_KEY = 'type';
   const URL_SEPARATOR = ',';
   const DEFAULT_MODE: 'absolute' | 'relative' = 'relative';
   const DEFAULT_VIEW: ViewType = 'bands';
-  const THEME_STORAGE_KEY = 'nmjanitsjar-theme';
+  const DEFAULT_BAND_TYPE: BandType = 'wind';
+  const THEME_STORAGE_KEY = 'nmkorps-theme';
+  const BAND_TYPE_STORAGE_KEY = 'nmkorps-band-type';
 
   const viewLabels: Record<ViewType, string> = {
     bands: 'Korps',
@@ -47,8 +50,10 @@
   let yAxisMode = $state<'absolute' | 'relative'>(DEFAULT_MODE);
   let activeView = $state<ViewType>(DEFAULT_VIEW);
   let theme = $state<Theme>('dark');
+  let bandType = $state<BandType>('wind');
   let menuOpen = $state(false);
   let modeMenuOpen = $state(false);
+  let bandTypeMenuOpen = $state(false);
 
   type ConductorPlacement = BandEntry & { band_name?: string };
   type PiecePerformance = BandEntry & { band_name: string };
@@ -373,6 +378,46 @@
     }
   }
 
+  function getBandTypeFromURL(): BandType {
+    if (typeof window === 'undefined') return DEFAULT_BAND_TYPE;
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get(URL_BAND_TYPE_KEY)?.toLowerCase();
+    if (raw === 'brass' || raw === 'brassband') return 'brass';
+    if (raw === 'wind' || raw === 'janitsjar') return 'wind';
+    return DEFAULT_BAND_TYPE;
+  }
+
+  function resolveInitialBandType(): BandType {
+    if (typeof window === 'undefined') return DEFAULT_BAND_TYPE;
+    
+    // First priority: URL parameter
+    const params = new URLSearchParams(window.location.search);
+    const urlType = params.get(URL_BAND_TYPE_KEY)?.toLowerCase();
+    if (urlType === 'brass' || urlType === 'brassband') {
+      return 'brass';
+    }
+    if (urlType === 'wind' || urlType === 'janitsjar') {
+      return 'wind';
+    }
+    
+    // Second priority: localStorage
+    try {
+      const stored = window.localStorage.getItem(BAND_TYPE_STORAGE_KEY);
+      if (stored === 'wind' || stored === 'brass') {
+        return stored;
+      }
+    } catch (err) {
+      console.error('Kunne ikke lese lagret korptype', err);
+    }
+    
+    return DEFAULT_BAND_TYPE;
+  }
+
+  function applyBandTypePreference(nextBandType: BandType): void {
+    if (typeof document === 'undefined') return;
+    document.documentElement.dataset.bandType = nextBandType;
+  }
+
   function setTheme(nextTheme: Theme): void {
     theme = nextTheme;
     applyThemePreference(nextTheme);
@@ -383,6 +428,46 @@
         console.error('Kunne ikke lagre tema', err);
       }
     }
+  }
+
+  function setBandType(nextBandType: BandType, updateUrl: boolean = true): void {
+    if (bandType === nextBandType) return;
+    
+    bandType = nextBandType;
+    applyBandTypePreference(nextBandType);
+    
+    if (typeof window !== 'undefined') {
+      try {
+        window.localStorage.setItem(BAND_TYPE_STORAGE_KEY, nextBandType);
+      } catch (err) {
+        console.error('Kunne ikke lagre korptype', err);
+      }
+    }
+
+    // Clear selections and URL params except band type
+    selectedBands = [];
+    selectedConductors = [];
+    selectedPieces = [];
+    selectedComposers = [];
+    searchTerm = '';
+    focusedIndex = -1;
+    
+    // Update URL with new band type
+    if (updateUrl && typeof window !== 'undefined') {
+      const params = new URLSearchParams();
+      params.set(URL_BAND_TYPE_KEY, nextBandType);
+      const newUrl = `${window.location.pathname}?${params.toString()}${window.location.hash}`;
+      window.history.replaceState({}, '', newUrl);
+    }
+
+    // Reload data
+    loading = true;
+    error = null;
+    dataset = null;
+    conductorRecords = [];
+    pieceRecords = [];
+    composerRecords = [];
+    loadDataForBandType(nextBandType);
   }
 
   function closeMenu(): void {
@@ -401,8 +486,24 @@
     modeMenuOpen = !modeMenuOpen;
   }
 
+  function closeBandTypeMenu(): void {
+    bandTypeMenuOpen = false;
+  }
+
+  function toggleBandTypeMenu(): void {
+    bandTypeMenuOpen = !bandTypeMenuOpen;
+  }
+
   function toggleTheme(): void {
     setTheme(theme === 'dark' ? 'light' : 'dark');
+    closeMenu();
+    closeModeMenu();
+    closeBandTypeMenu();
+  }
+
+  function toggleBandType(): void {
+    setBandType(bandType === 'wind' ? 'brass' : 'wind');
+    closeBandTypeMenu();
     closeMenu();
     closeModeMenu();
   }
@@ -455,6 +556,9 @@
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams(window.location.search);
 
+    // Always include band type in URL
+    params.set(URL_BAND_TYPE_KEY, bandType);
+
     const bandSlugs = selectedBands.map((band) => encodeURIComponent(band.slug)).join(URL_SEPARATOR);
     if (bandSlugs.length) {
       params.set(getUrlParamKey('bands'), bandSlugs);
@@ -498,7 +602,16 @@
   function syncSelectionFromURL({ updateHistory = false } = {}): boolean {
     const modeFromUrl = getModeFromURL();
     const viewFromUrl = getViewFromURL();
+    const bandTypeFromUrl = getBandTypeFromURL();
     let stateChanged = false;
+
+    // Handle band type change from URL
+    if (bandTypeFromUrl !== bandType) {
+      setBandType(bandTypeFromUrl, false);
+      stateChanged = true;
+      // Return early as setBandType will reload data
+      return stateChanged;
+    }
 
     if (modeFromUrl !== yAxisMode) {
       yAxisMode = modeFromUrl;
@@ -560,7 +673,7 @@
     const conductorSignature = selectedConductors.map((conductor) => conductor.slug).join(URL_SEPARATOR);
     const pieceSignature = selectedPieces.map((piece) => piece.slug).join(URL_SEPARATOR);
     const composerSignature = selectedComposers.map((composer) => composer.slug).join(URL_SEPARATOR);
-    return `${activeView}|${yAxisMode}|${bandSignature}|${conductorSignature}|${pieceSignature}|${composerSignature}`;
+    return `${bandType}|${activeView}|${yAxisMode}|${bandSignature}|${conductorSignature}|${pieceSignature}|${composerSignature}`;
   }
 
   function syncUrlIfReady(): void {
@@ -660,15 +773,13 @@
     syncUrlIfReady();
   }
 
-  onMount(async () => {
+  async function loadDataForBandType(type: BandType) {
     try {
-      const initialTheme = resolveInitialTheme();
-      theme = initialTheme;
-      applyThemePreference(initialTheme);
-
+      const dataFile = type === 'wind' ? 'data/band_positions.json' : 'data/brass_positions.json';
+      const metadataFile = type === 'wind' ? 'data/piece_metadata.json' : 'data/brass_piece_metadata.json';
       const [positionsResponse, metadataResponse] = await Promise.all([
-        fetch('data/band_positions.json'),
-        fetch('data/piece_metadata.json')
+        fetch(dataFile),
+        fetch(metadataFile)
       ]);
 
       if (!positionsResponse.ok) {
@@ -710,6 +821,18 @@
     } finally {
       loading = false;
     }
+  }
+
+  onMount(async () => {
+    const initialTheme = resolveInitialTheme();
+    theme = initialTheme;
+    applyThemePreference(initialTheme);
+
+    const initialBandType = resolveInitialBandType();
+    bandType = initialBandType;
+    applyBandTypePreference(initialBandType);
+
+    await loadDataForBandType(initialBandType);
   });
 
   onMount(() => {
@@ -720,6 +843,10 @@
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
+  });
+
+  $effect(() => {
+    document.title = bandType === 'wind' ? 'NM Janitsjar - Resultatoversikt' : 'NM Brass - Resultatoversikt';
   });
 
   let trimmed = $derived(searchTerm.trim());
@@ -826,7 +953,9 @@
         ? 'Finn et musikkstykke i søkefeltet for å se alle registrerte fremføringer.'
         : 'Finn en komponist i søkefeltet for å se hvilke stykker vi har registrert av dem.');
   let leadText = $derived(activeView === 'bands'
-    ? 'Søk etter et janitsjarkorps for å se hvordan den samlede plasseringen utvikler seg år for år, på tvers av alle divisjoner.'
+    ? bandType === 'wind'
+      ? 'Søk etter et janitsjarkorps for å se hvordan den samlede plasseringen utvikler seg år for år, på tvers av alle divisjoner.'
+      : 'Søk etter et brassband for å se hvordan den samlede plasseringen utvikler seg år for år, på tvers av alle divisjoner.'
     : activeView === 'conductors'
       ? 'Søk etter en dirigent for å se hvordan deres beste plassering utvikler seg år for år, basert på korpsene de dirigerte.'
       : activeView === 'pieces'
@@ -837,6 +966,9 @@
   let themeToggleLabel = $derived(theme === 'dark' ? 'Bytt til lyst tema' : 'Bytt til mørkt tema');
   let themeToggleText = $derived(theme === 'dark' ? 'Mørk' : 'Lys');
   let themeToggleIcon = $derived(theme === 'dark' ? '🌙' : '☀️');
+  let bandTypeToggleLabel = $derived(bandType === 'wind' ? 'Bytt til brassband' : 'Bytt til janitsjarkorps');
+  let bandTypeToggleText = $derived(bandType === 'wind' ? 'Janitsjar' : 'Brass');
+  let bandTypeToggleIcon = $derived(bandType === 'wind' ? '🎷' : '🎺');
   let menuToggleLabel = $derived(menuOpen ? 'Lukk meny' : 'Åpne meny');
   let modeMenuToggleLabel = $derived(modeMenuOpen ? 'Lukk tilpassingsmeny' : 'Åpne tilpassingsmeny');
 
@@ -861,7 +993,7 @@
 <main>
   <header class="page-header">
     <div class="page-header__title">
-      <h1>NM Janitsjar</h1>
+      <h1>{bandType === 'wind' ? 'NM Janitsjar' : 'NM Brass'}</h1>
       <button
         class="menu-toggle"
         type="button"
@@ -891,6 +1023,15 @@
           </button>
         {/each}
       </div>
+      <button
+        class="band-type-toggle"
+        type="button"
+        onclick={toggleBandType}
+        aria-label={bandTypeToggleLabel}
+      >
+        <span aria-hidden="true">{bandTypeToggleIcon}</span>
+        <span class="band-type-toggle__text">{bandTypeToggleText}</span>
+      </button>
       <button
         class="theme-toggle"
         type="button"
@@ -944,9 +1085,9 @@
   {:else if isEntityView}
     {#if activeSelection.length > 0}
       {#if activeView === 'pieces'}
-        <PiecePerformances pieces={pieceSelection} />
+        <PiecePerformances pieces={pieceSelection} {bandType} />
       {:else if activeView === 'composers'}
-        <ComposerPieces composers={composerSelection} />
+        <ComposerPieces composers={composerSelection} {bandType} />
       {:else}
         <section class="chart-card">
           <div class="mode-toggle">
@@ -1034,7 +1175,7 @@
       </section>
     {/if}
   {:else}
-    <DataExplorer {dataset} />
+    <DataExplorer {dataset} {bandType} />
   {/if}
 </main>
 
@@ -1063,6 +1204,13 @@
     margin: 0;
     font-size: 2rem;
     color: var(--color-text-primary);
+  }
+
+  .page-subtitle {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    font-weight: 500;
   }
 
   .lead {
@@ -1140,6 +1288,7 @@
     outline-offset: 2px;
   }
 
+  .band-type-toggle,
   .theme-toggle {
     appearance: none;
     border: 1px solid var(--color-mode-toggle-border);
@@ -1155,16 +1304,19 @@
     transition: background 0.18s ease, color 0.18s ease, border 0.18s ease;
   }
 
+  .band-type-toggle:hover,
   .theme-toggle:hover {
     color: var(--color-text-primary);
     border-color: var(--color-accent);
   }
 
+  .band-type-toggle:focus-visible,
   .theme-toggle:focus-visible {
     outline: 2px solid var(--color-accent);
     outline-offset: 2px;
   }
 
+  .band-type-toggle__text,
   .theme-toggle__text {
     font-weight: 600;
   }
@@ -1425,7 +1577,8 @@
     .header-controls {
       display: none;
       width: 100%;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
       align-items: stretch;
       justify-content: center;
       gap: 0.75rem;
@@ -1459,8 +1612,9 @@
       padding: 0.6rem 0.9rem;
     }
 
+    .header-controls .band-type-toggle,
     .header-controls .theme-toggle {
-      width: 100%;
+      flex: 1 1 calc(50% - 0.375rem);
       justify-content: center;
     }
 

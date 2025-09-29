@@ -1,13 +1,14 @@
 <script lang="ts">
-  import type { PieceRecord, PiecePerformance } from './types';
+  import type { PieceRecord, PiecePerformance, BandType } from './types';
   import { extractComposerNames } from './composerUtils';
   import { slugify } from './slugify';
 
   interface Props {
     pieces?: PieceRecord[];
+    bandType?: BandType;
   }
 
-  let { pieces = [] }: Props = $props();
+  let { pieces = [], bandType = 'wind' }: Props = $props();
 
   const pointsFormatter = new Intl.NumberFormat('nb-NO', {
     minimumFractionDigits: 1,
@@ -61,7 +62,7 @@
             <p class="piece-composer">
               {#each composerNames as composerName, index}
                 <a
-                  href={`?view=composers&composer=${encodeURIComponent(slugify(composerName))}`}
+                  href={`?type=${bandType}&view=composers&composer=${encodeURIComponent(slugify(composerName))}`}
                   class="composer-link"
                 >
                   {composerName}
@@ -98,7 +99,7 @@
                 <td data-label="Divisjon">{performance.entry.division}</td>
                 <td data-label="Korps">
                   <a
-                    href={`?view=bands&band=${encodeURIComponent(bandSlug)}`}
+                    href={`?type=${bandType}&view=bands&band=${encodeURIComponent(bandSlug)}`}
                     class="entity-link"
                   >
                     {performance.band}
@@ -109,7 +110,7 @@
                 <td data-label="Dirigent">
                   {#if hasConductor}
                     <a
-                      href={`?view=conductors&conductor=${encodeURIComponent(conductorSlug)}`}
+                      href={`?type=${bandType}&view=conductors&conductor=${encodeURIComponent(conductorSlug)}`}
                       class="entity-link"
                     >
                       {conductorName}

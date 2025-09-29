@@ -1,3 +1,5 @@
+export type BandType = 'wind' | 'brass';
+
 export interface BandEntry {
   year: number;
   division: string;

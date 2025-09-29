@@ -24,16 +24,17 @@ console = Console()
 class DataExporter:
     """Exports competition data to various formats."""
     
-    def __init__(self, output_dir: Path = None):
+    def __init__(self, output_dir: Path = None, parser = None):
         """
         Initialize data exporter.
         
         Args:
             output_dir: Directory to write exported files
+            parser: Parser instance (JSONParser or BrassXMLParser). If None, uses JSONParser.
         """
         self.output_dir = output_dir or Path("data/processed")
         self.output_dir.mkdir(parents=True, exist_ok=True)
-        self.parser = JSONParser()
+        self.parser = parser if parser is not None else JSONParser()
         
     def normalize_placement_data(self, placement: Placement, year: int, division: str) -> Dict[str, Any]:
         """
@@ -151,14 +152,14 @@ class DataExporter:
         placements_file = self.output_dir / f"{year}_placements.csv"
         if placements_data:
             df_placements = pd.DataFrame(placements_data)
-            df_placements.to_csv(placements_file, index=False, encoding='utf-8')
+            df_placements.to_csv(placements_file, index=False, encoding='utf-8', lineterminator='\n')
             console.print(f"[green]✓ Exported {len(placements_data)} placements to {placements_file}[/green]")
         
         # Export awards (if any)
         awards_file = self.output_dir / f"{year}_awards.csv"
         if awards_data:
             df_awards = pd.DataFrame(awards_data)
-            df_awards.to_csv(awards_file, index=False, encoding='utf-8')
+            df_awards.to_csv(awards_file, index=False, encoding='utf-8', lineterminator='\n')
             console.print(f"[green]✓ Exported {len(awards_data)} awards to {awards_file}[/green]")
         else:
             # Create empty awards file for consistency
@@ -240,13 +241,13 @@ class DataExporter:
         master_placements_file = self.output_dir / "all_placements.csv"
         if all_placements:
             df_all_placements = pd.DataFrame(all_placements)
-            df_all_placements.to_csv(master_placements_file, index=False, encoding='utf-8')
+            df_all_placements.to_csv(master_placements_file, index=False, encoding='utf-8', lineterminator='\n')
             console.print(f"[green]✓ Exported {len(all_placements)} total placements to {master_placements_file}[/green]")
         
         master_awards_file = self.output_dir / "all_awards.csv"
         if all_awards:
             df_all_awards = pd.DataFrame(all_awards)
-            df_all_awards.to_csv(master_awards_file, index=False, encoding='utf-8')
+            df_all_awards.to_csv(master_awards_file, index=False, encoding='utf-8', lineterminator='\n')
             console.print(f"[green]✓ Exported {len(all_awards)} total awards to {master_awards_file}[/green]")
         else:
             # Create empty master awards file

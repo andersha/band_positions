@@ -1,10 +1,11 @@
 <script lang="ts">
-  import type { ComposerRecord } from './types';
+  import type { ComposerRecord, BandType } from './types';
   interface Props {
     composers?: ComposerRecord[];
+    bandType?: BandType;
   }
 
-  let { composers = [] }: Props = $props();
+  let { composers = [], bandType = 'wind' }: Props = $props();
 
   let sortedComposers = $derived([...composers].sort((a, b) => a.name.localeCompare(b.name)));
 </script>
@@ -21,7 +22,7 @@
       <ul>
         {#each composer.pieces as piece}
           <li>
-            <a href={`?view=pieces&piece=${encodeURIComponent(piece.slug)}`}>
+            <a href={`?type=${bandType}&view=pieces&piece=${encodeURIComponent(piece.slug)}`}>
               {piece.name}
             </a>
           </li>

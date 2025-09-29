@@ -1,0 +1,56 @@
+id,year,division,rank,orchestra,conductor,pieces,pieces_list,composers,composers_list,points,max_points,image_url,orchestra_url,conductor_url,piece_urls,scraped_at
+2002-elite-01-manger-musikklag,2002,Elite,1,Manger Musikklag,Allan Withington,Montage,['Montage'],Peter Graham,['Peter Graham'],96.0,100.0,,,,,2025-09-29T23:32:39.711687
+2002-elite-02-krohnengen-brass-band,2002,Elite,2,Krohnengen Brass Band,Ray Farr,Revelation,['Revelation'],Philip Wilby,['Philip Wilby'],94.0,100.0,,,,,2025-09-29T23:32:39.711693
+2002-elite-03-stavanger-brass-band,2002,Elite,3,Stavanger Brass Band,Steve Bastable,Tristan Encounters,['Tristan Encounters'],Martin Ellerby,['Martin Ellerby'],93.0,100.0,,,,,2025-09-29T23:32:39.711696
+2002-elite-04-molde-brass-band,2002,Elite,4,Molde Brass Band,Alan Morrison,Harrison's Dream,"[""Harrison's Dream""]",Peter Graham,['Peter Graham'],91.5,100.0,,,,,2025-09-29T23:32:39.711700
+2002-elite-05-oslofjord-brass,2002,Elite,5,Oslofjord Brass,Peter Parkes,Contest Music,['Contest Music'],Wilfred Heaton,['Wilfred Heaton'],91.5,100.0,,,,,2025-09-29T23:32:39.711703
+2002-elite-06-sandefjord-brass-symposium,2002,Elite,6,Sandefjord Brass Symposium,Garry Cutt,Dove Descending,['Dove Descending'],Philip Wilby,['Philip Wilby'],90.5,100.0,,,,,2025-09-29T23:32:39.711706
+2002-elite-07-eikanger-bjørsvik-musikklag,2002,Elite,7,Eikanger-Bjørsvik Musikklag,Howard Snell,"Daphnis et Cloé, 2nd Suite","['Daphnis et Cloé, 2nd Suite']","Maurice Ravel, arr: Howard Snell","['Maurice Ravel, arr: Howard Snell']",90.5,100.0,,,,,2025-09-29T23:32:39.711710
+2002-elite-08-ila-brass-band,2002,Elite,8,Ila Brass Band,Frank Renton,Between the Moon and Mexico,['Between the Moon and Mexico'],Philip Sparke,['Philip Sparke'],89.5,100.0,,,,,2025-09-29T23:32:39.711714
+2002-elite-09-jaren-hornmusikkforening,2002,Elite,9,Jaren Hornmusikkforening,Helge Haukås,Klang (!),['Klang (!)'],Ørjan Matre,['Ørjan Matre'],88.0,100.0,,,,,2025-09-29T23:32:39.711717
+2002-elite-10-tertnes-brass,2002,Elite,10,Tertnes Brass,Michael Antrobus,A Lowry Sketchbook,['A Lowry Sketchbook'],Philip Wilby,['Philip Wilby'],88.0,100.0,,,,,2025-09-29T23:32:39.711720
+2002-1-divisjon-01-alexander-brass-band,2002,1. divisjon,1,Alexander Brass Band,Philip Sparke,Tallis Variations,['Tallis Variations'],Philip Sparke,['Philip Sparke'],97.0,100.0,,,,,2025-09-29T23:32:39.711724
+2002-1-divisjon-02-askøy-brass-band,2002,1. divisjon,2,Askøy Brass Band,Yngve Nikolaisen,The Forest of Dean,['The Forest of Dean'],Derek Bourgeois,['Derek Bourgeois'],95.0,100.0,,,,,2025-09-29T23:32:39.711727
+2002-1-divisjon-03-tomra-brass-band,2002,1. divisjon,3,Tomra Brass Band,Arnfinn Dalhaug,Atlantic,['Atlantic'],Philip Wilby,['Philip Wilby'],94.0,100.0,,,,,2025-09-29T23:32:39.711730
+2002-1-divisjon-04-kleppe-musikklag,2002,1. divisjon,4,Kleppe Musikklag,Eirik Gjerdevik,Dances and Arias,['Dances and Arias'],Edward Gregson,['Edward Gregson'],93.0,100.0,,,,,2025-09-29T23:32:39.711733
+2002-1-divisjon-05-sagvåg-musikklag,2002,1. divisjon,5,Sagvåg Musikklag,Michael Fowles,Tallis Variations,['Tallis Variations'],Philip Sparke,['Philip Sparke'],92.0,100.0,,,,,2025-09-29T23:32:39.711737
+2002-1-divisjon-06-sola-brass-band,2002,1. divisjon,6,Sola Brass Band,Russell Gray,Diversions on a Bass Theme,['Diversions on a Bass Theme'],George Lloyd,['George Lloyd'],91.0,100.0,,,,,2025-09-29T23:32:39.711740
+2002-1-divisjon-07-sørum-musikklag,2002,1. divisjon,7,Sørum Musikklag,Trond Elnes,A Lowry Sketchbook,['A Lowry Sketchbook'],Philip Wilby,['Philip Wilby'],90.0,100.0,,,,,2025-09-29T23:32:39.711743
+2002-1-divisjon-08-brøttum-brass,2002,1. divisjon,8,Brøttum Brass,Thorbjørn Lunde,Paganini Variations,['Paganini Variations'],Philip Wilby,['Philip Wilby'],89.0,100.0,,,,,2025-09-29T23:32:39.711746
+2002-1-divisjon-09-radøy-brass,2002,1. divisjon,9,Radøy Brass,Gareth Pritchard,English Heritage,['English Heritage'],George Lloyd,['George Lloyd'],88.0,100.0,,,,,2025-09-29T23:32:39.711749
+2002-1-divisjon-10-oster-brass,2002,1. divisjon,10,Oster Brass,Reid Gilje,A Lowry Sketchbook,['A Lowry Sketchbook'],Philip Wilby,['Philip Wilby'],87.0,100.0,,,,,2025-09-29T23:32:39.711752
+2002-1-divisjon-11-trondheim-politis-brassband,2002,1. divisjon,11,Trondheim Politis Brassband,Odd Steinar Mørkved,Odyssey,['Odyssey'],Kevin Norbury,['Kevin Norbury'],86.0,100.0,,,,,2025-09-29T23:32:39.711755
+2002-2-divisjon-01-vennesla-kristne-brass,2002,2. divisjon,1,Vennesla Kristne Brass,Bjørn Breistein,The Land of the Long White Cloud - Aotearoa,['The Land of the Long White Cloud - Aotearoa'],Philip Sparke,['Philip Sparke'],96.0,100.0,,,,,2025-09-29T23:32:39.711759
+2002-2-divisjon-02-hornorkesteret-stavanger,2002,2. divisjon,2,Hornorkesteret Stavanger,Morten Evjeberg Hansen,The Forest of Dean,['The Forest of Dean'],Derek Bourgeois,['Derek Bourgeois'],94.0,100.0,,,,,2025-09-29T23:32:39.711762
+2002-2-divisjon-03-musikkorpset-gjallarhorn,2002,2. divisjon,3,Musikkorpset Gjallarhorn,Alan Fernie,Spectrum,['Spectrum'],Gilbert Vinter,['Gilbert Vinter'],93.0,100.0,,,,,2025-09-29T23:32:39.711765
+2002-2-divisjon-04-stangaland-brass,2002,2. divisjon,4,Stangaland Brass,Stian E. Svendsen,Five Blooms in a Welsh Garden,['Five Blooms in a Welsh Garden'],Gareth Wood,['Gareth Wood'],92.0,100.0,,,,,2025-09-29T23:32:39.711768
+2002-2-divisjon-05-flesland-musikklag,2002,2. divisjon,5,Flesland Musikklag,Egil Magnussen,Natalis,['Natalis'],Martin Ellerby,['Martin Ellerby'],91.0,100.0,,,,,2025-09-29T23:32:39.711771
+2002-2-divisjon-06-kopervik-musikkorps,2002,2. divisjon,6,Kopervik Musikkorps,Richard Evans,The Land of the Long White Cloud - Aotearoa,['The Land of the Long White Cloud - Aotearoa'],Philip Sparke,['Philip Sparke'],89.0,100.0,,,,,2025-09-29T23:32:39.711774
+2002-2-divisjon-07-ørskog-brass,2002,2. divisjon,7,Ørskog Brass,John Hudson,The Land of the Long White Cloud - Aotearoa,['The Land of the Long White Cloud - Aotearoa'],Philip Sparke,['Philip Sparke'],88.0,100.0,,,,,2025-09-29T23:32:39.711778
+2002-2-divisjon-08-austrheim-lindås-musikklag,2002,2. divisjon,8,Austrheim Lindås Musikklag,Christian Pettersen Breistein,The Plantagenets,['The Plantagenets'],Edward Gregson,['Edward Gregson'],87.0,100.0,,,,,2025-09-29T23:32:39.711781
+2002-2-divisjon-08-tromsø-brass,2002,2. divisjon,8,Tromsø Brass,Ukjent,Journey into Freedom,['Journey into Freedom'],Eric Ball,['Eric Ball'],87.0,100.0,,,,,2025-09-29T23:32:39.711784
+2002-2-divisjon-10-frei-hornmusikk,2002,2. divisjon,10,Frei Hornmusikk,Stein Åge Sørlie,Resurgam,['Resurgam'],Eric Ball,['Eric Ball'],85.0,100.0,,,,,2025-09-29T23:32:39.711787
+2002-2-divisjon-11-tysnes-musikklag,2002,2. divisjon,11,Tysnes Musikklag,Jan Magne Olsen,Endeavour,['Endeavour'],Philip Sparke,['Philip Sparke'],84.0,100.0,,,,,2025-09-29T23:32:39.711790
+2002-2-divisjon-12-laksevåg-musikkforening,2002,2. divisjon,12,Laksevåg Musikkforening,Ray Farr,John O'Gaunt,"[""John O'Gaunt""]",Gilbert Vinter,['Gilbert Vinter'],83.0,100.0,,,,,2025-09-29T23:32:39.711794
+2002-2-divisjon-13-rosendal-musikklag,2002,2. divisjon,13,Rosendal Musikklag,Pål W. Jøsok,Diversions for Brass Band,['Diversions for Brass Band'],Derek Bourgeois,['Derek Bourgeois'],81.0,100.0,,,,,2025-09-29T23:32:39.711797
+2002-2-divisjon-14-bergen-brass-band,2002,2. divisjon,14,Bergen Brass Band,Knut Harald Rydland,Rhapsody in Brass,['Rhapsody in Brass'],Dean Goffin,['Dean Goffin'],80.0,100.0,,,,,2025-09-29T23:32:39.711800
+2002-3-divisjon-01-oslo-brass-band,2002,3. divisjon,1,Oslo Brass Band,Helge Haukås,Dances and Arias,['Dances and Arias'],Edward Gregson,['Edward Gregson'],96.0,100.0,,,,,2025-09-29T23:32:39.711803
+2002-3-divisjon-02-oltedal-ålgård-musikkorps,2002,3. divisjon,2,Oltedal-Ålgård Musikkorps,Russell Gray,,[],,[],95.0,100.0,,,,,2025-09-29T23:32:39.711806
+2002-3-divisjon-03-skodje-ungdomskorps,2002,3. divisjon,3,Skodje Ungdomskorps,Henrik Dagestad-Dalhaug,,[],,[],94.0,100.0,,,,,2025-09-29T23:32:39.711808
+2002-3-divisjon-04-haukås-musikklag,2002,3. divisjon,4,Haukås Musikklag,Knut Harald Rydland,Labour and Love,['Labour and Love'],Percy E. Fletcher,['Percy E. Fletcher'],93.0,100.0,,,,,2025-09-29T23:32:39.711812
+2002-3-divisjon-05-hasle-brass,2002,3. divisjon,5,Hasle Brass,Tarjei Gilbrant,,[],,[],92.0,100.0,,,,,2025-09-29T23:32:39.711814
+2002-3-divisjon-06-nes-musikkforening,2002,3. divisjon,6,Nes Musikkforening,Andres Halla,,[],,[],91.0,100.0,,,,,2025-09-29T23:32:39.711817
+2002-3-divisjon-07-jølster-musikklag,2002,3. divisjon,7,Jølster Musikklag,Gunnar Smaadal,Music for a Festival,['Music for a Festival'],Philip Sparke,['Philip Sparke'],90.0,100.0,,,,,2025-09-29T23:32:39.711820
+2002-3-divisjon-08-skeie-brass,2002,3. divisjon,8,Skeie Brass,Einar Mæland,,[],,[],89.0,100.0,,,,,2025-09-29T23:32:39.711823
+2002-3-divisjon-09-fræna-musikkorps,2002,3. divisjon,9,Fræna Musikkorps,Jens Kristian Mordal,Music for a Festival,['Music for a Festival'],Philip Sparke,['Philip Sparke'],88.0,100.0,,,,,2025-09-29T23:32:39.711826
+2002-3-divisjon-10-follesø-musikklag,2002,3. divisjon,10,Follesø Musikklag,Reid Gilje,,[],,[],87.0,100.0,,,,,2025-09-29T23:32:39.711829
+2002-3-divisjon-11-rong-brass,2002,3. divisjon,11,Rong Brass,Oddvar Nøstdal,,[],,[],86.0,100.0,,,,,2025-09-29T23:32:39.711832
+2002-3-divisjon-12-randaberg-musikkorps,2002,3. divisjon,12,Randaberg Musikkorps,Stein Olav Hindaker,,[],,[],85.0,100.0,,,,,2025-09-29T23:32:39.711834
+2002-3-divisjon-13-brumund/nordaasen-musikkforening,2002,3. divisjon,13,Brumund/Nordaasen Musikkforening,Thorbjørn Lunde,,[],,[],84.0,100.0,,,,,2025-09-29T23:32:39.711837
+2002-3-divisjon-13-gjøvik-bybrass,2002,3. divisjon,13,Gjøvik Bybrass,Roar Bjerkehagen,,[],,[],84.0,100.0,,,,,2025-09-29T23:32:39.711840
+2002-3-divisjon-13-ungdomskorpset-samklang,2002,3. divisjon,13,Ungdomskorpset Samklang,Tormod Flaten,,[],,[],84.0,100.0,,,,,2025-09-29T23:32:39.711842
+2002-3-divisjon-16-førde-musikkorps,2002,3. divisjon,16,Førde Musikkorps,Pål W. Jøsok,,[],,[],83.0,100.0,,,,,2025-09-29T23:32:39.711845
+2002-3-divisjon-16-lismarkens-musikforening,2002,3. divisjon,16,Lismarkens Musikforening,Erling Johan Myrseth,,[],,[],83.0,100.0,,,,,2025-09-29T23:32:39.711847
+2002-3-divisjon-18-stavanger-kommunes-korps,2002,3. divisjon,18,Stavanger Kommunes Korps,Per Inge Austnes,Sinfonietta - The Dawning,['Sinfonietta - The Dawning'],Peter Graham,['Peter Graham'],82.0,100.0,,,,,2025-09-29T23:32:39.711851
+2002-3-divisjon-19-sauda-musikklag,2002,3. divisjon,19,Sauda Musikklag,Thormod Gilje,,[],,[],81.0,100.0,,,,,2025-09-29T23:32:39.711853
+2002-3-divisjon-20-bamble-musikkorps,2002,3. divisjon,20,Bamble Musikkorps,Jon Mikal Guldager,,[],,[],80.0,100.0,,,,,2025-09-29T23:32:39.711856

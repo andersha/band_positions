@@ -1,0 +1,1695 @@
+{
+  "year": 2011,
+  "total_orchestras": 73,
+  "total_divisions": 5,
+  "divisions": [
+    "Elite",
+    "1. divisjon",
+    "2. divisjon",
+    "3. divisjon",
+    "4. divisjon"
+  ],
+  "placements": [
+    {
+      "id": "2011-elite-01-eikanger-bjørsvik-musikklag",
+      "year": 2011,
+      "division": "Elite",
+      "rank": 1,
+      "orchestra": "Eikanger-Bjørsvik Musikklag",
+      "conductor": "David King",
+      "pieces": "Spiriti",
+      "pieces_list": [
+        "Spiriti"
+      ],
+      "composers": "Thomas Doss",
+      "composers_list": [
+        "Thomas Doss"
+      ],
+      "points": 96.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753022"
+    },
+    {
+      "id": "2011-elite-02-manger-musikklag",
+      "year": 2011,
+      "division": "Elite",
+      "rank": 2,
+      "orchestra": "Manger Musikklag",
+      "conductor": "Peter Sebastian Szilvay",
+      "pieces": "Old Licks Bluesed Up",
+      "pieces_list": [
+        "Old Licks Bluesed Up"
+      ],
+      "composers": "Torstein Aagaard-Nilsen",
+      "composers_list": [
+        "Torstein Aagaard-Nilsen"
+      ],
+      "points": 95.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753027"
+    },
+    {
+      "id": "2011-elite-03-stavanger-brass-band",
+      "year": 2011,
+      "division": "Elite",
+      "rank": 3,
+      "orchestra": "Stavanger Brass Band",
+      "conductor": "Allan Withington",
+      "pieces": "The Night to Sing",
+      "pieces_list": [
+        "The Night to Sing"
+      ],
+      "composers": "Bramwell Tovey",
+      "composers_list": [
+        "Bramwell Tovey"
+      ],
+      "points": 95.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753031"
+    },
+    {
+      "id": "2011-elite-04-krohnengen-brass-band",
+      "year": 2011,
+      "division": "Elite",
+      "rank": 4,
+      "orchestra": "Krohnengen Brass Band",
+      "conductor": "Gary Peterson",
+      "pieces": "Vocalise, Fanfare and Rondo",
+      "pieces_list": [
+        "Vocalise, Fanfare and Rondo"
+      ],
+      "composers": "Gary B. Peterson",
+      "composers_list": [
+        "Gary B. Peterson"
+      ],
+      "points": 93.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753034"
+    },
+    {
+      "id": "2011-elite-05-ila-brass-band",
+      "year": 2011,
+      "division": "Elite",
+      "rank": 5,
+      "orchestra": "Ila Brass Band",
+      "conductor": "Thomas Rimul",
+      "pieces": "Seid",
+      "pieces_list": [
+        "Seid"
+      ],
+      "composers": "Torstein Aagaard-Nilsen",
+      "composers_list": [
+        "Torstein Aagaard-Nilsen"
+      ],
+      "points": 92.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753037"
+    },
+    {
+      "id": "2011-elite-06-molde-brass-band",
+      "year": 2011,
+      "division": "Elite",
+      "rank": 6,
+      "orchestra": "Molde Brass Band",
+      "conductor": "Russell Gray",
+      "pieces": "Cambridge Variations",
+      "pieces_list": [
+        "Cambridge Variations"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 91.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753040"
+    },
+    {
+      "id": "2011-elite-07-sola-brass-band",
+      "year": 2011,
+      "division": "Elite",
+      "rank": 7,
+      "orchestra": "Sola Brass Band",
+      "conductor": "Benny Wiame",
+      "pieces": "Montage",
+      "pieces_list": [
+        "Montage"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 89.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753043"
+    },
+    {
+      "id": "2011-elite-08-oslo-brass-band",
+      "year": 2011,
+      "division": "Elite",
+      "rank": 8,
+      "orchestra": "Oslo Brass Band",
+      "conductor": "Frode Amundsen",
+      "pieces": "From Ancient Times",
+      "pieces_list": [
+        "From Ancient Times"
+      ],
+      "composers": "Jan Van der Roost",
+      "composers_list": [
+        "Jan Van der Roost"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753046"
+    },
+    {
+      "id": "2011-elite-09-sandefjord-brass-symposium",
+      "year": 2011,
+      "division": "Elite",
+      "rank": 9,
+      "orchestra": "Sandefjord Brass Symposium",
+      "conductor": "David Roberts",
+      "pieces": "On the Shoulders of Giants",
+      "pieces_list": [
+        "On the Shoulders of Giants"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 88.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753048"
+    },
+    {
+      "id": "2011-elite-10-oslofjord-brass",
+      "year": 2011,
+      "division": "Elite",
+      "rank": 10,
+      "orchestra": "Oslofjord Brass",
+      "conductor": "Simon Dobson",
+      "pieces": "Titan's Progress",
+      "pieces_list": [
+        "Titan's Progress"
+      ],
+      "composers": "Hermann Pallhuber",
+      "composers_list": [
+        "Hermann Pallhuber"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753050"
+    },
+    {
+      "id": "2011-1-divisjon-01-jaren-hornmusikkforening",
+      "year": 2011,
+      "division": "1. divisjon",
+      "rank": 1,
+      "orchestra": "Jaren Hornmusikkforening",
+      "conductor": "Garry Cutt",
+      "pieces": "On Alderley Edge",
+      "pieces_list": [
+        "On Alderley Edge"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 96.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753053"
+    },
+    {
+      "id": "2011-1-divisjon-02-kleppe-musikklag",
+      "year": 2011,
+      "division": "1. divisjon",
+      "rank": 2,
+      "orchestra": "Kleppe Musikklag",
+      "conductor": "Rune Hannisdal",
+      "pieces": "Sounds",
+      "pieces_list": [
+        "Sounds"
+      ],
+      "composers": "John Golland",
+      "composers_list": [
+        "John Golland"
+      ],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753055"
+    },
+    {
+      "id": "2011-1-divisjon-03-tertnes-brass",
+      "year": 2011,
+      "division": "1. divisjon",
+      "rank": 3,
+      "orchestra": "Tertnes Brass",
+      "conductor": "Yngve Nikolaisen",
+      "pieces": "The Year of the Dragon",
+      "pieces_list": [
+        "The Year of the Dragon"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 92.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753058"
+    },
+    {
+      "id": "2011-1-divisjon-04-jølster-musikklag",
+      "year": 2011,
+      "division": "1. divisjon",
+      "rank": 4,
+      "orchestra": "Jølster Musikklag",
+      "conductor": "Arvid Anthun",
+      "pieces": "Dances and Arias",
+      "pieces_list": [
+        "Dances and Arias"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 90.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753061"
+    },
+    {
+      "id": "2011-1-divisjon-05-ørskog-brass",
+      "year": 2011,
+      "division": "1. divisjon",
+      "rank": 5,
+      "orchestra": "Ørskog Brass",
+      "conductor": "Alan Morrison",
+      "pieces": "A London Overture",
+      "pieces_list": [
+        "A London Overture"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753063"
+    },
+    {
+      "id": "2011-1-divisjon-05-oster-brass",
+      "year": 2011,
+      "division": "1. divisjon",
+      "rank": 5,
+      "orchestra": "Oster Brass",
+      "conductor": "Torstein Aagaard-Nilsen",
+      "pieces": "A Lowry Sketchbook",
+      "pieces_list": [
+        "A Lowry Sketchbook"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753065"
+    },
+    {
+      "id": "2011-1-divisjon-07-laksevåg-musikkforening",
+      "year": 2011,
+      "division": "1. divisjon",
+      "rank": 7,
+      "orchestra": "Laksevåg Musikkforening",
+      "conductor": "John-Philip Hannevik",
+      "pieces": "Chivalry",
+      "pieces_list": [
+        "Chivalry"
+      ],
+      "composers": "Martin Ellerby",
+      "composers_list": [
+        "Martin Ellerby"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753068"
+    },
+    {
+      "id": "2011-1-divisjon-08-musikkorpset-gjallarhorn",
+      "year": 2011,
+      "division": "1. divisjon",
+      "rank": 8,
+      "orchestra": "Musikkorpset Gjallarhorn",
+      "conductor": "Espen Westbye",
+      "pieces": "Sounds",
+      "pieces_list": [
+        "Sounds"
+      ],
+      "composers": "John Golland",
+      "composers_list": [
+        "John Golland"
+      ],
+      "points": 86.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753070"
+    },
+    {
+      "id": "2011-1-divisjon-09-sørum-musikklag",
+      "year": 2011,
+      "division": "1. divisjon",
+      "rank": 9,
+      "orchestra": "Sørum Musikklag",
+      "conductor": "Christian Tenfjord",
+      "pieces": "Dances and Arias",
+      "pieces_list": [
+        "Dances and Arias"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 85.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753073"
+    },
+    {
+      "id": "2011-1-divisjon-10-tomra-brass-band",
+      "year": 2011,
+      "division": "1. divisjon",
+      "rank": 10,
+      "orchestra": "Tomra Brass Band",
+      "conductor": "Nick Ost",
+      "pieces": "Fire in the Sky",
+      "pieces_list": [
+        "Fire in the Sky"
+      ],
+      "composers": "Peter Meechan",
+      "composers_list": [
+        "Peter Meechan"
+      ],
+      "points": 84.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753075"
+    },
+    {
+      "id": "2011-1-divisjon-11-alexander-brass-band",
+      "year": 2011,
+      "division": "1. divisjon",
+      "rank": 11,
+      "orchestra": "Alexander Brass Band",
+      "conductor": "Morten Evjeberg Hansen",
+      "pieces": "Diversions on a Bass Theme",
+      "pieces_list": [
+        "Diversions on a Bass Theme"
+      ],
+      "composers": "George Lloyd",
+      "composers_list": [
+        "George Lloyd"
+      ],
+      "points": 83.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753078"
+    },
+    {
+      "id": "2011-1-divisjon-12-tertnes-amatørkorps",
+      "year": 2011,
+      "division": "1. divisjon",
+      "rank": 12,
+      "orchestra": "Tertnes Amatørkorps",
+      "conductor": "Tormod Flaten",
+      "pieces": "Dances and Arias",
+      "pieces_list": [
+        "Dances and Arias"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 82.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753080"
+    },
+    {
+      "id": "2011-2-divisjon-01-bjørsvik-brass",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 1,
+      "orchestra": "Bjørsvik Brass",
+      "conductor": "Russell Gray",
+      "pieces": "The Essence of Time",
+      "pieces_list": [
+        "The Essence of Time"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 98.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753083"
+    },
+    {
+      "id": "2011-2-divisjon-02-radøy-brass",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 2,
+      "orchestra": "Radøy Brass",
+      "conductor": "Gareth Pritchard",
+      "pieces": "The Year of the Dragon",
+      "pieces_list": [
+        "The Year of the Dragon"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 96.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753085"
+    },
+    {
+      "id": "2011-2-divisjon-03-brøttum-brass",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 3,
+      "orchestra": "Brøttum Brass",
+      "conductor": "Michael Antrobus",
+      "pieces": "Sounds",
+      "pieces_list": [
+        "Sounds"
+      ],
+      "composers": "John Golland",
+      "composers_list": [
+        "John Golland"
+      ],
+      "points": 93.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753088"
+    },
+    {
+      "id": "2011-2-divisjon-04-borge-brass-band",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 4,
+      "orchestra": "Borge Brass Band",
+      "conductor": "Oddvar Nøstdal",
+      "pieces": "The Present Age",
+      "pieces_list": [
+        "The Present Age"
+      ],
+      "composers": "Leslie Condon",
+      "composers_list": [
+        "Leslie Condon"
+      ],
+      "points": 92.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753090"
+    },
+    {
+      "id": "2011-2-divisjon-05-lindås-brass",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 5,
+      "orchestra": "Lindås Brass",
+      "conductor": "Helge Haukås",
+      "pieces": "Spectrum",
+      "pieces_list": [
+        "Spectrum"
+      ],
+      "composers": "Gilbert Vinter",
+      "composers_list": [
+        "Gilbert Vinter"
+      ],
+      "points": 91.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753093"
+    },
+    {
+      "id": "2011-2-divisjon-06-askøy-brass-band",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 6,
+      "orchestra": "Askøy Brass Band",
+      "conductor": "Reid Gilje",
+      "pieces": "Coventry Variations",
+      "pieces_list": [
+        "Coventry Variations"
+      ],
+      "composers": "Bramwell Tovey",
+      "composers_list": [
+        "Bramwell Tovey"
+      ],
+      "points": 90.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753095"
+    },
+    {
+      "id": "2011-2-divisjon-07-tromsø-brass",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 7,
+      "orchestra": "Tromsø Brass",
+      "conductor": "Tor-Kristian Ravnanger Innbjør",
+      "pieces": "Blitz",
+      "pieces_list": [
+        "Blitz"
+      ],
+      "composers": "Derek Bourgeois",
+      "composers_list": [
+        "Derek Bourgeois"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753097"
+    },
+    {
+      "id": "2011-2-divisjon-08-manger-old-star-brass",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 8,
+      "orchestra": "Manger Old Star Brass",
+      "conductor": "Johannes Mangersnes",
+      "pieces": "Excalibur",
+      "pieces_list": [
+        "Excalibur"
+      ],
+      "composers": "Jan Van der Roost",
+      "composers_list": [
+        "Jan Van der Roost"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753100"
+    },
+    {
+      "id": "2011-2-divisjon-08-sagvåg-musikklag",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 8,
+      "orchestra": "Sagvåg Musikklag",
+      "conductor": "Mareika Gray",
+      "pieces": "Natalis",
+      "pieces_list": [
+        "Natalis"
+      ],
+      "composers": "Martin Ellerby",
+      "composers_list": [
+        "Martin Ellerby"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753102"
+    },
+    {
+      "id": "2011-2-divisjon-10-haukås-musikklag",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 10,
+      "orchestra": "Haukås Musikklag",
+      "conductor": "Thor-Arne Pedersen",
+      "pieces": "Tallis Variations",
+      "pieces_list": [
+        "Tallis Variations"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753105"
+    },
+    {
+      "id": "2011-2-divisjon-11-flesland-musikklag",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 11,
+      "orchestra": "Flesland Musikklag",
+      "conductor": "Patrik Randefalk",
+      "pieces": "Rise of the Phoenix",
+      "pieces_list": [
+        "Rise of the Phoenix"
+      ],
+      "composers": "Darrol Barry",
+      "composers_list": [
+        "Darrol Barry"
+      ],
+      "points": 86.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753107"
+    },
+    {
+      "id": "2011-2-divisjon-12-hornorkesteret-stavanger",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 12,
+      "orchestra": "Hornorkesteret Stavanger",
+      "conductor": "Mats Urdahl Aasen",
+      "pieces": "A London Overture",
+      "pieces_list": [
+        "A London Overture"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 85.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753110"
+    },
+    {
+      "id": "2011-2-divisjon-13-stangaland-brass",
+      "year": 2011,
+      "division": "2. divisjon",
+      "rank": 13,
+      "orchestra": "Stangaland Brass",
+      "conductor": "Jacob Vilhelm Larsen",
+      "pieces": "The Saga of Haakon the Good",
+      "pieces_list": [
+        "The Saga of Haakon the Good"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 84.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753112"
+    },
+    {
+      "id": "2011-3-divisjon-01-rong-brass",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 1,
+      "orchestra": "Rong Brass",
+      "conductor": "Eirik Gjerdevik",
+      "pieces": "The Forest of Dean",
+      "pieces_list": [
+        "The Forest of Dean"
+      ],
+      "composers": "Derek Bourgeois",
+      "composers_list": [
+        "Derek Bourgeois"
+      ],
+      "points": 97.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753114"
+    },
+    {
+      "id": "2011-3-divisjon-02-hasle-brass",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 2,
+      "orchestra": "Hasle Brass",
+      "conductor": "Robert Solberg Nilsen",
+      "pieces": "Tallis Variations",
+      "pieces_list": [
+        "Tallis Variations"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 96.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753117"
+    },
+    {
+      "id": "2011-3-divisjon-03-grenland-brass",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 3,
+      "orchestra": "Grenland Brass",
+      "conductor": "Christopher Røedvang",
+      "pieces": "The Saga of Haakon the Good",
+      "pieces_list": [
+        "The Saga of Haakon the Good"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 95.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753119"
+    },
+    {
+      "id": "2011-3-divisjon-04-fjell-brass",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 4,
+      "orchestra": "Fjell Brass",
+      "conductor": "Svein Henrik Giske",
+      "pieces": "Purcell Variations",
+      "pieces_list": [
+        "Purcell Variations"
+      ],
+      "composers": "Kenneth Downie",
+      "composers_list": [
+        "Kenneth Downie"
+      ],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753121"
+    },
+    {
+      "id": "2011-3-divisjon-05-gjesdal-brass-band",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 5,
+      "orchestra": "Gjesdal Brass Band",
+      "conductor": "Jonas Skartveit Rogne",
+      "pieces": "Psalms and Alleluias",
+      "pieces_list": [
+        "Psalms and Alleluias"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 93.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753124"
+    },
+    {
+      "id": "2011-3-divisjon-06-follesø-musikklag",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 6,
+      "orchestra": "Follesø Musikklag",
+      "conductor": "Egil Magnussen",
+      "pieces": "Prisms",
+      "pieces_list": [
+        "Prisms"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 92.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753126"
+    },
+    {
+      "id": "2011-3-divisjon-07-flå-musikkorps",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 7,
+      "orchestra": "Flå Musikkorps",
+      "conductor": "Odd Steinar Mørkved",
+      "pieces": "Renaissance",
+      "pieces_list": [
+        "Renaissance"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 90.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753129"
+    },
+    {
+      "id": "2011-3-divisjon-07-torskangerpoll-musikklag",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 7,
+      "orchestra": "Torskangerpoll Musikklag",
+      "conductor": "Eirik Gjerdevik",
+      "pieces": "Lake of the Moon",
+      "pieces_list": [
+        "Lake of the Moon"
+      ],
+      "composers": "Kevin Houben",
+      "composers_list": [
+        "Kevin Houben"
+      ],
+      "points": 90.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753131"
+    },
+    {
+      "id": "2011-3-divisjon-09-nes-musikkforening",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 9,
+      "orchestra": "Nes Musikkforening",
+      "conductor": "Andres Halla",
+      "pieces": "A Little Light Music",
+      "pieces_list": [
+        "A Little Light Music"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753133"
+    },
+    {
+      "id": "2011-3-divisjon-09-trondheim-politis-brassband",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 9,
+      "orchestra": "Trondheim Politis Brassband",
+      "conductor": "Peter Hatfield",
+      "pieces": "Tam O'Shanter's Ride",
+      "pieces_list": [
+        "Tam O'Shanter's Ride"
+      ],
+      "composers": "Denis Wright",
+      "composers_list": [
+        "Denis Wright"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753136"
+    },
+    {
+      "id": "2011-3-divisjon-11-agder-brass",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 11,
+      "orchestra": "Agder Brass",
+      "conductor": "David Tellefsen",
+      "pieces": "Victorian Snapshots - On Ratcliff Highway",
+      "pieces_list": [
+        "Victorian Snapshots - On Ratcliff Highway"
+      ],
+      "composers": "Ray Steadman-Allen",
+      "composers_list": [
+        "Ray Steadman-Allen"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753138"
+    },
+    {
+      "id": "2011-3-divisjon-11-skui-brassband",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 11,
+      "orchestra": "Skui Brassband",
+      "conductor": "Henrik Dagestad-Dalhaug",
+      "pieces": "Psalms and Alleluias",
+      "pieces_list": [
+        "Psalms and Alleluias"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 88.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753140"
+    },
+    {
+      "id": "2011-3-divisjon-13-flora-bremanger-brassband",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 13,
+      "orchestra": "Flora-Bremanger Brassband",
+      "conductor": "Johnny Sælemyr",
+      "pieces": "A Salford Sinfonietta",
+      "pieces_list": [
+        "A Salford Sinfonietta"
+      ],
+      "composers": "Darrol Barry",
+      "composers_list": [
+        "Darrol Barry"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753143"
+    },
+    {
+      "id": "2011-3-divisjon-13-frei-hornmusikk",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 13,
+      "orchestra": "Frei Hornmusikk",
+      "conductor": "Kim Lofthouse",
+      "pieces": "The Plantagenets",
+      "pieces_list": [
+        "The Plantagenets"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753145"
+    },
+    {
+      "id": "2011-3-divisjon-13-tysnes-musikklag",
+      "year": 2011,
+      "division": "3. divisjon",
+      "rank": 13,
+      "orchestra": "Tysnes Musikklag",
+      "conductor": "Yngve Nikolaisen",
+      "pieces": "Harmonious Variations",
+      "pieces_list": [
+        "Harmonious Variations"
+      ],
+      "composers": "Gordon Langford",
+      "composers_list": [
+        "Gordon Langford"
+      ],
+      "points": 87.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753147"
+    },
+    {
+      "id": "2011-4-divisjon-01-bergen-brass-band",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 1,
+      "orchestra": "Bergen Brass Band",
+      "conductor": "Sturle Berntsen",
+      "pieces": "Occasion",
+      "pieces_list": [
+        "Occasion"
+      ],
+      "composers": "Edward Gregson",
+      "composers_list": [
+        "Edward Gregson"
+      ],
+      "points": 96.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753150"
+    },
+    {
+      "id": "2011-4-divisjon-02-randaberg-musikkorps",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 2,
+      "orchestra": "Randaberg Musikkorps",
+      "conductor": "Tarjei Gilbrant",
+      "pieces": "Dimensions",
+      "pieces_list": [
+        "Dimensions"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 95.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753152"
+    },
+    {
+      "id": "2011-4-divisjon-03-gjøvik-bybrass",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 3,
+      "orchestra": "Gjøvik Bybrass",
+      "conductor": "Thorbjørn Lunde",
+      "pieces": "Firestorm",
+      "pieces_list": [
+        "Firestorm"
+      ],
+      "composers": "Stephen Bulla",
+      "composers_list": [
+        "Stephen Bulla"
+      ],
+      "points": 94.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753155"
+    },
+    {
+      "id": "2011-4-divisjon-04-fræna-musikkorps",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 4,
+      "orchestra": "Fræna Musikkorps",
+      "conductor": "Jens Kristian Mordal",
+      "pieces": "Purcell Variations",
+      "pieces_list": [
+        "Purcell Variations"
+      ],
+      "composers": "Kenneth Downie",
+      "composers_list": [
+        "Kenneth Downie"
+      ],
+      "points": 93.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753157"
+    },
+    {
+      "id": "2011-4-divisjon-05-stavanger-kommunes-korps",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 5,
+      "orchestra": "Stavanger Kommunes Korps",
+      "conductor": "Geir Karlson",
+      "pieces": "The Four Noble Truths",
+      "pieces_list": [
+        "The Four Noble Truths"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 93.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753159"
+    },
+    {
+      "id": "2011-4-divisjon-06-langhus-brass",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 6,
+      "orchestra": "Langhus Brass",
+      "conductor": "Idar Torskangerpoll",
+      "pieces": "Psalms and Alleluias",
+      "pieces_list": [
+        "Psalms and Alleluias"
+      ],
+      "composers": "Philip Wilby",
+      "composers_list": [
+        "Philip Wilby"
+      ],
+      "points": 92.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753162"
+    },
+    {
+      "id": "2011-4-divisjon-07-fagernes-musikkorps",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 7,
+      "orchestra": "Fagernes Musikkorps",
+      "conductor": "Jon Henning Lien",
+      "pieces": "A Celtic Suite",
+      "pieces_list": [
+        "A Celtic Suite"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 91.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753164"
+    },
+    {
+      "id": "2011-4-divisjon-08-harøy-musikklag",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 8,
+      "orchestra": "Harøy Musikklag",
+      "conductor": "Frank Harneshaug",
+      "pieces": "Dimensions",
+      "pieces_list": [
+        "Dimensions"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 90.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753167"
+    },
+    {
+      "id": "2011-4-divisjon-09-rosendal-musikklag",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 9,
+      "orchestra": "Rosendal Musikklag",
+      "conductor": "Torstein Hatlevik",
+      "pieces": "Royal Parks",
+      "pieces_list": [
+        "Royal Parks"
+      ],
+      "composers": "George Lloyd",
+      "composers_list": [
+        "George Lloyd"
+      ],
+      "points": 90.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753169"
+    },
+    {
+      "id": "2011-4-divisjon-10-lyshornet-brass",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 10,
+      "orchestra": "Lyshornet Brass",
+      "conductor": "Trond J. Madsen",
+      "pieces": "Anglian Dances",
+      "pieces_list": [
+        "Anglian Dances"
+      ],
+      "composers": "Alan Fernie",
+      "composers_list": [
+        "Alan Fernie"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753171"
+    },
+    {
+      "id": "2011-4-divisjon-10-skeie-brass",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 10,
+      "orchestra": "Skeie Brass",
+      "conductor": "Nigel Fielding",
+      "pieces": "Saint-Saëns Variations",
+      "pieces_list": [
+        "Saint-Saëns Variations"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753174"
+    },
+    {
+      "id": "2011-4-divisjon-10-moen-musikkforening",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 10,
+      "orchestra": "Moen Musikkforening",
+      "conductor": "Thomas Petersen",
+      "pieces": "Dimensions",
+      "pieces_list": [
+        "Dimensions"
+      ],
+      "composers": "Peter Graham",
+      "composers_list": [
+        "Peter Graham"
+      ],
+      "points": 89.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753176"
+    },
+    {
+      "id": "2011-4-divisjon-13-salhus-musikklag",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 13,
+      "orchestra": "Salhus Musikklag",
+      "conductor": "Knut Emil Mjøs",
+      "pieces": "Saint-Saëns Variations",
+      "pieces_list": [
+        "Saint-Saëns Variations"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 88.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753178"
+    },
+    {
+      "id": "2011-4-divisjon-14-musikkorpset-heimdal",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 14,
+      "orchestra": "Musikkorpset Heimdal",
+      "conductor": "Per Olav Paulsen",
+      "pieces": "Kaleidoscope",
+      "pieces_list": [
+        "Kaleidoscope"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 87.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753181"
+    },
+    {
+      "id": "2011-4-divisjon-15-imi-brass",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 15,
+      "orchestra": "IMI Brass",
+      "conductor": "Per-Erik Petersen",
+      "pieces": "Variations on Repton",
+      "pieces_list": [
+        "Variations on Repton"
+      ],
+      "composers": "David Chaulk",
+      "composers_list": [
+        "David Chaulk"
+      ],
+      "points": 86.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753185"
+    },
+    {
+      "id": "2011-4-divisjon-16-lismarka/mesnali-brass",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 16,
+      "orchestra": "Lismarka/Mesnali Brass",
+      "conductor": "Morten Fagerjord",
+      "pieces": "Galdhøpiggen",
+      "pieces_list": [
+        "Galdhøpiggen"
+      ],
+      "composers": "Simon Kerwin",
+      "composers_list": [
+        "Simon Kerwin"
+      ],
+      "points": 85.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753188"
+    },
+    {
+      "id": "2011-4-divisjon-17-hordvik-musikklag",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 17,
+      "orchestra": "Hordvik Musikklag",
+      "conductor": "Knut Emil Mjøs",
+      "pieces": "Chorale and Variations",
+      "pieces_list": [
+        "Chorale and Variations"
+      ],
+      "composers": "Leighton Lucas",
+      "composers_list": [
+        "Leighton Lucas"
+      ],
+      "points": 85.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753190"
+    },
+    {
+      "id": "2011-4-divisjon-18-florø-hornmusikk",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 18,
+      "orchestra": "Florø Hornmusikk",
+      "conductor": "Jason Burn",
+      "pieces": "Music for a Festival",
+      "pieces_list": [
+        "Music for a Festival"
+      ],
+      "composers": "Philip Sparke",
+      "composers_list": [
+        "Philip Sparke"
+      ],
+      "points": 84.5,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753192"
+    },
+    {
+      "id": "2011-4-divisjon-19-hetlevik-musikklag",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 19,
+      "orchestra": "Hetlevik Musikklag",
+      "conductor": "Einar Gjelsvik",
+      "pieces": "Anglian Dances",
+      "pieces_list": [
+        "Anglian Dances"
+      ],
+      "composers": "Alan Fernie",
+      "composers_list": [
+        "Alan Fernie"
+      ],
+      "points": 84.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753195"
+    },
+    {
+      "id": "2011-4-divisjon-20-rudsbygd-brass",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 20,
+      "orchestra": "Rudsbygd Brass",
+      "conductor": "Per Kristian Ødegård Syversen",
+      "pieces": "Four Cities Symphony",
+      "pieces_list": [
+        "Four Cities Symphony"
+      ],
+      "composers": "Robert Newton",
+      "composers_list": [
+        "Robert Newton"
+      ],
+      "points": 83.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753197"
+    },
+    {
+      "id": "2011-4-divisjon-21-brumunddal-brass",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 21,
+      "orchestra": "Brumunddal Brass",
+      "conductor": "Morten Sanner",
+      "pieces": "The Dark Side of the Moon",
+      "pieces_list": [
+        "The Dark Side of the Moon"
+      ],
+      "composers": "Paul Lovatt-Cooper",
+      "composers_list": [
+        "Paul Lovatt-Cooper"
+      ],
+      "points": 82.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753199"
+    },
+    {
+      "id": "2011-4-divisjon-22-fjordbrass-lavik",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 22,
+      "orchestra": "Fjordbrass Lavik",
+      "conductor": "Jason Burn",
+      "pieces": "Legend in Brass",
+      "pieces_list": [
+        "Legend in Brass"
+      ],
+      "composers": "James Curnow",
+      "composers_list": [
+        "James Curnow"
+      ],
+      "points": 81.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753202"
+    },
+    {
+      "id": "2011-4-divisjon-22-lalm-musikkforening",
+      "year": 2011,
+      "division": "4. divisjon",
+      "rank": 22,
+      "orchestra": "Lalm Musikkforening",
+      "conductor": "Erik Wang",
+      "pieces": "Oregon: Fantasy for Band",
+      "pieces_list": [
+        "Oregon: Fantasy for Band"
+      ],
+      "composers": "Jacob de Haan",
+      "composers_list": [
+        "Jacob de Haan"
+      ],
+      "points": 81.0,
+      "max_points": 100.0,
+      "image_url": null,
+      "orchestra_url": null,
+      "conductor_url": null,
+      "piece_urls": null,
+      "scraped_at": "2025-09-29T23:32:39.753204"
+    }
+  ],
+  "awards": [],
+  "exported_at": "2025-09-29T23:32:39.754718"
+}

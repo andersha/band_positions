@@ -1,0 +1,78 @@
+id,year,division,rank,orchestra,conductor,pieces,pieces_list,composers,composers_list,points,max_points,image_url,orchestra_url,conductor_url,piece_urls,scraped_at
+2012-elite-01-eikanger-bjørsvik-musikklag,2012,Elite,1,Eikanger-Bjørsvik Musikklag,David King,From Ancient Times,['From Ancient Times'],Jan Van der Roost,['Jan Van der Roost'],98.0,100.0,,,,,2025-09-29T23:32:39.757315
+2012-elite-02-manger-musikklag,2012,Elite,2,Manger Musikklag,Peter Sebastian Szilvay,Audivi Media Nocte,['Audivi Media Nocte'],Oliver Waespi,['Oliver Waespi'],95.5,100.0,,,,,2025-09-29T23:32:39.757319
+2012-elite-03-stavanger-brass-band,2012,Elite,3,Stavanger Brass Band,Allan Withington,Vienna Nights,['Vienna Nights'],Philip Wilby,['Philip Wilby'],94.5,100.0,,,,,2025-09-29T23:32:39.757321
+2012-elite-04-molde-brass-band,2012,Elite,4,Molde Brass Band,Russell Gray,On the Shoulders of Giants,['On the Shoulders of Giants'],Peter Graham,['Peter Graham'],93.5,100.0,,,,,2025-09-29T23:32:39.757324
+2012-elite-05-ila-brass-band,2012,Elite,5,Ila Brass Band,Thomas Rimul,Klang (!),['Klang (!)'],Ørjan Matre,['Ørjan Matre'],91.0,100.0,,,,,2025-09-29T23:32:39.757326
+2012-elite-06-sola-brass-band,2012,Elite,6,Sola Brass Band,Ian Porthouse,Music of the Spheres,['Music of the Spheres'],Philip Sparke,['Philip Sparke'],90.5,100.0,,,,,2025-09-29T23:32:39.757328
+2012-elite-07-oslo-brass-band,2012,Elite,7,Oslo Brass Band,Andreas Hanson,Red Priest,['Red Priest'],Philip Wilby,['Philip Wilby'],90.0,100.0,,,,,2025-09-29T23:32:39.757330
+2012-elite-08-krohnengen-brass-band,2012,Elite,8,Krohnengen Brass Band,Gary Peterson,Revelation,['Revelation'],Philip Wilby,['Philip Wilby'],89.5,100.0,,,,,2025-09-29T23:32:39.757332
+2012-elite-09-kleppe-musikklag,2012,Elite,9,Kleppe Musikklag,Rune Hannisdal,Brass Blót,['Brass Blót'],Håkon Berge,['Håkon Berge'],89.25,100.0,,,,,2025-09-29T23:32:39.757334
+2012-elite-10-jaren-hornmusikkforening,2012,Elite,10,Jaren Hornmusikkforening,Howard J Evans,Dove Descending,['Dove Descending'],Philip Wilby,['Philip Wilby'],86.5,100.0,,,,,2025-09-29T23:32:39.757336
+2012-1-divisjon-01-tertnes-brass,2012,1. divisjon,1,Tertnes Brass,John-Philip Hannevik,Harmony Music,['Harmony Music'],Philip Sparke,['Philip Sparke'],95.0,100.0,,,,,2025-09-29T23:32:39.757339
+2012-1-divisjon-02-ørskog-brass,2012,1. divisjon,2,Ørskog Brass,Alan Morrison,A Lowry Sketchbook,['A Lowry Sketchbook'],Philip Wilby,['Philip Wilby'],94.5,100.0,,,,,2025-09-29T23:32:39.757341
+2012-1-divisjon-03-bjørsvik-brass,2012,1. divisjon,3,Bjørsvik Brass,Russell Gray,Variations on an Enigma,['Variations on an Enigma'],Philip Sparke,['Philip Sparke'],94.0,100.0,,,,,2025-09-29T23:32:39.757343
+2012-1-divisjon-04-oster-brass,2012,1. divisjon,4,Oster Brass,Torstein Aagaard-Nilsen,The Land of the Long White Cloud - Aotearoa,['The Land of the Long White Cloud - Aotearoa'],Philip Sparke,['Philip Sparke'],92.0,100.0,,,,,2025-09-29T23:32:39.757346
+2012-1-divisjon-05-sørum-musikklag,2012,1. divisjon,5,Sørum Musikklag,Christian Tenfjord,Remembrance,['Remembrance'],Bertrand Moren,['Bertrand Moren'],91.0,100.0,,,,,2025-09-29T23:32:39.757348
+2012-1-divisjon-06-sandefjord-brass-symposium,2012,1. divisjon,6,Sandefjord Brass Symposium,Tarjei Gilbrant,The Essence of Time,['The Essence of Time'],Peter Graham,['Peter Graham'],90.0,100.0,,,,,2025-09-29T23:32:39.757350
+2012-1-divisjon-07-radøy-brass,2012,1. divisjon,7,Radøy Brass,Helge Haukås,Journey into Freedom,['Journey into Freedom'],Eric Ball,['Eric Ball'],88.0,100.0,,,,,2025-09-29T23:32:39.757352
+2012-1-divisjon-08-oslofjord-brass,2012,1. divisjon,8,Oslofjord Brass,Simon Dobson,Concerto for Band No 1,['Concerto for Band No 1'],Derek Bourgeois,['Derek Bourgeois'],87.0,100.0,,,,,2025-09-29T23:32:39.757355
+2012-1-divisjon-09-musikkorpset-gjallarhorn,2012,1. divisjon,9,Musikkorpset Gjallarhorn,Espen Westbye,Leonardo,['Leonardo'],Philip Wilby,['Philip Wilby'],86.0,100.0,,,,,2025-09-29T23:32:39.757357
+2012-1-divisjon-10-brøttum-brass,2012,1. divisjon,10,Brøttum Brass,Thorbjørn Lunde,The Year of the Dragon,['The Year of the Dragon'],Philip Sparke,['Philip Sparke'],85.0,100.0,,,,,2025-09-29T23:32:39.757359
+2012-1-divisjon-11-laksevåg-musikkforening,2012,1. divisjon,11,Laksevåg Musikkforening,John-Philip Hannevik,Ballet for Band,['Ballet for Band'],Joseph Horovitz,['Joseph Horovitz'],84.0,100.0,,,,,2025-09-29T23:32:39.757361
+2012-1-divisjon-12-jølster-musikklag,2012,1. divisjon,12,Jølster Musikklag,Arvid Anthun,Frontier!,['Frontier!'],Michael Ball,['Michael Ball'],83.0,100.0,,,,,2025-09-29T23:32:39.757364
+2012-2-divisjon-01-askøy-brass-band,2012,2. divisjon,1,Askøy Brass Band,Reid Gilje,Tallis Variations,['Tallis Variations'],Philip Sparke,['Philip Sparke'],95.0,100.0,,,,,2025-09-29T23:32:39.757366
+2012-2-divisjon-02-tomra-brass-band,2012,2. divisjon,2,Tomra Brass Band,Nick Ost,Cambridge Variations,['Cambridge Variations'],Philip Sparke,['Philip Sparke'],94.0,100.0,,,,,2025-09-29T23:32:39.757368
+2012-2-divisjon-03-alexander-brass-band,2012,2. divisjon,3,Alexander Brass Band,Jacob Vilhelm Larsen,Connotations,['Connotations'],Edward Gregson,['Edward Gregson'],93.0,100.0,,,,,2025-09-29T23:32:39.757370
+2012-2-divisjon-04-tertnes-amatørkorps,2012,2. divisjon,4,Tertnes Amatørkorps,Yngve Nikolaisen,Essay,['Essay'],Edward Gregson,['Edward Gregson'],90.0,100.0,,,,,2025-09-29T23:32:39.757373
+2012-2-divisjon-05-manger-old-star-brass,2012,2. divisjon,5,Manger Old Star Brass,Johannes Mangersnes,The Lord is King,['The Lord is King'],Ray Steadman-Allen,['Ray Steadman-Allen'],89.0,100.0,,,,,2025-09-29T23:32:39.757375
+2012-2-divisjon-06-haukås-musikklag,2012,2. divisjon,6,Haukås Musikklag,Jan Egil Jørgensen,Excalibur,['Excalibur'],Jan Van der Roost,['Jan Van der Roost'],88.0,100.0,,,,,2025-09-29T23:32:39.757377
+2012-2-divisjon-07-sagvåg-musikklag,2012,2. divisjon,7,Sagvåg Musikklag,Håvard Kroka,Firestorm,['Firestorm'],Stephen Bulla,['Stephen Bulla'],87.0,100.0,,,,,2025-09-29T23:32:39.757379
+2012-2-divisjon-08-tromsø-brass,2012,2. divisjon,8,Tromsø Brass,Tor-Kristian Ravnanger Innbjør,Trittico,['Trittico'],James Curnow,['James Curnow'],86.0,100.0,,,,,2025-09-29T23:32:39.757381
+2012-2-divisjon-09-borge-brass-band,2012,2. divisjon,9,Borge Brass Band,Oddvar Nøstdal,Resurgam,['Resurgam'],Eric Ball,['Eric Ball'],85.0,100.0,,,,,2025-09-29T23:32:39.757383
+2012-2-divisjon-10-hasle-brass,2012,2. divisjon,10,Hasle Brass,Robert Solberg Nilsen,Chivalry,['Chivalry'],Martin Ellerby,['Martin Ellerby'],84.0,100.0,,,,,2025-09-29T23:32:39.757386
+2012-2-divisjon-11-grenland-brass,2012,2. divisjon,11,Grenland Brass,Christopher Røedvang,Kingdom of Dragons,['Kingdom of Dragons'],Philip Harper,['Philip Harper'],83.5,100.0,,,,,2025-09-29T23:32:39.757388
+2012-2-divisjon-12-rong-brass,2012,2. divisjon,12,Rong Brass,Eirik Gjerdevik,Trittico,['Trittico'],James Curnow,['James Curnow'],83.0,100.0,,,,,2025-09-29T23:32:39.757390
+2012-2-divisjon-13-lindås-brass,2012,2. divisjon,13,Lindås Brass,Helge Haukås,Tournament for Brass,['Tournament for Brass'],Eric Ball,['Eric Ball'],81.0,100.0,,,,,2025-09-29T23:32:39.757392
+2012-3-divisjon-01-flesland-musikklag,2012,3. divisjon,1,Flesland Musikklag,Reid Gilje,Excalibur,['Excalibur'],Jan Van der Roost,['Jan Van der Roost'],94.0,100.0,,,,,2025-09-29T23:32:39.757394
+2012-3-divisjon-02-trondheim-politis-brassband,2012,3. divisjon,2,Trondheim Politis Brassband,Espen Andersen,Firestorm,['Firestorm'],Stephen Bulla,['Stephen Bulla'],92.0,100.0,,,,,2025-09-29T23:32:39.757396
+2012-3-divisjon-03-gjøvik-bybrass,2012,3. divisjon,3,Gjøvik Bybrass,Thorbjørn Lunde,Psalms and Alleluias,['Psalms and Alleluias'],Philip Wilby,['Philip Wilby'],90.0,100.0,,,,,2025-09-29T23:32:39.757399
+2012-3-divisjon-04-skui-brassband,2012,3. divisjon,4,Skui Brassband,Henrik Dagestad-Dalhaug,Toccata,['Toccata'],Rolf Wallin,['Rolf Wallin'],89.0,100.0,,,,,2025-09-29T23:32:39.757401
+2012-3-divisjon-05-stangaland-brass,2012,3. divisjon,5,Stangaland Brass,Jacob Vilhelm Larsen,Princethorpe Variations,['Princethorpe Variations'],Kenneth Downie,['Kenneth Downie'],88.0,100.0,,,,,2025-09-29T23:32:39.757403
+2012-3-divisjon-06-agder-brass,2012,3. divisjon,6,Agder Brass,Bjørn Breistein,Spectrum,['Spectrum'],Gilbert Vinter,['Gilbert Vinter'],87.0,100.0,,,,,2025-09-29T23:32:39.757405
+2012-3-divisjon-07-nes-musikkforening,2012,3. divisjon,7,Nes Musikkforening,Andres Halla,Renaissance,['Renaissance'],Peter Graham,['Peter Graham'],86.5,100.0,,,,,2025-09-29T23:32:39.757407
+2012-3-divisjon-08-fjell-brass,2012,3. divisjon,8,Fjell Brass,Svein Henrik Giske,Voyage of Discovery,['Voyage of Discovery'],Goff Richards,['Goff Richards'],86.0,100.0,,,,,2025-09-29T23:32:39.757409
+2012-3-divisjon-09-gjesdal-brass-band,2012,3. divisjon,9,Gjesdal Brass Band,Jonas Skartveit Rogne,Sinfonietta for Brass Band - The Wayfarer,['Sinfonietta for Brass Band - The Wayfarer'],Eric Ball,['Eric Ball'],85.5,100.0,,,,,2025-09-29T23:32:39.757412
+2012-3-divisjon-10-bergen-brass-band,2012,3. divisjon,10,Bergen Brass Band,Sturle Berntsen,Klotho,['Klotho'],Torstein Aagaard-Nilsen,['Torstein Aagaard-Nilsen'],85.0,100.0,,,,,2025-09-29T23:32:39.757414
+2012-3-divisjon-11-follesø-musikklag,2012,3. divisjon,11,Follesø Musikklag,Egil Magnussen,Firestorm,['Firestorm'],Stephen Bulla,['Stephen Bulla'],84.5,100.0,,,,,2025-09-29T23:32:39.757416
+2012-3-divisjon-12-flå-musikkorps,2012,3. divisjon,12,Flå Musikkorps,Odd Steinar Mørkved,Royal Parks,['Royal Parks'],George Lloyd,['George Lloyd'],84.0,100.0,,,,,2025-09-29T23:32:39.757418
+2012-3-divisjon-13-hornorkesteret-stavanger,2012,3. divisjon,13,Hornorkesteret Stavanger,Mats Urdahl Aasen,The Plantagenets,['The Plantagenets'],Edward Gregson,['Edward Gregson'],83.5,100.0,,,,,2025-09-29T23:32:39.757421
+2012-3-divisjon-14-fræna-musikkorps,2012,3. divisjon,14,Fræna Musikkorps,David Morton,Lyonesse,['Lyonesse'],Simon Dobson,['Simon Dobson'],83.0,100.0,,,,,2025-09-29T23:32:39.757423
+2012-3-divisjon-15-randaberg-musikkorps,2012,3. divisjon,15,Randaberg Musikkorps,Benny Wiame,Labour and Love,['Labour and Love'],Percy E. Fletcher,['Percy E. Fletcher'],82.0,100.0,,,,,2025-09-29T23:32:39.757425
+2012-4-divisjon-01-tysnes-musikklag,2012,4. divisjon,1,Tysnes Musikklag,Yngve Nikolaisen,Portrait of a City,['Portrait of a City'],Philip Sparke,['Philip Sparke'],95.0,100.0,,,,,2025-09-29T23:32:39.757427
+2012-4-divisjon-02-hordvik-musikklag,2012,4. divisjon,2,Hordvik Musikklag,Patrik Randefalk,Dimensions,['Dimensions'],Peter Graham,['Peter Graham'],94.0,100.0,,,,,2025-09-29T23:32:39.757430
+2012-4-divisjon-03-lyshornet-brass,2012,4. divisjon,3,Lyshornet Brass,Karl Ole Midtbø,The Call of the Righteous,['The Call of the Righteous'],Leslie Condon,['Leslie Condon'],93.0,100.0,,,,,2025-09-29T23:32:39.757432
+2012-4-divisjon-04-flora-bremanger-brassband,2012,4. divisjon,4,Flora-Bremanger Brassband,Johnny Sælemyr,The Dark Side of the Moon,['The Dark Side of the Moon'],Paul Lovatt-Cooper,['Paul Lovatt-Cooper'],92.0,100.0,,,,,2025-09-29T23:32:39.757434
+2012-4-divisjon-05-musikkorpset-heimdal,2012,4. divisjon,5,Musikkorpset Heimdal,Selmer Simonsen,Occasion,['Occasion'],Edward Gregson,['Edward Gregson'],91.0,100.0,,,,,2025-09-29T23:32:39.757436
+2012-4-divisjon-06-imi-brass,2012,4. divisjon,6,IMI Brass,Per-Erik Petersen,Acolastus,['Acolastus'],Dudley Bright,['Dudley Bright'],90.0,100.0,,,,,2025-09-29T23:32:39.757439
+2012-4-divisjon-07-frei-hornmusikk,2012,4. divisjon,7,Frei Hornmusikk,Tor Åge Schunemann,Labour and Love,['Labour and Love'],Percy E. Fletcher,['Percy E. Fletcher'],89.0,100.0,,,,,2025-09-29T23:32:39.757441
+2012-4-divisjon-08-stavanger-kommunes-korps,2012,4. divisjon,8,Stavanger Kommunes Korps,Geir Karlson,Music for the Common Man,['Music for the Common Man'],Kenneth Downie,['Kenneth Downie'],88.0,100.0,,,,,2025-09-29T23:32:39.757443
+2012-4-divisjon-09-langhus-brass,2012,4. divisjon,9,Langhus Brass,Tarjei Gilbrant,Dimensions,['Dimensions'],Peter Graham,['Peter Graham'],87.0,100.0,,,,,2025-09-29T23:32:39.757445
+2012-4-divisjon-10-lismarka/mesnali-brass,2012,4. divisjon,10,Lismarka/Mesnali Brass,Morten Fagerjord,Henry the Fifth,['Henry the Fifth'],Vaughan Williams,['Vaughan Williams'],86.0,100.0,,,,,2025-09-29T23:32:39.757447
+2012-4-divisjon-11-fagernes-musikkorps,2012,4. divisjon,11,Fagernes Musikkorps,Freddy Haug,The Eternal Presence,['The Eternal Presence'],Eric Ball,['Eric Ball'],85.5,100.0,,,,,2025-09-29T23:32:39.757449
+2012-4-divisjon-12-skeie-brass,2012,4. divisjon,12,Skeie Brass,Nigel Fielding,Labour and Love,['Labour and Love'],Percy E. Fletcher,['Percy E. Fletcher'],85.0,100.0,,,,,2025-09-29T23:32:39.757451
+2012-4-divisjon-13-salhus-musikklag,2012,4. divisjon,13,Salhus Musikklag,Christian Pettersen Breistein,A Celtic Suite,['A Celtic Suite'],Philip Sparke,['Philip Sparke'],84.0,100.0,,,,,2025-09-29T23:32:39.757454
+2012-4-divisjon-14-rosendal-musikklag,2012,4. divisjon,14,Rosendal Musikklag,Torstein Hatlevik,A Scots Miscellany,['A Scots Miscellany'],Alan Fernie,['Alan Fernie'],83.0,100.0,,,,,2025-09-29T23:32:39.757456
+2012-4-divisjon-15-moen-musikkforening,2012,4. divisjon,15,Moen Musikkforening,Thomas Petersen,Occasion,['Occasion'],Edward Gregson,['Edward Gregson'],82.0,100.0,,,,,2025-09-29T23:32:39.757458
+2012-5-divisjon-01-bertnes-brass,2012,5. divisjon,1,Bertnes Brass,Børre Birkeland,Variations on `Laudate Dominum´,['Variations on `Laudate Dominum´'],Edward Gregson,['Edward Gregson'],95.0,100.0,,,,,2025-09-29T23:32:39.757460
+2012-5-divisjon-02-filadelfia-hornorkester-drammen,2012,5. divisjon,2,Filadelfia Hornorkester Drammen,Thor-Willy Karlsen,The Call of the Righteous,['The Call of the Righteous'],Leslie Condon,['Leslie Condon'],94.0,100.0,,,,,2025-09-29T23:32:39.757463
+2012-5-divisjon-03-sotra-brass,2012,5. divisjon,3,Sotra Brass,Thor-Arne Pedersen,A Celtic Suite,['A Celtic Suite'],Philip Sparke,['Philip Sparke'],93.0,100.0,,,,,2025-09-29T23:32:39.757465
+2012-5-divisjon-04-alsvåg-brass-band,2012,5. divisjon,4,Alsvåg Brass Band,Oddvar Nøstdal,Little Suite for Brass,['Little Suite for Brass'],Malcolm Arnold,['Malcolm Arnold'],91.0,100.0,,,,,2025-09-29T23:32:39.757467
+2012-5-divisjon-05-tysvær-brass,2012,5. divisjon,5,Tysvær Brass,Clive Zwanswiniski,The Saga of Tyrfing,['The Saga of Tyrfing'],Jacob Vilhelm Larsen,['Jacob Vilhelm Larsen'],90.0,100.0,,,,,2025-09-29T23:32:39.757469
+2012-5-divisjon-06-fjordbrass-lavik,2012,5. divisjon,6,Fjordbrass Lavik,Jason Burn,Dimensions,['Dimensions'],Peter Graham,['Peter Graham'],89.0,100.0,,,,,2025-09-29T23:32:39.757472
+2012-5-divisjon-07-florø-hornmusikk,2012,5. divisjon,7,Florø Hornmusikk,Jason Burn,Purcell Variations,['Purcell Variations'],Kenneth Downie,['Kenneth Downie'],88.0,100.0,,,,,2025-09-29T23:32:39.757476
+2012-5-divisjon-08-rudsbygd-brass,2012,5. divisjon,8,Rudsbygd Brass,Per Kristian Ødegård Syversen,Arkansas,['Arkansas'],Jacob de Haan,['Jacob de Haan'],87.0,100.0,,,,,2025-09-29T23:32:39.757478
+2012-5-divisjon-09-hetlevik-musikklag,2012,5. divisjon,9,Hetlevik Musikklag,Einar Gjelsvik,The Haslemere Suite,['The Haslemere Suite'],Peter Graham,['Peter Graham'],86.0,100.0,,,,,2025-09-29T23:32:39.757481
+2012-5-divisjon-10-brumunddal-brass,2012,5. divisjon,10,Brumunddal Brass,Martin Schädlich,Toccata Festiva,['Toccata Festiva'],Jan Van der Roost,['Jan Van der Roost'],85.0,100.0,,,,,2025-09-29T23:32:39.757483
+2012-5-divisjon-11-saksumdal-musikkforening,2012,5. divisjon,11,Saksumdal Musikkforening,Erik Sørlien,"Prelude, Song and Dance","['Prelude, Song and Dance']",John Golland,['John Golland'],84.0,100.0,,,,,2025-09-29T23:32:39.757485
+2012-5-divisjon-12-ålvik-musikklag,2012,5. divisjon,12,Ålvik Musikklag,Torbjørn Dagestad Jr,St. Michael's Mount,"[""St. Michael's Mount""]",Eric Ball,['Eric Ball'],83.0,100.0,,,,,2025-09-29T23:32:39.757487
