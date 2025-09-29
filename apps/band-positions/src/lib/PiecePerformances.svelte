@@ -169,7 +169,7 @@
   }
 
   .piece-header .piece-composer .composer-link {
-    color: inherit;
+    color: var(--color-accent);
     text-decoration: none;
   }
 

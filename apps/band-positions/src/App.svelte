@@ -1206,13 +1206,6 @@
     color: var(--color-text-primary);
   }
 
-  .page-subtitle {
-    margin: 0;
-    font-size: 0.95rem;
-    color: var(--color-text-muted);
-    font-weight: 500;
-  }
-
   .lead {
     margin: 0;
     color: var(--color-text-secondary);
