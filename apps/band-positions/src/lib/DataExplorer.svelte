@@ -162,6 +162,23 @@
     return Boolean(streaming?.spotify || streaming?.apple_music);
   }
 
+  function toAppleMusicHref(url: string | null | undefined): string | null {
+    if (!url) return null;
+    const trimmed = url.trim();
+    if (!trimmed) return null;
+    if (!/^https?:\/\//i.test(trimmed)) {
+      return trimmed;
+    }
+    try {
+      const parsed = new URL(trimmed);
+      const path = `${parsed.host}${parsed.pathname}${parsed.search}${parsed.hash}`;
+      return `music://${path}`;
+    } catch (err) {
+      console.warn('Kunne ikke konvertere Apple Music-lenke', err);
+      return trimmed;
+    }
+  }
+
   function buildStreamingTitle(
     pieceName: string,
     streaming: StreamingLink | null | undefined,
@@ -363,27 +380,30 @@
                                 </a>
                               {/if}
                               {#if streaming?.apple_music}
-                                <a
-                                  href={streaming.apple_music}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  class="streaming-link apple"
-                                  title={buildStreamingTitle(piece, streaming, 'apple')}
-                                >
-                                  <span class="sr-only">Hør på Apple Music</span>
-                                  <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                                    <circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" />
-                                    <path
-                                      d="M14.75 6.75a.75.75 0 0 1 .75.75v6.33a2.92 2.92 0 1 1-1.5-2.54V9.25h-1.5A.75.75 0 0 1 12 8.5v-1a.75.75 0 0 1 .75-.75z"
-                                      fill="currentColor"
-                                    />
-                                    <path
-                                      d="M9.75 13.75a.75.75 0 0 1 .75.75c0 .69.56 1.25 1.25 1.25s1.25-.56 1.25-1.25a.75.75 0 0 1 1.5 0 2.75 2.75 0 1 1-5.5 0 .75.75 0 0 1 .75-.75z"
-                                      fill="currentColor"
-                                      opacity="0.8"
-                                    />
-                                  </svg>
-                                </a>
+                                {@const appleHref = toAppleMusicHref(streaming.apple_music)}
+                                {#if appleHref}
+                                  <a
+                                    href={appleHref}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="streaming-link apple"
+                                    title={buildStreamingTitle(piece, streaming, 'apple')}
+                                  >
+                                    <span class="sr-only">Hør på Apple Music</span>
+                                    <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                      <circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" />
+                                      <path
+                                        d="M14.75 6.75a.75.75 0 0 1 .75.75v6.33a2.92 2.92 0 1 1-1.5-2.54V9.25h-1.5A.75.75 0 0 1 12 8.5v-1a.75.75 0 0 1 .75-.75z"
+                                        fill="currentColor"
+                                      />
+                                      <path
+                                        d="M9.75 13.75a.75.75 0 0 1 .75.75c0 .69.56 1.25 1.25 1.25s1.25-.56 1.25-1.25a.75.75 0 0 1 1.5 0 2.75 2.75 0 1 1-5.5 0 .75.75 0 0 1 .75-.75z"
+                                        fill="currentColor"
+                                        opacity="0.8"
+                                      />
+                                    </svg>
+                                  </a>
+                                {/if}
                               {/if}
                             </span>
                           {/if}
