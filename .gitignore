@@ -184,3 +184,6 @@ competition_overview.png
 # Virtual environments
 nmjanitsjar-scraper-*/
 node_modules/
+
+# Local credentials
+config/streaming_credentials.json

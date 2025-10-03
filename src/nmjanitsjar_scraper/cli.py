@@ -6,6 +6,7 @@ including URL discovery, data fetching, parsing, exporting, and analytics.
 """
 
 import sys
+import os
 from pathlib import Path
 from rich.console import Console
 from rich.panel import Panel
@@ -16,6 +17,7 @@ from .fetcher import HTMLFetcher
 from .parser import JSONParser
 from .exporter import DataExporter
 from .analytics import CompetitionAnalytics
+from .streaming_search import generate_streaming_links
 
 console = Console()
 
@@ -142,6 +144,18 @@ def main():
     stats_parser.add_argument('--years', action='store_true', help='Show yearly summary')
     stats_parser.add_argument('--start-year', type=int, help='Filter from this year')
     stats_parser.add_argument('--end-year', type=int, help='Filter until this year')
+
+    # Streaming command
+    streaming_parser = subparsers.add_parser('streaming', help='Discover streaming links for performances')
+    streaming_parser.add_argument('--positions', type=Path, default=Path('apps/band-positions/public/data/band_positions.json'), help='Path to band positions dataset (JSON)')
+    streaming_parser.add_argument('--output', type=Path, default=Path('apps/band-positions/public/data/piece_streaming_links.json'), help='Destination JSON file for streaming links')
+    streaming_parser.add_argument('--min-year', type=int, default=2017, help='First year to include (default: 2017)')
+    streaming_parser.add_argument('--credentials', type=Path, default=Path('config/streaming_credentials.json'), help='Path to local credentials JSON (ignored if missing)')
+    streaming_parser.add_argument('--spotify-client-id', type=str, default=os.getenv('SPOTIFY_CLIENT_ID'))
+    streaming_parser.add_argument('--spotify-client-secret', type=str, default=os.getenv('SPOTIFY_CLIENT_SECRET'))
+    streaming_parser.add_argument('--apple-country', type=str, default='us', help='Apple Music storefront to target (default: us)')
+    streaming_parser.add_argument('--skip-spotify', action='store_true', help='Skip Spotify search')
+    streaming_parser.add_argument('--skip-apple', action='store_true', help='Skip Apple Music search')
     
     args = parser.parse_args()
     
@@ -262,6 +276,20 @@ def main():
             analytics.get_summary_stats()  # This will load data
             stats_table = analytics.get_top_orchestras(5)
             console.print(stats_table)
+
+    elif args.command == 'streaming':
+        generate_streaming_links(
+            positions=args.positions,
+            output=args.output,
+            min_year=args.min_year,
+            spotify_client_id=args.spotify_client_id,
+            spotify_client_secret=args.spotify_client_secret,
+            apple_country=args.apple_country,
+            skip_spotify=args.skip_spotify,
+            skip_apple=args.skip_apple,
+            credentials_path=args.credentials,
+            console=console,
+        )
 
 
 if __name__ == "__main__":

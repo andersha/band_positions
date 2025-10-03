@@ -33,9 +33,17 @@ export interface BandDataset {
   metadata: DatasetMetadata;
 }
 
+export interface StreamingLink {
+  spotify?: string | null;
+  apple_music?: string | null;
+  album?: string | null;
+  recording_title?: string | null;
+}
+
 export interface PiecePerformance {
   band: string;
   entry: BandEntry;
+  streaming?: StreamingLink | null;
 }
 
 export interface PieceRecord {

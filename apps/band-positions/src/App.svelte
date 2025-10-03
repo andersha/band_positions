@@ -8,7 +8,15 @@
   import ComposerPieces from './lib/ComposerPieces.svelte';
   import { slugify } from './lib/slugify';
   import { extractComposerNames, normalizeComposerName } from './lib/composerUtils';
-  import type { BandDataset, BandRecord, BandEntry, PieceRecord, ComposerRecord, BandType } from './lib/types';
+import type {
+  BandDataset,
+  BandRecord,
+  BandEntry,
+  PieceRecord,
+  ComposerRecord,
+  BandType,
+  StreamingLink
+} from './lib/types';
 
   type ViewType = 'bands' | 'conductors' | 'pieces' | 'composers' | 'data';
   type Theme = 'light' | 'dark';
@@ -68,7 +76,28 @@
     pieces?: PieceMetadataEntry[];
   }
 
+  interface PieceStreamingEntry {
+    year: number;
+    division: string;
+    band: string;
+    result_piece: string;
+    result_piece_slug?: string;
+    alternate_result_piece_slugs?: string[];
+    spotify?: string | null;
+    apple_music?: string | null;
+    album?: string | null;
+    recording_title?: string | null;
+    division_slug?: string;
+    band_slug?: string;
+  }
+
+  interface PieceStreamingDataset {
+    wind?: PieceStreamingEntry[];
+    brass?: PieceStreamingEntry[];
+  }
+
   let pieceComposerIndex = new Map<string, PieceMetadataEntry[]>();
+  let pieceStreamingIndex = new Map<string, StreamingLink>();
   let composerPieceIndex = new Map<string, ComposerRecord>();
 
   function buildPieceComposerIndex(metadata: PieceMetadataEntry[]): Map<string, PieceMetadataEntry[]> {
@@ -85,6 +114,103 @@
       }
     }
     return index;
+  }
+
+  function buildPieceStreamingIndex(entries: PieceStreamingEntry[]): Map<string, StreamingLink> {
+    const index = new Map<string, StreamingLink>();
+
+    for (const entry of entries) {
+      if (!entry) continue;
+
+      const yearValue = Number(entry.year);
+      if (!Number.isFinite(yearValue)) continue;
+
+      const divisionSource = entry.division_slug ?? entry.division;
+      const bandSource = entry.band_slug ?? entry.band;
+      const resultPieceSource = entry.result_piece_slug ?? entry.result_piece;
+
+      if (!divisionSource || !bandSource || !resultPieceSource) continue;
+
+      const divisionSlug = slugify(divisionSource);
+      const bandSlug = slugify(bandSource);
+      if (!divisionSlug || divisionSlug === 'uidentifisert' || !bandSlug || bandSlug === 'uidentifisert') {
+        continue;
+      }
+
+      const pieceSlugs = new Set<string>();
+
+      const primaryPieceSlug = slugify(resultPieceSource);
+      if (primaryPieceSlug && primaryPieceSlug !== 'uidentifisert') {
+        pieceSlugs.add(primaryPieceSlug);
+      }
+
+      if (entry.alternate_result_piece_slugs && Array.isArray(entry.alternate_result_piece_slugs)) {
+        for (const rawSlug of entry.alternate_result_piece_slugs) {
+          const normalized = rawSlug ? slugify(rawSlug) : '';
+          if (normalized && normalized !== 'uidentifisert') {
+            pieceSlugs.add(normalized);
+          }
+        }
+      }
+
+      if (entry.result_piece && entry.result_piece.trim()) {
+        const derivedSlug = slugify(entry.result_piece);
+        if (derivedSlug && derivedSlug !== 'uidentifisert') {
+          pieceSlugs.add(derivedSlug);
+        }
+      }
+
+      if (!pieceSlugs.size) continue;
+
+      const spotifyUrl = typeof entry.spotify === 'string' && entry.spotify.trim().length > 0 ? entry.spotify.trim() : null;
+      const appleUrl = typeof entry.apple_music === 'string' && entry.apple_music.trim().length > 0
+        ? entry.apple_music.trim()
+        : null;
+
+      if (!spotifyUrl && !appleUrl) continue;
+
+      const link: StreamingLink = {
+        spotify: spotifyUrl,
+        apple_music: appleUrl,
+        album: entry.album?.trim() ?? null,
+        recording_title: entry.recording_title?.trim() ?? null
+      };
+
+      for (const pieceSlug of pieceSlugs) {
+        const key = `${yearValue}|${divisionSlug}|${bandSlug}|${pieceSlug}`;
+        index.set(key, link);
+      }
+    }
+
+    return index;
+  }
+
+  function findStreamingLinkForPiece(entry: BandEntry, bandName: string, pieceName: string): StreamingLink | null {
+    if (!pieceStreamingIndex.size) return null;
+
+    const divisionSlug = slugify(entry.division);
+    const bandSlug = slugify(bandName);
+    if (!divisionSlug || divisionSlug === 'uidentifisert' || !bandSlug || bandSlug === 'uidentifisert') {
+      return null;
+    }
+
+    const keyPrefix = `${entry.year}|${divisionSlug}|${bandSlug}`;
+    let candidateSlugs = getCandidateSlugs(pieceName);
+
+    if (!candidateSlugs.length) {
+      const fallbackSlug = slugify(pieceName);
+      candidateSlugs = fallbackSlug && fallbackSlug !== 'uidentifisert' ? [fallbackSlug] : [];
+    }
+
+    for (const pieceSlug of candidateSlugs) {
+      const key = `${keyPrefix}|${pieceSlug}`;
+      const link = pieceStreamingIndex.get(key);
+      if (link) {
+        return link;
+      }
+    }
+
+    return null;
   }
 
   const QUOTE_CHARS = /["'«»“”„‟]/g;
@@ -280,16 +406,18 @@
             record.composerNames = composerNames;
           }
 
-          record.performances.push({ band: band.name, entry });
+          const streaming = findStreamingLinkForPiece(entry, band.name, name);
+          record.performances.push({ band: band.name, entry, streaming });
         }
       }
     }
 
     return Array.from(records.values()).map((record) => ({
       ...record,
-      performances: record.performances.map(({ band, entry }) => ({
+      performances: record.performances.map(({ band, entry, streaming }) => ({
         band,
-        entry: { ...entry, pieces: [...entry.pieces] }
+        entry: { ...entry, pieces: [...entry.pieces] },
+        streaming: streaming ?? null
       }))
     })).sort((a, b) => a.name.localeCompare(b.name));
   }
@@ -467,6 +595,7 @@
     conductorRecords = [];
     pieceRecords = [];
     composerRecords = [];
+    pieceStreamingIndex = new Map();
     loadDataForBandType(nextBandType);
   }
 
@@ -777,9 +906,11 @@
     try {
       const dataFile = type === 'wind' ? 'data/band_positions.json' : 'data/brass_positions.json';
       const metadataFile = type === 'wind' ? 'data/piece_metadata.json' : 'data/brass_piece_metadata.json';
-      const [positionsResponse, metadataResponse] = await Promise.all([
+      const streamingFile = 'data/piece_streaming_links.json';
+      const [positionsResponse, metadataResponse, streamingResponse] = await Promise.all([
         fetch(dataFile),
-        fetch(metadataFile)
+        fetch(metadataFile),
+        fetch(streamingFile)
       ]);
 
       if (!positionsResponse.ok) {
@@ -806,6 +937,23 @@
       }
 
       pieceComposerIndex = buildPieceComposerIndex(metadataEntries);
+
+      let streamingEntries: PieceStreamingEntry[] = [];
+      if (streamingResponse.ok) {
+        try {
+          const streamingDataset = (await streamingResponse.json()) as PieceStreamingDataset;
+          const rawEntries = streamingDataset?.[type];
+          if (Array.isArray(rawEntries)) {
+            streamingEntries = rawEntries.filter((entry): entry is PieceStreamingEntry => Boolean(entry));
+          }
+        } catch (streamingError) {
+          console.warn('Kunne ikke tolke opptakslenker', streamingError);
+        }
+      } else if (streamingResponse.status !== 404) {
+        console.warn(`Kunne ikke laste opptakslenker (status ${streamingResponse.status})`);
+      }
+
+      pieceStreamingIndex = buildPieceStreamingIndex(streamingEntries);
 
       const parsedDataset = (await positionsResponse.json()) as BandDataset;
       dataset = parsedDataset;
@@ -1175,7 +1323,7 @@
       </section>
     {/if}
   {:else}
-    <DataExplorer {dataset} {bandType} />
+    <DataExplorer {dataset} {bandType} streamingResolver={findStreamingLinkForPiece} />
   {/if}
 </main>
 
