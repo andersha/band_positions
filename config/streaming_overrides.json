@@ -1,0 +1,49 @@
+{
+  "overrides": [
+    {
+      "year": 2011,
+      "division": "Elite",
+      "band": "Sandvikens Ungdomskorps",
+      "piece": "Symphony no. 1, 'Gilgamesh'",
+      "recording_title": "Symphony No. 1 Gilgamesh",
+      "album": "NM Janitsjar 2011",
+      "spotify": "https://open.spotify.com/track/2tTX17nsQwB01UJwJQfFLK",
+      "apple_music": "https://music.apple.com/us/album/symphony-no-1-gilgamesh/496868037?i=496868039&uo=4",
+      "alternate_result_piece_slugs": [
+        "symphony-no-1-gilgamesh"
+      ],
+      "band_type": "wind"
+    },
+    {
+      "year": 2010,
+      "division": "Elite",
+      "band": "Lillestrøm Musikkorps",
+      "piece": "J'ai été au Bal",
+      "album": "NM Janitsjar 2010",
+      "recording_title": "Divisjon: J'ai été au bal",
+      "spotify": "https://open.spotify.com/track/76oFkmmcp2tpavcqoWmKeN?si=b2c8760516154340",
+      "allow_album_mismatch": true,
+      "band_type": "wind"
+    },
+    {
+      "year": 2010,
+      "division": "2. divisjon",
+      "band": "Alvøens Musikkforening",
+      "piece": "Variations on a Hymn by Louis Bourgeois",
+      "album": "NM Janitsjar 2010",
+      "spotify": "https://open.spotify.com/track/6MpdvcvClhWAChVbNRWHP9?si=614bb8d66ec04e3a",
+      "allow_album_mismatch": true,
+      "band_type": "wind"
+    },
+    {
+      "year": 2010,
+      "division": "2. divisjon",
+      "band": "Alvøens Musikkforening",
+      "piece": "Lux Aurumque",
+      "album": "NM Janitsjar 2010",
+      "spotify": "https://open.spotify.com/track/0zSdS2B5ZjUXQdY7yTmTnA?si=245ab73a930440b5",
+      "allow_album_mismatch": true,
+      "band_type": "wind"
+    }
+  ]
+}

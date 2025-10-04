@@ -3,6 +3,8 @@
 
   import { onMount } from 'svelte';
   import BandTrajectoryChart from './lib/BandTrajectoryChart.svelte';
+  import BandPerformances from './lib/BandPerformances.svelte';
+  import ConductorPerformances from './lib/ConductorPerformances.svelte';
   import DataExplorer from './lib/DataExplorer.svelte';
   import PiecePerformances from './lib/PiecePerformances.svelte';
   import ComposerPieces from './lib/ComposerPieces.svelte';
@@ -1316,6 +1318,19 @@ import type {
           </span>
         {/each}
       </div>
+      {#if activeView === 'bands'}
+        <BandPerformances
+          bands={chartSelection}
+          {bandType}
+          streamingResolver={findStreamingLinkForPiece}
+        />
+      {:else if activeView === 'conductors'}
+        <ConductorPerformances
+          conductors={chartSelection}
+          {bandType}
+          streamingResolver={findStreamingLinkForPiece}
+        />
+      {/if}
     {:else}
       <section class="empty-state">
         <h2>{emptyStateTitle}</h2>

@@ -148,11 +148,18 @@ def main():
     # Streaming command
     streaming_parser = subparsers.add_parser('streaming', help='Discover streaming links for performances')
     streaming_parser.add_argument('--positions', type=Path, default=Path('apps/band-positions/public/data/band_positions.json'), help='Path to band positions dataset (JSON)')
-    streaming_parser.add_argument('--output', type=Path, default=Path('apps/band-positions/public/data/piece_streaming_links.json'), help='Destination JSON file for streaming links')
+    streaming_parser.add_argument('--output-dir', type=Path, default=Path('apps/band-positions/public/data/streaming'), help='Directory to store per-year streaming metadata')
+    streaming_parser.add_argument('--aggregate', type=Path, default=Path('apps/band-positions/public/data/piece_streaming_links.json'), help='Combined JSON output consumed by the app')
     streaming_parser.add_argument('--min-year', type=int, default=2017, help='First year to include (default: 2017)')
+    streaming_parser.add_argument('--years', nargs='+', type=int, help='Specific years to process')
+    streaming_parser.add_argument('--start-year', type=int, help='Optional starting year filter')
+    streaming_parser.add_argument('--end-year', type=int, help='Optional ending year filter')
     streaming_parser.add_argument('--credentials', type=Path, default=Path('config/streaming_credentials.json'), help='Path to local credentials JSON (ignored if missing)')
     streaming_parser.add_argument('--spotify-client-id', type=str, default=os.getenv('SPOTIFY_CLIENT_ID'))
     streaming_parser.add_argument('--spotify-client-secret', type=str, default=os.getenv('SPOTIFY_CLIENT_SECRET'))
+    streaming_parser.add_argument('--overrides', type=Path, default=Path('config/streaming_overrides.json'), help='Path to overrides for known corrections')
+    streaming_parser.add_argument('--cache', type=Path, default=Path('config/streaming_cache.json'), help='Path to cache previously fetched streaming metadata')
+    streaming_parser.add_argument('--band-type', type=str, default='wind', choices=('wind', 'brass'), help='Dataset type to process (default: wind)')
     streaming_parser.add_argument('--apple-country', type=str, default='us', help='Apple Music storefront to target (default: us)')
     streaming_parser.add_argument('--skip-spotify', action='store_true', help='Skip Spotify search')
     streaming_parser.add_argument('--skip-apple', action='store_true', help='Skip Apple Music search')
@@ -280,14 +287,21 @@ def main():
     elif args.command == 'streaming':
         generate_streaming_links(
             positions=args.positions,
-            output=args.output,
+            output_dir=args.output_dir,
+            aggregate=args.aggregate,
             min_year=args.min_year,
+            years=args.years,
+            start_year=args.start_year,
+            end_year=args.end_year,
             spotify_client_id=args.spotify_client_id,
             spotify_client_secret=args.spotify_client_secret,
             apple_country=args.apple_country,
             skip_spotify=args.skip_spotify,
             skip_apple=args.skip_apple,
+            overrides_path=args.overrides,
             credentials_path=args.credentials,
+            cache_path=args.cache,
+            band_type=args.band_type,
             console=console,
         )
 

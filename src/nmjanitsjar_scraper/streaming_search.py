@@ -164,11 +164,57 @@ class StreamingMatch:
 # ---------------------------------------------------------------------------
 
 
+class StreamingCache:
+    def __init__(self, path: Optional[Path]):
+        self.path = path.expanduser() if path else None
+        self._data = {
+            "spotify": {"album_tracks": {}},
+            "apple": {"album_tracks": {}},
+        }
+        self._dirty = False
+        if self.path and self.path.exists():
+            try:
+                loaded = json.loads(self.path.read_text(encoding="utf-8"))
+                if isinstance(loaded, dict):
+                    for key in ("spotify", "apple"):
+                        if key in loaded and isinstance(loaded[key], dict):
+                            self._data[key].update(loaded[key])
+            except json.JSONDecodeError:
+                pass
+
+    def get_spotify_album_tracks(self, album_id: str) -> Optional[List[Dict]]:
+        return self._data.get("spotify", {}).get("album_tracks", {}).get(album_id, {}).get("tracks")
+
+    def set_spotify_album_tracks(self, album_id: str, tracks: List[Dict]) -> None:
+        self._data.setdefault("spotify", {}).setdefault("album_tracks", {})[album_id] = {
+            "tracks": tracks,
+            "fetched_at": time.time(),
+        }
+        self._dirty = True
+
+    def get_apple_album_tracks(self, collection_id: str) -> Optional[List[Dict]]:
+        return self._data.get("apple", {}).get("album_tracks", {}).get(collection_id, {}).get("tracks")
+
+    def set_apple_album_tracks(self, collection_id: str, tracks: List[Dict]) -> None:
+        self._data.setdefault("apple", {}).setdefault("album_tracks", {})[collection_id] = {
+            "tracks": tracks,
+            "fetched_at": time.time(),
+        }
+        self._dirty = True
+
+    def save(self) -> None:
+        if not self._dirty or not self.path:
+            return
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        self.path.write_text(json.dumps(self._data, indent=2, ensure_ascii=False), encoding="utf-8")
+        self._dirty = False
+
+
 class SpotifyClient:
     TOKEN_URL = "https://accounts.spotify.com/api/token"
     API_URL = "https://api.spotify.com/v1"
 
-    def __init__(self, client_id: str, client_secret: str, *, session: Optional[Session] = None, market: str = "NO"):
+    def __init__(self, client_id: str, client_secret: str, *, session: Optional[Session] = None, market: str = "NO", cache: Optional[StreamingCache] = None):
         if not client_id or not client_secret:
             raise ValueError("Spotify client id and secret must be provided")
         self.client_id = client_id
@@ -177,6 +223,7 @@ class SpotifyClient:
         self.market = market
         self._access_token: Optional[str] = None
         self._token_expiry: float = 0.0
+        self.cache = cache
 
     def _auth_header(self) -> Dict[str, str]:
         self._ensure_token()
@@ -205,6 +252,12 @@ class SpotifyClient:
         url = f"{self.API_URL}{path}"
         headers = self._auth_header()
         response = self.session.get(url, headers=headers, params=params, timeout=15)
+        if response.status_code == 429:
+            retry_after = response.headers.get("Retry-After")
+            delay = float(retry_after) if retry_after is not None else 2.0
+            print(f"[spotify] 429 rate limit on {path} – waiting {delay:.1f}s before retry")
+            time.sleep(max(delay, 1.0))
+            response = self.session.get(url, headers=headers, params=params, timeout=15)
         if response.status_code >= 500:
             response.raise_for_status()
         if response.status_code == 401:
@@ -248,9 +301,10 @@ class AppleMusicClient:
     SEARCH_URL = "https://itunes.apple.com/search"
     LOOKUP_URL = "https://itunes.apple.com/lookup"
 
-    def __init__(self, *, country: str = "us", session: Optional[Session] = None):
+    def __init__(self, *, country: str = "us", session: Optional[Session] = None, cache: Optional[StreamingCache] = None):
         self.country = country
         self.session = session or requests.Session()
+        self.cache = cache
 
     @retry(stop=stop_after_attempt(3), wait=wait_fixed(1))
     def search_album(self, term: str, limit: int = 5) -> List[Dict]:
@@ -261,6 +315,14 @@ class AppleMusicClient:
             "country": self.country,
         }
         response = self.session.get(self.SEARCH_URL, params=params, timeout=15)
+        if response.status_code == 429:
+            retry_after = response.headers.get("Retry-After")
+            delay = float(retry_after) if retry_after is not None else 2.0
+            print(f"[apple] 429 rate limit on search('{term}') – waiting {delay:.1f}s before retry")
+            time.sleep(max(delay, 1.0))
+            response = self.session.get(self.SEARCH_URL, params=params, timeout=15)
+        if response.status_code == 404:
+            return []
         response.raise_for_status()
         data = response.json()
         return data.get("results", [])
@@ -269,6 +331,14 @@ class AppleMusicClient:
     def lookup_album_tracks(self, collection_id: int) -> List[Dict]:
         params = {"id": collection_id, "entity": "song", "country": self.country}
         response = self.session.get(self.LOOKUP_URL, params=params, timeout=15)
+        if response.status_code == 429:
+            retry_after = response.headers.get("Retry-After")
+            delay = float(retry_after) if retry_after is not None else 2.0
+            print(f"[apple] 429 rate limit on lookup('{collection_id}') – waiting {delay:.1f}s before retry")
+            time.sleep(max(delay, 1.0))
+            response = self.session.get(self.LOOKUP_URL, params=params, timeout=15)
+        if response.status_code == 404:
+            return []
         response.raise_for_status()
         data = response.json()
         return [item for item in data.get("results", []) if item.get("wrapperType") == "track"]
@@ -281,6 +351,13 @@ class AppleMusicClient:
 
 DIVISION_ALBUM_LABELS = {
     "Elite": "Elitedivisjon",
+    "1. divisjon": "1. div",
+    "2. divisjon": "2. div",
+    "3. divisjon": "3. div",
+    "4. divisjon": "4. div",
+    "5. divisjon": "5. div",
+    "6. divisjon": "6. div",
+    "7. divisjon": "7. div",
 }
 
 
@@ -359,7 +436,13 @@ class StreamingLinkFinder:
                 if not album_id or album_id in seen_albums:
                     continue
                 seen_albums.add(album_id)
-                track_items = self.spotify.get_album_tracks(album_id)
+                cached_tracks = self.spotify.cache.get_spotify_album_tracks(album_id) if self.spotify and self.spotify.cache else None
+                if cached_tracks is not None:
+                    track_items = cached_tracks
+                else:
+                    track_items = self.spotify.get_album_tracks(album_id)
+                    if self.spotify and self.spotify.cache and track_items is not None:
+                        self.spotify.cache.set_spotify_album_tracks(album_id, track_items)
                 for item in track_items:
                     title = item.get("name")
                     external_urls = item.get("external_urls") or {}
@@ -421,7 +504,14 @@ class StreamingLinkFinder:
                 if not collection_id or collection_id in seen_collections:
                     continue
                 seen_collections.add(collection_id)
-                songs = self.apple_music.lookup_album_tracks(collection_id)
+                cache_key = str(collection_id)
+                cached_tracks = self.apple_music.cache.get_apple_album_tracks(cache_key) if self.apple_music and self.apple_music.cache else None
+                if cached_tracks is not None:
+                    songs = cached_tracks
+                else:
+                    songs = self.apple_music.lookup_album_tracks(collection_id)
+                    if self.apple_music and self.apple_music.cache and songs is not None:
+                        self.apple_music.cache.set_apple_album_tracks(cache_key, songs)
                 for song in songs:
                     title = song.get("trackName")
                     url = song.get("trackViewUrl")
@@ -463,8 +553,277 @@ class StreamingLinkFinder:
 
 
 # ---------------------------------------------------------------------------
+# Overrides
+# ---------------------------------------------------------------------------
+
+
+def make_lookup_slug(value: Optional[str]) -> Optional[str]:
+    if not value:
+        return None
+    normalized = normalize_title(value)
+    if normalized:
+        return normalized
+    return value.strip().lower()
+
+
+def build_override_key(year: int, division_slug: Optional[str], band_slug: Optional[str], piece_slug: Optional[str]) -> Optional[str]:
+    if division_slug is None or band_slug is None or piece_slug is None:
+        return None
+    return f"{year}|{division_slug}|{band_slug}|{piece_slug}"
+
+
+class StreamingOverrideResolver:
+    ALLOWED_FIELDS = {
+        "spotify",
+        "apple_music",
+        "album",
+        "recording_title",
+        "alternate_result_piece_slugs",
+        "result_piece",
+        "notes",
+        "allow_album_mismatch",
+        "band_type",
+    }
+
+    def __init__(self, overrides: Dict[str, Dict[str, object]], band_type: str):
+        self._overrides = overrides
+        self._applied_keys: set[str] = set()
+        self._band_type = band_type
+
+    @classmethod
+    def from_file(cls, path: Optional[Path], console, *, band_type: str) -> "StreamingOverrideResolver":
+        if not path:
+            return cls({}, band_type)
+        path = path.expanduser()
+        if not path.exists():
+            return cls({}, band_type)
+
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            console.print(f"[red]Kunne ikke lese streaming-overrides fra {path}: {exc}[/red]")
+            return cls({}, band_type)
+
+        if isinstance(payload, dict) and "overrides" in payload:
+            raw_entries = payload.get("overrides", [])
+        elif isinstance(payload, list):
+            raw_entries = payload
+        else:
+            console.print(f"[yellow]Ukjent format på {path}; forventer liste eller objekt med 'overrides'.[/yellow]")
+            raw_entries = []
+
+        overrides: Dict[str, Dict[str, object]] = {}
+        for entry in raw_entries:
+            if not isinstance(entry, dict):
+                continue
+            year = entry.get("year")
+            division = entry.get("division")
+            band = entry.get("band")
+            piece = entry.get("piece") or entry.get("result_piece")
+            division_slug = entry.get("division_slug") or make_lookup_slug(division)
+            band_slug = entry.get("band_slug") or make_lookup_slug(band)
+            piece_slug = entry.get("piece_slug") or entry.get("result_piece_slug") or make_lookup_slug(piece)
+
+            if year is None or division_slug is None or band_slug is None or piece_slug is None:
+                console.print(f"[yellow]Ignorerer override med manglende nøkler: {entry}[/yellow]")
+                continue
+
+            key = build_override_key(int(year), division_slug, band_slug, piece_slug)
+            if not key:
+                continue
+
+            fields = {
+                field: entry[field]
+                for field in cls.ALLOWED_FIELDS
+                if field in entry
+            }
+
+            if not fields:
+                continue
+
+            entry_band_type = (entry.get("band_type") or entry.get("type") or "").strip().lower()
+            if entry_band_type and entry_band_type not in {"wind", "brass"}:
+                console.print(f"[yellow]Ignorerer override med ukjent band_type: {entry_band_type} ({entry})[/yellow]")
+                continue
+
+            overrides[key] = {
+                "fields": fields,
+                "meta": {
+                    "year": int(year),
+                    "division": division,
+                    "band": band,
+                    "piece": piece,
+                    "division_slug": division_slug,
+                    "band_slug": band_slug,
+                    "piece_slug": piece_slug,
+                    "band_type": entry_band_type or None,
+                },
+            }
+
+        if overrides:
+            console.print(f"[green]Lest {len(overrides)} streaming-overrides fra {path}[/green]")
+        return cls(overrides, band_type)
+
+    def lookup(self, performance: Performance) -> Optional[Dict[str, object]]:
+        division_slug = make_lookup_slug(performance.division)
+        band_slug = make_lookup_slug(performance.band)
+        piece_slug = make_lookup_slug(performance.piece)
+        key = build_override_key(performance.year, division_slug, band_slug, piece_slug)
+        if key and key in self._overrides:
+            entry = self._overrides[key]
+            meta = entry.get("meta", {})
+            entry_band_type = meta.get("band_type")
+            if entry_band_type and entry_band_type != self._band_type:
+                return None
+            self._applied_keys.add(key)
+            return entry["fields"]
+        return None
+
+    def remaining_entries(self, *, year: Optional[int] = None) -> List[Dict[str, object]]:
+        remaining: List[Dict[str, object]] = []
+        for key, entry in self._overrides.items():
+            if key in self._applied_keys:
+                continue
+            entry_band_type = entry.get("meta", {}).get("band_type")
+            if entry_band_type and entry_band_type != self._band_type:
+                continue
+            if year is not None and entry.get("meta", {}).get("year") != year:
+                continue
+            remaining.append(entry)
+        return remaining
+
+
+# ---------------------------------------------------------------------------
 # CLI helper
 # ---------------------------------------------------------------------------
+
+
+def build_year_streaming_entries(
+    year: int,
+    performances: List[Performance],
+    finder: StreamingLinkFinder,
+    override_resolver: StreamingOverrideResolver,
+) -> List[Dict[str, object]]:
+    matches: List[StreamingMatch] = []
+    for performance in performances:
+        matches.append(
+            StreamingMatch(
+                performance=performance,
+                spotify=finder.match_spotify(performance) if finder.spotify else None,
+                apple_music=finder.match_apple(performance) if finder.apple_music else None,
+            )
+        )
+
+    serialised: List[Dict[str, object]] = []
+    for match in matches:
+        if not (match.spotify or match.apple_music):
+            continue
+        entry_dict: Dict[str, object] = match.to_dict()
+        override = override_resolver.lookup(match.performance)
+        allow_mismatch = False
+        if override:
+            allow_mismatch = bool(override.get("allow_album_mismatch"))
+            for key, value in override.items():
+                if key == "allow_album_mismatch":
+                    continue
+                entry_dict[key] = value
+
+        album_value = entry_dict.get("album")
+        if not allow_mismatch:
+            album_text = str(album_value or "")
+            if not album_text or str(year) not in album_text:
+                continue
+        serialised.append(entry_dict)
+
+    for leftover in override_resolver.remaining_entries(year=year):
+        fields = leftover.get("fields", {})
+        meta = leftover.get("meta", {})
+        if not (fields.get("spotify") or fields.get("apple_music")):
+            continue
+        album_value = fields.get("album")
+        allow_mismatch = bool(fields.get("allow_album_mismatch"))
+        if not allow_mismatch:
+            album_text = str(album_value or "")
+            if not album_text or str(year) not in album_text:
+                continue
+        entry_dict = {
+            "year": meta.get("year", year),
+            "division": meta.get("division"),
+            "band": meta.get("band"),
+            "result_piece": meta.get("piece"),
+            "recording_title": fields.get("recording_title"),
+            "album": album_value,
+            "spotify": fields.get("spotify"),
+            "apple_music": fields.get("apple_music"),
+        }
+        if "alternate_result_piece_slugs" in fields:
+            entry_dict["alternate_result_piece_slugs"] = fields["alternate_result_piece_slugs"]
+        serialised.append(entry_dict)
+
+    serialised.sort(
+        key=lambda entry: (
+            entry.get("year", 0),
+            str(entry.get("division", "")),
+            str(entry.get("band", "")),
+            str(entry.get("result_piece", "")),
+        )
+    )
+
+    return serialised
+
+
+def write_year_file(output_dir: Path, band_type: str, year: int, entries: List[Dict[str, object]]) -> Path:
+    year_dir = output_dir.expanduser() / band_type
+    year_dir.mkdir(parents=True, exist_ok=True)
+    year_path = year_dir / f"{year}.json"
+    payload = {
+        "band_type": band_type,
+        "year": year,
+        "entries": entries,
+    }
+    year_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    return year_path
+
+
+def combine_year_files(output_dir: Path, aggregate_path: Path, band_type: str) -> None:
+    aggregate_data = {"wind": [], "brass": []}
+    aggregate_path = aggregate_path.expanduser()
+    if aggregate_path.exists():
+        try:
+            existing = json.loads(aggregate_path.read_text(encoding="utf-8"))
+            if isinstance(existing, dict):
+                aggregate_data.update(existing)
+        except json.JSONDecodeError:
+            pass
+
+    combined: List[Dict[str, object]] = []
+    year_dir = output_dir.expanduser() / band_type
+    if year_dir.exists():
+        for year_file in sorted(year_dir.glob("*.json")):
+            try:
+                payload = json.loads(year_file.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                continue
+            entries = []
+            if isinstance(payload, dict):
+                entries = payload.get("entries") or []
+            elif isinstance(payload, list):
+                entries = payload
+            if isinstance(entries, list):
+                combined.extend(entries)
+
+    combined.sort(
+        key=lambda entry: (
+            entry.get("year", 0),
+            str(entry.get("division", "")),
+            str(entry.get("band", "")),
+            str(entry.get("result_piece", "")),
+        )
+    )
+
+    aggregate_data[band_type] = combined
+    aggregate_path.parent.mkdir(parents=True, exist_ok=True)
+    aggregate_path.write_text(json.dumps(aggregate_data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 def _load_credentials(credentials_path: Optional[Path], console) -> Tuple[Optional[str], Optional[str]]:
@@ -486,15 +845,22 @@ def _load_credentials(credentials_path: Optional[Path], console) -> Tuple[Option
 def generate_streaming_links(
     *,
     positions: Path,
-    output: Path,
+    output_dir: Path,
+    aggregate: Optional[Path] = None,
     min_year: int = 2017,
+    years: Optional[List[int]] = None,
+    start_year: Optional[int] = None,
+    end_year: Optional[int] = None,
     spotify_client_id: Optional[str] = None,
     spotify_client_secret: Optional[str] = None,
     apple_country: str = "us",
     skip_spotify: bool = False,
     skip_apple: bool = False,
+    overrides_path: Optional[Path] = None,
     credentials_path: Optional[Path] = None,
+    cache_path: Optional[Path] = None,
     console=None,
+    band_type: str = "wind",
 ) -> int:
     from rich.console import Console
     from rich.progress import track
@@ -504,6 +870,8 @@ def generate_streaming_links(
     if not positions.exists():
         console.print(f"[red]Positions file not found:[/red] {positions}")
         raise FileNotFoundError(positions)
+
+    cache = StreamingCache(cache_path) if cache_path else None
 
     spotify_client: Optional[SpotifyClient] = None
     apple_client: Optional[AppleMusicClient] = None
@@ -520,42 +888,69 @@ def generate_streaming_links(
         if not spotify_client_id or not spotify_client_secret:
             console.print("[yellow]Spotify-nøkler mangler – hopper over Spotify-søk[/yellow]")
         else:
-            spotify_client = SpotifyClient(client_id=spotify_client_id, client_secret=spotify_client_secret)
+            spotify_client = SpotifyClient(client_id=spotify_client_id, client_secret=spotify_client_secret, cache=cache)
 
     if not skip_apple:
-        apple_client = AppleMusicClient(country=apple_country)
+        apple_client = AppleMusicClient(country=apple_country, cache=cache)
+
+    override_resolver = StreamingOverrideResolver.from_file(overrides_path, console, band_type=band_type)
 
     performances = load_performances(positions, min_year=min_year)
     if not performances:
         console.print("[yellow]No performances found for the given criteria[/yellow]")
-        output.parent.mkdir(parents=True, exist_ok=True)
-        output.write_text(json.dumps({"wind": [], "brass": []}, indent=2, ensure_ascii=False), encoding="utf-8")
+        if aggregate:
+            combine_year_files(output_dir, aggregate, band_type)
+        if cache:
+            cache.save()
         return 0
 
     finder = StreamingLinkFinder(spotify=spotify_client, apple_music=apple_client)
 
-    matches: List[StreamingMatch] = []
-    for performance in track(performances, description="Matching streaming links"):
-        matches.append(
-            StreamingMatch(
-                performance=performance,
-                spotify=finder.match_spotify(performance) if spotify_client else None,
-                apple_music=finder.match_apple(performance) if apple_client else None,
-            )
+    available_years = sorted({performance.year for performance in performances})
+    target_years = {year for year in available_years if year >= min_year}
+
+    if years:
+        target_years &= set(years)
+    if start_year is not None:
+        target_years = {year for year in target_years if year >= start_year}
+    if end_year is not None:
+        target_years = {year for year in target_years if year <= end_year}
+
+    if not target_years:
+        console.print("[yellow]Ingen år samsvarte med filtrene – ingen data generert.[/yellow]")
+        if cache:
+            cache.save()
+        return 0
+
+    if len(target_years) != 1:
+        console.print(
+            "[yellow]Denne kommandoen er nå begrenset til ett år om gangen. "
+            "Angi for eksempel --years 2025 for å kjøre et spesifikt år.[/yellow]"
         )
+        if cache:
+            cache.save()
+        return 0
 
-    serialised = [match.to_dict() for match in matches if match.spotify or match.apple_music]
+    year_map: Dict[int, List[Performance]] = {}
+    for performance in performances:
+        if performance.year in target_years:
+            year_map.setdefault(performance.year, []).append(performance)
 
-    payload = {
-        "wind": serialised,
-        "brass": [],
-    }
+    total_entries = 0
+    for year in track(sorted(year_map.keys()), description="Matching streaming links"):
+        year_performances = year_map[year]
+        entries = build_year_streaming_entries(year, year_performances, finder, override_resolver)
+        write_year_file(output_dir, band_type, year, entries)
+        total_entries += len(entries)
 
-    output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    if aggregate:
+        combine_year_files(output_dir, aggregate, band_type)
 
-    console.print(f"[green]Wrote {len(serialised)} streaming entries to {output}[/green]")
-    return len(serialised)
+    if cache:
+        cache.save()
+
+    console.print(f"[green]Skrev {total_entries} streaming-oppføringer for {band_type} til {output_dir}[/green]")
+    return total_entries
 
 
 def main() -> None:
@@ -563,8 +958,16 @@ def main() -> None:
 
     parser = argparse.ArgumentParser(description="Fetch streaming links for NM Janitsjar performances")
     parser.add_argument("--positions", type=Path, required=True, help="Path to band positions dataset (JSON)")
-    parser.add_argument("--output", type=Path, required=True, help="Where to write the streaming links JSON")
+    parser.add_argument("--output-dir", type=Path, required=True, help="Directory where per-year streaming data will be written")
+    parser.add_argument("--aggregate", type=Path, required=True, help="Combined JSON output consumed by the app")
     parser.add_argument("--min-year", type=int, default=2017, help="First year to include (default: 2017)")
+    parser.add_argument("--years", nargs="+", type=int, help="Specific years to process")
+    parser.add_argument("--start-year", type=int, help="Optional starting year filter")
+    parser.add_argument("--end-year", type=int, help="Optional ending year filter")
+    parser.add_argument("--credentials", type=Path, default=Path("config/streaming_credentials.json"))
+    parser.add_argument("--overrides", type=Path, default=Path("config/streaming_overrides.json"))
+    parser.add_argument("--cache", type=Path, default=Path("config/streaming_cache.json"))
+    parser.add_argument("--band-type", type=str, default="wind", choices=("wind", "brass"))
     parser.add_argument("--spotify-client-id", type=str, default=os.getenv("SPOTIFY_CLIENT_ID"))
     parser.add_argument("--spotify-client-secret", type=str, default=os.getenv("SPOTIFY_CLIENT_SECRET"))
     parser.add_argument("--apple-country", type=str, default="us", help="Apple Music store country code (default: us)")
@@ -575,13 +978,21 @@ def main() -> None:
 
     generate_streaming_links(
         positions=args.positions,
-        output=args.output,
+        output_dir=args.output_dir,
+        aggregate=args.aggregate,
         min_year=args.min_year,
+        years=args.years,
+        start_year=args.start_year,
+        end_year=args.end_year,
         spotify_client_id=args.spotify_client_id,
         spotify_client_secret=args.spotify_client_secret,
         apple_country=args.apple_country,
         skip_spotify=args.skip_spotify,
         skip_apple=args.skip_apple,
+        overrides_path=args.overrides,
+        credentials_path=args.credentials,
+        cache_path=args.cache,
+        band_type=args.band_type,
     )
 
 
