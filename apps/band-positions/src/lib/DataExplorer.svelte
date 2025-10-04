@@ -22,8 +22,63 @@
     maximumFractionDigits: 1
   });
 
-  let selectedYear: number | null = $state(null);
-  let selectedDivision: string | null = $state(null);
+  // Local storage keys for persisting selections per band type
+  const STORAGE_KEY_YEAR = (type: BandType) => `band-positions-${type}-year`;
+  const STORAGE_KEY_DIVISION = (type: BandType) => `band-positions-${type}-division`;
+
+  // Initialize from local storage if available
+  function getStoredYear(type: BandType): number | null {
+    if (typeof localStorage === 'undefined') return null;
+    try {
+      const stored = localStorage.getItem(STORAGE_KEY_YEAR(type));
+      if (stored) {
+        const parsed = Number(stored);
+        return Number.isNaN(parsed) ? null : parsed;
+      }
+    } catch (e) {
+      console.warn('Failed to read year from localStorage', e);
+    }
+    return null;
+  }
+
+  function getStoredDivision(type: BandType): string | null {
+    if (typeof localStorage === 'undefined') return null;
+    try {
+      return localStorage.getItem(STORAGE_KEY_DIVISION(type));
+    } catch (e) {
+      console.warn('Failed to read division from localStorage', e);
+    }
+    return null;
+  }
+
+  function setStoredYear(type: BandType, year: number | null): void {
+    if (typeof localStorage === 'undefined') return;
+    try {
+      if (year === null) {
+        localStorage.removeItem(STORAGE_KEY_YEAR(type));
+      } else {
+        localStorage.setItem(STORAGE_KEY_YEAR(type), String(year));
+      }
+    } catch (e) {
+      console.warn('Failed to write year to localStorage', e);
+    }
+  }
+
+  function setStoredDivision(type: BandType, division: string | null): void {
+    if (typeof localStorage === 'undefined') return;
+    try {
+      if (division === null) {
+        localStorage.removeItem(STORAGE_KEY_DIVISION(type));
+      } else {
+        localStorage.setItem(STORAGE_KEY_DIVISION(type), division);
+      }
+    } catch (e) {
+      console.warn('Failed to write division to localStorage', e);
+    }
+  }
+
+  let selectedYear: number | null = $state(getStoredYear(bandType));
+  let selectedDivision: string | null = $state(getStoredDivision(bandType));
 
   // Derived values that recalculate when dataset changes
   let yearDivisionMap = $derived(dataset
@@ -229,6 +284,27 @@
   function handleDivisionChange(event: Event): void {
     selectedDivision = (event.target as HTMLSelectElement).value || null;
   }
+
+  // Effect to sync selectedYear to localStorage whenever it changes
+  $effect(() => {
+    setStoredYear(bandType, selectedYear);
+  });
+
+  // Effect to sync selectedDivision to localStorage whenever it changes
+  $effect(() => {
+    setStoredDivision(bandType, selectedDivision);
+  });
+
+  // Effect to clear selections when bandType changes
+  $effect(() => {
+    // This effect runs when bandType changes
+    // Reset selections and clear storage for the new band type
+    const storedYear = getStoredYear(bandType);
+    const storedDivision = getStoredDivision(bandType);
+    
+    selectedYear = storedYear;
+    selectedDivision = storedDivision;
+  });
 
   // Single effect to handle initial selections when dataset changes
   $effect(() => {

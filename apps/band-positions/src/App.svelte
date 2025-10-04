@@ -29,6 +29,8 @@ import type {
   const URL_YAXIS_KEY = 'yaxis';
   const URL_VIEW_KEY = 'view';
   const URL_BAND_TYPE_KEY = 'type';
+  const URL_YEAR_KEY = 'year';
+  const URL_DIVISION_KEY = 'division';
   const URL_SEPARATOR = ',';
   const DEFAULT_MODE: 'absolute' | 'relative' = 'relative';
   const DEFAULT_YAXIS_SCALE: 'fitted' | 'full' = 'fitted';
@@ -202,7 +204,7 @@ import type {
     }
 
     const keyPrefix = `${entry.year}|${divisionSlug}|${bandSlug}`;
-    let candidateSlugs = getCandidateSlugs(pieceName);
+    let candidateSlugs = getCandidateSlugs(pieceName, bandName);
 
     if (!candidateSlugs.length) {
       const fallbackSlug = slugify(pieceName);
@@ -231,7 +233,7 @@ import type {
     return value.replace(QUOTE_CHARS, '').replace(/\s+/g, ' ').trim().toLowerCase();
   }
 
-  function getCandidateSlugs(name: string): string[] {
+  function getCandidateSlugs(name: string, bandName?: string): string[] {
     const trimmed = name.trim();
     if (!trimmed) return [];
 
@@ -268,6 +270,23 @@ import type {
       const slugCandidate = slugify(candidate);
       if (slugCandidate && slugCandidate !== 'uidentifisert') {
         variants.add(slugCandidate);
+      }
+    }
+
+    // Add variants with band name appended (for test pieces where streaming data includes band name)
+    if (bandName && bandName.trim()) {
+      const cleanBandName = bandName.trim();
+      // Try: "Piece Name - Band Name"
+      const withDashBand = `${trimmed} - ${cleanBandName}`;
+      const slugWithBand = slugify(withDashBand);
+      if (slugWithBand && slugWithBand !== 'uidentifisert') {
+        variants.add(slugWithBand);
+      }
+      // Try: "Piece Name Band Name" (no separator)
+      const withSpaceBand = `${trimmed} ${cleanBandName}`;
+      const slugWithSpaceBand = slugify(withSpaceBand);
+      if (slugWithSpaceBand && slugWithSpaceBand !== 'uidentifisert') {
+        variants.add(slugWithSpaceBand);
       }
     }
 
