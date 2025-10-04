@@ -98,6 +98,31 @@ def normalize_title(value: str, *, remove_parentheticals: bool = True) -> str:
     return "-".join(tokens)
 
 
+def get_title_variants(value: str) -> List[str]:
+    """Get title variants including main title and subtitle parts.
+    
+    For example, 'Myth Forest - Hestefallstjønn' would return:
+    - 'myth-forest-hestefallstjonn' (full)
+    - 'myth-forest' (before dash)
+    """
+    if not value:
+        return []
+    
+    variants = [normalize_title(value)]
+    
+    # Split on common subtitle separators and add the main part
+    for separator in [' - ', ' – ', ' — ']:
+        if separator in value:
+            main_part = value.split(separator)[0].strip()
+            if main_part:
+                normalized_main = normalize_title(main_part)
+                if normalized_main and normalized_main not in variants:
+                    variants.append(normalized_main)
+            break
+    
+    return variants
+
+
 def similarity_score(piece_slug: str, track_slug: str) -> float:
     if not piece_slug or not track_slug:
         return 0.0
@@ -649,9 +674,13 @@ class StreamingLinkFinder:
                 if not title or not url:
                     continue
                 
-                # Extract artist name(s)
+                # Extract artist name(s), filtering out placeholder values
                 artists = item.get("artists") or []
-                artist_names = [a.get("name") for a in artists if a.get("name")]
+                artist_names = [
+                    a.get("name") for a in artists 
+                    if a.get("name") and a.get("name").strip().lower() not in ["", "na", "n/a", "unknown"]
+                ]
+                # Store all artist names for better matching - we'll check against all of them
                 artist = ", ".join(artist_names) if artist_names else ""
                 
                 slug_primary = normalize_title(title)
@@ -681,37 +710,52 @@ class StreamingLinkFinder:
         tracks = self._get_spotify_tracks_for_division(performance.year, performance.division)
         if not tracks:
             return None
-        piece_slug = normalize_title(performance.piece)
+        piece_variants = get_title_variants(performance.piece)
         band_slug = normalize_title(performance.band)
         
         best_match: Optional[Track] = None
         best_score = 0.0
         
         for track in tracks:
-            # Calculate piece similarity
+            # Calculate piece similarity using all variants
             piece_match_score = 0.0
-            for slug_variant in track.slug_variants:
-                score = similarity_score(piece_slug, slug_variant)
-                if score > piece_match_score:
-                    piece_match_score = score
+            for piece_variant in piece_variants:
+                for slug_variant in track.slug_variants:
+                    score = similarity_score(piece_variant, slug_variant)
+                    if score > piece_match_score:
+                        piece_match_score = score
             
             # Calculate band/artist similarity if artist info is available
+            # Check against all individual artists in the track, not just the combined string
             band_match_score = 0.0
             if track.artist and band_slug:
-                artist_slug = normalize_title(track.artist)
-                band_match_score = similarity_score(band_slug, artist_slug)
+                # Split on comma to check each artist separately
+                # (since tracks can have composer, "Na", band, conductor)
+                artist_parts = [part.strip() for part in track.artist.split(',')]
+                for artist_part in artist_parts:
+                    if artist_part:
+                        artist_slug = normalize_title(artist_part)
+                        score = similarity_score(band_slug, artist_slug)
+                        if score > band_match_score:
+                            band_match_score = score
             
-            # Combined score: piece matching is primary, band matching is a strong boost
-            # If band matches well, it's very likely the correct track
-            if band_match_score > 0.7:
-                # Strong band match: piece score + significant band bonus
+            # Combined score: piece matching is primary, band matching is crucial for disambiguation
+            # For test pieces where multiple bands perform the same piece, band matching is essential
+            if band_match_score > 0.85:
+                # Excellent band match: very likely the correct track
+                combined_score = piece_match_score * 0.5 + band_match_score * 0.5
+            elif band_match_score > 0.7:
+                # Good band match: piece score + significant band bonus
                 combined_score = piece_match_score * 0.6 + band_match_score * 0.4
-            elif band_match_score > 0.4:
+            elif band_match_score > 0.5:
                 # Moderate band match: piece score + moderate band bonus  
-                combined_score = piece_match_score * 0.8 + band_match_score * 0.2
+                combined_score = piece_match_score * 0.75 + band_match_score * 0.25
+            elif band_match_score > 0.3:
+                # Weak band match: heavily penalize to avoid wrong matches
+                combined_score = piece_match_score * 0.5 + band_match_score * 0.1
             else:
-                # Weak or no band match: rely on piece score
-                combined_score = piece_match_score
+                # Very weak or no band match: significant penalty
+                combined_score = piece_match_score * 0.4
             
             if combined_score > best_score:
                 best_score = combined_score
@@ -812,8 +856,9 @@ class StreamingLinkFinder:
                 if not title or not url:
                     continue
                 
-                # Extract artist name
-                artist = song.get("artistName") or ""
+                # Extract artist name, filtering out placeholder values
+                artist_raw = song.get("artistName") or ""
+                artist = artist_raw if artist_raw.strip().lower() not in ["", "na", "n/a", "unknown"] else ""
                 
                 slug_primary = normalize_title(title)
                 slug_full = normalize_title(title, remove_parentheticals=False)
@@ -842,37 +887,52 @@ class StreamingLinkFinder:
         tracks = self._get_apple_tracks_for_division(performance.year, performance.division)
         if not tracks:
             return None
-        piece_slug = normalize_title(performance.piece)
+        piece_variants = get_title_variants(performance.piece)
         band_slug = normalize_title(performance.band)
         
         best_match: Optional[Track] = None
         best_score = 0.0
         
         for track in tracks:
-            # Calculate piece similarity
+            # Calculate piece similarity using all variants
             piece_match_score = 0.0
-            for slug_variant in track.slug_variants:
-                score = similarity_score(piece_slug, slug_variant)
-                if score > piece_match_score:
-                    piece_match_score = score
+            for piece_variant in piece_variants:
+                for slug_variant in track.slug_variants:
+                    score = similarity_score(piece_variant, slug_variant)
+                    if score > piece_match_score:
+                        piece_match_score = score
             
             # Calculate band/artist similarity if artist info is available
+            # Check against all individual artists in the track, not just the combined string
             band_match_score = 0.0
             if track.artist and band_slug:
-                artist_slug = normalize_title(track.artist)
-                band_match_score = similarity_score(band_slug, artist_slug)
+                # Split on comma to check each artist separately
+                # (since tracks can have composer, "Na", band, conductor)
+                artist_parts = [part.strip() for part in track.artist.split(',')]
+                for artist_part in artist_parts:
+                    if artist_part:
+                        artist_slug = normalize_title(artist_part)
+                        score = similarity_score(band_slug, artist_slug)
+                        if score > band_match_score:
+                            band_match_score = score
             
-            # Combined score: piece matching is primary, band matching is a strong boost
-            # If band matches well, it's very likely the correct track
-            if band_match_score > 0.7:
-                # Strong band match: piece score + significant band bonus
+            # Combined score: piece matching is primary, band matching is crucial for disambiguation
+            # For test pieces where multiple bands perform the same piece, band matching is essential
+            if band_match_score > 0.85:
+                # Excellent band match: very likely the correct track
+                combined_score = piece_match_score * 0.5 + band_match_score * 0.5
+            elif band_match_score > 0.7:
+                # Good band match: piece score + significant band bonus
                 combined_score = piece_match_score * 0.6 + band_match_score * 0.4
-            elif band_match_score > 0.4:
+            elif band_match_score > 0.5:
                 # Moderate band match: piece score + moderate band bonus  
-                combined_score = piece_match_score * 0.8 + band_match_score * 0.2
+                combined_score = piece_match_score * 0.75 + band_match_score * 0.25
+            elif band_match_score > 0.3:
+                # Weak band match: heavily penalize to avoid wrong matches
+                combined_score = piece_match_score * 0.5 + band_match_score * 0.1
             else:
-                # Weak or no band match: rely on piece score
-                combined_score = piece_match_score
+                # Very weak or no band match: significant penalty
+                combined_score = piece_match_score * 0.4
             
             if combined_score > best_score:
                 best_score = combined_score

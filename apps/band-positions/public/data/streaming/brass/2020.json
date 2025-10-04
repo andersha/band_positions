@@ -435,16 +435,6 @@
     {
       "year": 2020,
       "division": "4. divisjon",
-      "band": "Fræna Musikkorps",
-      "result_piece": "Lake of the Moon",
-      "recording_title": "Lake Of the Moon",
-      "album": "NM Brass 2020 - 4. divisjon",
-      "spotify": "https://open.spotify.com/track/2o5cfMcDv2mnZ7X3ym2aG2",
-      "apple_music": "https://music.apple.com/us/album/lake-of-the-moon/1499533234?i=1499533647&uo=4"
-    },
-    {
-      "year": 2020,
-      "division": "4. divisjon",
       "band": "Gjesdal Brass Band",
       "result_piece": "Royal Parks",
       "recording_title": "Royal Parks",
@@ -539,8 +529,8 @@
       "result_piece": "Viking Age",
       "recording_title": "Viking Age",
       "album": "NM Brass 2020 - 5. divisjon",
-      "spotify": "https://open.spotify.com/track/6addoZLE0xMVmSPIPOS9Ca",
-      "apple_music": "https://music.apple.com/us/album/viking-age/1499524415?i=1499524975&uo=4"
+      "spotify": "https://open.spotify.com/track/3C5OQrjtM3XtVGdNakrh96",
+      "apple_music": "https://music.apple.com/us/album/viking-age/1499524415?i=1499525118&uo=4"
     },
     {
       "year": 2020,
@@ -609,8 +599,8 @@
       "result_piece": "Dimensions",
       "recording_title": "Dimensions",
       "album": "NM Brass 2020 - 5. divisjon",
-      "spotify": "https://open.spotify.com/track/00zOMV5knkR0Z9AyS4Cgb3",
-      "apple_music": "https://music.apple.com/us/album/dimensions/1499524415?i=1499524960&uo=4"
+      "spotify": "https://open.spotify.com/track/3rWxBu13HpJuiAJBEXWr73",
+      "apple_music": "https://music.apple.com/us/album/dimensions/1499524415?i=1499524980&uo=4"
     },
     {
       "year": 2020,
@@ -646,6 +636,16 @@
       "year": 2020,
       "division": "Elite",
       "band": "Bjørsvik Brass",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/4go9X8pIUS2eolDrUt9jfD",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499551939&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Bjørsvik Brass",
       "result_piece": "The Night to Sing",
       "recording_title": "The Night To Sing",
       "album": "NM Brass 2020 - Elitedivisjon",
@@ -656,11 +656,31 @@
       "year": 2020,
       "division": "Elite",
       "band": "Eikanger-Bjørsvik Musikklag",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/6QEcYxpeyxE9SWJRU4EXtA",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499552086&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Eikanger-Bjørsvik Musikklag",
       "result_piece": "Spiriti",
       "recording_title": "Spiriti",
       "album": "NM Brass 2020 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/1dPw0vRpQd1W4vDKqKeAHb",
       "apple_music": "https://music.apple.com/us/album/spiriti/1499551385?i=1499551818&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Jaren Hornmusikkforening",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/5yzLTWjP7ajg41NiYGDcxj",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499551945&uo=4"
     },
     {
       "year": 2020,
@@ -685,6 +705,16 @@
     {
       "year": 2020,
       "division": "Elite",
+      "band": "Kleppe Musikklag",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/1thf30xovKBmebp7Ig7GYT",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499551933&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
       "band": "Krohnengen Brass Band",
       "result_piece": "Fraternity",
       "recording_title": "Fraternity",
@@ -695,12 +725,42 @@
     {
       "year": 2020,
       "division": "Elite",
+      "band": "Krohnengen Brass Band",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/04dC4bYuFC7584wpScB5il",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499552087&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
       "band": "Manger Musikklag",
       "result_piece": "Midnight's Butterflies",
       "recording_title": "Midnight´s Butterflies",
       "album": "NM Brass 2020 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/30zHn74MlzqpugPyKpKtiu",
       "apple_music": "https://music.apple.com/us/album/midnights-butterflies/1499551385?i=1499551821&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Manger Musikklag",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/6IQGTXiawY8jvcqlSkwox7",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499552080&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Oslo Brass Band",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/3TKPvLz1Sv1Y6iHahshDkN",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499551926&uo=4"
     },
     {
       "year": 2020,
@@ -716,6 +776,16 @@
       "year": 2020,
       "division": "Elite",
       "band": "Oslofjord Brass",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/3cGjwWTVzHiCTI78TefuhT",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499552078&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Oslofjord Brass",
       "result_piece": "Where Angels Fly",
       "recording_title": "Where Angels Fly",
       "album": "NM Brass 2020 - Elitedivisjon",
@@ -726,11 +796,21 @@
       "year": 2020,
       "division": "Elite",
       "band": "Stavanger Brass Band",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/5EImkJXIKqm8AmYiVrRrIS",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499551954&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Stavanger Brass Band",
       "result_piece": "The Turing Test",
       "recording_title": "The Turing Test",
       "album": "NM Brass 2020 - Elitedivisjon",
-      "spotify": "https://open.spotify.com/track/6zP5Lqf41YyvUjmlKu830N",
-      "apple_music": "https://music.apple.com/us/album/the-turing-test/1499551385?i=1499551726&uo=4"
+      "spotify": "https://open.spotify.com/track/00ZfNuVivbRZg1vW9XvHad",
+      "apple_music": "https://music.apple.com/us/album/the-turing-test/1499551385?i=1499551741&uo=4"
     },
     {
       "year": 2020,
@@ -741,6 +821,16 @@
       "album": "NM Brass 2020 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/7yM85WgweFCHATrRqcbclZ",
       "apple_music": "https://music.apple.com/us/album/metropolis-1927/1499551385?i=1499551721&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Tertnes Brass",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/5oBrshrCmrQRS0SbFIQVdl",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499551931&uo=4"
     }
   ]
 }
