@@ -26,10 +26,12 @@ import type {
 
   const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor', pieces: 'piece', composers: 'composer' } as const;
   const URL_MODE_KEY = 'mode';
+  const URL_YAXIS_KEY = 'yaxis';
   const URL_VIEW_KEY = 'view';
   const URL_BAND_TYPE_KEY = 'type';
   const URL_SEPARATOR = ',';
   const DEFAULT_MODE: 'absolute' | 'relative' = 'relative';
+  const DEFAULT_YAXIS_SCALE: 'fitted' | 'full' = 'fitted';
   const DEFAULT_VIEW: ViewType = 'bands';
   const DEFAULT_BAND_TYPE: BandType = 'wind';
   const THEME_STORAGE_KEY = 'nmkorps-theme';
@@ -559,6 +561,14 @@ import type {
     return normalized === 'absolute' ? 'absolute' : 'relative';
   }
 
+  function getYAxisScaleFromURL(): 'fitted' | 'full' {
+    if (typeof window === 'undefined') return DEFAULT_YAXIS_SCALE;
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get(URL_YAXIS_KEY);
+    const normalized = raw ? raw.toLowerCase() : null;
+    return normalized === 'full' ? 'full' : 'fitted';
+  }
+
   function resolveInitialTheme(): Theme {
     if (typeof window === 'undefined') return 'dark';
     try {
@@ -797,6 +807,7 @@ import type {
     }
 
     params.set(URL_MODE_KEY, yAxisMode);
+    params.set(URL_YAXIS_KEY, yAxisScale);
     params.set(URL_VIEW_KEY, activeView);
 
     const query = params.toString();
@@ -806,6 +817,7 @@ import type {
 
   function syncSelectionFromURL({ updateHistory = false } = {}): boolean {
     const modeFromUrl = getModeFromURL();
+    const yAxisScaleFromUrl = getYAxisScaleFromURL();
     const viewFromUrl = getViewFromURL();
     const bandTypeFromUrl = getBandTypeFromURL();
     let stateChanged = false;
@@ -822,6 +834,10 @@ import type {
       yAxisMode = modeFromUrl;
       stateChanged = true;
     }
+    if (yAxisScaleFromUrl !== yAxisScale) {
+      yAxisScale = yAxisScaleFromUrl;
+      stateChanged = true;
+    }
     if (viewFromUrl !== activeView) {
       activeView = viewFromUrl;
       stateChanged = true;
@@ -833,8 +849,15 @@ import type {
     }
 
     const bandMatches = findMatches(dataset.bands, getSlugsFromURL('bands'));
-    if (!areSelectionsEqual(selectedBands, bandMatches)) {
-      selectedBands = bandMatches;
+    // Merge new selections with existing ones (add unique items)
+    const mergedBands = [...selectedBands];
+    for (const match of bandMatches) {
+      if (!mergedBands.some(b => b.slug === match.slug)) {
+        mergedBands.push(match);
+      }
+    }
+    if (!areSelectionsEqual(selectedBands, mergedBands)) {
+      selectedBands = mergedBands;
       stateChanged = true;
     }
 
@@ -842,8 +865,15 @@ import type {
       conductorRecords = buildConductorRecords(dataset.bands);
     }
     const conductorMatches = findMatches(conductorRecords, getSlugsFromURL('conductors'));
-    if (!areSelectionsEqual(selectedConductors, conductorMatches)) {
-      selectedConductors = conductorMatches;
+    // Merge new selections with existing ones (add unique items)
+    const mergedConductors = [...selectedConductors];
+    for (const match of conductorMatches) {
+      if (!mergedConductors.some(c => c.slug === match.slug)) {
+        mergedConductors.push(match);
+      }
+    }
+    if (!areSelectionsEqual(selectedConductors, mergedConductors)) {
+      selectedConductors = mergedConductors;
       stateChanged = true;
     }
 
@@ -852,8 +882,15 @@ import type {
       composerRecords = buildComposerRecords(pieceRecords);
     }
     const pieceMatches = findMatches(pieceRecords, getSlugsFromURL('pieces'));
-    if (!areSelectionsEqual(selectedPieces, pieceMatches)) {
-      selectedPieces = pieceMatches;
+    // Merge new selections with existing ones (add unique items)
+    const mergedPieces = [...selectedPieces];
+    for (const match of pieceMatches) {
+      if (!mergedPieces.some(p => p.slug === match.slug)) {
+        mergedPieces.push(match);
+      }
+    }
+    if (!areSelectionsEqual(selectedPieces, mergedPieces)) {
+      selectedPieces = mergedPieces;
       stateChanged = true;
     }
 
@@ -861,8 +898,15 @@ import type {
       composerRecords = buildComposerRecords(pieceRecords);
     }
     const composerMatches = findMatches(composerRecords, getSlugsFromURL('composers'));
-    if (!areSelectionsEqual(selectedComposers, composerMatches)) {
-      selectedComposers = composerMatches;
+    // Merge new selections with existing ones (add unique items)
+    const mergedComposers = [...selectedComposers];
+    for (const match of composerMatches) {
+      if (!mergedComposers.some(c => c.slug === match.slug)) {
+        mergedComposers.push(match);
+      }
+    }
+    if (!areSelectionsEqual(selectedComposers, mergedComposers)) {
+      selectedComposers = mergedComposers;
       stateChanged = true;
     }
 
@@ -878,7 +922,7 @@ import type {
     const conductorSignature = selectedConductors.map((conductor) => conductor.slug).join(URL_SEPARATOR);
     const pieceSignature = selectedPieces.map((piece) => piece.slug).join(URL_SEPARATOR);
     const composerSignature = selectedComposers.map((composer) => composer.slug).join(URL_SEPARATOR);
-    return `${bandType}|${activeView}|${yAxisMode}|${bandSignature}|${conductorSignature}|${pieceSignature}|${composerSignature}`;
+    return `${bandType}|${activeView}|${yAxisMode}|${yAxisScale}|${bandSignature}|${conductorSignature}|${pieceSignature}|${composerSignature}`;
   }
 
   function syncUrlIfReady(): void {
@@ -981,6 +1025,7 @@ import type {
   function setYAxisScale(scale: 'fitted' | 'full'): void {
     if (yAxisScale === scale) return;
     yAxisScale = scale;
+    syncUrlIfReady();
   }
 
   async function loadEliteTestPieces() {
@@ -1088,6 +1133,93 @@ import type {
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
+  });
+
+  onMount(() => {
+    // Intercept clicks on entity links to merge selections instead of replacing
+    const handleLinkClick = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      const link = target.closest('a.entity-link, a.program-link');
+      
+      if (!link || !(link instanceof HTMLAnchorElement)) return;
+      if (event.ctrlKey || event.metaKey || event.shiftKey) return; // Allow normal link behavior with modifiers
+      
+      try {
+        const url = new URL(link.href);
+        const params = new URLSearchParams(url.search);
+        
+        // Check if this is an entity selection link
+        const bandSlug = params.get('band');
+        const conductorSlug = params.get('conductor');
+        const pieceSlug = params.get('piece');
+        const composerSlug = params.get('composer');
+        const newBandType = params.get('type');
+        const newView = params.get('view');
+        
+        // If band type is changing, allow normal navigation (will clear selections)
+        if (newBandType && newBandType !== bandType) {
+          return;
+        }
+        
+        // Prevent default navigation
+        event.preventDefault();
+        
+        // Get current selections
+        const currentParams = new URLSearchParams(window.location.search);
+        const currentBands = currentParams.get('band')?.split(',').filter(Boolean) || [];
+        const currentConductors = currentParams.get('conductor')?.split(',').filter(Boolean) || [];
+        const currentPieces = currentParams.get('piece')?.split(',').filter(Boolean) || [];
+        const currentComposers = currentParams.get('composer')?.split(',').filter(Boolean) || [];
+        
+        // Merge new selection with existing (add if not already present)
+        if (bandSlug && !currentBands.includes(bandSlug)) {
+          currentBands.push(bandSlug);
+        }
+        if (conductorSlug && !currentConductors.includes(conductorSlug)) {
+          currentConductors.push(conductorSlug);
+        }
+        if (pieceSlug && !currentPieces.includes(pieceSlug)) {
+          currentPieces.push(pieceSlug);
+        }
+        if (composerSlug && !currentComposers.includes(composerSlug)) {
+          currentComposers.push(composerSlug);
+        }
+        
+        // Build new URL with merged selections
+        const newParams = new URLSearchParams(currentParams);
+        
+        if (currentBands.length) {
+          newParams.set('band', currentBands.join(','));
+        }
+        if (currentConductors.length) {
+          newParams.set('conductor', currentConductors.join(','));
+        }
+        if (currentPieces.length) {
+          newParams.set('piece', currentPieces.join(','));
+        }
+        if (currentComposers.length) {
+          newParams.set('composer', currentComposers.join(','));
+        }
+        
+        // Set view if specified in link
+        if (newView) {
+          newParams.set('view', newView);
+        }
+        
+        // Navigate to merged URL
+        const newUrl = `${window.location.pathname}?${newParams.toString()}${window.location.hash}`;
+        window.history.pushState({}, '', newUrl);
+        
+        // Trigger sync
+        syncSelectionFromURL({ updateHistory: false });
+        lastSyncedSignature = getSelectedSignature();
+      } catch (err) {
+        console.error('Error handling link click:', err);
+      }
+    };
+    
+    document.addEventListener('click', handleLinkClick);
+    return () => document.removeEventListener('click', handleLinkClick);
   });
 
   $effect(() => {
