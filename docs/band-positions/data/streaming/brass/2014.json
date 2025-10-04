@@ -37,9 +37,9 @@
       "division": "1. divisjon",
       "band": "Hasle Brass",
       "result_piece": "Dances and Arias",
-      "recording_title": "Dances and Arias",
+      "recording_title": "Dances and Arias - Hasle",
       "album": "Nm Brass 2014 - 1. Divisjon",
-      "spotify": "https://open.spotify.com/track/7J3fDqlwWt7BpF2zYajz1d",
+      "spotify": "https://open.spotify.com/track/4rf9hwXoxfjPKTVk7sG0Qa",
       "apple_music": null
     },
     {
@@ -237,9 +237,9 @@
       "division": "2. divisjon",
       "band": "Trondheim Politis Brassband",
       "result_piece": "Tallis Variations",
-      "recording_title": "Tallis Variations - Fjell Brass",
+      "recording_title": "Tallis Variations - Trondheim Politi",
       "album": "Nm Brass 2014 - 2. Divisjon",
-      "spotify": "https://open.spotify.com/track/1EeHXFLr8xAaFj0Tc7YMRd",
+      "spotify": "https://open.spotify.com/track/3XM5sXNbISOFGrHDGLy19c",
       "apple_music": null
     },
     {
@@ -327,9 +327,9 @@
       "division": "3. divisjon",
       "band": "Laksevåg Musikkforening",
       "result_piece": "Purcell Variations",
-      "recording_title": "Purcell Variations",
+      "recording_title": "Purcell Variations - Laksevåg",
       "album": "Nm Brass 2014 - 3. Divisjon",
-      "spotify": "https://open.spotify.com/track/3zKadldRcFSXgwsoI8ZCRs",
+      "spotify": "https://open.spotify.com/track/2iyH7PnX3NbjfXs7RtXuJH",
       "apple_music": null
     },
     {
@@ -407,9 +407,9 @@
       "division": "4. divisjon",
       "band": "Bertnes Brass",
       "result_piece": "Triptych",
-      "recording_title": "Triptych - Grenland Brass",
+      "recording_title": "Triptych - Bertnes Brass",
       "album": "Nm Brass 2014 - 4. Divisjon",
-      "spotify": "https://open.spotify.com/track/3GxWCAeJsL3UQOrs6pJzDF",
+      "spotify": "https://open.spotify.com/track/70Zr7h5Fn3EEUMUbi1U5NL",
       "apple_music": null
     },
     {
@@ -417,9 +417,9 @@
       "division": "4. divisjon",
       "band": "Brumunddal Brass",
       "result_piece": "Triptych",
-      "recording_title": "Triptych - Grenland Brass",
+      "recording_title": "Triptych - Brumunddal Brass",
       "album": "Nm Brass 2014 - 4. Divisjon",
-      "spotify": "https://open.spotify.com/track/3GxWCAeJsL3UQOrs6pJzDF",
+      "spotify": "https://open.spotify.com/track/54LAQin4voyyfEU4JGlHvS",
       "apple_music": null
     },
     {
@@ -437,9 +437,9 @@
       "division": "4. divisjon",
       "band": "Flå Musikkorps",
       "result_piece": "Triptych",
-      "recording_title": "Triptych - Grenland Brass",
+      "recording_title": "Triptych - Flå Musikkorps",
       "album": "Nm Brass 2014 - 4. Divisjon",
-      "spotify": "https://open.spotify.com/track/3GxWCAeJsL3UQOrs6pJzDF",
+      "spotify": "https://open.spotify.com/track/3w5xFg0mXvTihwyXJSXWwA",
       "apple_music": null
     },
     {
@@ -517,9 +517,9 @@
       "division": "4. divisjon",
       "band": "Nordlys XO",
       "result_piece": "Sinfonietta for Brass Band",
-      "recording_title": "Sinfonietta for Brass Band",
-      "album": "Nm Brass 2014 - 2. Divisjon",
-      "spotify": "https://open.spotify.com/track/1X3DEItdz8tlrpdbJYEj5Z",
+      "recording_title": "Sinfonietta",
+      "album": "Nm Brass 2014 - 4. Divisjon",
+      "spotify": "https://open.spotify.com/track/337rO8UMTqDn1nC9hXaSYh",
       "apple_music": null
     },
     {
@@ -686,6 +686,16 @@
       "year": 2014,
       "division": "Elite",
       "band": "Bjørsvik Brass",
+      "result_piece": "Mutant Sonorities",
+      "recording_title": "Mutant Sonorites - Børsvik brass",
+      "album": "Nm Brass 2014 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/4DJ9uMRNRbKUZ3T7bRN1Xy",
+      "apple_music": null
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
+      "band": "Bjørsvik Brass",
       "result_piece": "The Essence of Time",
       "recording_title": "The Essence of Time",
       "album": "Nm Brass 2014 - Elitedivisjon",
@@ -705,11 +715,41 @@
     {
       "year": 2014,
       "division": "Elite",
+      "band": "Eikanger-Bjørsvik Musikklag",
+      "result_piece": "Mutant Sonorities",
+      "recording_title": "Mutant Sonorites - Eikanger-Bjørsvik Musikklag",
+      "album": "Nm Brass 2014 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/5rxapwCVEzExgsxhzVddQF",
+      "apple_music": null
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
       "band": "Ila Brass Band",
       "result_piece": "Graffiti",
       "recording_title": "Graffiti",
       "album": "Nm Brass 2014 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/59Cf3knIkqqYcrpICjzebk",
+      "apple_music": null
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
+      "band": "Ila Brass Band",
+      "result_piece": "Mutant Sonorities",
+      "recording_title": "Mutant Sonorites - Ila Brass Band",
+      "album": "Nm Brass 2014 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/1u0ZCEXTEBWJVIcDpKaY1D",
+      "apple_music": null
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
+      "band": "Jaren Hornmusikkforening",
+      "result_piece": "Mutant Sonorities",
+      "recording_title": "Mutant Sonorites - Jaren Hornmusikkforening",
+      "album": "Nm Brass 2014 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/64hjKi6pv0Fy1mFEd9gYs3",
       "apple_music": null
     },
     {
@@ -735,6 +775,16 @@
     {
       "year": 2014,
       "division": "Elite",
+      "band": "Krohnengen Brass Band",
+      "result_piece": "Mutant Sonorities",
+      "recording_title": "Mutant Sonorites - Krohnengen Brass Band",
+      "album": "Nm Brass 2014 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/4eXX4VJ9dEIj1wF4HxbzVO",
+      "apple_music": null
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
       "band": "Manger Musikklag",
       "result_piece": "Concerto Grosso",
       "recording_title": "Concerto Grosso",
@@ -745,11 +795,81 @@
     {
       "year": 2014,
       "division": "Elite",
+      "band": "Manger Musikklag",
+      "result_piece": "Mutant Sonorities",
+      "recording_title": "Mutant Sonorites - Manger Musikklag",
+      "album": "Nm Brass 2014 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/0rvmgALP8Ei8NE6h3q11DA",
+      "apple_music": null
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
+      "band": "Oslo Brass Band",
+      "result_piece": "Mutant Sonorities",
+      "recording_title": "Mutant Sonorites - Oslo Brass Band",
+      "album": "Nm Brass 2014 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/4wgT10jAgGC0NCVycKnuIJ",
+      "apple_music": null
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
       "band": "Oslo Brass Band",
       "result_piece": "Symphony in two movements",
       "recording_title": "Symphony in two Movements",
       "album": "Nm Brass 2014 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/1Rhgd3A1sBmaIvWxLv43Zz",
+      "apple_music": null
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
+      "band": "Sola Brass Band",
+      "result_piece": "Mutant Sonorities",
+      "recording_title": "Mutant Sonorites - Sola Brass Band",
+      "album": "Nm Brass 2014 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/6H2QnuAmBxWfBUEo28IBgx",
+      "apple_music": null
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
+      "band": "Sola Brass Band",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest - Sola Brass",
+      "album": "Nm Brass 2014 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/4fDdSylBrWOXkczxDQFxD1",
+      "apple_music": null
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
+      "band": "Stavanger Brass Band",
+      "result_piece": "Mutant Sonorities",
+      "recording_title": "Mutant Sonorites - Stavanger Brass Band",
+      "album": "Nm Brass 2014 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/2wpIIW15yHPjA0TQvI6K94",
+      "apple_music": null
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
+      "band": "Stavanger Brass Band",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest - Stavanger Brass Band",
+      "album": "Nm Brass 2014 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/7HPvVuwfR1yuXyxeqilcBi",
+      "apple_music": null
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
+      "band": "Tertnes Brass",
+      "result_piece": "Mutant Sonorities",
+      "recording_title": "Mutant Sonorites - Tertnes Brass",
+      "album": "Nm Brass 2014 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/6OwegdCC2aQ0QAIkPuhmjz",
       "apple_music": null
     },
     {
