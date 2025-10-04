@@ -1,14 +1,15 @@
 <script lang="ts">
-  import type { BandRecord, BandEntry, BandType, StreamingLink } from './types';
+  import type { BandRecord, BandEntry, BandType, StreamingLink, EliteTestPiecesData } from './types';
   import { slugify } from './slugify';
 
   interface Props {
     bands?: BandRecord[];
     bandType?: BandType;
     streamingResolver?: (entry: BandEntry, bandName: string, pieceName: string) => StreamingLink | null;
+    eliteTestPieces?: EliteTestPiecesData | null;
   }
 
-  let { bands = [], bandType = 'wind', streamingResolver }: Props = $props();
+  let { bands = [], bandType = 'wind', streamingResolver, eliteTestPieces = null }: Props = $props();
 
   const pointsFormatter = new Intl.NumberFormat('nb-NO', {
     minimumFractionDigits: 1,
@@ -77,6 +78,16 @@
     return streamingResolver(entry, bandName, pieceName) ?? null;
   }
 
+  function testPieceForYear(year: string | number): { composer: string; piece: string } | null {
+    const y = String(year);
+    const tp = eliteTestPieces?.test_pieces?.[y];
+    return tp ? { composer: tp.composer, piece: tp.piece } : null;
+  }
+
+  function isEliteDivision(division: string | undefined): boolean {
+    return (division || '').toLowerCase() === 'elite';
+  }
+
   let normalizedBands = $derived(
     bands.map((band) => ({
       ...band,
@@ -112,15 +123,23 @@
             {#each band.entries as entry}
               {@const rawPieces = Array.isArray(entry.pieces) ? entry.pieces : []}
               {@const pieces = rawPieces.filter((piece) => piece && piece.trim().length > 0)}
+              {@const testPiece = bandType === 'brass' && isEliteDivision(entry.division) ? testPieceForYear(entry.year) : null}
               {@const conductorName = entry.conductor?.trim() ?? ''}
               {@const hasConductor = conductorName.length > 0}
               {@const conductorSlug = hasConductor ? slugify(conductorName) : ''}
-              {@const pieceEntries = pieces.map((piece) => {
+              {@const ownChoicePieceEntries = pieces.map((piece) => {
                 const pieceName = piece.trim();
                 const pieceSlug = pieceName ? slugify(pieceName) : '';
                 const streaming = pieceName ? resolveStreaming(entry, band.name, pieceName) : null;
-                return { pieceName, pieceSlug, streaming };
+                return { pieceName, pieceSlug, streaming, isTestPiece: false };
               })}
+              {@const testPieceEntry = testPiece ? [{
+                pieceName: testPiece.piece,
+                pieceSlug: slugify(testPiece.piece),
+                streaming: resolveStreaming(entry, band.name, testPiece.piece),
+                isTestPiece: true
+              }] : []}
+              {@const pieceEntries = [...testPieceEntry, ...ownChoicePieceEntries]}
               {@const streamingEntries = pieceEntries.filter((item) => hasStreamingLinks(item.streaming))}
               <tr>
                 <td data-label="År">{entry.year}</td>
@@ -130,10 +149,14 @@
                     <ul class="piece-list">
                       {#each pieceEntries as pieceEntry}
                         <li>
+                          {#if pieceEntry.isTestPiece}
+                            <span class="test-piece-label" title="Pliktstykke">P:</span>
+                          {/if}
                           {#if pieceEntry.pieceSlug}
                             <a
                               href={`?type=${bandType}&view=pieces&piece=${encodeURIComponent(pieceEntry.pieceSlug)}`}
                               class="entity-link"
+                              class:test-piece-link={pieceEntry.isTestPiece}
                             >
                               {pieceEntry.pieceName}
                             </a>
@@ -416,5 +439,25 @@
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+  }
+
+  .test-piece-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    background: rgba(var(--color-accent-rgb, 147, 51, 234), 0.1);
+    border: 1px solid var(--color-accent);
+    border-radius: 0.25rem;
+    padding: 0.1rem 0.3rem;
+    margin-right: 0.35rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+  .test-piece-link {
+    font-weight: 600;
   }
 </style>

@@ -65,3 +65,12 @@ export interface ComposerRecord {
   normalized: string;
   pieces: ComposerPieceSummary[];
 }
+
+export interface EliteTestPiece {
+  composer: string;
+  piece: string;
+}
+
+export interface EliteTestPiecesData {
+  test_pieces: { [year: string]: EliteTestPiece };
+}

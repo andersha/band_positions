@@ -1,15 +1,16 @@
 <script lang="ts">
 
-  import type { BandDataset, BandEntry, BandType, StreamingLink } from './types';
+  import type { BandDataset, BandEntry, BandType, StreamingLink, EliteTestPiecesData } from './types';
   import { slugify } from './slugify';
 
   interface Props {
     dataset?: BandDataset | null;
     bandType?: BandType;
     streamingResolver?: (entry: BandEntry, band: string, piece: string) => StreamingLink | null;
+    eliteTestPieces?: EliteTestPiecesData | null;
   }
 
-  let { dataset = null, bandType = 'wind', streamingResolver = undefined }: Props = $props();
+  let { dataset = null, bandType = 'wind', streamingResolver = undefined, eliteTestPieces = null }: Props = $props();
 
   type TableRow = {
     band: string;
@@ -210,6 +211,16 @@
     }).format(date);
   }
 
+  function testPieceForYear(year: string | number): { composer: string; piece: string } | null {
+    const y = String(year);
+    const tp = eliteTestPieces?.test_pieces?.[y];
+    return tp ? { composer: tp.composer, piece: tp.piece } : null;
+  }
+
+  function isEliteDivision(division: string | undefined | null): boolean {
+    return (division || '').toLowerCase() === 'elite';
+  }
+
   function handleYearChange(event: Event): void {
     const value = Number((event.target as HTMLSelectElement).value);
     selectedYear = Number.isNaN(value) ? null : value;
@@ -336,16 +347,23 @@
                 <td data-label="Poeng">{formatPoints(entry.points, entry.max_points)}</td>
                 <td data-label="Program" class="program-cell">
                   {#if true}
-                    {@const pieces = formatPieces(entry.pieces)}
-                    {#if pieces.length === 0}
+                    {@const testPiece = bandType === 'brass' && isEliteDivision(entry.division) ? testPieceForYear(entry.year) : null}
+                    {@const ownChoicePieces = formatPieces(entry.pieces)}
+                    {@const allPieces = testPiece ? [{name: testPiece.piece, isTestPiece: true}, ...ownChoicePieces.map(p => ({name: p, isTestPiece: false}))] : ownChoicePieces.map(p => ({name: p, isTestPiece: false}))}
+                    {#if allPieces.length === 0}
                       <span>–</span>
                     {:else}
-                      {#each pieces as piece, index}
+                      {#each allPieces as pieceItem, index}
+                        {@const piece = pieceItem.name}
                         {@const streaming = resolveStreamingLink(entry, band, piece)}
                         <span class="program-piece">
+                          {#if pieceItem.isTestPiece}
+                            <span class="test-piece-label" title="Pliktstykke">P:</span>
+                          {/if}
                           <a
                             href={`?type=${bandType}&view=pieces&piece=${encodeURIComponent(slugify(piece))}`}
                             class="program-link"
+                            class:test-piece-link={pieceItem.isTestPiece}
                           >
                             {piece}
                           </a>
@@ -407,7 +425,7 @@
                               {/if}
                             </span>
                           {/if}
-                        </span>{index < pieces.length - 1 ? ', ' : ''}
+                        </span>{index < allPieces.length - 1 ? ', ' : ''}
                       {/each}
                     {/if}
                   {/if}
@@ -586,6 +604,26 @@
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+  }
+
+  .test-piece-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    background: rgba(var(--color-accent-rgb, 147, 51, 234), 0.1);
+    border: 1px solid var(--color-accent);
+    border-radius: 0.25rem;
+    padding: 0.1rem 0.35rem;
+    margin-right: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+  .test-piece-link {
+    font-weight: 600;
   }
 
   .program-link,

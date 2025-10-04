@@ -17,7 +17,8 @@ import type {
   PieceRecord,
   ComposerRecord,
   BandType,
-  StreamingLink
+  StreamingLink,
+  EliteTestPiecesData
 } from './lib/types';
 
   type ViewType = 'bands' | 'conductors' | 'pieces' | 'composers' | 'data';
@@ -101,6 +102,7 @@ import type {
   let pieceComposerIndex = new Map<string, PieceMetadataEntry[]>();
   let pieceStreamingIndex = new Map<string, StreamingLink>();
   let composerPieceIndex = new Map<string, ComposerRecord>();
+  let eliteTestPieces = $state<EliteTestPiecesData | null>(null);
 
   function buildPieceComposerIndex(metadata: PieceMetadataEntry[]): Map<string, PieceMetadataEntry[]> {
     const index = new Map<string, PieceMetadataEntry[]>();
@@ -904,6 +906,17 @@ import type {
     syncUrlIfReady();
   }
 
+  async function loadEliteTestPieces() {
+    try {
+      const res = await fetch('data/elite_test_pieces.json', { cache: 'no-cache' });
+      if (!res.ok) throw new Error('Failed to load elite_test_pieces.json');
+      eliteTestPieces = await res.json();
+    } catch (err) {
+      console.error('Could not load Elite test pieces:', err);
+      eliteTestPieces = null;
+    }
+  }
+
   async function loadDataForBandType(type: BandType) {
     try {
       const dataFile = type === 'wind' ? 'data/band_positions.json' : 'data/brass_positions.json';
@@ -914,6 +927,11 @@ import type {
         fetch(metadataFile),
         fetch(streamingFile)
       ]);
+      
+      // Load Elite test pieces for brass bands
+      if (type === 'brass' && eliteTestPieces === null) {
+        await loadEliteTestPieces();
+      }
 
       if (!positionsResponse.ok) {
         throw new Error(`Kunne ikke laste data (status ${positionsResponse.status})`);
@@ -1323,6 +1341,7 @@ import type {
           bands={chartSelection}
           {bandType}
           streamingResolver={findStreamingLinkForPiece}
+          {eliteTestPieces}
         />
       {:else if activeView === 'conductors'}
         <ConductorPerformances
@@ -1338,7 +1357,7 @@ import type {
       </section>
     {/if}
   {:else}
-    <DataExplorer {dataset} {bandType} streamingResolver={findStreamingLinkForPiece} />
+    <DataExplorer {dataset} {bandType} streamingResolver={findStreamingLinkForPiece} {eliteTestPieces} />
   {/if}
 </main>
 
