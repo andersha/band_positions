@@ -44,6 +44,39 @@
       "spotify": "https://open.spotify.com/track/0zSdS2B5ZjUXQdY7yTmTnA?si=245ab73a930440b5",
       "allow_album_mismatch": true,
       "band_type": "wind"
+    },
+    {
+      "year": 2025,
+      "division": "Elite",
+      "band": "Oslofjord Brass",
+      "piece": "Journey of the Lone Wolf",
+      "album": "NM Brass 2025 – 1. div (Live)",
+      "recording_title": "Journey of the Lone Wolf - Live",
+      "spotify": "https://open.spotify.com/track/3GolJKHQq7Dv9FCjeg8w2O?si=cee954c969214a96",
+      "allow_album_mismatch": true,
+      "band_type": "brass"
+    },
+    {
+      "year": 2025,
+      "division": "1. divisjon",
+      "band": "Sandefjord Brass Symposium",
+      "piece": "As If A Voice Were In Them...",
+      "album": "NM Brass 2025 – 1. div (Live)",
+      "recording_title": "As if voice were in them - Live",
+      "spotify": "https://open.spotify.com/track/1lTPa8hfzr4HWX2l8HTWhX?si=a28c2c4811ac4a05",
+      "allow_album_mismatch": true,
+      "band_type": "brass"
+    },
+    {
+      "year": 2025,
+      "division": "4. divisjon",
+      "band": "Herøy Brass",
+      "piece": "Evolution - Five States of Change",
+      "album": "NM Brass 2025 – 4. div (Live)",
+      "recording_title": "Evolution - Five States of Change (Live)",
+      "spotify": "https://open.spotify.com/track/2bi2aO63xQmS475RjDl3Ba?si=5c4489ebaa1e4e7b",
+      "allow_album_mismatch": true,
+      "band_type": "brass"
     }
   ]
 }
