@@ -216,6 +216,7 @@ class Track:
     url: str
     album: str
     album_id: str
+    artist: str = ""  # Artist/band name from the streaming service
     match_score: float = 0.0
 
 
@@ -486,9 +487,24 @@ def resolve_album_search_terms(year: int, division: str, band_type: str) -> List
     return [variant for variant in variants if variant]
 
 
-def load_performances(path: Path, *, min_year: int = 2017) -> List[Performance]:
+def load_performances(path: Path, *, min_year: int = 2017, elite_test_pieces_path: Optional[Path] = None, band_type: str = "wind") -> List[Performance]:
+    """Load performances from band positions dataset.
+    
+    For brass bands with Elite division, also includes test pieces from elite_test_pieces.json
+    if the path is provided.
+    """
     dataset = json.loads(path.read_text(encoding="utf-8"))
     performances: List[Performance] = []
+    
+    # Load elite test pieces if available (for brass bands only)
+    elite_test_pieces = {}
+    if band_type == "brass" and elite_test_pieces_path and elite_test_pieces_path.exists():
+        try:
+            test_pieces_data = json.loads(elite_test_pieces_path.read_text(encoding="utf-8"))
+            elite_test_pieces = test_pieces_data.get("test_pieces", {})
+        except (json.JSONDecodeError, IOError):
+            pass  # Silently ignore if file doesn't exist or is invalid
+    
     for band in dataset.get("bands", []):
         name = band.get("name")
         for entry in band.get("entries", []):
@@ -499,11 +515,22 @@ def load_performances(path: Path, *, min_year: int = 2017) -> List[Performance]:
                 pieces = [str(pieces)]
             if not isinstance(year, int) or year < min_year:
                 continue
+            
+            # Add own-choice pieces
             for raw_piece in pieces:
                 piece = (raw_piece or "").strip()
                 if not piece:
                     continue
                 performances.append(Performance(year=year, division=division, band=name, piece=piece))
+            
+            # For Elite brass bands, also add the test piece
+            if band_type == "brass" and division and division.lower() == "elite":
+                year_str = str(year)
+                if year_str in elite_test_pieces:
+                    test_piece_name = elite_test_pieces[year_str].get("piece")
+                    if test_piece_name and test_piece_name.strip():
+                        performances.append(Performance(year=year, division=division, band=name, piece=test_piece_name.strip()))
+    
     return performances
 
 
@@ -622,6 +649,11 @@ class StreamingLinkFinder:
                 if not title or not url:
                     continue
                 
+                # Extract artist name(s)
+                artists = item.get("artists") or []
+                artist_names = [a.get("name") for a in artists if a.get("name")]
+                artist = ", ".join(artist_names) if artist_names else ""
+                
                 slug_primary = normalize_title(title)
                 slug_full = normalize_title(title, remove_parentheticals=False)
                 slug_variants = []
@@ -638,6 +670,7 @@ class StreamingLinkFinder:
                         url=url,
                         album=album_name or "",
                         album_id=album_id,
+                        artist=artist,
                     )
                 )
 
@@ -649,14 +682,41 @@ class StreamingLinkFinder:
         if not tracks:
             return None
         piece_slug = normalize_title(performance.piece)
+        band_slug = normalize_title(performance.band)
+        
         best_match: Optional[Track] = None
         best_score = 0.0
+        
         for track in tracks:
+            # Calculate piece similarity
+            piece_match_score = 0.0
             for slug_variant in track.slug_variants:
                 score = similarity_score(piece_slug, slug_variant)
-                if score > best_score:
-                    best_score = score
-                    best_match = track
+                if score > piece_match_score:
+                    piece_match_score = score
+            
+            # Calculate band/artist similarity if artist info is available
+            band_match_score = 0.0
+            if track.artist and band_slug:
+                artist_slug = normalize_title(track.artist)
+                band_match_score = similarity_score(band_slug, artist_slug)
+            
+            # Combined score: piece matching is primary, band matching is a strong boost
+            # If band matches well, it's very likely the correct track
+            if band_match_score > 0.7:
+                # Strong band match: piece score + significant band bonus
+                combined_score = piece_match_score * 0.6 + band_match_score * 0.4
+            elif band_match_score > 0.4:
+                # Moderate band match: piece score + moderate band bonus  
+                combined_score = piece_match_score * 0.8 + band_match_score * 0.2
+            else:
+                # Weak or no band match: rely on piece score
+                combined_score = piece_match_score
+            
+            if combined_score > best_score:
+                best_score = combined_score
+                best_match = track
+        
         if best_match and best_score >= 0.65:
             best_match.match_score = best_score
             return best_match
@@ -752,6 +812,9 @@ class StreamingLinkFinder:
                 if not title or not url:
                     continue
                 
+                # Extract artist name
+                artist = song.get("artistName") or ""
+                
                 slug_primary = normalize_title(title)
                 slug_full = normalize_title(title, remove_parentheticals=False)
                 slug_variants = []
@@ -768,6 +831,7 @@ class StreamingLinkFinder:
                         url=url,
                         album=collection_name or "",
                         album_id=str(collection_id),
+                        artist=artist,
                     )
                 )
 
@@ -779,14 +843,41 @@ class StreamingLinkFinder:
         if not tracks:
             return None
         piece_slug = normalize_title(performance.piece)
+        band_slug = normalize_title(performance.band)
+        
         best_match: Optional[Track] = None
         best_score = 0.0
+        
         for track in tracks:
+            # Calculate piece similarity
+            piece_match_score = 0.0
             for slug_variant in track.slug_variants:
                 score = similarity_score(piece_slug, slug_variant)
-                if score > best_score:
-                    best_score = score
-                    best_match = track
+                if score > piece_match_score:
+                    piece_match_score = score
+            
+            # Calculate band/artist similarity if artist info is available
+            band_match_score = 0.0
+            if track.artist and band_slug:
+                artist_slug = normalize_title(track.artist)
+                band_match_score = similarity_score(band_slug, artist_slug)
+            
+            # Combined score: piece matching is primary, band matching is a strong boost
+            # If band matches well, it's very likely the correct track
+            if band_match_score > 0.7:
+                # Strong band match: piece score + significant band bonus
+                combined_score = piece_match_score * 0.6 + band_match_score * 0.4
+            elif band_match_score > 0.4:
+                # Moderate band match: piece score + moderate band bonus  
+                combined_score = piece_match_score * 0.8 + band_match_score * 0.2
+            else:
+                # Weak or no band match: rely on piece score
+                combined_score = piece_match_score
+            
+            if combined_score > best_score:
+                best_score = combined_score
+                best_match = track
+        
         if best_match and best_score >= 0.65:
             best_match.match_score = best_score
             return best_match
@@ -1137,7 +1228,13 @@ def generate_streaming_links(
 
     override_resolver = StreamingOverrideResolver.from_file(overrides_path, console, band_type=band_type)
 
-    performances = load_performances(positions, min_year=min_year)
+    # Determine path to elite test pieces file for brass bands
+    elite_test_pieces_path = None
+    if band_type == "brass":
+        # Assume elite_test_pieces.json is in the same directory as the positions file
+        elite_test_pieces_path = positions.parent / "elite_test_pieces.json"
+    
+    performances = load_performances(positions, min_year=min_year, elite_test_pieces_path=elite_test_pieces_path, band_type=band_type)
     if not performances:
         console.print("[yellow]No performances found for the given criteria[/yellow]")
         if aggregate:

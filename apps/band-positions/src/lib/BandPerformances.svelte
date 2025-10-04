@@ -150,7 +150,9 @@
                       {#each pieceEntries as pieceEntry}
                         <li>
                           {#if pieceEntry.isTestPiece}
-                            <span class="test-piece-label" title="Pliktstykke">P:</span>
+                            <span class="test-piece-label" title="Pliktstykke (fredag)">P:</span>
+                          {:else if bandType === 'brass' && isEliteDivision(entry.division)}
+                            <span class="own-choice-label" title="Selvvalgt (lørdag)">S:</span>
                           {/if}
                           {#if pieceEntry.pieceSlug}
                             <a
@@ -441,20 +443,30 @@
     border: 0;
   }
 
-  .test-piece-label {
+  .test-piece-label,
+  .own-choice-label {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     font-size: 0.7rem;
     font-weight: 700;
-    color: var(--color-accent);
-    background: rgba(var(--color-accent-rgb, 147, 51, 234), 0.1);
-    border: 1px solid var(--color-accent);
     border-radius: 0.25rem;
     padding: 0.1rem 0.3rem;
     margin-right: 0.35rem;
     text-transform: uppercase;
     letter-spacing: 0.02em;
+  }
+
+  .test-piece-label {
+    color: var(--color-accent);
+    background: rgba(var(--color-accent-rgb, 147, 51, 234), 0.1);
+    border: 1px solid var(--color-accent);
+  }
+
+  .own-choice-label {
+    color: #10b981;
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid #10b981;
   }
 
   .test-piece-link {

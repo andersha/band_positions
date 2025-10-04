@@ -378,12 +378,78 @@ import type {
       .sort((a, b) => a.name.localeCompare(b.name));
   }
 
+  // Helper function to add Elite test piece performances for brass bands
+  // This is kept separate from own-choice piece logic to maintain clarity
+  function addEliteTestPiecePerformances(
+    records: Map<string, PieceRecord>,
+    bands: BandRecord[],
+    eliteTestPiecesData: EliteTestPiecesData | null
+  ): void {
+    if (!eliteTestPiecesData?.test_pieces) return;
+
+    // Group entries by year for efficient lookups
+    const entriesByYear = new Map<number, Array<{ band: string; entry: BandEntry }>>();
+    for (const band of bands) {
+      for (const entry of band.entries) {
+        if (!entriesByYear.has(entry.year)) {
+          entriesByYear.set(entry.year, []);
+        }
+        entriesByYear.get(entry.year)!.push({ band: band.name, entry });
+      }
+    }
+
+    // Process each year that has a test piece
+    for (const [yearStr, testPieceData] of Object.entries(eliteTestPiecesData.test_pieces)) {
+      const year = Number(yearStr);
+      if (!entriesByYear.has(year)) continue;
+
+      const pieceName = testPieceData.piece;
+      const composer = testPieceData.composer;
+      const pieceSlug = slugify(pieceName);
+
+      // Find all Elite division entries for this year
+      const yearEntries = entriesByYear.get(year)!;
+      const eliteEntries = yearEntries.filter(({ entry }) => 
+        entry.division.toLowerCase() === 'elite'
+      );
+
+      if (eliteEntries.length === 0) continue;
+
+      // Get or create the piece record
+      let record = records.get(pieceSlug);
+      if (!record) {
+        const composerNames = composer ? extractComposerNames(composer) : [];
+        record = {
+          name: pieceName,
+          slug: pieceSlug,
+          composer: composer ?? null,
+          composerNames,
+          performances: []
+        };
+        records.set(pieceSlug, record);
+      } else if (!record.composer && composer) {
+        // Update composer info if not already set
+        record.composer = composer;
+        record.composerNames = extractComposerNames(composer);
+      }
+
+      // Add a performance for each Elite band
+      for (const { band, entry } of eliteEntries) {
+        const streaming = findStreamingLinkForPiece(entry, band, pieceName);
+        record.performances.push({ band, entry, streaming });
+      }
+    }
+  }
+
   function buildPieceRecords(
     bands: BandRecord[],
-    composerIndex: Map<string, PieceMetadataEntry[]>
+    composerIndex: Map<string, PieceMetadataEntry[]>,
+    eliteTestPiecesData: EliteTestPiecesData | null,
+    currentBandType: BandType
   ): PieceRecord[] {
     const records = new Map<string, PieceRecord>();
 
+    // First, process all own-choice pieces from band entries
     for (const band of bands) {
       for (const entry of band.entries) {
         const pieces = Array.isArray(entry.pieces)
@@ -414,6 +480,11 @@ import type {
           record.performances.push({ band: band.name, entry, streaming });
         }
       }
+    }
+
+    // For brass bands, also add Elite test piece performances
+    if (currentBandType === 'brass') {
+      addEliteTestPiecePerformances(records, bands, eliteTestPiecesData);
     }
 
     return Array.from(records.values()).map((record) => ({
@@ -776,7 +847,7 @@ import type {
     }
 
     if (!pieceRecords.length) {
-      pieceRecords = buildPieceRecords(dataset.bands, pieceComposerIndex);
+      pieceRecords = buildPieceRecords(dataset.bands, pieceComposerIndex, eliteTestPieces, bandType);
       composerRecords = buildComposerRecords(pieceRecords);
     }
     const pieceMatches = findMatches(pieceRecords, getSlugsFromURL('pieces'));
@@ -978,7 +1049,7 @@ import type {
       const parsedDataset = (await positionsResponse.json()) as BandDataset;
       dataset = parsedDataset;
       conductorRecords = buildConductorRecords(parsedDataset.bands);
-      pieceRecords = buildPieceRecords(parsedDataset.bands, pieceComposerIndex);
+      pieceRecords = buildPieceRecords(parsedDataset.bands, pieceComposerIndex, eliteTestPieces, type);
       composerRecords = buildComposerRecords(pieceRecords);
       syncSelectionFromURL({ updateHistory: false });
       lastSyncedSignature = getSelectedSignature();
