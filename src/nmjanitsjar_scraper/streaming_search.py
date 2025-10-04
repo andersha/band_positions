@@ -67,7 +67,7 @@ def _strip_parenthetical(value: str) -> str:
     return "".join(result)
 
 
-def normalize_title(value: str) -> str:
+def normalize_title(value: str, *, remove_parentheticals: bool = True) -> str:
     """Normalize a piece or track title for fuzzy comparison."""
 
     if not value:
@@ -79,7 +79,8 @@ def normalize_title(value: str) -> str:
         .replace("\u2013", "-")
         .replace("\u2014", "-")
     )
-    cleaned = _strip_parenthetical(cleaned)
+    if remove_parentheticals:
+        cleaned = _strip_parenthetical(cleaned)
     cleaned = unicodedata.normalize("NFKD", cleaned)
     cleaned = "".join(ch for ch in cleaned if not unicodedata.combining(ch))
     cleaned = cleaned.lower()
@@ -115,6 +116,84 @@ def similarity_score(piece_slug: str, track_slug: str) -> float:
     return max(ratio, token_overlap)
 
 
+def get_division_tokens(division: str) -> set[str]:
+    """Get normalized division tokens for album matching."""
+    # Normalize the input division
+    normalized = division.lower().strip()
+    
+    # Build token set
+    tokens = set()
+    
+    if "elite" in normalized:
+        tokens.update(["elite", "elitedivisjon", "elite-divisjon", "elite divisjon"])
+    
+    # Extract division number if present
+    for num in ["1", "2", "3", "4", "5", "6", "7"]:
+        if num in normalized:
+            tokens.update([
+                f"{num}. div",
+                f"{num} div",
+                f"{num}. divisjon",
+                f"{num}-divisjon",
+                f"{num}.div",
+                f"{num}div",
+            ])
+            break
+    
+    return tokens
+
+
+def score_album_relevance(album: Dict, year: int, division: str) -> float:
+    """Score an album's relevance for a given year and division.
+    
+    Higher scores indicate more relevant albums that should be prioritized.
+    """
+    score = 0.0
+    album_name = (album.get("name") or album.get("collectionName") or "").lower()
+    release_date = album.get("release_date") or album.get("releaseDate") or ""
+    
+    # Extract release year
+    release_year = None
+    if isinstance(release_date, str) and len(release_date) >= 4:
+        try:
+            release_year = int(release_date[:4])
+        except ValueError:
+            pass
+    
+    # Year matching (HIGHEST priority - dramatically increased)
+    if release_year == year:
+        score += 200  # Increased from 50
+    if str(year) in album_name:
+        score += 100  # Increased from 30
+    
+    # Division matching (VERY high priority - dramatically increased)
+    division_tokens = get_division_tokens(division)
+    for token in division_tokens:
+        if token in album_name:
+            score += 150  # Increased from 40
+            break
+    
+    # Contest tokens
+    contest_tokens = ["nm brass", "nm janitsjar", "norgesmesterskap"]
+    for token in contest_tokens:
+        if token in album_name:
+            score += 20
+            break
+    
+    # Live recording
+    if "live" in album_name or "(live)" in album_name:
+        score += 5
+    
+    # Album type preference (Spotify specific)
+    album_type = album.get("album_type") or album.get("type") or ""
+    if album_type == "album":
+        score += 2
+    elif album_type == "single":
+        score -= 10
+    
+    return score
+
+
 # ---------------------------------------------------------------------------
 # Data structures
 # ---------------------------------------------------------------------------
@@ -133,6 +212,7 @@ class Track:
     platform: str
     title: str
     slug: str
+    slug_variants: List[str]
     url: str
     album: str
     album_id: str
@@ -301,9 +381,14 @@ class AppleMusicClient:
     SEARCH_URL = "https://itunes.apple.com/search"
     LOOKUP_URL = "https://itunes.apple.com/lookup"
 
-    def __init__(self, *, country: str = "us", session: Optional[Session] = None, cache: Optional[StreamingCache] = None):
+    def __init__(self, *, country: str = "us", session: Optional[Session] = None, cache: Optional[StreamingCache] = None, user_agent: Optional[str] = None):
         self.country = country
         self.session = session or requests.Session()
+        if user_agent:
+            self.session.headers.update({"User-Agent": user_agent})
+        elif "User-Agent" not in self.session.headers:
+            # Set a default user agent to avoid 403 Forbidden errors from some servers
+            self.session.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36"})
         self.cache = cache
 
     @retry(stop=stop_after_attempt(3), wait=wait_fixed(1))
@@ -323,6 +408,9 @@ class AppleMusicClient:
             response = self.session.get(self.SEARCH_URL, params=params, timeout=15)
         if response.status_code == 404:
             return []
+        if response.status_code == 403:
+            print(f"[apple] 403 forbidden on search('{term}') – rate limited, skipping Apple Music")
+            return []
         response.raise_for_status()
         data = response.json()
         return data.get("results", [])
@@ -339,6 +427,9 @@ class AppleMusicClient:
             response = self.session.get(self.LOOKUP_URL, params=params, timeout=15)
         if response.status_code == 404:
             return []
+        if response.status_code == 403:
+            print(f"[apple] 403 forbidden on lookup('{collection_id}') – rate limited, skipping")
+            return []
         response.raise_for_status()
         data = response.json()
         return [item for item in data.get("results", []) if item.get("wrapperType") == "track"]
@@ -349,27 +440,49 @@ class AppleMusicClient:
 # ---------------------------------------------------------------------------
 
 
+ALBUM_PREFIXES = {
+    "wind": "NM Janitsjar",
+    "brass": "NM Brass",
+}
+
 DIVISION_ALBUM_LABELS = {
     "Elite": "Elitedivisjon",
-    "1. divisjon": "1. div",
-    "2. divisjon": "2. div",
-    "3. divisjon": "3. div",
-    "4. divisjon": "4. div",
-    "5. divisjon": "5. div",
-    "6. divisjon": "6. div",
-    "7. divisjon": "7. div",
+    "Elitedivisjon": "Elitedivisjon",
+    "1. divisjon": "1. divisjon",
+    "2. divisjon": "2. divisjon",
+    "3. divisjon": "3. divisjon",
+    "4. divisjon": "4. divisjon",
+    "5. divisjon": "5. divisjon",
+    "6. divisjon": "6. divisjon",
+    "7. divisjon": "7. divisjon",
+}
+
+DIVISION_SYNONYMS = {
+    "Elitedivisjon": ["Elitedivisjon", "Elite"],
+    "1. divisjon": ["1. divisjon", "1. div", "1.div", "1 div"],
+    "2. divisjon": ["2. divisjon", "2. div", "2.div", "2 div"],
+    "3. divisjon": ["3. divisjon", "3. div", "3.div", "3 div"],
+    "4. divisjon": ["4. divisjon", "4. div", "4.div", "4 div"],
+    "5. divisjon": ["5. divisjon", "5. div", "5.div", "5 div"],
+    "6. divisjon": ["6. divisjon", "6. div", "6.div", "6 div"],
+    "7. divisjon": ["7. divisjon", "7. div", "7.div", "7 div"],
 }
 
 
-def resolve_album_search_terms(year: int, division: str) -> List[str]:
-    normalized = DIVISION_ALBUM_LABELS.get(division, division)
-    base = f"NM Janitsjar {year} {normalized}".strip()
-    variants = {
-        base,
-        f"NM Janitsjar {year} {normalized} (Live)",
-        f"NM Janitsjar {year} - {normalized}",
-        f"NM Janitsjar {year}",
-    }
+def resolve_album_search_terms(year: int, division: str, band_type: str) -> List[str]:
+    prefix = ALBUM_PREFIXES.get(band_type, "NM Janitsjar")
+    normalized_division = DIVISION_ALBUM_LABELS.get(division, division)
+    division_variants = DIVISION_SYNONYMS.get(normalized_division, [normalized_division])
+
+    variants = {f"{prefix} {year}"}
+    for div_variant in division_variants:
+        base = f"{prefix} {year} {div_variant}".strip()
+        variants.update({
+            base,
+            f"{base} (Live)",
+            f"{prefix} {year} – {div_variant} (Live)",
+            f"{prefix} {year} - {div_variant}",
+        })
     return [variant for variant in variants if variant]
 
 
@@ -400,11 +513,15 @@ class StreamingLinkFinder:
         *,
         spotify: Optional[SpotifyClient],
         apple_music: Optional[AppleMusicClient],
+        band_type: str = "wind",
     ) -> None:
         self.spotify = spotify
         self.apple_music = apple_music
         self._spotify_album_cache: Dict[Tuple[int, str], List[Track]] = {}
         self._apple_album_cache: Dict[Tuple[int, str], List[Track]] = {}
+        # Cache discovered album names per year to avoid redundant searches
+        self._discovered_album_names: Dict[Tuple[int, str], set[str]] = {}  # (year, platform) -> set of album names
+        self.band_type = band_type
 
     def build_links(self, performances: Iterable[Performance]) -> List[StreamingMatch]:
         matches: List[StreamingMatch] = []
@@ -425,43 +542,104 @@ class StreamingLinkFinder:
             self._spotify_album_cache[key] = []
             return []
 
-        tracks: List[Track] = []
+        # Collect all candidate albums across all search terms
+        candidate_albums: List[Tuple[float, Dict]] = []  # (score, album)
         seen_albums: set[str] = set()
-
-        for term in resolve_album_search_terms(year, division):
+        
+        for term in resolve_album_search_terms(year, division, self.band_type):
             albums = self.spotify.search_albums(term)
             for album in albums:
                 album_id = album.get("id")
-                album_name = album.get("name")
                 if not album_id or album_id in seen_albums:
                     continue
                 seen_albums.add(album_id)
-                cached_tracks = self.spotify.cache.get_spotify_album_tracks(album_id) if self.spotify and self.spotify.cache else None
-                if cached_tracks is not None:
-                    track_items = cached_tracks
-                else:
-                    track_items = self.spotify.get_album_tracks(album_id)
-                    if self.spotify and self.spotify.cache and track_items is not None:
-                        self.spotify.cache.set_spotify_album_tracks(album_id, track_items)
-                for item in track_items:
-                    title = item.get("name")
-                    external_urls = item.get("external_urls") or {}
-                    url = external_urls.get("spotify")
-                    if not title or not url:
-                        continue
-                    slug = normalize_title(title)
-                    tracks.append(
-                        Track(
-                            platform="spotify",
-                            title=title,
-                            slug=slug,
-                            url=url,
-                            album=album_name or term,
-                            album_id=album_id,
-                        )
-                    )
-            if tracks:
+                
+                # Score this album's relevance
+                score = score_album_relevance(album, year, division)
+                candidate_albums.append((score, album))
+            
+            # Stop early if we have enough good candidates
+            if len(candidate_albums) >= 15:
                 break
+        
+        # Sort by score descending (best matches first)
+        candidate_albums.sort(key=lambda x: x[0], reverse=True)
+        
+        # Filter: ONLY use albums from the target year
+        # Check both release date and album name for the year
+        filtered_albums = []
+        for score, album in candidate_albums:
+            release_date = album.get("release_date") or ""
+            album_name = album.get("name") or ""
+            album_name_lower = album_name.lower()
+            
+            # Extract release year
+            release_year = None
+            if isinstance(release_date, str) and len(release_date) >= 4:
+                try:
+                    release_year = int(release_date[:4])
+                except ValueError:
+                    pass
+            
+            # Only include albums from the target year
+            if release_year == year or str(year) in album_name_lower:
+                filtered_albums.append((score, album))
+                # Remember this album name for future searches
+                if album_name:
+                    self._discovered_album_names.setdefault((year, "spotify"), set()).add(album_name)
+        
+        # Collect tracks from filtered albums, deduplicating by track ID
+        tracks: List[Track] = []
+        seen_track_ids: set[str] = set()
+        
+        for score, album in filtered_albums:
+            album_id = album.get("id")
+            album_name = album.get("name")
+            
+            # Skip albums with very low relevance scores
+            if score < 10:
+                continue
+            
+            # Fetch tracks from this album
+            cached_tracks = self.spotify.cache.get_spotify_album_tracks(album_id) if self.spotify and self.spotify.cache else None
+            if cached_tracks is not None:
+                track_items = cached_tracks
+            else:
+                track_items = self.spotify.get_album_tracks(album_id)
+                if self.spotify and self.spotify.cache and track_items is not None:
+                    self.spotify.cache.set_spotify_album_tracks(album_id, track_items)
+            
+            for item in track_items:
+                track_id = item.get("id")
+                if track_id and track_id in seen_track_ids:
+                    continue
+                if track_id:
+                    seen_track_ids.add(track_id)
+                
+                title = item.get("name")
+                external_urls = item.get("external_urls") or {}
+                url = external_urls.get("spotify")
+                if not title or not url:
+                    continue
+                
+                slug_primary = normalize_title(title)
+                slug_full = normalize_title(title, remove_parentheticals=False)
+                slug_variants = []
+                for candidate in (slug_primary, slug_full):
+                    if candidate and candidate not in slug_variants:
+                        slug_variants.append(candidate)
+                
+                tracks.append(
+                    Track(
+                        platform="spotify",
+                        title=title,
+                        slug=slug_variants[0] if slug_variants else slug_primary,
+                        slug_variants=slug_variants or [slug_primary],
+                        url=url,
+                        album=album_name or "",
+                        album_id=album_id,
+                    )
+                )
 
         self._spotify_album_cache[key] = tracks
         return tracks
@@ -474,10 +652,11 @@ class StreamingLinkFinder:
         best_match: Optional[Track] = None
         best_score = 0.0
         for track in tracks:
-            score = similarity_score(piece_slug, track.slug)
-            if score > best_score:
-                best_score = score
-                best_match = track
+            for slug_variant in track.slug_variants:
+                score = similarity_score(piece_slug, slug_variant)
+                if score > best_score:
+                    best_score = score
+                    best_match = track
         if best_match and best_score >= 0.65:
             best_match.match_score = best_score
             return best_match
@@ -493,43 +672,104 @@ class StreamingLinkFinder:
             self._apple_album_cache[key] = []
             return []
 
-        tracks: List[Track] = []
+        # Collect all candidate albums across all search terms
+        candidate_albums: List[Tuple[float, Dict]] = []  # (score, album)
         seen_collections: set[int] = set()
-
-        for term in resolve_album_search_terms(year, division):
+        
+        for term in resolve_album_search_terms(year, division, self.band_type):
             albums = self.apple_music.search_album(term)
             for album in albums:
                 collection_id = album.get("collectionId")
-                collection_name = album.get("collectionName")
                 if not collection_id or collection_id in seen_collections:
                     continue
                 seen_collections.add(collection_id)
-                cache_key = str(collection_id)
-                cached_tracks = self.apple_music.cache.get_apple_album_tracks(cache_key) if self.apple_music and self.apple_music.cache else None
-                if cached_tracks is not None:
-                    songs = cached_tracks
-                else:
-                    songs = self.apple_music.lookup_album_tracks(collection_id)
-                    if self.apple_music and self.apple_music.cache and songs is not None:
-                        self.apple_music.cache.set_apple_album_tracks(cache_key, songs)
-                for song in songs:
-                    title = song.get("trackName")
-                    url = song.get("trackViewUrl")
-                    if not title or not url:
-                        continue
-                    slug = normalize_title(title)
-                    tracks.append(
-                        Track(
-                            platform="apple_music",
-                            title=title,
-                            slug=slug,
-                            url=url,
-                            album=collection_name or term,
-                            album_id=str(collection_id),
-                        )
-                    )
-            if tracks:
+                
+                # Score this album's relevance
+                score = score_album_relevance(album, year, division)
+                candidate_albums.append((score, album))
+            
+            # Stop early if we have enough good candidates
+            if len(candidate_albums) >= 15:
                 break
+        
+        # Sort by score descending (best matches first)
+        candidate_albums.sort(key=lambda x: x[0], reverse=True)
+        
+        # Filter: ONLY use albums from the target year
+        # Check both release date and album name for the year
+        filtered_albums = []
+        for score, album in candidate_albums:
+            release_date = album.get("releaseDate") or ""
+            collection_name = album.get("collectionName") or ""
+            album_name_lower = collection_name.lower()
+            
+            # Extract release year
+            release_year = None
+            if isinstance(release_date, str) and len(release_date) >= 4:
+                try:
+                    release_year = int(release_date[:4])
+                except ValueError:
+                    pass
+            
+            # Only include albums from the target year
+            if release_year == year or str(year) in album_name_lower:
+                filtered_albums.append((score, album))
+                # Remember this album name for future searches
+                if collection_name:
+                    self._discovered_album_names.setdefault((year, "apple"), set()).add(collection_name)
+        
+        # Collect tracks from filtered albums, deduplicating by track ID
+        tracks: List[Track] = []
+        seen_track_ids: set[int] = set()
+        
+        for score, album in filtered_albums:
+            collection_id = album.get("collectionId")
+            collection_name = album.get("collectionName")
+            
+            # Skip albums with very low relevance scores
+            if score < 10:
+                continue
+            
+            # Fetch tracks from this album
+            cache_key = str(collection_id)
+            cached_tracks = self.apple_music.cache.get_apple_album_tracks(cache_key) if self.apple_music and self.apple_music.cache else None
+            if cached_tracks is not None:
+                songs = cached_tracks
+            else:
+                songs = self.apple_music.lookup_album_tracks(collection_id)
+                if self.apple_music and self.apple_music.cache and songs is not None:
+                    self.apple_music.cache.set_apple_album_tracks(cache_key, songs)
+            
+            for song in songs:
+                track_id = song.get("trackId")
+                if track_id and track_id in seen_track_ids:
+                    continue
+                if track_id:
+                    seen_track_ids.add(track_id)
+                
+                title = song.get("trackName")
+                url = song.get("trackViewUrl")
+                if not title or not url:
+                    continue
+                
+                slug_primary = normalize_title(title)
+                slug_full = normalize_title(title, remove_parentheticals=False)
+                slug_variants = []
+                for candidate in (slug_primary, slug_full):
+                    if candidate and candidate not in slug_variants:
+                        slug_variants.append(candidate)
+                
+                tracks.append(
+                    Track(
+                        platform="apple_music",
+                        title=title,
+                        slug=slug_variants[0] if slug_variants else slug_primary,
+                        slug_variants=slug_variants or [slug_primary],
+                        url=url,
+                        album=collection_name or "",
+                        album_id=str(collection_id),
+                    )
+                )
 
         self._apple_album_cache[key] = tracks
         return tracks
@@ -542,10 +782,11 @@ class StreamingLinkFinder:
         best_match: Optional[Track] = None
         best_score = 0.0
         for track in tracks:
-            score = similarity_score(piece_slug, track.slug)
-            if score > best_score:
-                best_score = score
-                best_match = track
+            for slug_variant in track.slug_variants:
+                score = similarity_score(piece_slug, slug_variant)
+                if score > best_score:
+                    best_score = score
+                    best_match = track
         if best_match and best_score >= 0.65:
             best_match.match_score = best_score
             return best_match
@@ -875,6 +1116,7 @@ def generate_streaming_links(
 
     spotify_client: Optional[SpotifyClient] = None
     apple_client: Optional[AppleMusicClient] = None
+    user_agent = f"nmjanitsjar_scraper/1.0 (https://github.com/frefrik/nmjanitsjar; andreas@famileik.no)"
 
     if not skip_spotify:
         if not spotify_client_id or not spotify_client_secret:
@@ -891,7 +1133,7 @@ def generate_streaming_links(
             spotify_client = SpotifyClient(client_id=spotify_client_id, client_secret=spotify_client_secret, cache=cache)
 
     if not skip_apple:
-        apple_client = AppleMusicClient(country=apple_country, cache=cache)
+        apple_client = AppleMusicClient(country=apple_country, cache=cache, user_agent=user_agent)
 
     override_resolver = StreamingOverrideResolver.from_file(overrides_path, console, band_type=band_type)
 
@@ -904,7 +1146,7 @@ def generate_streaming_links(
             cache.save()
         return 0
 
-    finder = StreamingLinkFinder(spotify=spotify_client, apple_music=apple_client)
+    finder = StreamingLinkFinder(spotify=spotify_client, apple_music=apple_client, band_type=band_type)
 
     available_years = sorted({performance.year for performance in performances})
     target_years = {year for year in available_years if year >= min_year}
