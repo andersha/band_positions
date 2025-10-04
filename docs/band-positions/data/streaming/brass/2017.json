@@ -17,9 +17,9 @@
       "division": "1. divisjon",
       "band": "Brøttum Brass",
       "result_piece": "Of Distant Memories",
-      "recording_title": "Of Distant Memories",
+      "recording_title": "Of distant Memories",
       "album": "Nm Brass 2017 - 1 Divisjon",
-      "spotify": "https://open.spotify.com/track/6tOQCvxqHpnW7JyoizXXY0",
+      "spotify": "https://open.spotify.com/track/4lU3TJn1gALhaicRLydr7i",
       "apple_music": null
     },
     {
@@ -47,9 +47,9 @@
       "division": "1. divisjon",
       "band": "Haukås Musikklag",
       "result_piece": "Tallis Variations",
-      "recording_title": "Tallis Variations",
+      "recording_title": "Tallis Variations -",
       "album": "Nm Brass 2017 - 1 Divisjon",
-      "spotify": "https://open.spotify.com/track/4N01DzTXs3W9Y5QehtQtGl",
+      "spotify": "https://open.spotify.com/track/65BhUhZm9lftJ60XvAss0a",
       "apple_music": null
     },
     {
@@ -120,36 +120,6 @@
       "recording_title": "Fraternity",
       "album": "Nm Brass 2017 - 1 Divisjon",
       "spotify": "https://open.spotify.com/track/4BFz1Awe6mZN2Jx3w2FuHW",
-      "apple_music": null
-    },
-    {
-      "year": 2017,
-      "division": "2. divisjon",
-      "band": "Follesø Musikklag",
-      "result_piece": "A London Overture",
-      "recording_title": "A London Overture",
-      "album": "Nm Brass 2017 - 5 Divisjon",
-      "spotify": "https://open.spotify.com/track/58ixav7Ij0O6pnnDvDL8c4",
-      "apple_music": null
-    },
-    {
-      "year": 2017,
-      "division": "2. divisjon",
-      "band": "Sandefjord Brass Symposium",
-      "result_piece": "Variations on an Enigma",
-      "recording_title": "Variations on an Enigma",
-      "album": "Nm Brass 2017 - 3 Divisjon",
-      "spotify": "https://open.spotify.com/track/7mN4yEsT5df2wCpvTMEHW0",
-      "apple_music": null
-    },
-    {
-      "year": 2017,
-      "division": "2. divisjon",
-      "band": "Tysnes Musikklag",
-      "result_piece": "Essay",
-      "recording_title": "Essay",
-      "album": "Nm Brass 2017 - 3 Divisjon",
-      "spotify": "https://open.spotify.com/track/3hgcadoM5NKHrUmezuTlJT",
       "apple_music": null
     },
     {
@@ -297,9 +267,9 @@
       "division": "3. divisjon",
       "band": "Valdres Brass Band",
       "result_piece": "Blazon",
-      "recording_title": "Blazon - Bergen",
+      "recording_title": "Blazon - Valdres",
       "album": "Nm Brass 2017 - 3 Divisjon",
-      "spotify": "https://open.spotify.com/track/61WfUoSRi3aE3Mp29iwOIR",
+      "spotify": "https://open.spotify.com/track/2YzUDe9lbCTQcGbGgeuJuM",
       "apple_music": null
     },
     {
@@ -337,9 +307,9 @@
       "division": "4. divisjon",
       "band": "Frei Hornmusikk",
       "result_piece": "Saint-Saëns Variations",
-      "recording_title": "Saint-Saens Variations - Flå",
+      "recording_title": "Saint-Saens Variations - Frei",
       "album": "Nm Brass 2017 - 4 Divisjon",
-      "spotify": "https://open.spotify.com/track/6ft8DCQMybkFTlghwFP2K2",
+      "spotify": "https://open.spotify.com/track/7MVXrivmQGUJ0tlI3LecVr",
       "apple_music": null
     },
     {
@@ -367,9 +337,9 @@
       "division": "4. divisjon",
       "band": "Holmestrand Ungdomskorps",
       "result_piece": "Saint-Saëns Variations",
-      "recording_title": "Saint-Saens Variations - Flå",
+      "recording_title": "Saint-Saens Variations - Holmestrand",
       "album": "Nm Brass 2017 - 4 Divisjon",
-      "spotify": "https://open.spotify.com/track/6ft8DCQMybkFTlghwFP2K2",
+      "spotify": "https://open.spotify.com/track/4juw88m9m74qNfGbNsgAwl",
       "apple_music": null
     },
     {
@@ -527,9 +497,9 @@
       "division": "5. divisjon",
       "band": "Randaberg Musikkorps",
       "result_piece": "Anglian Dances",
-      "recording_title": "Anglian Dances - Haus",
+      "recording_title": "Anglian Dances - Randaberg",
       "album": "Nm Brass 2017 - 5 Divisjon",
-      "spotify": "https://open.spotify.com/track/3NkzMg3m3fIfPsvfr0jEmg",
+      "spotify": "https://open.spotify.com/track/2l3F6pHk7HLk3S4GeQZJma",
       "apple_music": null
     },
     {
@@ -595,11 +565,31 @@
     {
       "year": 2017,
       "division": "Elite",
+      "band": "Bjørsvik Brass",
+      "result_piece": "Variations on a theme of Michael Tippett ... A Centenary Tribute",
+      "recording_title": "Variations on a theme of Michael Tippet",
+      "album": "Nm Brass 2017 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/13pJ048rfK4NgsqA22u3M0",
+      "apple_music": null
+    },
+    {
+      "year": 2017,
+      "division": "Elite",
       "band": "Eikanger-Bjørsvik Musikklag",
       "result_piece": "Fraternity",
-      "recording_title": "Fraternity",
-      "album": "Nm Brass 2017 - 1 Divisjon",
-      "spotify": "https://open.spotify.com/track/4BFz1Awe6mZN2Jx3w2FuHW",
+      "recording_title": "Fraternity - Eikanger",
+      "album": "Nm Brass 2017 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/6IeI3NzYg95VX3fqxGGGsq",
+      "apple_music": null
+    },
+    {
+      "year": 2017,
+      "division": "Elite",
+      "band": "Eikanger-Bjørsvik Musikklag",
+      "result_piece": "Variations on a theme of Michael Tippett ... A Centenary Tribute",
+      "recording_title": "Variations on a theme of Michael Tippet",
+      "album": "Nm Brass 2017 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/3bRKWOeeI6mfMhiDUcuat1",
       "apple_music": null
     },
     {
@@ -615,11 +605,31 @@
     {
       "year": 2017,
       "division": "Elite",
+      "band": "Jaren Hornmusikkforening",
+      "result_piece": "Variations on a theme of Michael Tippett ... A Centenary Tribute",
+      "recording_title": "Variations on a theme of Michael Tippet",
+      "album": "Nm Brass 2017 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/5eFD9ZRpTxtMYtO4070UPY",
+      "apple_music": null
+    },
+    {
+      "year": 2017,
+      "division": "Elite",
       "band": "Kleppe Musikklag",
       "result_piece": "REM-Scapes",
       "recording_title": "REM-Scapes",
       "album": "Nm Brass 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/44IEY7TwJj8ZfNUh9lPhCx",
+      "apple_music": null
+    },
+    {
+      "year": 2017,
+      "division": "Elite",
+      "band": "Kleppe Musikklag",
+      "result_piece": "Variations on a theme of Michael Tippett ... A Centenary Tribute",
+      "recording_title": "Variations on a theme of Michael Tippet",
+      "album": "Nm Brass 2017 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/12rPg1RdHj47lcPHjo6op5",
       "apple_music": null
     },
     {
@@ -635,6 +645,16 @@
     {
       "year": 2017,
       "division": "Elite",
+      "band": "Krohnengen Brass Band",
+      "result_piece": "Variations on a theme of Michael Tippett ... A Centenary Tribute",
+      "recording_title": "Variations on a theme of Michael Tippet",
+      "album": "Nm Brass 2017 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/4ngHiRFbiPhgq3wQMhaRs0",
+      "apple_music": null
+    },
+    {
+      "year": 2017,
+      "division": "Elite",
       "band": "Manger Musikklag",
       "result_piece": "Journey of the Lone Wolf",
       "recording_title": "Journey of the Lone Wolf",
@@ -645,11 +665,31 @@
     {
       "year": 2017,
       "division": "Elite",
+      "band": "Manger Musikklag",
+      "result_piece": "Variations on a theme of Michael Tippett ... A Centenary Tribute",
+      "recording_title": "Variations on a theme of Michael Tippet",
+      "album": "Nm Brass 2017 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/5CtfvHc2LbEWWmYCVEucSu",
+      "apple_music": null
+    },
+    {
+      "year": 2017,
+      "division": "Elite",
       "band": "Molde Brass Band",
       "result_piece": "Fraternity",
-      "recording_title": "Fraternity",
-      "album": "Nm Brass 2017 - 1 Divisjon",
-      "spotify": "https://open.spotify.com/track/4BFz1Awe6mZN2Jx3w2FuHW",
+      "recording_title": "Fraternity - Molde",
+      "album": "Nm Brass 2017 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/4qxjEd9ytAKyaefxpZbtuV",
+      "apple_music": null
+    },
+    {
+      "year": 2017,
+      "division": "Elite",
+      "band": "Molde Brass Band",
+      "result_piece": "Variations on a theme of Michael Tippett ... A Centenary Tribute",
+      "recording_title": "Variations on a theme of Michael Tippet",
+      "album": "Nm Brass 2017 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/0vFpFn7KK0ygrRV0GAG0He",
       "apple_music": null
     },
     {
@@ -665,6 +705,16 @@
     {
       "year": 2017,
       "division": "Elite",
+      "band": "Oslo Brass Band",
+      "result_piece": "Variations on a theme of Michael Tippett ... A Centenary Tribute",
+      "recording_title": "Variations on a theme of Michael Tippet",
+      "album": "Nm Brass 2017 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/5FsrA3P5xqTV1TTiQpUD7W",
+      "apple_music": null
+    },
+    {
+      "year": 2017,
+      "division": "Elite",
       "band": "Oslofjord Brass",
       "result_piece": "The Torchbearer",
       "recording_title": "The Torchbearer",
@@ -675,11 +725,31 @@
     {
       "year": 2017,
       "division": "Elite",
+      "band": "Oslofjord Brass",
+      "result_piece": "Variations on a theme of Michael Tippett ... A Centenary Tribute",
+      "recording_title": "Variations on a theme of Michael Tippet",
+      "album": "Nm Brass 2017 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/6GqltS5RXC6EVo4QyceSXG",
+      "apple_music": null
+    },
+    {
+      "year": 2017,
+      "division": "Elite",
       "band": "Stavanger Brass Band",
       "result_piece": "The Turing Test",
       "recording_title": "The Turing Test",
       "album": "Nm Brass 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/3tb0O0lwHWHVux100mZy3V",
+      "apple_music": null
+    },
+    {
+      "year": 2017,
+      "division": "Elite",
+      "band": "Stavanger Brass Band",
+      "result_piece": "Variations on a theme of Michael Tippett ... A Centenary Tribute",
+      "recording_title": "Variations on a theme of Michael Tippet",
+      "album": "Nm Brass 2017 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/4DGa6aR9ms9HWNMkRVaNT8",
       "apple_music": null
     }
   ]

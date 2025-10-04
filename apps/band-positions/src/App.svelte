@@ -59,6 +59,7 @@ import type {
   let initialUrlSyncDone = false;
   let lastSyncedSignature = '';
   let yAxisMode = $state<'absolute' | 'relative'>(DEFAULT_MODE);
+  let yAxisScale = $state<'fitted' | 'full'>('fitted'); // Default to fitted (new dynamic behavior)
   let activeView = $state<ViewType>(DEFAULT_VIEW);
   let theme = $state<Theme>('dark');
   let bandType = $state<BandType>('wind');
@@ -977,6 +978,11 @@ import type {
     syncUrlIfReady();
   }
 
+  function setYAxisScale(scale: 'fitted' | 'full'): void {
+    if (yAxisScale === scale) return;
+    yAxisScale = scale;
+  }
+
   async function loadEliteTestPieces() {
     try {
       const res = await fetch('data/elite_test_pieces.json', { cache: 'no-cache' });
@@ -1329,25 +1335,48 @@ import type {
         <ComposerPieces composers={composerSelection} {bandType} />
       {:else}
         <section class="chart-card">
-          <div class="mode-toggle">
-            <span class="mode-toggle__label">Plassering:</span>
-            <div class="mode-toggle__buttons" role="group" aria-label="Velg plasseringsvisning">
-              <button
-                type="button"
-                class:selected={yAxisMode === 'absolute'}
-                aria-pressed={yAxisMode === 'absolute'}
-                onclick={() => setYAxisMode('absolute')}
-              >
-                Absolutt
-              </button>
-              <button
-                type="button"
-                class:selected={yAxisMode === 'relative'}
-                aria-pressed={yAxisMode === 'relative'}
-                onclick={() => setYAxisMode('relative')}
-              >
-                Relativ
-              </button>
+          <div class="mode-toggles-container">
+            <div class="mode-toggle">
+              <span class="mode-toggle__label">Plassering:</span>
+              <div class="mode-toggle__buttons" role="group" aria-label="Velg plasseringsvisning">
+                <button
+                  type="button"
+                  class:selected={yAxisMode === 'absolute'}
+                  aria-pressed={yAxisMode === 'absolute'}
+                  onclick={() => setYAxisMode('absolute')}
+                >
+                  Absolutt
+                </button>
+                <button
+                  type="button"
+                  class:selected={yAxisMode === 'relative'}
+                  aria-pressed={yAxisMode === 'relative'}
+                  onclick={() => setYAxisMode('relative')}
+                >
+                  Relativ
+                </button>
+              </div>
+            </div>
+            <div class="mode-toggle">
+              <span class="mode-toggle__label">Y-akse:</span>
+              <div class="mode-toggle__buttons" role="group" aria-label="Velg y-akse skalering">
+                <button
+                  type="button"
+                  class:selected={yAxisScale === 'fitted'}
+                  aria-pressed={yAxisScale === 'fitted'}
+                  onclick={() => setYAxisScale('fitted')}
+                >
+                  Tilpasset
+                </button>
+                <button
+                  type="button"
+                  class:selected={yAxisScale === 'full'}
+                  aria-pressed={yAxisScale === 'full'}
+                  onclick={() => setYAxisScale('full')}
+                >
+                  Full
+                </button>
+              </div>
             </div>
             <button
               type="button"
@@ -1392,6 +1421,7 @@ import type {
             {maxFieldSize}
             bands={chartSelection}
             yMode={yAxisMode}
+            {yAxisScale}
             showConductorMarkers={activeView === 'bands'}
           />
         </section>
@@ -1704,16 +1734,23 @@ import type {
     font-size: 0.85rem;
   }
 
-  .mode-toggle {
+  .mode-toggles-container {
     position: absolute;
     top: 1rem;
     right: 1.25rem;
     display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    font-size: 0.85rem;
-    color: var(--color-text-secondary);
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
     z-index: 1;
+  }
+
+  .mode-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
   }
 
   .mode-toggle__label {
@@ -1724,8 +1761,8 @@ import type {
   .mode-toggle__buttons {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.25rem;
+    gap: 0.35rem;
+    padding: 0.2rem;
     border-radius: 999px;
     background: var(--color-mode-toggle-bg);
     border: 1px solid var(--color-mode-toggle-border);
@@ -1737,10 +1774,10 @@ import type {
     background: transparent;
     border: none;
     color: var(--color-text-secondary);
-    padding: 0.35rem 0.9rem;
+    padding: 0.25rem 0.65rem;
     cursor: pointer;
     border-radius: 999px;
-    font-size: inherit;
+    font-size: 0.8rem;
     line-height: 1.2;
     transition: background 0.18s ease, color 0.18s ease;
   }

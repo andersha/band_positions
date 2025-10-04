@@ -8,12 +8,14 @@
     years = [], 
     maxFieldSize = 0, 
     yMode = 'relative', 
+    yAxisScale = 'fitted',
     showConductorMarkers = true 
   } = $props<{
     bands?: BandRecord[];
     years?: number[];
     maxFieldSize?: number;
     yMode?: 'absolute' | 'relative';
+    yAxisScale?: 'fitted' | 'full';
     showConductorMarkers?: boolean;
   }>();
 
@@ -43,6 +45,11 @@
   const YEAR_AXIS_PADDING = 10;
   const ESTIMATED_CHARACTER_WIDTH = 6;
   const LANE_SEQUENCE = [0, 1, 2, 3];
+
+  // Dynamic y-axis scaling constants
+  const Y_PAD_RATIO = 0.08; // 8% padding for non-zero ranges
+  const MIN_RELATIVE_PAD_ABS = 5; // Minimum padding in percentage points for relative mode
+  const MIN_ABSOLUTE_PAD_ABS = 0.5; // Minimum padding in positions for absolute mode
 
   type MarkerShape = 'circle' | 'square' | 'triangle';
 
@@ -328,6 +335,69 @@
     return a.localeCompare(b);
   }
 
+  /**
+   * Computes the raw min/max extent of the given y-values.
+   * Returns null if values array is empty or contains no finite numbers.
+   */
+  function computeExtent(values: number[]): [number, number] | null {
+    if (!values || values.length === 0) return null;
+    let min = Infinity;
+    let max = -Infinity;
+    for (const v of values) {
+      if (v < min) min = v;
+      if (v > max) max = v;
+    }
+    if (!Number.isFinite(min) || !Number.isFinite(max)) return null;
+    return [min, max];
+  }
+
+  /**
+   * Pads the extent with a small buffer, respecting mode-specific boundaries:
+   * - Relative mode: clamp to [0, 100], no padding when touching 0% or 100%
+   * - Absolute mode: clamp min to 1, no upper bound, no padding when touching position 1
+   */
+  function padExtent([min, max]: [number, number], isRelative: boolean): [number, number] {
+    if (min > max) [min, max] = [max, min];
+    const range = max - min;
+
+    const lowerBound = isRelative ? 0 : 1;
+    const upperBound = isRelative ? 100 : Infinity;
+
+    // Calculate padding: proportional to range, or absolute minimum for zero-range
+    let pad = range * Y_PAD_RATIO;
+    if (range === 0) {
+      pad = isRelative ? MIN_RELATIVE_PAD_ABS : MIN_ABSOLUTE_PAD_ABS;
+    }
+
+    let paddedMin = min - pad;
+    let paddedMax = max + pad;
+
+    // Respect boundaries: don't pad beyond limits if data touches them
+    const touchesLower = (isRelative && min <= 0) || (!isRelative && min <= 1);
+    if (touchesLower) {
+      paddedMin = min; // No padding below when at best position
+    } else {
+      paddedMin = Math.max(paddedMin, lowerBound);
+    }
+
+    const touchesUpper = isRelative && max >= 100;
+    if (touchesUpper) {
+      paddedMax = max; // No padding above when at worst position (100%)
+    } else if (isRelative) {
+      paddedMax = Math.min(paddedMax, upperBound);
+    }
+    // Absolute mode has no explicit upper bound
+
+    // Ensure non-degenerate domain after clamping
+    if (paddedMax === paddedMin) {
+      const bump = isRelative ? MIN_RELATIVE_PAD_ABS : MIN_ABSOLUTE_PAD_ABS;
+      paddedMin = Math.max(paddedMin - bump, lowerBound);
+      paddedMax = isRelative ? Math.min(paddedMax + bump, upperBound) : paddedMax + bump;
+    }
+
+    return [paddedMin, paddedMax];
+  }
+
   interface NormalizedBand {
     band: BandRecord;
     entries: ChartEntry[];
@@ -356,7 +426,32 @@
 
   let chartMaxField = $derived(maxFieldSize || (allEntries.length ? Math.max(...allEntries.map((entry: ChartEntry) => entry.field_size ?? 0)) : 1));
 
-  let yDomain = $derived<[number, number]>(yMode === 'relative' ? [100, 0] : [chartMaxField + 1, 0]);
+  // Extract all y-values from visible data for dynamic extent calculation
+  let visibleYValues = $derived((() => {
+    const values: number[] = [];
+    for (const entry of allEntries) {
+      const yValue = getEntryYValue(entry);
+      if (yValue != null && Number.isFinite(yValue)) {
+        values.push(yValue);
+      }
+    }
+    return values;
+  })());
+
+  // Compute raw extent and apply smart padding
+  let rawYExtent = $derived(computeExtent(visibleYValues));
+  let paddedYExtent = $derived(rawYExtent ? padExtent(rawYExtent, yMode === 'relative') : null);
+
+  // Dynamic y-domain: use padded extent when fitted mode is active, otherwise use full range
+  let yDomain = $derived<[number, number]>((() => {
+    if (yAxisScale === 'fitted' && paddedYExtent) {
+      const [minY, maxY] = paddedYExtent;
+      // Inverted domain: max (worse position) first, min (better position) second
+      return [maxY, minY];
+    }
+    // Use full range when in 'full' mode or when no data
+    return yMode === 'relative' ? [100, 0] : [chartMaxField + 1, 0];
+  })());
 
   let yScale = $derived(scaleLinear().domain(yDomain).range([height - margin.bottom, margin.top]));
 
@@ -404,17 +499,29 @@
   );
 
   let yTicks = $derived((() => {
-    if (yMode === 'relative') {
-      return Array.from({ length: 11 }, (_, index) => index * 10);
-    } else {
-      const tickValues = Array.from(new Set<number>(ticks(1, chartMaxField, 6).map((tick) => Math.round(tick))))
-        .filter((tick) => tick >= 1)
-        .sort((a, b) => a - b);
-      if (!tickValues.includes(1)) {
-        return [1, ...tickValues];
-      }
-      return tickValues;
+    // Extract bounds from yDomain (which is inverted: [max, min])
+    const maxY = yDomain[0];
+    const minY = yDomain[1];
+    
+    // Calculate nice tick count based on available vertical space
+    const innerHeight = height - margin.top - margin.bottom;
+    const approxTickCount = Math.max(4, Math.min(8, Math.floor(innerHeight / 50)));
+    
+    // Generate ticks within the current domain
+    let tickValues = Array.from(new Set<number>(
+      ticks(minY, maxY, approxTickCount).map((tick) => 
+        yMode === 'relative' ? Math.round(tick) : Math.round(tick)
+      )
+    ))
+    .filter((tick) => tick >= minY && tick <= maxY)
+    .sort((a, b) => a - b);
+    
+    // For absolute mode, ensure position 1 is always included if in range
+    if (yMode === 'absolute' && minY <= 1 && maxY >= 1 && !tickValues.includes(1)) {
+      tickValues = [1, ...tickValues.filter(t => t !== 1)].sort((a, b) => a - b);
     }
+    
+    return tickValues;
   })());
 
   let participatingYears = $derived(new Set(allEntries.map((entry) => entry.year)));
