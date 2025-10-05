@@ -274,7 +274,7 @@ class StreamingCache:
     def __init__(self, path: Optional[Path]):
         self.path = path.expanduser() if path else None
         self._data = {
-            "spotify": {"album_tracks": {}},
+            "spotify": {"album_tracks": {}, "album_searches": {}},
             "apple": {"album_tracks": {}, "album_searches": {}},
         }
         self._dirty = False
@@ -286,6 +286,7 @@ class StreamingCache:
                         if key in loaded and isinstance(loaded[key], dict):
                             self._data[key].update(loaded[key])
                     # Ensure album_searches exists for backward compatibility
+                    self._data.setdefault("spotify", {}).setdefault("album_searches", {})
                     self._data.setdefault("apple", {}).setdefault("album_searches", {})
             except json.JSONDecodeError:
                 pass
@@ -296,6 +297,30 @@ class StreamingCache:
     def set_spotify_album_tracks(self, album_id: str, tracks: List[Dict]) -> None:
         self._data.setdefault("spotify", {}).setdefault("album_tracks", {})[album_id] = {
             "tracks": tracks,
+            "fetched_at": time.time(),
+        }
+        self._dirty = True
+
+    def get_spotify_album_search(self, year: int, division: str) -> Optional[List[Dict]]:
+        """Get cached Spotify album search results for a year/division."""
+        spotify = self._data.get("spotify", {})
+        searches = spotify.get("album_searches", {})
+        key = f"{year}|{division}"
+        entry = searches.get(key)
+        if not entry:
+            return None
+        albums = entry.get("albums") or []
+        return albums if albums else None
+
+    def set_spotify_album_search(self, year: int, division: str, albums: List[Dict]) -> None:
+        """Cache Spotify album search results for a year/division."""
+        if not albums:
+            return
+        spotify = self._data.setdefault("spotify", {})
+        searches = spotify.setdefault("album_searches", {})
+        key = f"{year}|{division}"
+        searches[key] = {
+            "albums": albums,
             "fetched_at": time.time(),
         }
         self._dirty = True
@@ -631,25 +656,43 @@ class StreamingLinkFinder:
             self._spotify_album_cache[key] = []
             return []
 
-        # Collect all candidate albums across all search terms
-        candidate_albums: List[Tuple[float, Dict]] = []  # (score, album)
-        seen_albums: set[str] = set()
+        # Check if we should use album search caching (years >= 2012)
+        use_album_cache = year >= 2012 and self.spotify.cache is not None
         
-        for term in resolve_album_search_terms(year, division, self.band_type):
-            albums = self.spotify.search_albums(term)
-            for album in albums:
-                album_id = album.get("id")
-                if not album_id or album_id in seen_albums:
-                    continue
-                seen_albums.add(album_id)
+        # Try to get cached album search results
+        all_albums_from_searches: List[Dict] = []
+        if use_album_cache:
+            cached_albums = self.spotify.cache.get_spotify_album_search(year, division)
+            if cached_albums:
+                print(f"[spotify] Album search cache HIT for {year}|{division} ({len(cached_albums)} albums)")
+                all_albums_from_searches = cached_albums
+        
+        # If no cache hit, perform album searches
+        if not all_albums_from_searches:
+            seen_albums: set[str] = set()
+            for term in resolve_album_search_terms(year, division, self.band_type):
+                albums = self.spotify.search_albums(term)
+                for album in albums:
+                    album_id = album.get("id")
+                    if not album_id or album_id in seen_albums:
+                        continue
+                    seen_albums.add(album_id)
+                    all_albums_from_searches.append(album)
                 
-                # Score this album's relevance
-                score = score_album_relevance(album, year, division)
-                candidate_albums.append((score, album))
+                # Stop early if we have enough candidates
+                if len(all_albums_from_searches) >= 15:
+                    break
             
-            # Stop early if we have enough good candidates
-            if len(candidate_albums) >= 15:
-                break
+            # Cache the album search results if we got any
+            if use_album_cache and all_albums_from_searches:
+                self.spotify.cache.set_spotify_album_search(year, division, all_albums_from_searches)
+                print(f"[spotify] Album search cache WRITE for {year}|{division} ({len(all_albums_from_searches)} albums)")
+        
+        # Now score and filter the albums
+        candidate_albums: List[Tuple[float, Dict]] = []  # (score, album)
+        for album in all_albums_from_searches:
+            score = score_album_relevance(album, year, division)
+            candidate_albums.append((score, album))
         
         # Sort by score descending (best matches first)
         candidate_albums.sort(key=lambda x: x[0], reverse=True)
