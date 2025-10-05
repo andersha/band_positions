@@ -1226,10 +1226,54 @@ def build_year_streaming_entries(
     return serialised
 
 
-def write_year_file(output_dir: Path, band_type: str, year: int, entries: List[Dict[str, object]]) -> Path:
+def write_year_file(
+    output_dir: Path, 
+    band_type: str, 
+    year: int, 
+    entries: List[Dict[str, object]], 
+    divisions_filter: Optional[List[str]] = None
+) -> Path:
+    """Write year file, merging with existing entries when using division filter.
+    
+    When divisions_filter is provided, preserves entries from other divisions.
+    """
     year_dir = output_dir.expanduser() / band_type
     year_dir.mkdir(parents=True, exist_ok=True)
     year_path = year_dir / f"{year}.json"
+    
+    # If using division filter, merge with existing entries
+    if divisions_filter:
+        existing_entries: List[Dict[str, object]] = []
+        if year_path.exists():
+            try:
+                existing_data = json.loads(year_path.read_text(encoding="utf-8"))
+                if isinstance(existing_data, dict):
+                    existing_entries = existing_data.get("entries", [])
+                elif isinstance(existing_data, list):
+                    existing_entries = existing_data
+            except (json.JSONDecodeError, IOError):
+                pass
+        
+        # Keep entries from divisions NOT in the filter
+        preserved_entries = [
+            entry for entry in existing_entries
+            if entry.get("division") not in divisions_filter
+        ]
+        
+        # Combine preserved entries with new entries
+        all_entries = preserved_entries + entries
+        
+        # Sort combined entries
+        all_entries.sort(
+            key=lambda entry: (
+                entry.get("year", 0),
+                str(entry.get("division", "")),
+                str(entry.get("band", "")),
+                str(entry.get("result_piece", "")),
+            )
+        )
+        entries = all_entries
+    
     payload = {
         "band_type": band_type,
         "year": year,
@@ -1448,7 +1492,7 @@ def generate_streaming_links(
     for year in track(sorted(year_map.keys()), description="Matching streaming links"):
         year_performances = year_map[year]
         entries = build_year_streaming_entries(year, year_performances, finder, override_resolver)
-        write_year_file(output_dir, band_type, year, entries)
+        write_year_file(output_dir, band_type, year, entries, divisions_filter)
         total_entries += len(entries)
 
     if aggregate:
