@@ -39,6 +39,10 @@ DIVISION_CODE_MAP = {
 - Added to `generate_streaming_links()` function
 - Filters performances during year_map construction
 - Logs which divisions are being processed when filter is active
+- **Incremental updates**: When using `--divisions`, existing entries from other divisions are preserved
+  - The script merges new entries with existing ones
+  - Only entries for the specified divisions are replaced
+  - Example: `--divisions 2` updates only "2. divisjon" while keeping Elite, 1, 3-7 intact
 
 ### 2. Apple Music Album Search Caching
 
@@ -133,6 +137,36 @@ python -m src.nmjanitsjar_scraper.streaming_search \
   --overrides config/streaming_overrides.json \
   --cache config/streaming_cache.json
 ```
+
+## Important: Division Filter Behavior
+
+⚠️ **Incremental Updates (Fixed)**
+
+When using `--divisions`, the script now **merges** entries instead of overwriting:
+
+**Before the fix** (❌ Bug):
+```bash
+# Running this would DELETE all other divisions!
+--divisions 2  # Would remove Elite, 1, 3-7 from 2023.json
+```
+
+**After the fix** (✅ Correct):
+```bash
+# Running this preserves other divisions
+--divisions 2  # Only updates 2. divisjon, keeps all others
+```
+
+**How it works:**
+1. Loads existing year file (e.g., `2023.json`)
+2. Removes entries for filtered divisions (e.g., "2. divisjon")
+3. Adds new entries for those divisions
+4. Merges and sorts all entries
+5. Saves back to file
+
+**Use cases:**
+- Fix a single missing link: `--divisions 3`
+- Update multiple divisions: `--divisions 1 2 3`
+- Complete refresh: Omit `--divisions` (processes all)
 
 ## Benefits
 
