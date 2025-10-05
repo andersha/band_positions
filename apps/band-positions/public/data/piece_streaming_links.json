@@ -12365,10 +12365,10 @@
       "division": "1. divisjon",
       "band": "Asker Musikkorps",
       "result_piece": "Tales and Legends, 1. og 2. sats",
-      "recording_title": "Tales and Legends - Live",
+      "recording_title": "Tales & Legends: I. - II. - Live",
       "album": "NM Janitsjar 2023 - 1. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/2uQgdFMHZiv4Nk2Z2d6TNm",
-      "apple_music": "https://music.apple.com/us/album/tales-and-legends-live/1681187798?i=1681188408&uo=4"
+      "spotify": "https://open.spotify.com/track/0kOpIjVtFQwoIE6HA9hWWC",
+      "apple_music": "https://music.apple.com/us/album/tales-legends-i-ii-live/1681187798?i=1681188183&uo=4"
     },
     {
       "year": 2023,
@@ -12438,7 +12438,7 @@
       "recording_title": "Asgard Symphony no. 1 - Live",
       "album": "NM Janitsjar 2023 - 1. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/4HbB09NZdp8naP7eMXPbQu",
-      "apple_music": "https://music.apple.com/us/album/symphony-no-4-live/1680515141?i=1680515326&uo=4"
+      "apple_music": "https://music.apple.com/us/album/asgard-symphony-no-1-live/1681187798?i=1681188315&uo=4"
     },
     {
       "year": 2023,
@@ -12515,10 +12515,10 @@
       "division": "1. divisjon",
       "band": "Sande Musikkorps",
       "result_piece": "Norsk Rapsodi nr. 1",
-      "recording_title": "Norsk Rapsodi Nr. 1 - Live",
-      "album": "Nm Janitsjar 2023 - Elitedivisjon (Live)",
-      "spotify": "https://open.spotify.com/track/4vml3HvFIVRGaJ9jnXznSZ",
-      "apple_music": "https://music.apple.com/us/album/norsk-rapsodi-nr-1-live/1680515141?i=1680515799&uo=4"
+      "recording_title": "Rhapsodie Norvegienne Nr. 1 - Live",
+      "album": "NM Janitsjar 2023 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/6L41L1Y1tHNLj8v0JF6LqR",
+      "apple_music": "https://music.apple.com/us/album/rhapsodie-norvegienne-nr-1-live/1681187798?i=1681188297&uo=4"
     },
     {
       "year": 2023,
@@ -12534,11 +12534,21 @@
       "year": 2023,
       "division": "1. divisjon",
       "band": "Skjold Nesttun Janitsjar",
+      "result_piece": "An Gé Fhián",
+      "recording_title": "The Wild Goose - Live",
+      "album": "NM Janitsjar 2023 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3TFKu5SAVFujNmrK7Ub4ev",
+      "apple_music": null
+    },
+    {
+      "year": 2023,
+      "division": "1. divisjon",
+      "band": "Skjold Nesttun Janitsjar",
       "result_piece": "Fanfare and Choral",
       "recording_title": "Fanfare og Koral - Live",
       "album": "NM Janitsjar 2023 - 1. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/0vYaZRLCXj2GOMs5QuKdnO",
-      "apple_music": "https://music.apple.com/us/album/fanfare-and-choral-live/1680806260?i=1680806967&uo=4"
+      "apple_music": "https://music.apple.com/us/album/fanfare-og-koral-live/1681187798?i=1681188026&uo=4"
     },
     {
       "year": 2023,
@@ -12563,32 +12573,242 @@
     {
       "year": 2023,
       "division": "2. divisjon",
+      "band": "Bispehaugen Ungdomskorps",
+      "result_piece": "Saga Candida",
+      "recording_title": "Saga Candida - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2AoiP2XKRdL3UL3PvkOzVq",
+      "apple_music": "https://music.apple.com/us/album/saga-candida-live/1681188276?i=1681189820&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Bjølsen Ungdomskorps",
+      "result_piece": "Ride",
+      "recording_title": "Ride - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3iGoWgZsMx0VroN6igjqBk",
+      "apple_music": "https://music.apple.com/us/album/ride-live/1681188276?i=1681188701&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
       "band": "Bjølsen Ungdomskorps",
       "result_piece": "Spiritual Planet",
-      "recording_title": "Scintallant (Live)",
-      "album": "NM Janitsjar 2023 - 1. divisjon (Live)",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/scintallant-live/1681187798?i=1681188018&uo=4"
+      "recording_title": "Spiritual Planet - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1BbwT6NAmulL2waL3qyVsP",
+      "apple_music": "https://music.apple.com/us/album/spiritual-planet-live/1681188276?i=1681188957&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Drammen Konsertorkester",
+      "result_piece": "High Wire",
+      "recording_title": "High Wire - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/7BO5NCtTnxuf79s74CD2rb",
+      "apple_music": "https://music.apple.com/us/album/high-wire-live/1681188276?i=1681188974&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Drammen Konsertorkester",
+      "result_piece": "Poéme du Feu",
+      "recording_title": "Poeme du Feu - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/7zpfyGoMELALM12vqLVTSj",
+      "apple_music": "https://music.apple.com/us/album/poeme-du-feu-live/1681188276?i=1681188964&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Gjøvik Bykorps",
+      "result_piece": "La Procession du Roico",
+      "recording_title": "La Procession du Roico - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4nkdXid3u2KkKU4Q2ypgHI",
+      "apple_music": "https://music.apple.com/us/album/la-procession-du-roico-live/1681188276?i=1681189593&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Gjøvik Bykorps",
+      "result_piece": "Wer ist Elise",
+      "recording_title": "Wer ist Elise - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4NYtJ9Ea8MaUQrJs4Utihu",
+      "apple_music": "https://music.apple.com/us/album/wer-ist-elise-live/1681188276?i=1681189597&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Hov Musikkorps",
+      "result_piece": "Danzón no. 2",
+      "recording_title": "Danzón Nr. 2 - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0uDqKiea524jeLN7Ik1wwk",
+      "apple_music": "https://music.apple.com/us/album/danz%C3%B3n-nr-2-live/1681188276?i=1681188450&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Hov Musikkorps",
+      "result_piece": "Hjalar-Ljod",
+      "recording_title": "Hjalar-Ljord - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3v46TnyIIlko1NdXxGoMin",
+      "apple_music": "https://music.apple.com/us/album/hjalar-ljord-live/1681188276?i=1681188445&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Hovin Musikkorps",
+      "result_piece": "Armenian Dances, Part 1",
+      "recording_title": "Armenian Dances: Part 1 - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/7BxRk4p7DlN52Bj1Gp3FnG",
+      "apple_music": "https://music.apple.com/us/album/armenian-dances-part-1-live/1681188276?i=1681188681&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Hovin Musikkorps",
+      "result_piece": "Perseus",
+      "recording_title": "Perseus - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2VJKjGNwxPEnuYtv9HpAW3",
+      "apple_music": "https://music.apple.com/us/album/perseus-live/1681188276?i=1681188690&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Lungegaardens Musikkorps",
+      "result_piece": "Villfar",
+      "recording_title": "Villfar - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1ff2L7AkWtU7ViY3t4I4Iz",
+      "apple_music": "https://music.apple.com/us/album/villfar-live/1681188276?i=1681189131&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Musikklaget Brage",
+      "result_piece": "Fragile Oasis",
+      "recording_title": "Fragile Oasis - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1CW6ESDt3o3k6rGrj4Rnm5",
+      "apple_music": "https://music.apple.com/us/album/fragile-oasis-live/1681188276?i=1681188458&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Musikklaget Brage",
+      "result_piece": "Start-Up",
+      "recording_title": "Start-Up - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/7uQXs1usJhacWVFZCbAMkj",
+      "apple_music": "https://music.apple.com/us/album/start-up-live/1681188276?i=1681188454&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Sandvikens Ungdomskorps",
+      "result_piece": "Carnival",
+      "recording_title": "Carnival - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2BBSUh0G8HpYW5IanzcOfs",
+      "apple_music": "https://music.apple.com/us/album/carnival-live/1681188276?i=1681189401&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Sandvikens Ungdomskorps",
+      "result_piece": "Ride",
+      "recording_title": "Ride - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/6mxHW3x2qsNT83S3lNSJso",
+      "apple_music": "https://music.apple.com/us/album/ride-live/1681188276?i=1681189416&uo=4"
     },
     {
       "year": 2023,
       "division": "2. divisjon",
       "band": "Sinsen Konsertorkester",
       "result_piece": "Symphony no. 3 “Slavyanskaya”",
-      "recording_title": "Symphony No. 4 - Live",
-      "album": "Nm Janitsjar 2023 - Elitedivisjon (Live)",
-      "spotify": "https://open.spotify.com/track/3gMUdgZ3U7gsghdsYkL05f",
-      "apple_music": null
+      "recording_title": "Symphony No. 3 \"Slavyanskaya\" - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2ckXiXLmSBLbMQ6h6z8uke",
+      "apple_music": "https://music.apple.com/us/album/symphony-no-3-slavyanskaya-live/1681188276?i=1681189153&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Strindheim Janitsjar",
+      "result_piece": "Jungla, Poema ambientado en la Selva Africana",
+      "recording_title": "Jungla, Poema ambientado en la Selva Africana - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/033r0JxAQctQN8Rm9bos7D",
+      "apple_music": "https://music.apple.com/us/album/jungla-poema-ambientado-en-la-selva-africana-live/1681188276?i=1681189588&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Sykkylven Janitsjarorkester",
+      "result_piece": "Sidus",
+      "recording_title": "Sidus - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4T8PpLy2aDaXuiPAc7VMfv",
+      "apple_music": "https://music.apple.com/us/album/sidus-live/1681188276?i=1681189150&uo=4"
     },
     {
       "year": 2023,
       "division": "2. divisjon",
       "band": "Tromsø Orkesterforenings Janitsjarkorps",
       "result_piece": "Fleodrodum",
-      "recording_title": "Fleodrodum (Live)",
-      "album": "Nm Janitsjar 2023 - 4. divisjon (Live)",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/fleodrodum-live/1680508500?i=1680509351&uo=4"
+      "recording_title": "Fleododrum - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0l5qEzGuWnxIjTJD74JdOi",
+      "apple_music": "https://music.apple.com/us/album/fleododrum-live/1681188276?i=1681189919&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Tønsberg Janitsjarkorps",
+      "result_piece": "Audivi Media Nocte",
+      "recording_title": "Audivi Media Nocte - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2NoO3EpASV3CM3dK1sEEKM",
+      "apple_music": "https://music.apple.com/us/album/audivi-media-nocte-live/1681188276?i=1681188464&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Vestre Aker Musikkorps",
+      "result_piece": "Stabsarabesk",
+      "recording_title": "Stabsarabesk - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1xQJLGS6YuHQqwapIoXgzw",
+      "apple_music": "https://music.apple.com/us/album/stabsarabesk-live/1681188276?i=1681189143&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Vestre Aker Musikkorps",
+      "result_piece": "Sørgemarsj til minne om Richard Nordraak, Op. 117",
+      "recording_title": "Sørgemarsj (til minne om Rikard Nordraak) - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0ubIbae6of49LqWzHBLU4r",
+      "apple_music": "https://music.apple.com/us/album/s%C3%B8rgemarsj-til-minne-om-rikard-nordraak-live/1681188276?i=1681189137&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "band": "Ådalsbruk Musikkforening",
+      "result_piece": "Divertimento",
+      "recording_title": "Divertimento - Live",
+      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2h3CkzGJhHpw9QbkgtfrwB",
+      "apple_music": "https://music.apple.com/us/album/divertimento-live/1681188276?i=1681189581&uo=4"
     },
     {
       "year": 2023,
@@ -12617,8 +12837,8 @@
       "result_piece": "Machu Picchu - City in the sky - the mystery of the hidden sun Temple",
       "recording_title": "Machu Picchu - City in the Sky The Mystery of the Hidden Sun Temple - Live",
       "album": "Nm Janitsjar 2023 - 3. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/7FXBbPXsO0QOInWk5MBWUw",
-      "apple_music": "https://music.apple.com/us/album/machu-picchu-city-in-the-sky-the-mystery-of/1680806260?i=1680806453&uo=4"
+      "spotify": "https://open.spotify.com/track/4RgP8rqrNtchFmz5XteQ35",
+      "apple_music": "https://music.apple.com/us/album/machu-picchu-city-in-the-sky-the-mystery-of/1680806260?i=1680806782&uo=4"
     },
     {
       "year": 2023,
@@ -12647,17 +12867,17 @@
       "result_piece": "Machu Picchu - City in the sky - the mystery of the hidden sun Temple",
       "recording_title": "Machu Picchu - City in the Sky The Mystery of the Hidden Sun Temple - Live",
       "album": "Nm Janitsjar 2023 - 3. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/7FXBbPXsO0QOInWk5MBWUw",
-      "apple_music": "https://music.apple.com/us/album/machu-picchu-city-in-the-sky-the-mystery-of/1680806260?i=1680806453&uo=4"
+      "spotify": "https://open.spotify.com/track/6TKgUAtg6APqMOIbKJ4qNO",
+      "apple_music": "https://music.apple.com/us/album/machu-picchu-city-in-the-sky-the-mystery-of/1680806260?i=1680807212&uo=4"
     },
     {
       "year": 2023,
       "division": "3. divisjon",
       "band": "Halsen Musikkforening",
       "result_piece": "Armenian Dances, Part 1",
-      "recording_title": "Armenian Dances: Part 1 - Live",
-      "album": "Nm Janitsjar 2023 - 2. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/7BxRk4p7DlN52Bj1Gp3FnG",
+      "recording_title": "Armenian Dances: I. Part 1 - Live",
+      "album": "Nm Janitsjar 2023 - 3. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1LcF4lgPX9tOopJovxSaCu",
       "apple_music": "https://music.apple.com/us/album/armenian-dances-i-part-1-live/1680806260?i=1680807221&uo=4"
     },
     {
@@ -12729,6 +12949,16 @@
       "album": "Nm Janitsjar 2023 - 3. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/3VRZt3xJAUO7rz6nLmkpwI",
       "apple_music": "https://music.apple.com/us/album/made-in-bergen-live/1680806260?i=1680806471&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "3. divisjon",
+      "band": "Sagene Janitsjarkorps",
+      "result_piece": "Childrens March",
+      "recording_title": "Children´s March: \"over the hill and far away\" - Live",
+      "album": "Nm Janitsjar 2023 - 3. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4d3VCtIMgrNVG441Hvwx6K",
+      "apple_music": "https://music.apple.com/us/album/childrens-march-over-the-hill-and-far-away-live/1680806260?i=1680806776&uo=4"
     },
     {
       "year": 2023,
@@ -12814,6 +13044,16 @@
       "year": 2023,
       "division": "4. divisjon",
       "band": "Eidsvoll Janitsjarkorps",
+      "result_piece": "Cavetowns \"Cappadocia\"",
+      "recording_title": "Cavetaowns \"Cappadocia\" - Live",
+      "album": "Nm Janitsjar 2023 - 4. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2DOrAIOprA591J4urolx71",
+      "apple_music": "https://music.apple.com/us/album/cavetaowns-cappadocia-live/1680508500?i=1680509906&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "4. divisjon",
+      "band": "Eidsvoll Janitsjarkorps",
       "result_piece": "Fanfare",
       "recording_title": "Fanfare - The Benefication from Sky and Mother Earth - Live",
       "album": "Nm Janitsjar 2023 - 4. divisjon (Live)",
@@ -12826,8 +13066,8 @@
       "band": "Fana Musikklag",
       "result_piece": "Hispanola",
       "recording_title": "Hispaniola (Concert Band) - Live",
-      "album": "Nm Janitsjar 2023 - 5. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/5rMGwvOSSMrgYvVAAeqy2X",
+      "album": "Nm Janitsjar 2023 - 4. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3AYEnTw1TlOoS1jndPhOka",
       "apple_music": "https://music.apple.com/us/album/hispaniola-concert-band-live/1680508500?i=1680509818&uo=4"
     },
     {
@@ -12836,8 +13076,8 @@
       "band": "Hamar Musikkorps",
       "result_piece": "The Story of Anne Frank",
       "recording_title": "The Story of Anne Frank - Live",
-      "album": "Nm Janitsjar 2023 - 5. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/2wDsJSFsgxKaCHlPdiopqL",
+      "album": "Nm Janitsjar 2023 - 4. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2GB5sdOELxeKTidV1d4iBo",
       "apple_music": "https://music.apple.com/us/album/the-story-of-anne-frank-live/1680508500?i=1680509332&uo=4"
     },
     {
@@ -12876,9 +13116,9 @@
       "band": "Oppegård Janitsjar",
       "result_piece": "Lake of the Moon",
       "recording_title": "Lake of The Moon (Wind Band) - Live",
-      "album": "Nm Janitsjar 2023 - 5. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/7LfVzXuuciaOZwPs08Pl3S",
-      "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-wind-band-live/1680508500?i=1680509827&uo=4"
+      "album": "Nm Janitsjar 2023 - 4. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/46lxeIEGy6IW7ak3vzhaXv",
+      "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-wind-band-live/1680508500?i=1680509924&uo=4"
     },
     {
       "year": 2023,
@@ -12896,8 +13136,8 @@
       "band": "Skedsmo Janitsjarorkester",
       "result_piece": "Lake of the Moon",
       "recording_title": "Lake of The Moon (Wind Band) - Live",
-      "album": "Nm Janitsjar 2023 - 5. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/7LfVzXuuciaOZwPs08Pl3S",
+      "album": "Nm Janitsjar 2023 - 4. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4vLZLIg3xMnWmwmv0NG4gP",
       "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-wind-band-live/1680508500?i=1680509827&uo=4"
     },
     {
@@ -13088,7 +13328,7 @@
       "recording_title": "Eldorado - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/5U6YW7F7qhaPrAhLReBNrX",
-      "apple_music": "https://music.apple.com/us/album/eldorado-live/1681182666?i=1681183341&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13098,17 +13338,17 @@
       "recording_title": "The Adventures of Baron Munchausen - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/1trqi4dV0CoQV2lD2KXNdL",
-      "apple_music": "https://music.apple.com/us/album/the-adventures-of-baron-munchausen-live/1681182666?i=1681183083&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
       "division": "6. divisjon",
       "band": "Follebu og Vestre Gausdal Musikkforening",
       "result_piece": "Ross Roy, Overture for Band",
-      "recording_title": "Ross Roy (Live)",
+      "recording_title": "Ross Roy - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/ross-roy-live/1681182666?i=1681184275&uo=4"
+      "spotify": "https://open.spotify.com/track/73oWqEFJJCivVgIziQmF93",
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13118,7 +13358,7 @@
       "recording_title": "Where Eagles Soar - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/16F3ZY4nKu6VjRjKUVBSCb",
-      "apple_music": "https://music.apple.com/us/album/where-eagles-soar-live/1681182666?i=1681184281&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13128,7 +13368,7 @@
       "recording_title": "First Suite for Military Band, No. 1: Chaconne - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/6xasp3p4B7RAOU8sCytGor",
-      "apple_music": "https://music.apple.com/us/album/first-suite-for-military-band-no-1-chaconne-live/1681182666?i=1681182675&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13138,7 +13378,7 @@
       "recording_title": "Les Parapluies de Cherboourg - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/3BjsUrG2yLUJFloDqzo9hv",
-      "apple_music": "https://music.apple.com/us/album/les-parapluies-de-cherboourg-live/1681182666?i=1681183079&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13148,7 +13388,7 @@
       "recording_title": "Samtidig, ein annan stad enn no - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/4jMcDsmMv6UbsBWZ8m6Sbr",
-      "apple_music": "https://music.apple.com/us/album/samtidig-ein-annan-stad-enn-no-live/1681182666?i=1681184043&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13158,7 +13398,7 @@
       "recording_title": "Edenstrand - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/1G6UgyIu0JYbLTcmXXMRud",
-      "apple_music": "https://music.apple.com/us/album/edenstrand-live/1681182666?i=1681184032&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13168,7 +13408,7 @@
       "recording_title": "Victory: Samtidig, ein annan stad enn no - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/6HnDPIg0I7EPzNOKqP6GcR",
-      "apple_music": "https://music.apple.com/us/album/victory-samtidig-ein-annan-stad-enn-no-live/1681182666?i=1681184034&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13178,7 +13418,7 @@
       "recording_title": "Music for a Solemnity - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/1p4psz5bB4voVUUTESFjNt",
-      "apple_music": "https://music.apple.com/us/album/music-for-a-solemnity-live/1681182666?i=1681183789&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13188,17 +13428,17 @@
       "recording_title": "A Malvern Suite - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/5VNh1uQps8zh1GK6rSIb2e",
-      "apple_music": "https://music.apple.com/us/album/a-malvern-suite-live/1681182666?i=1681183796&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
       "division": "6. divisjon",
       "band": "Moss og omegn Janitsjar",
       "result_piece": "Armenian Dances, Part 1",
-      "recording_title": "Armenian Dances: I. Part 1 - Live",
-      "album": "Nm Janitsjar 2023 - 3. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/1LcF4lgPX9tOopJovxSaCu",
-      "apple_music": "https://music.apple.com/us/album/armenian-dances-live/1681182666?i=1681183631&uo=4"
+      "recording_title": "Armenian Dances - Live",
+      "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0CGoCMusnQtO7wutKcrqVv",
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13208,7 +13448,7 @@
       "recording_title": "Dawn of a New Day - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/7h0n8AiiEuvu7vAnimK4K0",
-      "apple_music": "https://music.apple.com/us/album/dawn-of-a-new-day-live/1681182666?i=1681183793&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13218,7 +13458,7 @@
       "recording_title": "Persis - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/6b9uw3Ihnu4oCcE0ymku4p",
-      "apple_music": "https://music.apple.com/us/album/persis-live/1681182666?i=1681183794&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13228,7 +13468,7 @@
       "recording_title": "Prelude, Siciliano and Rondo - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/2qe6oZ9txFtcCvhhs5ptlq",
-      "apple_music": "https://music.apple.com/us/album/prelude-siciliano-and-rondo-live/1681182666?i=1681183338&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13238,7 +13478,7 @@
       "recording_title": "Street Tango - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/4u5aWaD4uskfwRufAntttX",
-      "apple_music": "https://music.apple.com/us/album/street-tango-live/1681182666?i=1681183090&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13248,7 +13488,7 @@
       "recording_title": "D-day - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/5sEJceG9bpjewVr6mMAdQY",
-      "apple_music": "https://music.apple.com/us/album/d-day-live/1681182666?i=1681183087&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13258,7 +13498,7 @@
       "recording_title": "Eine Kleine Yiddishe Ragmusik - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/0PxAJ3IPmpc2CaNRuIo9Oo",
-      "apple_music": "https://music.apple.com/us/album/eine-kleine-yiddishe-ragmusik-live/1681182666?i=1681184269&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13266,9 +13506,9 @@
       "band": "Strinda Ungdomskorps",
       "result_piece": "Tales and Myths of Gothia",
       "recording_title": "Tales and Myths of Gothia - Live",
-      "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/4UMoMVQ0swi2ZNLEfSuVS2",
-      "apple_music": "https://music.apple.com/us/album/tales-and-myths-of-gothia-live/1681182666?i=1681183362&uo=4"
+      "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2xUA2neXltPO9gpaP9of58",
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13277,8 +13517,8 @@
       "result_piece": "Street Tango",
       "recording_title": "Street Tango - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/4u5aWaD4uskfwRufAntttX",
-      "apple_music": "https://music.apple.com/us/album/street-tango-live/1681182666?i=1681183090&uo=4"
+      "spotify": "https://open.spotify.com/track/2jcFxGDnGD1vir8uA6vWhF",
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13286,9 +13526,9 @@
       "band": "Vålerenga Janitsjarkorps",
       "result_piece": "Tales and Myths of Gothia",
       "recording_title": "Tales and Myths of Gothia - Live",
-      "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/4UMoMVQ0swi2ZNLEfSuVS2",
-      "apple_music": "https://music.apple.com/us/album/tales-and-myths-of-gothia-live/1681182666?i=1681183362&uo=4"
+      "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/63i0Bn9xdEgS4F7h5fcmBQ",
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13298,7 +13538,7 @@
       "recording_title": "Pilatus: Mountain of Dragons - Live",
       "album": "Nm Janitsjar 2023 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/6TiDAJWvAeGB4qWeMVdKCD",
-      "apple_music": "https://music.apple.com/us/album/pilatus-mountain-of-dragons-live/1681182666?i=1681184267&uo=4"
+      "apple_music": null
     },
     {
       "year": 2023,
@@ -13308,7 +13548,7 @@
       "recording_title": "Beyond Reach - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/1G0q9SgAb0rWpJJmCFNKXy",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/beyond-reach-live/1681181340?i=1681182623&uo=4"
     },
     {
       "year": 2023,
@@ -13318,7 +13558,7 @@
       "recording_title": "Dwa- Księżyce - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/0fv5YJ86HvIztisqhWlV5W",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/dwa-ksi%C4%99%C5%BCyce-live/1681181340?i=1681182645&uo=4"
     },
     {
       "year": 2023,
@@ -13328,7 +13568,7 @@
       "recording_title": "Nostalgia - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/5feT5fl8XiMGEhEs80cBoF",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/nostalgia-live/1681181340?i=1681182637&uo=4"
     },
     {
       "year": 2023,
@@ -13338,7 +13578,17 @@
       "recording_title": "Made in Bergen - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/0vrPBFaTHVJ1IAQ2ocQDio",
-      "apple_music": "https://music.apple.com/us/album/made-in-bergen-live/1680806260?i=1680806471&uo=4"
+      "apple_music": "https://music.apple.com/us/album/made-in-bergen-live/1681181340?i=1681181994&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "7. divisjon",
+      "band": "Hegra Hornmusikklag",
+      "result_piece": "Puszta (Four Gypsi Dances)",
+      "recording_title": "Putza - Live",
+      "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0tjKFMSd9AH3X3DoLDSBe1",
+      "apple_music": "https://music.apple.com/us/album/putza-live/1681181340?i=1681181635&uo=4"
     },
     {
       "year": 2023,
@@ -13348,7 +13598,7 @@
       "recording_title": "Aurora Borealis - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/1xRcUdPFaavi8tMJvfKlw2",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/aurora-borealis-live/1681181340?i=1681181987&uo=4"
     },
     {
       "year": 2023,
@@ -13358,7 +13608,7 @@
       "recording_title": "Nordlandstoner - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/5KzVmwn0rsQNo0QGTe27tP",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/nordlandstoner-live/1681181340?i=1681181642&uo=4"
     },
     {
       "year": 2023,
@@ -13368,7 +13618,7 @@
       "recording_title": "Underlige aftenlufte - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/2sebvIOnY25Nk3vh0vC0XN",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/underlige-aftenlufte-live/1681181340?i=1681181653&uo=4"
     },
     {
       "year": 2023,
@@ -13378,7 +13628,7 @@
       "recording_title": "Tales and Myths of Gothia - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/4UMoMVQ0swi2ZNLEfSuVS2",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/tales-and-myths-of-gothia-live/1681181340?i=1681182491&uo=4"
     },
     {
       "year": 2023,
@@ -13388,17 +13638,17 @@
       "recording_title": "Voice of the Vikings - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/2xvZyeCwQ0ibkKIynF7RsG",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/voice-of-the-vikings-live/1681181340?i=1681182483&uo=4"
     },
     {
       "year": 2023,
       "division": "7. divisjon",
       "band": "Nidarvoll Ungdomskorps",
       "result_piece": "Norsk Rapsodi nr. 1",
-      "recording_title": "Norsk Rapsodi Nr. 1 - Live",
-      "album": "Nm Janitsjar 2023 - Elitedivisjon (Live)",
-      "spotify": "https://open.spotify.com/track/4vml3HvFIVRGaJ9jnXznSZ",
-      "apple_music": "https://music.apple.com/us/album/norsk-rapsodi-nr-1-live/1680515141?i=1680515799&uo=4"
+      "recording_title": "Norsk Rapsodi nr. 1 - Live",
+      "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/6SZQXtZugvkIu348UJR5Lq",
+      "apple_music": "https://music.apple.com/us/album/norsk-rapsodi-nr-1-live/1681181340?i=1681181633&uo=4"
     },
     {
       "year": 2023,
@@ -13408,7 +13658,7 @@
       "recording_title": "Golden Peak - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/19kkCGzRIOCQoMqynumKiq",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/golden-peak-live/1681181340?i=1681181352&uo=4"
     },
     {
       "year": 2023,
@@ -13418,7 +13668,7 @@
       "recording_title": "Concita for Band - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/1cwuejtxNkho05LPYcLAh9",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/concita-for-band-live/1681181340?i=1681182013&uo=4"
     },
     {
       "year": 2023,
@@ -13428,7 +13678,7 @@
       "recording_title": "Journey Through Orion - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/1A5geha2HoDpu95hgWvLiw",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/journey-through-orion-live/1681181340?i=1681182288&uo=4"
     },
     {
       "year": 2023,
@@ -13438,7 +13688,7 @@
       "recording_title": "Three Brass Cats: I: Mr Jums - II. Black Sam - III. Borage - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/5SNnnEgMOuuM0k6fw8nvel",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/three-brass-cats-i-mr-jums-ii-black-sam-iii-borage-live/1681181340?i=1681182291&uo=4"
     },
     {
       "year": 2023,
@@ -13448,7 +13698,7 @@
       "recording_title": "Utopia - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/0sjW42NdwgQViQSrtNEn7K",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/utopia-live/1681181340?i=1681182618&uo=4"
     },
     {
       "year": 2023,
@@ -13458,7 +13708,7 @@
       "recording_title": "Schaffs Mit Mir, Gott - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/2IIEbXGOSKWzrIKX1p4Tvc",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/schaffs-mit-mir-gott-live/1681181340?i=1681182302&uo=4"
     },
     {
       "year": 2023,
@@ -13468,7 +13718,7 @@
       "recording_title": "The Legend of Maracaibo - Live",
       "album": "Nm Janitsjar 2023 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/1adm583ptVFxCD44o7VJk6",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/the-legend-of-maracaibo-live/1681181340?i=1681182478&uo=4"
     },
     {
       "year": 2023,
@@ -13485,10 +13735,10 @@
       "division": "Elite",
       "band": "Bjergsted Blåseensemble",
       "result_piece": "Norsk Rapsodi nr. 1",
-      "recording_title": "Norsk Rapsodi Nr. 1 - Live",
+      "recording_title": "Norsk Rapsodi No. 1 - Live",
       "album": "Nm Janitsjar 2023 - Elitedivisjon (Live)",
-      "spotify": "https://open.spotify.com/track/4vml3HvFIVRGaJ9jnXznSZ",
-      "apple_music": "https://music.apple.com/us/album/norsk-rapsodi-nr-1-live/1680515141?i=1680515799&uo=4"
+      "spotify": "https://open.spotify.com/track/62SNgYIq8QSCOhAW4nYJFS",
+      "apple_music": "https://music.apple.com/us/album/norsk-rapsodi-no-1-live/1680515141?i=1680515674&uo=4"
     },
     {
       "year": 2023,
@@ -13543,6 +13793,16 @@
     {
       "year": 2023,
       "division": "Elite",
+      "band": "Greåker Musikkorps",
+      "result_piece": "Symphony no. 4",
+      "recording_title": "Symphony No. 4 - Live",
+      "album": "Nm Janitsjar 2023 - Elitedivisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3gMUdgZ3U7gsghdsYkL05f",
+      "apple_music": "https://music.apple.com/us/album/symphony-no-4-live/1680515141?i=1680515326&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "Elite",
       "band": "Kolbotn Konsertorkester",
       "result_piece": "Cerebral Vortex",
       "recording_title": "Cerebral Vortex - Live",
@@ -13559,6 +13819,16 @@
       "album": "Nm Janitsjar 2023 - Elitedivisjon (Live)",
       "spotify": "https://open.spotify.com/track/2hOJvufmh7Gs74ZTr1VEiV",
       "apple_music": "https://music.apple.com/us/album/det-gamle-kvernhuset-op-204-windband-live/1680515141?i=1680515513&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "Elite",
+      "band": "Kolbotn Konsertorkester",
+      "result_piece": "Redline Tango",
+      "recording_title": "Redline Tango - Live",
+      "album": "Nm Janitsjar 2023 - Elitedivisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5kvnDssiuvXAfttLGSEAvk",
+      "apple_music": "https://music.apple.com/us/album/redline-tango-live/1680515141?i=1680515533&uo=4"
     },
     {
       "year": 2023,
@@ -13659,6 +13929,16 @@
       "album": "Nm Janitsjar 2023 - Elitedivisjon (Live)",
       "spotify": "https://open.spotify.com/track/5GWA4MsyQdOIBbZGXPaSid",
       "apple_music": "https://music.apple.com/us/album/homenaje-a-joaquin-sorolla-live/1680515141?i=1680515783&uo=4"
+    },
+    {
+      "year": 2023,
+      "division": "Elite",
+      "band": "Strusshamn Musikkforening",
+      "result_piece": "Redline Tango",
+      "recording_title": "Redline Tango - Live",
+      "album": "Nm Janitsjar 2023 - Elitedivisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0fJ7wgPN4AyeFZJt4LwKFV",
+      "apple_music": "https://music.apple.com/us/album/redline-tango-live/1680515141?i=1680515779&uo=4"
     },
     {
       "year": 2024,
