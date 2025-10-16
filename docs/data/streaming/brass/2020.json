@@ -1,0 +1,836 @@
+{
+  "band_type": "brass",
+  "year": 2020,
+  "entries": [
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "band": "Askøy Brass Band",
+      "result_piece": "Destination Moon",
+      "recording_title": "Destination Moon",
+      "album": "NM Brass 2020 - 1. divisjon",
+      "spotify": "https://open.spotify.com/track/10s38mJylsqcQZkFy9sGoT",
+      "apple_music": "https://music.apple.com/us/album/destination-moon/1499541665?i=1499541685&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "band": "Brøttum Brass",
+      "result_piece": "Elgar Variations",
+      "recording_title": "Elgar Variations",
+      "album": "NM Brass 2020 - 1. divisjon",
+      "spotify": "https://open.spotify.com/track/4hMTPpy8XFgTJOygTbEHko",
+      "apple_music": "https://music.apple.com/us/album/elgar-variations/1499541665?i=1499542096&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "band": "Flesland Musikklag",
+      "result_piece": "The 39th Parallel",
+      "recording_title": "The 39th Parallel",
+      "album": "NM Brass 2020 - 1. divisjon",
+      "spotify": "https://open.spotify.com/track/4ugU72nYe0iyPcZcKiEzDy",
+      "apple_music": "https://music.apple.com/us/album/the-39th-parallel/1499541665?i=1499543230&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "band": "Hasle Brass",
+      "result_piece": "Sinfonietta no. 3",
+      "recording_title": "Sinfonietta no. 3",
+      "album": "NM Brass 2020 - 1. divisjon",
+      "spotify": "https://open.spotify.com/track/2DC2nci9iUzsb5nPq3u7uR",
+      "apple_music": "https://music.apple.com/us/album/sinfonietta-no-3/1499541665?i=1499542632&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "band": "Ila Brass Band",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - 1. divisjon",
+      "spotify": "https://open.spotify.com/track/1QttkVfLda1tsRxU38x24P",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499541665?i=1499543239&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "band": "Molde Brass Band",
+      "result_piece": "Titan's Progress",
+      "recording_title": "Titan´s Progress",
+      "album": "NM Brass 2020 - 1. divisjon",
+      "spotify": "https://open.spotify.com/track/6JinTr8kyVhD7g4vFCPI7d",
+      "apple_music": "https://music.apple.com/us/album/titans-progress/1499541665?i=1499541681&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "band": "Musikkorpset Gjallarhorn",
+      "result_piece": "Rococo Variations",
+      "recording_title": "Rococo Variations",
+      "album": "NM Brass 2020 - 1. divisjon",
+      "spotify": "https://open.spotify.com/track/7MqSsvogRdpqIj22WICFUb",
+      "apple_music": "https://music.apple.com/us/album/rococo-variations/1499541665?i=1499543233&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "band": "Radøy Brass",
+      "result_piece": "Brass Blót",
+      "recording_title": "Brass Blót",
+      "album": "NM Brass 2020 - 1. divisjon",
+      "spotify": "https://open.spotify.com/track/4Z8NDrL9tA541jFAFhA6Ff",
+      "apple_music": "https://music.apple.com/us/album/brass-bl%C3%B3t/1499541665?i=1499542090&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "band": "Rong Brass",
+      "result_piece": "Bipolar(ity)",
+      "recording_title": "Biopolar(ity)",
+      "album": "NM Brass 2020 - 1. divisjon",
+      "spotify": "https://open.spotify.com/track/3AayP8gVWTv0mDZmMXRoZW",
+      "apple_music": "https://music.apple.com/us/album/biopolar-ity/1499541665?i=1499542101&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "band": "Sandefjord Brass Symposium",
+      "result_piece": "Of Distant Memories",
+      "recording_title": "Of Distant Memories",
+      "album": "NM Brass 2020 - 1. divisjon",
+      "spotify": "https://open.spotify.com/track/3pDY4WJl3ETChOP3E2y8G2",
+      "apple_music": "https://music.apple.com/us/album/of-distant-memories/1499541665?i=1499542653&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "band": "Sola Brass Band",
+      "result_piece": "Earthrise",
+      "recording_title": "Earthrise",
+      "album": "NM Brass 2020 - 1. divisjon",
+      "spotify": "https://open.spotify.com/track/0zzz5cYs7QghPj2Rv4CNr3",
+      "apple_music": "https://music.apple.com/us/album/earthrise/1499541665?i=1499541683&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "band": "Tomra Brass Band",
+      "result_piece": "Dynasty",
+      "recording_title": "Dynasty",
+      "album": "NM Brass 2020 - 1. divisjon",
+      "spotify": "https://open.spotify.com/track/0xJ12D5VcSG0xG8F6Ogs5d",
+      "apple_music": "https://music.apple.com/us/album/dynasty/1499541665?i=1499541692&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "band": "Alexander Brass Band",
+      "result_piece": "Brass Metamorphosis",
+      "recording_title": "Brass Metamorphosis",
+      "album": "NM Brass 2020 - 2. divisjon",
+      "spotify": "https://open.spotify.com/track/7N3YXxg4ogntWff7CnIPeP",
+      "apple_music": "https://music.apple.com/us/album/brass-metamorphosis/1499533161?i=1499533282&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "band": "Fjell Brass",
+      "result_piece": "The Patriots",
+      "recording_title": "The Patriots",
+      "album": "NM Brass 2020 - 2. divisjon",
+      "spotify": "https://open.spotify.com/track/4S90vbV6qUjfPImdQGrOeq",
+      "apple_music": "https://music.apple.com/us/album/the-patriots/1499533161?i=1499533468&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "band": "Follesø Musikklag",
+      "result_piece": "Salome",
+      "recording_title": "Salome",
+      "album": "NM Brass 2020 - 2. divisjon",
+      "spotify": "https://open.spotify.com/track/7DQSMKkdGPDTwqNxms5mVT",
+      "apple_music": "https://music.apple.com/us/album/salome/1499533161?i=1499533452&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "band": "Jølster Musikklag",
+      "result_piece": "The Binding of The Wolf",
+      "recording_title": "The Binding of The Wolf",
+      "album": "NM Brass 2020 - 2. divisjon",
+      "spotify": "https://open.spotify.com/track/2phHRxKWTxRHbOLbVV3AoN",
+      "apple_music": "https://music.apple.com/us/album/the-binding-of-the-wolf/1499533161?i=1499533169&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "band": "KOS - Krohnengen Old Stars",
+      "result_piece": "Rhapsody in Brass",
+      "recording_title": "Rhapsody in brass",
+      "album": "NM Brass 2020 - 2. divisjon",
+      "spotify": "https://open.spotify.com/track/4KiXbgpGLc33eUUyK6wQrx",
+      "apple_music": "https://music.apple.com/us/album/rhapsody-in-brass/1499533161?i=1499533277&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "band": "Lindås Brass",
+      "result_piece": "Purcell Variations",
+      "recording_title": "Purcell Variations",
+      "album": "NM Brass 2020 - 2. divisjon",
+      "spotify": "https://open.spotify.com/track/1WGTMMzbNSV0wwyudTE1LG",
+      "apple_music": "https://music.apple.com/us/album/purcell-variations/1499533161?i=1499533473&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "band": "Manger Old Star Brass",
+      "result_piece": "Prisms",
+      "recording_title": "Prisms",
+      "album": "NM Brass 2020 - 2. divisjon",
+      "spotify": "https://open.spotify.com/track/3cfrhPF1WZvryNVivQn2I5",
+      "apple_music": "https://music.apple.com/us/album/prisms/1499533161?i=1499533455&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "band": "Nes Musikkforening",
+      "result_piece": "Journey into Freedom",
+      "recording_title": "Journey Into Freedom",
+      "album": "NM Brass 2020 - 2. divisjon",
+      "spotify": "https://open.spotify.com/track/7FQqZpV0X32T7oQa5KjjZc",
+      "apple_music": "https://music.apple.com/us/album/journey-into-freedom/1499533161?i=1499533447&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "band": "Oster Brass",
+      "result_piece": "Sinfonietta no. 3",
+      "recording_title": "Sinfonietta No. 3",
+      "album": "NM Brass 2020 - 2. divisjon",
+      "spotify": "https://open.spotify.com/track/68xCwkIdY6j9K3jfAN7jlc",
+      "apple_music": "https://music.apple.com/us/album/sinfonietta-no-3/1499533161?i=1499533272&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "band": "Sørum Musikklag",
+      "result_piece": "Firestorm",
+      "recording_title": "Firestorm",
+      "album": "NM Brass 2020 - 2. divisjon",
+      "spotify": "https://open.spotify.com/track/7htj8ndtaX4t5Pd0tL0E5g",
+      "apple_music": "https://music.apple.com/us/album/firestorm/1499533161?i=1499533463&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "band": "Tertnes Amatørkorps",
+      "result_piece": "English Heritage",
+      "recording_title": "English Heritage",
+      "album": "NM Brass 2020 - 2. divisjon",
+      "spotify": "https://open.spotify.com/track/5hhjfdDE5mGzWrLTuatYhl",
+      "apple_music": "https://music.apple.com/us/album/english-heritage/1499533161?i=1499533291&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "band": "Ørskog Brass",
+      "result_piece": "Amundsen",
+      "recording_title": "Amundsen",
+      "album": "NM Brass 2020 - 2. divisjon",
+      "spotify": "https://open.spotify.com/track/2441jQqU9R8NQ85bS1vpVj",
+      "apple_music": "https://music.apple.com/us/album/amundsen/1499533161?i=1499533448&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Agder Brass",
+      "result_piece": "Tallis Variations",
+      "recording_title": "Tallis Variations",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/6ZcafL2yR1PPOmT8TGFh2N",
+      "apple_music": "https://music.apple.com/us/album/tallis-variations/1499527998?i=1499529355&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Bergen Brass Band",
+      "result_piece": "Flashback",
+      "recording_title": "Flashback",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/4yoJlDVWsXcpP8fZDx8MxK",
+      "apple_music": "https://music.apple.com/us/album/flashback/1499527998?i=1499529269&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Bjørvika Brass Band",
+      "result_piece": "Resurgam",
+      "recording_title": "Resurgam",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/4dmrlapxN48wgqDFJBL5Pm",
+      "apple_music": "https://music.apple.com/us/album/resurgam/1499527998?i=1499528009&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Gjøvik Bybrass",
+      "result_piece": "Harmonious Variations",
+      "recording_title": "Harmonious Variations",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/1l295cBOv8vpT48CiuwAZD",
+      "apple_music": "https://music.apple.com/us/album/harmonious-variations/1499527998?i=1499528003&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Haukås Musikklag",
+      "result_piece": "The Saga of Haakon the Good",
+      "recording_title": "The Saga of Haakon The Good",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/6GOQIwuf2n5MHdKGfaPZy5",
+      "apple_music": "https://music.apple.com/us/album/the-saga-of-haakon-the-good/1499527998?i=1499528553&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Laksevåg Musikkforening",
+      "result_piece": "The Saga of Tyrfing",
+      "recording_title": "The Saga of Tyrfing",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/6i1H0q8i5hw0hsKFZhCdIA",
+      "apple_music": "https://music.apple.com/us/album/the-saga-of-tyrfing/1499527998?i=1499529004&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Lyshornet Brass",
+      "result_piece": "Sinfonietta No 2",
+      "recording_title": "Sinfonietta no. 2",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/3M9v41VhqkWk9QMfwDfRXE",
+      "apple_music": "https://music.apple.com/us/album/sinfonietta-no-2/1499527998?i=1499529275&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Norheimsund Musikklag",
+      "result_piece": "Dimensions",
+      "recording_title": "Dimensions",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/4Osoy0REuLdg8zqAl2902A",
+      "apple_music": "https://music.apple.com/us/album/dimensions/1499527998?i=1499528884&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Sagvåg Musikklag",
+      "result_piece": "Brass Triumphant",
+      "recording_title": "Brass Triumphant",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/31YF0bXZKg0cbuDvDiAXBa",
+      "apple_music": "https://music.apple.com/us/album/brass-triumphant/1499527998?i=1499529251&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Skui Brassband",
+      "result_piece": "A London Overture",
+      "recording_title": "A London Overture",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/5psmQWS8uIRbN9nmd8CVx3",
+      "apple_music": "https://music.apple.com/us/album/a-london-overture/1499527998?i=1499528993&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Stangaland Brass",
+      "result_piece": "Turris Fortissima",
+      "recording_title": "TUTIS FORTISSIMA",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/0gKCzDi56xTK8lvHu7mzwF",
+      "apple_music": "https://music.apple.com/us/album/tutis-fortissima/1499527998?i=1499528203&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Stavanger Kommunes Korps",
+      "result_piece": "Variations on Maccabeus",
+      "recording_title": "Variations on Maccabeus",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/1UZeGVS8iMln5qk99Ivza2",
+      "apple_music": "https://music.apple.com/us/album/variations-on-maccabeus/1499527998?i=1499528206&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Tromsø Brass",
+      "result_piece": "Blitz",
+      "recording_title": "Blitz",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/5CAL59HXTcba4S06txeEyM",
+      "apple_music": "https://music.apple.com/us/album/blitz/1499527998?i=1499528218&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Trondheim Politis Brassband",
+      "result_piece": "The Patriots",
+      "recording_title": "The Patriots",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/6teT94sfqfpD1zQFReVaft",
+      "apple_music": "https://music.apple.com/us/album/the-patriots/1499527998?i=1499528990&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "band": "Valdres Brass Band",
+      "result_piece": "The Three Musketeers",
+      "recording_title": "The Three Musketeers",
+      "album": "NM Brass 2020 - 3. divisjon",
+      "spotify": "https://open.spotify.com/track/4jDpgLwHT58xO4YpQ4JEKt",
+      "apple_music": "https://music.apple.com/us/album/the-three-musketeers/1499527998?i=1499529340&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "Filadelfia Hornorkester Drammen",
+      "result_piece": "Aspects of Praise",
+      "recording_title": "Aspects of Praise",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/5J32GUxAnBL0hCjzabgNUY",
+      "apple_music": "https://music.apple.com/us/album/aspects-of-praise/1499533234?i=1499533631&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "Flora-Bremanger Brassband",
+      "result_piece": "Labour and Love",
+      "recording_title": "Labour and Love",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/141ChQ1xQniRTCaXiXF1F9",
+      "apple_music": "https://music.apple.com/us/album/labour-and-love/1499533234?i=1499534625&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "Florø Hornmusikk",
+      "result_piece": "Variations on `Laudate Dominum´",
+      "recording_title": "Variations on Laudate Dominum-rev. versjon",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/7rNDFAB0FEngp5YKUoGsxH",
+      "apple_music": "https://music.apple.com/us/album/variations-on-laudate-dominum-rev-versjon/1499533234?i=1499533637&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "Frei Hornmusikk",
+      "result_piece": "The King of Kings",
+      "recording_title": "The King of Kings",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/3WUPXnjbkiTr5AZw4s5LJt",
+      "apple_music": "https://music.apple.com/us/album/the-king-of-kings/1499533234?i=1499534629&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "Gjesdal Brass Band",
+      "result_piece": "Royal Parks",
+      "recording_title": "Royal Parks",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/1KA5pG3tsESOmKEUsH5ba4",
+      "apple_music": "https://music.apple.com/us/album/royal-parks/1499533234?i=1499534526&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "Grenland Brass",
+      "result_piece": "Resurgam",
+      "recording_title": "Resurgam",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/5t1QOlUxtKMiDGsNbWL4Qa",
+      "apple_music": "https://music.apple.com/us/album/resurgam/1499533234?i=1499534196&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "Hetlevik Musikklag",
+      "result_piece": "A Celtic Suite",
+      "recording_title": "A Celtric Suite",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/7EGTI0LbKlLIIwmlb7Arxl",
+      "apple_music": "https://music.apple.com/us/album/a-celtric-suite/1499533234?i=1499534543&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "IMI Brass",
+      "result_piece": "Portrait of a City",
+      "recording_title": "Portrait of a City",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/2DgxL3wH1qMWhpWzIQOkjg",
+      "apple_music": "https://music.apple.com/us/album/portrait-of-a-city/1499533234?i=1499534555&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "Indre Torungen Brass Ensemble",
+      "result_piece": "Viking Age",
+      "recording_title": "Viking Age",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/47TNsv6UNn7v0tSfn7gSu1",
+      "apple_music": "https://music.apple.com/us/album/viking-age/1499533234?i=1499533642&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "Kjølsdalen Musikklag",
+      "result_piece": "A Malvern Suite",
+      "recording_title": "A Malvern Suite",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/1IHQjbPlAqfsSPQ7VED0FF",
+      "apple_music": "https://music.apple.com/us/album/a-malvern-suite/1499533234?i=1499534535&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "Moen Musikkforening",
+      "result_piece": "Purcell Variations",
+      "recording_title": "Purcell Variations",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/7k3yX9oo9y1XrUExbhkug2",
+      "apple_music": "https://music.apple.com/us/album/purcell-variations/1499533234?i=1499534203&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "Saksumdal Musikkforening",
+      "result_piece": "Olympus",
+      "recording_title": "Olympus",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/5mWJOUiHONArvZ1NQKmQTF",
+      "apple_music": "https://music.apple.com/us/album/olympus/1499533234?i=1499534621&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "band": "Tysvær Brass",
+      "result_piece": "Ascension",
+      "recording_title": "Ascension",
+      "album": "NM Brass 2020 - 4. divisjon",
+      "spotify": "https://open.spotify.com/track/19D70ARc8YQYxZT4dtcC7A",
+      "apple_music": "https://music.apple.com/us/album/ascension/1499533234?i=1499534217&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "5. divisjon",
+      "band": "Brumunddal Brass",
+      "result_piece": "Viking Age",
+      "recording_title": "Viking Age",
+      "album": "NM Brass 2020 - 5. divisjon",
+      "spotify": "https://open.spotify.com/track/3C5OQrjtM3XtVGdNakrh96",
+      "apple_music": "https://music.apple.com/us/album/viking-age/1499524415?i=1499525118&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "5. divisjon",
+      "band": "Fjordbrass Lavik",
+      "result_piece": "The Dark Side of the Moon",
+      "recording_title": "The Dark Side of the Moon",
+      "album": "NM Brass 2020 - 5. divisjon",
+      "spotify": "https://open.spotify.com/track/66ydcCpyUVH0EAHufM86Rn",
+      "apple_music": "https://music.apple.com/us/album/the-dark-side-of-the-moon/1499524415?i=1499525108&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "5. divisjon",
+      "band": "Flå Musikkorps",
+      "result_piece": "Dimensions",
+      "recording_title": "Dimensions",
+      "album": "NM Brass 2020 - 5. divisjon",
+      "spotify": "https://open.spotify.com/track/00zOMV5knkR0Z9AyS4Cgb3",
+      "apple_music": "https://music.apple.com/us/album/dimensions/1499524415?i=1499524960&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "5. divisjon",
+      "band": "Holmestrand Ungdomskorps",
+      "result_piece": "Evolution - Five States of Change",
+      "recording_title": "Evolution - Five States of Change",
+      "album": "NM Brass 2020 - 5. divisjon",
+      "spotify": "https://open.spotify.com/track/3otlGgfAInPP4RugcUI2sl",
+      "apple_music": "https://music.apple.com/us/album/evolution-five-states-of-change/1499524415?i=1499525113&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "5. divisjon",
+      "band": "Langhus Brass",
+      "result_piece": "A Malvern Suite",
+      "recording_title": "A Malvern Suite",
+      "album": "NM Brass 2020 - 5. divisjon",
+      "spotify": "https://open.spotify.com/track/2yVLiUVzqq7eN6JqSUVCVD",
+      "apple_music": "https://music.apple.com/us/album/a-malvern-suite/1499524415?i=1499524977&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "5. divisjon",
+      "band": "Lismarka/Mesnali Brass",
+      "result_piece": "Mountain Views",
+      "recording_title": "Mountain Views",
+      "album": "NM Brass 2020 - 5. divisjon",
+      "spotify": "https://open.spotify.com/track/53cJ6O93HYL5KKo9DbZrcs",
+      "apple_music": "https://music.apple.com/us/album/mountain-views/1499524415?i=1499524982&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "5. divisjon",
+      "band": "Otta Musikkforening",
+      "result_piece": "The Graces of Love",
+      "recording_title": "The Graces of Love",
+      "album": "NM Brass 2020 - 5. divisjon",
+      "spotify": "https://open.spotify.com/track/1DAK1uVsBYduExakFG0X4L",
+      "apple_music": "https://music.apple.com/us/album/the-graces-of-love/1499524415?i=1499525124&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "5. divisjon",
+      "band": "Randaberg Musikkorps",
+      "result_piece": "Dimensions",
+      "recording_title": "Dimensions",
+      "album": "NM Brass 2020 - 5. divisjon",
+      "spotify": "https://open.spotify.com/track/3rWxBu13HpJuiAJBEXWr73",
+      "apple_music": "https://music.apple.com/us/album/dimensions/1499524415?i=1499524980&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "5. divisjon",
+      "band": "Riska Brass Band",
+      "result_piece": "Olympus",
+      "recording_title": "Olympus",
+      "album": "NM Brass 2020 - 5. divisjon",
+      "spotify": "https://open.spotify.com/track/6T2imVFJtAbwE11m2sjpPM",
+      "apple_music": "https://music.apple.com/us/album/olympus/1499524415?i=1499524966&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "5. divisjon",
+      "band": "Skeie Brass",
+      "result_piece": "Viking Age",
+      "recording_title": "Viking Age",
+      "album": "NM Brass 2020 - 5. divisjon",
+      "spotify": "https://open.spotify.com/track/6addoZLE0xMVmSPIPOS9Ca",
+      "apple_music": "https://music.apple.com/us/album/viking-age/1499524415?i=1499524975&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "5. divisjon",
+      "band": "Sotra Brass",
+      "result_piece": "A Cambrian Suite",
+      "recording_title": "A Cambrian Suite",
+      "album": "NM Brass 2020 - 5. divisjon",
+      "spotify": "https://open.spotify.com/track/7dzujSTPT7cQgZYke57HaY",
+      "apple_music": "https://music.apple.com/us/album/a-cambrian-suite/1499524415?i=1499524963&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Bjørsvik Brass",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/4go9X8pIUS2eolDrUt9jfD",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499551939&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Bjørsvik Brass",
+      "result_piece": "The Night to Sing",
+      "recording_title": "The Night To Sing",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/2Gc2DVyrqggQdvpxXDckXt",
+      "apple_music": "https://music.apple.com/us/album/the-night-to-sing/1499551385?i=1499551728&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Eikanger-Bjørsvik Musikklag",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/6QEcYxpeyxE9SWJRU4EXtA",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499552086&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Eikanger-Bjørsvik Musikklag",
+      "result_piece": "Spiriti",
+      "recording_title": "Spiriti",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/1dPw0vRpQd1W4vDKqKeAHb",
+      "apple_music": "https://music.apple.com/us/album/spiriti/1499551385?i=1499551818&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Jaren Hornmusikkforening",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/5yzLTWjP7ajg41NiYGDcxj",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499551945&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Jaren Hornmusikkforening",
+      "result_piece": "VENOM - HorrorShow II",
+      "recording_title": "VENOM - HorrorShow II",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/2fHvzD6cMrhqO9Lm4wQsF5",
+      "apple_music": "https://music.apple.com/us/album/venom-horrorshow-ii/1499551385?i=1499551825&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Kleppe Musikklag",
+      "result_piece": "As If A Voice Were In Them...",
+      "recording_title": "As if a Voice Were in Them",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/1L47tENAUv6TvL1bRNKKSE",
+      "apple_music": "https://music.apple.com/us/album/as-if-a-voice-were-in-them/1499551385?i=1499551831&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Kleppe Musikklag",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/1thf30xovKBmebp7Ig7GYT",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499551933&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Krohnengen Brass Band",
+      "result_piece": "Fraternity",
+      "recording_title": "Fraternity",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/66Lnl4yUKP8yXr7IFxYuWN",
+      "apple_music": "https://music.apple.com/us/album/fraternity/1499551385?i=1499551745&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Krohnengen Brass Band",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/04dC4bYuFC7584wpScB5il",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499552087&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Manger Musikklag",
+      "result_piece": "Midnight's Butterflies",
+      "recording_title": "Midnight´s Butterflies",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/30zHn74MlzqpugPyKpKtiu",
+      "apple_music": "https://music.apple.com/us/album/midnights-butterflies/1499551385?i=1499551821&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Manger Musikklag",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/6IQGTXiawY8jvcqlSkwox7",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499552080&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Oslo Brass Band",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/3TKPvLz1Sv1Y6iHahshDkN",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499551926&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Oslo Brass Band",
+      "result_piece": "The Turing Test",
+      "recording_title": "The Turing Test",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/6zP5Lqf41YyvUjmlKu830N",
+      "apple_music": "https://music.apple.com/us/album/the-turing-test/1499551385?i=1499551726&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Oslofjord Brass",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/3cGjwWTVzHiCTI78TefuhT",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499552078&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Oslofjord Brass",
+      "result_piece": "Where Angels Fly",
+      "recording_title": "Where Angels Fly",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/3n0WbwHIfIn6TkyWpXbkRz",
+      "apple_music": "https://music.apple.com/us/album/where-angels-fly/1499551385?i=1499551817&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Stavanger Brass Band",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/5EImkJXIKqm8AmYiVrRrIS",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499551954&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Stavanger Brass Band",
+      "result_piece": "The Turing Test",
+      "recording_title": "The Turing Test",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/00ZfNuVivbRZg1vW9XvHad",
+      "apple_music": "https://music.apple.com/us/album/the-turing-test/1499551385?i=1499551741&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Tertnes Brass",
+      "result_piece": "Metropolis 1927",
+      "recording_title": "Metropolis 1927",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/7yM85WgweFCHATrRqcbclZ",
+      "apple_music": "https://music.apple.com/us/album/metropolis-1927/1499551385?i=1499551721&uo=4"
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "band": "Tertnes Brass",
+      "result_piece": "Myth Forest - Hestefallstjønn",
+      "recording_title": "Myth Forest",
+      "album": "NM Brass 2020 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/5oBrshrCmrQRS0SbFIQVdl",
+      "apple_music": "https://music.apple.com/us/album/myth-forest/1499551385?i=1499551931&uo=4"
+    }
+  ]
+}

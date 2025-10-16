@@ -1,0 +1,35 @@
+# Documentation Location
+
+**IMPORTANT:** All documentation files (except README.md) are located in the `docs/` directory.
+
+When creating new documentation, place it in:
+- `apps/band-positions/docs/` (for app-specific docs)
+
+Main directory should only contain:
+- README.md
+- Configuration files (*.config.*, *.json, etc.)
+- Source code directories (src/, public/, etc.)
+- Setup scripts (setup-ios.sh, etc.)
+
+## Current Documentation Structure
+
+```
+apps/band-positions/
+├── README.md                    # Main readme (links to docs/)
+├── docs/                        # All documentation here
+│   ├── START_HERE.md           # Entry point
+│   ├── SETUP_CHECKLIST.md      # Setup steps
+│   ├── CAPACITOR_SETUP.md      # Capacitor guide
+│   ├── CAPACITOR_QUICK_REF.md  # Quick reference
+│   ├── ARCHITECTURE.md         # Architecture
+│   ├── APP_STORE_GUIDE.md      # App Store guide
+│   ├── APP_STORE_CHECKLIST.md  # App Store checklist
+│   ├── XCODE_SETTINGS_GUIDE.md # Xcode settings
+│   ├── WKPROCESSPOOL_WARNING.md # Warning fixes
+│   ├── COCOAPODS_SCRIPT_WARNING.md
+│   ├── IOS_APP_SUMMARY.md
+│   └── FILES_CREATED.md
+├── src/                         # Source code
+├── public/                      # Static assets
+└── [config files]
+```
