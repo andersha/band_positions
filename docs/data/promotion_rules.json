@@ -1,0 +1,44 @@
+{
+  "wind": {
+    "2024": {
+      "Elite": { "demote": [9, 10] },
+      "1. divisjon": { "promote": [1, 2], "demote": [11, 12, 13] },
+      "2. divisjon": { "promote": [1, 2], "demote": [14, 15, 16] },
+      "3. divisjon": { "promote": [1, 2], "demote": [13, 14, 15, 16] },
+      "4. divisjon": { "promote": [1, 2], "demote": [13, 14, 15, 16] },
+      "5. divisjon": { "promote": [1, 2], "demote": [12, 13, 14, 15, 16] },
+      "6. divisjon": { "promote": [1, 2], "demote": [10, 11, 12, 13, 14, 15, 16] },
+      "7. divisjon": { "promote": [1, 2] }
+    },
+    "2025": {
+      "Elite": { "demote": [9, 10] },
+      "1. divisjon": { "promote": [1, 2], "demote": [11, 12, 13] },
+      "2. divisjon": { "promote": [1, 2], "demote": [14, 15, 16] },
+      "3. divisjon": { "promote": [1, 2], "demote": [13, 14, 15, 16] },
+      "4. divisjon": { "promote": [1, 2], "demote": [13, 14, 15, 16] },
+      "5. divisjon": { "promote": [1, 2], "demote": [12, 13, 14, 15, 16] },
+      "6. divisjon": { "promote": [1, 2], "demote": [10, 11, 12, 13, 14, 15, 16] },
+      "7. divisjon": { "promote": [1, 2] }
+    },
+    "2026": {
+      "Elite": { "demote": [9, 10] },
+      "1. divisjon": { "promote": [1, 2], "demote": [11, 12, 13] },
+      "2. divisjon": { "promote": [1, 2], "demote": [14, 15, 16] },
+      "3. divisjon": { "promote": [1, 2], "demote": [13, 14, 15, 16] },
+      "4. divisjon": { "promote": [1, 2], "demote": [13, 14, 15, 16] },
+      "5. divisjon": { "promote": [1, 2], "demote": [12, 13, 14, 15, 16] },
+      "6. divisjon": { "promote": [1, 2], "demote": [10, 11, 12, 13, 14, 15, 16] },
+      "7. divisjon": { "promote": [1, 2] }
+    }
+  },
+  "brass": {
+    "2016": {
+      "Elite": { "demote": [9, 10] },
+      "1. divisjon": { "promote": [1, 2], "demote": [10, 11, 12] },
+      "2. divisjon": { "promote": [1, 2], "demote": [11, 12, 13] },
+      "3. divisjon": { "promote": [1, 2], "demote": [12, 13, 14, 15] },
+      "4. divisjon": { "promote": [1, 2], "demote": [12, 13, 14, 15] },
+      "5. divisjon": { "promote": [1, 2] }
+    }
+  }
+}
