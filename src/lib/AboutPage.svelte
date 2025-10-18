@@ -64,6 +64,14 @@
       med korps, dirigenter, program og poengsum.
     </p>
 
+    <h4>Sortering av tabeller</h4>
+    <p>
+      Alle tabeller kan sorteres ved å klikke på kolonneoverskriftene. Klikk én gang for å sortere, 
+      og klikk igjen for å reversere sorteringsrekkefølgen. Tabeller sorteres som standard på år, 
+      men du kan sortere på alle kolonner som år, divisjon, plass, poeng og dirigent/korps. 
+      Divisjoner sorteres fra Elite til 1., 2., 3. divisjon osv.
+    </p>
+
     <h4>Opprykk og nedrykk</h4>
     <p>
       I resultatlisten vises korps som rykker opp med <span class="indicator-promote">grønn bakgrunn</span> 
