@@ -1,6 +1,6 @@
 <script lang="ts">
 
-  import type { BandDataset, BandEntry, BandType, StreamingLink, EliteTestPiecesData } from './types';
+  import type { BandDataset, BandEntry, BandType, StreamingLink, EliteTestPiecesData, PromotionRules, PromotionStatus } from './types';
   import { slugify } from './slugify';
   import { onMount } from 'svelte';
 
@@ -40,6 +40,7 @@
 
   let prizeData = $state<PrizeDataset | null>(null);
   let prizeDataLoading = $state(false);
+  let promotionRules = $state<PromotionRules | null>(null);
 
   type TableRow = {
     band: string;
@@ -305,6 +306,43 @@
     return (division || '').toLowerCase() === 'elite';
   }
 
+  function determinePromotionStatus(
+    rules: PromotionRules | null,
+    bandType: BandType,
+    year: number,
+    division: string,
+    rank: number | null
+  ): PromotionStatus {
+    if (!rules || rank == null) return null;
+
+    const byType = rules[bandType];
+    if (!byType) return null;
+
+    // Exact year match first
+    let byYear = byType[String(year)];
+
+    // Brass fallback: if no exact year but year is 2016 or later, use 2016 rules
+    if (!byYear && bandType === 'brass' && year >= 2016) {
+      byYear = byType['2016'];
+    }
+
+    if (!byYear) return null;
+
+    const rule = byYear[division];
+    if (!rule) return null;
+
+    if (rule.promote && rule.promote.includes(rank)) return 'promote';
+    if (rule.demote && rule.demote.includes(rank)) return 'demote';
+    return 'safe';
+  }
+
+  function getTrophy(rank: number | null): string {
+    if (rank === 1) return '🥇 ';
+    if (rank === 2) return '🥈 ';
+    if (rank === 3) return '🥉 ';
+    return '';
+  }
+
   function handleYearChange(event: Event): void {
     const value = Number((event.target as HTMLSelectElement).value);
     selectedYear = Number.isNaN(value) ? null : value;
@@ -383,9 +421,27 @@
     }
   }
 
-  // Load prize data on mount and when bandType changes
+  // Load prize data and promotion rules on mount
   onMount(() => {
     loadPrizeData(bandType);
+    
+    // Load promotion rules
+    fetch('data/promotion_rules.json')
+      .then((res) => {
+        if (res.ok) {
+          return res.json();
+        }
+        console.warn('promotion_rules.json not found or failed to load');
+        return null;
+      })
+      .then((data) => {
+        if (data) {
+          promotionRules = data;
+        }
+      })
+      .catch((err) => {
+        console.warn('Failed to load promotion rules', err);
+      });
   });
 
   $effect(() => {
@@ -513,8 +569,12 @@
           </thead>
           <tbody>
             {#each tableRows as { band, entry }}
-              <tr>
-                <td data-label="Plass">{formatRank(entry.rank)}</td>
+              {@const promotionStatus = determinePromotionStatus(promotionRules, bandType, selectedYear ?? 0, entry.division ?? '', entry.rank)}
+              <tr
+                class:row-promote={promotionStatus === 'promote'}
+                class:row-demote={promotionStatus === 'demote'}
+              >
+                <td data-label="Plass" class="rank-col">{getTrophy(entry.rank)}{formatRank(entry.rank)}</td>
                 <td data-label="Korps">
                   <a
                     href={`?type=${bandType}&view=bands&band=${encodeURIComponent(slugify(band))}`}
@@ -816,14 +876,23 @@
     color: var(--color-text-secondary);
   }
 
-  tbody tr:nth-child(even) {
-    background: rgba(255, 255, 255, 0.02);
+  /* Promotion/demotion row backgrounds */
+  tr.row-promote {
+    background-color: rgba(16, 185, 129, 0.08);
+  }
+
+  tr.row-demote {
+    background-color: rgba(239, 68, 68, 0.08);
   }
 
   tbody td {
     border-top: 1px solid var(--color-border);
     color: var(--color-text-primary);
     font-size: 0.95rem;
+  }
+
+  .rank-col {
+    white-space: nowrap;
   }
 
   .program-cell {

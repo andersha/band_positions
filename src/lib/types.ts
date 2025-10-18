@@ -74,3 +74,18 @@ export interface EliteTestPiece {
 export interface EliteTestPiecesData {
   test_pieces: { [year: string]: EliteTestPiece };
 }
+
+export type PromotionStatus = 'promote' | 'demote' | 'safe' | null;
+
+export interface DivisionRule {
+  promote?: number[];
+  demote?: number[];
+}
+
+export type DivisionName = string;
+export type YearKey = string;
+
+export interface PromotionRules {
+  wind: Record<YearKey, Record<DivisionName, DivisionRule>>;
+  brass: Record<YearKey, Record<DivisionName, DivisionRule>>;
+}
