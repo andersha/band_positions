@@ -63,6 +63,17 @@
       På resultat-siden kan du velge et spesifikt år og en divisjon for å se den komplette resultatlisten 
       med korps, dirigenter, program og poengsum.
     </p>
+
+    <h4>Opprykk og nedrykk</h4>
+    <p>
+      I resultatlisten vises korps som rykker opp med <span class="indicator-promote">grønn bakgrunn</span> 
+      og korps som rykker ned med <span class="indicator-demote">rød bakgrunn</span>. 
+      De tre beste plassene i hver divisjon markeres med troféer: 🥇 gull, 🥈 sølv, og 🥉 bronse.
+    </p>
+    <p>
+      Elitedivisjonen viser kun nedrykk (ingen opprykk mulig), mens den laveste divisjonen kun viser 
+      opprykk (ingen nedrykk). For år uten definerte regler vises ingen fargemarkering.
+    </p>
   </section>
 
   <section class="about-section">
@@ -195,6 +206,22 @@
   .about-footer p {
     font-style: italic;
     color: var(--color-text-muted);
+  }
+
+  .indicator-promote {
+    background-color: rgba(16, 185, 129, 0.25);
+    padding: 0.15rem 0.4rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+  }
+
+  .indicator-demote {
+    background-color: rgba(239, 68, 68, 0.25);
+    padding: 0.15rem 0.4rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
   }
 
   @media (max-width: 640px) {
