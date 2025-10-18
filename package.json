@@ -19,6 +19,8 @@
     "vite": "^7.1.9"
   },
   "dependencies": {
+    "@capacitor/status-bar": "^7.0.3",
+    "@capawesome/capacitor-android-edge-to-edge-support": "^7.2.3",
     "d3": "^7.9.0"
   }
 }

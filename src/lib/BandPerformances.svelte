@@ -16,15 +16,81 @@
     maximumFractionDigits: 1
   });
 
+  // Sorting state and utilities
+  type Direction = 'asc' | 'desc';
+  type BandSortColumn = 'year' | 'division' | 'rank' | 'points' | 'conductor';
+
+  let sortColumn = $state<BandSortColumn>('year');
+  let sortDirection = $state<Direction>('asc');
+
+  function cmp(a: unknown, b: unknown, dir: Direction): number {
+    const aNull = a == null || a === '';
+    const bNull = b == null || b === '';
+    if (aNull && bNull) return 0;
+    if (aNull) return 1;   // nulls/empties last for ascending
+    if (bNull) return -1;
+
+    let result: number;
+    if (typeof a === 'number' && typeof b === 'number') {
+      result = a - b;
+    } else {
+      result = String(a).localeCompare(String(b), 'nb', { numeric: true, sensitivity: 'base' });
+    }
+    return dir === 'asc' ? result : -result;
+  }
+
+  function ariaSort(current: BandSortColumn, target: BandSortColumn, dir: Direction): 'ascending' | 'descending' | 'none' {
+    if (current !== target) return 'none';
+    return dir === 'asc' ? 'ascending' : 'descending';
+  }
+
+  function indicator(current: BandSortColumn, target: BandSortColumn, dir: Direction): string {
+    if (current !== target) return '';
+    return dir === 'asc' ? ' ▲' : ' ▼';
+  }
+
+  function handleSort(column: BandSortColumn) {
+    if (sortColumn === column) {
+      sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+    } else {
+      sortColumn = column;
+      // Points should default to descending (highest first)
+      sortDirection = column === 'points' ? 'desc' : 'asc';
+    }
+  }
+
+  function getDivisionRank(division: string | null): number {
+    if (!division) return 999;
+    const div = division.toLowerCase();
+    if (div === 'elite') return 0;
+    if (div.includes('1.') || div === '1') return 1;
+    if (div.includes('2.') || div === '2') return 2;
+    if (div.includes('3.') || div === '3') return 3;
+    if (div.includes('4.') || div === '4') return 4;
+    if (div.includes('5.') || div === '5') return 5;
+    if (div.includes('6.') || div === '6') return 6;
+    return 10; // Other divisions
+  }
+
+  function getValue(entry: BandEntry, column: BandSortColumn) {
+    switch (column) {
+      case 'year': return entry.year;
+      case 'division': return getDivisionRank(entry.division ?? null);
+      case 'rank': return entry.rank ?? entry.absolute_position ?? null;
+      case 'points': return entry.points ?? null;
+      case 'conductor': return entry.conductor ?? null;
+    }
+  }
+
   function sortEntries(entries: BandEntry[]): BandEntry[] {
-    return [...entries].sort((a, b) => {
-      const yearDiff = a.year - b.year;
-      if (yearDiff !== 0) return yearDiff;
-      const rankA = a.rank ?? Number.POSITIVE_INFINITY;
-      const rankB = b.rank ?? Number.POSITIVE_INFINITY;
-      if (rankA !== rankB) return rankA - rankB;
-      return (a.absolute_position ?? Number.POSITIVE_INFINITY) - (b.absolute_position ?? Number.POSITIVE_INFINITY);
+    const sorted = [...entries];
+    sorted.sort((a, b) => {
+      const primary = cmp(getValue(a, sortColumn), getValue(b, sortColumn), sortDirection);
+      if (primary !== 0) return primary;
+      // Stable secondary key: year ascending
+      return cmp(a.year, b.year, 'asc');
     });
+    return sorted;
   }
 
   function formatPoints(points: number | null): string {
@@ -110,11 +176,11 @@
         <table>
           <thead>
             <tr>
-              <th scope="col">År</th>
-              <th scope="col" class="division-column">Divisjon</th>
-              <th scope="col">Plass</th>
-              <th scope="col">Poeng</th>
-              <th scope="col">Dirigent</th>
+              <th scope="col" class="sortable" onclick={() => handleSort('year')} aria-sort={ariaSort(sortColumn, 'year', sortDirection)}>År<span class="sort-indicator">{indicator(sortColumn, 'year', sortDirection)}</span></th>
+              <th scope="col" class="division-column sortable" onclick={() => handleSort('division')} aria-sort={ariaSort(sortColumn, 'division', sortDirection)}>Divisjon<span class="sort-indicator">{indicator(sortColumn, 'division', sortDirection)}</span></th>
+              <th scope="col" class="sortable" onclick={() => handleSort('rank')} aria-sort={ariaSort(sortColumn, 'rank', sortDirection)}>Plass<span class="sort-indicator">{indicator(sortColumn, 'rank', sortDirection)}</span></th>
+              <th scope="col" class="sortable" onclick={() => handleSort('points')} aria-sort={ariaSort(sortColumn, 'points', sortDirection)}>Poeng<span class="sort-indicator">{indicator(sortColumn, 'points', sortDirection)}</span></th>
+              <th scope="col" class="sortable" onclick={() => handleSort('conductor')} aria-sort={ariaSort(sortColumn, 'conductor', sortDirection)}>Dirigent<span class="sort-indicator">{indicator(sortColumn, 'conductor', sortDirection)}</span></th>
               <th scope="col">Program</th>
               <th scope="col" class="streaming-column">Opptak</th>
             </tr>
@@ -334,6 +400,22 @@
     text-transform: uppercase;
     letter-spacing: 0.02em;
     color: var(--color-text-secondary);
+  }
+
+  th.sortable {
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+
+  th.sortable:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .sort-indicator {
+    font-size: 0.85em;
+    margin-left: 0.25rem;
+    opacity: 0.8;
   }
 
   tbody tr:nth-child(even) {
