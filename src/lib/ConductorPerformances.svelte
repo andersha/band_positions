@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { BandRecord, BandEntry, BandType, StreamingLink } from './types';
   import { slugify } from './slugify';
+  import { getTrophy, countTrophies, formatTrophySummary } from './trophyUtils';
 
   interface Props {
     conductors?: BandRecord[];
@@ -177,10 +178,15 @@
 
 <section class="conductor-performances">
   {#each normalizedConductors as conductor}
+    {@const trophyCount = countTrophies(conductor.performances)}
+    {@const trophySummary = formatTrophySummary(trophyCount)}
     <article class="conductor-card">
       <header class="conductor-header">
         <div>
           <h2>{conductor.name}</h2>
+          {#if trophySummary}
+            <p class="trophy-summary">{trophySummary}</p>
+          {/if}
           <p class="conductor-count">{conductor.performances.length} fremføringer</p>
         </div>
       </header>
@@ -215,7 +221,7 @@
               <tr>
                 <td data-label="År">{performance.year}</td>
                 <td data-label="Divisjon" class="division-cell">{performance.division}</td>
-                <td data-label="Plass">{formatRank(performance.rank)}</td>
+                <td data-label="Plass" class="rank-col">{getTrophy(performance.rank)}{formatRank(performance.rank)}</td>
                 <td data-label="Poeng">{formatPoints(performance.points)}</td>
                 <td data-label="Korps">
                   {#if hasBand && bandSlug}
@@ -370,6 +376,16 @@
 
   .conductor-count {
     font-size: 0.85rem;
+  }
+
+  .trophy-summary {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+  }
+
+  .rank-col {
+    white-space: nowrap;
   }
 
   .table-wrapper {

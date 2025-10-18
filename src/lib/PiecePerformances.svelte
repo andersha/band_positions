@@ -2,6 +2,7 @@
   import type { PieceRecord, PiecePerformance, BandType, StreamingLink } from './types';
   import { extractComposerNames } from './composerUtils';
   import { slugify } from './slugify';
+  import { getTrophy, countTrophies, formatTrophySummary } from './trophyUtils';
 
   interface Props {
     pieces?: PieceRecord[];
@@ -158,6 +159,8 @@
 <section class="pieces-view">
   {#each sortedPieces as piece}
     {@const composerNames = resolveComposerNames(piece)}
+    {@const trophyCount = countTrophies(piece.performances.map(p => p.entry))}
+    {@const trophySummary = formatTrophySummary(trophyCount)}
     <article class="piece-card">
       <header class="piece-header">
         <div>
@@ -175,6 +178,9 @@
             </p>
           {:else if piece.composer}
             <p class="piece-composer">{piece.composer}</p>
+          {/if}
+          {#if trophySummary}
+            <p class="trophy-summary">{trophySummary}</p>
           {/if}
           <p class="piece-count">{piece.performances.length} fremføringer</p>
         </div>
@@ -211,7 +217,7 @@
                     {performance.band}
                   </a>
                 </td>
-                <td data-label="Plass">{formatRank(performance.entry.rank)}</td>
+                <td data-label="Plass" class="rank-col">{getTrophy(performance.entry.rank)}{formatRank(performance.entry.rank)}</td>
                 <td data-label="Poeng">{formatPoints(performance.entry.points)}</td>
                 <td data-label="Dirigent">
                   {#if hasConductor}
@@ -362,6 +368,16 @@
 
   .piece-header .piece-composer + .piece-count {
     margin-top: 0.15rem;
+  }
+
+  .trophy-summary {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+  }
+
+  .rank-col {
+    white-space: nowrap;
   }
 
   .table-wrapper {
