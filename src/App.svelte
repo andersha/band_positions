@@ -1417,13 +1417,13 @@ import type {
     : '');
 
   let searchPlaceholder = $derived(activeView === 'bands'
-    ? 'Begynn å skrive et korpsnavn (minst 2 bokstaver)…'
+    ? 'Skriv et korpsnavn (minst 2 bokstaver)'
     : activeView === 'conductors'
-      ? 'Begynn å skrive et dirigentnavn (minst 2 bokstaver)…'
+      ? 'Skriv et dirigentnavn (minst 2 bokstaver)'
       : activeView === 'pieces'
-        ? 'Begynn å skrive en stykketittel (minst 2 bokstaver)…'
+        ? 'Skriv en stykketittel (minst 2 bokstaver)'
         : activeView === 'composers'
-          ? 'Begynn å skrive et komponistnavn (minst 2 bokstaver)…'
+          ? 'Skriv et komponistnavn (minst 2 bokstaver)'
           : '');
   let searchLabel = $derived(activeView === 'bands'
     ? 'Søk etter korps'

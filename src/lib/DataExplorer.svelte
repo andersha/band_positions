@@ -504,9 +504,9 @@
       </label>
       {#if divisionSize}
         <div class="control control--summary" aria-live="polite">
-          <span>{divisionSize} korps</span>
+          <span>{divisionSize} korps i divisjonen</span>
           {#if fieldSize}
-            <span>Totalt felt: {fieldSize}</span>
+            <span>{fieldSize} korps totalt</span>
           {/if}
         </div>
       {/if}
@@ -758,6 +758,13 @@
     border: 1px solid var(--color-border);
     background: var(--color-surface-card);
     color: var(--color-text-primary);
+  }
+
+  @media (max-width: 640px) {
+    .control select {
+      min-width: 7rem;
+      max-width: 9rem;
+    }
   }
 
   .control--summary {

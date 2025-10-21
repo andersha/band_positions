@@ -185,16 +185,16 @@
     <div class="filters-container">
       <div class="search-row">
         <div class="search-group">
+          <select bind:value={searchField} class="search-field-select">
+            <option value="title">Tittel</option>
+            <option value="composer">Komponist</option>
+          </select>
           <input
             type="text"
             placeholder="Søk..."
             bind:value={searchTerm}
             class="search-input"
           />
-          <select bind:value={searchField} class="search-field-select">
-            <option value="title">Tittel</option>
-            <option value="composer">Komponist</option>
-          </select>
         </div>
       </div>
 
@@ -347,6 +347,7 @@
 
   .search-input {
     flex: 1;
+    min-width: 0; /* Allow input to shrink */
     padding: 0.5rem 0.75rem;
     border-radius: 0.6rem;
     border: 1px solid var(--color-border);
@@ -590,6 +591,15 @@
   @media (max-width: 768px) {
     .search-group {
       min-width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .search-input {
+      flex: 1 1 55%;
+    }
+
+    .search-field-select {
+      flex: 1 1 40%;
     }
 
     .filter-row {
