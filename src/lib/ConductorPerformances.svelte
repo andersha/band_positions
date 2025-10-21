@@ -566,6 +566,14 @@
   }
 
   @media (max-width: 640px) {
+    .conductor-card {
+      padding: 0.75rem 0.5rem; /* Reduced from 1.5rem for narrower viewports */
+    }
+
+    .conductor-header h2 {
+      font-size: 1.25rem; /* Reduced header size for mobile */
+    }
+
     table {
       min-width: auto;
     }
@@ -576,7 +584,7 @@
 
     tbody tr {
       display: grid;
-      grid-template-columns: 70% 30%;
+      grid-template-columns: 68% 32%;
       gap: 0.35rem 0.75rem;
       padding: 0.75rem 1rem;
       border-bottom: 1px solid var(--color-border);

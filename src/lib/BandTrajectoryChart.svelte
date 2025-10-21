@@ -914,4 +914,10 @@
     height: 0.35rem;
     border-radius: 999px;
   }
+
+  @media (max-width: 640px) {
+    .band-legend {
+      font-size: 0.8rem; /* Reduced from 0.85rem for mobile */
+    }
+  }
 </style>
