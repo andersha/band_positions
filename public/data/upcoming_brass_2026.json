@@ -1,0 +1,933 @@
+{
+  "year": 2026,
+  "competition_type": "brass",
+  "stage": 1,
+  "divisions": [
+    {
+      "name": "Elite",
+      "entries": [
+        {
+          "orchestra": "Bjørsvik Brass",
+          "division": "Elite",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Brøttum Brass",
+          "division": "Elite",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "division": "Elite",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Jaren Hornmusikkforening",
+          "division": "Elite",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Kleppe Musikklag",
+          "division": "Elite",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Manger Musikklag",
+          "division": "Elite",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Oslo Brass Band",
+          "division": "Elite",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Oslofjord Brass",
+          "division": "Elite",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Stavanger Brass Band",
+          "division": "Elite",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Tertnes Brass",
+          "division": "Elite",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        }
+      ],
+      "play_date": null,
+      "venue": null
+    },
+    {
+      "name": "1. divisjon",
+      "entries": [
+        {
+          "orchestra": "Askøy Brass Band",
+          "division": "1. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Flesland Musikklag",
+          "division": "1. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Ila Brass Band",
+          "division": "1. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Krohnengen Brass Band",
+          "division": "1. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Molde Brass Band",
+          "division": "1. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Musikkorpset Gjallarhorn",
+          "division": "1. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Radøy Brass",
+          "division": "1. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Rong Brass",
+          "division": "1. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Sandefjord Brass Symposium",
+          "division": "1. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Tomra Brass Band",
+          "division": "1. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Tysnes Musikklag",
+          "division": "1. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Ørskog Brass",
+          "division": "1. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        }
+      ],
+      "play_date": null,
+      "venue": null
+    },
+    {
+      "name": "2. divisjon",
+      "entries": [
+        {
+          "orchestra": "Agder Brass",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Bergen Brass Band",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Bjørvika Brass Band",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Follesø Musikklag",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Gjesdal Brass Band",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Hasle Brass",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Haukås Musikklag",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Jølster Musikklag",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Sola Brass Band",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Stangaland Brass",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Sørum Musikklag",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Tromsø Brass",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Trondheim Brass Band",
+          "division": "2. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        }
+      ],
+      "play_date": null,
+      "venue": null
+    },
+    {
+      "name": "3. divisjon",
+      "entries": [
+        {
+          "orchestra": "Alexander Brassband",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Evanger Musikklag",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Fjell Brass",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Gjøvik Bybrass",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Haugaland Brass Band",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Kjølsdalen Musikklag",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Krohnengen Old Star (KOS)",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Lindås Brass",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Manger Old Star Brass",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Moen Musikkforening",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Nes Musikkforening",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Oster Brass",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Stavanger Kommunes Korps",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Riska Brass Band",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Tertnes Amatørkorps",
+          "division": "3. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        }
+      ],
+      "play_date": null,
+      "venue": null
+    },
+    {
+      "name": "4. divisjon",
+      "entries": [
+        {
+          "orchestra": "Eikelandsfjorden Musikklag",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Flora-Bremanger Brassband",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Flå Musikkorps",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Grenland Brass",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Hetlevik Musikklag",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Herøy Brass",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Jonsvatnet Brass",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Laksevåg Musikkforening",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Lyshornet Brass",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Randaberg Musikkorps",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Rosendal Musikklag",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Saksumdal Musikkforening",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Seim Musikklag",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Skeie Brass",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Skui Brassband",
+          "division": "4. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        }
+      ],
+      "play_date": null,
+      "venue": null
+    },
+    {
+      "name": "5. divisjon",
+      "entries": [
+        {
+          "orchestra": "Austevoll Brass",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Brumunddal Brass",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Filadelfia Hornorkester Drammen",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Florø Hornmusikk",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Frei Hornmusikk",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Haus Musikklag",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Holmestrand Brass",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Imi Brass",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Lalm Musikkforening",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Langhus Brass",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Lismarka/Mesnali Brass",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Norheimsund Musikklag",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Sagvåg Musikklag",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Torpa BygdeBrass",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Valdres Brass Band",
+          "division": "5. divisjon",
+          "play_order": null,
+          "play_datetime": null,
+          "venue": null,
+          "conductor": null,
+          "pieces": [],
+          "korpsnr": null,
+          "image_url": null
+        }
+      ],
+      "play_date": null,
+      "venue": null
+    }
+  ],
+  "location": null,
+  "date_range": null,
+  "last_updated": "2025-11-20T15:12:55.315143",
+  "notes": "Division assignments announced. Playing schedule, pieces, and conductors TBA."
+}

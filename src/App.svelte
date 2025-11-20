@@ -14,6 +14,7 @@
   import StartupScreen from './lib/StartupScreen.svelte';
   import AboutPage from './lib/AboutPage.svelte';
   import SettingsPage from './lib/SettingsPage.svelte';
+  import Upcoming2026 from './lib/Upcoming2026.svelte';
   import { slugify } from './lib/slugify';
   import { extractComposerNames, normalizeComposerName } from './lib/composerUtils';
   import { readLS, writeLS, STORAGE_KEYS } from './lib/storage';
@@ -28,7 +29,7 @@ import type {
   EliteTestPiecesData
 } from './lib/types';
 
-  type ViewType = 'bands' | 'conductors' | 'pieces' | 'composers' | 'data' | 'repertoire' | 'om' | 'innstillinger';
+  type ViewType = 'bands' | 'conductors' | 'pieces' | 'composers' | 'data' | 'repertoire' | '2026' | 'om' | 'innstillinger';
   type Theme = 'light' | 'dark';
 
   const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor', pieces: 'piece', composers: 'composer' } as const;
@@ -49,10 +50,11 @@ import type {
     composers: 'Komponist',
     data: 'Resultat',
     repertoire: 'Repertoar',
+    '2026': '2026',
     om: 'Om',
     innstillinger: '⚙️'
   };
-  const viewOrder: ViewType[] = ['data', 'bands', 'conductors', 'pieces', 'composers', 'repertoire', 'om', 'innstillinger']; // Settings at the end
+  const viewOrder: ViewType[] = ['2026', 'data', 'bands', 'conductors', 'pieces', 'composers', 'repertoire', 'om', 'innstillinger']; // Settings at the end
 
   let dataset = $state<BandDataset | null>(null);
   let conductorRecords = $state<BandRecord[]>([]);
@@ -807,6 +809,9 @@ import type {
     if (raw === 'om' || raw === 'about') {
       return 'om';
     }
+    if (raw === '2026' || raw === 'upcoming') {
+      return '2026';
+    }
     return 'bands';
   }
 
@@ -1474,6 +1479,8 @@ import type {
         return 'Søk etter en komponist for å se hvilke NM-stykker de står bak.';
       case 'repertoire':
         return 'Søk etter stykker med komponist, varighet og vanskelighetsgrad. Repertoaret utvides løpende.';
+      case '2026':
+        return 'Se påmeldte korps og spilleplan for NM 2026. Informasjonen oppdateres etter hvert som den blir tilgjengelig.';
       case 'om':
         return '';
       case 'data':
@@ -1661,6 +1668,8 @@ import type {
     {/if}
   {:else if activeView === 'repertoire'}
     <RepertoireExplorer />
+  {:else if activeView === '2026'}
+    <Upcoming2026 {bandType} />
   {:else if activeView === 'om'}
     <AboutPage {bandType} />
   {:else if activeView === 'innstillinger'}
@@ -1779,7 +1788,7 @@ import type {
     border: none;
     background: transparent;
     color: var(--color-text-secondary);
-    padding: 0.35rem 0.9rem;
+    padding: 0.25rem 0.6rem;
     border-radius: 999px;
     font-size: 0.9rem;
     cursor: pointer;
@@ -1811,7 +1820,7 @@ import type {
     background: var(--color-mode-toggle-bg);
     color: var(--color-text-secondary);
     border-radius: 999px;
-    padding: 0.35rem 0.9rem;
+    padding: 0.25rem 0.6rem;
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
