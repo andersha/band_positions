@@ -25,11 +25,12 @@
           "rank": 3,
           "division_size": 3,
           "absolute_position": 3,
-          "field_size": 6,
-          "points": null,
+          "field_size": 11,
+          "points": 88.33,
           "max_points": 100.0,
-          "conductor": "Ukjent",
+          "conductor": "Tor Haram",
           "pieces": [
+            "The Planets, 1. sats Mars The Bringer of the War",
             "Epiphany (plikt)"
           ]
         },
@@ -832,6 +833,7 @@
           "max_points": 100.0,
           "conductor": "Jan L. Jacobsen",
           "pieces": [
+            "El Camino Real",
             "Variations for Band (plikt)"
           ]
         },
@@ -2427,10 +2429,11 @@
           "division_size": 11,
           "absolute_position": 47,
           "field_size": 47,
-          "points": null,
+          "points": 82.0,
           "max_points": 100.0,
           "conductor": "Bjørn Gjendem",
           "pieces": [
+            "In all its Glory",
             "3 Fragments for Band (plikt)"
           ]
         }
@@ -2520,11 +2523,12 @@
           "rank": 2,
           "division_size": 3,
           "absolute_position": 2,
-          "field_size": 6,
-          "points": 89.7,
+          "field_size": 11,
+          "points": 89.67,
           "max_points": 100.0,
-          "conductor": "Ukjent",
+          "conductor": "Sigmund Ofstad",
           "pieces": [
+            "Symphony no. 5, Finale",
             "Epiphany (plikt)"
           ]
         },
@@ -2594,7 +2598,7 @@
           "division_size": 12,
           "absolute_position": 11,
           "field_size": 47,
-          "points": null,
+          "points": 87.5,
           "max_points": 100.0,
           "conductor": "Karl Ole Midtbø",
           "pieces": [
@@ -3131,7 +3135,7 @@
           "division_size": 11,
           "absolute_position": 40,
           "field_size": 47,
-          "points": null,
+          "points": 90.0,
           "max_points": 100.0,
           "conductor": "Vidar Myhre",
           "pieces": [
@@ -3145,7 +3149,7 @@
           "division_size": 18,
           "absolute_position": 27,
           "field_size": 54,
-          "points": 86.6,
+          "points": 86.5,
           "max_points": 100.0,
           "conductor": "Vidar Myhre",
           "pieces": [
@@ -3868,7 +3872,7 @@
           "division_size": 15,
           "absolute_position": 40,
           "field_size": 49,
-          "points": 86.0,
+          "points": 87.0,
           "max_points": 100.0,
           "conductor": "Odd André Brasetvik",
           "pieces": [
@@ -3883,7 +3887,7 @@
           "division_size": 11,
           "absolute_position": 45,
           "field_size": 47,
-          "points": null,
+          "points": 84.0,
           "max_points": 100.0,
           "conductor": "Odd André Brasetvik",
           "pieces": [
@@ -4532,7 +4536,7 @@
           "division_size": 12,
           "absolute_position": 14,
           "field_size": 47,
-          "points": null,
+          "points": 82.0,
           "max_points": 100.0,
           "conductor": "Per Kvistad Uddu",
           "pieces": [
@@ -4981,7 +4985,7 @@
           "division_size": 11,
           "absolute_position": 43,
           "field_size": 47,
-          "points": null,
+          "points": 86.0,
           "max_points": 100.0,
           "conductor": "Eivind Rise",
           "pieces": [
@@ -5011,7 +5015,7 @@
           "field_size": 59,
           "points": 83.0,
           "max_points": 100.0,
-          "conductor": "Erlend Eide",
+          "conductor": "Ola Ellefsen",
           "pieces": []
         },
         {
@@ -6017,7 +6021,9 @@
           "points": 87.0,
           "max_points": 100.0,
           "conductor": "Torstein Kristiansen",
-          "pieces": []
+          "pieces": [
+            "Sheperd's Hey, English Morris Dance"
+          ]
         },
         {
           "year": 1996,
@@ -7596,7 +7602,9 @@
           "points": 86.0,
           "max_points": 100.0,
           "conductor": "Kjell Olav Henriksen",
-          "pieces": []
+          "pieces": [
+            "Second Suite in F for Military Band"
+          ]
         },
         {
           "year": 2024,
@@ -7759,9 +7767,9 @@
         {
           "year": 2003,
           "division": "3. divisjon",
-          "rank": 7,
+          "rank": 6,
           "division_size": 15,
-          "absolute_position": 42,
+          "absolute_position": 41,
           "field_size": 68,
           "points": 87.0,
           "max_points": 100.0,
@@ -8019,6 +8027,21 @@
       "name": "Eidsvåg Musikklag",
       "slug": "eidsvag-musikklag",
       "entries": [
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 8,
+          "absolute_position": 10,
+          "field_size": 11,
+          "points": 81.33,
+          "max_points": 100.0,
+          "conductor": "Jan L. Jacobsen",
+          "pieces": [
+            "A Jubilant Overture",
+            "Alpen Sketches (plikt)"
+          ]
+        },
         {
           "year": 1986,
           "division": "2. divisjon",
@@ -8471,6 +8494,7 @@
           "max_points": 100.0,
           "conductor": "Bengt Florvåg",
           "pieces": [
+            "Symphonic Songs for Band",
             "Variations for Band (plikt)"
           ]
         },
@@ -9196,14 +9220,15 @@
         {
           "year": 1992,
           "division": "3. divisjon",
-          "rank": 4,
+          "rank": 5,
           "division_size": 15,
-          "absolute_position": 38,
+          "absolute_position": 39,
           "field_size": 49,
           "points": 89.0,
           "max_points": 100.0,
           "conductor": "Ulf Steinar Berg",
           "pieces": [
+            "A Highland Rhapsody",
             "La Storia (plikt)"
           ]
         },
@@ -9631,7 +9656,10 @@
           "points": 83.0,
           "max_points": 100.0,
           "conductor": "Stein Hustad",
-          "pieces": []
+          "pieces": [
+            "The Phantom of the Opera",
+            "Hudson River Suite (plikt)"
+          ]
         },
         {
           "year": 2008,
@@ -10159,7 +10187,7 @@
           "division_size": 15,
           "absolute_position": 38,
           "field_size": 49,
-          "points": 89.0,
+          "points": 90.0,
           "max_points": 100.0,
           "conductor": "Geir Eikenes",
           "pieces": [
@@ -10380,6 +10408,7 @@
           "max_points": 100.0,
           "conductor": "Rune André Halvorsen",
           "pieces": [
+            "Changes",
             "Legend, op. 81 (plikt)"
           ]
         },
@@ -11413,6 +11442,7 @@
           "max_points": 100.0,
           "conductor": "Mardon Åvitsland",
           "pieces": [
+            "Genoveva (Poeme Symphonique)",
             "An Outdoor Overture (plikt)"
           ]
         },
@@ -12194,6 +12224,7 @@
           "max_points": 100.0,
           "conductor": "Nils Kvenild",
           "pieces": [
+            "Slavonic Rhapsody No. 1",
             "Festive Piece (plikt)"
           ]
         },
@@ -12725,7 +12756,7 @@
           "division_size": 18,
           "absolute_position": 26,
           "field_size": 47,
-          "points": null,
+          "points": 83.5,
           "max_points": 100.0,
           "conductor": "Torstein Siegel",
           "pieces": [
@@ -13139,7 +13170,7 @@
           "max_points": 100.0,
           "conductor": "Ola Fredheim Haug",
           "pieces": [
-            "El Camino Real"
+            "First Suite for Band"
           ]
         },
         {
@@ -13419,7 +13450,10 @@
           "points": 91.0,
           "max_points": 100.0,
           "conductor": "Johnny Olsen",
-          "pieces": []
+          "pieces": [
+            "Norwegian Rhapsody",
+            "Declaration, Ballade and Finale"
+          ]
         },
         {
           "year": 1996,
@@ -13957,6 +13991,7 @@
           "max_points": 100.0,
           "conductor": "Gunnar Lintvedt",
           "pieces": [
+            "Puszta (Four Gypsi Dances)",
             "Dimensions (plikt)"
           ]
         },
@@ -14531,6 +14566,7 @@
           "max_points": 100.0,
           "conductor": "Ørnulf Ring",
           "pieces": [
+            "Third Suite for Band",
             "3 Fragments for Band (plikt)"
           ]
         },
@@ -14800,7 +14836,8 @@
           "max_points": 100.0,
           "conductor": "Erlend Tunestveit",
           "pieces": [
-            "Illyrian Dances (plikt)"
+            "En Natt på Bloksberg",
+            "Fiesta Del Pacifico (plikt)"
           ]
         },
         {
@@ -14840,7 +14877,7 @@
           "division_size": 12,
           "absolute_position": 18,
           "field_size": 47,
-          "points": null,
+          "points": 78.0,
           "max_points": 100.0,
           "conductor": "Kari Slinning",
           "pieces": [
@@ -16286,13 +16323,14 @@
           "year": 1984,
           "division": "2. divisjon",
           "rank": 1,
-          "division_size": 3,
+          "division_size": 8,
           "absolute_position": 4,
-          "field_size": 6,
-          "points": 92.7,
+          "field_size": 11,
+          "points": 92.67,
           "max_points": 100.0,
           "conductor": "Gunnar Lintvedt",
           "pieces": [
+            "Slava!",
             "Alpen Sketches (plikt)"
           ]
         },
@@ -17522,6 +17560,7 @@
           "max_points": 100.0,
           "conductor": "Øyvind Hage",
           "pieces": [
+            "Sinfonia Nobilissima",
             "Dimensions (plikt)"
           ]
         },
@@ -17536,6 +17575,7 @@
           "max_points": 100.0,
           "conductor": "Sjur Høgberg",
           "pieces": [
+            "Al Fresco (for Concert Band)",
             "Variations for Band (plikt)"
           ]
         },
@@ -17550,6 +17590,7 @@
           "max_points": 100.0,
           "conductor": "Sjur Høgberg",
           "pieces": [
+            "Armenian Dances, Part 1",
             "An Outdoor Overture (plikt)"
           ]
         },
@@ -17564,6 +17605,7 @@
           "max_points": 100.0,
           "conductor": "Jan L. Jacobsen",
           "pieces": [
+            "Invocation and Toccata",
             "The Forest of Arden (plikt)"
           ]
         },
@@ -17578,6 +17620,7 @@
           "max_points": 100.0,
           "conductor": "Jan L. Jacobsen",
           "pieces": [
+            "El Camino Real",
             "Incantation and Dance (plikt)"
           ]
         },
@@ -18690,13 +18733,14 @@
           "year": 1984,
           "division": "2. divisjon",
           "rank": 3,
-          "division_size": 3,
+          "division_size": 8,
           "absolute_position": 6,
-          "field_size": 6,
-          "points": null,
+          "field_size": 11,
+          "points": 89.33,
           "max_points": 100.0,
           "conductor": "Kjell Jønnum",
           "pieces": [
+            "Symphony No. 2, 1. movement",
             "Alpen Sketches (plikt)"
           ]
         },
@@ -19146,11 +19190,11 @@
         {
           "year": 1992,
           "division": "2. divisjon",
-          "rank": 18,
+          "rank": 19,
           "division_size": 19,
-          "absolute_position": 33,
+          "absolute_position": 34,
           "field_size": 49,
-          "points": 79.0,
+          "points": 76.0,
           "max_points": 100.0,
           "conductor": "Michiel Westhof",
           "pieces": [
@@ -19465,7 +19509,10 @@
           "points": 93.0,
           "max_points": 100.0,
           "conductor": "Tor Halvard Nilsen",
-          "pieces": []
+          "pieces": [
+            "Sea Portrait",
+            "Canticle of the Creatures"
+          ]
         },
         {
           "year": 1996,
@@ -19891,7 +19938,10 @@
           "points": 81.0,
           "max_points": 100.0,
           "conductor": "Rolf Olav Andersen",
-          "pieces": []
+          "pieces": [
+            "Dimensions",
+            "Variazioni in Blue"
+          ]
         },
         {
           "year": 1997,
@@ -21309,9 +21359,25 @@
           "field_size": 10,
           "points": 88.5,
           "max_points": 100.0,
-          "conductor": "Ukjent",
+          "conductor": "Kjell Martinsen",
           "pieces": [
+            "Fest Polonaise, Op. 12",
             "Blow out (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 8,
+          "absolute_position": 7,
+          "field_size": 11,
+          "points": 88.83,
+          "max_points": 100.0,
+          "conductor": "Kjell Martinsen",
+          "pieces": [
+            "Third Suite for Band",
+            "Alpen Sketches (plikt)"
           ]
         },
         {
@@ -21581,7 +21647,23 @@
           "max_points": 100.0,
           "conductor": "Per Grønli",
           "pieces": [
+            "Folk Song Suite for Military Band",
             "Festive Piece (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 2,
+          "division_size": 8,
+          "absolute_position": 5,
+          "field_size": 11,
+          "points": 92.5,
+          "max_points": 100.0,
+          "conductor": "Arne Sæter",
+          "pieces": [
+            "La Forza del Destino",
+            "Alpen Sketches (plikt)"
           ]
         },
         {
@@ -21652,6 +21734,7 @@
           "max_points": 100.0,
           "conductor": "Tore Nedregård",
           "pieces": [
+            "Morgen, middag og aften",
             "Variations for Band (plikt)"
           ]
         },
@@ -21666,6 +21749,7 @@
           "max_points": 100.0,
           "conductor": "Kjell Kipperberg",
           "pieces": [
+            "Slavonic Rhapsody No. 2, Op. 269",
             "An Outdoor Overture (plikt)"
           ]
         },
@@ -21880,7 +21964,7 @@
           "field_size": 110,
           "points": 83.0,
           "max_points": 100.0,
-          "conductor": "Nick Ost",
+          "conductor": "Stijn Berbé",
           "pieces": [
             "Gaillarde",
             "Stone Age"
@@ -22291,6 +22375,7 @@
           "max_points": 100.0,
           "conductor": "Per Grønli",
           "pieces": [
+            "Norwegian Rhapsody",
             "3 Fragments for Band (plikt)"
           ]
         },
@@ -23003,7 +23088,7 @@
           "max_points": 100.0,
           "conductor": "Ketil R. Teigen",
           "pieces": [
-            "Divertimento",
+            "Divertimento for Band",
             "Tristropha (plikt)"
           ]
         },
@@ -24601,8 +24686,11 @@
           "field_size": 59,
           "points": 83.0,
           "max_points": 100.0,
-          "conductor": "Ola Ellefsen",
-          "pieces": []
+          "conductor": "Erlend Eide",
+          "pieces": [
+            "Rejoissance (Fantasia on Ein Feste Burg)",
+            "Aquarium"
+          ]
         }
       ]
     },
@@ -24617,7 +24705,7 @@
           "division_size": 18,
           "absolute_position": 31,
           "field_size": 47,
-          "points": null,
+          "points": 81.0,
           "max_points": 100.0,
           "conductor": "Bjørn Morten Kjærnes",
           "pieces": [
@@ -25488,7 +25576,9 @@
           "points": 83.5,
           "max_points": 100.0,
           "conductor": "Terje Wiik Mikkelsen",
-          "pieces": []
+          "pieces": [
+            "The Roman Carnival"
+          ]
         },
         {
           "year": 1992,
@@ -25511,10 +25601,11 @@
           "division_size": 12,
           "absolute_position": 10,
           "field_size": 47,
-          "points": null,
+          "points": 89.0,
           "max_points": 100.0,
           "conductor": "Ingar Bergby",
           "pieces": [
+            "Symphony no. 1 for Band",
             "Punchinello Overture (plikt)"
           ]
         },
@@ -25936,6 +26027,7 @@
           "max_points": 100.0,
           "conductor": "Karl Ole Midtbø",
           "pieces": [
+            "Akademisk festovertyre, Op. 80",
             "Blow out (plikt)"
           ]
         },
@@ -26660,7 +26752,7 @@
           "division_size": 11,
           "absolute_position": 44,
           "field_size": 47,
-          "points": 86.0,
+          "points": 85.5,
           "max_points": 100.0,
           "conductor": "John Brakstad",
           "pieces": [
@@ -27039,7 +27131,7 @@
           "division_size": 18,
           "absolute_position": 25,
           "field_size": 47,
-          "points": null,
+          "points": 84.5,
           "max_points": 100.0,
           "conductor": "Arild Hognes",
           "pieces": [
@@ -27120,9 +27212,9 @@
         {
           "year": 2003,
           "division": "3. divisjon",
-          "rank": 9,
+          "rank": 8,
           "division_size": 15,
-          "absolute_position": 44,
+          "absolute_position": 43,
           "field_size": 68,
           "points": 86.0,
           "max_points": 100.0,
@@ -27963,7 +28055,7 @@
           "field_size": 10,
           "points": 92.9,
           "max_points": 100.0,
-          "conductor": "Ukjent",
+          "conductor": "Tom Skjellum",
           "pieces": [
             "Bilder fra en Utstilling",
             "Lincolnshire Posy (plikt)"
@@ -28643,7 +28735,7 @@
           "division_size": 16,
           "absolute_position": 34,
           "field_size": 63,
-          "points": 82.0,
+          "points": 84.0,
           "max_points": 100.0,
           "conductor": "Gunnar Lintvedt",
           "pieces": [
@@ -28955,7 +29047,7 @@
           "division_size": 4,
           "absolute_position": 4,
           "field_size": 6,
-          "points": 90.4,
+          "points": 89.4,
           "max_points": 100.0,
           "conductor": "Per Christian Ormar",
           "pieces": [
@@ -29000,7 +29092,7 @@
           "division_size": 15,
           "absolute_position": 7,
           "field_size": 49,
-          "points": 89.5,
+          "points": 89.0,
           "max_points": 100.0,
           "conductor": "Egil Johannes Lysebo",
           "pieces": [
@@ -29018,6 +29110,7 @@
           "max_points": 100.0,
           "conductor": "Odd Terje Lysebo",
           "pieces": [
+            "In the Spring, At the Time When Kings Go Off to War",
             "Punchinello Overture (plikt)"
           ]
         },
@@ -29490,6 +29583,21 @@
           ]
         },
         {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 6,
+          "division_size": 8,
+          "absolute_position": 9,
+          "field_size": 11,
+          "points": 83.5,
+          "max_points": 100.0,
+          "conductor": "Truls Tønnesen",
+          "pieces": [
+            "Second Suite in F for Military Band",
+            "Alpen Sketches (plikt)"
+          ]
+        },
+        {
           "year": 1987,
           "division": "2. divisjon",
           "rank": 4,
@@ -29534,7 +29642,7 @@
           "division_size": 15,
           "absolute_position": 14,
           "field_size": 49,
-          "points": 81.5,
+          "points": 81.0,
           "max_points": 100.0,
           "conductor": "Michael Antrobus",
           "pieces": [
@@ -29567,6 +29675,7 @@
           "max_points": 100.0,
           "conductor": "Allan Withington",
           "pieces": [
+            "Mannin Veen",
             "Variations on a Hymn by Louis Bourgeois (plikt)"
           ]
         },
@@ -30011,7 +30120,7 @@
           "division_size": 15,
           "absolute_position": 3,
           "field_size": 49,
-          "points": 93.5,
+          "points": 93.0,
           "max_points": 100.0,
           "conductor": "Christer Johannesen",
           "pieces": [
@@ -30438,7 +30547,10 @@
           "points": 84.0,
           "max_points": 100.0,
           "conductor": "Tore Halvorsen",
-          "pieces": []
+          "pieces": [
+            "Concert Prelude",
+            "Concita for Band"
+          ]
         },
         {
           "year": 2000,
@@ -30674,7 +30786,7 @@
           "field_size": 68,
           "points": 90.0,
           "max_points": 100.0,
-          "conductor": "Ukjent",
+          "conductor": "Leif Arne T. Pedersen",
           "pieces": [
             "Dionysiaques",
             "Star Wars Trilogy"
@@ -31760,13 +31872,28 @@
       "slug": "skjeberg-musikkorps",
       "entries": [
         {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 8,
+          "division_size": 8,
+          "absolute_position": 11,
+          "field_size": 11,
+          "points": 80.67,
+          "max_points": 100.0,
+          "conductor": "Reidar Bergby",
+          "pieces": [
+            "Folk Song Suite for Military Band",
+            "Alpen Sketches (plikt)"
+          ]
+        },
+        {
           "year": 1989,
           "division": "2. divisjon",
           "rank": 8,
           "division_size": 8,
           "absolute_position": 15,
           "field_size": 18,
-          "points": null,
+          "points": 79.0,
           "max_points": 100.0,
           "conductor": "Reidar Bergby",
           "pieces": [
@@ -31979,7 +32106,9 @@
           "points": 87.0,
           "max_points": 100.0,
           "conductor": "Jan Gjendemsjø",
-          "pieces": []
+          "pieces": [
+            "Puszta (Four Gypsi Dances)"
+          ]
         },
         {
           "year": 1991,
@@ -32021,6 +32150,7 @@
           "max_points": 100.0,
           "conductor": "Geir Holm",
           "pieces": [
+            "Norwegian Rhapsody no. 1",
             "Dimensions (plikt)"
           ]
         },
@@ -32498,9 +32628,9 @@
           "year": 1984,
           "division": "2. divisjon",
           "rank": 5,
-          "division_size": 3,
+          "division_size": 8,
           "absolute_position": 8,
-          "field_size": 6,
+          "field_size": 11,
           "points": 85.5,
           "max_points": 100.0,
           "conductor": "Arvid Evju",
@@ -32849,7 +32979,7 @@
           "max_points": 100.0,
           "conductor": "Espen Selvik",
           "pieces": [
-            "Vårofferet",
+            "Vårofferet, 2. del",
             "Aegean Festival Overture (plikt)"
           ]
         },
@@ -32879,7 +33009,7 @@
           "rank": 1,
           "division_size": 3,
           "absolute_position": 1,
-          "field_size": 6,
+          "field_size": 11,
           "points": 93.3,
           "max_points": 100.0,
           "conductor": "Terje Wiik Mikkelsen",
@@ -32971,7 +33101,7 @@
           "field_size": 60,
           "points": 96.5,
           "max_points": 100.0,
-          "conductor": "Bengt Eklund",
+          "conductor": "Scott Rogers",
           "pieces": [
             "Stormworks",
             "Postcard (plikt)"
@@ -33750,6 +33880,7 @@
           "max_points": 100.0,
           "conductor": "Odd Fossum",
           "pieces": [
+            "In all its Glory",
             "3 Fragments for Band (plikt)"
           ]
         }
@@ -33830,7 +33961,7 @@
           "division_size": 18,
           "absolute_position": 30,
           "field_size": 47,
-          "points": null,
+          "points": 81.5,
           "max_points": 100.0,
           "conductor": "Eivind Erdal",
           "pieces": [
@@ -35533,9 +35664,9 @@
         {
           "year": 1992,
           "division": "2. divisjon",
-          "rank": 17,
+          "rank": 18,
           "division_size": 19,
-          "absolute_position": 32,
+          "absolute_position": 33,
           "field_size": 49,
           "points": 79.0,
           "max_points": 100.0,
@@ -36462,6 +36593,7 @@
           "max_points": 100.0,
           "conductor": "Arne Bjørhøy",
           "pieces": [
+            "Slava!",
             "Blow out (plikt)"
           ]
         },
@@ -37713,7 +37845,10 @@
           "points": 79.0,
           "max_points": 100.0,
           "conductor": "Odd Fossum",
-          "pieces": []
+          "pieces": [
+            "Dimensions",
+            "A Springtime Celebration"
+          ]
         },
         {
           "year": 2008,
@@ -37883,7 +38018,7 @@
           "field_size": 10,
           "points": 93.0,
           "max_points": 100.0,
-          "conductor": "Ukjent",
+          "conductor": "Holger Gulbrandsen",
           "pieces": [
             "Symphony no. 1 for Band",
             "Lincolnshire Posy (plikt)"
@@ -38466,7 +38601,7 @@
           "division_size": 18,
           "absolute_position": 27,
           "field_size": 47,
-          "points": null,
+          "points": 83.0,
           "max_points": 100.0,
           "conductor": "Arild Andersen",
           "pieces": [
@@ -39297,7 +39432,9 @@
           "points": 89.0,
           "max_points": 100.0,
           "conductor": "Leif O. Lorentzen",
-          "pieces": []
+          "pieces": [
+            "Seagate Overture"
+          ]
         }
       ]
     },
@@ -39766,7 +39903,10 @@
           "points": 87.5,
           "max_points": 100.0,
           "conductor": "Torkil Klami",
-          "pieces": []
+          "pieces": [
+            "Rhapsody from the Low Countries",
+            "Oregon (plikt)"
+          ]
         },
         {
           "year": 1992,
@@ -40000,9 +40140,9 @@
           "division_size": 9,
           "absolute_position": 10,
           "field_size": 17,
-          "points": 88.5,
+          "points": 88.7,
           "max_points": 100.0,
-          "conductor": "Ukjent",
+          "conductor": "Pål Wilhelm Winther Jøsok",
           "pieces": [
             "First Suite in Eb for Military Band",
             "Ballad for band (plikt)"
@@ -40563,9 +40703,9 @@
         {
           "year": 1992,
           "division": "2. divisjon",
-          "rank": 19,
+          "rank": 17,
           "division_size": 19,
-          "absolute_position": 34,
+          "absolute_position": 32,
           "field_size": 49,
           "points": 80.5,
           "max_points": 100.0,
@@ -41288,7 +41428,7 @@
           "division_size": 18,
           "absolute_position": 28,
           "field_size": 47,
-          "points": null,
+          "points": 82.5,
           "max_points": 100.0,
           "conductor": "Geir Gaarder",
           "pieces": [
@@ -41653,7 +41793,7 @@
           "division_size": 18,
           "absolute_position": 35,
           "field_size": 47,
-          "points": null,
+          "points": 76.5,
           "max_points": 100.0,
           "conductor": "Brynjar Sonstad",
           "pieces": [
@@ -41761,6 +41901,6 @@
     "max_field_size": 120,
     "min_year": 1981,
     "max_year": 2025,
-    "generated_at": "2025-09-23T11:59:35+00:00"
+    "generated_at": "2025-11-20T19:49:05+00:00"
   }
 }
