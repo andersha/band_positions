@@ -113,6 +113,19 @@
     return rank != null ? `${rank}` : '–';
   }
 
+  function formatGrade(grade: number | undefined): string {
+    if (grade == null) return '';
+    const romanNumerals = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII'];
+    return grade >= 1 && grade <= 7 ? romanNumerals[grade] : '';
+  }
+
+  function formatLength(minutes: number | undefined): string {
+    if (minutes == null) return '';
+    const wholeMinutes = Math.floor(minutes);
+    const seconds = Math.round((minutes - wholeMinutes) * 60);
+    return `${wholeMinutes}:${seconds.toString().padStart(2, '0')}`;
+  }
+
   function hasStreamingLinks(streaming?: StreamingLink | null): boolean {
     return Boolean(streaming?.spotify || streaming?.apple_music);
   }
@@ -161,6 +174,8 @@
     {@const composerNames = resolveComposerNames(piece)}
     {@const trophyCount = countTrophies(piece.performances.map(p => p.entry))}
     {@const trophySummary = formatTrophySummary(trophyCount)}
+    {@const gradeText = formatGrade(piece.grade)}
+    {@const lengthText = formatLength(piece.length)}
     <article class="piece-card">
       <header class="piece-header">
         <div>
@@ -179,10 +194,16 @@
           {:else if piece.composer}
             <p class="piece-composer">{piece.composer}</p>
           {/if}
+          {#if gradeText}
+            <p class="piece-metadata">Grad: {gradeText}</p>
+          {/if}
+          {#if lengthText}
+            <p class="piece-metadata">Lengde: {lengthText}</p>
+          {/if}
           {#if trophySummary}
             <p class="trophy-summary">{trophySummary}</p>
           {/if}
-          <p class="piece-count">{piece.performances.length} fremføringer</p>
+          <p class="piece-count">{piece.performances.length} {piece.performances.length === 1 ? 'fremføring' : 'fremføringer'}</p>
         </div>
       </header>
 
@@ -368,6 +389,12 @@
 
   .piece-header .piece-composer + .piece-count {
     margin-top: 0.15rem;
+  }
+
+  .piece-metadata {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    font-weight: 500;
   }
 
   .trophy-summary {

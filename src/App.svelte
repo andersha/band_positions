@@ -495,12 +495,28 @@ import type {
 
           const slug = slugify(name);
           let record = records.get(slug);
+          const metadata = composerIndex.get(slug)?.[0];  // Get metadata for this piece
           const composerRaw = findComposerForPiece(name, composerIndex);
           const composerNames = composerRaw ? extractComposerNames(composerRaw) : [];
           const composerDisplay = composerNames.length > 0 ? composerNames.join(', ') : null;
 
           if (!record) {
-            record = { name, slug, composer: composerDisplay, composerNames, performances: [] };
+            // Debug logging for 1812 Overture
+            if (name.includes('1812')) {
+              console.log('Creating record for:', name);
+              console.log('Slug:', slug);
+              console.log('Metadata found:', metadata);
+              console.log('Grade:', metadata?.grade, 'Length:', metadata?.length);
+            }
+            record = { 
+              name, 
+              slug, 
+              composer: composerDisplay, 
+              composerNames, 
+              grade: metadata?.grade,  // Add grade from metadata
+              length: metadata?.length,  // Add length from metadata
+              performances: [] 
+            };
             records.set(slug, record);
           } else if ((!record.composer || !(record.composerNames?.length)) && composerDisplay) {
             record.composer = composerDisplay;
@@ -1139,7 +1155,9 @@ import type {
             .map((entry) => ({
               title: entry.title.trim(),
               slug: entry.slug.trim(),
-              composer: entry.composer ?? null
+              composer: entry.composer ?? null,
+              grade: entry.grade,
+              length: entry.length
             }));
         } catch (metadataError) {
           console.warn('Kunne ikke tolke stykke-metadata', metadataError);

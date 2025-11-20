@@ -51,6 +51,8 @@ export interface PieceRecord {
   slug: string;
   composer?: string | null;
   composerNames?: string[];
+  grade?: number;  // Difficulty level 1-7 from repertoire
+  length?: number;  // Duration in minutes from repertoire
   performances: PiecePerformance[];
 }
 
