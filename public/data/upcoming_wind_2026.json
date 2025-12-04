@@ -2,13 +2,18 @@
   "year": 2026,
   "competition_type": "wind",
   "stage": 2,
+  "stage_description": "Playing schedule announced",
+  "next_expected_update": "Pieces to be announced (~1 month before competition)",
+  "location": "Trondheim",
+  "date_range": "20-21 mars 2026",
+  "notes": "Playing schedule announced. Pieces and conductors TBA (~1 month before competition).",
   "divisions": [
     {
       "name": "Elite",
+      "total_entries": 10,
       "entries": [
         {
           "orchestra": "Skjold Nesttun Janitsjar",
-          "division": "Elite",
           "play_order": 1,
           "play_datetime": "2026-03-21T09:30:00",
           "venue": "Olavshallen, store sal",
@@ -19,7 +24,6 @@
         },
         {
           "orchestra": "Dragefjellets Musikkorps Bergen",
-          "division": "Elite",
           "play_order": 2,
           "play_datetime": "2026-03-21T10:17:00",
           "venue": "Olavshallen, store sal",
@@ -30,7 +34,6 @@
         },
         {
           "orchestra": "Christiania Blåseensemble",
-          "division": "Elite",
           "play_order": 3,
           "play_datetime": "2026-03-21T11:04:00",
           "venue": "Olavshallen, store sal",
@@ -41,7 +44,6 @@
         },
         {
           "orchestra": "Alvøens Musikkforening",
-          "division": "Elite",
           "play_order": 4,
           "play_datetime": "2026-03-21T11:51:00",
           "venue": "Olavshallen, store sal",
@@ -52,7 +54,6 @@
         },
         {
           "orchestra": "Lillestrøm Musikkorps",
-          "division": "Elite",
           "play_order": 5,
           "play_datetime": "2026-03-21T12:38:00",
           "venue": "Olavshallen, store sal",
@@ -63,7 +64,6 @@
         },
         {
           "orchestra": "Strusshamn Musikkforening",
-          "division": "Elite",
           "play_order": 6,
           "play_datetime": "2026-03-21T13:43:00",
           "venue": "Olavshallen, store sal",
@@ -74,7 +74,6 @@
         },
         {
           "orchestra": "Musikkforeningen Nidarholm",
-          "division": "Elite",
           "play_order": 7,
           "play_datetime": "2026-03-21T14:30:00",
           "venue": "Olavshallen, store sal",
@@ -85,7 +84,6 @@
         },
         {
           "orchestra": "Nittedal & Hakadal Janitsjar",
-          "division": "Elite",
           "play_order": 8,
           "play_datetime": "2026-03-21T15:17:00",
           "venue": "Olavshallen, store sal",
@@ -96,7 +94,6 @@
         },
         {
           "orchestra": "Opus 82",
-          "division": "Elite",
           "play_order": 9,
           "play_datetime": "2026-03-21T16:04:00",
           "venue": "Olavshallen, store sal",
@@ -107,7 +104,6 @@
         },
         {
           "orchestra": "Mo Hornmusikk",
-          "division": "Elite",
           "play_order": 10,
           "play_datetime": "2026-03-21T16:51:00",
           "venue": "Olavshallen, store sal",
@@ -122,10 +118,10 @@
     },
     {
       "name": "1. divisjon",
+      "total_entries": 13,
       "entries": [
         {
           "orchestra": "Vestre Aker Musikkorps",
-          "division": "1. divisjon",
           "play_order": 1,
           "play_datetime": "2026-03-20T14:00:00",
           "venue": "Olavshallen, store sal",
@@ -136,7 +132,6 @@
         },
         {
           "orchestra": "Borge Musikkorps",
-          "division": "1. divisjon",
           "play_order": 2,
           "play_datetime": "2026-03-20T14:37:00",
           "venue": "Olavshallen, store sal",
@@ -147,7 +142,6 @@
         },
         {
           "orchestra": "Kolbotn Konsertorkester",
-          "division": "1. divisjon",
           "play_order": 3,
           "play_datetime": "2026-03-20T15:14:00",
           "venue": "Olavshallen, store sal",
@@ -158,7 +152,6 @@
         },
         {
           "orchestra": "Sandefjord Musikkorps",
-          "division": "1. divisjon",
           "play_order": 4,
           "play_datetime": "2026-03-20T15:51:00",
           "venue": "Olavshallen, store sal",
@@ -169,7 +162,6 @@
         },
         {
           "orchestra": "Lørenskog Musikkorps",
-          "division": "1. divisjon",
           "play_order": 5,
           "play_datetime": "2026-03-20T16:28:00",
           "venue": "Olavshallen, store sal",
@@ -180,7 +172,6 @@
         },
         {
           "orchestra": "Sarpsborg Janitsjarkorps",
-          "division": "1. divisjon",
           "play_order": 6,
           "play_datetime": "2026-03-20T17:05:00",
           "venue": "Olavshallen, store sal",
@@ -191,7 +182,6 @@
         },
         {
           "orchestra": "Asker Musikkorps",
-          "division": "1. divisjon",
           "play_order": 7,
           "play_datetime": "2026-03-20T17:42:00",
           "venue": "Olavshallen, store sal",
@@ -202,7 +192,6 @@
         },
         {
           "orchestra": "Greåker Musikkorps",
-          "division": "1. divisjon",
           "play_order": 8,
           "play_datetime": "2026-03-20T18:37:00",
           "venue": "Olavshallen, store sal",
@@ -213,7 +202,6 @@
         },
         {
           "orchestra": "Byneset musikkorps",
-          "division": "1. divisjon",
           "play_order": 9,
           "play_datetime": "2026-03-20T19:14:00",
           "venue": "Olavshallen, store sal",
@@ -224,7 +212,6 @@
         },
         {
           "orchestra": "Ådalsbruk Musikkforening",
-          "division": "1. divisjon",
           "play_order": 10,
           "play_datetime": "2026-03-20T19:51:00",
           "venue": "Olavshallen, store sal",
@@ -235,7 +222,6 @@
         },
         {
           "orchestra": "Bjølsen Ungdomskorps",
-          "division": "1. divisjon",
           "play_order": 11,
           "play_datetime": "2026-03-20T20:28:00",
           "venue": "Olavshallen, store sal",
@@ -246,7 +232,6 @@
         },
         {
           "orchestra": "Stavanger Musikkorps Av 1919",
-          "division": "1. divisjon",
           "play_order": 12,
           "play_datetime": "2026-03-20T21:05:00",
           "venue": "Olavshallen, store sal",
@@ -257,7 +242,6 @@
         },
         {
           "orchestra": "Tønsberg Janitsjarkorps",
-          "division": "1. divisjon",
           "play_order": 13,
           "play_datetime": "2026-03-20T21:42:00",
           "venue": "Olavshallen, store sal",
@@ -272,10 +256,10 @@
     },
     {
       "name": "2. divisjon",
+      "total_entries": 16,
       "entries": [
         {
           "orchestra": "Tromsø Orkesterforening Janitsjarkorps",
-          "division": "2. divisjon",
           "play_order": 1,
           "play_datetime": "2026-03-21T09:30:00",
           "venue": "Royal Garden",
@@ -286,7 +270,6 @@
         },
         {
           "orchestra": "Gjøvik Bykorps",
-          "division": "2. divisjon",
           "play_order": 2,
           "play_datetime": "2026-03-21T10:02:00",
           "venue": "Royal Garden",
@@ -297,7 +280,6 @@
         },
         {
           "orchestra": "Asker og Bærum Ungdomskorps",
-          "division": "2. divisjon",
           "play_order": 3,
           "play_datetime": "2026-03-21T10:34:00",
           "venue": "Royal Garden",
@@ -308,7 +290,6 @@
         },
         {
           "orchestra": "Vestsidens Musikkorps",
-          "division": "2. divisjon",
           "play_order": 4,
           "play_datetime": "2026-03-21T11:06:00",
           "venue": "Royal Garden",
@@ -319,7 +300,6 @@
         },
         {
           "orchestra": "Musikklaget Brage",
-          "division": "2. divisjon",
           "play_order": 5,
           "play_datetime": "2026-03-21T11:38:00",
           "venue": "Royal Garden",
@@ -330,7 +310,6 @@
         },
         {
           "orchestra": "Aalesunds Ungdomsmusikkorps",
-          "division": "2. divisjon",
           "play_order": 6,
           "play_datetime": "2026-03-21T12:10:00",
           "venue": "Royal Garden",
@@ -341,7 +320,6 @@
         },
         {
           "orchestra": "Os Musikkforening",
-          "division": "2. divisjon",
           "play_order": 7,
           "play_datetime": "2026-03-21T12:42:00",
           "venue": "Royal Garden",
@@ -352,7 +330,6 @@
         },
         {
           "orchestra": "Sandviken janitsjar",
-          "division": "2. divisjon",
           "play_order": 8,
           "play_datetime": "2026-03-21T13:14:00",
           "venue": "Royal Garden",
@@ -363,7 +340,6 @@
         },
         {
           "orchestra": "Ringsaker Janitsjar",
-          "division": "2. divisjon",
           "play_order": 9,
           "play_datetime": "2026-03-21T14:04:00",
           "venue": "Royal Garden",
@@ -374,7 +350,6 @@
         },
         {
           "orchestra": "Bispehaugen ungdomskorps",
-          "division": "2. divisjon",
           "play_order": 10,
           "play_datetime": "2026-03-21T14:36:00",
           "venue": "Royal Garden",
@@ -385,7 +360,6 @@
         },
         {
           "orchestra": "Nes Janitsjarkorps",
-          "division": "2. divisjon",
           "play_order": 11,
           "play_datetime": "2026-03-21T15:08:00",
           "venue": "Royal Garden",
@@ -396,7 +370,6 @@
         },
         {
           "orchestra": "Sykkylven Janitsjarorkester",
-          "division": "2. divisjon",
           "play_order": 12,
           "play_datetime": "2026-03-21T15:40:00",
           "venue": "Royal Garden",
@@ -407,7 +380,6 @@
         },
         {
           "orchestra": "Drammen Konsertorkester",
-          "division": "2. divisjon",
           "play_order": 13,
           "play_datetime": "2026-03-21T16:12:00",
           "venue": "Royal Garden",
@@ -418,7 +390,6 @@
         },
         {
           "orchestra": "Stabekk Janitsjarorkester",
-          "division": "2. divisjon",
           "play_order": 14,
           "play_datetime": "2026-03-21T16:44:00",
           "venue": "Royal Garden",
@@ -429,7 +400,6 @@
         },
         {
           "orchestra": "Lungegaardens Musikkorps",
-          "division": "2. divisjon",
           "play_order": 15,
           "play_datetime": "2026-03-21T17:16:00",
           "venue": "Royal Garden",
@@ -440,7 +410,6 @@
         },
         {
           "orchestra": "Sinsen Konsertorkester",
-          "division": "2. divisjon",
           "play_order": 16,
           "play_datetime": "2026-03-21T17:48:00",
           "venue": "Royal Garden",
@@ -455,10 +424,10 @@
     },
     {
       "name": "3. divisjon",
+      "total_entries": 16,
       "entries": [
         {
           "orchestra": "Strindheim Janitsjar",
-          "division": "3. divisjon",
           "play_order": 1,
           "play_datetime": "2026-03-21T09:30:00",
           "venue": "Olavshallen, lille sal",
@@ -469,7 +438,6 @@
         },
         {
           "orchestra": "Skedsmo Janitsjarorkester",
-          "division": "3. divisjon",
           "play_order": 2,
           "play_datetime": "2026-03-21T09:55:00",
           "venue": "Olavshallen, lille sal",
@@ -480,7 +448,6 @@
         },
         {
           "orchestra": "Lisleby Musikkorps",
-          "division": "3. divisjon",
           "play_order": 3,
           "play_datetime": "2026-03-21T10:20:00",
           "venue": "Olavshallen, lille sal",
@@ -491,7 +458,6 @@
         },
         {
           "orchestra": "Fet Janitsjar",
-          "division": "3. divisjon",
           "play_order": 4,
           "play_datetime": "2026-03-21T10:45:00",
           "venue": "Olavshallen, lille sal",
@@ -502,7 +468,6 @@
         },
         {
           "orchestra": "Sagene Janitsjarkorps",
-          "division": "3. divisjon",
           "play_order": 5,
           "play_datetime": "2026-03-21T11:10:00",
           "venue": "Olavshallen, lille sal",
@@ -513,7 +478,6 @@
         },
         {
           "orchestra": "Åsane Musikklag",
-          "division": "3. divisjon",
           "play_order": 6,
           "play_datetime": "2026-03-21T11:35:00",
           "venue": "Olavshallen, lille sal",
@@ -524,7 +488,6 @@
         },
         {
           "orchestra": "Hygge Korpsensemble",
-          "division": "3. divisjon",
           "play_order": 7,
           "play_datetime": "2026-03-21T12:00:00",
           "venue": "Olavshallen, lille sal",
@@ -535,7 +498,6 @@
         },
         {
           "orchestra": "Oslo Postorkester",
-          "division": "3. divisjon",
           "play_order": 8,
           "play_datetime": "2026-03-21T12:25:00",
           "venue": "Olavshallen, lille sal",
@@ -546,7 +508,6 @@
         },
         {
           "orchestra": "Bøler og Ila Janitsjar",
-          "division": "3. divisjon",
           "play_order": 9,
           "play_datetime": "2026-03-21T13:10:00",
           "venue": "Olavshallen, lille sal",
@@ -557,7 +518,6 @@
         },
         {
           "orchestra": "Sande Musikkorps",
-          "division": "3. divisjon",
           "play_order": 10,
           "play_datetime": "2026-03-21T13:35:00",
           "venue": "Olavshallen, lille sal",
@@ -568,7 +528,6 @@
         },
         {
           "orchestra": "Kristiansand Janitsjar",
-          "division": "3. divisjon",
           "play_order": 11,
           "play_datetime": "2026-03-21T14:00:00",
           "venue": "Olavshallen, lille sal",
@@ -579,7 +538,6 @@
         },
         {
           "orchestra": "Tresfjord Janitsjar",
-          "division": "3. divisjon",
           "play_order": 12,
           "play_datetime": "2026-03-21T14:25:00",
           "venue": "Olavshallen, lille sal",
@@ -590,7 +548,6 @@
         },
         {
           "orchestra": "Hovin Musikkorps",
-          "division": "3. divisjon",
           "play_order": 13,
           "play_datetime": "2026-03-21T14:50:00",
           "venue": "Olavshallen, lille sal",
@@ -601,7 +558,6 @@
         },
         {
           "orchestra": "Hamar Musikkorps",
-          "division": "3. divisjon",
           "play_order": 14,
           "play_datetime": "2026-03-21T15:15:00",
           "venue": "Olavshallen, lille sal",
@@ -612,7 +568,6 @@
         },
         {
           "orchestra": "Fåberg Musikkforening",
-          "division": "3. divisjon",
           "play_order": 15,
           "play_datetime": "2026-03-21T15:40:00",
           "venue": "Olavshallen, lille sal",
@@ -623,7 +578,6 @@
         },
         {
           "orchestra": "Kongsberg Byorkester",
-          "division": "3. divisjon",
           "play_order": 16,
           "play_datetime": "2026-03-21T16:05:00",
           "venue": "Olavshallen, lille sal",
@@ -638,10 +592,10 @@
     },
     {
       "name": "4. divisjon",
+      "total_entries": 16,
       "entries": [
         {
           "orchestra": "Arendal Byorkester",
-          "division": "4. divisjon",
           "play_order": 1,
           "play_datetime": "2026-03-20T14:00:00",
           "venue": "Royal Garden",
@@ -652,7 +606,6 @@
         },
         {
           "orchestra": "Ranheim Musikkforening",
-          "division": "4. divisjon",
           "play_order": 2,
           "play_datetime": "2026-03-20T14:25:00",
           "venue": "Royal Garden",
@@ -663,7 +616,6 @@
         },
         {
           "orchestra": "Musikklaget Ulf",
-          "division": "4. divisjon",
           "play_order": 3,
           "play_datetime": "2026-03-20T14:50:00",
           "venue": "Royal Garden",
@@ -674,7 +626,6 @@
         },
         {
           "orchestra": "Haugesund Janitsjarorkester",
-          "division": "4. divisjon",
           "play_order": 4,
           "play_datetime": "2026-03-20T15:15:00",
           "venue": "Royal Garden",
@@ -685,7 +636,6 @@
         },
         {
           "orchestra": "Halsen Musikkforening",
-          "division": "4. divisjon",
           "play_order": 5,
           "play_datetime": "2026-03-20T15:40:00",
           "venue": "Royal Garden",
@@ -696,7 +646,6 @@
         },
         {
           "orchestra": "Lørenskog Blåsensemble",
-          "division": "4. divisjon",
           "play_order": 6,
           "play_datetime": "2026-03-20T16:05:00",
           "venue": "Royal Garden",
@@ -707,7 +656,6 @@
         },
         {
           "orchestra": "Oppegård Janitsjar",
-          "division": "4. divisjon",
           "play_order": 7,
           "play_datetime": "2026-03-20T16:30:00",
           "venue": "Royal Garden",
@@ -718,7 +666,6 @@
         },
         {
           "orchestra": "Eidsvoll Janitsjarkorps",
-          "division": "4. divisjon",
           "play_order": 8,
           "play_datetime": "2026-03-20T16:55:00",
           "venue": "Royal Garden",
@@ -729,7 +676,6 @@
         },
         {
           "orchestra": "Nidarvoll Ungdomskorps",
-          "division": "4. divisjon",
           "play_order": 9,
           "play_datetime": "2026-03-20T17:40:00",
           "venue": "Royal Garden",
@@ -740,7 +686,6 @@
         },
         {
           "orchestra": "Arne Musikforening",
-          "division": "4. divisjon",
           "play_order": 10,
           "play_datetime": "2026-03-20T18:05:00",
           "venue": "Royal Garden",
@@ -751,7 +696,6 @@
         },
         {
           "orchestra": "Østensjø Janitsjar",
-          "division": "4. divisjon",
           "play_order": 11,
           "play_datetime": "2026-03-20T18:30:00",
           "venue": "Royal Garden",
@@ -762,7 +706,6 @@
         },
         {
           "orchestra": "Østre Gausdal Musikkforening",
-          "division": "4. divisjon",
           "play_order": 12,
           "play_datetime": "2026-03-20T18:55:00",
           "venue": "Royal Garden",
@@ -773,7 +716,6 @@
         },
         {
           "orchestra": "Musikklaget Ustemt",
-          "division": "4. divisjon",
           "play_order": 13,
           "play_datetime": "2026-03-20T19:20:00",
           "venue": "Royal Garden",
@@ -784,7 +726,6 @@
         },
         {
           "orchestra": "Sofienberg Musikkorps",
-          "division": "4. divisjon",
           "play_order": 14,
           "play_datetime": "2026-03-20T19:45:00",
           "venue": "Royal Garden",
@@ -795,7 +736,6 @@
         },
         {
           "orchestra": "Fana Musikklag",
-          "division": "4. divisjon",
           "play_order": 15,
           "play_datetime": "2026-03-20T20:10:00",
           "venue": "Royal Garden",
@@ -806,7 +746,6 @@
         },
         {
           "orchestra": "Bodø Harmonimusikk",
-          "division": "4. divisjon",
           "play_order": 16,
           "play_datetime": "2026-03-20T20:35:00",
           "venue": "Royal Garden",
@@ -821,10 +760,10 @@
     },
     {
       "name": "5. divisjon",
+      "total_entries": 16,
       "entries": [
         {
           "orchestra": "Hommelvik Musikkorps",
-          "division": "5. divisjon",
           "play_order": 1,
           "play_datetime": "2026-03-20T09:00:00",
           "venue": "Olavshallen, lille sal",
@@ -835,7 +774,6 @@
         },
         {
           "orchestra": "Drøbak Musikkorps",
-          "division": "5. divisjon",
           "play_order": 2,
           "play_datetime": "2026-03-20T09:24:00",
           "venue": "Olavshallen, lille sal",
@@ -846,7 +784,6 @@
         },
         {
           "orchestra": "Rælingen Musikklag",
-          "division": "5. divisjon",
           "play_order": 3,
           "play_datetime": "2026-03-20T09:48:00",
           "venue": "Olavshallen, lille sal",
@@ -857,7 +794,6 @@
         },
         {
           "orchestra": "Nordre Aker Janitsjar",
-          "division": "5. divisjon",
           "play_order": 4,
           "play_datetime": "2026-03-20T10:12:00",
           "venue": "Olavshallen, lille sal",
@@ -868,7 +804,6 @@
         },
         {
           "orchestra": "Byåsen Musikkorps",
-          "division": "5. divisjon",
           "play_order": 5,
           "play_datetime": "2026-03-20T10:36:00",
           "venue": "Olavshallen, lille sal",
@@ -879,7 +814,6 @@
         },
         {
           "orchestra": "Eina Musikkforening",
-          "division": "5. divisjon",
           "play_order": 6,
           "play_datetime": "2026-03-20T11:00:00",
           "venue": "Olavshallen, lille sal",
@@ -890,7 +824,6 @@
         },
         {
           "orchestra": "TUBE",
-          "division": "5. divisjon",
           "play_order": 7,
           "play_datetime": "2026-03-20T11:24:00",
           "venue": "Olavshallen, lille sal",
@@ -901,7 +834,6 @@
         },
         {
           "orchestra": "Ås og Vestby Musikkorps",
-          "division": "5. divisjon",
           "play_order": 8,
           "play_datetime": "2026-03-20T11:48:00",
           "venue": "Olavshallen, lille sal",
@@ -912,7 +844,6 @@
         },
         {
           "orchestra": "Bømlo Janitsjar",
-          "division": "5. divisjon",
           "play_order": 9,
           "play_datetime": "2026-03-20T12:33:00",
           "venue": "Olavshallen, lille sal",
@@ -923,7 +854,6 @@
         },
         {
           "orchestra": "Strinda Ungdomskorps",
-          "division": "5. divisjon",
           "play_order": 10,
           "play_datetime": "2026-03-20T12:57:00",
           "venue": "Olavshallen, lille sal",
@@ -934,7 +864,6 @@
         },
         {
           "orchestra": "Lier og Drammen Ungdomskorps",
-          "division": "5. divisjon",
           "play_order": 11,
           "play_datetime": "2026-03-20T13:21:00",
           "venue": "Olavshallen, lille sal",
@@ -945,7 +874,6 @@
         },
         {
           "orchestra": "Vålerenga Janitsjarkorps",
-          "division": "5. divisjon",
           "play_order": 12,
           "play_datetime": "2026-03-20T13:45:00",
           "venue": "Olavshallen, lille sal",
@@ -956,7 +884,6 @@
         },
         {
           "orchestra": "Modum Janitsjar",
-          "division": "5. divisjon",
           "play_order": 13,
           "play_datetime": "2026-03-20T14:09:00",
           "venue": "Olavshallen, lille sal",
@@ -967,7 +894,6 @@
         },
         {
           "orchestra": "Moss og Omegn Janitsjar",
-          "division": "5. divisjon",
           "play_order": 14,
           "play_datetime": "2026-03-20T14:33:00",
           "venue": "Olavshallen, lille sal",
@@ -978,7 +904,6 @@
         },
         {
           "orchestra": "Musikklaget Kornetten",
-          "division": "5. divisjon",
           "play_order": 15,
           "play_datetime": "2026-03-20T14:57:00",
           "venue": "Olavshallen, lille sal",
@@ -989,7 +914,6 @@
         },
         {
           "orchestra": "Tolga-Os janitsjar",
-          "division": "5. divisjon",
           "play_order": 16,
           "play_datetime": "2026-03-20T15:21:00",
           "venue": "Olavshallen, lille sal",
@@ -1004,10 +928,10 @@
     },
     {
       "name": "6. divisjon",
+      "total_entries": 14,
       "entries": [
         {
           "orchestra": "Follebu og Vestre Gausdal Musikkforening",
-          "division": "6. divisjon",
           "play_order": 1,
           "play_datetime": "2026-03-20T16:00:00",
           "venue": "Olavshallen, lille sal",
@@ -1018,7 +942,6 @@
         },
         {
           "orchestra": "Åsnes Hornmusikk",
-          "division": "6. divisjon",
           "play_order": 2,
           "play_datetime": "2026-03-20T16:24:00",
           "venue": "Olavshallen, lille sal",
@@ -1029,7 +952,6 @@
         },
         {
           "orchestra": "Trøgstad Janitsjar",
-          "division": "6. divisjon",
           "play_order": 3,
           "play_datetime": "2026-03-20T16:48:00",
           "venue": "Olavshallen, lille sal",
@@ -1040,7 +962,6 @@
         },
         {
           "orchestra": "Samarbeidskorpset Alversund og Osterøy",
-          "division": "6. divisjon",
           "play_order": 4,
           "play_datetime": "2026-03-20T17:12:00",
           "venue": "Olavshallen, lille sal",
@@ -1051,7 +972,6 @@
         },
         {
           "orchestra": "Jevnaker Ungdomskorps",
-          "division": "6. divisjon",
           "play_order": 5,
           "play_datetime": "2026-03-20T17:36:00",
           "venue": "Olavshallen, lille sal",
@@ -1062,7 +982,6 @@
         },
         {
           "orchestra": "Hegra Hornmusikklag",
-          "division": "6. divisjon",
           "play_order": 6,
           "play_datetime": "2026-03-20T18:00:00",
           "venue": "Olavshallen, lille sal",
@@ -1073,7 +992,6 @@
         },
         {
           "orchestra": "Klæbu Musikkorps",
-          "division": "6. divisjon",
           "play_order": 7,
           "play_datetime": "2026-03-20T18:24:00",
           "venue": "Olavshallen, lille sal",
@@ -1084,7 +1002,6 @@
         },
         {
           "orchestra": "Arendal Ungdomsmusikkorps",
-          "division": "6. divisjon",
           "play_order": 8,
           "play_datetime": "2026-03-20T19:09:00",
           "venue": "Olavshallen, lille sal",
@@ -1095,7 +1012,6 @@
         },
         {
           "orchestra": "Skatval Hornmusikklag",
-          "division": "6. divisjon",
           "play_order": 9,
           "play_datetime": "2026-03-20T19:33:00",
           "venue": "Olavshallen, lille sal",
@@ -1106,7 +1022,6 @@
         },
         {
           "orchestra": "Musikkorpset Tempo",
-          "division": "6. divisjon",
           "play_order": 10,
           "play_datetime": "2026-03-20T19:57:00",
           "venue": "Olavshallen, lille sal",
@@ -1117,7 +1032,6 @@
         },
         {
           "orchestra": "Tretten Musikkforening",
-          "division": "6. divisjon",
           "play_order": 11,
           "play_datetime": "2026-03-20T20:21:00",
           "venue": "Olavshallen, lille sal",
@@ -1128,7 +1042,6 @@
         },
         {
           "orchestra": "Søndre Nittedal Veterankorps",
-          "division": "6. divisjon",
           "play_order": 12,
           "play_datetime": "2026-03-20T20:45:00",
           "venue": "Olavshallen, lille sal",
@@ -1139,7 +1052,6 @@
         },
         {
           "orchestra": "Valldal Hornmusikklag",
-          "division": "6. divisjon",
           "play_order": 13,
           "play_datetime": "2026-03-20T21:09:00",
           "venue": "Olavshallen, lille sal",
@@ -1150,7 +1062,6 @@
         },
         {
           "orchestra": "Åndalsnes Musikkforening",
-          "division": "6. divisjon",
           "play_order": 14,
           "play_datetime": "2026-03-20T21:33:00",
           "venue": "Olavshallen, lille sal",
@@ -1165,10 +1076,10 @@
     },
     {
       "name": "7. divisjon",
+      "total_entries": 10,
       "entries": [
         {
           "orchestra": "Flisbyen blåseensemble",
-          "division": "7. divisjon",
           "play_order": 1,
           "play_datetime": "2026-03-20T10:00:00",
           "venue": "Olavshallen, store sal",
@@ -1179,7 +1090,6 @@
         },
         {
           "orchestra": "Vatne Hornmusikklag/Hasund og Dimnøy Ungdomsmusikkorps",
-          "division": "7. divisjon",
           "play_order": 2,
           "play_datetime": "2026-03-20T10:23:00",
           "venue": "Olavshallen, store sal",
@@ -1190,7 +1100,6 @@
         },
         {
           "orchestra": "Arbeidernes Musikkorps",
-          "division": "7. divisjon",
           "play_order": 3,
           "play_datetime": "2026-03-20T10:46:00",
           "venue": "Olavshallen, store sal",
@@ -1201,7 +1110,6 @@
         },
         {
           "orchestra": "Malvik Musikkorps",
-          "division": "7. divisjon",
           "play_order": 4,
           "play_datetime": "2026-03-20T11:09:00",
           "venue": "Olavshallen, store sal",
@@ -1212,7 +1120,6 @@
         },
         {
           "orchestra": "Alvdal-Tynset Janitsjarkorps",
-          "division": "7. divisjon",
           "play_order": 5,
           "play_datetime": "2026-03-20T11:32:00",
           "venue": "Olavshallen, store sal",
@@ -1223,7 +1130,6 @@
         },
         {
           "orchestra": "Nøtterøy Musikkorps",
-          "division": "7. divisjon",
           "play_order": 6,
           "play_datetime": "2026-03-20T11:55:00",
           "venue": "Olavshallen, store sal",
@@ -1234,7 +1140,6 @@
         },
         {
           "orchestra": "Oslo Ungdomsmusikk",
-          "division": "7. divisjon",
           "play_order": 7,
           "play_datetime": "2026-03-20T12:18:00",
           "venue": "Olavshallen, store sal",
@@ -1245,7 +1150,6 @@
         },
         {
           "orchestra": "Egersund Musikkorps",
-          "division": "7. divisjon",
           "play_order": 8,
           "play_datetime": "2026-03-20T12:41:00",
           "venue": "Olavshallen, store sal",
@@ -1256,7 +1160,6 @@
         },
         {
           "orchestra": "Namsos Musikkorps",
-          "division": "7. divisjon",
           "play_order": 9,
           "play_datetime": "2026-03-20T13:04:00",
           "venue": "Olavshallen, store sal",
@@ -1267,7 +1170,6 @@
         },
         {
           "orchestra": "Stangebygdenes Musikkforening",
-          "division": "7. divisjon",
           "play_order": 10,
           "play_datetime": "2026-03-20T13:27:00",
           "venue": "Olavshallen, store sal",
@@ -1281,8 +1183,10 @@
       "venue": "Olavshallen, store sal"
     }
   ],
-  "location": "Trondheim",
-  "date_range": "20-21 mars 2026",
-  "last_updated": "2025-11-20T15:12:55.311749",
-  "notes": "Playing schedule announced. Pieces and conductors TBA (~1 month before competition)."
+  "metadata": {
+    "total_orchestras": 111,
+    "total_divisions": 8,
+    "last_updated": "2025-12-04T18:29:56.223212",
+    "exported_at": "2025-12-04T17:47:58+00:00"
+  }
 }

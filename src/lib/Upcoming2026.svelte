@@ -191,6 +191,12 @@
         {#if division.venue}
           <p class="division-venue">🎵 {division.venue}</p>
         {/if}
+        
+        {#if data.competition_type === 'brass' && division.name === 'Elite'}
+          <div class="test-piece-notice">
+            <strong>Pliktnummer:</strong> <a href="?type=brass&view=pieces&piece=concerto-for-band-no-1" class="entity-link">Concerto No. 1</a> av <a href="?type=brass&view=composers&composer=derek-bourgeois" class="entity-link">Derek Bourgeois</a> (1999) spilles fredag 6. februar, spillerekkefølge trekkes samme dag.
+          </div>
+        {/if}
 
         <div class="entries-list">
           {#each division.entries as entry, idx}
@@ -391,28 +397,51 @@
     font-size: 0.95rem;
   }
 
+  .test-piece-notice {
+    margin: 1rem 0;
+    padding: 0.75rem 0;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .test-piece-notice strong {
+    color: var(--color-text-primary);
+  }
+
+  .test-piece-notice .entity-link {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .test-piece-notice .entity-link:hover,
+  .test-piece-notice .entity-link:focus-visible {
+    text-decoration: underline;
+  }
+
   .entries-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
     margin-top: 1rem;
+    border-radius: 0.85rem;
+    border: 1px solid var(--color-border);
+    overflow: hidden;
   }
 
   .entry-row {
     padding: 0.75rem;
     background: var(--color-surface-elevated);
-    border-radius: 0.75rem;
-    border: 1px solid var(--color-border);
-    transition: all 0.2s ease;
+    transition: background-color 0.15s ease;
   }
 
-  .entry-row.has-schedule {
-    border-left: 3px solid var(--color-accent);
+  .entry-row:not(:last-child) {
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .entry-row:nth-child(even) {
+    background: rgba(255, 255, 255, 0.02);
   }
 
   .entry-row:hover {
-    border-color: var(--color-accent);
-    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.15);
+    background: rgba(255, 255, 255, 0.04);
   }
 
   .entry-info {
