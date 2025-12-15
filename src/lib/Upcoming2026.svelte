@@ -227,16 +227,6 @@
         </div>
       </div>
     {/each}
-
-    <div class="last-updated">
-      Sist oppdatert: {new Date(data.last_updated).toLocaleDateString('nb-NO', {
-        day: 'numeric',
-        month: 'long',
-        year: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      })}
-    </div>
   </section>
 {/if}
 
