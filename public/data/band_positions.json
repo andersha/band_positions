@@ -8092,6 +8092,7 @@
           "max_points": 100.0,
           "conductor": "Knut Emil Mjøs",
           "pieces": [
+            "First Suite in Eb for Military Band",
             "Quatro Variazioni Musicali con Tema Populare (plikt)"
           ]
         },
@@ -8105,7 +8106,9 @@
           "points": 94.0,
           "max_points": 100.0,
           "conductor": "Knut Emil Mjøs",
-          "pieces": []
+          "pieces": [
+            "Armenian Dances, Part 1"
+          ]
         },
         {
           "year": 1996,
@@ -40351,6 +40354,7 @@
           "max_points": 100.0,
           "conductor": "Helge Haukås",
           "pieces": [
+            "The Roman Carnival",
             "A Jubilant Overture (plikt)"
           ]
         },
@@ -41901,6 +41905,6 @@
     "max_field_size": 120,
     "min_year": 1981,
     "max_year": 2025,
-    "generated_at": "2025-11-25T14:44:08+00:00"
+    "generated_at": "2025-12-15T20:03:46+00:00"
   }
 }
