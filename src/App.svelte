@@ -1088,6 +1088,7 @@ import type {
     closeMenu();
     closeModeMenu();
     syncUrlIfReady();
+    window.scrollTo(0, 0);
   }
 
   function setYAxisMode(mode: 'absolute' | 'relative'): void {
@@ -1235,6 +1236,7 @@ import type {
       if (!dataset) return;
       syncSelectionFromURL({ updateHistory: false });
       lastSyncedSignature = getSelectedSignature();
+      window.scrollTo(0, 0);
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
@@ -1318,6 +1320,7 @@ import type {
         // Trigger sync
         syncSelectionFromURL({ updateHistory: false });
         lastSyncedSignature = getSelectedSignature();
+        window.scrollTo(0, 0);
       } catch (err) {
         console.error('Error handling link click:', err);
       }
