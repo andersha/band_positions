@@ -544,6 +544,46 @@ import type {
     })).sort((a, b) => a.name.localeCompare(b.name));
   }
 
+  function buildPieceChartRecords(pieces: PieceRecord[]): BandRecord[] {
+    return pieces.map((piece) => {
+      // Group performances by year
+      const yearMap = new Map<number, { best: BandEntry; all: BandEntry[] }>();
+
+      for (const perf of piece.performances) {
+        const year = perf.entry.year;
+        const existing = yearMap.get(year);
+
+        if (!existing) {
+          yearMap.set(year, { best: perf.entry, all: [perf.entry] });
+        } else {
+          existing.all.push(perf.entry);
+          // Update best if this entry has a better (lower) absolute_position
+          const currentBestPos = existing.best.absolute_position ?? Infinity;
+          const newPos = perf.entry.absolute_position ?? Infinity;
+          if (newPos < currentBestPos) {
+            existing.best = perf.entry;
+          }
+        }
+      }
+
+      // Build entries array with best position per year
+      const entries: BandEntry[] = Array.from(yearMap.entries())
+        .map(([year, { best, all }]) => ({
+          ...best,
+          year,
+          // Store aggregate entries for tooltip display
+          aggregate_entries: all.length > 1 ? all : undefined
+        } as BandEntry))
+        .sort((a, b) => a.year - b.year);
+
+      return {
+        name: piece.name,
+        slug: piece.slug,
+        entries
+      };
+    });
+  }
+
   function buildComposerRecords(pieces: PieceRecord[]): ComposerRecord[] {
     const records = new Map<string, {
       name: string;
@@ -1537,6 +1577,7 @@ import type {
     $derived(activeView === 'bands' || activeView === 'conductors'
       ? (activeSelection as BandRecord[])
       : []);
+  let pieceChartSelection = $derived(buildPieceChartRecords(pieceSelection));
 </script>
 
 {#if showStartupScreen}
@@ -1634,6 +1675,34 @@ import type {
   {:else if isEntityView}
     {#if activeSelection.length > 0}
       {#if activeView === 'pieces'}
+        <section class="chart-card">
+          <div class="chart-header">
+            <h2>{chartHeading}</h2>
+            <p>{coverageDescription}</p>
+            {#if comparisonSummary}
+              <p class="comparison-summary">{comparisonSummary}</p>
+            {/if}
+          </div>
+          <BandTrajectoryChart
+            {years}
+            {maxFieldSize}
+            bands={pieceChartSelection}
+            yMode={yAxisMode}
+            {yAxisScale}
+            showConductorMarkers={false}
+          />
+        </section>
+        <div class="selected-entities selected-entities--below" role="list" aria-label={selectionLabel}>
+          {#each activeSelection as record, index}
+            <span class="selected-entity" role="listitem">
+              <span class="selected-entity__index">{index + 1}</span>
+              <span class="selected-entity__name">{record.name}</span>
+              <button type="button" aria-label={`Fjern ${record.name}`} onclick={() => removeRecord(record.slug)}>
+                ×
+              </button>
+            </span>
+          {/each}
+        </div>
         <PiecePerformances pieces={pieceSelection} {bandType} />
       {:else if activeView === 'composers'}
         <ComposerPieces composers={composerSelection} {bandType} />
@@ -1656,17 +1725,19 @@ import type {
           />
         </section>
       {/if}
-      <div class="selected-entities selected-entities--below" role="list" aria-label={selectionLabel}>
-        {#each activeSelection as record, index}
-          <span class="selected-entity" role="listitem">
-            <span class="selected-entity__index">{index + 1}</span>
-            <span class="selected-entity__name">{record.name}</span>
-            <button type="button" aria-label={`Fjern ${record.name}`} onclick={() => removeRecord(record.slug)}>
-              ×
-            </button>
-          </span>
-        {/each}
-      </div>
+      {#if activeView === 'bands' || activeView === 'conductors'}
+        <div class="selected-entities selected-entities--below" role="list" aria-label={selectionLabel}>
+          {#each activeSelection as record, index}
+            <span class="selected-entity" role="listitem">
+              <span class="selected-entity__index">{index + 1}</span>
+              <span class="selected-entity__name">{record.name}</span>
+              <button type="button" aria-label={`Fjern ${record.name}`} onclick={() => removeRecord(record.slug)}>
+                ×
+              </button>
+            </span>
+          {/each}
+        </div>
+      {/if}
       {#if activeView === 'bands'}
         <BandPerformances
           bands={chartSelection}
