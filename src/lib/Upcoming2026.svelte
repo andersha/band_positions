@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { BandType } from './types';
   import { onMount } from 'svelte';
+  import { slugify } from './slugify';
 
   interface Props {
     bandType: BandType;
@@ -101,6 +102,16 @@
     }
   }
 
+  function formatTime(dateTimeStr: string | null): string {
+    if (!dateTimeStr) return '';
+    try {
+      const date = new Date(dateTimeStr);
+      return date.toLocaleTimeString('nb-NO', { hour: '2-digit', minute: '2-digit' });
+    } catch {
+      return '';
+    }
+  }
+
   async function loadUpcomingData() {
     try {
       const [windResponse, brassResponse] = await Promise.all([
@@ -198,32 +209,33 @@
           </div>
         {/if}
 
-        <div class="entries-list">
-          {#each division.entries as entry, idx}
-            <div class="entry-row" class:has-schedule={entry.play_datetime}>
-              <div class="entry-info">
-                <span class="play-order">
-                  {entry.play_order ?? idx + 1}
-                </span>
-                <div class="entry-details">
-                  <span class="orchestra-name">{entry.orchestra}</span>
-                  {#if entry.play_datetime}
-                    <span class="play-time">{formatDateTime(entry.play_datetime)}</span>
-                  {/if}
-                </div>
-              </div>
-              {#if entry.conductor}
-                <div class="conductor">Dirigent: {entry.conductor}</div>
-              {/if}
-              {#if entry.pieces.length > 0}
-                <div class="pieces">
-                  {#each entry.pieces as piece}
-                    <span class="piece">{piece}</span>
-                  {/each}
-                </div>
-              {/if}
-            </div>
-          {/each}
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col" class="order-column">#</th>
+                <th scope="col">Korps</th>
+                <th scope="col" class="time-column">Tid</th>
+              </tr>
+            </thead>
+            <tbody>
+              {#each division.entries as entry, idx}
+                {@const bandSlug = slugify(entry.orchestra)}
+                <tr>
+                  <td data-label="#" class="order-cell">{entry.play_order ?? idx + 1}</td>
+                  <td data-label="Korps">
+                    <a
+                      href={`?type=${bandType}&view=bands&band=${encodeURIComponent(bandSlug)}`}
+                      class="entity-link"
+                    >
+                      {entry.orchestra}
+                    </a>
+                  </td>
+                  <td data-label="Tid" class="time-cell">{formatTime(entry.play_datetime)}</td>
+                </tr>
+              {/each}
+            </tbody>
+          </table>
         </div>
       </div>
     {/each}
@@ -409,95 +421,72 @@
     text-decoration: underline;
   }
 
-  .entries-list {
+  .table-wrapper {
     margin-top: 1rem;
+    overflow-x: auto;
     border-radius: 0.85rem;
     border: 1px solid var(--color-border);
-    overflow: hidden;
   }
 
-  .entry-row {
-    padding: 0.75rem;
-    background: var(--color-surface-elevated);
-    transition: background-color 0.15s ease;
+  table {
+    width: 100%;
+    border-collapse: collapse;
   }
 
-  .entry-row:not(:last-child) {
-    border-bottom: 1px solid var(--color-border);
+  th,
+  td {
+    padding: 0.7rem 1rem;
+    text-align: left;
   }
 
-  .entry-row:nth-child(even) {
+  thead {
+    background: var(--color-mode-toggle-bg);
+  }
+
+  th {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--color-text-secondary);
+  }
+
+  tbody tr:nth-child(even) {
     background: rgba(255, 255, 255, 0.02);
   }
 
-  .entry-row:hover {
-    background: rgba(255, 255, 255, 0.04);
-  }
-
-  .entry-info {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.75rem;
-  }
-
-  .play-order {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 2rem;
-    height: 2rem;
-    background: var(--color-chip-index-bg);
-    border-radius: 50%;
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--color-text-primary);
-  }
-
-  .entry-details {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-    flex: 1;
-  }
-
-  .orchestra-name {
-    font-weight: 600;
+  tbody td {
+    border-top: 1px solid var(--color-border);
     color: var(--color-text-primary);
     font-size: 0.95rem;
   }
 
-  .play-time {
-    color: var(--color-text-secondary);
-    font-size: 0.85rem;
-  }
-
-  .conductor,
-  .pieces {
-    margin-top: 0.5rem;
-    padding-left: 2.75rem;
-    color: var(--color-text-secondary);
-    font-size: 0.85rem;
-  }
-
-  .pieces {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-
-  .piece {
-    padding: 0.2rem 0.6rem;
-    background: var(--color-chip-bg);
-    border: 1px solid var(--color-chip-border);
-    border-radius: 999px;
-    font-size: 0.8rem;
-  }
-
-  .last-updated {
-    margin-top: 1rem;
+  .order-column,
+  .order-cell {
+    width: 3rem;
     text-align: center;
-    color: var(--color-text-muted);
-    font-size: 0.85rem;
+  }
+
+  .time-column,
+  .time-cell {
+    width: 5rem;
+    white-space: nowrap;
+  }
+
+  .entity-link {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .entity-link:hover,
+  .entity-link:focus-visible {
+    text-decoration: underline;
+  }
+
+  td[data-label]::before {
+    content: attr(data-label);
+    display: none;
+    font-weight: 600;
+    margin-right: 0.5rem;
   }
 
   @media (max-width: 780px) {
@@ -522,15 +511,38 @@
       align-items: flex-start;
       gap: 0.5rem;
     }
+  }
 
-    .entry-info {
-      flex-direction: column;
-      gap: 0.5rem;
+  @media (max-width: 480px) {
+    thead {
+      display: none;
     }
 
-    .conductor,
-    .pieces {
-      padding-left: 0;
+    tbody tr {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 0.5rem;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    tbody td {
+      border-top: none;
+      padding: 0;
+    }
+
+    .order-cell {
+      text-align: left;
+      font-weight: 600;
+    }
+
+    .time-cell {
+      text-align: right;
+      color: var(--color-text-secondary);
     }
   }
 </style>
