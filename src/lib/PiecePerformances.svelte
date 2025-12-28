@@ -183,12 +183,12 @@
           {#if composerNames.length > 0}
             <p class="piece-composer">
               {#each composerNames as composerName, index}
-                <a
+              <a
                   href={`?type=${bandType}&view=composers&composer=${encodeURIComponent(slugify(composerName))}`}
-                  class="composer-link"
+                  class="entity-link"
                 >
                   {composerName}
-                </a>{index < composerNames.length - 1 ? ', ' : ''}
+                </a>
               {/each}
             </p>
           {:else if piece.composer}
@@ -361,16 +361,6 @@
   .piece-header .piece-composer {
     font-size: 0.95rem;
     font-style: italic;
-  }
-
-  .piece-header .piece-composer .composer-link {
-    color: var(--color-accent);
-    text-decoration: none;
-  }
-
-  .piece-header .piece-composer .composer-link:hover,
-  .piece-header .piece-composer .composer-link:focus-visible {
-    text-decoration: underline;
   }
 
   .entity-link {
