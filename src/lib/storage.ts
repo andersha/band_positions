@@ -37,4 +37,5 @@ export const STORAGE_KEYS = {
   BAND_TYPE: 'nmkorps-band-type',
   YAXIS_MODE: 'nmkorps-yaxis-mode',
   YAXIS_SCALE: 'nmkorps-yaxis-scale',
+  SELECTION_MODE: 'nmkorps-selection-mode',
 } as const;

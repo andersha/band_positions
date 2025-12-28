@@ -6,18 +6,22 @@
     yAxisMode: 'absolute' | 'relative';
     yAxisScale: 'fitted' | 'full';
     theme: 'light' | 'dark';
+    selectionMode: 'single' | 'multiple';
     onYAxisModeChange?: (value: 'absolute' | 'relative') => void;
     onYAxisScaleChange?: (value: 'fitted' | 'full') => void;
     onThemeChange?: (value: 'light' | 'dark') => void;
+    onSelectionModeChange?: (value: 'single' | 'multiple') => void;
   }
 
   let { 
     yAxisMode = $bindable(), 
     yAxisScale = $bindable(), 
     theme = $bindable(),
+    selectionMode = $bindable(),
     onYAxisModeChange,
     onYAxisScaleChange,
-    onThemeChange
+    onThemeChange,
+    onSelectionModeChange
   }: Props = $props();
 
   let initialized = false;
@@ -43,6 +47,11 @@
   $effect(() => {
     if (!initialized) return;
     onThemeChange?.(theme);
+  });
+
+  $effect(() => {
+    if (!initialized) return;
+    onSelectionModeChange?.(selectionMode);
   });
 </script>
 
@@ -106,6 +115,24 @@
           options={['dark', 'light']}
           labels={['Mørkt', 'Lyst']}
           ariaLabel="Velg fargetema"
+        />
+      </div>
+    </div>
+
+    <div class="setting-card">
+      <div class="setting-info">
+        <h3>Valgmodus</h3>
+        <p>
+          Velg hvordan korps, dirigenter og stykker velges. <strong>Enkel</strong> erstatter valget ved hvert klikk (maks én om gangen). 
+          <strong>Flervalg</strong> legger til ved hvert klikk for å sammenligne flere.
+        </p>
+      </div>
+      <div class="setting-control">
+        <ToggleSwitch
+          bind:value={selectionMode}
+          options={['single', 'multiple']}
+          labels={['Enkel', 'Flervalg']}
+          ariaLabel="Velg valgmodus"
         />
       </div>
     </div>

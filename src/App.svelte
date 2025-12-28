@@ -42,6 +42,9 @@ import type {
   const DEFAULT_YAXIS_SCALE: 'fitted' | 'full' = 'fitted';
   const DEFAULT_VIEW: ViewType = 'data'; // Changed from 'bands' to 'data'
   const DEFAULT_BAND_TYPE: BandType = 'wind';
+  const DEFAULT_SELECTION_MODE: SelectionMode = 'multiple';
+
+  type SelectionMode = 'single' | 'multiple';
 
   const viewLabels: Record<ViewType, string> = {
     bands: 'Korps',
@@ -72,6 +75,7 @@ import type {
   let lastSyncedSignature = '';
   let yAxisMode = $state<'absolute' | 'relative'>(DEFAULT_MODE);
   let yAxisScale = $state<'fitted' | 'full'>('fitted'); // Default to fitted (new dynamic behavior)
+  let selectionMode = $state<SelectionMode>(DEFAULT_SELECTION_MODE);
   let activeView = $state<ViewType>(DEFAULT_VIEW);
   let theme = $state<Theme>('dark');
   let bandType = $state<BandType | null>(null); // Changed to nullable
@@ -967,15 +971,20 @@ import type {
     }
 
     const bandMatches = findMatches(dataset.bands, getSlugsFromURL('bands'));
-    // Merge new selections with existing ones (add unique items)
-    const mergedBands = [...selectedBands];
-    for (const match of bandMatches) {
-      if (!mergedBands.some(b => b.slug === match.slug)) {
-        mergedBands.push(match);
+    // In single mode, replace selections; in multiple mode, merge
+    let newBands: BandRecord[];
+    if (selectionMode === 'single') {
+      newBands = bandMatches;
+    } else {
+      newBands = [...selectedBands];
+      for (const match of bandMatches) {
+        if (!newBands.some(b => b.slug === match.slug)) {
+          newBands.push(match);
+        }
       }
     }
-    if (!areSelectionsEqual(selectedBands, mergedBands)) {
-      selectedBands = mergedBands;
+    if (!areSelectionsEqual(selectedBands, newBands)) {
+      selectedBands = newBands;
       stateChanged = true;
     }
 
@@ -983,15 +992,19 @@ import type {
       conductorRecords = buildConductorRecords(dataset.bands);
     }
     const conductorMatches = findMatches(conductorRecords, getSlugsFromURL('conductors'));
-    // Merge new selections with existing ones (add unique items)
-    const mergedConductors = [...selectedConductors];
-    for (const match of conductorMatches) {
-      if (!mergedConductors.some(c => c.slug === match.slug)) {
-        mergedConductors.push(match);
+    let newConductors: BandRecord[];
+    if (selectionMode === 'single') {
+      newConductors = conductorMatches;
+    } else {
+      newConductors = [...selectedConductors];
+      for (const match of conductorMatches) {
+        if (!newConductors.some(c => c.slug === match.slug)) {
+          newConductors.push(match);
+        }
       }
     }
-    if (!areSelectionsEqual(selectedConductors, mergedConductors)) {
-      selectedConductors = mergedConductors;
+    if (!areSelectionsEqual(selectedConductors, newConductors)) {
+      selectedConductors = newConductors;
       stateChanged = true;
     }
 
@@ -1000,15 +1013,19 @@ import type {
       composerRecords = buildComposerRecords(pieceRecords);
     }
     const pieceMatches = findMatches(pieceRecords, getSlugsFromURL('pieces'));
-    // Merge new selections with existing ones (add unique items)
-    const mergedPieces = [...selectedPieces];
-    for (const match of pieceMatches) {
-      if (!mergedPieces.some(p => p.slug === match.slug)) {
-        mergedPieces.push(match);
+    let newPieces: PieceRecord[];
+    if (selectionMode === 'single') {
+      newPieces = pieceMatches;
+    } else {
+      newPieces = [...selectedPieces];
+      for (const match of pieceMatches) {
+        if (!newPieces.some(p => p.slug === match.slug)) {
+          newPieces.push(match);
+        }
       }
     }
-    if (!areSelectionsEqual(selectedPieces, mergedPieces)) {
-      selectedPieces = mergedPieces;
+    if (!areSelectionsEqual(selectedPieces, newPieces)) {
+      selectedPieces = newPieces;
       stateChanged = true;
     }
 
@@ -1016,15 +1033,19 @@ import type {
       composerRecords = buildComposerRecords(pieceRecords);
     }
     const composerMatches = findMatches(composerRecords, getSlugsFromURL('composers'));
-    // Merge new selections with existing ones (add unique items)
-    const mergedComposers = [...selectedComposers];
-    for (const match of composerMatches) {
-      if (!mergedComposers.some(c => c.slug === match.slug)) {
-        mergedComposers.push(match);
+    let newComposers: ComposerRecord[];
+    if (selectionMode === 'single') {
+      newComposers = composerMatches;
+    } else {
+      newComposers = [...selectedComposers];
+      for (const match of composerMatches) {
+        if (!newComposers.some(c => c.slug === match.slug)) {
+          newComposers.push(match);
+        }
       }
     }
-    if (!areSelectionsEqual(selectedComposers, mergedComposers)) {
-      selectedComposers = mergedComposers;
+    if (!areSelectionsEqual(selectedComposers, newComposers)) {
+      selectedComposers = newComposers;
       stateChanged = true;
     }
 
@@ -1054,19 +1075,35 @@ import type {
 
   function chooseRecord(record: BandRecord | PieceRecord | ComposerRecord): void {
     if (activeView === 'bands') {
-      if (selectedBands.some((item) => item.slug === record.slug)) return;
-      selectedBands = [...selectedBands, record as BandRecord];
+      if (selectionMode === 'single') {
+        selectedBands = [record as BandRecord];
+      } else {
+        if (selectedBands.some((item) => item.slug === record.slug)) return;
+        selectedBands = [...selectedBands, record as BandRecord];
+      }
     } else if (activeView === 'conductors') {
-      if (selectedConductors.some((item) => item.slug === record.slug)) return;
-      selectedConductors = [...selectedConductors, record as BandRecord];
+      if (selectionMode === 'single') {
+        selectedConductors = [record as BandRecord];
+      } else {
+        if (selectedConductors.some((item) => item.slug === record.slug)) return;
+        selectedConductors = [...selectedConductors, record as BandRecord];
+      }
     } else if (activeView === 'pieces') {
       const pieceRecord = record as PieceRecord;
-      if (selectedPieces.some((item) => item.slug === pieceRecord.slug)) return;
-      selectedPieces = [...selectedPieces, pieceRecord];
+      if (selectionMode === 'single') {
+        selectedPieces = [pieceRecord];
+      } else {
+        if (selectedPieces.some((item) => item.slug === pieceRecord.slug)) return;
+        selectedPieces = [...selectedPieces, pieceRecord];
+      }
     } else if (activeView === 'composers') {
       const composerRecord = record as ComposerRecord;
-      if (selectedComposers.some((item) => item.slug === composerRecord.slug)) return;
-      selectedComposers = [...selectedComposers, composerRecord];
+      if (selectionMode === 'single') {
+        selectedComposers = [composerRecord];
+      } else {
+        if (selectedComposers.some((item) => item.slug === composerRecord.slug)) return;
+        selectedComposers = [...selectedComposers, composerRecord];
+      }
     }
     searchTerm = '';
     focusedIndex = -1;
@@ -1141,6 +1178,35 @@ import type {
     if (yAxisScale === scale) return;
     yAxisScale = scale;
     writeLS(STORAGE_KEYS.YAXIS_SCALE, scale);
+  }
+
+  function setSelectionMode(mode: SelectionMode): void {
+    selectionMode = mode;
+    writeLS(STORAGE_KEYS.SELECTION_MODE, mode);
+    
+    // When in single mode, truncate all selections to first element and update URL
+    if (mode === 'single') {
+      let truncated = false;
+      if (selectedBands.length > 1) {
+        selectedBands = [selectedBands[0]];
+        truncated = true;
+      }
+      if (selectedConductors.length > 1) {
+        selectedConductors = [selectedConductors[0]];
+        truncated = true;
+      }
+      if (selectedPieces.length > 1) {
+        selectedPieces = [selectedPieces[0]];
+        truncated = true;
+      }
+      if (selectedComposers.length > 1) {
+        selectedComposers = [selectedComposers[0]];
+        truncated = true;
+      }
+      if (truncated) {
+        syncUrlIfReady();
+      }
+    }
   }
 
   function handleSettingsYAxisModeChange(event: CustomEvent<{ value: 'absolute' | 'relative' }>): void {
@@ -1247,7 +1313,7 @@ import type {
     theme = initialTheme;
     await applyThemePreference(initialTheme); // Await to ensure status bar updates
 
-    // Initialize yAxisMode and yAxisScale from localStorage
+    // Initialize yAxisMode, yAxisScale, and selectionMode from localStorage
     const storedYAxisMode = readLS(STORAGE_KEYS.YAXIS_MODE, DEFAULT_MODE);
     if (storedYAxisMode === 'absolute' || storedYAxisMode === 'relative') {
       yAxisMode = storedYAxisMode;
@@ -1255,6 +1321,10 @@ import type {
     const storedYAxisScale = readLS(STORAGE_KEYS.YAXIS_SCALE, DEFAULT_YAXIS_SCALE);
     if (storedYAxisScale === 'fitted' || storedYAxisScale === 'full') {
       yAxisScale = storedYAxisScale;
+    }
+    const storedSelectionMode = readLS(STORAGE_KEYS.SELECTION_MODE, DEFAULT_SELECTION_MODE);
+    if (storedSelectionMode === 'single' || storedSelectionMode === 'multiple') {
+      selectionMode = storedSelectionMode;
     }
 
     const initialBandType = resolveInitialBandType();
@@ -1311,41 +1381,60 @@ import type {
         // Prevent default navigation
         event.preventDefault();
         
-        // Get current selections
+        // Get current selections (only used in multiple mode)
         const currentParams = new URLSearchParams(window.location.search);
-        const currentBands = currentParams.get('band')?.split(',').filter(Boolean) || [];
-        const currentConductors = currentParams.get('conductor')?.split(',').filter(Boolean) || [];
-        const currentPieces = currentParams.get('piece')?.split(',').filter(Boolean) || [];
-        const currentComposers = currentParams.get('composer')?.split(',').filter(Boolean) || [];
+        let newBands: string[] = [];
+        let newConductors: string[] = [];
+        let newPieces: string[] = [];
+        let newComposers: string[] = [];
         
-        // Merge new selection with existing (add if not already present)
-        if (bandSlug && !currentBands.includes(bandSlug)) {
-          currentBands.push(bandSlug);
-        }
-        if (conductorSlug && !currentConductors.includes(conductorSlug)) {
-          currentConductors.push(conductorSlug);
-        }
-        if (pieceSlug && !currentPieces.includes(pieceSlug)) {
-          currentPieces.push(pieceSlug);
-        }
-        if (composerSlug && !currentComposers.includes(composerSlug)) {
-          currentComposers.push(composerSlug);
+        if (selectionMode === 'single') {
+          // Single mode: replace selection with only the new item
+          if (bandSlug) newBands = [bandSlug];
+          if (conductorSlug) newConductors = [conductorSlug];
+          if (pieceSlug) newPieces = [pieceSlug];
+          if (composerSlug) newComposers = [composerSlug];
+        } else {
+          // Multiple mode: merge new selection with existing
+          newBands = currentParams.get('band')?.split(',').filter(Boolean) || [];
+          newConductors = currentParams.get('conductor')?.split(',').filter(Boolean) || [];
+          newPieces = currentParams.get('piece')?.split(',').filter(Boolean) || [];
+          newComposers = currentParams.get('composer')?.split(',').filter(Boolean) || [];
+          
+          if (bandSlug && !newBands.includes(bandSlug)) {
+            newBands.push(bandSlug);
+          }
+          if (conductorSlug && !newConductors.includes(conductorSlug)) {
+            newConductors.push(conductorSlug);
+          }
+          if (pieceSlug && !newPieces.includes(pieceSlug)) {
+            newPieces.push(pieceSlug);
+          }
+          if (composerSlug && !newComposers.includes(composerSlug)) {
+            newComposers.push(composerSlug);
+          }
         }
         
-        // Build new URL with merged selections
+        // Build new URL with selections
         const newParams = new URLSearchParams(currentParams);
         
-        if (currentBands.length) {
-          newParams.set('band', currentBands.join(','));
+        // Clear all entity selections first (for single mode cleanliness)
+        newParams.delete('band');
+        newParams.delete('conductor');
+        newParams.delete('piece');
+        newParams.delete('composer');
+        
+        if (newBands.length) {
+          newParams.set('band', newBands.join(','));
         }
-        if (currentConductors.length) {
-          newParams.set('conductor', currentConductors.join(','));
+        if (newConductors.length) {
+          newParams.set('conductor', newConductors.join(','));
         }
-        if (currentPieces.length) {
-          newParams.set('piece', currentPieces.join(','));
+        if (newPieces.length) {
+          newParams.set('piece', newPieces.join(','));
         }
-        if (currentComposers.length) {
-          newParams.set('composer', currentComposers.join(','));
+        if (newComposers.length) {
+          newParams.set('composer', newComposers.join(','));
         }
         
         // Set view if specified in link
@@ -1769,9 +1858,11 @@ import type {
       bind:yAxisMode
       bind:yAxisScale
       bind:theme
+      bind:selectionMode
       onYAxisModeChange={setYAxisMode}
       onYAxisScaleChange={setYAxisScale}
       onThemeChange={setTheme}
+      onSelectionModeChange={setSelectionMode}
     />
   {:else}
     <DataExplorer {dataset} {bandType} streamingResolver={findStreamingLinkForPiece} {eliteTestPieces} />
