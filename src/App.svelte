@@ -91,6 +91,8 @@ import type {
     title: string;
     slug: string;
     composer: string | null;
+    grade?: number | null;
+    length?: number | null;
   }
 
   interface PieceMetadataDataset {
@@ -517,8 +519,8 @@ import type {
               slug, 
               composer: composerDisplay, 
               composerNames, 
-              grade: metadata?.grade,  // Add grade from metadata
-              length: metadata?.length,  // Add length from metadata
+              grade: metadata?.grade ?? undefined,  // Add grade from metadata
+              length: metadata?.length ?? undefined,  // Add length from metadata
               performances: [] 
             };
             records.set(slug, record);

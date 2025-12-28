@@ -13,7 +13,7 @@ const assetsDir = path.resolve(__dirname, OUT_DIR_RELATIVE, 'assets');
 // Clean out the pre-generated assets folder while leaving other published files intact.
 const cleanAssetsPlugin = () => ({
   name: 'clean-docs-assets',
-  apply: 'build',
+  apply: 'build' as const,
   async buildStart() {
     await rm(assetsDir, { recursive: true, force: true });
   }
