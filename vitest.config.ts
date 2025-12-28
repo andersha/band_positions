@@ -7,6 +7,9 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: ['./vitest-setup.ts'],
-    include: ['src/**/*.{test,spec}.{js,ts}'],
+    include: ['test/**/*.{test,spec}.{js,ts}'],
+    alias: {
+      '$lib': '/Users/anders.abrahamsen/apps/band_app/app/src/lib',
+    },
   },
 });
