@@ -819,7 +819,8 @@
           "max_points": 100.0,
           "conductor": "Jan L. Jacobsen",
           "pieces": [
-            "Dimensions (plikt)"
+            "Dimensions (plikt)",
+            "Queenston Ouverture"
           ]
         },
         {
@@ -848,7 +849,8 @@
           "max_points": 100.0,
           "conductor": "Stein Åge Sørlie",
           "pieces": [
-            "The Forest of Arden (plikt)"
+            "The Forest of Arden (plikt)",
+            "Third Suite for Band"
           ]
         },
         {
@@ -861,7 +863,10 @@
           "points": 88.0,
           "max_points": 100.0,
           "conductor": "Steffen Blindheim",
-          "pieces": []
+          "pieces": [
+            "Det gamle kvernhuset",
+            "Harlequin (plikt)"
+          ]
         },
         {
           "year": 1998,
@@ -874,7 +879,8 @@
           "max_points": 100.0,
           "conductor": "Steffen Blindheim",
           "pieces": [
-            "Incantation and Dance"
+            "Incantation and Dance",
+            "Pastorale"
           ]
         },
         {
@@ -888,7 +894,8 @@
           "max_points": 100.0,
           "conductor": "Steffen Blindheim",
           "pieces": [
-            "Odyssey (Overture on an Epic Poem) (plikt)"
+            "Odyssey (Overture on an Epic Poem) (plikt)",
+            "El Camino Real"
           ]
         },
         {
@@ -3192,7 +3199,9 @@
           "points": 82.0,
           "max_points": 100.0,
           "conductor": "Jon Terje Svendsen",
-          "pieces": []
+          "pieces": [
+            "Harlequin (plikt)"
+          ]
         },
         {
           "year": 1998,
@@ -12310,7 +12319,9 @@
           "points": 83.0,
           "max_points": 100.0,
           "conductor": "Endre Ladehaug",
-          "pieces": []
+          "pieces": [
+            "Harlequin (plikt)"
+          ]
         },
         {
           "year": 1999,
@@ -13160,7 +13171,9 @@
           "points": 81.0,
           "max_points": 100.0,
           "conductor": "Trond Elnes",
-          "pieces": []
+          "pieces": [
+            "Harlequin (plikt)"
+          ]
         },
         {
           "year": 2000,
@@ -17165,7 +17178,8 @@
           "max_points": 100.0,
           "conductor": "Geir Holm",
           "pieces": [
-            "Høstvise"
+            "Høstvise",
+            "Harlequin (plikt)"
           ]
         },
         {
@@ -18850,7 +18864,8 @@
           "max_points": 100.0,
           "conductor": "Knut Lauritzen",
           "pieces": [
-            "Basie"
+            "Basie",
+            "Harlequin (plikt)"
           ]
         },
         {
@@ -19268,7 +19283,9 @@
           "points": 85.0,
           "max_points": 100.0,
           "conductor": "Endre Ladehaug",
-          "pieces": []
+          "pieces": [
+            "Harlequin (plikt)"
+          ]
         },
         {
           "year": 2011,
@@ -19542,7 +19559,8 @@
           "max_points": 100.0,
           "conductor": "Tor Halvard Nilsen",
           "pieces": [
-            "Through The Vulcan's Eye"
+            "Through The Vulcan's Eye",
+            "Harlequin (plikt)"
           ]
         },
         {
@@ -20399,7 +20417,8 @@
           "max_points": 100.0,
           "conductor": "Trond Brenne",
           "pieces": [
-            "Concita for Band"
+            "Concita for Band",
+            "Harlequin (plikt)"
           ]
         },
         {
@@ -21408,7 +21427,9 @@
           "points": 90.0,
           "max_points": 100.0,
           "conductor": "Hans Andreas Kjølberg",
-          "pieces": []
+          "pieces": [
+            "Harlequin (plikt)"
+          ]
         },
         {
           "year": 1998,
@@ -21780,7 +21801,9 @@
           "points": 80.0,
           "max_points": 100.0,
           "conductor": "Arne Sæter",
-          "pieces": []
+          "pieces": [
+            "Harlequin (plikt)"
+          ]
         },
         {
           "year": 2011,
@@ -34817,7 +34840,9 @@
           "points": 84.0,
           "max_points": 100.0,
           "conductor": "Reid Gilje",
-          "pieces": []
+          "pieces": [
+            "Harlequin (plikt)"
+          ]
         },
         {
           "year": 2002,
@@ -35818,7 +35843,9 @@
           "points": 87.0,
           "max_points": 100.0,
           "conductor": "Roger Fjeldet",
-          "pieces": []
+          "pieces": [
+            "Harlequin (plikt)"
+          ]
         },
         {
           "year": 1998,
@@ -39467,7 +39494,9 @@
           "points": 86.0,
           "max_points": 100.0,
           "conductor": "Thorbjørn Lunde",
-          "pieces": []
+          "pieces": [
+            "Harlequin (plikt)"
+          ]
         },
         {
           "year": 1998,
@@ -40786,7 +40815,9 @@
           "points": 89.0,
           "max_points": 100.0,
           "conductor": "Geir Østby",
-          "pieces": []
+          "pieces": [
+            "Harlequin (plikt)"
+          ]
         },
         {
           "year": 1999,
@@ -41905,6 +41936,6 @@
     "max_field_size": 120,
     "min_year": 1981,
     "max_year": 2025,
-    "generated_at": "2025-12-15T20:03:46+00:00"
+    "generated_at": "2025-12-30T20:42:11+00:00"
   }
 }

@@ -49,8 +49,11 @@ describe('storage', () => {
       mockLocalStorage.getItem.mockImplementationOnce(() => {
         throw new Error('Storage error');
       });
+      const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
       
       expect(readLS('key', 'fallback')).toBe('fallback');
+      
+      consoleSpy.mockRestore();
     });
   });
 
@@ -64,9 +67,12 @@ describe('storage', () => {
       mockLocalStorage.setItem.mockImplementationOnce(() => {
         throw new Error('Storage full');
       });
+      const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
       
       // Should not throw
       expect(() => writeLS('key', 'value')).not.toThrow();
+      
+      consoleSpy.mockRestore();
     });
   });
 
