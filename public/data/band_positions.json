@@ -32133,7 +32133,8 @@
           "max_points": 100.0,
           "conductor": "Jan Gjendemsjø",
           "pieces": [
-            "Puszta (Four Gypsi Dances)"
+            "Puszta (Four Gypsi Dances)",
+            "Deo Gracias (plikt)"
           ]
         },
         {
@@ -32162,6 +32163,7 @@
           "max_points": 100.0,
           "conductor": "Jan Gjendemsjø",
           "pieces": [
+            "Puszta",
             "La Storia (plikt)"
           ]
         },
@@ -32191,6 +32193,7 @@
           "max_points": 100.0,
           "conductor": "Geir Holm",
           "pieces": [
+            "Slavonic Rhapsody no 2",
             "Variations for Band (plikt)"
           ]
         },
@@ -32249,6 +32252,7 @@
           "max_points": 100.0,
           "conductor": "Espen Opedal",
           "pieces": [
+            "Bilder fra en utstilling",
             "Incantation and Dance (plikt)"
           ]
         },
@@ -41936,6 +41940,6 @@
     "max_field_size": 120,
     "min_year": 1981,
     "max_year": 2025,
-    "generated_at": "2025-12-30T20:42:11+00:00"
+    "generated_at": "2026-01-04T15:20:49+00:00"
   }
 }
