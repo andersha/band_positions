@@ -1,12 +1,12 @@
 {
   "year": 2026,
   "competition_type": "wind",
-  "stage": 2,
-  "stage_description": "Playing schedule announced",
-  "next_expected_update": "Pieces to be announced (~1 month before competition)",
+  "stage": 3,
+  "stage_description": "Musical pieces announced",
+  "next_expected_update": "Conductors to be announced",
   "location": "Trondheim",
   "date_range": "20-21 mars 2026",
-  "notes": "Playing schedule announced. Pieces and conductors TBA (~1 month before competition).",
+  "notes": "Playing schedule announced. Some pieces announced (Alvøens, Skjold Nesttun, Strusshamn). More pieces and conductors TBA.",
   "divisions": [
     {
       "name": "Elite",
@@ -18,7 +18,20 @@
           "play_datetime": "2026-03-21T09:30:00",
           "venue": "Olavshallen, store sal",
           "conductor": null,
-          "pieces": [],
+          "pieces": [
+            {
+              "title": "Traveler",
+              "composer": "David Maslanka",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Fraternity",
+              "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
           "korpsnr": null,
           "image_url": null
         },
@@ -48,7 +61,20 @@
           "play_datetime": "2026-03-21T11:51:00",
           "venue": "Olavshallen, store sal",
           "conductor": null,
-          "pieces": [],
+          "pieces": [
+            {
+              "title": "Year of the Dragon",
+              "composer": "Philip Sparke",
+              "duration_minutes": 14,
+              "difficulty": 5
+            },
+            {
+              "title": "A Brussels Requiem",
+              "composer": "Bert Appermont",
+              "duration_minutes": 17,
+              "difficulty": 6
+            }
+          ],
           "korpsnr": null,
           "image_url": null
         },
@@ -68,7 +94,14 @@
           "play_datetime": "2026-03-21T13:43:00",
           "venue": "Olavshallen, store sal",
           "conductor": null,
-          "pieces": [],
+          "pieces": [
+            {
+              "title": "Duende",
+              "composer": "Luis Serrano Alarcón",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
           "korpsnr": null,
           "image_url": null
         },
@@ -259,7 +292,7 @@
       "total_entries": 16,
       "entries": [
         {
-          "orchestra": "Tromsø Orkesterforening Janitsjarkorps",
+          "orchestra": "Nes Janitsjarkorps",
           "play_order": 1,
           "play_datetime": "2026-03-21T09:30:00",
           "venue": "Royal Garden",
@@ -319,7 +352,7 @@
           "image_url": null
         },
         {
-          "orchestra": "Os Musikkforening",
+          "orchestra": "Lungegaardens Musikkorps",
           "play_order": 7,
           "play_datetime": "2026-03-21T12:42:00",
           "venue": "Royal Garden",
@@ -359,7 +392,7 @@
           "image_url": null
         },
         {
-          "orchestra": "Nes Janitsjarkorps",
+          "orchestra": "Tromsø Orkesterforening Janitsjarkorps",
           "play_order": 11,
           "play_datetime": "2026-03-21T15:08:00",
           "venue": "Royal Garden",
@@ -379,7 +412,7 @@
           "image_url": null
         },
         {
-          "orchestra": "Drammen Konsertorkester",
+          "orchestra": "Os Musikkforening",
           "play_order": 13,
           "play_datetime": "2026-03-21T16:12:00",
           "venue": "Royal Garden",
@@ -399,7 +432,7 @@
           "image_url": null
         },
         {
-          "orchestra": "Lungegaardens Musikkorps",
+          "orchestra": "Drammen Konsertorkester",
           "play_order": 15,
           "play_datetime": "2026-03-21T17:16:00",
           "venue": "Royal Garden",
@@ -595,7 +628,7 @@
       "total_entries": 16,
       "entries": [
         {
-          "orchestra": "Arendal Byorkester",
+          "orchestra": "Oppegård Janitsjar",
           "play_order": 1,
           "play_datetime": "2026-03-20T14:00:00",
           "venue": "Royal Garden",
@@ -645,7 +678,7 @@
           "image_url": null
         },
         {
-          "orchestra": "Lørenskog Blåsensemble",
+          "orchestra": "Fana Musikklag",
           "play_order": 6,
           "play_datetime": "2026-03-20T16:05:00",
           "venue": "Royal Garden",
@@ -655,7 +688,7 @@
           "image_url": null
         },
         {
-          "orchestra": "Oppegård Janitsjar",
+          "orchestra": "Arendal Byorkester",
           "play_order": 7,
           "play_datetime": "2026-03-20T16:30:00",
           "venue": "Royal Garden",
@@ -735,7 +768,7 @@
           "image_url": null
         },
         {
-          "orchestra": "Fana Musikklag",
+          "orchestra": "Lørenskog Blåsensemble",
           "play_order": 15,
           "play_datetime": "2026-03-20T20:10:00",
           "venue": "Royal Garden",
@@ -991,7 +1024,7 @@
           "image_url": null
         },
         {
-          "orchestra": "Klæbu Musikkorps",
+          "orchestra": "Musikkorpset Tempo",
           "play_order": 7,
           "play_datetime": "2026-03-20T18:24:00",
           "venue": "Olavshallen, lille sal",
@@ -1021,7 +1054,7 @@
           "image_url": null
         },
         {
-          "orchestra": "Musikkorpset Tempo",
+          "orchestra": "Klæbu Musikkorps",
           "play_order": 10,
           "play_datetime": "2026-03-20T19:57:00",
           "venue": "Olavshallen, lille sal",
@@ -1186,7 +1219,7 @@
   "metadata": {
     "total_orchestras": 111,
     "total_divisions": 8,
-    "last_updated": "2025-12-04T18:29:56.223212",
-    "exported_at": "2025-12-04T17:47:58+00:00"
+    "last_updated": "2026-01-15T15:40:15.794247",
+    "exported_at": "2026-01-15T14:40:18+00:00"
   }
 }
