@@ -9,6 +9,13 @@
 
   let { bandType }: Props = $props();
 
+  interface Piece {
+    title: string;
+    composer: string;
+    duration_minutes: number | null;
+    difficulty: number | null;
+  }
+
   interface UpcomingEntry {
     orchestra: string;
     division: string;
@@ -16,7 +23,7 @@
     play_datetime: string | null;
     venue: string | null;
     conductor: string | null;
-    pieces: string[];
+    pieces: Piece[];
     korpsnr: number | null;
     image_url: string | null;
   }
@@ -213,16 +220,21 @@
           <table>
             <thead>
               <tr>
-                <th scope="col" class="order-column">#</th>
-                <th scope="col">Korps</th>
                 <th scope="col" class="time-column">Tid</th>
+                <th scope="col">Korps</th>
+                <th scope="col">Dirigent</th>
+                <th scope="col">Stykke</th>
               </tr>
             </thead>
             <tbody>
               {#each division.entries as entry, idx}
                 {@const bandSlug = slugify(entry.orchestra)}
+                {@const conductorName = entry.conductor?.trim() ?? ''}
+                {@const hasConductor = conductorName.length > 0}
+                {@const conductorSlug = hasConductor ? slugify(conductorName) : ''}
+                {@const pieces = entry.pieces ?? []}
                 <tr>
-                  <td data-label="#" class="order-cell">{entry.play_order ?? idx + 1}</td>
+                  <td data-label="Tid" class="time-cell">{formatTime(entry.play_datetime)}</td>
                   <td data-label="Korps">
                     <a
                       href={`?type=${bandType}&view=bands&band=${encodeURIComponent(bandSlug)}`}
@@ -231,7 +243,46 @@
                       {entry.orchestra}
                     </a>
                   </td>
-                  <td data-label="Tid" class="time-cell">{formatTime(entry.play_datetime)}</td>
+                  <td data-label="Dirigent">
+                    {#if hasConductor}
+                      <a
+                        href={`?type=${bandType}&view=conductors&conductor=${encodeURIComponent(conductorSlug)}`}
+                        class="entity-link"
+                      >
+                        {conductorName}
+                      </a>
+                    {:else}
+                      <span class="missing-data">–</span>
+                    {/if}
+                  </td>
+                  <td data-label="Stykke" class="piece-cell">
+                    {#if pieces.length > 0}
+                      <ul class="piece-list">
+                        {#each pieces as piece}
+                          {@const pieceTitle = piece.title?.trim() ?? ''}
+                          {@const pieceSlug = pieceTitle ? slugify(pieceTitle) : ''}
+                          {@const composer = piece.composer?.trim() ?? ''}
+                          <li>
+                            {#if pieceSlug}
+                              <a
+                                href={`?type=${bandType}&view=pieces&piece=${encodeURIComponent(pieceSlug)}`}
+                                class="entity-link"
+                              >
+                                {pieceTitle}
+                              </a>
+                            {:else if pieceTitle}
+                              <span>{pieceTitle}</span>
+                            {/if}
+                            {#if composer}
+                              <span class="composer"> ({composer})</span>
+                            {/if}
+                          </li>
+                        {/each}
+                      </ul>
+                    {:else}
+                      <span class="missing-data">–</span>
+                    {/if}
+                  </td>
                 </tr>
               {/each}
             </tbody>
@@ -460,16 +511,41 @@
     font-size: 0.95rem;
   }
 
-  .order-column,
-  .order-cell {
-    width: 3rem;
-    text-align: center;
-  }
-
   .time-column,
   .time-cell {
     width: 5rem;
     white-space: nowrap;
+  }
+
+  .piece-cell {
+    max-width: 20rem;
+  }
+
+  .piece-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .piece-list li {
+    margin: 0.25rem 0;
+  }
+
+  .piece-list li:first-child {
+    margin-top: 0;
+  }
+
+  .piece-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  .composer {
+    color: var(--color-text-secondary);
+    font-size: 0.85em;
+  }
+
+  .missing-data {
+    color: var(--color-text-muted);
   }
 
   .entity-link {
@@ -513,15 +589,15 @@
     }
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 640px) {
     thead {
       display: none;
     }
 
     tbody tr {
       display: grid;
-      grid-template-columns: auto 1fr auto;
-      gap: 0.5rem;
+      grid-template-columns: 70% 30%;
+      gap: 0.35rem 0.75rem;
       padding: 0.75rem 1rem;
       border-bottom: 1px solid var(--color-border);
     }
@@ -533,16 +609,49 @@
     tbody td {
       border-top: none;
       padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
     }
 
-    .order-cell {
-      text-align: left;
-      font-weight: 600;
+    td[data-label]::before {
+      display: block;
+      color: var(--color-text-secondary);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+
+    /* Mobile layout order: Korps, Tid, Dirigent, Stykke */
+    td[data-label="Korps"] {
+      order: 1;
+    }
+
+    td[data-label="Tid"] {
+      order: 2;
+    }
+
+    td[data-label="Dirigent"] {
+      order: 3;
+    }
+
+    td[data-label="Stykke"] {
+      order: 4;
     }
 
     .time-cell {
-      text-align: right;
       color: var(--color-text-secondary);
+    }
+
+    .piece-list li {
+      word-break: break-word;
+      overflow-wrap: break-word;
+    }
+
+    .entity-link {
+      word-break: break-word;
+      overflow-wrap: break-word;
+      hyphens: auto;
     }
   }
 </style>
