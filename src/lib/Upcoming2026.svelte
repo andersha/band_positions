@@ -56,18 +56,58 @@
 
   let data = $derived(bandType === 'wind' ? windData : brassData);
   let availableDivisions = $derived(data?.divisions.map(d => d.name) ?? []);
+  
+  // Group starred entries chronologically by day
+  let starredByDay = $derived.by(() => {
+    if (!data || selectedDivision !== 'starred') return [];
+    
+    const allStarredEntries: Array<{entry: UpcomingEntry, division: string}> = [];
+    
+    // Collect all starred entries across divisions
+    for (const division of data.divisions) {
+      for (const entry of division.entries) {
+        if (isStarred(entry, division.name)) {
+          allStarredEntries.push({ entry, division: division.name });
+        }
+      }
+    }
+    
+    // Sort by datetime
+    allStarredEntries.sort((a, b) => {
+      const timeA = a.entry.play_datetime ? new Date(a.entry.play_datetime).getTime() : 0;
+      const timeB = b.entry.play_datetime ? new Date(b.entry.play_datetime).getTime() : 0;
+      return timeA - timeB;
+    });
+    
+    // Group by day
+    const byDay = new Map<string, Array<{entry: UpcomingEntry, division: string}>>();
+    for (const item of allStarredEntries) {
+      if (!item.entry.play_datetime) continue;
+      const date = new Date(item.entry.play_datetime);
+      const dayKey = date.toISOString().split('T')[0];
+      if (!byDay.has(dayKey)) {
+        byDay.set(dayKey, []);
+      }
+      byDay.get(dayKey)!.push(item);
+    }
+    
+    // Convert to array with formatted day names
+    return Array.from(byDay.entries()).map(([dateKey, entries]) => {
+      const date = new Date(dateKey);
+      const dayName = date.toLocaleDateString('nb-NO', { weekday: 'long' });
+      const dayNameCapitalized = dayName.charAt(0).toUpperCase() + dayName.slice(1);
+      return { dateKey, dayName: dayNameCapitalized, entries };
+    });
+  });
+  
   let visibleDivisions = $derived(
     !data ? [] :
-    selectedDivision === 'starred' ? data.divisions
-      .map(division => ({
-        ...division,
-        entries: division.entries.filter(entry => isStarred(entry, division.name))
-      }))
-      .filter(division => division.entries.length > 0) :
+    selectedDivision === 'starred' ? [] : // Empty when showing chronological view
     (!selectedDivision || selectedDivision === 'all') ? data.divisions :
     data.divisions.filter(d => d.name === selectedDivision)
   );
   let starredCount = $derived(starredEntries.size);
+  let showChronologicalView = $derived(selectedDivision === 'starred');
 
   const stageDescriptions: Record<number, string> = {
     1: 'Divisjonsinndeling kunngjort',
@@ -225,21 +265,6 @@
   <section class="status">Ingen data tilgjengelig for NM 2026.</section>
 {:else}
   <section class="upcoming-container">
-    <div class="upcoming-header">
-      <h2>NM {data.competition_type === 'wind' ? 'Janitsjar' : 'Brass'} 2026</h2>
-      {#if data.location}
-        <p class="location">📍 {data.location}</p>
-      {/if}
-      {#if data.date_range}
-        <p class="date-range">🗓️ {data.date_range}</p>
-      {/if}
-      <div class="stage-badge stage-{data.stage}">
-        {stageDescriptions[data.stage] || `Stadium ${data.stage}`}
-      </div>
-      {#if data.notes}
-        <p class="notes">{translateNotes(data.notes)}</p>
-      {/if}
-    </div>
 
     {#if availableDivisions.length > 1}
       <div class="division-selector">
@@ -256,8 +281,113 @@
       </div>
     {/if}
 
-    {#each visibleDivisions as division}
-      <div class="division-card">
+    {#if showChronologicalView}
+      {#each starredByDay as day}
+        <div class="division-card">
+          <div class="division-header">
+            <h3>{day.dayName}</h3>
+            <span class="entry-count">{day.entries.length} korps</span>
+          </div>
+          
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col" class="time-column">Tid</th>
+                  <th scope="col">Korps</th>
+                  <th scope="col">Divisjon</th>
+                  <th scope="col">Lokale</th>
+                  <th scope="col">Dirigent</th>
+                  <th scope="col">Stykke</th>
+                </tr>
+              </thead>
+              <tbody>
+                {#each day.entries as {entry, division}}
+                  {@const bandSlug = slugify(entry.orchestra)}
+                  {@const conductorName = entry.conductor?.trim() ?? ''}
+                  {@const hasConductor = conductorName.length > 0}
+                  {@const conductorSlug = hasConductor ? slugify(conductorName) : ''}
+                  {@const pieces = entry.pieces ?? []}
+                  {@const starred = isStarred(entry, division)}
+                  <tr class="entry-row">
+                    <td data-label="Tid" class="time-cell">
+                      {formatTime(entry.play_datetime)}
+                      <button
+                        type="button"
+                        class="star-button"
+                        class:star-button--starred={starred}
+                        aria-label={starred ? 'Fjern fra favoritter' : 'Legg til i favoritter'}
+                        onclick={() => toggleStar(entry, division)}
+                      >
+                        {starred ? '★' : '☆'}
+                      </button>
+                    </td>
+                    <td data-label="Korps">
+                      <a
+                        href={`?type=${bandType}&view=bands&band=${encodeURIComponent(bandSlug)}`}
+                        class="entity-link"
+                      >
+                        {entry.orchestra}
+                      </a>
+                    </td>
+                    <td data-label="Divisjon" class="division-cell">{division}</td>
+                    <td data-label="Lokale" class="venue-cell">
+                      {#if entry.venue}
+                        {entry.venue}
+                      {:else}
+                        <span class="missing-data">–</span>
+                      {/if}
+                    </td>
+                    <td data-label="Dirigent">
+                      {#if hasConductor}
+                        <a
+                          href={`?type=${bandType}&view=conductors&conductor=${encodeURIComponent(conductorSlug)}`}
+                          class="entity-link"
+                        >
+                          {conductorName}
+                        </a>
+                      {:else}
+                        <span class="missing-data">–</span>
+                      {/if}
+                    </td>
+                    <td data-label="Stykke" class="piece-cell">
+                      {#if pieces.length > 0}
+                        <ul class="piece-list">
+                          {#each pieces as piece}
+                            {@const pieceTitle = piece.title?.trim() ?? ''}
+                            {@const pieceSlug = pieceTitle ? slugify(pieceTitle) : ''}
+                            {@const composer = piece.composer?.trim() ?? ''}
+                            <li>
+                              {#if pieceSlug}
+                                <a
+                                  href={`?type=${bandType}&view=pieces&piece=${encodeURIComponent(pieceSlug)}`}
+                                  class="entity-link"
+                                >
+                                  {pieceTitle}
+                                </a>
+                              {:else if pieceTitle}
+                                <span>{pieceTitle}</span>
+                              {/if}
+                              {#if composer}
+                                <span class="composer"> ({composer})</span>
+                              {/if}
+                            </li>
+                          {/each}
+                        </ul>
+                      {:else}
+                        <span class="missing-data">–</span>
+                      {/if}
+                    </td>
+                  </tr>
+                {/each}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      {/each}
+    {:else}
+      {#each visibleDivisions as division}
+        <div class="division-card">
         <div class="division-header">
           <h3>{division.name}</h3>
           <span class="entry-count">{division.entries.length} korps</span>
@@ -361,7 +491,8 @@
           </table>
         </div>
       </div>
-    {/each}
+      {/each}
+    {/if}
   </section>
 {/if}
 
@@ -386,66 +517,6 @@
     gap: 1.5rem;
   }
 
-  .upcoming-header {
-    padding: 1.5rem;
-    background: var(--color-surface-card);
-    border-radius: 1rem;
-    border: 1px solid var(--color-border);
-    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.25);
-  }
-
-  .upcoming-header h2 {
-    margin: 0 0 0.75rem 0;
-    font-size: 1.75rem;
-    color: var(--color-accent);
-  }
-
-  .location,
-  .date-range {
-    margin: 0.5rem 0;
-    color: var(--color-text-secondary);
-    font-size: 1rem;
-  }
-
-  .stage-badge {
-    display: inline-block;
-    margin: 0.75rem 0;
-    padding: 0.4rem 0.9rem;
-    border-radius: 999px;
-    font-size: 0.85rem;
-    font-weight: 600;
-  }
-
-  .stage-1 {
-    background: rgba(59, 130, 246, 0.15);
-    color: rgb(59, 130, 246);
-    border: 1px solid rgba(59, 130, 246, 0.3);
-  }
-
-  .stage-2 {
-    background: rgba(34, 197, 94, 0.15);
-    color: rgb(34, 197, 94);
-    border: 1px solid rgba(34, 197, 94, 0.3);
-  }
-
-  .stage-3 {
-    background: rgba(251, 191, 36, 0.15);
-    color: rgb(251, 191, 36);
-    border: 1px solid rgba(251, 191, 36, 0.3);
-  }
-
-  .stage-4 {
-    background: rgba(168, 85, 247, 0.15);
-    color: rgb(168, 85, 247);
-    border: 1px solid rgba(168, 85, 247, 0.3);
-  }
-
-  .notes {
-    margin: 0.75rem 0 0 0;
-    color: var(--color-text-muted);
-    font-size: 0.9rem;
-    font-style: italic;
-  }
 
   .division-selector {
     padding: 1rem 1.5rem;
@@ -647,6 +718,15 @@
     padding-right: 0;
   }
 
+  .division-cell {
+    white-space: nowrap;
+  }
+
+  .venue-cell {
+    font-size: 0.9em;
+    color: var(--color-text-secondary);
+  }
+
   .piece-cell {
     max-width: 20rem;
   }
@@ -696,7 +776,6 @@
   }
 
   @media (max-width: 780px) {
-    .upcoming-header,
     .division-card,
     .division-selector {
       padding: 1rem;
@@ -706,10 +785,6 @@
       flex-direction: column;
       align-items: stretch;
       gap: 0.5rem;
-    }
-
-    .upcoming-header h2 {
-      font-size: 1.5rem;
     }
 
     .division-header {
@@ -752,7 +827,7 @@
       letter-spacing: 0.02em;
     }
 
-    /* Mobile layout order: Korps, Tid, Dirigent, Stykke */
+    /* Mobile layout order: Korps, Tid, Divisjon, Lokale, Dirigent, Stykke */
     td[data-label="Korps"] {
       order: 1;
     }
@@ -761,12 +836,20 @@
       order: 2;
     }
 
-    td[data-label="Dirigent"] {
+    td[data-label="Divisjon"] {
       order: 3;
     }
 
-    td[data-label="Stykke"] {
+    td[data-label="Lokale"] {
       order: 4;
+    }
+
+    td[data-label="Dirigent"] {
+      order: 5;
+    }
+
+    td[data-label="Stykke"] {
+      order: 6;
     }
 
     .time-cell {
