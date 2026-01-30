@@ -851,7 +851,7 @@
 
     tbody tr {
       display: grid;
-      grid-template-columns: 60% 40%;
+      grid-template-columns: 50% 50%;
       gap: 0.35rem 0.75rem;
       padding: 0.75rem 1rem;
       border-bottom: 1px solid var(--color-border);
