@@ -2,6 +2,7 @@
   import type { BandType } from './types';
   import { onMount } from 'svelte';
   import { slugify } from './slugify';
+  import { readLS, writeLS, STORAGE_KEYS } from './storage';
 
   interface Props {
     bandType: BandType;
@@ -51,14 +52,22 @@
   let loading = $state(true);
   let error = $state<string | null>(null);
   let selectedDivision = $state<string | null>(null);
+  let starredEntries = $state<Set<string>>(new Set());
 
   let data = $derived(bandType === 'wind' ? windData : brassData);
   let availableDivisions = $derived(data?.divisions.map(d => d.name) ?? []);
   let visibleDivisions = $derived(
     !data ? [] :
+    selectedDivision === 'starred' ? data.divisions
+      .map(division => ({
+        ...division,
+        entries: division.entries.filter(entry => isStarred(entry, division.name))
+      }))
+      .filter(division => division.entries.length > 0) :
     (!selectedDivision || selectedDivision === 'all') ? data.divisions :
     data.divisions.filter(d => d.name === selectedDivision)
   );
+  let starredCount = $derived(starredEntries.size);
 
   const stageDescriptions: Record<number, string> = {
     1: 'Divisjonsinndeling kunngjort',
@@ -119,6 +128,53 @@
     }
   }
 
+  function getEntryId(entry: UpcomingEntry, division: string): string {
+    const orchestraSlug = slugify(entry.orchestra);
+    const divisionSlug = slugify(division);
+    return `${orchestraSlug}-${divisionSlug}`;
+  }
+
+  function isStarred(entry: UpcomingEntry, division: string): boolean {
+    return starredEntries.has(getEntryId(entry, division));
+  }
+
+  function toggleStar(entry: UpcomingEntry, division: string): void {
+    const entryId = getEntryId(entry, division);
+    const newStarred = new Set(starredEntries);
+    
+    if (newStarred.has(entryId)) {
+      newStarred.delete(entryId);
+    } else {
+      newStarred.add(entryId);
+    }
+    
+    starredEntries = newStarred;
+    saveStarredEntries();
+  }
+
+  function loadStarredEntries(): Set<string> {
+    const storageKey = bandType === 'wind' 
+      ? STORAGE_KEYS.STARRED_2026_WIND 
+      : STORAGE_KEYS.STARRED_2026_BRASS;
+    
+    const stored = readLS(storageKey, '[]');
+    try {
+      const parsed = JSON.parse(stored);
+      return new Set(Array.isArray(parsed) ? parsed : []);
+    } catch {
+      return new Set();
+    }
+  }
+
+  function saveStarredEntries(): void {
+    const storageKey = bandType === 'wind' 
+      ? STORAGE_KEYS.STARRED_2026_WIND 
+      : STORAGE_KEYS.STARRED_2026_BRASS;
+    
+    const array = Array.from(starredEntries);
+    writeLS(storageKey, JSON.stringify(array));
+  }
+
   async function loadUpcomingData() {
     try {
       const [windResponse, brassResponse] = await Promise.all([
@@ -152,6 +208,7 @@
   $effect(() => {
     if (bandType) {
       selectedDivision = 'all';
+      starredEntries = loadStarredEntries();
     }
   });
 
@@ -189,6 +246,9 @@
         <label for="division-select">Velg divisjon:</label>
         <select id="division-select" bind:value={selectedDivision}>
           <option value="all">Alle divisjoner ({data.divisions.length})</option>
+          {#if starredCount > 0}
+            <option value="starred">⭐ Kun favoritter ({starredCount})</option>
+          {/if}
           {#each availableDivisions as division}
             <option value={division}>{division}</option>
           {/each}
@@ -233,8 +293,20 @@
                 {@const hasConductor = conductorName.length > 0}
                 {@const conductorSlug = hasConductor ? slugify(conductorName) : ''}
                 {@const pieces = entry.pieces ?? []}
-                <tr>
-                  <td data-label="Tid" class="time-cell">{formatTime(entry.play_datetime)}</td>
+                {@const starred = isStarred(entry, division.name)}
+                <tr class="entry-row">
+                  <td data-label="Tid" class="time-cell">
+                    {formatTime(entry.play_datetime)}
+                    <button
+                      type="button"
+                      class="star-button"
+                      class:star-button--starred={starred}
+                      aria-label={starred ? 'Fjern fra favoritter' : 'Legg til i favoritter'}
+                      onclick={() => toggleStar(entry, division.name)}
+                    >
+                      {starred ? '★' : '☆'}
+                    </button>
+                  </td>
                   <td data-label="Korps">
                     <a
                       href={`?type=${bandType}&view=bands&band=${encodeURIComponent(bandSlug)}`}
@@ -511,10 +583,68 @@
     font-size: 0.95rem;
   }
 
-  .time-column,
+  .entry-row {
+    position: relative;
+  }
+
   .time-cell {
-    width: 5rem;
+    position: relative;
+  }
+
+  .star-button {
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: var(--color-text-muted);
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0.35rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    min-width: 32px;
+    min-height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease, transform 0.15s ease;
+    opacity: 0.6;
+  }
+
+  .star-button:hover,
+  .entry-row:hover .star-button {
+    opacity: 1;
+    color: var(--color-accent);
+    transform: translateY(-50%) scale(1.2);
+  }
+
+  .star-button--starred {
+    color: rgb(251, 191, 36);
+    opacity: 1;
+  }
+
+  .star-button--starred:hover {
+    color: rgb(245, 158, 11);
+  }
+
+  .star-button:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+    opacity: 1;
+  }
+
+  .time-column {
+    width: 7rem;
+  }
+
+  .time-cell {
+    width: 7rem;
     white-space: nowrap;
+    padding-left: 2.5rem;
+    padding-right: 0;
   }
 
   .piece-cell {
@@ -646,6 +776,34 @@
     .piece-list li {
       word-break: break-word;
       overflow-wrap: break-word;
+    }
+
+    .piece-cell {
+      padding-right: 0;
+      padding-bottom: 0;
+    }
+
+    .time-cell {
+      position: relative;
+      padding-left: 0;
+      padding-right: 2.5rem;
+    }
+
+    .star-button {
+      position: absolute;
+      top: 50%;
+      left: auto;
+      right: 0;
+      transform: translateY(-50%);
+      font-size: 0.9rem;
+      min-width: 28px;
+      min-height: 28px;
+      padding: 0.25rem;
+    }
+
+    .star-button:hover,
+    .entry-row:hover .star-button {
+      transform: translateY(-50%) scale(1.15);
     }
 
     .entity-link {

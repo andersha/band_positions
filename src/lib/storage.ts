@@ -38,4 +38,6 @@ export const STORAGE_KEYS = {
   YAXIS_MODE: 'nmkorps-yaxis-mode',
   YAXIS_SCALE: 'nmkorps-yaxis-scale',
   SELECTION_MODE: 'nmkorps-selection-mode',
+  STARRED_2026_WIND: 'nmkorps-starred-2026-wind',
+  STARRED_2026_BRASS: 'nmkorps-starred-2026-brass',
 } as const;
