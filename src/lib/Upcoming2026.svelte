@@ -349,16 +349,18 @@
                   {@const starred = isStarred(entry, division)}
                   <tr class="entry-row">
                     <td data-label="Tid" class="time-cell">
-                      <span class="time-text">{formatTime(entry.play_datetime)}</span>
-                      <button
-                        type="button"
-                        class="star-button"
-                        class:star-button--starred={starred}
-                        aria-label={starred ? 'Fjern fra favoritter' : 'Legg til i favoritter'}
-                        onclick={() => toggleStar(entry, division)}
-                      >
-                        {starred ? '★' : '☆'}
-                      </button>
+                      <div>
+                        <span class="time-text">{formatTime(entry.play_datetime)}</span>
+                        <button
+                          type="button"
+                          class="star-button"
+                          class:star-button--starred={starred}
+                          aria-label={starred ? 'Fjern fra favoritter' : 'Legg til i favoritter'}
+                          onclick={() => toggleStar(entry, division)}
+                        >
+                          {starred ? '★' : '☆'}
+                        </button>
+                      </div>
                     </td>
                     <td data-label="Korps">
                       <a
@@ -472,16 +474,18 @@
                 {@const starred = isStarred(entry, division.name)}
                 <tr class="entry-row">
                   <td data-label="Tid" class="time-cell">
-                    <span class="time-text">{formatTime(entry.play_datetime)}</span>
-                    <button
-                      type="button"
-                      class="star-button"
-                      class:star-button--starred={starred}
-                      aria-label={starred ? 'Fjern fra favoritter' : 'Legg til i favoritter'}
-                      onclick={() => toggleStar(entry, division.name)}
-                    >
-                      {starred ? '★' : '☆'}
-                    </button>
+                    <div>
+                      <span class="time-text">{formatTime(entry.play_datetime)}</span>
+                      <button
+                        type="button"
+                        class="star-button"
+                        class:star-button--starred={starred}
+                        aria-label={starred ? 'Fjern fra favoritter' : 'Legg til i favoritter'}
+                        onclick={() => toggleStar(entry, division.name)}
+                      >
+                        {starred ? '★' : '☆'}
+                      </button>
+                    </div>
                   </td>
                   <td data-label="Korps">
                     <a
@@ -710,6 +714,17 @@
 
   .time-cell {
     position: relative;
+    white-space: nowrap;
+  }
+
+  .time-cell > div {
+    display: inline-flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  .time-cell .time-text {
+    line-height: normal;
   }
 
   .star-button {
@@ -869,13 +884,40 @@
       gap: 0.25rem;
     }
 
+    /* Remove default ::before for time-cell since we override it */
+    tbody td[data-label="Tid"]::before {
+      display: none;
+    }
+
     .time-cell {
-      flex-direction: row;
+      position: relative;
+      padding-left: 0;
+      padding-right: 0;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    /* Override default data-label display for time-cell */
+    .time-cell[data-label]::before {
+      content: attr(data-label);
+      display: block;
+      color: var(--color-text-secondary);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      margin-bottom: 0;
+      line-height: 1.2;
+    }
+
+    .time-cell > div {
+      position: relative;
+      display: inline-block;
     }
 
     .time-text {
       display: inline-block;
       min-width: 3rem;
+      line-height: 1.2;
     }
 
     td[data-label]::before {
@@ -911,10 +953,6 @@
       order: 6;
     }
 
-    .time-cell {
-      color: var(--color-text-secondary);
-    }
-
     .piece-list li {
       word-break: break-word;
       overflow-wrap: break-word;
@@ -925,28 +963,21 @@
       padding-bottom: 0;
     }
 
-    .time-cell {
-      position: relative;
-      padding-left: 0;
-      padding-right: 0;
-      display: flex;
-      align-items: center;
-      gap: 0.35rem;
-    }
-
     .star-button {
-      position: static;
-      transform: none;
+      position: absolute;
+      top: 50%;
+      left: 3.25rem;
+      transform: translateY(-50%);
       font-size: 0.85rem;
-      min-width: 28px;
-      min-height: 28px;
-      padding: 0.2rem;
-      flex-shrink: 0;
+      min-width: 24px;
+      min-height: 24px;
+      padding: 0.15rem;
+      line-height: 1;
     }
 
     .star-button:hover,
     .entry-row:hover .star-button {
-      transform: scale(1.15);
+      transform: translateY(-50%) scale(1.15);
     }
 
     .entity-link {
