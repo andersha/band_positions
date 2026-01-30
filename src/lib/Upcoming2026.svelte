@@ -100,6 +100,40 @@
     });
   });
   
+  // Check if we should show pieces - only if at least one division has complete piece data
+  let showPieces = $derived.by(() => {
+    if (!data) return false;
+    
+    // Check each division to see if all bands have at least one piece
+    for (const division of data.divisions) {
+      const allHavePieces = division.entries.every(entry => 
+        entry.pieces && entry.pieces.length > 0
+      );
+      if (allHavePieces) {
+        return true; // At least one complete division found
+      }
+    }
+    
+    return false; // No complete division found
+  });
+  
+  // Check if we should show conductors - only if at least one division has complete conductor data
+  let showConductors = $derived.by(() => {
+    if (!data) return false;
+    
+    // Check each division to see if all bands have a conductor
+    for (const division of data.divisions) {
+      const allHaveConductors = division.entries.every(entry => 
+        entry.conductor && entry.conductor.trim().length > 0
+      );
+      if (allHaveConductors) {
+        return true; // At least one complete division found
+      }
+    }
+    
+    return false; // No complete division found
+  });
+  
   let visibleDivisions = $derived(
     !data ? [] :
     selectedDivision === 'starred' ? [] : // Empty when showing chronological view
@@ -297,8 +331,12 @@
                   <th scope="col">Korps</th>
                   <th scope="col">Divisjon</th>
                   <th scope="col">Lokale</th>
-                  <th scope="col">Dirigent</th>
-                  <th scope="col">Stykke</th>
+                  {#if showConductors}
+                    <th scope="col">Dirigent</th>
+                  {/if}
+                  {#if showPieces}
+                    <th scope="col">Stykke</th>
+                  {/if}
                 </tr>
               </thead>
               <tbody>
@@ -338,46 +376,50 @@
                         <span class="missing-data">–</span>
                       {/if}
                     </td>
-                    <td data-label="Dirigent">
-                      {#if hasConductor}
-                        <a
-                          href={`?type=${bandType}&view=conductors&conductor=${encodeURIComponent(conductorSlug)}`}
-                          class="entity-link"
-                        >
-                          {conductorName}
-                        </a>
-                      {:else}
-                        <span class="missing-data">–</span>
-                      {/if}
-                    </td>
-                    <td data-label="Stykke" class="piece-cell">
-                      {#if pieces.length > 0}
-                        <ul class="piece-list">
-                          {#each pieces as piece}
-                            {@const pieceTitle = piece.title?.trim() ?? ''}
-                            {@const pieceSlug = pieceTitle ? slugify(pieceTitle) : ''}
-                            {@const composer = piece.composer?.trim() ?? ''}
-                            <li>
-                              {#if pieceSlug}
-                                <a
-                                  href={`?type=${bandType}&view=pieces&piece=${encodeURIComponent(pieceSlug)}`}
-                                  class="entity-link"
-                                >
-                                  {pieceTitle}
-                                </a>
-                              {:else if pieceTitle}
-                                <span>{pieceTitle}</span>
-                              {/if}
-                              {#if composer}
-                                <span class="composer"> ({composer})</span>
-                              {/if}
-                            </li>
-                          {/each}
-                        </ul>
-                      {:else}
-                        <span class="missing-data">–</span>
-                      {/if}
-                    </td>
+                    {#if showConductors}
+                      <td data-label="Dirigent">
+                        {#if hasConductor}
+                          <a
+                            href={`?type=${bandType}&view=conductors&conductor=${encodeURIComponent(conductorSlug)}`}
+                            class="entity-link"
+                          >
+                            {conductorName}
+                          </a>
+                        {:else}
+                          <span class="missing-data">–</span>
+                        {/if}
+                      </td>
+                    {/if}
+                    {#if showPieces}
+                      <td data-label="Stykke" class="piece-cell">
+                        {#if pieces.length > 0}
+                          <ul class="piece-list">
+                            {#each pieces as piece}
+                              {@const pieceTitle = piece.title?.trim() ?? ''}
+                              {@const pieceSlug = pieceTitle ? slugify(pieceTitle) : ''}
+                              {@const composer = piece.composer?.trim() ?? ''}
+                              <li>
+                                {#if pieceSlug}
+                                  <a
+                                    href={`?type=${bandType}&view=pieces&piece=${encodeURIComponent(pieceSlug)}`}
+                                    class="entity-link"
+                                  >
+                                    {pieceTitle}
+                                  </a>
+                                {:else if pieceTitle}
+                                  <span>{pieceTitle}</span>
+                                {/if}
+                                {#if composer}
+                                  <span class="composer"> ({composer})</span>
+                                {/if}
+                              </li>
+                            {/each}
+                          </ul>
+                        {:else}
+                          <span class="missing-data">–</span>
+                        {/if}
+                      </td>
+                    {/if}
                   </tr>
                 {/each}
               </tbody>
@@ -412,8 +454,12 @@
               <tr>
                 <th scope="col" class="time-column">Tid</th>
                 <th scope="col">Korps</th>
-                <th scope="col">Dirigent</th>
-                <th scope="col">Stykke</th>
+                {#if showConductors}
+                  <th scope="col">Dirigent</th>
+                {/if}
+                {#if showPieces}
+                  <th scope="col">Stykke</th>
+                {/if}
               </tr>
             </thead>
             <tbody>
@@ -445,46 +491,50 @@
                       {entry.orchestra}
                     </a>
                   </td>
-                  <td data-label="Dirigent">
-                    {#if hasConductor}
-                      <a
-                        href={`?type=${bandType}&view=conductors&conductor=${encodeURIComponent(conductorSlug)}`}
-                        class="entity-link"
-                      >
-                        {conductorName}
-                      </a>
-                    {:else}
-                      <span class="missing-data">–</span>
-                    {/if}
-                  </td>
-                  <td data-label="Stykke" class="piece-cell">
-                    {#if pieces.length > 0}
-                      <ul class="piece-list">
-                        {#each pieces as piece}
-                          {@const pieceTitle = piece.title?.trim() ?? ''}
-                          {@const pieceSlug = pieceTitle ? slugify(pieceTitle) : ''}
-                          {@const composer = piece.composer?.trim() ?? ''}
-                          <li>
-                            {#if pieceSlug}
-                              <a
-                                href={`?type=${bandType}&view=pieces&piece=${encodeURIComponent(pieceSlug)}`}
-                                class="entity-link"
-                              >
-                                {pieceTitle}
-                              </a>
-                            {:else if pieceTitle}
-                              <span>{pieceTitle}</span>
-                            {/if}
-                            {#if composer}
-                              <span class="composer"> ({composer})</span>
-                            {/if}
-                          </li>
-                        {/each}
-                      </ul>
-                    {:else}
-                      <span class="missing-data">–</span>
-                    {/if}
-                  </td>
+                  {#if showConductors}
+                    <td data-label="Dirigent">
+                      {#if hasConductor}
+                        <a
+                          href={`?type=${bandType}&view=conductors&conductor=${encodeURIComponent(conductorSlug)}`}
+                          class="entity-link"
+                        >
+                          {conductorName}
+                        </a>
+                      {:else}
+                        <span class="missing-data">–</span>
+                      {/if}
+                    </td>
+                  {/if}
+                  {#if showPieces}
+                    <td data-label="Stykke" class="piece-cell">
+                      {#if pieces.length > 0}
+                        <ul class="piece-list">
+                          {#each pieces as piece}
+                            {@const pieceTitle = piece.title?.trim() ?? ''}
+                            {@const pieceSlug = pieceTitle ? slugify(pieceTitle) : ''}
+                            {@const composer = piece.composer?.trim() ?? ''}
+                            <li>
+                              {#if pieceSlug}
+                                <a
+                                  href={`?type=${bandType}&view=pieces&piece=${encodeURIComponent(pieceSlug)}`}
+                                  class="entity-link"
+                                >
+                                  {pieceTitle}
+                                </a>
+                              {:else if pieceTitle}
+                                <span>{pieceTitle}</span>
+                              {/if}
+                              {#if composer}
+                                <span class="composer"> ({composer})</span>
+                              {/if}
+                            </li>
+                          {/each}
+                        </ul>
+                      {:else}
+                        <span class="missing-data">–</span>
+                      {/if}
+                    </td>
+                  {/if}
                 </tr>
               {/each}
             </tbody>
