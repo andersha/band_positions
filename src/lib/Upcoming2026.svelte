@@ -349,7 +349,7 @@
                   {@const starred = isStarred(entry, division)}
                   <tr class="entry-row">
                     <td data-label="Tid" class="time-cell">
-                      {formatTime(entry.play_datetime)}
+                      <span class="time-text">{formatTime(entry.play_datetime)}</span>
                       <button
                         type="button"
                         class="star-button"
@@ -472,7 +472,7 @@
                 {@const starred = isStarred(entry, division.name)}
                 <tr class="entry-row">
                   <td data-label="Tid" class="time-cell">
-                    {formatTime(entry.play_datetime)}
+                    <span class="time-text">{formatTime(entry.play_datetime)}</span>
                     <button
                       type="button"
                       class="star-button"
@@ -869,6 +869,15 @@
       gap: 0.25rem;
     }
 
+    .time-cell {
+      flex-direction: row;
+    }
+
+    .time-text {
+      display: inline-block;
+      min-width: 3rem;
+    }
+
     td[data-label]::before {
       display: block;
       color: var(--color-text-secondary);
@@ -919,24 +928,25 @@
     .time-cell {
       position: relative;
       padding-left: 0;
-      padding-right: 2.5rem;
+      padding-right: 0;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
     }
 
     .star-button {
-      position: absolute;
-      top: 50%;
-      left: auto;
-      right: 0;
-      transform: translateY(-50%);
-      font-size: 0.9rem;
+      position: static;
+      transform: none;
+      font-size: 0.85rem;
       min-width: 28px;
       min-height: 28px;
-      padding: 0.25rem;
+      padding: 0.2rem;
+      flex-shrink: 0;
     }
 
     .star-button:hover,
     .entry-row:hover .star-button {
-      transform: translateY(-50%) scale(1.15);
+      transform: scale(1.15);
     }
 
     .entity-link {
