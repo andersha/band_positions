@@ -41,6 +41,9 @@
   let prizeData = $state<PrizeDataset | null>(null);
   let prizeDataLoading = $state(false);
   let promotionRules = $state<PromotionRules | null>(null);
+  
+  // Track the last bandType we processed to detect changes
+  let lastProcessedBandType = $state<BandType | null>(null);
 
   type TableRow = {
     band: string;
@@ -195,9 +198,9 @@
     return map;
   }
 
-  function ensureYearSelection(years: number[]): number | null {
+  function ensureYearSelection(years: number[], forceNewest: boolean = false): number | null {
     if (!years.length) return null;
-    if (selectedYear && years.includes(selectedYear)) return selectedYear;
+    if (!forceNewest && selectedYear && years.includes(selectedYear)) return selectedYear;
     return years[years.length - 1] ?? null;
   }
 
@@ -362,24 +365,34 @@
     setStoredDivision(bandType, selectedDivision);
   });
 
-  // Effect to clear selections when bandType changes
-  $effect(() => {
-    // This effect runs when bandType changes
-    // Reset selections and clear storage for the new band type
-    const storedYear = getStoredYear(bandType);
-    const storedDivision = getStoredDivision(bandType);
-    
-    selectedYear = storedYear;
-    selectedDivision = storedDivision;
-  });
-
-  // Single effect to handle initial selections when dataset changes
+  // Combined effect to handle bandType changes and dataset updates
   $effect(() => {
     if (dataset && availableYears && Array.isArray(availableYears) && availableYears.length > 0) {
-      // Set initial year if not set or invalid
-      const newSelectedYear = ensureYearSelection(availableYears);
-      if (selectedYear !== newSelectedYear) {
-        selectedYear = newSelectedYear;
+      // Check if bandType has changed since we last processed
+      const bandTypeChanged = lastProcessedBandType !== bandType;
+      
+      if (bandTypeChanged) {
+        // BandType changed - load stored selection for the new type
+        const storedYear = getStoredYear(bandType);
+        const storedDivision = getStoredDivision(bandType);
+        
+        // Use stored year if it's valid for this dataset, otherwise use newest
+        if (storedYear && availableYears.includes(storedYear)) {
+          selectedYear = storedYear;
+          selectedDivision = storedDivision;
+        } else {
+          // No stored year - use newest year and default to Elite division
+          selectedYear = availableYears[availableYears.length - 1] ?? null;
+          selectedDivision = 'Elite';
+        }
+        
+        lastProcessedBandType = bandType;
+      } else {
+        // Same bandType - just ensure year selection is valid
+        const newSelectedYear = ensureYearSelection(availableYears);
+        if (selectedYear !== newSelectedYear) {
+          selectedYear = newSelectedYear;
+        }
       }
     } else {
       // Clear selections when no dataset
