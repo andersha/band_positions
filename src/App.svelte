@@ -1697,7 +1697,7 @@ import type {
     >
       <div class="view-toggle" role="group" aria-label="Bytt visning">
         {#each viewOrder as view}
-          {#if view !== 'repertoire' || bandType === 'wind'}
+          {#if (view !== 'repertoire' && view !== '2026') || bandType === 'wind'}
             <button
               type="button"
               class:selected={activeView === view}

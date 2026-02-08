@@ -227,6 +227,20 @@
           "pieces": [
             "The Patriots"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 1,
+          "division_size": 13,
+          "absolute_position": 23,
+          "field_size": 80,
+          "points": 95.0,
+          "max_points": 100.0,
+          "conductor": "Philip Hannevik",
+          "pieces": [
+            "Sollicitus"
+          ]
         }
       ]
     },
@@ -554,6 +568,26 @@
           "conductor": "Gwyn Evans",
           "pieces": [
             "Ballet for Band"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alexander Brassband",
+      "slug": "alexander-brassband",
+      "entries": [
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 11,
+          "division_size": 15,
+          "absolute_position": 46,
+          "field_size": 80,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Gwyn M. Evans",
+          "pieces": [
+            "Oceans"
           ]
         }
       ]
@@ -917,6 +951,20 @@
           "pieces": [
             "Fenring Dances"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 12,
+          "absolute_position": 15,
+          "field_size": 80,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Reid Gilje",
+          "pieces": [
+            "Dante's Descent"
+          ]
         }
       ]
     },
@@ -936,6 +984,20 @@
           "conductor": "Inge Starheim Ytrehus",
           "pieces": [
             "Legend in Brass"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 15,
+          "division_size": 15,
+          "absolute_position": 80,
+          "field_size": 80,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Stein Skorpholm",
+          "pieces": [
+            "Oregon"
           ]
         }
       ]
@@ -1325,6 +1387,20 @@
           "pieces": [
             "Flashback"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 2,
+          "division_size": 13,
+          "absolute_position": 24,
+          "field_size": 80,
+          "points": 94.0,
+          "max_points": 100.0,
+          "conductor": "Thor-Arne Pedersen",
+          "pieces": [
+            "The Patriots"
+          ]
         }
       ]
     },
@@ -1603,6 +1679,20 @@
           "pieces": [
             "Partita"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "Elite",
+          "rank": 10,
+          "division_size": 10,
+          "absolute_position": 10,
+          "field_size": 80,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Andreas Hanson",
+          "pieces": [
+            "On Alderley Edge"
+          ]
         }
       ]
     },
@@ -1762,6 +1852,20 @@
           "conductor": "Maria Molund",
           "pieces": [
             "Blitz"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 10,
+          "division_size": 13,
+          "absolute_position": 32,
+          "field_size": 80,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Maria Molund",
+          "pieces": [
+            "Embracing Duality"
           ]
         }
       ]
@@ -2265,6 +2369,20 @@
           "pieces": [
             "Lake of the Moon"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 11,
+          "division_size": 15,
+          "absolute_position": 61,
+          "field_size": 80,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Erling J. Myrseth",
+          "pieces": [
+            "Arkansas"
+          ]
         }
       ]
     },
@@ -2592,6 +2710,20 @@
           "conductor": "David Morton",
           "pieces": [
             "Music of the Spheres"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "Elite",
+          "rank": 8,
+          "division_size": 10,
+          "absolute_position": 8,
+          "field_size": 80,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "David Morton",
+          "pieces": [
+            "Vienna Nights"
           ]
         }
       ]
@@ -2941,6 +3073,20 @@
           "pieces": [
             "*****, Concerto n°10 for Brass Band, Percussion & Onde Martenot"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "Elite",
+          "rank": 1,
+          "division_size": 10,
+          "absolute_position": 1,
+          "field_size": 80,
+          "points": 96.0,
+          "max_points": 100.0,
+          "conductor": "Ingar Bergby",
+          "pieces": [
+            "Dear Cassandra"
+          ]
         }
       ]
     },
@@ -3003,6 +3149,20 @@
           "pieces": [
             "Legend in Brass"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 10,
+          "division_size": 15,
+          "absolute_position": 60,
+          "field_size": 80,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Oddvar Nøstdal",
+          "pieces": [
+            "Centennium"
+          ]
         }
       ]
     },
@@ -3036,6 +3196,20 @@
           "conductor": "Eirik Gjerdevik",
           "pieces": [
             "Variations on `Laudate Dominum´"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 1,
+          "division_size": 15,
+          "absolute_position": 36,
+          "field_size": 80,
+          "points": 95.0,
+          "max_points": 100.0,
+          "conductor": "Reid Gilje",
+          "pieces": [
+            "Sinfonietta: \"The Wayfarer\""
           ]
         }
       ]
@@ -3355,6 +3529,20 @@
           "pieces": [
             "Variations on `Laudate Dominum´"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 9,
+          "division_size": 15,
+          "absolute_position": 74,
+          "field_size": 80,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Knut Esten Thomassen Stendal",
+          "pieces": [
+            "Inclusion"
+          ]
         }
       ]
     },
@@ -3630,6 +3818,40 @@
           "conductor": "Joseph Cook",
           "pieces": [
             "A King's Lie"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 13,
+          "division_size": 15,
+          "absolute_position": 48,
+          "field_size": 80,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Ben Hirons",
+          "pieces": [
+            "The Mermaid of Zennor"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fjordbrass - Lavik",
+      "slug": "fjordbrass---lavik",
+      "entries": [
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 13,
+          "division_size": 15,
+          "absolute_position": 78,
+          "field_size": 80,
+          "points": 83.5,
+          "max_points": 100.0,
+          "conductor": "Jason Burn",
+          "pieces": [
+            "l'Daedulus"
           ]
         }
       ]
@@ -4061,6 +4283,20 @@
           "pieces": [
             "Red Priest"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 4,
+          "division_size": 12,
+          "absolute_position": 14,
+          "field_size": 80,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Margie S Antrobus",
+          "pieces": [
+            "A Road Less Travelled By"
+          ]
         }
       ]
     },
@@ -4291,6 +4527,20 @@
           "pieces": [
             "Albinus Variations"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 2,
+          "division_size": 15,
+          "absolute_position": 52,
+          "field_size": 80,
+          "points": 93.0,
+          "max_points": 100.0,
+          "conductor": "Phil Goodwin",
+          "pieces": [
+            "Oceans"
+          ]
         }
       ]
     },
@@ -4518,6 +4768,20 @@
           "conductor": "Torgeir Halvorsen",
           "pieces": [
             "Headland Fantasy"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 3,
+          "division_size": 15,
+          "absolute_position": 68,
+          "field_size": 80,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Torgeir Halvorsen",
+          "pieces": [
+            "Inspiration"
           ]
         }
       ]
@@ -4804,6 +5068,20 @@
           "conductor": "Ingrid Øien",
           "pieces": [
             "Lions of Legends"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 9,
+          "division_size": 15,
+          "absolute_position": 59,
+          "field_size": 80,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Ingrid Dien",
+          "pieces": [
+            "Black Gold"
           ]
         }
       ]
@@ -5127,6 +5405,20 @@
           "pieces": [
             "Sinfonietta no. 3"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 12,
+          "division_size": 13,
+          "absolute_position": 34,
+          "field_size": 80,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Oddvar Nøstdal",
+          "pieces": [
+            "Dances and Arias"
+          ]
         }
       ]
     },
@@ -5424,6 +5716,20 @@
           "conductor": "Randi Anita Dale",
           "pieces": [
             "Music for a Festival"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 6,
+          "division_size": 15,
+          "absolute_position": 71,
+          "field_size": 80,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Randi Anita Dale",
+          "pieces": [
+            "l'Daedalus"
           ]
         }
       ]
@@ -6025,6 +6331,20 @@
           "pieces": [
             "Impermanence of the Flow"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 13,
+          "absolute_position": 26,
+          "field_size": 80,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Russell Gray",
+          "pieces": [
+            "Ad Undas"
+          ]
         }
       ]
     },
@@ -6349,6 +6669,20 @@
           "pieces": [
             "Penlee"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 12,
+          "division_size": 15,
+          "absolute_position": 47,
+          "field_size": 80,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Morten Fagerjord",
+          "pieces": [
+            "Ex Terra Lucem"
+          ]
         }
       ]
     },
@@ -6646,6 +6980,20 @@
           "conductor": "David Lyngvær Erichsen",
           "pieces": [
             "The Final Frontier"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 12,
+          "division_size": 15,
+          "absolute_position": 62,
+          "field_size": 80,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Sigurd Grøv Skramsett",
+          "pieces": [
+            "Albinus variations"
           ]
         }
       ]
@@ -7001,6 +7349,20 @@
           "pieces": [
             "Afterlife"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 13,
+          "division_size": 13,
+          "absolute_position": 35,
+          "field_size": 80,
+          "points": 81.0,
+          "max_points": 100.0,
+          "conductor": "Kai Grinde Myrann",
+          "pieces": [
+            "The 39th Parallel"
+          ]
         }
       ]
     },
@@ -7034,6 +7396,20 @@
           "conductor": "Paul Hughes",
           "pieces": [
             "The Day of The Lord"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 7,
+          "division_size": 15,
+          "absolute_position": 42,
+          "field_size": 80,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Paul Hughes",
+          "pieces": [
+            "Black Gold"
           ]
         }
       ]
@@ -7363,6 +7739,20 @@
           "pieces": [
             "The Patriots"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 9,
+          "division_size": 13,
+          "absolute_position": 31,
+          "field_size": 80,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Yngve Nikolaisen",
+          "pieces": [
+            "Connotations for Brass Band"
+          ]
         }
       ]
     },
@@ -7500,6 +7890,20 @@
           "conductor": "Ukjent",
           "pieces": [
             "Evolution - Five States of Change"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 13,
+          "division_size": 15,
+          "absolute_position": 63,
+          "field_size": 80,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Frode Dalhaug",
+          "pieces": [
+            "Essay"
           ]
         }
       ]
@@ -7783,6 +8187,20 @@
           "pieces": [
             "Centennium"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 4,
+          "division_size": 15,
+          "absolute_position": 54,
+          "field_size": 80,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Fredrick Schjelderup",
+          "pieces": [
+            "Momentum Sequences"
+          ]
         }
       ]
     },
@@ -7850,6 +8268,20 @@
           "conductor": "Nils Andreas Grosås Granseth",
           "pieces": [
             "Visions"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 4,
+          "division_size": 15,
+          "absolute_position": 69,
+          "field_size": 80,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Nils Andreas Grosås Granseth",
+          "pieces": [
+            "Whispers of Forgotten Tales"
           ]
         }
       ]
@@ -8114,6 +8546,20 @@
           "conductor": "Patrik Randefalk",
           "pieces": [
             "Labour and Love"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 14,
+          "division_size": 15,
+          "absolute_position": 79,
+          "field_size": 80,
+          "points": 82.5,
+          "max_points": 100.0,
+          "conductor": "Arian Pedersen",
+          "pieces": [
+            "The Dark Side of the Moon"
           ]
         }
       ]
@@ -8617,6 +9063,20 @@
           "pieces": [
             "Waiting for a Pain Hit!??!!?"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 3,
+          "division_size": 12,
+          "absolute_position": 13,
+          "field_size": 80,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Stig Marsk",
+          "pieces": [
+            "From Ancient Times"
+          ]
         }
       ]
     },
@@ -8874,6 +9334,20 @@
           "conductor": "Halvor Gaard",
           "pieces": [
             "Exultate Deo"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 7,
+          "division_size": 15,
+          "absolute_position": 72,
+          "field_size": 80,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Halvor Frafjord Gaard",
+          "pieces": [
+            "A Mavern Suite"
           ]
         }
       ]
@@ -9321,6 +9795,20 @@
           "pieces": [
             "Audivi Media Nocte"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "Elite",
+          "rank": 4,
+          "division_size": 10,
+          "absolute_position": 4,
+          "field_size": 80,
+          "points": 91.5,
+          "max_points": 100.0,
+          "conductor": "Michael Aaberg Thomsen",
+          "pieces": [
+            "A Road Less Travelled By"
+          ]
         }
       ]
     },
@@ -9368,6 +9856,20 @@
           "conductor": "Gerard Rooker",
           "pieces": [
             "Penlee"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 15,
+          "division_size": 15,
+          "absolute_position": 65,
+          "field_size": 80,
+          "points": 80.0,
+          "max_points": 100.0,
+          "conductor": "Gerard Rooker",
+          "pieces": [
+            "Kingdom of Dragons"
           ]
         }
       ]
@@ -9697,6 +10199,40 @@
           "pieces": [
             "Sollicitus for Brassband and Percussion"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 8,
+          "division_size": 13,
+          "absolute_position": 30,
+          "field_size": 80,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Bjørn Breistein",
+          "pieces": [
+            "Paganini Variations"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Karmsund Brass",
+      "slug": "karmsund-brass",
+      "entries": [
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 12,
+          "division_size": 15,
+          "absolute_position": 77,
+          "field_size": 80,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Kristian Thulin",
+          "pieces": [
+            "Inspiration"
+          ]
         }
       ]
     },
@@ -9870,6 +10406,20 @@
           "conductor": "Arvid Anthun",
           "pieces": [
             "A Brief Symphony of Time"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 9,
+          "division_size": 15,
+          "absolute_position": 44,
+          "field_size": 80,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Arvid Anthun",
+          "pieces": [
+            "Hope"
           ]
         }
       ]
@@ -10197,6 +10747,20 @@
           "pieces": [
             "A Brussels Requiem"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "Elite",
+          "rank": 5,
+          "division_size": 10,
+          "absolute_position": 5,
+          "field_size": 80,
+          "points": 91.5,
+          "max_points": 100.0,
+          "conductor": "Tormod Flaten",
+          "pieces": [
+            "Titan's Progress"
+          ]
         }
       ]
     },
@@ -10326,6 +10890,26 @@
           "conductor": "Melvin White",
           "pieces": [
             "Journey into Freedom"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KOS - Krohnengen Old Star",
+      "slug": "kos---krohnengen-old-star",
+      "entries": [
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 2,
+          "division_size": 15,
+          "absolute_position": 37,
+          "field_size": 80,
+          "points": 94.0,
+          "max_points": 100.0,
+          "conductor": "Øyvind Raknes Nikolaisen",
+          "pieces": [
+            "The Forest of Dean"
           ]
         }
       ]
@@ -10779,6 +11363,20 @@
           "pieces": [
             "Myth Forest - Hestefallstjønn"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 2,
+          "division_size": 12,
+          "absolute_position": 12,
+          "field_size": 80,
+          "points": 94.0,
+          "max_points": 100.0,
+          "conductor": "Magnus Brandseth",
+          "pieces": [
+            "The Cosmographic Mystery"
+          ]
         }
       ]
     },
@@ -11165,6 +11763,20 @@
           "pieces": [
             "The Saga of Haakon the Good"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 7,
+          "division_size": 15,
+          "absolute_position": 57,
+          "field_size": 80,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Margie S. Antrobus",
+          "pieces": [
+            "The Land of the Long White Cloud - Aotearoa"
+          ]
         }
       ]
     },
@@ -11520,6 +12132,20 @@
           "conductor": "Thomas Whittington Tengelsen",
           "pieces": [
             "Sinfonietta No 2"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 1,
+          "division_size": 15,
+          "absolute_position": 66,
+          "field_size": 80,
+          "points": 95.0,
+          "max_points": 100.0,
+          "conductor": "Thomas W. Tengelsen",
+          "pieces": [
+            "Northern Passages"
           ]
         }
       ]
@@ -11883,6 +12509,20 @@
           "pieces": [
             "Purcell Variations"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 6,
+          "division_size": 15,
+          "absolute_position": 41,
+          "field_size": 80,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Ben Hirons",
+          "pieces": [
+            "A Pastoral Symphony"
+          ]
         }
       ]
     },
@@ -12179,6 +12819,20 @@
           "pieces": [
             "Corineus"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 8,
+          "division_size": 15,
+          "absolute_position": 73,
+          "field_size": 80,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Andres Halla",
+          "pieces": [
+            "Friendly Takeover"
+          ]
         }
       ]
     },
@@ -12466,6 +13120,20 @@
           "conductor": "Ukjent",
           "pieces": [
             "The Saga of Tyrfing"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 5,
+          "division_size": 15,
+          "absolute_position": 55,
+          "field_size": 80,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Torstein Åvar Sollien",
+          "pieces": [
+            "A Brief Symphony of Time"
           ]
         }
       ]
@@ -12795,6 +13463,20 @@
           "pieces": [
             "A Gabrieli Fantasy"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "Elite",
+          "rank": 2,
+          "division_size": 10,
+          "absolute_position": 2,
+          "field_size": 80,
+          "points": 94.5,
+          "max_points": 100.0,
+          "conductor": "David King",
+          "pieces": [
+            "This World"
+          ]
         }
       ]
     },
@@ -13039,6 +13721,20 @@
           "pieces": [
             "Flashback"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 10,
+          "division_size": 15,
+          "absolute_position": 45,
+          "field_size": 80,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Patrik Randefalk",
+          "pieces": [
+            "The Patriots"
+          ]
         }
       ]
     },
@@ -13240,6 +13936,20 @@
           "conductor": "Ole Kristian Egge",
           "pieces": [
             "A Brief Symphony of Time"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 4,
+          "division_size": 15,
+          "absolute_position": 39,
+          "field_size": 80,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Ole Kristian Egge",
+          "pieces": [
+            "Flashback"
           ]
         }
       ]
@@ -13568,6 +14278,20 @@
           "conductor": "Frode Amundsen",
           "pieces": [
             "Hypercube"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 10,
+          "division_size": 12,
+          "absolute_position": 20,
+          "field_size": 80,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Frode Amundsen",
+          "pieces": [
+            "From Ancient Times"
           ]
         }
       ]
@@ -13914,6 +14638,20 @@
           "conductor": "Dr. Glenn Van Looy",
           "pieces": [
             "Afterlife"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 9,
+          "division_size": 12,
+          "absolute_position": 19,
+          "field_size": 80,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Emil Björklund",
+          "pieces": [
+            "TITAN'S PROGRESS"
           ]
         }
       ]
@@ -14367,6 +15105,20 @@
           "pieces": [
             "Albinus Variations"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 15,
+          "division_size": 15,
+          "absolute_position": 50,
+          "field_size": 80,
+          "points": 80.0,
+          "max_points": 100.0,
+          "conductor": "Maria Molund",
+          "pieces": [
+            "Tallis Variations"
+          ]
         }
       ]
     },
@@ -14490,6 +15242,20 @@
           "conductor": "Viljar Bjørsvik Rath",
           "pieces": [
             "Sinfonietta No 2"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 11,
+          "division_size": 15,
+          "absolute_position": 76,
+          "field_size": 80,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Viljar Bjørsvik Rath",
+          "pieces": [
+            "Arkansas"
           ]
         }
       ]
@@ -14849,6 +15615,20 @@
           "pieces": [
             "Sketches from Nowhere"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "Elite",
+          "rank": 7,
+          "division_size": 10,
+          "absolute_position": 7,
+          "field_size": 80,
+          "points": 89.5,
+          "max_points": 100.0,
+          "conductor": "Sebastian Haukås",
+          "pieces": [
+            "Journey of the Lone Wolf"
+          ]
         }
       ]
     },
@@ -15177,6 +15957,20 @@
           "pieces": [
             "Journey of the Lone Wolf"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "Elite",
+          "rank": 6,
+          "division_size": 10,
+          "absolute_position": 6,
+          "field_size": 80,
+          "points": 90.5,
+          "max_points": 100.0,
+          "conductor": "Peter Szilvay",
+          "pieces": [
+            "HorrorShow"
+          ]
         }
       ]
     },
@@ -15504,6 +16298,20 @@
           "conductor": "Patrik Randefalk",
           "pieces": [
             "The Patriots"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 14,
+          "division_size": 15,
+          "absolute_position": 49,
+          "field_size": 80,
+          "points": 81.0,
+          "max_points": 100.0,
+          "conductor": "Henrik Dagestad-Dalhaug",
+          "pieces": [
+            "Symphony of Marches"
           ]
         }
       ]
@@ -15851,6 +16659,20 @@
           "pieces": [
             "Fusion"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 7,
+          "division_size": 12,
+          "absolute_position": 17,
+          "field_size": 80,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Jacob Vilhelm Larsen",
+          "pieces": [
+            "Vienna Nights"
+          ]
         }
       ]
     },
@@ -16115,6 +16937,20 @@
           "pieces": [
             "Whispers of Forgotten Tales"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 3,
+          "division_size": 15,
+          "absolute_position": 53,
+          "field_size": 80,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Espen Westbye",
+          "pieces": [
+            "Centennium"
+          ]
         }
       ]
     },
@@ -16190,6 +17026,20 @@
           "conductor": "Arne Stian Aarrestad",
           "pieces": [
             "Life Ablaze"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 5,
+          "division_size": 15,
+          "absolute_position": 40,
+          "field_size": 80,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Arne Stian Arrestad",
+          "pieces": [
+            "Penlee"
           ]
         }
       ]
@@ -16514,6 +17364,20 @@
           "conductor": "Ian Porthouse",
           "pieces": [
             "Antiphonies"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 1,
+          "division_size": 12,
+          "absolute_position": 11,
+          "field_size": 80,
+          "points": 96.0,
+          "max_points": 100.0,
+          "conductor": "lan Porthouse",
+          "pieces": [
+            "Afterlife"
           ]
         }
       ]
@@ -17263,6 +18127,20 @@
           "pieces": [
             "Sword, Jewel and Mirror"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 2,
+          "division_size": 15,
+          "absolute_position": 67,
+          "field_size": 80,
+          "points": 93.0,
+          "max_points": 100.0,
+          "conductor": "Håvard Kroka",
+          "pieces": [
+            "A brief symphony of time"
+          ]
         }
       ]
     },
@@ -17437,6 +18315,20 @@
           "pieces": [
             "Mountain Views"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 14,
+          "division_size": 15,
+          "absolute_position": 64,
+          "field_size": 80,
+          "points": 81.0,
+          "max_points": 100.0,
+          "conductor": "Andres Halla",
+          "pieces": [
+            "Harmonious Variations"
+          ]
         }
       ]
     },
@@ -17568,6 +18460,26 @@
           "conductor": "Bengt Florvåg",
           "pieces": [
             "The Three Musketeers"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sandefjord Brass Symposisum",
+      "slug": "sandefjord-brass-symposisum",
+      "entries": [
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 6,
+          "division_size": 12,
+          "absolute_position": 16,
+          "field_size": 80,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Trond Husebø",
+          "pieces": [
+            "Music of the Spheres"
           ]
         }
       ]
@@ -18003,6 +18915,20 @@
           "pieces": [
             "Fansa da Matasa"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 6,
+          "division_size": 15,
+          "absolute_position": 56,
+          "field_size": 80,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Torstein T Holmås",
+          "pieces": [
+            "Mavern Suite"
+          ]
         }
       ]
     },
@@ -18332,6 +19258,20 @@
           "conductor": "Nigel Fielding",
           "pieces": [
             "A Celtic Suite"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 1,
+          "division_size": 15,
+          "absolute_position": 51,
+          "field_size": 80,
+          "points": 94.0,
+          "max_points": 100.0,
+          "conductor": "Ray Farr",
+          "pieces": [
+            "Viking Age"
           ]
         }
       ]
@@ -18737,6 +19677,20 @@
           "pieces": [
             "Firestorm"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "4. divisjon",
+          "rank": 8,
+          "division_size": 15,
+          "absolute_position": 58,
+          "field_size": 80,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Marte Rolfsen",
+          "pieces": [
+            "Music for a Festical"
+          ]
         }
       ]
     },
@@ -19062,6 +20016,20 @@
           "conductor": "Gwyn Evans",
           "pieces": [
             "HOPE"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 13,
+          "absolute_position": 29,
+          "field_size": 80,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Dewi Griffiths",
+          "pieces": [
+            "SINFONIETTA NO.3"
           ]
         }
       ]
@@ -19521,6 +20489,20 @@
           "pieces": [
             "Sinfonietta no. 3"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 13,
+          "absolute_position": 25,
+          "field_size": 80,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Melvin White",
+          "pieces": [
+            "Modern Times"
+          ]
         }
       ]
     },
@@ -19849,6 +20831,20 @@
           "pieces": [
             "So Spoke Albion"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "Elite",
+          "rank": 3,
+          "division_size": 10,
+          "absolute_position": 3,
+          "field_size": 80,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Ivan Meylemans",
+          "pieces": [
+            "The Forest for the Trees"
+          ]
         }
       ]
     },
@@ -20148,6 +21144,20 @@
           "conductor": "Morten Øvrebekk",
           "pieces": [
             "Sinfonietta No 2"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 3,
+          "division_size": 15,
+          "absolute_position": 38,
+          "field_size": 80,
+          "points": 93.0,
+          "max_points": 100.0,
+          "conductor": "Morten Øvrebekk",
+          "pieces": [
+            "A BRIEF SYMPHONIE OF TIME"
           ]
         }
       ]
@@ -20475,6 +21485,20 @@
           "pieces": [
             "St. James's - A New Beginning"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 11,
+          "division_size": 13,
+          "absolute_position": 33,
+          "field_size": 80,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Philip Hannevik",
+          "pieces": [
+            "Red Plane"
+          ]
         }
       ]
     },
@@ -20774,6 +21798,20 @@
           "conductor": "Thorgeir Thunestvedt",
           "pieces": [
             "The Son of Light"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "3. divisjon",
+          "rank": 8,
+          "division_size": 15,
+          "absolute_position": 43,
+          "field_size": 80,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Jane G. Westervik",
+          "pieces": [
+            "Albinus Variations"
           ]
         }
       ]
@@ -21103,6 +22141,20 @@
           "pieces": [
             "Perihelion: Closer to the Sun"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "Elite",
+          "rank": 9,
+          "division_size": 10,
+          "absolute_position": 9,
+          "field_size": 80,
+          "points": 87.5,
+          "max_points": 100.0,
+          "conductor": "Paul Holland",
+          "pieces": [
+            "Harrison's Dream"
+          ]
         }
       ]
     },
@@ -21417,6 +22469,20 @@
           "pieces": [
             "Bipolar(ity)"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 8,
+          "division_size": 12,
+          "absolute_position": 18,
+          "field_size": 80,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Frans Violet",
+          "pieces": [
+            "Afterlife"
+          ]
         }
       ]
     },
@@ -21464,6 +22530,20 @@
           "conductor": "Jon Kristian Solberg",
           "pieces": [
             "The Unknown"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 10,
+          "division_size": 15,
+          "absolute_position": 75,
+          "field_size": 80,
+          "points": 85.5,
+          "max_points": 100.0,
+          "conductor": "Jon Kristian Solberg",
+          "pieces": [
+            "Modern Times"
           ]
         }
       ]
@@ -21838,6 +22918,40 @@
           "conductor": "Vidar Alvestad",
           "pieces": [
             "St. James's - A New Beginning"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 13,
+          "absolute_position": 27,
+          "field_size": 80,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Vidar Alvestad",
+          "pieces": [
+            "Chivalry"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trondheim Brassband",
+      "slug": "trondheim-brassband",
+      "entries": [
+        {
+          "year": 2026,
+          "division": "2. divisjon",
+          "rank": 6,
+          "division_size": 13,
+          "absolute_position": 28,
+          "field_size": 80,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Espen Andersen",
+          "pieces": [
+            "Spectrum"
           ]
         }
       ]
@@ -22479,6 +23593,20 @@
           "pieces": [
             "The Essence of Time"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 11,
+          "division_size": 12,
+          "absolute_position": 21,
+          "field_size": 80,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Yngve Nikolaisen",
+          "pieces": [
+            "Of distant memories"
+          ]
         }
       ]
     },
@@ -22814,6 +23942,20 @@
           "conductor": "Tor Arthur Hagen",
           "pieces": [
             "Penlee"
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "5. divisjon",
+          "rank": 5,
+          "division_size": 15,
+          "absolute_position": 70,
+          "field_size": 80,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Tor Arthur Hagen",
+          "pieces": [
+            "The Patriots"
           ]
         }
       ]
@@ -23347,6 +24489,20 @@
           "pieces": [
             "Journey of the Lone Wolf"
           ]
+        },
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 12,
+          "division_size": 12,
+          "absolute_position": 22,
+          "field_size": 80,
+          "points": 81.0,
+          "max_points": 100.0,
+          "conductor": "Jonathan Bates",
+          "pieces": [
+            "Journey into Singularity"
+          ]
         }
       ]
     }
@@ -23375,7 +24531,8 @@
       2020,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "divisions": [
       "Elite",
@@ -23389,7 +24546,7 @@
     ],
     "max_field_size": 80,
     "min_year": 2001,
-    "max_year": 2025,
-    "generated_at": "2025-11-25T14:44:08+00:00"
+    "max_year": 2026,
+    "generated_at": "2026-02-08T08:38:00+00:00"
   }
 }

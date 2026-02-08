@@ -3629,6 +3629,114 @@
           "korpsnr": 70
         }
       ]
+    },
+    {
+      "year": 2026,
+      "division": "Elite",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "Oslofjord Brass",
+          "korpsnr": null
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "1. divisjon",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Rong Brass",
+          "korpsnr": null
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Krohnengen Brass Band",
+          "korpsnr": 6
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "2. divisjon",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Eufonium",
+          "orchestra": "Bergen Brass Band",
+          "korpsnr": null
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Agder Brass",
+          "korpsnr": null
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "3. divisjon",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Eufonium",
+          "orchestra": "Stavanger Kommunes Korps",
+          "korpsnr": null
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Stavanger Kommunes Korps",
+          "korpsnr": null
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "4. divisjon",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Seim Musikklag",
+          "korpsnr": null
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Flora-Bremanger Brassband",
+          "korpsnr": null
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "5. divisjon",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Florø Hornmusikk",
+          "korpsnr": null
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Langhus Brass",
+          "korpsnr": null
+        }
+      ]
     }
   ],
   "metadata": {
@@ -3654,11 +3762,12 @@
       2020,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "min_year": 2002,
-    "max_year": 2025,
-    "total_prizes": 484,
+    "max_year": 2026,
+    "total_prizes": 496,
     "divisions": [
       "Elite",
       "1. divisjon",
@@ -3669,6 +3778,6 @@
       "6. divisjon",
       "7. divisjon"
     ],
-    "generated_at": "2025-11-20T19:49:32+00:00"
+    "generated_at": "2026-02-08T09:48:06.282523"
   }
 }
