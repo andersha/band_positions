@@ -3127,6 +3127,118 @@
       "slug": "eikanger-bjrsvik-musikklag",
       "entries": [
         {
+          "year": 1979,
+          "division": "1. divisjon",
+          "rank": 3,
+          "division_size": 3,
+          "absolute_position": 3,
+          "field_size": 10,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Tom Brevik",
+          "pieces": [
+            "The Belmont Variations (plikt)"
+          ]
+        },
+        {
+          "year": 1980,
+          "division": "1. divisjon",
+          "rank": 3,
+          "division_size": 9,
+          "absolute_position": 3,
+          "field_size": 16,
+          "points": 91.33,
+          "max_points": 100.0,
+          "conductor": "John Brakstad",
+          "pieces": [
+            "Entertainments (plikt)"
+          ]
+        },
+        {
+          "year": 1981,
+          "division": "1. divisjon",
+          "rank": 1,
+          "division_size": 6,
+          "absolute_position": 1,
+          "field_size": 16,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Helge Haukås",
+          "pieces": [
+            "Spectrum (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "1. divisjon",
+          "rank": 2,
+          "division_size": 7,
+          "absolute_position": 2,
+          "field_size": 22,
+          "points": 94.0,
+          "max_points": 100.0,
+          "conductor": "Helge Haukås",
+          "pieces": [
+            "The Land of the Long White Cloud - Aotearoa (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "1. divisjon",
+          "rank": 3,
+          "division_size": 6,
+          "absolute_position": 3,
+          "field_size": 26,
+          "points": 83.3,
+          "max_points": 100.0,
+          "conductor": "Peter Parkes",
+          "pieces": [
+            "Variations on a Ninth (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "1. divisjon",
+          "rank": 2,
+          "division_size": 7,
+          "absolute_position": 2,
+          "field_size": 28,
+          "points": 90.6,
+          "max_points": 100.0,
+          "conductor": "Tom Brevik",
+          "pieces": [
+            "An Epic Symphony (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "1. divisjon",
+          "rank": 1,
+          "division_size": 7,
+          "absolute_position": 1,
+          "field_size": 25,
+          "points": 94.6,
+          "max_points": 100.0,
+          "conductor": "Ray Farr",
+          "pieces": [
+            "Dances and Arias (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "1. divisjon",
+          "rank": 2,
+          "division_size": 7,
+          "absolute_position": 2,
+          "field_size": 38,
+          "points": 91.7,
+          "max_points": 100.0,
+          "conductor": "Tom Brevik",
+          "pieces": [
+            "Contest Music (plikt)"
+          ]
+        },
+        {
           "year": 1987,
           "division": "1. divisjon",
           "rank": 1,
@@ -3858,6 +3970,62 @@
       "name": "Fagernes Musikkorps",
       "slug": "fagernes-musikkorps",
       "entries": [
+        {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 10,
+          "division_size": 15,
+          "absolute_position": 17,
+          "field_size": 22,
+          "points": 78.5,
+          "max_points": 100.0,
+          "conductor": "Jan Stundal",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "3. divisjon",
+          "rank": 3,
+          "division_size": 4,
+          "absolute_position": 25,
+          "field_size": 26,
+          "points": 87.3,
+          "max_points": 100.0,
+          "conductor": "Jan Stundal",
+          "pieces": [
+            "Litte Suite for Brass (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "3. divisjon",
+          "rank": 5,
+          "division_size": 7,
+          "absolute_position": 26,
+          "field_size": 28,
+          "points": 82.5,
+          "max_points": 100.0,
+          "conductor": "Jan Stundal",
+          "pieces": [
+            "Indian Summer (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 1,
+          "division_size": 14,
+          "absolute_position": 25,
+          "field_size": 38,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Jan Stundal",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        },
         {
           "year": 1987,
           "division": "3. divisjon",
@@ -4715,6 +4883,62 @@
       "slug": "flesland-musikklag",
       "entries": [
         {
+          "year": 1979,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 7,
+          "absolute_position": 10,
+          "field_size": 10,
+          "points": 6.0,
+          "max_points": 100.0,
+          "conductor": "Knut Farestveit",
+          "pieces": [
+            "Three Inventions (plikt)"
+          ]
+        },
+        {
+          "year": 1980,
+          "division": "2. divisjon",
+          "rank": 6,
+          "division_size": 7,
+          "absolute_position": 15,
+          "field_size": 16,
+          "points": 74.0,
+          "max_points": 100.0,
+          "conductor": "Knut Farestveit",
+          "pieces": [
+            "An Essex Overture (plikt)"
+          ]
+        },
+        {
+          "year": 1981,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 10,
+          "absolute_position": 13,
+          "field_size": 16,
+          "points": 73.0,
+          "max_points": 100.0,
+          "conductor": "Karl Ole Midtbø",
+          "pieces": [
+            "Sinfonietta (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 13,
+          "division_size": 15,
+          "absolute_position": 20,
+          "field_size": 22,
+          "points": 76.0,
+          "max_points": 100.0,
+          "conductor": "Eivind Olsen",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        },
+        {
           "year": 1992,
           "division": "3. divisjon",
           "rank": 3,
@@ -5425,6 +5649,118 @@
       "slug": "flor-hornmusikk",
       "entries": [
         {
+          "year": 1979,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 7,
+          "absolute_position": 7,
+          "field_size": 10,
+          "points": 4.0,
+          "max_points": 100.0,
+          "conductor": "Øyvind Brende",
+          "pieces": [
+            "Three Inventions (plikt)"
+          ]
+        },
+        {
+          "year": 1980,
+          "division": "2. divisjon",
+          "rank": 2,
+          "division_size": 7,
+          "absolute_position": 11,
+          "field_size": 16,
+          "points": 79.0,
+          "max_points": 100.0,
+          "conductor": "Øyvind Brende",
+          "pieces": [
+            "An Essex Overture (plikt)"
+          ]
+        },
+        {
+          "year": 1981,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 10,
+          "absolute_position": 10,
+          "field_size": 16,
+          "points": 76.0,
+          "max_points": 100.0,
+          "conductor": "Øyvind Brende",
+          "pieces": [
+            "Sinfonietta (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 15,
+          "absolute_position": 12,
+          "field_size": 22,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Øyvind Brende",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 16,
+          "absolute_position": 9,
+          "field_size": 26,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Øyvind Brende",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 2,
+          "division_size": 14,
+          "absolute_position": 9,
+          "field_size": 28,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Øyvind Brende",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "2. divisjon",
+          "rank": 6,
+          "division_size": 13,
+          "absolute_position": 13,
+          "field_size": 25,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Helge Haukås",
+          "pieces": [
+            "Culloden Moor (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 6,
+          "division_size": 17,
+          "absolute_position": 13,
+          "field_size": 38,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Øyvind Brende",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
+        {
           "year": 1987,
           "division": "2. divisjon",
           "rank": 10,
@@ -6050,6 +6386,20 @@
       "name": "Follesø Musikklag",
       "slug": "folles-musikklag",
       "entries": [
+        {
+          "year": 1979,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 7,
+          "absolute_position": 6,
+          "field_size": 10,
+          "points": 1.0,
+          "max_points": 100.0,
+          "conductor": "Erling Breistein",
+          "pieces": [
+            "Three Inventions (plikt)"
+          ]
+        },
         {
           "year": 2001,
           "division": "3. divisjon",
@@ -8575,6 +8925,34 @@
       "slug": "haukas-musikklag",
       "entries": [
         {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 11,
+          "division_size": 15,
+          "absolute_position": 18,
+          "field_size": 22,
+          "points": 78.0,
+          "max_points": 100.0,
+          "conductor": "Truls Tønnesen",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 16,
+          "division_size": 17,
+          "absolute_position": 23,
+          "field_size": 38,
+          "points": 75.7,
+          "max_points": 100.0,
+          "conductor": "Truls Tønnesen",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
+        {
           "year": 1987,
           "division": "3. divisjon",
           "rank": 5,
@@ -9278,6 +9656,62 @@
       "name": "Hetlevik Musikklag",
       "slug": "hetlevik-musikklag",
       "entries": [
+        {
+          "year": 1981,
+          "division": "2. divisjon",
+          "rank": 6,
+          "division_size": 10,
+          "absolute_position": 12,
+          "field_size": 16,
+          "points": 74.0,
+          "max_points": 100.0,
+          "conductor": "Per O. Askeland",
+          "pieces": [
+            "Sinfonietta (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 14,
+          "division_size": 15,
+          "absolute_position": 21,
+          "field_size": 22,
+          "points": 75.0,
+          "max_points": 100.0,
+          "conductor": "Yngve Nikolaisen",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 12,
+          "division_size": 16,
+          "absolute_position": 18,
+          "field_size": 26,
+          "points": 81.0,
+          "max_points": 100.0,
+          "conductor": "Kjell Seim",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 8,
+          "division_size": 14,
+          "absolute_position": 15,
+          "field_size": 28,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Yngve Nikolaisen",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        },
         {
           "year": 2003,
           "division": "4. divisjon",
@@ -10164,6 +10598,34 @@
       "name": "Ila Brass Band",
       "slug": "ila-brass-band",
       "entries": [
+        {
+          "year": 1985,
+          "division": "1. divisjon",
+          "rank": 4,
+          "division_size": 7,
+          "absolute_position": 4,
+          "field_size": 25,
+          "points": 88.6,
+          "max_points": 100.0,
+          "conductor": "Tom Brevik",
+          "pieces": [
+            "Dances and Arias (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "1. divisjon",
+          "rank": 6,
+          "division_size": 7,
+          "absolute_position": 6,
+          "field_size": 38,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Sigmunn Ofstad",
+          "pieces": [
+            "Contest Music (plikt)"
+          ]
+        },
         {
           "year": 1987,
           "division": "1. divisjon",
@@ -11202,6 +11664,62 @@
       "name": "Jaren Hornmusikkforening",
       "slug": "jaren-hornmusikkforening",
       "entries": [
+        {
+          "year": 1980,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 7,
+          "absolute_position": 13,
+          "field_size": 16,
+          "points": 1.0,
+          "max_points": 100.0,
+          "conductor": "Børre Børresen",
+          "pieces": [
+            "An Essex Overture (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 13,
+          "division_size": 16,
+          "absolute_position": 19,
+          "field_size": 26,
+          "points": 80.3,
+          "max_points": 100.0,
+          "conductor": "Børre Børresen",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "3. divisjon",
+          "rank": 7,
+          "division_size": 7,
+          "absolute_position": 28,
+          "field_size": 28,
+          "points": 80.0,
+          "max_points": 100.0,
+          "conductor": "Børre Børresen",
+          "pieces": [
+            "Indian Summer (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "2. divisjon",
+          "rank": 13,
+          "division_size": 13,
+          "absolute_position": 20,
+          "field_size": 25,
+          "points": 74.6,
+          "max_points": 100.0,
+          "conductor": "Børre Børresen",
+          "pieces": [
+            "Culloden Moor (plikt)"
+          ]
+        },
         {
           "year": 1988,
           "division": "3. divisjon",
@@ -12463,6 +12981,118 @@
       "slug": "kleppe-musikklag",
       "entries": [
         {
+          "year": 1979,
+          "division": "2. divisjon",
+          "rank": 2,
+          "division_size": 7,
+          "absolute_position": 5,
+          "field_size": 10,
+          "points": 7.0,
+          "max_points": 100.0,
+          "conductor": "Rod Franks",
+          "pieces": [
+            "Three Inventions (plikt)"
+          ]
+        },
+        {
+          "year": 1980,
+          "division": "1. divisjon",
+          "rank": 6,
+          "division_size": 9,
+          "absolute_position": 6,
+          "field_size": 16,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Rod Franks",
+          "pieces": [
+            "Entertainments (plikt)"
+          ]
+        },
+        {
+          "year": 1981,
+          "division": "2. divisjon",
+          "rank": 1,
+          "division_size": 10,
+          "absolute_position": 7,
+          "field_size": 16,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Rod Franks",
+          "pieces": [
+            "Sinfonietta (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "1. divisjon",
+          "rank": 6,
+          "division_size": 7,
+          "absolute_position": 6,
+          "field_size": 22,
+          "points": 88.5,
+          "max_points": 100.0,
+          "conductor": "Tom Brevik",
+          "pieces": [
+            "The Land of the Long White Cloud - Aotearoa (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "1. divisjon",
+          "rank": 6,
+          "division_size": 6,
+          "absolute_position": 6,
+          "field_size": 26,
+          "points": 77.3,
+          "max_points": 100.0,
+          "conductor": "Nils Eivind Nikolaisen",
+          "pieces": [
+            "Variations on a Ninth (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "1. divisjon",
+          "rank": 6,
+          "division_size": 7,
+          "absolute_position": 6,
+          "field_size": 28,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Tom Brevik",
+          "pieces": [
+            "An Epic Symphony (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "1. divisjon",
+          "rank": 6,
+          "division_size": 7,
+          "absolute_position": 6,
+          "field_size": 25,
+          "points": 83.6,
+          "max_points": 100.0,
+          "conductor": "Helge Haukås",
+          "pieces": [
+            "Dances and Arias (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 7,
+          "absolute_position": 5,
+          "field_size": 38,
+          "points": 85.4,
+          "max_points": 100.0,
+          "conductor": "Helge Haukås",
+          "pieces": [
+            "Contest Music (plikt)"
+          ]
+        },
+        {
           "year": 1987,
           "division": "1. divisjon",
           "rank": 7,
@@ -12983,6 +13613,76 @@
       "slug": "kopervik-musikkorps",
       "entries": [
         {
+          "year": 1981,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 10,
+          "absolute_position": 11,
+          "field_size": 16,
+          "points": 75.0,
+          "max_points": 100.0,
+          "conductor": "Johan Brudvik",
+          "pieces": [
+            "Sinfonietta (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 6,
+          "division_size": 16,
+          "absolute_position": 12,
+          "field_size": 26,
+          "points": 83.6,
+          "max_points": 100.0,
+          "conductor": "Johan Brudvik",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 14,
+          "absolute_position": 14,
+          "field_size": 28,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Johan Brudvik",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "2. divisjon",
+          "rank": 8,
+          "division_size": 13,
+          "absolute_position": 15,
+          "field_size": 25,
+          "points": 79.3,
+          "max_points": 100.0,
+          "conductor": "Johan Brudvik",
+          "pieces": [
+            "Culloden Moor (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 13,
+          "division_size": 17,
+          "absolute_position": 20,
+          "field_size": 38,
+          "points": 79.0,
+          "max_points": 100.0,
+          "conductor": "Johan Brudvik",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
+        {
           "year": 1988,
           "division": "3. divisjon",
           "rank": 8,
@@ -13438,6 +14138,48 @@
       "name": "Krohnengen Brass Band",
       "slug": "krohnengen-brass-band",
       "entries": [
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 14,
+          "absolute_position": 11,
+          "field_size": 28,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Allan Withington",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 13,
+          "absolute_position": 10,
+          "field_size": 25,
+          "points": 87.6,
+          "max_points": 100.0,
+          "conductor": "Allan Withington",
+          "pieces": [
+            "Culloden Moor (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 1,
+          "division_size": 17,
+          "absolute_position": 8,
+          "field_size": 38,
+          "points": 92.4,
+          "max_points": 100.0,
+          "conductor": "Allan Withington",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
         {
           "year": 1987,
           "division": "1. divisjon",
@@ -15889,6 +16631,118 @@
       "slug": "manger-musikklag",
       "entries": [
         {
+          "year": 1979,
+          "division": "1. divisjon",
+          "rank": 2,
+          "division_size": 3,
+          "absolute_position": 2,
+          "field_size": 10,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Tom Brevik",
+          "pieces": [
+            "The Belmont Variations (plikt)"
+          ]
+        },
+        {
+          "year": 1980,
+          "division": "1. divisjon",
+          "rank": 1,
+          "division_size": 9,
+          "absolute_position": 1,
+          "field_size": 16,
+          "points": 95.0,
+          "max_points": 100.0,
+          "conductor": "Tom Brevik",
+          "pieces": [
+            "Entertainments (plikt)"
+          ]
+        },
+        {
+          "year": 1981,
+          "division": "1. divisjon",
+          "rank": 2,
+          "division_size": 6,
+          "absolute_position": 2,
+          "field_size": 16,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Tom Brevik",
+          "pieces": [
+            "Spectrum (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "1. divisjon",
+          "rank": 3,
+          "division_size": 7,
+          "absolute_position": 3,
+          "field_size": 22,
+          "points": 91.5,
+          "max_points": 100.0,
+          "conductor": "Michael Antrobus",
+          "pieces": [
+            "The Land of the Long White Cloud - Aotearoa (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "1. divisjon",
+          "rank": 1,
+          "division_size": 6,
+          "absolute_position": 1,
+          "field_size": 26,
+          "points": 92.6,
+          "max_points": 100.0,
+          "conductor": "Michael Antrobus",
+          "pieces": [
+            "Variations on a Ninth (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "1. divisjon",
+          "rank": 3,
+          "division_size": 7,
+          "absolute_position": 3,
+          "field_size": 28,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Michael Antrobus",
+          "pieces": [
+            "An Epic Symphony (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "1. divisjon",
+          "rank": 3,
+          "division_size": 7,
+          "absolute_position": 3,
+          "field_size": 25,
+          "points": 92.6,
+          "max_points": 100.0,
+          "conductor": "Michael Antrobus",
+          "pieces": [
+            "Dances and Arias (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "1. divisjon",
+          "rank": 3,
+          "division_size": 7,
+          "absolute_position": 3,
+          "field_size": 38,
+          "points": 90.4,
+          "max_points": 100.0,
+          "conductor": "Michael Antrobus",
+          "pieces": [
+            "Contest Music (plikt)"
+          ]
+        },
+        {
           "year": 1987,
           "division": "1. divisjon",
           "rank": 2,
@@ -16915,6 +17769,20 @@
       "slug": "molde-brass-band",
       "entries": [
         {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 10,
+          "division_size": 17,
+          "absolute_position": 17,
+          "field_size": 38,
+          "points": 82.4,
+          "max_points": 100.0,
+          "conductor": "Arnfinn Dalhaug",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
+        {
           "year": 1987,
           "division": "2. divisjon",
           "rank": 3,
@@ -17456,6 +18324,104 @@
       "name": "Musikkorpset Gjallarhorn",
       "slug": "musikkorpset-gjallarhorn",
       "entries": [
+        {
+          "year": 1980,
+          "division": "2. divisjon",
+          "rank": 1,
+          "division_size": 7,
+          "absolute_position": 10,
+          "field_size": 16,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Aksel Johan Gilje",
+          "pieces": [
+            "An Essex Overture (plikt)"
+          ]
+        },
+        {
+          "year": 1981,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 10,
+          "absolute_position": 9,
+          "field_size": 16,
+          "points": 80.0,
+          "max_points": 100.0,
+          "conductor": "Aksel Johan Gilje",
+          "pieces": [
+            "Sinfonietta (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 15,
+          "absolute_position": 10,
+          "field_size": 22,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Aksel Johan Gilje",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 16,
+          "absolute_position": 11,
+          "field_size": 26,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Aksel Johan Gilje",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 11,
+          "division_size": 14,
+          "absolute_position": 18,
+          "field_size": 28,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Aksel Johan Gilje",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "2. divisjon",
+          "rank": 8,
+          "division_size": 13,
+          "absolute_position": 15,
+          "field_size": 25,
+          "points": 79.3,
+          "max_points": 100.0,
+          "conductor": "Aksel Johan Gilje",
+          "pieces": [
+            "Culloden Moor (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 17,
+          "absolute_position": 11,
+          "field_size": 38,
+          "points": 89.7,
+          "max_points": 100.0,
+          "conductor": "Rolf Aksel Gilje",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
         {
           "year": 1987,
           "division": "2. divisjon",
@@ -19557,6 +20523,76 @@
       "slug": "oster-brass",
       "entries": [
         {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 1,
+          "division_size": 15,
+          "absolute_position": 8,
+          "field_size": 22,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Helge Isak Mjanger",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 1,
+          "division_size": 16,
+          "absolute_position": 7,
+          "field_size": 26,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Ray Farr",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "1. divisjon",
+          "rank": 7,
+          "division_size": 7,
+          "absolute_position": 7,
+          "field_size": 28,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Karl Ole Midtbø",
+          "pieces": [
+            "An Epic Symphony (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 13,
+          "absolute_position": 14,
+          "field_size": 25,
+          "points": 81.6,
+          "max_points": 100.0,
+          "conductor": "Pål W. Jøsok",
+          "pieces": [
+            "Culloden Moor (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 17,
+          "absolute_position": 12,
+          "field_size": 38,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Tom Osa",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
+        {
           "year": 1987,
           "division": "2. divisjon",
           "rank": 10,
@@ -20113,6 +21149,62 @@
       "slug": "rady-brass",
       "entries": [
         {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 2,
+          "division_size": 16,
+          "absolute_position": 8,
+          "field_size": 26,
+          "points": 86.6,
+          "max_points": 100.0,
+          "conductor": "Johannes Mangersnes",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 6,
+          "division_size": 14,
+          "absolute_position": 13,
+          "field_size": 28,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Johannes Mangersnes",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "2. divisjon",
+          "rank": 2,
+          "division_size": 13,
+          "absolute_position": 9,
+          "field_size": 25,
+          "points": 88.6,
+          "max_points": 100.0,
+          "conductor": "Johannes Mangersnes",
+          "pieces": [
+            "Culloden Moor (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 17,
+          "absolute_position": 10,
+          "field_size": 38,
+          "points": 90.4,
+          "max_points": 100.0,
+          "conductor": "Johannes Mangersnes",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
+        {
           "year": 1987,
           "division": "2. divisjon",
           "rank": 2,
@@ -20648,6 +21740,20 @@
       "name": "Randaberg Musikkorps",
       "slug": "randaberg-musikkorps",
       "entries": [
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 3,
+          "division_size": 14,
+          "absolute_position": 27,
+          "field_size": 38,
+          "points": 80.7,
+          "max_points": 100.0,
+          "conductor": "Ivar Atle Fjordheim",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        },
         {
           "year": 1987,
           "division": "3. divisjon",
@@ -21453,6 +22559,48 @@
       "slug": "rosendal-musikklag",
       "entries": [
         {
+          "year": 1980,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 7,
+          "absolute_position": 12,
+          "field_size": 16,
+          "points": 78.0,
+          "max_points": 100.0,
+          "conductor": "Rolf Lothe",
+          "pieces": [
+            "An Essex Overture (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 6,
+          "division_size": 15,
+          "absolute_position": 13,
+          "field_size": 22,
+          "points": 83.5,
+          "max_points": 100.0,
+          "conductor": "Rolf Lothe",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 9,
+          "division_size": 14,
+          "absolute_position": 33,
+          "field_size": 38,
+          "points": 73.0,
+          "max_points": 100.0,
+          "conductor": "Rolf Lothe",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        },
+        {
           "year": 1988,
           "division": "3. divisjon",
           "rank": 14,
@@ -21988,6 +23136,34 @@
       "name": "Sagvåg Musikklag",
       "slug": "sagvag-musikklag",
       "entries": [
+        {
+          "year": 1985,
+          "division": "3. divisjon",
+          "rank": 4,
+          "division_size": 5,
+          "absolute_position": 24,
+          "field_size": 25,
+          "points": 77.3,
+          "max_points": 100.0,
+          "conductor": "Per Olav Paulsen",
+          "pieces": [
+            "An Overture for Spring (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 4,
+          "division_size": 14,
+          "absolute_position": 28,
+          "field_size": 38,
+          "points": 78.7,
+          "max_points": 100.0,
+          "conductor": "Jan Magne Olsen",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        },
         {
           "year": 1987,
           "division": "3. divisjon",
@@ -25097,6 +26273,48 @@
       "slug": "stangaland-brass",
       "entries": [
         {
+          "year": 1984,
+          "division": "3. divisjon",
+          "rank": 2,
+          "division_size": 7,
+          "absolute_position": 23,
+          "field_size": 28,
+          "points": 87.5,
+          "max_points": 100.0,
+          "conductor": "Jakob Birk",
+          "pieces": [
+            "Indian Summer (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "2. divisjon",
+          "rank": 10,
+          "division_size": 13,
+          "absolute_position": 17,
+          "field_size": 25,
+          "points": 77.3,
+          "max_points": 100.0,
+          "conductor": "Jakob Birk",
+          "pieces": [
+            "Culloden Moor (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 8,
+          "division_size": 17,
+          "absolute_position": 15,
+          "field_size": 38,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Jakob Birk",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
+        {
           "year": 1987,
           "division": "2. divisjon",
           "rank": 5,
@@ -25616,6 +26834,90 @@
       "name": "Stavanger Brass Band",
       "slug": "stavanger-brass-band",
       "entries": [
+        {
+          "year": 1981,
+          "division": "1. divisjon",
+          "rank": 6,
+          "division_size": 6,
+          "absolute_position": 6,
+          "field_size": 16,
+          "points": 80.0,
+          "max_points": 100.0,
+          "conductor": "Kjell E. Larsen",
+          "pieces": [
+            "Spectrum (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "1. divisjon",
+          "rank": 1,
+          "division_size": 7,
+          "absolute_position": 1,
+          "field_size": 22,
+          "points": 94.5,
+          "max_points": 100.0,
+          "conductor": "Kjell E. Larsen",
+          "pieces": [
+            "The Land of the Long White Cloud - Aotearoa (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "1. divisjon",
+          "rank": 2,
+          "division_size": 6,
+          "absolute_position": 2,
+          "field_size": 26,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Kjell E. Larsen",
+          "pieces": [
+            "Variations on a Ninth (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "1. divisjon",
+          "rank": 1,
+          "division_size": 7,
+          "absolute_position": 1,
+          "field_size": 28,
+          "points": 91.6,
+          "max_points": 100.0,
+          "conductor": "Kjell E. Larsen",
+          "pieces": [
+            "An Epic Symphony (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "1. divisjon",
+          "rank": 2,
+          "division_size": 7,
+          "absolute_position": 2,
+          "field_size": 25,
+          "points": 93.6,
+          "max_points": 100.0,
+          "conductor": "Kjell E. Larsen",
+          "pieces": [
+            "Dances and Arias (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "1. divisjon",
+          "rank": 1,
+          "division_size": 7,
+          "absolute_position": 1,
+          "field_size": 38,
+          "points": 94.0,
+          "max_points": 100.0,
+          "conductor": "Kjell E. Larsen",
+          "pieces": [
+            "Contest Music (plikt)"
+          ]
+        },
         {
           "year": 1987,
           "division": "1. divisjon",
@@ -26525,6 +27827,34 @@
       "slug": "srum-musikklag",
       "entries": [
         {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 16,
+          "absolute_position": 10,
+          "field_size": 26,
+          "points": 85.6,
+          "max_points": 100.0,
+          "conductor": "Njål L. Enger",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 14,
+          "division_size": 14,
+          "absolute_position": 21,
+          "field_size": 28,
+          "points": 79.6,
+          "max_points": 100.0,
+          "conductor": "Njål L. Enger",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        },
+        {
           "year": 1987,
           "division": "2. divisjon",
           "rank": 14,
@@ -27369,6 +28699,76 @@
       "slug": "tertnes-brass",
       "entries": [
         {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 2,
+          "division_size": 15,
+          "absolute_position": 9,
+          "field_size": 22,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Tor I. Johnstad",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 16,
+          "absolute_position": 13,
+          "field_size": 26,
+          "points": 83.3,
+          "max_points": 100.0,
+          "conductor": "Tor I. Johnstad",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 1,
+          "division_size": 14,
+          "absolute_position": 8,
+          "field_size": 28,
+          "points": 94.6,
+          "max_points": 100.0,
+          "conductor": "Allan Withington",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "2. divisjon",
+          "rank": 1,
+          "division_size": 13,
+          "absolute_position": 8,
+          "field_size": 25,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Allan Withington",
+          "pieces": [
+            "Culloden Moor (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "1. divisjon",
+          "rank": 7,
+          "division_size": 7,
+          "absolute_position": 7,
+          "field_size": 38,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Allan Withington",
+          "pieces": [
+            "Contest Music (plikt)"
+          ]
+        },
+        {
           "year": 1987,
           "division": "1. divisjon",
           "rank": 11,
@@ -27904,6 +29304,48 @@
       "name": "Tomra Brass Band",
       "slug": "tomra-brass-band",
       "entries": [
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 14,
+          "absolute_position": 12,
+          "field_size": 28,
+          "points": 86.3,
+          "max_points": 100.0,
+          "conductor": "Arnfinn Dalhaug",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 13,
+          "absolute_position": 11,
+          "field_size": 25,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Arnfinn Dalhaug",
+          "pieces": [
+            "Culloden Moor (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 2,
+          "division_size": 17,
+          "absolute_position": 9,
+          "field_size": 38,
+          "points": 91.4,
+          "max_points": 100.0,
+          "conductor": "Ray Farr",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
         {
           "year": 1987,
           "division": "2. divisjon",
@@ -31051,317 +32493,21 @@
       ]
     },
     {
-      "name": "Metronom 66",
-      "slug": "metronom-66",
+      "name": "Molde Brass",
+      "slug": "molde-brass",
       "entries": [
         {
-          "year": 1987,
+          "year": 2000,
           "division": "1. divisjon",
-          "rank": 3,
-          "division_size": 12,
-          "absolute_position": 3,
-          "field_size": 43,
-          "points": 91.0,
-          "max_points": 100.0,
-          "conductor": "Nils Harry Bjerk",
-          "pieces": [
-            "Pageantry (plikt)"
-          ]
-        },
-        {
-          "year": 1988,
-          "division": "1. divisjon",
-          "rank": 10,
-          "division_size": 12,
-          "absolute_position": 10,
-          "field_size": 38,
-          "points": 82.0,
-          "max_points": 100.0,
-          "conductor": "Michael Antrobus",
-          "pieces": [
-            "Connotations (plikt)"
-          ]
-        },
-        {
-          "year": 1990,
-          "division": "1. divisjon",
-          "rank": 7,
-          "division_size": 10,
-          "absolute_position": 7,
-          "field_size": 37,
-          "points": 85.0,
-          "max_points": 100.0,
-          "conductor": "Sverre Caspersen",
-          "pieces": [
-            "Blitz (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Tjensvoll Hornorkester",
-      "slug": "tjensvoll-hornorkester",
-      "entries": [
-        {
-          "year": 1987,
-          "division": "1. divisjon",
-          "rank": 5,
-          "division_size": 12,
-          "absolute_position": 5,
-          "field_size": 43,
-          "points": 88.3,
-          "max_points": 100.0,
-          "conductor": "Jan Magne Olsen",
-          "pieces": [
-            "Pageantry (plikt)"
-          ]
-        },
-        {
-          "year": 1988,
-          "division": "1. divisjon",
-          "rank": 11,
-          "division_size": 12,
-          "absolute_position": 11,
-          "field_size": 38,
-          "points": 80.0,
-          "max_points": 100.0,
-          "conductor": "Espen Selvik",
-          "pieces": [
-            "Connotations (plikt)"
-          ]
-        },
-        {
-          "year": 1989,
-          "division": "1. divisjon",
-          "rank": 9,
-          "division_size": 11,
-          "absolute_position": 9,
-          "field_size": 38,
-          "points": 73.0,
-          "max_points": 100.0,
-          "conductor": "Leif Værum Larsen",
-          "pieces": [
-            "Festival Music (Symphonic Suite) (plikt)"
-          ]
-        },
-        {
-          "year": 1993,
-          "division": "1. divisjon",
-          "rank": 5,
-          "division_size": 12,
-          "absolute_position": 12,
-          "field_size": 48,
-          "points": 87.0,
-          "max_points": 100.0,
-          "conductor": "Morten Hansen",
-          "pieces": [
-            "The plantgenets (plikt)"
-          ]
-        },
-        {
-          "year": 1994,
-          "division": "1. divisjon",
-          "rank": 6,
-          "division_size": 12,
-          "absolute_position": 13,
-          "field_size": 45,
-          "points": 87.0,
-          "max_points": 100.0,
-          "conductor": "Morten Hansen",
-          "pieces": [
-            "Royal Parks (plikt)"
-          ]
-        },
-        {
-          "year": 1995,
-          "division": "1. divisjon",
-          "rank": 9,
-          "division_size": 12,
-          "absolute_position": 16,
-          "field_size": 46,
-          "points": 83.0,
-          "max_points": 100.0,
-          "conductor": "Morten Hansen",
-          "pieces": [
-            "Three Figures (plikt)"
-          ]
-        },
-        {
-          "year": 1997,
-          "division": "3. divisjon",
-          "rank": 1,
-          "division_size": 20,
-          "absolute_position": 31,
-          "field_size": 50,
-          "points": 96.0,
-          "max_points": 100.0,
-          "conductor": "Morten Hansen",
-          "pieces": [
-            "Variations on Laudate Dominum"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Nesttun Kristelige Hornorkester",
-      "slug": "nesttun-kristelige-hornorkester",
-      "entries": [
-        {
-          "year": 1987,
-          "division": "1. divisjon",
-          "rank": 10,
-          "division_size": 12,
-          "absolute_position": 10,
-          "field_size": 43,
-          "points": 85.0,
-          "max_points": 100.0,
-          "conductor": "Espen Selvik",
-          "pieces": [
-            "Pageantry (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Bærum Brass",
-      "slug": "bærum-brass",
-      "entries": [
-        {
-          "year": 1987,
-          "division": "1. divisjon",
-          "rank": 12,
-          "division_size": 12,
-          "absolute_position": 12,
-          "field_size": 43,
-          "points": 83.0,
-          "max_points": 100.0,
-          "conductor": "Gareth A. Jones",
-          "pieces": [
-            "Pageantry (plikt)"
-          ]
-        },
-        {
-          "year": 1988,
-          "division": "1. divisjon",
-          "rank": 6,
-          "division_size": 12,
-          "absolute_position": 6,
-          "field_size": 38,
-          "points": 86.3,
-          "max_points": 100.0,
-          "conductor": "Gareth A. Jones",
-          "pieces": [
-            "Connotations (plikt)"
-          ]
-        },
-        {
-          "year": 1989,
-          "division": "1. divisjon",
-          "rank": 10,
-          "division_size": 11,
-          "absolute_position": 10,
-          "field_size": 38,
-          "points": 9.0,
-          "max_points": 100.0,
-          "conductor": "Andrew I. Boyle",
-          "pieces": [
-            "Festival Music (Symphonic Suite) (plikt)"
-          ]
-        },
-        {
-          "year": 1990,
-          "division": "1. divisjon",
-          "rank": 8,
-          "division_size": 10,
-          "absolute_position": 8,
-          "field_size": 37,
-          "points": 83.0,
-          "max_points": 100.0,
-          "conductor": "Bjørn Mellemberg",
-          "pieces": [
-            "Blitz (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "SUBB Brass Sola",
-      "slug": "subb-brass-sola",
-      "entries": [
-        {
-          "year": 1987,
-          "division": "2. divisjon",
-          "rank": 1,
-          "division_size": 15,
-          "absolute_position": 13,
-          "field_size": 43,
-          "points": 91.6,
-          "max_points": 100.0,
-          "conductor": "Jens Torolf Larsen",
-          "pieces": [
-            "Main Street (plikt)"
-          ]
-        },
-        {
-          "year": 1991,
-          "division": "1. divisjon",
-          "rank": 9,
-          "division_size": 10,
-          "absolute_position": 9,
-          "field_size": 35,
-          "points": 87.0,
-          "max_points": 100.0,
-          "conductor": "Kjell E. Larsen",
-          "pieces": [
-            "Ballet for Band (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Eidsberg Brass",
-      "slug": "eidsberg-brass",
-      "entries": [
-        {
-          "year": 1987,
-          "division": "2. divisjon",
-          "rank": 6,
-          "division_size": 15,
-          "absolute_position": 18,
-          "field_size": 43,
-          "points": 84.3,
-          "max_points": 100.0,
-          "conductor": "Sverre Caspersen",
-          "pieces": [
-            "Main Street (plikt)"
-          ]
-        },
-        {
-          "year": 1988,
-          "division": "2. divisjon",
-          "rank": 8,
-          "division_size": 12,
-          "absolute_position": 20,
-          "field_size": 38,
-          "points": 86.0,
-          "max_points": 100.0,
-          "conductor": "Sverre Caspersen",
-          "pieces": [
-            "Harmonious Variations (plikt)"
-          ]
-        },
-        {
-          "year": 1989,
-          "division": "2. divisjon",
           "rank": 4,
           "division_size": 12,
-          "absolute_position": 15,
-          "field_size": 38,
-          "points": 88.0,
+          "absolute_position": 12,
+          "field_size": 55,
+          "points": 89.0,
           "max_points": 100.0,
-          "conductor": "Sverre Caspersen",
+          "conductor": "Alan Morrison",
           "pieces": [
-            "Essay for Brass Band (plikt)"
+            "Paganini Variations"
           ]
         }
       ]
@@ -31370,6 +32516,76 @@
       "name": "Brøttum Musikkforening",
       "slug": "brøttum-musikkforening",
       "entries": [
+        {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 9,
+          "division_size": 15,
+          "absolute_position": 16,
+          "field_size": 22,
+          "points": 80.5,
+          "max_points": 100.0,
+          "conductor": "Gunnar Fjellheim",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 10,
+          "division_size": 16,
+          "absolute_position": 16,
+          "field_size": 26,
+          "points": 81.6,
+          "max_points": 100.0,
+          "conductor": "Gunnar Fjellheim",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 9,
+          "division_size": 14,
+          "absolute_position": 16,
+          "field_size": 28,
+          "points": 83.6,
+          "max_points": 100.0,
+          "conductor": "Trond Brenne",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "2. divisjon",
+          "rank": 12,
+          "division_size": 13,
+          "absolute_position": 19,
+          "field_size": 25,
+          "points": 75.0,
+          "max_points": 100.0,
+          "conductor": "Geir Magne Løvold",
+          "pieces": [
+            "Culloden Moor (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 9,
+          "division_size": 17,
+          "absolute_position": 16,
+          "field_size": 38,
+          "points": 83.4,
+          "max_points": 100.0,
+          "conductor": "Karsten G. Dalsrud",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
         {
           "year": 1987,
           "division": "2. divisjon",
@@ -31511,255 +32727,369 @@
       ]
     },
     {
-      "name": "Sandnes Messingorkester",
-      "slug": "sandnes-messingorkester",
+      "name": "Austrheim-Lindås Musikklag",
+      "slug": "austrheimlindås-musikklag",
       "entries": [
         {
-          "year": 1987,
+          "year": 1997,
+          "division": "3. divisjon",
+          "rank": 5,
+          "division_size": 20,
+          "absolute_position": 35,
+          "field_size": 50,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Knut Harald Rydland",
+          "pieces": [
+            "A Saddleworth Festival Overture"
+          ]
+        },
+        {
+          "year": 1998,
+          "division": "3. divisjon",
+          "rank": 1,
+          "division_size": 16,
+          "absolute_position": 36,
+          "field_size": 51,
+          "points": 94.0,
+          "max_points": 100.0,
+          "conductor": "Knut Harald Rydland",
+          "pieces": [
+            "Rhapsody in Brass"
+          ]
+        },
+        {
+          "year": 1999,
           "division": "2. divisjon",
-          "rank": 9,
+          "rank": 8,
+          "division_size": 13,
+          "absolute_position": 28,
+          "field_size": 52,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Knut Harald Rydland",
+          "pieces": [
+            "Royal Parks"
+          ]
+        },
+        {
+          "year": 2000,
+          "division": "2. divisjon",
+          "rank": 12,
           "division_size": 15,
+          "absolute_position": 32,
+          "field_size": 55,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Knut Harald Rydland",
+          "pieces": [
+            "Firestorm"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eidsberg Brass Band",
+      "slug": "eidsberg-brass-band",
+      "entries": [
+        {
+          "year": 1984,
+          "division": "3. divisjon",
+          "rank": 4,
+          "division_size": 7,
+          "absolute_position": 25,
+          "field_size": 28,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Ivar Caspersen",
+          "pieces": [
+            "Indian Summer (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "3. divisjon",
+          "rank": 1,
+          "division_size": 5,
           "absolute_position": 21,
-          "field_size": 43,
+          "field_size": 25,
           "points": 82.6,
           "max_points": 100.0,
-          "conductor": "Morten Hansen",
+          "conductor": "Ivar Caspersen",
           "pieces": [
-            "Main Street (plikt)"
+            "An Overture for Spring (plikt)"
           ]
         },
         {
-          "year": 1988,
-          "division": "2. divisjon",
-          "rank": 6,
-          "division_size": 12,
-          "absolute_position": 18,
-          "field_size": 38,
-          "points": 88.0,
-          "max_points": 100.0,
-          "conductor": "Morten Hansen",
-          "pieces": [
-            "Harmonious Variations (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Brass-85",
-      "slug": "brass85",
-      "entries": [
-        {
-          "year": 1987,
-          "division": "2. divisjon",
-          "rank": 12,
-          "division_size": 15,
-          "absolute_position": 24,
-          "field_size": 43,
-          "points": 77.6,
-          "max_points": 100.0,
-          "conductor": "Heidi Hesselberg Løken",
-          "pieces": [
-            "Main Street (plikt)"
-          ]
-        },
-        {
-          "year": 1988,
-          "division": "2. divisjon",
-          "rank": 11,
-          "division_size": 12,
-          "absolute_position": 23,
-          "field_size": 38,
-          "points": 82.0,
-          "max_points": 100.0,
-          "conductor": "Heidi Hesselberg Løken",
-          "pieces": [
-            "Harmonious Variations (plikt)"
-          ]
-        },
-        {
-          "year": 1989,
-          "division": "2. divisjon",
-          "rank": 9,
-          "division_size": 12,
-          "absolute_position": 20,
-          "field_size": 38,
-          "points": 85.0,
-          "max_points": 100.0,
-          "conductor": "Heidi Hesselberg Løken",
-          "pieces": [
-            "Essay for Brass Band (plikt)"
-          ]
-        },
-        {
-          "year": 1990,
-          "division": "2. divisjon",
-          "rank": 12,
-          "division_size": 12,
-          "absolute_position": 22,
-          "field_size": 37,
-          "points": 82.0,
-          "max_points": 100.0,
-          "conductor": "Heidi Hesselberg Løken",
-          "pieces": [
-            "Abstractions (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Ungdomskorpset Nordlys",
-      "slug": "ungdomskorpset-nordlys",
-      "entries": [
-        {
-          "year": 1987,
+          "year": 2000,
           "division": "2. divisjon",
           "rank": 13,
           "division_size": 15,
-          "absolute_position": 25,
-          "field_size": 43,
-          "points": 75.6,
+          "absolute_position": 33,
+          "field_size": 55,
+          "points": 83.0,
           "max_points": 100.0,
-          "conductor": "Morten Bratland",
+          "conductor": "Hans Petter Ringstad",
           "pieces": [
-            "Main Street (plikt)"
+            "The Plantagenets"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Oltedal og Ålgård Musikkorps",
+      "slug": "oltedal-og-ålgård-musikkorps",
+      "entries": [
         {
-          "year": 1988,
-          "division": "2. divisjon",
-          "rank": 7,
-          "division_size": 12,
-          "absolute_position": 19,
-          "field_size": 38,
-          "points": 87.0,
-          "max_points": 100.0,
-          "conductor": "Helge Haukås",
-          "pieces": [
-            "Harmonious Variations (plikt)"
-          ]
-        },
-        {
-          "year": 1991,
-          "division": "2. divisjon",
+          "year": 2000,
+          "division": "3. divisjon",
           "rank": 3,
-          "division_size": 11,
-          "absolute_position": 13,
-          "field_size": 35,
-          "points": 89.0,
-          "max_points": 100.0,
-          "conductor": "Yngve Nikolaisen",
-          "pieces": [
-            "Excalibur (plikt)"
-          ]
-        },
-        {
-          "year": 1992,
-          "division": "2. divisjon",
-          "rank": 5,
-          "division_size": 15,
-          "absolute_position": 17,
-          "field_size": 38,
-          "points": 89.0,
+          "division_size": 20,
+          "absolute_position": 38,
+          "field_size": 55,
+          "points": 92.0,
           "max_points": 100.0,
           "conductor": "Morten Hansen",
           "pieces": [
-            "Rhapsody in Brass (plikt)"
+            "A Celtic Suite"
           ]
         }
       ]
     },
     {
-      "name": "Musikklaget Bergshorn",
-      "slug": "musikklaget-bergshorn",
+      "name": "Rong Musikkorps",
+      "slug": "rong-musikkorps",
       "entries": [
         {
-          "year": 1987,
-          "division": "3. divisjon",
-          "rank": 3,
-          "division_size": 16,
-          "absolute_position": 30,
-          "field_size": 43,
-          "points": 87.0,
-          "max_points": 100.0,
-          "conductor": "Nils Magne Abelseth",
-          "pieces": [
-            "Four Little Maids (plikt)"
-          ]
-        },
-        {
-          "year": 1989,
-          "division": "3. divisjon",
-          "rank": 11,
-          "division_size": 15,
-          "absolute_position": 34,
-          "field_size": 38,
-          "points": 83.5,
-          "max_points": 100.0,
-          "conductor": "Tor Haram",
-          "pieces": [
-            "This Happy Island (plikt)"
-          ]
-        },
-        {
-          "year": 1990,
-          "division": "3. divisjon",
-          "rank": 15,
-          "division_size": 15,
-          "absolute_position": 37,
-          "field_size": 37,
-          "points": 85.0,
-          "max_points": 100.0,
-          "conductor": "Tor Haram",
-          "pieces": [
-            "Reflections (plikt)"
-          ]
-        },
-        {
-          "year": 1991,
+          "year": 1995,
           "division": "3. divisjon",
           "rank": 10,
           "division_size": 14,
-          "absolute_position": 31,
-          "field_size": 35,
-          "points": 3.0,
+          "absolute_position": 42,
+          "field_size": 46,
+          "points": 88.0,
           "max_points": 100.0,
-          "conductor": "Arnfinn Dalhaug",
+          "conductor": "Kristin Myrmel",
           "pieces": [
-            "Fanfare and Variations (plikt)"
+            "A Moorside Suite"
           ]
         },
         {
-          "year": 1992,
+          "year": 1998,
+          "division": "3. divisjon",
+          "rank": 8,
+          "division_size": 16,
+          "absolute_position": 43,
+          "field_size": 51,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Jason Burn",
+          "pieces": [
+            "Cartoon for Brass Band"
+          ]
+        },
+        {
+          "year": 2000,
           "division": "3. divisjon",
           "rank": 9,
-          "division_size": 11,
-          "absolute_position": 36,
-          "field_size": 38,
-          "points": 85.0,
+          "division_size": 20,
+          "absolute_position": 44,
+          "field_size": 55,
+          "points": 88.5,
           "max_points": 100.0,
-          "conductor": null,
+          "conductor": "Jason Burn",
           "pieces": [
-            "Sinfonietta for Brass Band (plikt)"
+            "Variations on Laudate Dominum"
           ]
         }
       ]
     },
     {
-      "name": "Røyken Musikkorps",
-      "slug": "røyken-musikkorps",
+      "name": "Brumund og Nordaasen Musikkforening",
+      "slug": "brumund-og-nordaasen-musikkforening",
       "entries": [
         {
-          "year": 1987,
+          "year": 2000,
           "division": "3. divisjon",
-          "rank": 6,
-          "division_size": 16,
-          "absolute_position": 33,
-          "field_size": 43,
-          "points": 84.3,
+          "rank": 15,
+          "division_size": 20,
+          "absolute_position": 50,
+          "field_size": 55,
+          "points": 84.5,
           "max_points": 100.0,
-          "conductor": "Magnar Osland",
+          "conductor": "Nils Magne Abelseth",
           "pieces": [
-            "Four Little Maids (plikt)"
+            "Brass Dynamics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lismarkens Musikkforening",
+      "slug": "lismarkens-musikkforening",
+      "entries": [
+        {
+          "year": 1998,
+          "division": "3. divisjon",
+          "rank": 10,
+          "division_size": 16,
+          "absolute_position": 45,
+          "field_size": 51,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Botolv Gjeldaker",
+          "pieces": [
+            "Suite in Bb [Jacob]"
+          ]
+        },
+        {
+          "year": 2000,
+          "division": "3. divisjon",
+          "rank": 16,
+          "division_size": 20,
+          "absolute_position": 51,
+          "field_size": 55,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Botolv Gjeldaker",
+          "pieces": [
+            "Brass Dynamics"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hasle Ungdoms Brassband",
+      "slug": "hasle-ungdoms-brassband",
+      "entries": [
+        {
+          "year": 2000,
+          "division": "3. divisjon",
+          "rank": 20,
+          "division_size": 20,
+          "absolute_position": 55,
+          "field_size": 55,
+          "points": 78.0,
+          "max_points": 100.0,
+          "conductor": "Sissel Larsen",
+          "pieces": [
+            "Legend in Brass"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Laukvik Brass",
+      "slug": "laukvik-brass",
+      "entries": [
+        {
+          "year": 1996,
+          "division": "3. divisjon",
+          "rank": 3,
+          "division_size": 11,
+          "absolute_position": 34,
+          "field_size": 42,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Hugo Bjørnstad",
+          "pieces": [
+            "Partita [Sparke]"
+          ]
+        },
+        {
+          "year": 1997,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 11,
+          "absolute_position": 22,
+          "field_size": 50,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Hugo Bjørnstad",
+          "pieces": [
+            "Partita [Sparke]"
+          ]
+        },
+        {
+          "year": 1998,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 15,
+          "absolute_position": 27,
+          "field_size": 51,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Hugo Bjørnstad",
+          "pieces": [
+            "Spectrum [Vinter]"
+          ]
+        },
+        {
+          "year": 1999,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 13,
+          "absolute_position": 24,
+          "field_size": 52,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Hugo Bjørnstad",
+          "pieces": [
+            "The Year of the Dragon"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hasle Ungdomsbrassband",
+      "slug": "hasle-ungdomsbrassband",
+      "entries": [
+        {
+          "year": 1999,
+          "division": "3. divisjon",
+          "rank": 13,
+          "division_size": 19,
+          "absolute_position": 46,
+          "field_size": 52,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Sissel Larsen",
+          "pieces": [
+            "Birth of a New Day"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rong Musikklag",
+      "slug": "rong-musikklag",
+      "entries": [
+        {
+          "year": 1994,
+          "division": "3. divisjon",
+          "rank": 14,
+          "division_size": 14,
+          "absolute_position": 45,
+          "field_size": 45,
+          "points": 78.0,
+          "max_points": 100.0,
+          "conductor": "Kristin Myrmel",
+          "pieces": [
+            "Brass Marmelade (plikt)"
+          ]
+        },
+        {
+          "year": 1999,
+          "division": "3. divisjon",
+          "rank": 14,
+          "division_size": 19,
+          "absolute_position": 47,
+          "field_size": 52,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Jason Burn",
+          "pieces": [
+            "Chorale and Variations [Lucas]"
           ]
         }
       ]
@@ -31939,6 +33269,26 @@
       ]
     },
     {
+      "name": "Lismarken Musikforening",
+      "slug": "lismarken-musikforening",
+      "entries": [
+        {
+          "year": 1999,
+          "division": "3. divisjon",
+          "rank": 18,
+          "division_size": 19,
+          "absolute_position": 51,
+          "field_size": 52,
+          "points": 81.0,
+          "max_points": 100.0,
+          "conductor": "Botolv Gjeldaker",
+          "pieces": [
+            "Fanfare and Variations"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Bergen Sporveis Musikkorps",
       "slug": "bergen-sporveis-musikkorps",
       "entries": [
@@ -32079,137 +33429,201 @@
       ]
     },
     {
-      "name": "Krapfoss Hornorkester",
-      "slug": "krapfoss-hornorkester",
+      "name": "Ålgård Musikkorps",
+      "slug": "ålgård-musikkorps",
       "entries": [
         {
-          "year": 1987,
-          "division": "3. divisjon",
-          "rank": 10,
-          "division_size": 16,
-          "absolute_position": 37,
-          "field_size": 43,
-          "points": 77.0,
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 8,
+          "division_size": 15,
+          "absolute_position": 15,
+          "field_size": 22,
+          "points": 81.0,
           "max_points": 100.0,
-          "conductor": "Trond Elnes",
+          "conductor": "Einar Karlson",
           "pieces": [
-            "Four Little Maids (plikt)"
+            "Suite in Bb (plikt)"
           ]
         },
         {
-          "year": 1988,
-          "division": "3. divisjon",
-          "rank": 11,
-          "division_size": 14,
-          "absolute_position": 35,
-          "field_size": 38,
-          "points": 78.5,
-          "max_points": 100.0,
-          "conductor": "Geir Arne Haugsrud",
-          "pieces": [
-            "Petite Suite de Ballet (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Asker Brass Band",
-      "slug": "asker-brass-band",
-      "entries": [
-        {
-          "year": 1987,
-          "division": "3. divisjon",
-          "rank": 11,
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 15,
           "division_size": 16,
-          "absolute_position": 38,
-          "field_size": 43,
-          "points": 76.3,
+          "absolute_position": 21,
+          "field_size": 26,
+          "points": 78.6,
           "max_points": 100.0,
-          "conductor": "Lars Emil Johannessen",
+          "conductor": "Einar Karlsen",
           "pieces": [
-            "Four Little Maids (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Lysefjorden Musikklag",
-      "slug": "lysefjorden-musikklag",
-      "entries": [
-        {
-          "year": 1987,
-          "division": "3. divisjon",
-          "rank": 11,
-          "division_size": 16,
-          "absolute_position": 38,
-          "field_size": 43,
-          "points": 76.3,
-          "max_points": 100.0,
-          "conductor": "Arvid Anthun",
-          "pieces": [
-            "Four Little Maids (plikt)"
+            "The Prizewinners (plikt)"
           ]
         },
         {
-          "year": 1988,
+          "year": 1984,
           "division": "3. divisjon",
-          "rank": 13,
+          "rank": 3,
+          "division_size": 7,
+          "absolute_position": 24,
+          "field_size": 28,
+          "points": 85.5,
+          "max_points": 100.0,
+          "conductor": "Knud Holm",
+          "pieces": [
+            "Indian Summer (plikt)"
+          ]
+        },
+        {
+          "year": 1993,
+          "division": "3. divisjon",
+          "rank": 11,
+          "division_size": 17,
+          "absolute_position": 42,
+          "field_size": 48,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Helge Jan Ingebrigtsen",
+          "pieces": [
+            "Amaranth (plikt)"
+          ]
+        },
+        {
+          "year": 1994,
+          "division": "3. divisjon",
+          "rank": 8,
           "division_size": 14,
-          "absolute_position": 37,
+          "absolute_position": 39,
+          "field_size": 45,
+          "points": 86.5,
+          "max_points": 100.0,
+          "conductor": "Geir Karlson",
+          "pieces": [
+            "Brass Marmelade (plikt)"
+          ]
+        },
+        {
+          "year": 1995,
+          "division": "3. divisjon",
+          "rank": 6,
+          "division_size": 14,
+          "absolute_position": 38,
+          "field_size": 46,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Geir Karlson",
+          "pieces": []
+        },
+        {
+          "year": 1997,
+          "division": "3. divisjon",
+          "rank": 3,
+          "division_size": 20,
+          "absolute_position": 33,
+          "field_size": 50,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Geir Karlson",
+          "pieces": [
+            "Music for a Festival [Sparke]"
+          ]
+        },
+        {
+          "year": 1998,
+          "division": "3. divisjon",
+          "rank": 16,
+          "division_size": 16,
+          "absolute_position": 51,
+          "field_size": 51,
+          "points": 80.0,
+          "max_points": 100.0,
+          "conductor": "Tor Arne Gjerdevik",
+          "pieces": [
+            "Dimensions"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tomra Brass",
+      "slug": "tomra-brass",
+      "entries": [
+        {
+          "year": 1993,
+          "division": "1. divisjon",
+          "rank": 1,
+          "division_size": 12,
+          "absolute_position": 8,
+          "field_size": 48,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Roy Newsome",
+          "pieces": [
+            "The plantgenets (plikt)"
+          ]
+        },
+        {
+          "year": 1997,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 12,
+          "absolute_position": 12,
+          "field_size": 50,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Ray Farr",
+          "pieces": [
+            "Paganini Variations"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tjensvoll Hornorkester",
+      "slug": "tjensvoll-hornorkester",
+      "entries": [
+        {
+          "year": 1985,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 7,
+          "absolute_position": 5,
+          "field_size": 25,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Alf J. Aarreskjold",
+          "pieces": [
+            "Dances and Arias (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "1. divisjon",
+          "rank": 4,
+          "division_size": 7,
+          "absolute_position": 4,
           "field_size": 38,
-          "points": 77.0,
+          "points": 89.0,
           "max_points": 100.0,
-          "conductor": "Arvid Anthun",
+          "conductor": "Bjørn Hellevik",
           "pieces": [
-            "Petite Suite de Ballet (plikt)"
+            "Contest Music (plikt)"
           ]
-        }
-      ]
-    },
-    {
-      "name": "Øygarden Musikklag",
-      "slug": "øygarden-musikklag",
-      "entries": [
+        },
         {
           "year": 1987,
-          "division": "3. divisjon",
-          "rank": 14,
-          "division_size": 16,
-          "absolute_position": 41,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 12,
+          "absolute_position": 5,
           "field_size": 43,
-          "points": 75.3,
+          "points": 88.3,
           "max_points": 100.0,
-          "conductor": "Stein Risløw",
+          "conductor": "Jan Magne Olsen",
           "pieces": [
-            "Four Little Maids (plikt)"
+            "Pageantry (plikt)"
           ]
-        }
-      ]
-    },
-    {
-      "name": "Bagn Musikkorps",
-      "slug": "bagn-musikkorps",
-      "entries": [
-        {
-          "year": 1987,
-          "division": "3. divisjon",
-          "rank": 17,
-          "division_size": 16,
-          "absolute_position": 44,
-          "field_size": 43,
-          "points": 73.0,
-          "max_points": 100.0,
-          "conductor": "Åge Evenstuen",
-          "pieces": [
-            "Four Little Maids (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Oscar's Brass",
-      "slug": "oscars-brass",
-      "entries": [
+        },
         {
           "year": 1988,
           "division": "1. divisjon",
@@ -32219,125 +33633,119 @@
           "field_size": 38,
           "points": 80.0,
           "max_points": 100.0,
-          "conductor": "Keith Wilkinson",
+          "conductor": "Espen Selvik",
           "pieces": [
             "Connotations (plikt)"
           ]
-        }
-      ]
-    },
-    {
-      "name": "SUBB",
-      "slug": "subb",
-      "entries": [
-        {
-          "year": 1988,
-          "division": "2. divisjon",
-          "rank": 5,
-          "division_size": 12,
-          "absolute_position": 17,
-          "field_size": 38,
-          "points": 88.5,
-          "max_points": 100.0,
-          "conductor": "Jens Torolf Larsen",
-          "pieces": [
-            "Harmonious Variations (plikt)"
-          ]
         },
         {
           "year": 1989,
-          "division": "2. divisjon",
-          "rank": 5,
-          "division_size": 12,
-          "absolute_position": 16,
+          "division": "1. divisjon",
+          "rank": 9,
+          "division_size": 11,
+          "absolute_position": 9,
           "field_size": 38,
-          "points": 87.5,
+          "points": 73.0,
           "max_points": 100.0,
-          "conductor": "Kjell E. Larsen",
+          "conductor": "Leif Værum Larsen",
           "pieces": [
-            "Essay for Brass Band (plikt)"
+            "Festival Music (Symphonic Suite) (plikt)"
           ]
         },
         {
-          "year": 1990,
-          "division": "2. divisjon",
-          "rank": 3,
+          "year": 1993,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 12,
+          "absolute_position": 12,
+          "field_size": 48,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Morten Hansen",
+          "pieces": [
+            "The plantgenets (plikt)"
+          ]
+        },
+        {
+          "year": 1994,
+          "division": "1. divisjon",
+          "rank": 6,
           "division_size": 12,
           "absolute_position": 13,
-          "field_size": 37,
+          "field_size": 45,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Morten Hansen",
+          "pieces": [
+            "Royal Parks (plikt)"
+          ]
+        },
+        {
+          "year": 1995,
+          "division": "1. divisjon",
+          "rank": 9,
+          "division_size": 12,
+          "absolute_position": 16,
+          "field_size": 46,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Morten Hansen",
+          "pieces": [
+            "Three Figures (plikt)"
+          ]
+        },
+        {
+          "year": 1997,
+          "division": "3. divisjon",
+          "rank": 1,
+          "division_size": 20,
+          "absolute_position": 31,
+          "field_size": 50,
+          "points": 96.0,
+          "max_points": 100.0,
+          "conductor": "Morten Hansen",
+          "pieces": [
+            "Variations on Laudate Dominum"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manger Old Star",
+      "slug": "manger-old-star",
+      "entries": [
+        {
+          "year": 1997,
+          "division": "3. divisjon",
+          "rank": 2,
+          "division_size": 20,
+          "absolute_position": 32,
+          "field_size": 50,
           "points": 92.0,
           "max_points": 100.0,
-          "conductor": "Kjell E. Larsen",
+          "conductor": "Tom Brevik",
           "pieces": [
-            "Abstractions (plikt)"
+            "Entertainments"
           ]
         }
       ]
     },
     {
-      "name": "Betlehem Musikkorps",
-      "slug": "betlehem-musikkorps",
+      "name": "Øygarden Ungdomskorps",
+      "slug": "øygarden-ungdomskorps",
       "entries": [
         {
-          "year": 1988,
+          "year": 1997,
           "division": "3. divisjon",
-          "rank": 9,
-          "division_size": 14,
-          "absolute_position": 33,
-          "field_size": 38,
+          "rank": 17,
+          "division_size": 20,
+          "absolute_position": 47,
+          "field_size": 50,
           "points": 82.0,
           "max_points": 100.0,
-          "conductor": "Gareth A. Jones",
+          "conductor": "Jon Henning Lien",
           "pieces": [
-            "Petite Suite de Ballet (plikt)"
-          ]
-        },
-        {
-          "year": 1989,
-          "division": "3. divisjon",
-          "rank": 8,
-          "division_size": 15,
-          "absolute_position": 31,
-          "field_size": 38,
-          "points": 85.0,
-          "max_points": 100.0,
-          "conductor": "Gareth A. Jones",
-          "pieces": [
-            "This Happy Island (plikt)"
-          ]
-        },
-        {
-          "year": 1992,
-          "division": "3. divisjon",
-          "rank": 6,
-          "division_size": 11,
-          "absolute_position": 33,
-          "field_size": 38,
-          "points": 89.0,
-          "max_points": 100.0,
-          "conductor": null,
-          "pieces": [
-            "Sinfonietta for Brass Band (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Namsos Brassband av 85",
-      "slug": "namsos-brassband-av-85",
-      "entries": [
-        {
-          "year": 1989,
-          "division": "3. divisjon",
-          "rank": 10,
-          "division_size": 15,
-          "absolute_position": 33,
-          "field_size": 38,
-          "points": 84.0,
-          "max_points": 100.0,
-          "conductor": "Viggo Rasmussen",
-          "pieces": [
-            "This Happy Island (plikt)"
+            "Occasion"
           ]
         }
       ]
@@ -32461,129 +33869,155 @@
       ]
     },
     {
-      "name": "Sør Rogaland Brass",
-      "slug": "sør-rogaland-brass",
+      "name": "Jølster musikklag",
+      "slug": "jølster-musikklag",
       "entries": [
         {
-          "year": 1990,
+          "year": 1995,
           "division": "2. divisjon",
-          "rank": 2,
-          "division_size": 12,
-          "absolute_position": 12,
-          "field_size": 37,
-          "points": 93.0,
+          "rank": 9,
+          "division_size": 13,
+          "absolute_position": 28,
+          "field_size": 46,
+          "points": 87.0,
           "max_points": 100.0,
-          "conductor": "Jens Torolf Larsen",
+          "conductor": "Gunnar Smaadal",
           "pieces": [
-            "Abstractions (plikt)"
+            "Variations on a Chord (plikt)"
           ]
         },
         {
-          "year": 1991,
-          "division": "1. divisjon",
+          "year": 1996,
+          "division": "2. divisjon",
           "rank": 10,
-          "division_size": 10,
-          "absolute_position": 10,
-          "field_size": 35,
-          "points": 86.0,
+          "division_size": 11,
+          "absolute_position": 30,
+          "field_size": 42,
+          "points": null,
           "max_points": 100.0,
-          "conductor": "Jens Torolf Larsen",
-          "pieces": [
-            "Ballet for Band (plikt)"
-          ]
+          "conductor": "Gunnar Smaadal",
+          "pieces": []
         }
       ]
     },
     {
-      "name": "Brass Symposium",
-      "slug": "brass-symposium",
+      "name": "Jaren Musikkforening",
+      "slug": "jaren-musikkforening",
       "entries": [
         {
-          "year": 1990,
-          "division": "3. divisjon",
-          "rank": 4,
-          "division_size": 15,
-          "absolute_position": 26,
-          "field_size": 37,
+          "year": 1995,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 13,
+          "absolute_position": 22,
+          "field_size": 46,
           "points": 93.0,
           "max_points": 100.0,
-          "conductor": "S. P. Rogers",
+          "conductor": "Trond Elnes",
           "pieces": [
-            "Reflections (plikt)"
+            "Variations on a Chord (plikt)"
           ]
         }
       ]
     },
     {
-      "name": "Strand Kr. Ungdomskorps",
-      "slug": "strand-kr-ungdomskorps",
+      "name": "Herre Ungdomskorps/Bamble Musikkorps",
+      "slug": "herre-ungdomskorpsbamble-musikkorps",
       "entries": [
         {
-          "year": 1990,
+          "year": 1994,
           "division": "3. divisjon",
-          "rank": 9,
-          "division_size": 15,
-          "absolute_position": 31,
-          "field_size": 37,
+          "rank": 7,
+          "division_size": 14,
+          "absolute_position": 38,
+          "field_size": 45,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Thorleif Andersen",
+          "pieces": [
+            "Brass Marmelade (plikt)"
+          ]
+        },
+        {
+          "year": 1995,
+          "division": "3. divisjon",
+          "rank": 7,
+          "division_size": 14,
+          "absolute_position": 39,
+          "field_size": 46,
           "points": 90.0,
           "max_points": 100.0,
-          "conductor": "Per Kristian Svensen",
+          "conductor": "Thorleif Andersen",
           "pieces": [
-            "Reflections (plikt)"
+            "Little Suite for Brass [Arnold]"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brummund Musikkforening",
+      "slug": "brummund-musikkforening",
+      "entries": [
+        {
+          "year": 1995,
+          "division": "3. divisjon",
+          "rank": 8,
+          "division_size": 14,
+          "absolute_position": 40,
+          "field_size": 46,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Njål L. Enger",
+          "pieces": [
+            "Birth of a New Day"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brumund Musikkforening",
+      "slug": "brumund-musikkforening",
+      "entries": [
+        {
+          "year": 1992,
+          "division": "3. divisjon",
+          "rank": 8,
+          "division_size": 11,
+          "absolute_position": 35,
+          "field_size": 38,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": null,
+          "pieces": [
+            "Sinfonietta for Brass Band (plikt)"
           ]
         },
         {
           "year": 1993,
-          "division": "2. divisjon",
-          "rank": 11,
-          "division_size": 12,
-          "absolute_position": 30,
-          "field_size": 48,
-          "points": 81.0,
-          "max_points": 100.0,
-          "conductor": "Paul Farr",
-          "pieces": [
-            "Chorale and Variations (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Molde brass Band",
-      "slug": "molde-brass-band",
-      "entries": [
-        {
-          "year": 1991,
-          "division": "2. divisjon",
-          "rank": 7,
-          "division_size": 11,
-          "absolute_position": 17,
-          "field_size": 35,
-          "points": 86.0,
-          "max_points": 100.0,
-          "conductor": "Kim Lofthouse",
-          "pieces": [
-            "Excalibur (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Florø Honmusikk",
-      "slug": "florø-honmusikk",
-      "entries": [
-        {
-          "year": 1991,
           "division": "3. divisjon",
-          "rank": 4,
-          "division_size": 14,
-          "absolute_position": 25,
-          "field_size": 35,
-          "points": 8.0,
+          "rank": 6,
+          "division_size": 17,
+          "absolute_position": 37,
+          "field_size": 48,
+          "points": 90.0,
           "max_points": 100.0,
-          "conductor": "Øyvind Brende",
+          "conductor": "Thorbjørn Lunde",
           "pieces": [
-            "Fanfare and Variations (plikt)"
+            "Amaranth (plikt)"
+          ]
+        },
+        {
+          "year": 1994,
+          "division": "3. divisjon",
+          "rank": 3,
+          "division_size": 14,
+          "absolute_position": 34,
+          "field_size": 45,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Thorbjørn Lunde",
+          "pieces": [
+            "Brass Marmelade (plikt)"
           ]
         }
       ]
@@ -32651,143 +34085,35 @@
       ]
     },
     {
-      "name": "SR-Brass",
-      "slug": "srbrass",
+      "name": "Strand Kr. Ungdomskorps",
+      "slug": "strand-kr-ungdomskorps",
       "entries": [
         {
-          "year": 1992,
-          "division": "2. divisjon",
-          "rank": 4,
+          "year": 1990,
+          "division": "3. divisjon",
+          "rank": 9,
           "division_size": 15,
-          "absolute_position": 16,
-          "field_size": 38,
+          "absolute_position": 31,
+          "field_size": 37,
           "points": 90.0,
           "max_points": 100.0,
-          "conductor": null,
+          "conductor": "Per Kristian Svensen",
           "pieces": [
-            "Rhapsody in Brass (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Strand Kristelige Ungdomskorps",
-      "slug": "strand-kristelige-ungdomskorps",
-      "entries": [
-        {
-          "year": 1992,
-          "division": "2. divisjon",
-          "rank": 10,
-          "division_size": 15,
-          "absolute_position": 22,
-          "field_size": 38,
-          "points": 85.0,
-          "max_points": 100.0,
-          "conductor": null,
-          "pieces": [
-            "Rhapsody in Brass (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Brumund Musikkforening",
-      "slug": "brumund-musikkforening",
-      "entries": [
-        {
-          "year": 1992,
-          "division": "3. divisjon",
-          "rank": 8,
-          "division_size": 11,
-          "absolute_position": 35,
-          "field_size": 38,
-          "points": 87.0,
-          "max_points": 100.0,
-          "conductor": null,
-          "pieces": [
-            "Sinfonietta for Brass Band (plikt)"
+            "Reflections (plikt)"
           ]
         },
         {
           "year": 1993,
-          "division": "3. divisjon",
-          "rank": 6,
-          "division_size": 17,
-          "absolute_position": 37,
-          "field_size": 48,
-          "points": 90.0,
-          "max_points": 100.0,
-          "conductor": "Thorbjørn Lunde",
-          "pieces": [
-            "Amaranth (plikt)"
-          ]
-        },
-        {
-          "year": 1994,
-          "division": "3. divisjon",
-          "rank": 3,
-          "division_size": 14,
-          "absolute_position": 34,
-          "field_size": 45,
-          "points": 91.0,
-          "max_points": 100.0,
-          "conductor": "Thorbjørn Lunde",
-          "pieces": [
-            "Brass Marmelade (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Rissa Brass",
-      "slug": "rissa-brass",
-      "entries": [
-        {
-          "year": 1992,
-          "division": "3. divisjon",
-          "rank": 10,
-          "division_size": 11,
-          "absolute_position": 37,
-          "field_size": 38,
-          "points": 83.0,
-          "max_points": 100.0,
-          "conductor": null,
-          "pieces": [
-            "Sinfonietta for Brass Band (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Tomra Brass",
-      "slug": "tomra-brass",
-      "entries": [
-        {
-          "year": 1993,
-          "division": "1. divisjon",
-          "rank": 1,
+          "division": "2. divisjon",
+          "rank": 11,
           "division_size": 12,
-          "absolute_position": 8,
+          "absolute_position": 30,
           "field_size": 48,
-          "points": 92.0,
+          "points": 81.0,
           "max_points": 100.0,
-          "conductor": "Roy Newsome",
+          "conductor": "Paul Farr",
           "pieces": [
-            "The plantgenets (plikt)"
-          ]
-        },
-        {
-          "year": 1997,
-          "division": "1. divisjon",
-          "rank": 5,
-          "division_size": 12,
-          "absolute_position": 12,
-          "field_size": 50,
-          "points": 91.0,
-          "max_points": 100.0,
-          "conductor": "Ray Farr",
-          "pieces": [
-            "Paganini Variations"
+            "Chorale and Variations (plikt)"
           ]
         }
       ]
@@ -32833,601 +34159,1935 @@
       ]
     },
     {
-      "name": "Ålgård Musikkorps",
-      "slug": "ålgård-musikkorps",
+      "name": "SR-Brass",
+      "slug": "srbrass",
       "entries": [
         {
-          "year": 1993,
-          "division": "3. divisjon",
-          "rank": 11,
-          "division_size": 17,
-          "absolute_position": 42,
-          "field_size": 48,
-          "points": 85.0,
-          "max_points": 100.0,
-          "conductor": "Helge Jan Ingebrigtsen",
-          "pieces": [
-            "Amaranth (plikt)"
-          ]
-        },
-        {
-          "year": 1994,
-          "division": "3. divisjon",
-          "rank": 8,
-          "division_size": 14,
-          "absolute_position": 39,
-          "field_size": 45,
-          "points": 86.5,
-          "max_points": 100.0,
-          "conductor": "Geir Karlson",
-          "pieces": [
-            "Brass Marmelade (plikt)"
-          ]
-        },
-        {
-          "year": 1995,
-          "division": "3. divisjon",
-          "rank": 6,
-          "division_size": 14,
-          "absolute_position": 38,
-          "field_size": 46,
-          "points": 91.0,
-          "max_points": 100.0,
-          "conductor": "Geir Karlson",
-          "pieces": []
-        },
-        {
-          "year": 1997,
-          "division": "3. divisjon",
-          "rank": 3,
-          "division_size": 20,
-          "absolute_position": 33,
-          "field_size": 50,
-          "points": 91.0,
-          "max_points": 100.0,
-          "conductor": "Geir Karlson",
-          "pieces": [
-            "Music for a Festival [Sparke]"
-          ]
-        },
-        {
-          "year": 1998,
-          "division": "3. divisjon",
-          "rank": 16,
-          "division_size": 16,
-          "absolute_position": 51,
-          "field_size": 51,
-          "points": 80.0,
-          "max_points": 100.0,
-          "conductor": "Tor Arne Gjerdevik",
-          "pieces": [
-            "Dimensions"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Herre Ungdomskorps/Bamble Musikkorps",
-      "slug": "herre-ungdomskorpsbamble-musikkorps",
-      "entries": [
-        {
-          "year": 1994,
-          "division": "3. divisjon",
-          "rank": 7,
-          "division_size": 14,
-          "absolute_position": 38,
-          "field_size": 45,
-          "points": 87.0,
-          "max_points": 100.0,
-          "conductor": "Thorleif Andersen",
-          "pieces": [
-            "Brass Marmelade (plikt)"
-          ]
-        },
-        {
-          "year": 1995,
-          "division": "3. divisjon",
-          "rank": 7,
-          "division_size": 14,
-          "absolute_position": 39,
-          "field_size": 46,
+          "year": 1992,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 15,
+          "absolute_position": 16,
+          "field_size": 38,
           "points": 90.0,
           "max_points": 100.0,
-          "conductor": "Thorleif Andersen",
+          "conductor": null,
           "pieces": [
-            "Little Suite for Brass [Arnold]"
+            "Rhapsody in Brass (plikt)"
           ]
         }
       ]
     },
     {
-      "name": "Rong Musikklag",
-      "slug": "rong-musikklag",
+      "name": "Ungdomskorpset Nordlys",
+      "slug": "ungdomskorpset-nordlys",
       "entries": [
         {
-          "year": 1994,
-          "division": "3. divisjon",
-          "rank": 14,
-          "division_size": 14,
-          "absolute_position": 45,
-          "field_size": 45,
-          "points": 78.0,
-          "max_points": 100.0,
-          "conductor": "Kristin Myrmel",
-          "pieces": [
-            "Brass Marmelade (plikt)"
-          ]
-        },
-        {
-          "year": 1999,
-          "division": "3. divisjon",
-          "rank": 14,
-          "division_size": 19,
-          "absolute_position": 47,
-          "field_size": 52,
-          "points": 83.0,
-          "max_points": 100.0,
-          "conductor": "Jason Burn",
-          "pieces": [
-            "Chorale and Variations [Lucas]"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Jaren Musikkforening",
-      "slug": "jaren-musikkforening",
-      "entries": [
-        {
-          "year": 1995,
-          "division": "2. divisjon",
-          "rank": 3,
-          "division_size": 13,
-          "absolute_position": 22,
-          "field_size": 46,
-          "points": 93.0,
-          "max_points": 100.0,
-          "conductor": "Trond Elnes",
-          "pieces": [
-            "Variations on a Chord (plikt)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Jølster musikklag",
-      "slug": "jølster-musikklag",
-      "entries": [
-        {
-          "year": 1995,
+          "year": 1983,
           "division": "2. divisjon",
           "rank": 9,
-          "division_size": 13,
-          "absolute_position": 28,
-          "field_size": 46,
-          "points": 87.0,
-          "max_points": 100.0,
-          "conductor": "Gunnar Smaadal",
-          "pieces": [
-            "Variations on a Chord (plikt)"
-          ]
-        },
-        {
-          "year": 1996,
-          "division": "2. divisjon",
-          "rank": 10,
-          "division_size": 11,
-          "absolute_position": 30,
-          "field_size": 42,
-          "points": null,
-          "max_points": 100.0,
-          "conductor": "Gunnar Smaadal",
-          "pieces": []
-        }
-      ]
-    },
-    {
-      "name": "Brummund Musikkforening",
-      "slug": "brummund-musikkforening",
-      "entries": [
-        {
-          "year": 1995,
-          "division": "3. divisjon",
-          "rank": 8,
-          "division_size": 14,
-          "absolute_position": 40,
-          "field_size": 46,
-          "points": 89.0,
-          "max_points": 100.0,
-          "conductor": "Njål L. Enger",
-          "pieces": [
-            "Birth of a New Day"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Rong Musikkorps",
-      "slug": "rong-musikkorps",
-      "entries": [
-        {
-          "year": 1995,
-          "division": "3. divisjon",
-          "rank": 10,
-          "division_size": 14,
-          "absolute_position": 42,
-          "field_size": 46,
-          "points": 88.0,
-          "max_points": 100.0,
-          "conductor": "Kristin Myrmel",
-          "pieces": [
-            "A Moorside Suite"
-          ]
-        },
-        {
-          "year": 1998,
-          "division": "3. divisjon",
-          "rank": 8,
           "division_size": 16,
-          "absolute_position": 43,
-          "field_size": 51,
-          "points": 87.0,
-          "max_points": 100.0,
-          "conductor": "Jason Burn",
-          "pieces": [
-            "Cartoon for Brass Band"
-          ]
-        },
-        {
-          "year": 2000,
-          "division": "3. divisjon",
-          "rank": 9,
-          "division_size": 20,
-          "absolute_position": 44,
-          "field_size": 55,
-          "points": 88.5,
-          "max_points": 100.0,
-          "conductor": "Jason Burn",
-          "pieces": [
-            "Variations on Laudate Dominum"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Laukvik Brass",
-      "slug": "laukvik-brass",
-      "entries": [
-        {
-          "year": 1996,
-          "division": "3. divisjon",
-          "rank": 3,
-          "division_size": 11,
-          "absolute_position": 34,
-          "field_size": 42,
-          "points": 91.0,
-          "max_points": 100.0,
-          "conductor": "Hugo Bjørnstad",
-          "pieces": [
-            "Partita [Sparke]"
-          ]
-        },
-        {
-          "year": 1997,
-          "division": "2. divisjon",
-          "rank": 3,
-          "division_size": 11,
-          "absolute_position": 22,
-          "field_size": 50,
-          "points": 91.0,
-          "max_points": 100.0,
-          "conductor": "Hugo Bjørnstad",
-          "pieces": [
-            "Partita [Sparke]"
-          ]
-        },
-        {
-          "year": 1998,
-          "division": "2. divisjon",
-          "rank": 7,
-          "division_size": 15,
-          "absolute_position": 27,
-          "field_size": 51,
-          "points": 88.0,
-          "max_points": 100.0,
-          "conductor": "Hugo Bjørnstad",
-          "pieces": [
-            "Spectrum [Vinter]"
-          ]
-        },
-        {
-          "year": 1999,
-          "division": "2. divisjon",
-          "rank": 4,
-          "division_size": 13,
-          "absolute_position": 24,
-          "field_size": 52,
-          "points": 91.0,
-          "max_points": 100.0,
-          "conductor": "Hugo Bjørnstad",
-          "pieces": [
-            "The Year of the Dragon"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Manger Old Star",
-      "slug": "manger-old-star",
-      "entries": [
-        {
-          "year": 1997,
-          "division": "3. divisjon",
-          "rank": 2,
-          "division_size": 20,
-          "absolute_position": 32,
-          "field_size": 50,
-          "points": 92.0,
-          "max_points": 100.0,
-          "conductor": "Tom Brevik",
-          "pieces": [
-            "Entertainments"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Austrheim-Lindås Musikklag",
-      "slug": "austrheimlindås-musikklag",
-      "entries": [
-        {
-          "year": 1997,
-          "division": "3. divisjon",
-          "rank": 5,
-          "division_size": 20,
-          "absolute_position": 35,
-          "field_size": 50,
-          "points": 89.0,
-          "max_points": 100.0,
-          "conductor": "Knut Harald Rydland",
-          "pieces": [
-            "A Saddleworth Festival Overture"
-          ]
-        },
-        {
-          "year": 1998,
-          "division": "3. divisjon",
-          "rank": 1,
-          "division_size": 16,
-          "absolute_position": 36,
-          "field_size": 51,
-          "points": 94.0,
-          "max_points": 100.0,
-          "conductor": "Knut Harald Rydland",
-          "pieces": [
-            "Rhapsody in Brass"
-          ]
-        },
-        {
-          "year": 1999,
-          "division": "2. divisjon",
-          "rank": 8,
-          "division_size": 13,
-          "absolute_position": 28,
-          "field_size": 52,
-          "points": 87.0,
-          "max_points": 100.0,
-          "conductor": "Knut Harald Rydland",
-          "pieces": [
-            "Royal Parks"
-          ]
-        },
-        {
-          "year": 2000,
-          "division": "2. divisjon",
-          "rank": 12,
-          "division_size": 15,
-          "absolute_position": 32,
-          "field_size": 55,
-          "points": 84.0,
-          "max_points": 100.0,
-          "conductor": "Knut Harald Rydland",
-          "pieces": [
-            "Firestorm"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Øygarden Ungdomskorps",
-      "slug": "øygarden-ungdomskorps",
-      "entries": [
-        {
-          "year": 1997,
-          "division": "3. divisjon",
-          "rank": 17,
-          "division_size": 20,
-          "absolute_position": 47,
-          "field_size": 50,
+          "absolute_position": 15,
+          "field_size": 26,
           "points": 82.0,
           "max_points": 100.0,
-          "conductor": "Jon Henning Lien",
+          "conductor": "Morten Bratland",
           "pieces": [
-            "Occasion"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Lismarkens Musikkforening",
-      "slug": "lismarkens-musikkforening",
-      "entries": [
-        {
-          "year": 1998,
-          "division": "3. divisjon",
-          "rank": 10,
-          "division_size": 16,
-          "absolute_position": 45,
-          "field_size": 51,
-          "points": 86.0,
-          "max_points": 100.0,
-          "conductor": "Botolv Gjeldaker",
-          "pieces": [
-            "Suite in Bb [Jacob]"
+            "The Prizewinners (plikt)"
           ]
         },
         {
-          "year": 2000,
-          "division": "3. divisjon",
-          "rank": 16,
-          "division_size": 20,
-          "absolute_position": 51,
-          "field_size": 55,
-          "points": 84.0,
-          "max_points": 100.0,
-          "conductor": "Botolv Gjeldaker",
-          "pieces": [
-            "Brass Dynamics"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Hasle Ungdomsbrassband",
-      "slug": "hasle-ungdomsbrassband",
-      "entries": [
-        {
-          "year": 1999,
-          "division": "3. divisjon",
-          "rank": 13,
-          "division_size": 19,
-          "absolute_position": 46,
-          "field_size": 52,
-          "points": 84.0,
-          "max_points": 100.0,
-          "conductor": "Sissel Larsen",
-          "pieces": [
-            "Birth of a New Day"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Lismarken Musikforening",
-      "slug": "lismarken-musikforening",
-      "entries": [
-        {
-          "year": 1999,
-          "division": "3. divisjon",
-          "rank": 18,
-          "division_size": 19,
-          "absolute_position": 51,
-          "field_size": 52,
-          "points": 81.0,
-          "max_points": 100.0,
-          "conductor": "Botolv Gjeldaker",
-          "pieces": [
-            "Fanfare and Variations"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Molde Brass",
-      "slug": "molde-brass",
-      "entries": [
-        {
-          "year": 2000,
-          "division": "1. divisjon",
-          "rank": 4,
-          "division_size": 12,
-          "absolute_position": 12,
-          "field_size": 55,
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 14,
+          "absolute_position": 10,
+          "field_size": 28,
           "points": 89.0,
           "max_points": 100.0,
-          "conductor": "Alan Morrison",
+          "conductor": "Morten Bratland",
           "pieces": [
-            "Paganini Variations"
+            "Kenilworth (plikt)"
           ]
-        }
-      ]
-    },
-    {
-      "name": "Eidsberg Brass Band",
-      "slug": "eidsberg-brass-band",
-      "entries": [
+        },
         {
-          "year": 2000,
+          "year": 1985,
           "division": "2. divisjon",
-          "rank": 13,
-          "division_size": 15,
-          "absolute_position": 33,
-          "field_size": 55,
-          "points": 83.0,
+          "rank": 5,
+          "division_size": 13,
+          "absolute_position": 12,
+          "field_size": 25,
+          "points": 83.6,
           "max_points": 100.0,
-          "conductor": "Hans Petter Ringstad",
+          "conductor": "Morten Bratland",
           "pieces": [
-            "The Plantagenets"
+            "Culloden Moor (plikt)"
           ]
-        }
-      ]
-    },
-    {
-      "name": "Oltedal og Ålgård Musikkorps",
-      "slug": "oltedal-og-ålgård-musikkorps",
-      "entries": [
+        },
         {
-          "year": 2000,
-          "division": "3. divisjon",
-          "rank": 3,
-          "division_size": 20,
-          "absolute_position": 38,
-          "field_size": 55,
-          "points": 92.0,
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 12,
+          "division_size": 17,
+          "absolute_position": 19,
+          "field_size": 38,
+          "points": 80.7,
           "max_points": 100.0,
           "conductor": "Morten Hansen",
           "pieces": [
-            "A Celtic Suite"
+            "Vizcaya (plikt)"
+          ]
+        },
+        {
+          "year": 1987,
+          "division": "2. divisjon",
+          "rank": 13,
+          "division_size": 15,
+          "absolute_position": 25,
+          "field_size": 43,
+          "points": 75.6,
+          "max_points": 100.0,
+          "conductor": "Morten Bratland",
+          "pieces": [
+            "Main Street (plikt)"
+          ]
+        },
+        {
+          "year": 1988,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 12,
+          "absolute_position": 19,
+          "field_size": 38,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Helge Haukås",
+          "pieces": [
+            "Harmonious Variations (plikt)"
+          ]
+        },
+        {
+          "year": 1991,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 11,
+          "absolute_position": 13,
+          "field_size": 35,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Yngve Nikolaisen",
+          "pieces": [
+            "Excalibur (plikt)"
+          ]
+        },
+        {
+          "year": 1992,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 15,
+          "absolute_position": 17,
+          "field_size": 38,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Morten Hansen",
+          "pieces": [
+            "Rhapsody in Brass (plikt)"
           ]
         }
       ]
     },
     {
-      "name": "Brumund og Nordaasen Musikkforening",
-      "slug": "brumund-og-nordaasen-musikkforening",
+      "name": "Strand Kristelige Ungdomskorps",
+      "slug": "strand-kristelige-ungdomskorps",
       "entries": [
         {
-          "year": 2000,
+          "year": 1992,
+          "division": "2. divisjon",
+          "rank": 10,
+          "division_size": 15,
+          "absolute_position": 22,
+          "field_size": 38,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": null,
+          "pieces": [
+            "Rhapsody in Brass (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Betlehem Musikkorps",
+      "slug": "betlehem-musikkorps",
+      "entries": [
+        {
+          "year": 1981,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 6,
+          "absolute_position": 5,
+          "field_size": 16,
+          "points": 81.0,
+          "max_points": 100.0,
+          "conductor": "Gareth A. Jones",
+          "pieces": [
+            "Spectrum (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "1. divisjon",
+          "rank": 4,
+          "division_size": 7,
+          "absolute_position": 4,
+          "field_size": 22,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Gareth A. Jones",
+          "pieces": [
+            "The Land of the Long White Cloud - Aotearoa (plikt)"
+          ]
+        },
+        {
+          "year": 1988,
           "division": "3. divisjon",
-          "rank": 15,
-          "division_size": 20,
-          "absolute_position": 50,
-          "field_size": 55,
-          "points": 84.5,
+          "rank": 9,
+          "division_size": 14,
+          "absolute_position": 33,
+          "field_size": 38,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Gareth A. Jones",
+          "pieces": [
+            "Petite Suite de Ballet (plikt)"
+          ]
+        },
+        {
+          "year": 1989,
+          "division": "3. divisjon",
+          "rank": 8,
+          "division_size": 15,
+          "absolute_position": 31,
+          "field_size": 38,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Gareth A. Jones",
+          "pieces": [
+            "This Happy Island (plikt)"
+          ]
+        },
+        {
+          "year": 1992,
+          "division": "3. divisjon",
+          "rank": 6,
+          "division_size": 11,
+          "absolute_position": 33,
+          "field_size": 38,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": null,
+          "pieces": [
+            "Sinfonietta for Brass Band (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Musikklaget Bergshorn",
+      "slug": "musikklaget-bergshorn",
+      "entries": [
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 2,
+          "division_size": 14,
+          "absolute_position": 26,
+          "field_size": 38,
+          "points": 81.7,
+          "max_points": 100.0,
+          "conductor": "Ståle Andreas Stendahl",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        },
+        {
+          "year": 1987,
+          "division": "3. divisjon",
+          "rank": 3,
+          "division_size": 16,
+          "absolute_position": 30,
+          "field_size": 43,
+          "points": 87.0,
           "max_points": 100.0,
           "conductor": "Nils Magne Abelseth",
           "pieces": [
-            "Brass Dynamics"
+            "Four Little Maids (plikt)"
+          ]
+        },
+        {
+          "year": 1989,
+          "division": "3. divisjon",
+          "rank": 11,
+          "division_size": 15,
+          "absolute_position": 34,
+          "field_size": 38,
+          "points": 83.5,
+          "max_points": 100.0,
+          "conductor": "Tor Haram",
+          "pieces": [
+            "This Happy Island (plikt)"
+          ]
+        },
+        {
+          "year": 1990,
+          "division": "3. divisjon",
+          "rank": 15,
+          "division_size": 15,
+          "absolute_position": 37,
+          "field_size": 37,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Tor Haram",
+          "pieces": [
+            "Reflections (plikt)"
+          ]
+        },
+        {
+          "year": 1991,
+          "division": "3. divisjon",
+          "rank": 10,
+          "division_size": 14,
+          "absolute_position": 31,
+          "field_size": 35,
+          "points": 3.0,
+          "max_points": 100.0,
+          "conductor": "Arnfinn Dalhaug",
+          "pieces": [
+            "Fanfare and Variations (plikt)"
+          ]
+        },
+        {
+          "year": 1992,
+          "division": "3. divisjon",
+          "rank": 9,
+          "division_size": 11,
+          "absolute_position": 36,
+          "field_size": 38,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": null,
+          "pieces": [
+            "Sinfonietta for Brass Band (plikt)"
           ]
         }
       ]
     },
     {
-      "name": "Hasle Ungdoms Brassband",
-      "slug": "hasle-ungdoms-brassband",
+      "name": "Rissa Brass",
+      "slug": "rissa-brass",
       "entries": [
         {
-          "year": 2000,
+          "year": 1992,
           "division": "3. divisjon",
-          "rank": 20,
-          "division_size": 20,
-          "absolute_position": 55,
-          "field_size": 55,
-          "points": 78.0,
+          "rank": 10,
+          "division_size": 11,
+          "absolute_position": 37,
+          "field_size": 38,
+          "points": 83.0,
           "max_points": 100.0,
-          "conductor": "Sissel Larsen",
+          "conductor": null,
           "pieces": [
-            "Legend in Brass"
+            "Sinfonietta for Brass Band (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUBB Brass Sola",
+      "slug": "subb-brass-sola",
+      "entries": [
+        {
+          "year": 1987,
+          "division": "2. divisjon",
+          "rank": 1,
+          "division_size": 15,
+          "absolute_position": 13,
+          "field_size": 43,
+          "points": 91.6,
+          "max_points": 100.0,
+          "conductor": "Jens Torolf Larsen",
+          "pieces": [
+            "Main Street (plikt)"
+          ]
+        },
+        {
+          "year": 1991,
+          "division": "1. divisjon",
+          "rank": 9,
+          "division_size": 10,
+          "absolute_position": 9,
+          "field_size": 35,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Kjell E. Larsen",
+          "pieces": [
+            "Ballet for Band (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sør Rogaland Brass",
+      "slug": "sør-rogaland-brass",
+      "entries": [
+        {
+          "year": 1990,
+          "division": "2. divisjon",
+          "rank": 2,
+          "division_size": 12,
+          "absolute_position": 12,
+          "field_size": 37,
+          "points": 93.0,
+          "max_points": 100.0,
+          "conductor": "Jens Torolf Larsen",
+          "pieces": [
+            "Abstractions (plikt)"
+          ]
+        },
+        {
+          "year": 1991,
+          "division": "1. divisjon",
+          "rank": 10,
+          "division_size": 10,
+          "absolute_position": 10,
+          "field_size": 35,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Jens Torolf Larsen",
+          "pieces": [
+            "Ballet for Band (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Molde brass Band",
+      "slug": "molde-brass-band",
+      "entries": [
+        {
+          "year": 1991,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 11,
+          "absolute_position": 17,
+          "field_size": 35,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Kim Lofthouse",
+          "pieces": [
+            "Excalibur (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Florø Honmusikk",
+      "slug": "florø-honmusikk",
+      "entries": [
+        {
+          "year": 1991,
+          "division": "3. divisjon",
+          "rank": 4,
+          "division_size": 14,
+          "absolute_position": 25,
+          "field_size": 35,
+          "points": 8.0,
+          "max_points": 100.0,
+          "conductor": "Øyvind Brende",
+          "pieces": [
+            "Fanfare and Variations (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Metronom 66",
+      "slug": "metronom-66",
+      "entries": [
+        {
+          "year": 1979,
+          "division": "1. divisjon",
+          "rank": 1,
+          "division_size": 3,
+          "absolute_position": 1,
+          "field_size": 10,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Kjell Martinsen",
+          "pieces": [
+            "The Belmont Variations (plikt)"
+          ]
+        },
+        {
+          "year": 1980,
+          "division": "1. divisjon",
+          "rank": 2,
+          "division_size": 9,
+          "absolute_position": 2,
+          "field_size": 16,
+          "points": 94.66,
+          "max_points": 100.0,
+          "conductor": "Kjell Martinsen",
+          "pieces": [
+            "Entertainments (plikt)"
+          ]
+        },
+        {
+          "year": 1981,
+          "division": "1. divisjon",
+          "rank": 3,
+          "division_size": 6,
+          "absolute_position": 3,
+          "field_size": 16,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Tom Skjellum",
+          "pieces": [
+            "Spectrum (plikt)"
+          ]
+        },
+        {
+          "year": 1987,
+          "division": "1. divisjon",
+          "rank": 3,
+          "division_size": 12,
+          "absolute_position": 3,
+          "field_size": 43,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "Nils Harry Bjerk",
+          "pieces": [
+            "Pageantry (plikt)"
+          ]
+        },
+        {
+          "year": 1988,
+          "division": "1. divisjon",
+          "rank": 10,
+          "division_size": 12,
+          "absolute_position": 10,
+          "field_size": 38,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Michael Antrobus",
+          "pieces": [
+            "Connotations (plikt)"
+          ]
+        },
+        {
+          "year": 1990,
+          "division": "1. divisjon",
+          "rank": 7,
+          "division_size": 10,
+          "absolute_position": 7,
+          "field_size": 37,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Sverre Caspersen",
+          "pieces": [
+            "Blitz (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bærum Brass",
+      "slug": "bærum-brass",
+      "entries": [
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 17,
+          "absolute_position": 14,
+          "field_size": 38,
+          "points": 87.4,
+          "max_points": 100.0,
+          "conductor": "Lars Næss",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
+        {
+          "year": 1987,
+          "division": "1. divisjon",
+          "rank": 12,
+          "division_size": 12,
+          "absolute_position": 12,
+          "field_size": 43,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Gareth A. Jones",
+          "pieces": [
+            "Pageantry (plikt)"
+          ]
+        },
+        {
+          "year": 1988,
+          "division": "1. divisjon",
+          "rank": 6,
+          "division_size": 12,
+          "absolute_position": 6,
+          "field_size": 38,
+          "points": 86.3,
+          "max_points": 100.0,
+          "conductor": "Gareth A. Jones",
+          "pieces": [
+            "Connotations (plikt)"
+          ]
+        },
+        {
+          "year": 1989,
+          "division": "1. divisjon",
+          "rank": 10,
+          "division_size": 11,
+          "absolute_position": 10,
+          "field_size": 38,
+          "points": 9.0,
+          "max_points": 100.0,
+          "conductor": "Andrew I. Boyle",
+          "pieces": [
+            "Festival Music (Symphonic Suite) (plikt)"
+          ]
+        },
+        {
+          "year": 1990,
+          "division": "1. divisjon",
+          "rank": 8,
+          "division_size": 10,
+          "absolute_position": 8,
+          "field_size": 37,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "Bjørn Mellemberg",
+          "pieces": [
+            "Blitz (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUBB",
+      "slug": "subb",
+      "entries": [
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 11,
+          "division_size": 17,
+          "absolute_position": 18,
+          "field_size": 38,
+          "points": 81.7,
+          "max_points": 100.0,
+          "conductor": "Jens Torolf Larsen",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
+        {
+          "year": 1988,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 12,
+          "absolute_position": 17,
+          "field_size": 38,
+          "points": 88.5,
+          "max_points": 100.0,
+          "conductor": "Jens Torolf Larsen",
+          "pieces": [
+            "Harmonious Variations (plikt)"
+          ]
+        },
+        {
+          "year": 1989,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 12,
+          "absolute_position": 16,
+          "field_size": 38,
+          "points": 87.5,
+          "max_points": 100.0,
+          "conductor": "Kjell E. Larsen",
+          "pieces": [
+            "Essay for Brass Band (plikt)"
+          ]
+        },
+        {
+          "year": 1990,
+          "division": "2. divisjon",
+          "rank": 3,
+          "division_size": 12,
+          "absolute_position": 13,
+          "field_size": 37,
+          "points": 92.0,
+          "max_points": 100.0,
+          "conductor": "Kjell E. Larsen",
+          "pieces": [
+            "Abstractions (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brass-85",
+      "slug": "brass85",
+      "entries": [
+        {
+          "year": 1987,
+          "division": "2. divisjon",
+          "rank": 12,
+          "division_size": 15,
+          "absolute_position": 24,
+          "field_size": 43,
+          "points": 77.6,
+          "max_points": 100.0,
+          "conductor": "Heidi Hesselberg Løken",
+          "pieces": [
+            "Main Street (plikt)"
+          ]
+        },
+        {
+          "year": 1988,
+          "division": "2. divisjon",
+          "rank": 11,
+          "division_size": 12,
+          "absolute_position": 23,
+          "field_size": 38,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Heidi Hesselberg Løken",
+          "pieces": [
+            "Harmonious Variations (plikt)"
+          ]
+        },
+        {
+          "year": 1989,
+          "division": "2. divisjon",
+          "rank": 9,
+          "division_size": 12,
+          "absolute_position": 20,
+          "field_size": 38,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Heidi Hesselberg Løken",
+          "pieces": [
+            "Essay for Brass Band (plikt)"
+          ]
+        },
+        {
+          "year": 1990,
+          "division": "2. divisjon",
+          "rank": 12,
+          "division_size": 12,
+          "absolute_position": 22,
+          "field_size": 37,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Heidi Hesselberg Løken",
+          "pieces": [
+            "Abstractions (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brass Symposium",
+      "slug": "brass-symposium",
+      "entries": [
+        {
+          "year": 1990,
+          "division": "3. divisjon",
+          "rank": 4,
+          "division_size": 15,
+          "absolute_position": 26,
+          "field_size": 37,
+          "points": 93.0,
+          "max_points": 100.0,
+          "conductor": "S. P. Rogers",
+          "pieces": [
+            "Reflections (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eidsberg Brass",
+      "slug": "eidsberg-brass",
+      "entries": [
+        {
+          "year": 1980,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 9,
+          "absolute_position": 5,
+          "field_size": 16,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Gareth A. Jones",
+          "pieces": [
+            "Entertainments (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 14,
+          "division_size": 17,
+          "absolute_position": 21,
+          "field_size": 38,
+          "points": 78.4,
+          "max_points": 100.0,
+          "conductor": "Ivar Caspersen",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
+        {
+          "year": 1987,
+          "division": "2. divisjon",
+          "rank": 6,
+          "division_size": 15,
+          "absolute_position": 18,
+          "field_size": 43,
+          "points": 84.3,
+          "max_points": 100.0,
+          "conductor": "Sverre Caspersen",
+          "pieces": [
+            "Main Street (plikt)"
+          ]
+        },
+        {
+          "year": 1988,
+          "division": "2. divisjon",
+          "rank": 8,
+          "division_size": 12,
+          "absolute_position": 20,
+          "field_size": 38,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Sverre Caspersen",
+          "pieces": [
+            "Harmonious Variations (plikt)"
+          ]
+        },
+        {
+          "year": 1989,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 12,
+          "absolute_position": 15,
+          "field_size": 38,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Sverre Caspersen",
+          "pieces": [
+            "Essay for Brass Band (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Namsos Brassband av 85",
+      "slug": "namsos-brassband-av-85",
+      "entries": [
+        {
+          "year": 1989,
+          "division": "3. divisjon",
+          "rank": 10,
+          "division_size": 15,
+          "absolute_position": 33,
+          "field_size": 38,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Viggo Rasmussen",
+          "pieces": [
+            "This Happy Island (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oscar's Brass",
+      "slug": "oscars-brass",
+      "entries": [
+        {
+          "year": 1988,
+          "division": "1. divisjon",
+          "rank": 11,
+          "division_size": 12,
+          "absolute_position": 11,
+          "field_size": 38,
+          "points": 80.0,
+          "max_points": 100.0,
+          "conductor": "Keith Wilkinson",
+          "pieces": [
+            "Connotations (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sandnes Messingorkester",
+      "slug": "sandnes-messingorkester",
+      "entries": [
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 12,
+          "division_size": 14,
+          "absolute_position": 19,
+          "field_size": 28,
+          "points": 81.6,
+          "max_points": 100.0,
+          "conductor": "Ingvar Mæland",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 15,
+          "division_size": 17,
+          "absolute_position": 22,
+          "field_size": 38,
+          "points": 77.0,
+          "max_points": 100.0,
+          "conductor": "Ingvar Mæland",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        },
+        {
+          "year": 1987,
+          "division": "2. divisjon",
+          "rank": 9,
+          "division_size": 15,
+          "absolute_position": 21,
+          "field_size": 43,
+          "points": 82.6,
+          "max_points": 100.0,
+          "conductor": "Morten Hansen",
+          "pieces": [
+            "Main Street (plikt)"
+          ]
+        },
+        {
+          "year": 1988,
+          "division": "2. divisjon",
+          "rank": 6,
+          "division_size": 12,
+          "absolute_position": 18,
+          "field_size": 38,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Morten Hansen",
+          "pieces": [
+            "Harmonious Variations (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Krapfoss Hornorkester",
+      "slug": "krapfoss-hornorkester",
+      "entries": [
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 8,
+          "division_size": 14,
+          "absolute_position": 32,
+          "field_size": 38,
+          "points": 74.4,
+          "max_points": 100.0,
+          "conductor": "Trond Elnes",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        },
+        {
+          "year": 1987,
+          "division": "3. divisjon",
+          "rank": 10,
+          "division_size": 16,
+          "absolute_position": 37,
+          "field_size": 43,
+          "points": 77.0,
+          "max_points": 100.0,
+          "conductor": "Trond Elnes",
+          "pieces": [
+            "Four Little Maids (plikt)"
+          ]
+        },
+        {
+          "year": 1988,
+          "division": "3. divisjon",
+          "rank": 11,
+          "division_size": 14,
+          "absolute_position": 35,
+          "field_size": 38,
+          "points": 78.5,
+          "max_points": 100.0,
+          "conductor": "Geir Arne Haugsrud",
+          "pieces": [
+            "Petite Suite de Ballet (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lysefjorden Musikklag",
+      "slug": "lysefjorden-musikklag",
+      "entries": [
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 13,
+          "division_size": 14,
+          "absolute_position": 37,
+          "field_size": 38,
+          "points": 62.0,
+          "max_points": 100.0,
+          "conductor": "Svein Frigaard",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        },
+        {
+          "year": 1987,
+          "division": "3. divisjon",
+          "rank": 11,
+          "division_size": 16,
+          "absolute_position": 38,
+          "field_size": 43,
+          "points": 76.3,
+          "max_points": 100.0,
+          "conductor": "Arvid Anthun",
+          "pieces": [
+            "Four Little Maids (plikt)"
+          ]
+        },
+        {
+          "year": 1988,
+          "division": "3. divisjon",
+          "rank": 13,
+          "division_size": 14,
+          "absolute_position": 37,
+          "field_size": 38,
+          "points": 77.0,
+          "max_points": 100.0,
+          "conductor": "Arvid Anthun",
+          "pieces": [
+            "Petite Suite de Ballet (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nesttun Kristelige Hornorkester",
+      "slug": "nesttun-kristelige-hornorkester",
+      "entries": [
+        {
+          "year": 1987,
+          "division": "1. divisjon",
+          "rank": 10,
+          "division_size": 12,
+          "absolute_position": 10,
+          "field_size": 43,
+          "points": 85.0,
+          "max_points": 100.0,
+          "conductor": "Espen Selvik",
+          "pieces": [
+            "Pageantry (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Røyken Musikkorps",
+      "slug": "røyken-musikkorps",
+      "entries": [
+        {
+          "year": 1981,
+          "division": "2. divisjon",
+          "rank": 10,
+          "division_size": 10,
+          "absolute_position": 16,
+          "field_size": 16,
+          "points": 60.0,
+          "max_points": 100.0,
+          "conductor": "Reidar Andersen",
+          "pieces": [
+            "Sinfonietta (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "3. divisjon",
+          "rank": 5,
+          "division_size": 5,
+          "absolute_position": 25,
+          "field_size": 25,
+          "points": 75.3,
+          "max_points": 100.0,
+          "conductor": "Trygve Svendsen",
+          "pieces": [
+            "An Overture for Spring (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 5,
+          "division_size": 14,
+          "absolute_position": 29,
+          "field_size": 38,
+          "points": 77.4,
+          "max_points": 100.0,
+          "conductor": "Magnar Osland",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        },
+        {
+          "year": 1987,
+          "division": "3. divisjon",
+          "rank": 6,
+          "division_size": 16,
+          "absolute_position": 33,
+          "field_size": 43,
+          "points": 84.3,
+          "max_points": 100.0,
+          "conductor": "Magnar Osland",
+          "pieces": [
+            "Four Little Maids (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Asker Brass Band",
+      "slug": "asker-brass-band",
+      "entries": [
+        {
+          "year": 1987,
+          "division": "3. divisjon",
+          "rank": 11,
+          "division_size": 16,
+          "absolute_position": 38,
+          "field_size": 43,
+          "points": 76.3,
+          "max_points": 100.0,
+          "conductor": "Lars Emil Johannessen",
+          "pieces": [
+            "Four Little Maids (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Øygarden Musikklag",
+      "slug": "øygarden-musikklag",
+      "entries": [
+        {
+          "year": 1987,
+          "division": "3. divisjon",
+          "rank": 14,
+          "division_size": 16,
+          "absolute_position": 41,
+          "field_size": 43,
+          "points": 75.3,
+          "max_points": 100.0,
+          "conductor": "Stein Risløw",
+          "pieces": [
+            "Four Little Maids (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bagn Musikkorps",
+      "slug": "bagn-musikkorps",
+      "entries": [
+        {
+          "year": 1987,
+          "division": "3. divisjon",
+          "rank": 17,
+          "division_size": 16,
+          "absolute_position": 44,
+          "field_size": 43,
+          "points": 73.0,
+          "max_points": 100.0,
+          "conductor": "Åge Evenstuen",
+          "pieces": [
+            "Four Little Maids (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kleppe Musikklag B-lag",
+      "slug": "kleppe-musikklag-blag",
+      "entries": [
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 9,
+          "division_size": 14,
+          "absolute_position": 16,
+          "field_size": 28,
+          "points": 83.6,
+          "max_points": 100.0,
+          "conductor": "Rod Franks",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "2. divisjon",
+          "rank": 11,
+          "division_size": 13,
+          "absolute_position": 18,
+          "field_size": 25,
+          "points": 76.0,
+          "max_points": 100.0,
+          "conductor": "Yngve Nikolaisen",
+          "pieces": [
+            "Culloden Moor (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "2. divisjon",
+          "rank": 17,
+          "division_size": 17,
+          "absolute_position": 24,
+          "field_size": 38,
+          "points": 74.4,
+          "max_points": 100.0,
+          "conductor": "Pål W. Jøsok",
+          "pieces": [
+            "Vizcaya (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oltedal Musikklag",
+      "slug": "oltedal-musikklag",
+      "entries": [
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 6,
+          "division_size": 14,
+          "absolute_position": 30,
+          "field_size": 38,
+          "points": 76.0,
+          "max_points": 100.0,
+          "conductor": "Øystein Hellevik",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Follese Musikklag",
+      "slug": "follese-musikklag",
+      "entries": [
+        {
+          "year": 1980,
+          "division": "1. divisjon",
+          "rank": 8,
+          "division_size": 9,
+          "absolute_position": 8,
+          "field_size": 16,
+          "points": 75.0,
+          "max_points": 100.0,
+          "conductor": "Erling Breistein",
+          "pieces": [
+            "Entertainments (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 8,
+          "division_size": 16,
+          "absolute_position": 14,
+          "field_size": 26,
+          "points": 82.6,
+          "max_points": 100.0,
+          "conductor": "Rod Franks",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 7,
+          "division_size": 14,
+          "absolute_position": 31,
+          "field_size": 38,
+          "points": 75.7,
+          "max_points": 100.0,
+          "conductor": "Vidar Olsen",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Florvåg Musikklag",
+      "slug": "florvåg-musikklag",
+      "entries": [
+        {
+          "year": 1979,
+          "division": "2. divisjon",
+          "rank": 6,
+          "division_size": 7,
+          "absolute_position": 9,
+          "field_size": 10,
+          "points": 3.0,
+          "max_points": 100.0,
+          "conductor": "Kjell Steffensen",
+          "pieces": [
+            "Three Inventions (plikt)"
+          ]
+        },
+        {
+          "year": 1980,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 7,
+          "absolute_position": 16,
+          "field_size": 16,
+          "points": 74.0,
+          "max_points": 100.0,
+          "conductor": "Kjell Steffensen",
+          "pieces": [
+            "An Essex Overture (plikt)"
+          ]
+        },
+        {
+          "year": 1981,
+          "division": "2. divisjon",
+          "rank": 8,
+          "division_size": 10,
+          "absolute_position": 14,
+          "field_size": 16,
+          "points": 70.0,
+          "max_points": 100.0,
+          "conductor": "Kjell Steffensen",
+          "pieces": [
+            "Sinfonietta (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 16,
+          "division_size": 16,
+          "absolute_position": 22,
+          "field_size": 26,
+          "points": 73.5,
+          "max_points": 100.0,
+          "conductor": "Allan Withington",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 10,
+          "division_size": 14,
+          "absolute_position": 34,
+          "field_size": 38,
+          "points": 71.0,
+          "max_points": 100.0,
+          "conductor": "Ketil Dybvig",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kaland Ungdomskorps",
+      "slug": "kaland-ungdomskorps",
+      "entries": [
+        {
+          "year": 1979,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 7,
+          "absolute_position": 8,
+          "field_size": 10,
+          "points": 2.0,
+          "max_points": 100.0,
+          "conductor": "Tore Takle",
+          "pieces": [
+            "Three Inventions (plikt)"
+          ]
+        },
+        {
+          "year": 1980,
+          "division": "2. divisjon",
+          "rank": 5,
+          "division_size": 7,
+          "absolute_position": 14,
+          "field_size": 16,
+          "points": 75.0,
+          "max_points": 100.0,
+          "conductor": "Tore Takle",
+          "pieces": [
+            "An Essex Overture (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 11,
+          "division_size": 14,
+          "absolute_position": 35,
+          "field_size": 38,
+          "points": 68.0,
+          "max_points": 100.0,
+          "conductor": "Helga Vetås",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bjørklund Musikklag",
+      "slug": "bjørklund-musikklag",
+      "entries": [
+        {
+          "year": 1985,
+          "division": "3. divisjon",
+          "rank": 3,
+          "division_size": 5,
+          "absolute_position": 23,
+          "field_size": 25,
+          "points": 78.6,
+          "max_points": 100.0,
+          "conductor": "Per O. Askeland",
+          "pieces": [
+            "An Overture for Spring (plikt)"
+          ]
+        },
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 12,
+          "division_size": 14,
+          "absolute_position": 36,
+          "field_size": 38,
+          "points": 65.4,
+          "max_points": 100.0,
+          "conductor": "Per O. Askeland",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uskedalen Musikklag",
+      "slug": "uskedalen-musikklag",
+      "entries": [
+        {
+          "year": 1986,
+          "division": "3. divisjon",
+          "rank": 14,
+          "division_size": 14,
+          "absolute_position": 38,
+          "field_size": 38,
+          "points": 60.4,
+          "max_points": 100.0,
+          "conductor": "Yngve Nikolaisen",
+          "pieces": [
+            "Partita (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Filadelfia Hornorkester",
+      "slug": "filadelfia-hornorkester",
+      "entries": [
+        {
+          "year": 1983,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 6,
+          "absolute_position": 5,
+          "field_size": 26,
+          "points": 78.6,
+          "max_points": 100.0,
+          "conductor": "Kim Lofthouse",
+          "pieces": [
+            "Variations on a Ninth (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "1. divisjon",
+          "rank": 4,
+          "division_size": 7,
+          "absolute_position": 4,
+          "field_size": 28,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Kim Lofthouse",
+          "pieces": [
+            "An Epic Symphony (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "1. divisjon",
+          "rank": 7,
+          "division_size": 7,
+          "absolute_position": 7,
+          "field_size": 25,
+          "points": 81.0,
+          "max_points": 100.0,
+          "conductor": "Kim Lofthouse",
+          "pieces": [
+            "Dances and Arias (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fotlandsvåg Musikklag",
+      "slug": "fotlandsvåg-musikklag",
+      "entries": [
+        {
+          "year": 1983,
+          "division": "3. divisjon",
+          "rank": 1,
+          "division_size": 4,
+          "absolute_position": 23,
+          "field_size": 26,
+          "points": 91.0,
+          "max_points": 100.0,
+          "conductor": "John Brakstad",
+          "pieces": [
+            "Litte Suite for Brass (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "3. divisjon",
+          "rank": 1,
+          "division_size": 7,
+          "absolute_position": 22,
+          "field_size": 28,
+          "points": 90.5,
+          "max_points": 100.0,
+          "conductor": "John Brakstad",
+          "pieces": [
+            "Indian Summer (plikt)"
+          ]
+        },
+        {
+          "year": 1985,
+          "division": "3. divisjon",
+          "rank": 2,
+          "division_size": 5,
+          "absolute_position": 22,
+          "field_size": 25,
+          "points": 80.6,
+          "max_points": 100.0,
+          "conductor": "John Brakstad",
+          "pieces": [
+            "An Overture for Spring (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stavanger Indremisjons Korps",
+      "slug": "stavanger-indremisjons-korps",
+      "entries": [
+        {
+          "year": 1981,
+          "division": "1. divisjon",
+          "rank": 4,
+          "division_size": 6,
+          "absolute_position": 4,
+          "field_size": 16,
+          "points": 82.0,
+          "max_points": 100.0,
+          "conductor": "Thor Anundsen",
+          "pieces": [
+            "Spectrum (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "1. divisjon",
+          "rank": 7,
+          "division_size": 7,
+          "absolute_position": 7,
+          "field_size": 22,
+          "points": 88.0,
+          "max_points": 100.0,
+          "conductor": "Thor Anundsen",
+          "pieces": [
+            "The Land of the Long White Cloud - Aotearoa (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "1. divisjon",
+          "rank": 4,
+          "division_size": 6,
+          "absolute_position": 4,
+          "field_size": 26,
+          "points": 81.6,
+          "max_points": 100.0,
+          "conductor": "Thor Anundsen",
+          "pieces": [
+            "Variations on a Ninth (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 7,
+          "absolute_position": 5,
+          "field_size": 28,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Thor Anundsen",
+          "pieces": [
+            "An Epic Symphony (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Minde Brass",
+      "slug": "minde-brass",
+      "entries": [
+        {
+          "year": 1983,
+          "division": "3. divisjon",
+          "rank": 2,
+          "division_size": 4,
+          "absolute_position": 24,
+          "field_size": 26,
+          "points": 90.0,
+          "max_points": 100.0,
+          "conductor": "Espen Selvik",
+          "pieces": [
+            "Litte Suite for Brass (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "2. divisjon",
+          "rank": 12,
+          "division_size": 14,
+          "absolute_position": 19,
+          "field_size": 28,
+          "points": 81.6,
+          "max_points": 100.0,
+          "conductor": "Håkon Hesthammer",
+          "pieces": [
+            "Kenilworth (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hellen Brass Ensemble",
+      "slug": "hellen-brass-ensemble",
+      "entries": [
+        {
+          "year": 1983,
+          "division": "3. divisjon",
+          "rank": 4,
+          "division_size": 4,
+          "absolute_position": 26,
+          "field_size": 26,
+          "points": 84.5,
+          "max_points": 100.0,
+          "conductor": "Sven Skorpholm",
+          "pieces": [
+            "Litte Suite for Brass (plikt)"
+          ]
+        },
+        {
+          "year": 1984,
+          "division": "3. divisjon",
+          "rank": 6,
+          "division_size": 7,
+          "absolute_position": 27,
+          "field_size": 28,
+          "points": 81.0,
+          "max_points": 100.0,
+          "conductor": "Sven Skorpholm",
+          "pieces": [
+            "Indian Summer (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Krohnengen Brass",
+      "slug": "krohnengen-brass",
+      "entries": [
+        {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 11,
+          "division_size": 16,
+          "absolute_position": 17,
+          "field_size": 26,
+          "points": 81.3,
+          "max_points": 100.0,
+          "conductor": "Allan Withington",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sandnes Musikkorps",
+      "slug": "sandnes-musikkorps",
+      "entries": [
+        {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 15,
+          "division_size": 15,
+          "absolute_position": 22,
+          "field_size": 22,
+          "points": 72.0,
+          "max_points": 100.0,
+          "conductor": "Ingvar Mæland",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        },
+        {
+          "year": 1983,
+          "division": "2. divisjon",
+          "rank": 14,
+          "division_size": 16,
+          "absolute_position": 20,
+          "field_size": 26,
+          "points": 79.3,
+          "max_points": 100.0,
+          "conductor": "Ingvar Mæland",
+          "pieces": [
+            "The Prizewinners (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chivles Brass",
+      "slug": "chivles-brass",
+      "entries": [
+        {
+          "year": 1981,
+          "division": "2. divisjon",
+          "rank": 2,
+          "division_size": 10,
+          "absolute_position": 8,
+          "field_size": 16,
+          "points": 86.0,
+          "max_points": 100.0,
+          "conductor": "Espen Selvik",
+          "pieces": [
+            "Sinfonietta (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "1. divisjon",
+          "rank": 5,
+          "division_size": 7,
+          "absolute_position": 5,
+          "field_size": 22,
+          "points": 89.5,
+          "max_points": 100.0,
+          "conductor": "Espen Selvik",
+          "pieces": [
+            "The Land of the Long White Cloud - Aotearoa (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nordhordland Brass",
+      "slug": "nordhordland-brass",
+      "entries": [
+        {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 4,
+          "division_size": 15,
+          "absolute_position": 11,
+          "field_size": 22,
+          "points": 87.0,
+          "max_points": 100.0,
+          "conductor": "Tom Brevik",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bergen Politiorkester",
+      "slug": "bergen-politiorkester",
+      "entries": [
+        {
+          "year": 1979,
+          "division": "2. divisjon",
+          "rank": 1,
+          "division_size": 7,
+          "absolute_position": 4,
+          "field_size": 10,
+          "points": 5.0,
+          "max_points": 100.0,
+          "conductor": "Helge Haukås",
+          "pieces": [
+            "Three Inventions (plikt)"
+          ]
+        },
+        {
+          "year": 1980,
+          "division": "1. divisjon",
+          "rank": 9,
+          "division_size": 9,
+          "absolute_position": 9,
+          "field_size": 16,
+          "points": 72.0,
+          "max_points": 100.0,
+          "conductor": "Helge Haukås",
+          "pieces": [
+            "Entertainments (plikt)"
+          ]
+        },
+        {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 7,
+          "division_size": 15,
+          "absolute_position": 14,
+          "field_size": 22,
+          "points": 83.0,
+          "max_points": 100.0,
+          "conductor": "John Brakstad",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jaren Hornmusikklag",
+      "slug": "jaren-hornmusikklag",
+      "entries": [
+        {
+          "year": 1982,
+          "division": "2. divisjon",
+          "rank": 12,
+          "division_size": 15,
+          "absolute_position": 19,
+          "field_size": 22,
+          "points": 77.0,
+          "max_points": 100.0,
+          "conductor": "Børre Børresen",
+          "pieces": [
+            "Suite in Bb (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jaren Hornmusikk",
+      "slug": "jaren-hornmusikk",
+      "entries": [
+        {
+          "year": 1981,
+          "division": "2. divisjon",
+          "rank": 9,
+          "division_size": 10,
+          "absolute_position": 15,
+          "field_size": 16,
+          "points": 64.0,
+          "max_points": 100.0,
+          "conductor": "Børre Børresen",
+          "pieces": [
+            "Sinfonietta (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stavanger Politis Musikkorps",
+      "slug": "stavanger-politis-musikkorps",
+      "entries": [
+        {
+          "year": 1980,
+          "division": "1. divisjon",
+          "rank": 4,
+          "division_size": 9,
+          "absolute_position": 4,
+          "field_size": 16,
+          "points": 89.66,
+          "max_points": 100.0,
+          "conductor": "Kjell E. Larsen",
+          "pieces": [
+            "Entertainments (plikt)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Misjonssalens Hornorkester",
+      "slug": "misjonssalens-hornorkester",
+      "entries": [
+        {
+          "year": 1980,
+          "division": "1. divisjon",
+          "rank": 7,
+          "division_size": 9,
+          "absolute_position": 7,
+          "field_size": 16,
+          "points": 84.0,
+          "max_points": 100.0,
+          "conductor": "Oddvar Ljønes",
+          "pieces": [
+            "Entertainments (plikt)"
           ]
         }
       ]
@@ -33435,6 +36095,14 @@
   ],
   "metadata": {
     "years": [
+      1979,
+      1980,
+      1981,
+      1982,
+      1983,
+      1984,
+      1985,
+      1986,
       1987,
       1988,
       1989,
@@ -33485,8 +36153,8 @@
       "7. divisjon"
     ],
     "max_field_size": 80,
-    "min_year": 1987,
+    "min_year": 1979,
     "max_year": 2026,
-    "generated_at": "2026-02-08T21:55:09.179241+00:00"
+    "generated_at": "2026-02-09T08:13:44.737586+00:00"
   }
 }
