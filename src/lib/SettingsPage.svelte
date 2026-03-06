@@ -7,21 +7,25 @@
     yAxisScale: 'fitted' | 'full';
     theme: 'light' | 'dark';
     selectionMode: 'single' | 'multiple';
+    sortOrder?: 'asc' | 'desc';
     onYAxisModeChange?: (value: 'absolute' | 'relative') => void;
     onYAxisScaleChange?: (value: 'fitted' | 'full') => void;
     onThemeChange?: (value: 'light' | 'dark') => void;
     onSelectionModeChange?: (value: 'single' | 'multiple') => void;
+    onSortOrderChange?: (value: 'asc' | 'desc') => void;
   }
 
-  let { 
-    yAxisMode = $bindable(), 
-    yAxisScale = $bindable(), 
+  let {
+    yAxisMode = $bindable(),
+    yAxisScale = $bindable(),
     theme = $bindable(),
     selectionMode = $bindable(),
+    sortOrder = $bindable('asc'),
     onYAxisModeChange,
     onYAxisScaleChange,
     onThemeChange,
-    onSelectionModeChange
+    onSelectionModeChange,
+    onSortOrderChange
   }: Props = $props();
 
   let initialized = false;
@@ -52,6 +56,11 @@
   $effect(() => {
     if (!initialized) return;
     onSelectionModeChange?.(selectionMode);
+  });
+
+  $effect(() => {
+    if (!initialized) return;
+    onSortOrderChange?.(sortOrder);
   });
 </script>
 
@@ -123,7 +132,7 @@
       <div class="setting-info">
         <h3>Valgmodus</h3>
         <p>
-          Velg hvordan korps, dirigenter og stykker velges. <strong>Enkel</strong> erstatter valget ved hvert klikk (maks én om gangen). 
+          Velg hvordan korps, dirigenter og stykker velges. <strong>Enkel</strong> erstatter valget ved hvert klikk (maks én om gangen).
           <strong>Flervalg</strong> legger til ved hvert klikk for å sammenligne flere.
         </p>
       </div>
@@ -133,6 +142,24 @@
           options={['single', 'multiple']}
           labels={['Enkel', 'Flervalg']}
           ariaLabel="Velg valgmodus"
+        />
+      </div>
+    </div>
+
+    <div class="setting-card">
+      <div class="setting-info">
+        <h3>Sortering</h3>
+        <p>
+          Velg standard sorteringsrekkefølge for fremføringslister. <strong>Eldst først</strong> viser eldste år øverst.
+          <strong>Nyest først</strong> viser nyeste år øverst.
+        </p>
+      </div>
+      <div class="setting-control">
+        <ToggleSwitch
+          bind:value={sortOrder}
+          options={['asc', 'desc']}
+          labels={['Eldst først', 'Nyest først']}
+          ariaLabel="Velg sorteringsrekkefølge"
         />
       </div>
     </div>

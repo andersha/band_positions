@@ -3,9 +3,10 @@
   interface Props {
     composers?: ComposerRecord[];
     bandType?: BandType;
+    onRemove?: (slug: string) => void;
   }
 
-  let { composers = [], bandType = 'wind' }: Props = $props();
+  let { composers = [], bandType = 'wind', onRemove }: Props = $props();
 
   let sortedComposers = $derived([...composers].sort((a, b) => a.name.localeCompare(b.name)));
 </script>
@@ -18,6 +19,14 @@
           <h2>{composer.name}</h2>
           <p>{composer.pieces.length} {composer.pieces.length === 1 ? 'stykke' : 'stykker'}</p>
         </div>
+        {#if onRemove}
+          <button
+            type="button"
+            class="card-remove-btn"
+            aria-label={`Fjern ${composer.name}`}
+            onclick={() => onRemove!(composer.slug)}
+          >×</button>
+        {/if}
       </header>
       <ul>
         {#each composer.pieces as piece}
@@ -54,6 +63,23 @@
     justify-content: space-between;
     gap: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .card-remove-btn {
+    flex-shrink: 0;
+    border: none;
+    background: transparent;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    align-self: flex-start;
+  }
+  .card-remove-btn:hover {
+    color: var(--color-warning);
+    background: var(--color-chip-bg);
   }
 
   .composer-header h2 {

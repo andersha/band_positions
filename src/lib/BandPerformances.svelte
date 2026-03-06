@@ -6,11 +6,13 @@
   interface Props {
     bands?: BandRecord[];
     bandType?: BandType;
+    sortOrder?: 'asc' | 'desc';
     streamingResolver?: (entry: BandEntry, bandName: string, pieceName: string) => StreamingLink | null;
     eliteTestPieces?: EliteTestPiecesData | null;
+    onRemove?: (slug: string) => void;
   }
 
-  let { bands = [], bandType = 'wind', streamingResolver, eliteTestPieces = null }: Props = $props();
+  let { bands = [], bandType = 'wind', sortOrder = 'asc', streamingResolver, eliteTestPieces = null, onRemove }: Props = $props();
 
   const pointsFormatter = new Intl.NumberFormat('nb-NO', {
     minimumFractionDigits: 1,
@@ -22,7 +24,7 @@
   type BandSortColumn = 'year' | 'division' | 'rank' | 'points' | 'conductor';
 
   let sortColumn = $state<BandSortColumn>('year');
-  let sortDirection = $state<Direction>('asc');
+  let sortDirection = $state<Direction>(sortOrder);
 
   function cmp(a: unknown, b: unknown, dir: Direction): number {
     const aNull = a == null || a === '';
@@ -56,9 +58,14 @@
     } else {
       sortColumn = column;
       // Points should default to descending (highest first)
-      sortDirection = column === 'points' ? 'desc' : 'asc';
+      sortDirection = column === 'points' ? 'desc' : sortOrder;
     }
   }
+
+  $effect(() => {
+    sortColumn = 'year';
+    sortDirection = sortOrder;
+  });
 
   function getDivisionRank(division: string | null): number {
     if (!division) return 999;
@@ -176,6 +183,14 @@
           {/if}
           <p class="band-count">{band.entries.length} fremføringer</p>
         </div>
+        {#if onRemove}
+          <button
+            type="button"
+            class="card-remove-btn"
+            aria-label={`Fjern ${band.name}`}
+            onclick={() => onRemove!(band.slug)}
+          >×</button>
+        {/if}
       </header>
 
       <div class="table-wrapper" role="region" aria-label={`Fremføringer av ${band.name}`}>
@@ -362,6 +377,23 @@
     justify-content: space-between;
     gap: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .card-remove-btn {
+    flex-shrink: 0;
+    border: none;
+    background: transparent;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    align-self: flex-start;
+  }
+  .card-remove-btn:hover {
+    color: var(--color-warning);
+    background: var(--color-chip-bg);
   }
 
   .band-header h2 {

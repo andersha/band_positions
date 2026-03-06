@@ -88,6 +88,7 @@
     justify-content: center;
     flex: 1;
     min-width: 0;
+    white-space: nowrap;
   }
 
   .toggle-switch__option:hover {
@@ -123,8 +124,8 @@
 
   @media (max-width: 450px) {
     .toggle-switch__option {
-      padding: 0.5rem 1rem;
-      font-size: 0.85rem;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.8rem;
     }
   }
 </style>

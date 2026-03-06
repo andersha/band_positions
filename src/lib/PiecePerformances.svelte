@@ -7,9 +7,11 @@
   interface Props {
     pieces?: PieceRecord[];
     bandType?: BandType;
+    sortOrder?: 'asc' | 'desc';
+    onRemove?: (slug: string) => void;
   }
 
-  let { pieces = [], bandType = 'wind' }: Props = $props();
+  let { pieces = [], bandType = 'wind', sortOrder = 'asc', onRemove }: Props = $props();
 
   const pointsFormatter = new Intl.NumberFormat('nb-NO', {
     minimumFractionDigits: 1,
@@ -21,7 +23,7 @@
   type PieceSortColumn = 'year' | 'division' | 'band' | 'rank' | 'points' | 'conductor';
 
   let sortColumn = $state<PieceSortColumn>('year');
-  let sortDirection = $state<Direction>('asc');
+  let sortDirection = $state<Direction>(sortOrder);
 
   function cmp(a: unknown, b: unknown, dir: Direction): number {
     const aNull = a == null || a === '';
@@ -55,9 +57,14 @@
     } else {
       sortColumn = column;
       // Points should default to descending (highest first)
-      sortDirection = column === 'points' ? 'desc' : 'asc';
+      sortDirection = column === 'points' ? 'desc' : sortOrder;
     }
   }
+
+  $effect(() => {
+    sortColumn = 'year';
+    sortDirection = sortOrder;
+  });
 
   function getDivisionRank(division: string | null): number {
     if (!division) return 999;
@@ -205,6 +212,14 @@
           {/if}
           <p class="piece-count">{piece.performances.length} {piece.performances.length === 1 ? 'fremføring' : 'fremføringer'}</p>
         </div>
+        {#if onRemove}
+          <button
+            type="button"
+            class="card-remove-btn"
+            aria-label={`Fjern ${piece.name}`}
+            onclick={() => onRemove!(piece.slug)}
+          >×</button>
+        {/if}
       </header>
 
       <div class="table-wrapper" role="region" aria-label={`Fremføringer av ${piece.name}`}>
@@ -345,6 +360,23 @@
     justify-content: space-between;
     gap: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .card-remove-btn {
+    flex-shrink: 0;
+    border: none;
+    background: transparent;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    align-self: flex-start;
+  }
+  .card-remove-btn:hover {
+    color: var(--color-warning);
+    background: var(--color-chip-bg);
   }
 
   .piece-header h2 {

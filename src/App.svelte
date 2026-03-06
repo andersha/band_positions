@@ -76,6 +76,7 @@ import type {
   let yAxisMode = $state<'absolute' | 'relative'>(DEFAULT_MODE);
   let yAxisScale = $state<'fitted' | 'full'>('fitted'); // Default to fitted (new dynamic behavior)
   let selectionMode = $state<SelectionMode>(DEFAULT_SELECTION_MODE);
+  let sortOrder = $state<'asc' | 'desc'>('asc');
   let activeView = $state<ViewType>(DEFAULT_VIEW);
   let theme = $state<Theme>('dark');
   let bandType = $state<BandType | null>(null); // Changed to nullable
@@ -1182,6 +1183,11 @@ import type {
     writeLS(STORAGE_KEYS.YAXIS_SCALE, scale);
   }
 
+  function setSortOrder(order: 'asc' | 'desc'): void {
+    sortOrder = order;
+    writeLS(STORAGE_KEYS.SORT_ORDER, order);
+  }
+
   function setSelectionMode(mode: SelectionMode): void {
     selectionMode = mode;
     writeLS(STORAGE_KEYS.SELECTION_MODE, mode);
@@ -1327,6 +1333,10 @@ import type {
     const storedSelectionMode = readLS(STORAGE_KEYS.SELECTION_MODE, DEFAULT_SELECTION_MODE);
     if (storedSelectionMode === 'single' || storedSelectionMode === 'multiple') {
       selectionMode = storedSelectionMode;
+    }
+    const storedSortOrder = readLS(STORAGE_KEYS.SORT_ORDER, 'asc');
+    if (storedSortOrder === 'asc' || storedSortOrder === 'desc') {
+      sortOrder = storedSortOrder;
     }
 
     const initialBandType = resolveInitialBandType();
@@ -1570,7 +1580,7 @@ import type {
         ? 'stykker'
         : 'komponister');
   let coverageDescription = $derived(dataset
-    ? `Dekker ${entityCount} ${entityLabel} · ${years.length} år (${dataset.metadata.min_year}–${dataset.metadata.max_year})`
+    ? `Dekker ${entityCount} ${entityLabel}`
     : '');
 
   let searchPlaceholder = $derived(activeView === 'bands'
@@ -1658,9 +1668,6 @@ import type {
       : activeSelection.length > 1
         ? `${activeSelection.length} ${entityLabel} valgt`
         : '');
-
-  let comparisonSummary =
-    $derived(activeSelection.length > 1 ? activeSelection.map((record) => record.name).join(' · ') : '');
 
   let pieceSelection = $derived(activeView === 'pieces' ? (activeSelection as PieceRecord[]) : []);
   let composerSelection = $derived(activeView === 'composers' ? (activeSelection as ComposerRecord[]) : []);
@@ -1770,9 +1777,6 @@ import type {
           <div class="chart-header">
             <h2>{chartHeading}</h2>
             <p>{coverageDescription}</p>
-            {#if comparisonSummary}
-              <p class="comparison-summary">{comparisonSummary}</p>
-            {/if}
           </div>
           <BandTrajectoryChart
             {years}
@@ -1787,24 +1791,21 @@ import type {
           {#each activeSelection as record, index}
             <span class="selected-entity" role="listitem">
               <span class="selected-entity__index">{index + 1}</span>
-              <span class="selected-entity__name">{record.name}</span>
+              <span class="selected-entity__name">{record.name.length > 20 ? record.name.slice(0, 20) + '…' : record.name}</span>
               <button type="button" aria-label={`Fjern ${record.name}`} onclick={() => removeRecord(record.slug)}>
                 ×
               </button>
             </span>
           {/each}
         </div>
-        <PiecePerformances pieces={pieceSelection} {bandType} />
+        <PiecePerformances pieces={pieceSelection} {bandType} {sortOrder} onRemove={removeRecord} />
       {:else if activeView === 'composers'}
-        <ComposerPieces composers={composerSelection} {bandType} />
+        <ComposerPieces composers={composerSelection} {bandType} onRemove={removeRecord} />
       {:else}
         <section class="chart-card">
           <div class="chart-header">
             <h2>{chartHeading}</h2>
             <p>{coverageDescription}</p>
-            {#if comparisonSummary}
-              <p class="comparison-summary">{comparisonSummary}</p>
-            {/if}
           </div>
           <BandTrajectoryChart
             {years}
@@ -1821,7 +1822,7 @@ import type {
           {#each activeSelection as record, index}
             <span class="selected-entity" role="listitem">
               <span class="selected-entity__index">{index + 1}</span>
-              <span class="selected-entity__name">{record.name}</span>
+              <span class="selected-entity__name">{record.name.length > 20 ? record.name.slice(0, 20) + '…' : record.name}</span>
               <button type="button" aria-label={`Fjern ${record.name}`} onclick={() => removeRecord(record.slug)}>
                 ×
               </button>
@@ -1833,14 +1834,18 @@ import type {
         <BandPerformances
           bands={chartSelection}
           {bandType}
+          {sortOrder}
           streamingResolver={findStreamingLinkForPiece}
           {eliteTestPieces}
+          onRemove={removeRecord}
         />
       {:else if activeView === 'conductors'}
         <ConductorPerformances
           conductors={chartSelection}
           {bandType}
+          {sortOrder}
           streamingResolver={findStreamingLinkForPiece}
+          onRemove={removeRecord}
         />
       {/if}
     {:else}
@@ -1861,10 +1866,12 @@ import type {
       bind:yAxisScale
       bind:theme
       bind:selectionMode
+      bind:sortOrder
       onYAxisModeChange={setYAxisMode}
       onYAxisScaleChange={setYAxisScale}
       onThemeChange={setTheme}
       onSelectionModeChange={setSelectionMode}
+      onSortOrderChange={setSortOrder}
     />
   {:else}
     <DataExplorer {dataset} {bandType} streamingResolver={findStreamingLinkForPiece} {eliteTestPieces} />
@@ -2172,12 +2179,6 @@ import type {
     margin: 0;
     color: var(--color-text-secondary);
   }
-
-  .comparison-summary {
-    color: var(--color-text-muted);
-    font-size: 0.85rem;
-  }
-
 
   @media (max-width: 780px) {
     .page-header {
