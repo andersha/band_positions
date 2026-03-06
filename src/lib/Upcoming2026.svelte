@@ -51,7 +51,13 @@
   let brassData = $state<UpcomingData | null>(null);
   let loading = $state(true);
   let error = $state<string | null>(null);
-  let selectedDivision = $state<string | null>(null);
+  function getDivisionStorageKey(type: BandType) {
+    return type === 'wind'
+      ? STORAGE_KEYS.SELECTED_DIVISION_2026_WIND
+      : STORAGE_KEYS.SELECTED_DIVISION_2026_BRASS;
+  }
+
+  let selectedDivision = $state<string>(readLS(getDivisionStorageKey(bandType), 'all'));
   let starredEntries = $state<Set<string>>(new Set());
 
   let data = $derived(bandType === 'wind' ? windData : brassData);
@@ -137,7 +143,7 @@
   let visibleDivisions = $derived(
     !data ? [] :
     selectedDivision === 'starred' ? [] : // Empty when showing chronological view
-    (!selectedDivision || selectedDivision === 'all') ? data.divisions :
+    selectedDivision === 'all' ? data.divisions :
     data.divisions.filter(d => d.name === selectedDivision)
   );
   let starredCount = $derived(starredEntries.size);
@@ -278,12 +284,20 @@
     }
   }
 
-  // Reset division selection when band type changes
+  // Reset division selection when band type changes, restore from storage for new type
   $effect(() => {
     if (bandType) {
-      selectedDivision = 'all';
-      starredEntries = loadStarredEntries();
+      const loaded = loadStarredEntries();
+      starredEntries = loaded;
+      const stored = readLS(getDivisionStorageKey(bandType), 'all');
+      // Fall back to 'all' if stored value is 'starred' but there are no starred entries
+      selectedDivision = (stored === 'starred' && loaded.size === 0) ? 'all' : stored;
     }
+  });
+
+  // Persist selected division whenever it changes
+  $effect(() => {
+    writeLS(getDivisionStorageKey(bandType), selectedDivision);
   });
 
   onMount(() => {

@@ -40,4 +40,6 @@ export const STORAGE_KEYS = {
   SELECTION_MODE: 'nmkorps-selection-mode',
   STARRED_2026_WIND: 'nmkorps-starred-2026-wind',
   STARRED_2026_BRASS: 'nmkorps-starred-2026-brass',
+  SELECTED_DIVISION_2026_WIND: 'nmkorps-selected-division-2026-wind',
+  SELECTED_DIVISION_2026_BRASS: 'nmkorps-selected-division-2026-brass',
 } as const;
