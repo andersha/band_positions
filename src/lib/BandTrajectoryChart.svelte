@@ -87,6 +87,16 @@
   let hoveredPoint = $state<{ entry: ChartEntry; bandName: string; lineColor: string } | null>(null);
   let tooltipX = $state(0);
   let tooltipY = $state(0);
+  let tooltipEl = $state<HTMLDivElement | null>(null);
+
+  // Clamp tooltip horizontally so it never overflows the SVG container
+  const safeTooltipX = $derived.by(() => {
+    if (!hoveredPoint || !svgElement) return tooltipX;
+    const containerW = svgElement.clientWidth;
+    const halfW = (tooltipEl?.offsetWidth ?? 160) / 2;
+    const margin = 8;
+    return Math.max(halfW + margin, Math.min(tooltipX, containerW - halfW - margin));
+  });
 
   const showConductorLabels = () => showConductorMarkers && bands.length === 1;
 
@@ -718,7 +728,7 @@
 
   {#if hoveredPoint}
     {@const aggregated = getAggregatedPlacements(hoveredPoint.entry)}
-    <div class="tooltip" style={`left: ${tooltipX}px; top: ${tooltipY}px`}>
+    <div bind:this={tooltipEl} class="tooltip" style={`left: ${safeTooltipX}px; top: ${tooltipY}px`}>
       <strong>{hoveredPoint.entry.year} · {hoveredPoint.bandName}</strong>
       {#if aggregated && aggregated.length}
         {#each aggregated as placement, index}
@@ -823,6 +833,7 @@
     transform: translate(-50%, calc(-100% - 12px));
     box-shadow: 0 10px 24px rgba(15, 23, 42, 0.4);
     z-index: 5;
+    max-width: min(320px, calc(100vw - 2rem));
   }
 
   .tooltip-band {
@@ -921,6 +932,19 @@
   @media (max-width: 640px) {
     .band-legend {
       font-size: 0.8rem; /* Reduced from 0.85rem for mobile */
+    }
+
+    .tooltip {
+      /* Override JS-driven absolute positioning: anchor to bottom of viewport */
+      position: fixed !important;
+      left: 1rem !important;
+      right: 1rem !important;
+      bottom: 1rem !important;
+      top: auto !important;
+      transform: none !important;
+      max-width: none;
+      white-space: normal;
+      box-sizing: border-box;
     }
   }
 </style>
