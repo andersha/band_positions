@@ -215,6 +215,7 @@
     ensureObserved();
     updateLabelGeometry();
     window.addEventListener('resize', updateLabelGeometry);
+    document.addEventListener('click', hideTooltip);
   });
 
   $effect(() => {
@@ -226,6 +227,7 @@
   onDestroy(() => {
     resizeObserver?.disconnect();
     window.removeEventListener('resize', updateLabelGeometry);
+    document.removeEventListener('click', hideTooltip);
   });
 
   function getLaneTier(lane: number): number {
@@ -730,8 +732,8 @@
               aria-hidden="true"
               onmouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
               onmouseleave={hideTooltip}
-              ontouchstart={(event) => { event.preventDefault(); const t = event.touches[0]; const svg = (event.currentTarget as SVGElement).ownerSVGElement; if (svg && t) { const rect = svg.getBoundingClientRect(); tooltipX = t.clientX - rect.left; tooltipY = t.clientY - rect.top; hoveredPoint = { entry, bandName: seriesData.band.name, lineColor: seriesData.color }; } }}
-              ontouchend={hideTooltip}
+              onclick={(event) => { event.stopPropagation(); showTooltip(event, entry, seriesData.band.name, seriesData.color); }}
+              style="touch-action: manipulation; cursor: pointer;"
             />
           </g>
         {/if}
