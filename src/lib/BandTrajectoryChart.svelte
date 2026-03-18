@@ -743,6 +743,9 @@
           {/if}
         {/each}
       {:else}
+        {#if hoveredPoint.entry.band_name}
+          <div class="tooltip-band__title">{hoveredPoint.entry.band_name}</div>
+        {/if}
         <div>{hoveredPoint.entry.division} · #{hoveredPoint.entry.rank}</div>
         {#if hoveredPoint.entry.conductor}
           <div>Dirigent: {hoveredPoint.entry.conductor}</div>

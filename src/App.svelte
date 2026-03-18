@@ -554,21 +554,23 @@ import type {
   function buildPieceChartRecords(pieces: PieceRecord[]): BandRecord[] {
     return pieces.map((piece) => {
       // Group performances by year
-      const yearMap = new Map<number, { best: BandEntry; all: BandEntry[] }>();
+      type EntryWithBand = BandEntry & { band_name: string };
+      const yearMap = new Map<number, { best: EntryWithBand; all: EntryWithBand[] }>();
 
       for (const perf of piece.performances) {
         const year = perf.entry.year;
+        const entryWithBand: EntryWithBand = { ...perf.entry, band_name: perf.band };
         const existing = yearMap.get(year);
 
         if (!existing) {
-          yearMap.set(year, { best: perf.entry, all: [perf.entry] });
+          yearMap.set(year, { best: entryWithBand, all: [entryWithBand] });
         } else {
-          existing.all.push(perf.entry);
+          existing.all.push(entryWithBand);
           // Update best if this entry has a better (lower) absolute_position
           const currentBestPos = existing.best.absolute_position ?? Infinity;
           const newPos = perf.entry.absolute_position ?? Infinity;
           if (newPos < currentBestPos) {
-            existing.best = perf.entry;
+            existing.best = entryWithBand;
           }
         }
       }
