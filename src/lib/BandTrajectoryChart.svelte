@@ -835,6 +835,15 @@
 {/if}
 
 <style>
+  .chart-canvas svg :global(*) {
+    outline: none;
+  }
+
+  .chart-canvas svg :global(*:focus-visible) {
+    outline: 2px solid var(--color-accent, #38bdf8);
+    outline-offset: 3px;
+  }
+
   .tooltip {
     position: absolute;
     pointer-events: none;
