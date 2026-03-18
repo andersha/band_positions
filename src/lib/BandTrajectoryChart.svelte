@@ -726,15 +726,12 @@
               r="22"
               fill="transparent"
               stroke="none"
-              role="button"
-              tabindex="0"
-              aria-label={`${seriesData.band.name}: ${entry.year} – ${entry.division} plass ${entry.rank} (absolutt #${entry.absolute_position}${relativeLabel ? ` · relativ ${relativeLabel}` : ''})${entry.conductor ? ` – Dirigent: ${entry.conductor}` : ''}`}
+              tabindex="-1"
+              aria-hidden="true"
               onmouseenter={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
               onmouseleave={hideTooltip}
               ontouchstart={(event) => { event.preventDefault(); const t = event.touches[0]; const svg = (event.currentTarget as SVGElement).ownerSVGElement; if (svg && t) { const rect = svg.getBoundingClientRect(); tooltipX = t.clientX - rect.left; tooltipY = t.clientY - rect.top; hoveredPoint = { entry, bandName: seriesData.band.name, lineColor: seriesData.color }; } }}
               ontouchend={hideTooltip}
-              onfocus={(event) => showTooltip(event, entry, seriesData.band.name, seriesData.color)}
-              onblur={hideTooltip}
             />
           </g>
         {/if}
