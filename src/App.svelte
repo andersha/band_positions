@@ -1866,10 +1866,12 @@ import type {
       pieceRecords={pieceRecords}
       composerRecords={composerRecords}
       bands={dataset?.bands ?? []}
+      conductorRecords={conductorRecords}
       bandType={bandType ?? 'wind'}
       onViewPiece={(slug) => { setView('pieces'); const p = pieceRecords.find(r => r.slug === slug); if (p) selectedPieces = [p]; }}
       onViewComposer={(slug) => { setView('composers'); const c = composerRecords.find(r => r.slug === slug); if (c) selectedComposers = [c]; }}
       onViewBand={(slug) => { setView('bands'); const b = dataset?.bands.find(r => r.slug === slug); if (b) selectedBands = [b]; }}
+      onViewConductor={(slug) => { setView('conductors'); const c = conductorRecords.find(r => r.slug === slug); if (c) selectedConductors = [c]; }}
     />
   {:else if activeView === '2026'}
     <Upcoming2026 {bandType} />

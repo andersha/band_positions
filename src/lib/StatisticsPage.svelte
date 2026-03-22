@@ -7,15 +7,17 @@
     pieceRecords: PieceRecord[];
     composerRecords: ComposerRecord[];
     bands: BandRecord[];
+    conductorRecords: BandRecord[];
     bandType: BandType;
     onViewPiece: (slug: string) => void;
     onViewComposer: (slug: string) => void;
     onViewBand: (slug: string) => void;
+    onViewConductor: (slug: string) => void;
   }
 
-  let { pieceRecords, composerRecords, bands, bandType, onViewPiece, onViewComposer, onViewBand }: Props = $props();
+  let { pieceRecords, composerRecords, bands, conductorRecords, bandType, onViewPiece, onViewComposer, onViewBand, onViewConductor }: Props = $props();
 
-  type StatType = 'pieces' | 'trophies' | 'scores' | 'piece-scores';
+  type StatType = 'pieces' | 'band-participations' | 'conductor-participations' | 'trophies' | 'scores' | 'piece-scores';
 
   const PAGE_SIZE = 20;
   let selectedStat = $state<StatType>('pieces');
@@ -44,7 +46,28 @@
       .sort((a, b) => b.count - a.count || a.piece.name.localeCompare(b.piece.name, 'nb'));
   });
 
-  // Stat 2: Trophy counts per band (Olympic sort)
+  // Stat 2: Most participations per band
+  let bandParticipationStats = $derived.by(() => {
+    return [...bands]
+      .map(band => ({ band, count: band.entries.length }))
+      .sort((a, b) => b.count - a.count || a.band.name.localeCompare(b.band.name, 'nb'));
+  });
+
+  // Stat 3: Most participations per conductor
+  let conductorParticipationStats = $derived.by(() => {
+    const map = new Map<string, number>();
+    for (const band of bands) {
+      for (const entry of band.entries) {
+        if (!entry.conductor) continue;
+        map.set(entry.conductor, (map.get(entry.conductor) ?? 0) + 1);
+      }
+    }
+    return [...map.entries()]
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'nb'));
+  });
+
+  // Stat 4: Trophy counts per band (Olympic sort)
   let trophyStats = $derived.by(() => {
     return bands
       .map(band => ({ band, trophies: countTrophies(band.entries) }))
@@ -84,6 +107,8 @@
 
   let activeStats = $derived(
     selectedStat === 'pieces' ? pieceStats :
+    selectedStat === 'band-participations' ? bandParticipationStats :
+    selectedStat === 'conductor-participations' ? conductorParticipationStats :
     selectedStat === 'trophies' ? trophyStats :
     selectedStat === 'scores' ? scoreStats :
     pieceScoreStats
@@ -110,6 +135,8 @@
       class="stat-select"
     >
       <option value="pieces">Mest fremførte verk</option>
+      <option value="band-participations">Flest deltagelser (korps)</option>
+      <option value="conductor-participations">Flest deltagelser (dirigent)</option>
       <option value="trophies">Flest medaljer (korps)</option>
       <option value="scores">Høyest snittpoeng (korps)</option>
       <option value="piece-scores">Høyest snittpoeng (stykke)</option>
@@ -156,6 +183,59 @@
                 {/if}
               </td>
               <td class="piece-count-cell">{row.count}</td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    {:else if selectedStat === 'band-participations'}
+      <table class="stats-table stats-band-part">
+        <thead>
+          <tr>
+            <th class="rank-col">#</th>
+            <th>Korps</th>
+            <th class="num-col">Deltagelser</th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each paginatedStats as row, i (row.band.slug)}
+            {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
+            <tr>
+              <td class="rank-cell">{rank}</td>
+              <td class="name-cell">
+                <button class="link-btn" onclick={() => onViewBand(row.band.slug)}>
+                  {row.band.name}
+                </button>
+              </td>
+              <td class="part-count-cell">{row.count}</td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    {:else if selectedStat === 'conductor-participations'}
+      <table class="stats-table stats-conductor-part">
+        <thead>
+          <tr>
+            <th class="rank-col">#</th>
+            <th>Dirigent</th>
+            <th class="num-col">Deltagelser</th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each paginatedStats as row, i (row.name)}
+            {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
+            {@const cSlug = conductorRecords.find(r => r.name === row.name)?.slug}
+            <tr>
+              <td class="rank-cell">{rank}</td>
+              <td class="name-cell">
+                {#if cSlug}
+                  <button class="link-btn" onclick={() => onViewConductor(cSlug)}>
+                    {row.name}
+                  </button>
+                {:else}
+                  {row.name}
+                {/if}
+              </td>
+              <td class="part-count-cell">{row.count}</td>
             </tr>
           {/each}
         </tbody>
@@ -373,6 +453,7 @@
   }
 
   .piece-count-cell,
+  .part-count-cell,
   .gold-cell,
   .silver-cell,
   .bronze-cell,
@@ -496,6 +577,18 @@
       color: var(--color-text-secondary);
       font-size: 0.8rem;
     }
+
+    /* ── Flest deltagelser (korps / dirigent) ──
+       Single row: rank | name | Deltagelser: count
+    */
+    .stats-band-part .rank-cell,
+    .stats-conductor-part .rank-cell { grid-column: 1; grid-row: 1; align-self: center; text-align: right; }
+    .stats-band-part .name-cell,
+    .stats-conductor-part .name-cell { grid-column: 2; grid-row: 1; }
+    .stats-band-part .part-count-cell,
+    .stats-conductor-part .part-count-cell { grid-column: 3; grid-row: 1; align-self: center; text-align: right; white-space: nowrap; }
+    .stats-band-part .part-count-cell::before,
+    .stats-conductor-part .part-count-cell::before { content: 'Deltagelser: '; color: var(--color-text-secondary); font-size: 0.8rem; }
 
     /* ── Flest medaljer ──
        col 1: rank (spans 3 rows)
