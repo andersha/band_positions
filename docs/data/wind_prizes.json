@@ -4241,6 +4241,150 @@
           "korpsnr": 257
         }
       ]
+    },
+    {
+      "year": 2026,
+      "division": "Elite",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Engelsk Horn",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Opus 82",
+          "korpsnr": 11
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "1. divisjon",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Klarinett",
+          "orchestra": "Ådalsbruk Musikkforening",
+          "korpsnr": 26
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Fløyte",
+          "orchestra": "Sandefjord Musikkorps",
+          "korpsnr": 24
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "2. divisjon",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Fløyte",
+          "orchestra": "Aalesunds Ungdomsmusikkorps",
+          "korpsnr": 27
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Musikklaget Brage",
+          "korpsnr": 71
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "3. divisjon",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Trompet",
+          "orchestra": "Hygge Korpsensemble",
+          "korpsnr": 246
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Treblås",
+          "orchestra": "Sagene Janitsjarkorps",
+          "korpsnr": 35
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "4. divisjon",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
+          "orchestra": "Eidsvoll Janitsjarkorps",
+          "korpsnr": 101
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Saksofon",
+          "orchestra": "Eidsvoll Janitsjarkorps",
+          "korpsnr": 101
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "5. divisjon",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "TUBE",
+          "korpsnr": 253
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Hommelvik Musikkorps",
+          "korpsnr": 77
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "6. divisjon",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Tretten Musikkforening",
+          "korpsnr": 250
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Åsnes Hornmusikk",
+          "korpsnr": 67
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "7. divisjon",
+      "entries": [
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Arbeidernes Musikkorps",
+          "korpsnr": 195
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Nøtterøy Musikkorps",
+          "korpsnr": 143
+        }
+      ]
     }
   ],
   "metadata": {
@@ -4266,11 +4410,12 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "min_year": 2002,
-    "max_year": 2025,
-    "total_prizes": 556,
+    "max_year": 2026,
+    "total_prizes": 572,
     "divisions": [
       "Elite",
       "1. divisjon",
@@ -4281,6 +4426,6 @@
       "6. divisjon",
       "7. divisjon"
     ],
-    "generated_at": "2025-11-20T19:49:32+00:00"
+    "generated_at": "2026-03-22T10:57:24+00:00"
   }
 }
