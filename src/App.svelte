@@ -57,7 +57,7 @@ import type {
     om: 'Om',
     innstillinger: '⚙️'
   };
-  const viewOrder: ViewType[] = ['2026', 'data', 'bands', 'conductors', 'pieces', 'composers', 'repertoire', 'om', 'innstillinger']; // Settings at the end
+  const viewOrder: ViewType[] = ['data', 'bands', 'conductors', 'pieces', 'composers', 'repertoire', 'om', 'innstillinger']; // Settings at the end
 
   let dataset = $state<BandDataset | null>(null);
   let conductorRecords = $state<BandRecord[]>([]);
@@ -1706,7 +1706,7 @@ import type {
     >
       <div class="view-toggle" role="group" aria-label="Bytt visning">
         {#each viewOrder as view}
-          {#if (view !== 'repertoire' && view !== '2026') || bandType === 'wind'}
+          {#if view !== 'repertoire' || bandType === 'wind'}
             <button
               type="button"
               class:selected={activeView === view}
