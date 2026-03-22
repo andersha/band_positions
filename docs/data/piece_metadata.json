@@ -653,12 +653,6 @@
       "length": 9.0
     },
     {
-      "title": "Ascension",
-      "slug": "ascension",
-      "composer": null,
-      "length": 9.0
-    },
-    {
       "title": "Asphalt Cocktail",
       "slug": "asphalt-cocktail",
       "composer": "John Mackey",
@@ -725,13 +719,6 @@
       "slug": "aurora",
       "composer": "Thomas Doss",
       "length": 13.5
-    },
-    {
-      "title": "Aurora Awakes",
-      "slug": "aurora-awakes",
-      "composer": null,
-      "grade": 5,
-      "length": 11.33
     },
     {
       "title": "Aurora Awakes",
@@ -806,13 +793,6 @@
       "title": "Ballad for band",
       "slug": "ballad-for-band",
       "composer": "Gordon Jacob",
-      "grade": 5,
-      "length": 8.58
-    },
-    {
-      "title": "Ballad for band",
-      "slug": "ballad-for-band",
-      "composer": null,
       "grade": 5,
       "length": 8.58
     },
@@ -1669,11 +1649,6 @@
       "title": "Cossack Folk Dances",
       "slug": "cossack-folk-dances",
       "composer": "Franco Cesarini"
-    },
-    {
-      "title": "Cossack Wedding Dance",
-      "slug": "cossack-wedding-dance",
-      "composer": null
     },
     {
       "title": "Cotswold Dances, 2. sats Badminton House",
@@ -2683,11 +2658,6 @@
       "composer": "Edvard Grieg, arr. Idar Torskangerpoll"
     },
     {
-      "title": "Fest i Dovregubbens Hall",
-      "slug": "fest-i-dovregubbens-hall",
-      "composer": null
-    },
-    {
       "title": "Fest Polonaise, Op. 12",
       "slug": "fest-polonaise-op-12",
       "composer": "Johan Svendsen, arr. Johan Pala"
@@ -2785,13 +2755,6 @@
       "length": 5.42
     },
     {
-      "title": "Festivo",
-      "slug": "festivo",
-      "composer": null,
-      "grade": 5,
-      "length": 5.42
-    },
-    {
       "title": "Festmarsj",
       "slug": "festmarsj",
       "composer": "Johan Halvorsen, arr. Jan Eriksen"
@@ -2861,13 +2824,6 @@
       "title": "Firework",
       "slug": "firework",
       "composer": "Jan Van der Roost",
-      "grade": 5,
-      "length": 1.25
-    },
-    {
-      "title": "Firework",
-      "slug": "firework",
-      "composer": null,
       "grade": 5,
       "length": 1.25
     },
@@ -2979,11 +2935,6 @@
       "title": "Flåklypa Medley",
       "slug": "flaklypa-medley",
       "composer": "Bent Fabricius Bjerre, arr. Lars Erik Gudim"
-    },
-    {
-      "title": "Flåklypa Medley",
-      "slug": "flaklypa-medley",
-      "composer": null
     },
     {
       "title": "Folk Festival",
@@ -3198,13 +3149,6 @@
       "length": 7.0
     },
     {
-      "title": "Gaelforce",
-      "slug": "gaelforce",
-      "composer": null,
-      "grade": 3,
-      "length": 7.0
-    },
-    {
       "title": "Gaillarde",
       "slug": "gaillarde",
       "composer": "Pierre Attaignant"
@@ -3363,11 +3307,6 @@
       "title": "Godspeed",
       "slug": "godspeed",
       "composer": "Stephen Melillo"
-    },
-    {
-      "title": "Godspeed",
-      "slug": "godspeed",
-      "composer": null
     },
     {
       "title": "Goldberg 2012",
@@ -3853,13 +3792,6 @@
       "length": 6.0
     },
     {
-      "title": "In all its Glory",
-      "slug": "in-all-its-glory",
-      "composer": null,
-      "grade": 4,
-      "length": 6.0
-    },
-    {
       "title": "In Brief",
       "slug": "in-brief",
       "composer": "Olav Berg"
@@ -4036,13 +3968,6 @@
       "composer": "Philip Sparke",
       "grade": 5,
       "length": 10.0
-    },
-    {
-      "title": "Invocation and Toccata",
-      "slug": "invocation-and-toccata",
-      "composer": null,
-      "grade": 4,
-      "length": 8.67
     },
     {
       "title": "Invocation and Toccata",
@@ -4465,13 +4390,6 @@
       "composer": "Franz von Suppé",
       "grade": 4,
       "length": 9.0
-    },
-    {
-      "title": "Les Coleurs Fauves",
-      "slug": "les-coleurs-fauves",
-      "composer": null,
-      "grade": 6,
-      "length": 16.67
     },
     {
       "title": "Les Coleurs Fauves",
@@ -5182,13 +5100,6 @@
       "title": "New World Dances",
       "slug": "new-world-dances",
       "composer": "Martin Ellerby",
-      "grade": 5,
-      "length": 8.92
-    },
-    {
-      "title": "New World Dances",
-      "slug": "new-world-dances",
-      "composer": null,
       "grade": 5,
       "length": 8.92
     },
@@ -6071,11 +5982,6 @@
       "composer": "Alfred Reed"
     },
     {
-      "title": "Punchinello Overture",
-      "slug": "punchinello-overture",
-      "composer": null
-    },
-    {
       "title": "Purcell Variants",
       "slug": "purcell-variants",
       "composer": "Peter Meechan"
@@ -6302,13 +6208,6 @@
       "title": "Rikudim",
       "slug": "rikudim",
       "composer": "Jan Van der Roost",
-      "grade": 4,
-      "length": 9.58
-    },
-    {
-      "title": "Rikudim",
-      "slug": "rikudim",
-      "composer": null,
       "grade": 4,
       "length": 9.58
     },
@@ -6684,13 +6583,6 @@
       "length": 3.88
     },
     {
-      "title": "Sevens",
-      "slug": "sevens",
-      "composer": null,
-      "grade": 5,
-      "length": 3.88
-    },
-    {
       "title": "Shadow Waltzes",
       "slug": "shadow-waltzes",
       "composer": "Brian Balmages",
@@ -6715,26 +6607,6 @@
       "title": "Sheperd's Hey, English Morris Dance",
       "slug": "sheperd-s-hey-english-morris-dance",
       "composer": "Percy Aldridge Grainger"
-    },
-    {
-      "title": "Sheperd's Hey, English Morris Dance",
-      "slug": "sheperd-s-hey-english-morris-dance",
-      "composer": "C. Teike, arr. Koos Mark"
-    },
-    {
-      "title": "Sheperd's Hey, English Morris Dance",
-      "slug": "sheperd-s-hey-english-morris-dance",
-      "composer": null
-    },
-    {
-      "title": "Sheperd's Hey, English Morris Dance",
-      "slug": "sheperd-s-hey-english-morris-dance",
-      "composer": "Knut Nystedt"
-    },
-    {
-      "title": "Sheperd's Hey, English Morris Dance",
-      "slug": "sheperd-s-hey-english-morris-dance",
-      "composer": "Bent Fabricius Bjerre, arr. Lars Erik Gudim"
     },
     {
       "title": "Shine As The Light",
@@ -7973,11 +7845,6 @@
     {
       "title": "The Frozen Cathedral",
       "slug": "the-frozen-cathedral",
-      "composer": null
-    },
-    {
-      "title": "The Frozen Cathedral",
-      "slug": "the-frozen-cathedral",
       "composer": "John Mackey",
       "grade": 5,
       "length": 14.0
@@ -8095,11 +7962,6 @@
       "length": 7.58
     },
     {
-      "title": "The Light Eternal",
-      "slug": "the-light-eternal",
-      "composer": null
-    },
-    {
       "title": "The Lion King",
       "slug": "the-lion-king",
       "composer": "Elton John/Hans Zimmer, arr. John Higgins"
@@ -8167,11 +8029,6 @@
       "composer": "Gustav Holst",
       "grade": 5,
       "length": 8.17
-    },
-    {
-      "title": "The Planets, 4. sats Jupiter The Bringer of Jollity",
-      "slug": "the-planets-4-sats-jupiter-the-bringer-of-jollity",
-      "composer": null
     },
     {
       "title": "The Playground Project - 3. Urban Funkism",
@@ -8343,11 +8200,6 @@
       "composer": "Steven Reineke",
       "grade": 4,
       "length": 10.25
-    },
-    {
-      "title": "The Witch and the Saint",
-      "slug": "the-witch-and-the-saint",
-      "composer": null
     },
     {
       "title": "The Year of the Dragon",
@@ -8534,13 +8386,6 @@
       "title": "To a New Dawn",
       "slug": "to-a-new-dawn",
       "composer": "Philip Sparke",
-      "grade": 5,
-      "length": 9.67
-    },
-    {
-      "title": "To a New Dawn",
-      "slug": "to-a-new-dawn",
-      "composer": null,
       "grade": 5,
       "length": 9.67
     },
@@ -8902,13 +8747,6 @@
       "length": 9.25
     },
     {
-      "title": "Vesuvius",
-      "slug": "vesuvius",
-      "composer": null,
-      "grade": 5,
-      "length": 9.25
-    },
-    {
       "title": "Vetrate di Chiesa, 1. og 2. sats",
       "slug": "vetrate-di-chiesa-1-og-2-sats",
       "composer": "Ottorino Respighi, trans: Josè Schyns"
@@ -9104,13 +8942,6 @@
     {
       "title": "Where Eagles Soar",
       "slug": "where-eagles-soar",
-      "composer": null,
-      "grade": 3,
-      "length": 4.17
-    },
-    {
-      "title": "Where Eagles Soar",
-      "slug": "where-eagles-soar",
       "composer": "Steven Reineke",
       "grade": 3,
       "length": 4.17
@@ -9289,11 +9120,6 @@
       "composer": "Mauricio Kagel",
       "grade": 5,
       "length": 15.0
-    },
-    {
-      "title": "Zehn Märsche, um den Sieg zu verfehlen, Marsch 3: Vivace",
-      "slug": "zehn-marsche-um-den-sieg-zu-verfehlen-marsch-3-vivace",
-      "composer": null
     },
     {
       "title": "Zenith of the Maya",
