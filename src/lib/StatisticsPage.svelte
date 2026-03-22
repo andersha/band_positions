@@ -15,7 +15,7 @@
 
   let { pieceRecords, composerRecords, bands, bandType, onViewPiece, onViewComposer, onViewBand }: Props = $props();
 
-  type StatType = 'pieces' | 'trophies' | 'scores';
+  type StatType = 'pieces' | 'trophies' | 'scores' | 'piece-scores';
 
   const PAGE_SIZE = 20;
   let selectedStat = $state<StatType>('pieces');
@@ -69,10 +69,24 @@
       .sort((a, b) => b.avg - a.avg || b.count - a.count);
   });
 
+  // Stat 4: Highest average score per piece (min 3 scored performances)
+  let pieceScoreStats = $derived.by(() => {
+    return pieceRecords
+      .map(piece => {
+        const scored = piece.performances.filter(p => p.entry.points !== null);
+        if (scored.length < 3) return null;
+        const avg = scored.reduce((s, p) => s + p.entry.points!, 0) / scored.length;
+        return { piece, count: scored.length, avg };
+      })
+      .filter((r): r is NonNullable<typeof r> => r !== null)
+      .sort((a, b) => b.avg - a.avg || b.count - a.count);
+  });
+
   let activeStats = $derived(
     selectedStat === 'pieces' ? pieceStats :
     selectedStat === 'trophies' ? trophyStats :
-    scoreStats
+    selectedStat === 'scores' ? scoreStats :
+    pieceScoreStats
   );
 
   let totalPages = $derived(Math.ceil(activeStats.length / PAGE_SIZE));
@@ -98,6 +112,7 @@
       <option value="pieces">Mest fremførte verk</option>
       <option value="trophies">Flest medaljer (korps)</option>
       <option value="scores">Høyest snittpoeng (korps)</option>
+      <option value="piece-scores">Høyest snittpoeng (stykke)</option>
     </select>
     <span class="results-count">{activeStats.length} resultater</span>
   </div>
@@ -169,6 +184,50 @@
               <td class="gold-cell">{row.trophies.gold || '—'}</td>
               <td class="silver-cell">{row.trophies.silver || '—'}</td>
               <td class="bronze-cell">{row.trophies.bronze || '—'}</td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    {:else if selectedStat === 'piece-scores'}
+      <table class="stats-table stats-piece-scores">
+        <thead>
+          <tr>
+            <th class="rank-col">#</th>
+            <th>Verk</th>
+            <th>Komponist</th>
+            <th class="num-col">Fremføringer</th>
+            <th class="num-col">Snittpoeng</th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each paginatedStats as row, i (row.piece.slug)}
+            {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
+            <tr>
+              <td class="rank-cell">{rank}</td>
+              <td class="name-cell">
+                <button class="link-btn" onclick={() => onViewPiece(row.piece.slug)}>
+                  {row.piece.name}
+                </button>
+              </td>
+              <td class="composer-cell">
+                {#if row.piece.composerNames && row.piece.composerNames.length > 0}
+                  {#each row.piece.composerNames as name, ci}
+                    {#if ci > 0}<span class="composer-sep">, </span>{/if}
+                    {@const cSlug = findComposerSlug(name)}
+                    {#if cSlug}
+                      <button class="link-btn composer-link" onclick={() => onViewComposer(cSlug)}>
+                        {name}
+                      </button>
+                    {:else}
+                      <span>{name}</span>
+                    {/if}
+                  {/each}
+                {:else}
+                  <span class="empty">—</span>
+                {/if}
+              </td>
+              <td class="ps-count-cell">{row.count}</td>
+              <td class="ps-avg-cell">{row.avg.toFixed(2)}</td>
             </tr>
           {/each}
         </tbody>
@@ -318,7 +377,9 @@
   .silver-cell,
   .bronze-cell,
   .score-count-cell,
-  .avg-cell {
+  .avg-cell,
+  .ps-count-cell,
+  .ps-avg-cell {
     text-align: right;
     font-variant-numeric: tabular-nums;
     color: var(--color-text-secondary);
@@ -461,5 +522,18 @@
     .stats-scores .score-count-cell { grid-column: 3; grid-row: 2; text-align: right; white-space: nowrap; }
     .stats-scores .avg-cell::before         { content: 'Snittpoeng: '; color: var(--color-text-secondary); font-size: 0.8rem; }
     .stats-scores .score-count-cell::before { content: 'Fremføringer: '; color: var(--color-text-secondary); font-size: 0.8rem; }
+
+    /* ── Høyest snittpoeng (stykke) ──
+       col 1: rank (spans 2 rows)
+       col 2: title / composer
+       col 3: Snittpoeng: avg (row 1) / Fremføringer: count (row 2)
+    */
+    .stats-piece-scores .rank-cell     { grid-column: 1; grid-row: 1 / 3; align-self: start; text-align: right; }
+    .stats-piece-scores .name-cell     { grid-column: 2; grid-row: 1; }
+    .stats-piece-scores .composer-cell { grid-column: 2; grid-row: 2; font-size: 0.85rem; }
+    .stats-piece-scores .ps-avg-cell   { grid-column: 3; grid-row: 1; text-align: right; white-space: nowrap; }
+    .stats-piece-scores .ps-count-cell { grid-column: 3; grid-row: 2; text-align: right; white-space: nowrap; }
+    .stats-piece-scores .ps-avg-cell::before   { content: 'Snittpoeng: '; color: var(--color-text-secondary); font-size: 0.8rem; }
+    .stats-piece-scores .ps-count-cell::before { content: 'Fremføringer: '; color: var(--color-text-secondary); font-size: 0.8rem; }
   }
 </style>
