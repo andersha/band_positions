@@ -15,6 +15,7 @@
   import AboutPage from './lib/AboutPage.svelte';
   import SettingsPage from './lib/SettingsPage.svelte';
   import Upcoming2026 from './lib/Upcoming2026.svelte';
+  import StatisticsPage from './lib/StatisticsPage.svelte';
   import { slugify } from './lib/slugify';
   import { extractComposerNames, normalizeComposerName } from './lib/composerUtils';
   import { readLS, writeLS, STORAGE_KEYS } from './lib/storage';
@@ -29,7 +30,7 @@ import type {
   EliteTestPiecesData
 } from './lib/types';
 
-  type ViewType = 'bands' | 'conductors' | 'pieces' | 'composers' | 'data' | 'repertoire' | '2026' | 'om' | 'innstillinger';
+  type ViewType = 'bands' | 'conductors' | 'pieces' | 'composers' | 'data' | 'repertoire' | '2026' | 'statistikk' | 'om' | 'innstillinger';
   type Theme = 'light' | 'dark';
 
   const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor', pieces: 'piece', composers: 'composer' } as const;
@@ -54,10 +55,11 @@ import type {
     data: 'Resultat',
     repertoire: 'Repertoar',
     '2026': '2026',
+    statistikk: '📈',
     om: 'Om',
     innstillinger: '⚙️'
   };
-  const viewOrder: ViewType[] = ['data', 'bands', 'conductors', 'pieces', 'composers', 'repertoire', 'om', 'innstillinger']; // Settings at the end
+  const viewOrder: ViewType[] = ['data', 'bands', 'conductors', 'pieces', 'composers', 'repertoire', 'statistikk', 'om', 'innstillinger']; // Settings at the end
 
   let dataset = $state<BandDataset | null>(null);
   let conductorRecords = $state<BandRecord[]>([]);
@@ -1711,9 +1713,10 @@ import type {
               type="button"
               class:selected={activeView === view}
               class:view-toggle__settings={view === 'innstillinger'}
+              class:view-toggle__statistikk={view === 'statistikk'}
               aria-pressed={activeView === view}
               onclick={() => setView(view)}
-              data-mobile-label="{view === 'innstillinger' ? 'Innstillinger' : ''}"
+              data-mobile-label="{view === 'innstillinger' ? 'Innstillinger' : view === 'statistikk' ? 'Statistikk' : ''}"
             >
               <span class="view-toggle__label">{viewLabels[view]}</span>
             </button>
@@ -1858,6 +1861,16 @@ import type {
     {/if}
   {:else if activeView === 'repertoire'}
     <RepertoireExplorer />
+  {:else if activeView === 'statistikk'}
+    <StatisticsPage
+      pieceRecords={pieceRecords}
+      composerRecords={composerRecords}
+      bands={dataset?.bands ?? []}
+      bandType={bandType ?? 'wind'}
+      onViewPiece={(slug) => { setView('pieces'); const p = pieceRecords.find(r => r.slug === slug); if (p) selectedPieces = [p]; }}
+      onViewComposer={(slug) => { setView('composers'); const c = composerRecords.find(r => r.slug === slug); if (c) selectedComposers = [c]; }}
+      onViewBand={(slug) => { setView('bands'); const b = dataset?.bands.find(r => r.slug === slug); if (b) selectedBands = [b]; }}
+    />
   {:else if activeView === '2026'}
     <Upcoming2026 {bandType} />
   {:else if activeView === 'om'}
@@ -2243,6 +2256,16 @@ import type {
     }
 
     .header-controls .view-toggle__settings .view-toggle__label {
+      display: none;
+    }
+
+    /* Show plain text for statistikk button in mobile menu */
+    .header-controls .view-toggle__statistikk::before {
+      content: attr(data-mobile-label);
+      font-size: 0.9rem;
+    }
+
+    .header-controls .view-toggle__statistikk .view-toggle__label {
       display: none;
     }
 
