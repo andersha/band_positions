@@ -13,6 +13,23 @@
 
   let { dataset = null, bandType = 'wind', streamingResolver = undefined, eliteTestPieces = null }: Props = $props();
 
+  function getYearFromURL(): number | null {
+    if (typeof window === 'undefined') return null;
+    try {
+      const year = new URLSearchParams(window.location.search).get('year');
+      if (!year) return null;
+      const parsed = Number(year);
+      return Number.isNaN(parsed) ? null : parsed;
+    } catch { return null; }
+  }
+
+  function getDivisionFromURL(): string | null {
+    if (typeof window === 'undefined') return null;
+    try {
+      return new URLSearchParams(window.location.search).get('division') || null;
+    } catch { return null; }
+  }
+
   interface PrizeEntry {
     prize_type: 'soloist' | 'group';
     instrument: string;
@@ -110,8 +127,8 @@
     }
   }
 
-  let selectedYear: number | null = $state(getStoredYear(bandType));
-  let selectedDivision: string | null = $state(getStoredDivision(bandType));
+  let selectedYear: number | null = $state(getYearFromURL() ?? getStoredYear(bandType));
+  let selectedDivision: string | null = $state(getDivisionFromURL() ?? getStoredDivision(bandType));
 
   // Derived values that recalculate when dataset changes
   let yearDivisionMap = $derived(dataset
@@ -372,20 +389,27 @@
       const bandTypeChanged = lastProcessedBandType !== bandType;
       
       if (bandTypeChanged) {
-        // BandType changed - load stored selection for the new type
-        const storedYear = getStoredYear(bandType);
-        const storedDivision = getStoredDivision(bandType);
-        
-        // Use stored year if it's valid for this dataset, otherwise use newest
-        if (storedYear && availableYears.includes(storedYear)) {
-          selectedYear = storedYear;
-          selectedDivision = storedDivision;
+        // BandType changed - prefer URL params, then stored, then defaults
+        const urlYear = getYearFromURL();
+        const urlDivision = getDivisionFromURL();
+        if (urlYear && availableYears.includes(urlYear)) {
+          selectedYear = urlYear;
+          selectedDivision = urlDivision;
         } else {
-          // No stored year - use newest year and default to Elite division
-          selectedYear = availableYears[availableYears.length - 1] ?? null;
-          selectedDivision = 'Elite';
+          const storedYear = getStoredYear(bandType);
+          const storedDivision = getStoredDivision(bandType);
+
+          // Use stored year if it's valid for this dataset, otherwise use newest
+          if (storedYear && availableYears.includes(storedYear)) {
+            selectedYear = storedYear;
+            selectedDivision = storedDivision;
+          } else {
+            // No stored year - use newest year and default to Elite division
+            selectedYear = availableYears[availableYears.length - 1] ?? null;
+            selectedDivision = 'Elite';
+          }
         }
-        
+
         lastProcessedBandType = bandType;
       } else {
         // Same bandType - just ensure year selection is valid

@@ -230,7 +230,7 @@
               {@const streamingEntries = pieceEntries.filter((item) => hasStreamingLinks(item.streaming))}
               <tr>
                 <td data-label="År">{entry.year}</td>
-                <td data-label="Divisjon" class="division-cell">{entry.division}</td>
+                <td data-label="Divisjon" class="division-cell"><a href={`?type=${bandType}&view=data&year=${entry.year}&division=${encodeURIComponent(entry.division ?? '')}`} class="entity-link">{entry.division}</a></td>
                 <td data-label="Plass" class="rank-col">{getTrophy(entry.rank)}{formatRank(entry.rank)}</td>
                 <td data-label="Poeng">{formatPoints(entry.points)}</td>
                 <td data-label="Dirigent">

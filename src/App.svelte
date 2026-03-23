@@ -986,7 +986,8 @@ import type {
       stateChanged = true;
     }
 
-    const reportFromUrl = new URLSearchParams(window.location.search).get(URL_REPORT_KEY);
+    const searchParams = new URLSearchParams(window.location.search);
+    const reportFromUrl = searchParams.get(URL_REPORT_KEY);
     const validReports = ['pieces', 'band-participations', 'conductor-participations', 'trophies', 'scores', 'piece-scores'] as const;
     if (reportFromUrl && (validReports as readonly string[]).includes(reportFromUrl)) {
       statistikkReport = reportFromUrl as typeof statistikkReport;
@@ -1477,7 +1478,21 @@ import type {
         if (newView) {
           newParams.set('view', newView);
         }
-        
+
+        // Forward year/division params if present in the clicked link (results page deep links)
+        const yearParam = params.get(URL_YEAR_KEY);
+        const divisionParam = params.get(URL_DIVISION_KEY);
+        if (yearParam) {
+          newParams.set(URL_YEAR_KEY, yearParam);
+        } else {
+          newParams.delete(URL_YEAR_KEY);
+        }
+        if (divisionParam) {
+          newParams.set(URL_DIVISION_KEY, divisionParam);
+        } else {
+          newParams.delete(URL_DIVISION_KEY);
+        }
+
         // Navigate to merged URL
         const newUrl = `${window.location.pathname}?${newParams.toString()}${window.location.hash}`;
         window.history.pushState({}, '', newUrl);

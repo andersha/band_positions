@@ -244,7 +244,7 @@
               {@const streaming = performance.streaming ?? null}
               <tr>
                 <td data-label="År">{performance.entry.year}</td>
-                <td data-label="Divisjon">{performance.entry.division}</td>
+                <td data-label="Divisjon"><a href={`?type=${bandType}&view=data&year=${performance.entry.year}&division=${encodeURIComponent(performance.entry.division ?? '')}`} class="entity-link">{performance.entry.division}</a></td>
                 <td data-label="Korps">
                   <a
                     href={`?type=${bandType}&view=bands&band=${encodeURIComponent(bandSlug)}`}
