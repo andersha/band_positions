@@ -2,8 +2,9 @@
   import { countTrophies } from './trophyUtils';
   import { slugify } from './slugify';
   import type { PieceRecord, ComposerRecord, BandRecord, BandType } from './types';
+  import PoengspredningChart from './PoengspredningChart.svelte';
 
-  export type StatType = 'pieces' | 'band-participations' | 'conductor-participations' | 'trophies' | 'scores' | 'piece-scores';
+  export type StatType = 'pieces' | 'band-participations' | 'conductor-participations' | 'trophies' | 'piece-trophies' | 'point-spread' | 'scores' | 'piece-scores';
 
   interface Props {
     pieceRecords: PieceRecord[];
@@ -80,6 +81,18 @@
       });
   });
 
+  // Stat 5: Trophy counts per piece (Olympic sort)
+  let pieceTrophyStats = $derived.by(() => {
+    return pieceRecords
+      .map(piece => ({ piece, trophies: countTrophies(piece.performances.map(p => ({ rank: p.entry.rank }))) }))
+      .filter(r => r.trophies.gold + r.trophies.silver + r.trophies.bronze > 0)
+      .sort((a, b) => {
+        if (b.trophies.gold !== a.trophies.gold) return b.trophies.gold - a.trophies.gold;
+        if (b.trophies.silver !== a.trophies.silver) return b.trophies.silver - a.trophies.silver;
+        return b.trophies.bronze - a.trophies.bronze;
+      });
+  });
+
   // Stat 3: Highest average score per band (min 3 scored performances)
   let scoreStats = $derived.by(() => {
     return bands
@@ -111,6 +124,8 @@
     selectedStat === 'band-participations' ? bandParticipationStats :
     selectedStat === 'conductor-participations' ? conductorParticipationStats :
     selectedStat === 'trophies' ? trophyStats :
+    selectedStat === 'piece-trophies' ? pieceTrophyStats :
+    selectedStat === 'point-spread' ? [] :
     selectedStat === 'scores' ? scoreStats :
     pieceScoreStats
   );
@@ -139,12 +154,19 @@
       <option value="band-participations">Flest deltagelser (korps)</option>
       <option value="conductor-participations">Flest deltagelser (dirigent)</option>
       <option value="trophies">Flest medaljer (korps)</option>
+      <option value="piece-trophies">Flest medaljer (stykke)</option>
+      <option value="point-spread">Poengspredning</option>
       <option value="scores">Høyest snittpoeng (korps)</option>
       <option value="piece-scores">Høyest snittpoeng (stykke)</option>
     </select>
-    <span class="results-count">{activeStats.length} resultater</span>
+    {#if selectedStat !== 'point-spread'}
+      <span class="results-count">{activeStats.length} resultater</span>
+    {/if}
   </div>
 
+  {#if selectedStat === 'point-spread'}
+    <PoengspredningChart {bands} {bandType} />
+  {:else}
   <div class="table-container">
     {#if selectedStat === 'pieces'}
       <table class="stats-table stats-pieces">
@@ -269,6 +291,52 @@
           {/each}
         </tbody>
       </table>
+    {:else if selectedStat === 'piece-trophies'}
+      <table class="stats-table stats-piece-trophies">
+        <thead>
+          <tr>
+            <th class="rank-col">#</th>
+            <th>Verk</th>
+            <th>Komponist</th>
+            <th class="num-col">🥇</th>
+            <th class="num-col">🥈</th>
+            <th class="num-col">🥉</th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each paginatedStats as row, i (row.piece.slug)}
+            {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
+            <tr>
+              <td class="rank-cell">{rank}</td>
+              <td class="name-cell">
+                <button class="link-btn" onclick={() => onViewPiece(row.piece.slug)}>
+                  {row.piece.name}
+                </button>
+              </td>
+              <td class="composer-cell">
+                {#if row.piece.composerNames && row.piece.composerNames.length > 0}
+                  {#each row.piece.composerNames as name, ci}
+                    {#if ci > 0}<span class="composer-sep">, </span>{/if}
+                    {@const cSlug = findComposerSlug(name)}
+                    {#if cSlug}
+                      <button class="link-btn composer-link" onclick={() => onViewComposer(cSlug)}>
+                        {name}
+                      </button>
+                    {:else}
+                      <span>{name}</span>
+                    {/if}
+                  {/each}
+                {:else}
+                  <span class="empty">—</span>
+                {/if}
+              </td>
+              <td class="gold-cell">{row.trophies.gold || '—'}</td>
+              <td class="silver-cell">{row.trophies.silver || '—'}</td>
+              <td class="bronze-cell">{row.trophies.bronze || '—'}</td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
     {:else if selectedStat === 'piece-scores'}
       <table class="stats-table stats-piece-scores">
         <thead>
@@ -341,8 +409,9 @@
       </table>
     {/if}
   </div>
+  {/if}
 
-  {#if totalPages > 1}
+  {#if selectedStat !== 'point-spread' && totalPages > 1}
     <div class="pagination">
       <button
         onclick={() => currentPage = Math.max(1, currentPage - 1)}
@@ -604,6 +673,21 @@
     .stats-trophies .gold-cell::before   { content: '🥇: '; }
     .stats-trophies .silver-cell::before { content: '🥈: '; }
     .stats-trophies .bronze-cell::before { content: '🥉: '; }
+
+    /* ── Flest medaljer (stykke) ──
+       col 1: rank (spans 3 rows)
+       col 2: title (row 1) / composer (row 2)
+       col 3: 🥇 / 🥈 / 🥉 counts (rows 1–3)
+    */
+    .stats-piece-trophies .rank-cell     { grid-column: 1; grid-row: 1 / 4; align-self: start; text-align: right; }
+    .stats-piece-trophies .name-cell     { grid-column: 2; grid-row: 1; }
+    .stats-piece-trophies .composer-cell { grid-column: 2; grid-row: 2; font-size: 0.85rem; }
+    .stats-piece-trophies .gold-cell     { grid-column: 3; grid-row: 1; text-align: right; white-space: nowrap; }
+    .stats-piece-trophies .silver-cell   { grid-column: 3; grid-row: 2; text-align: right; white-space: nowrap; }
+    .stats-piece-trophies .bronze-cell   { grid-column: 3; grid-row: 3; text-align: right; white-space: nowrap; }
+    .stats-piece-trophies .gold-cell::before   { content: '🥇: '; }
+    .stats-piece-trophies .silver-cell::before { content: '🥈: '; }
+    .stats-piece-trophies .bronze-cell::before { content: '🥉: '; }
 
     /* ── Høyest snittpoeng ──
        col 1: rank (spans 2 rows)
