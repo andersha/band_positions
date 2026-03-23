@@ -1603,12 +1603,78 @@
                 "demote": [
                     6
                 ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
             }
         },
         "1994": {
             "Elite": {
                 "demote": [
                     6
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
                 ]
             }
         },
@@ -1617,12 +1683,78 @@
                 "demote": [
                     5
                 ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
             }
         },
         "1996": {
             "Elite": {
                 "demote": [
                     6
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
                 ]
             }
         },
@@ -1631,12 +1763,102 @@
                 "demote": [
                     5
                 ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
             }
         },
         "1998": {
             "Elite": {
                 "demote": [
                     8
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
                 ]
             }
         },
@@ -1645,12 +1867,102 @@
                 "demote": [
                     7
                 ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
             }
         },
         "2000": {
             "Elite": {
                 "demote": [
                     8
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
                 ]
             }
         },
@@ -1659,12 +1971,102 @@
                 "demote": [
                     8
                 ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
             }
         },
         "2002": {
             "Elite": {
                 "demote": [
                     8
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
                 ]
             }
         },
@@ -1673,12 +2075,102 @@
                 "demote": [
                     8
                 ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
             }
         },
         "2004": {
             "Elite": {
                 "demote": [
                     8
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
                 ]
             }
         },
@@ -1687,10 +2179,1054 @@
                 "demote": [
                     10
                 ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
             }
         }
     },
     "brass": {
+        "1993": {
+            "Elite": {
+                "demote": [
+                    7
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "1994": {
+            "Elite": {
+                "demote": [
+                    7
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "1995": {
+            "Elite": {
+                "demote": [
+                    7
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "1996": {
+            "Elite": {
+                "demote": [
+                    7
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "1997": {
+            "Elite": {
+                "demote": [
+                    7
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "1998": {
+            "Elite": {
+                "demote": [
+                    8
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "1999": {
+            "Elite": {
+                "demote": [
+                    8
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2000": {
+            "Elite": {
+                "demote": [
+                    8
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2001": {
+            "Elite": {
+                "demote": [
+                    8
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2002": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2003": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2004": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2005": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2006": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2007": {
+            "Elite": {
+                "demote": [
+                    9
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2008": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2009": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2010": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2011": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2012": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "5. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2013": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "5. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2014": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "5. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "2015": {
+            "Elite": {
+                "demote": [
+                    9,
+                    10
+                ]
+            },
+            "1. divisjon": {
+                "promote": [
+                    1
+                ],
+                "demote": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "2. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "3. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "4. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ],
+                "demote": [
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "5. divisjon": {
+                "promote": [
+                    1,
+                    2
+                ]
+            }
+        },
         "2016": {
             "Elite": {
                 "demote": [
