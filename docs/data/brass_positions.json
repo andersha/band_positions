@@ -24013,26 +24013,6 @@
       ]
     },
     {
-      "name": "Sandefjord Brass Symposisum",
-      "slug": "sandefjord-brass-symposisum",
-      "entries": [
-        {
-          "year": 2026,
-          "division": "1. divisjon",
-          "rank": 6,
-          "division_size": 12,
-          "absolute_position": 16,
-          "field_size": 80,
-          "points": 89.0,
-          "max_points": 100.0,
-          "conductor": "Trond Husebø",
-          "pieces": [
-            "Music of the Spheres"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Sandefjord Brass Symposium",
       "slug": "sandefjord-brass-symposium",
       "entries": [
@@ -24468,6 +24448,20 @@
           "conductor": "Trond Husebø",
           "pieces": [
             "As If A Voice Were In Them..."
+          ]
+        },
+        {
+          "year": 2026,
+          "division": "1. divisjon",
+          "rank": 6,
+          "division_size": 12,
+          "absolute_position": 16,
+          "field_size": 80,
+          "points": 89.0,
+          "max_points": 100.0,
+          "conductor": "Trond Husebø",
+          "pieces": [
+            "Music of the Spheres"
           ]
         }
       ]
