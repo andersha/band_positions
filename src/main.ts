@@ -3,6 +3,8 @@ import App from './App.svelte';
 import { mount } from "svelte";
 import { StatusBar, Style } from '@capacitor/status-bar';
 import { EdgeToEdge } from '@capawesome/capacitor-android-edge-to-edge-support';
+import { App as CapApp } from '@capacitor/app';
+import { Capacitor } from '@capacitor/core';
 
 // Initialize Android edge-to-edge support and status bar
 async function initializeEdgeToEdgeAndStatusBar() {
@@ -34,6 +36,17 @@ async function initializeEdgeToEdgeAndStatusBar() {
     // Status bar plugin not available (web/browser)
     console.log('Status Bar initialization skipped:', err);
   }
+}
+
+// Handle Android back button / swipe-back gesture (fallback for older Android)
+if (Capacitor.isNativePlatform()) {
+  CapApp.addListener('backButton', ({ canGoBack }) => {
+    if (canGoBack) {
+      window.history.back();
+    } else {
+      CapApp.exitApp();
+    }
+  });
 }
 
 // Initialize edge-to-edge and status bar, then mount app

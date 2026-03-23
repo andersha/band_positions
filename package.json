@@ -26,6 +26,7 @@
     "vitest": "^4.0.16"
   },
   "dependencies": {
+    "@capacitor/app": "^7.0.0",
     "@capacitor/status-bar": "^7.0.3",
     "@capawesome/capacitor-android-edge-to-edge-support": "^7.2.3",
     "d3": "^7.9.0"

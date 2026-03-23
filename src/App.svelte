@@ -914,7 +914,7 @@ import type {
     return a.every((record, index) => record.slug === b[index].slug);
   }
 
-  function updateUrlState(): void {
+  function updateUrlState(pushNewEntry = false): void {
     if (typeof window === 'undefined') return;
     if (bandType === null) return; // Don't update URL when on startup screen
     
@@ -965,7 +965,11 @@ import type {
 
     const query = params.toString();
     const newUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
-    window.history.replaceState({}, '', newUrl);
+    if (pushNewEntry) {
+      window.history.pushState({}, '', newUrl);
+    } else {
+      window.history.replaceState({}, '', newUrl);
+    }
   }
 
   function syncSelectionFromURL({ updateHistory = false } = {}): boolean {
@@ -1096,7 +1100,7 @@ import type {
     if (!initialUrlSyncDone) return;
     const signature = getSelectedSignature();
     if (signature !== lastSyncedSignature) {
-      updateUrlState();
+      updateUrlState(true);
       lastSyncedSignature = signature;
     }
   }
