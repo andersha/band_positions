@@ -992,7 +992,7 @@ import type {
 
     const searchParams = new URLSearchParams(window.location.search);
     const reportFromUrl = searchParams.get(URL_REPORT_KEY);
-    const validReports = ['pieces', 'band-participations', 'conductor-participations', 'trophies', 'scores', 'piece-scores'] as const;
+    const validReports = ['pieces', 'band-participations', 'conductor-participations', 'trophies', 'piece-trophies', 'point-spread', 'scores', 'piece-scores'] as const;
     if (reportFromUrl && (validReports as readonly string[]).includes(reportFromUrl)) {
       statistikkReport = reportFromUrl as typeof statistikkReport;
     }
