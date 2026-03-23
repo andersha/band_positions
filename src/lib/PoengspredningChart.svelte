@@ -264,6 +264,9 @@
         </g>
       </svg>
     </div>
+    <p class="chart-description">
+      Grafen viser poengspredningen i divisjonen over tid. Den grønne sonen viser poengene til korps som rykket opp, den blå sonen viser korps som ble i divisjonen, og den røde sonen viser korps som rykket ned. Linjene markerer høyeste og laveste poengsum hvert år.
+    </p>
   {/if}
 </div>
 
@@ -329,6 +332,13 @@
     font-size: 11px;
     fill: var(--color-text-secondary);
     font-family: inherit;
+  }
+
+  .chart-description {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin: 0;
+    line-height: 1.5;
   }
 
   .empty-state {

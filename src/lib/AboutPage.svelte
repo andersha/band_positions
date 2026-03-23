@@ -29,8 +29,13 @@
         som gir informasjon om komponister, vanskelighetsgrad og varighet for janitsjarmusikk.
       </li>
       <li>
-        <strong>Musikkopptak:</strong> Lenker er knyttet fra NM-stykkene til utgivelsene av NM-musikk på 
+        <strong>Musikkopptak:</strong> Lenker er knyttet fra NM-stykkene til utgivelsene av NM-musikk på
         <strong>Spotify</strong> og <strong>Apple Music</strong> der dette er tilgjengelig.
+      </li>
+      <li>
+        <strong>Tilleggskilder:</strong> Wikipedia-artikler om enkeltkonkurranser og
+        <a href="https://www.brassbandresults.co.uk/" target="_blank" rel="noopener noreferrer">brassbandresults.co.uk</a>
+        er brukt som tilleggskilder for å supplere og verifisere data.
       </li>
     </ul>
   </section>
@@ -56,6 +61,14 @@
       Du kan liste alle gangene et stykke har vært fremført i NM, samt se alle komponistene som har 
       vært brukt i NM-sammenheng. Dette gir deg oversikt over repertoaret og hvilke komponister 
       som er mest populære.
+    </p>
+
+    <h4>Statistikk</h4>
+    <p>
+      Statistikk-siden gir deg et overordnet blikk på historiske mønstre i NM. Her finner du blant annet
+      hvilke verk og korps som har flest fremføringer og medaljer, hvilke dirigenter som har deltatt flest
+      ganger, og hvilke korps som har høyest snittpoeng. Poengspredning-grafen viser hvordan poengnivåene
+      i hver divisjon har utviklet seg over tid, fordelt på korps som rykket opp, ble værende eller rykket ned.
     </p>
 
     <h4>Resultatlister</h4>
