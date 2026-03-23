@@ -879,7 +879,13 @@ import type {
     if (raw === '2026' || raw === 'upcoming') {
       return '2026';
     }
-    return 'bands';
+    if (raw === 'statistikk' || raw === 'statistics' || raw === 'stats') {
+      return 'statistikk';
+    }
+    if (raw === 'bands' || raw === 'korps') {
+      return 'bands';
+    }
+    return DEFAULT_VIEW;
   }
 
   function getSlugsFromURL(view: ViewType): string[] {
