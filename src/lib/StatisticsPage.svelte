@@ -3,24 +3,25 @@
   import { slugify } from './slugify';
   import type { PieceRecord, ComposerRecord, BandRecord, BandType } from './types';
 
+  export type StatType = 'pieces' | 'band-participations' | 'conductor-participations' | 'trophies' | 'scores' | 'piece-scores';
+
   interface Props {
     pieceRecords: PieceRecord[];
     composerRecords: ComposerRecord[];
     bands: BandRecord[];
     conductorRecords: BandRecord[];
     bandType: BandType;
+    selectedStat?: StatType;
+    onStatChange?: (stat: StatType) => void;
     onViewPiece: (slug: string) => void;
     onViewComposer: (slug: string) => void;
     onViewBand: (slug: string) => void;
     onViewConductor: (slug: string) => void;
   }
 
-  let { pieceRecords, composerRecords, bands, conductorRecords, bandType, onViewPiece, onViewComposer, onViewBand, onViewConductor }: Props = $props();
-
-  type StatType = 'pieces' | 'band-participations' | 'conductor-participations' | 'trophies' | 'scores' | 'piece-scores';
+  let { pieceRecords, composerRecords, bands, conductorRecords, bandType, selectedStat = 'pieces', onStatChange, onViewPiece, onViewComposer, onViewBand, onViewConductor }: Props = $props();
 
   const PAGE_SIZE = 20;
-  let selectedStat = $state<StatType>('pieces');
   let currentPage = $state(1);
 
   // Build a composer slug lookup map for fast access
@@ -122,7 +123,7 @@
   });
 
   function changeStat(stat: StatType) {
-    selectedStat = stat;
+    onStatChange?.(stat);
     currentPage = 1;
   }
 </script>

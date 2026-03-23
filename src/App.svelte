@@ -35,6 +35,7 @@ import type {
 
   const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor', pieces: 'piece', composers: 'composer' } as const;
   const URL_VIEW_KEY = 'view';
+  const URL_REPORT_KEY = 'report';
   const URL_BAND_TYPE_KEY = 'type';
   const URL_YEAR_KEY = 'year';
   const URL_DIVISION_KEY = 'division';
@@ -80,6 +81,7 @@ import type {
   let selectionMode = $state<SelectionMode>(DEFAULT_SELECTION_MODE);
   let sortOrder = $state<'asc' | 'desc'>('asc');
   let activeView = $state<ViewType>(DEFAULT_VIEW);
+  let statistikkReport = $state<import('./lib/StatisticsPage.svelte').StatType>('pieces');
   let theme = $state<Theme>('dark');
   let bandType = $state<BandType | null>(null); // Changed to nullable
   let menuOpen = $state(false);
@@ -955,6 +957,12 @@ import type {
 
     params.set(URL_VIEW_KEY, activeView);
 
+    if (activeView === 'statistikk' && statistikkReport !== 'pieces') {
+      params.set(URL_REPORT_KEY, statistikkReport);
+    } else {
+      params.delete(URL_REPORT_KEY);
+    }
+
     const query = params.toString();
     const newUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
     window.history.replaceState({}, '', newUrl);
@@ -976,6 +984,12 @@ import type {
     if (viewFromUrl !== activeView) {
       activeView = viewFromUrl;
       stateChanged = true;
+    }
+
+    const reportFromUrl = new URLSearchParams(window.location.search).get(URL_REPORT_KEY);
+    const validReports = ['pieces', 'band-participations', 'conductor-participations', 'trophies', 'scores', 'piece-scores'] as const;
+    if (reportFromUrl && (validReports as readonly string[]).includes(reportFromUrl)) {
+      statistikkReport = reportFromUrl as typeof statistikkReport;
     }
 
     if (!dataset) {
@@ -1074,7 +1088,7 @@ import type {
     const conductorSignature = selectedConductors.map((conductor) => conductor.slug).join(URL_SEPARATOR);
     const pieceSignature = selectedPieces.map((piece) => piece.slug).join(URL_SEPARATOR);
     const composerSignature = selectedComposers.map((composer) => composer.slug).join(URL_SEPARATOR);
-    return `${bandType ?? 'none'}|${activeView}|${bandSignature}|${conductorSignature}|${pieceSignature}|${composerSignature}`;
+    return `${bandType ?? 'none'}|${activeView}|${statistikkReport}|${bandSignature}|${conductorSignature}|${pieceSignature}|${composerSignature}`;
   }
 
   function syncUrlIfReady(): void {
@@ -1874,6 +1888,8 @@ import type {
       bands={dataset?.bands ?? []}
       conductorRecords={conductorRecords}
       bandType={bandType ?? 'wind'}
+      selectedStat={statistikkReport}
+      onStatChange={(stat) => { statistikkReport = stat; syncUrlIfReady(); }}
       onViewPiece={(slug) => { setView('pieces'); const p = pieceRecords.find(r => r.slug === slug); if (p) selectedPieces = [p]; }}
       onViewComposer={(slug) => { setView('composers'); const c = composerRecords.find(r => r.slug === slug); if (c) selectedComposers = [c]; }}
       onViewBand={(slug) => { setView('bands'); const b = dataset?.bands.find(r => r.slug === slug); if (b) selectedBands = [b]; }}
