@@ -127,8 +127,13 @@
     }
   }
 
-  let selectedYear: number | null = $state(getYearFromURL() ?? getStoredYear(bandType));
-  let selectedDivision: string | null = $state(getDivisionFromURL() ?? getStoredDivision(bandType));
+  let selectedYear: number | null = $state(null);
+  let selectedDivision: string | null = $state(null);
+
+  $effect(() => {
+    selectedYear = getYearFromURL() ?? getStoredYear(bandType);
+    selectedDivision = getDivisionFromURL() ?? getStoredDivision(bandType);
+  });
 
   // Derived values that recalculate when dataset changes
   let yearDivisionMap = $derived(dataset

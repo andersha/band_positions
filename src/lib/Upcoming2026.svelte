@@ -57,7 +57,11 @@
       : STORAGE_KEYS.SELECTED_DIVISION_2026_BRASS;
   }
 
-  let selectedDivision = $state<string>(readLS(getDivisionStorageKey(bandType), 'all'));
+  let selectedDivision = $state<string>('all');
+
+  $effect(() => {
+    selectedDivision = readLS(getDivisionStorageKey(bandType), 'all');
+  });
   let starredEntries = $state<Set<string>>(new Set());
 
   let data = $derived(bandType === 'wind' ? windData : brassData);

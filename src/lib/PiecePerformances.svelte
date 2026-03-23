@@ -23,7 +23,7 @@
   type PieceSortColumn = 'year' | 'division' | 'band' | 'rank' | 'points' | 'conductor';
 
   let sortColumn = $state<PieceSortColumn>('year');
-  let sortDirection = $state<Direction>(sortOrder);
+  let sortDirection = $state<Direction>('asc');
 
   function cmp(a: unknown, b: unknown, dir: Direction): number {
     const aNull = a == null || a === '';
