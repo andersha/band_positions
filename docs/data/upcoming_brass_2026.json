@@ -2,200 +2,19 @@
   "year": 2026,
   "competition_type": "brass",
   "stage": 4,
+  "stage_description": null,
+  "next_expected_update": null,
+  "location": "Bergen",
+  "date_range": "6-7 februar 2026",
   "divisions": [
     {
-      "name": "Elite",
-      "entries": [
-        {
-          "orchestra": "Brøttum Brass",
-          "division": "Elite",
-          "play_order": 1,
-          "play_datetime": "2026-02-07T15:00:00",
-          "venue": "Griegsalen",
-          "conductor": "David Morton",
-          "pieces": [
-            {
-              "title": "Vienna Nights",
-              "composer": "Philip Wilby",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ],
-          "korpsnr": null,
-          "image_url": null
-        },
-        {
-          "orchestra": "Oslo Brass Band",
-          "division": "Elite",
-          "play_order": 2,
-          "play_datetime": "2026-02-07T15:37:00",
-          "venue": "Griegsalen",
-          "conductor": "Sebastian Haukås",
-          "pieces": [
-            {
-              "title": "Journey of the Lone Wolf",
-              "composer": "Simon Dobson",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ],
-          "korpsnr": null,
-          "image_url": null
-        },
-        {
-          "orchestra": "Tertnes Brass",
-          "division": "Elite",
-          "play_order": 3,
-          "play_datetime": "2026-02-07T16:10:00",
-          "venue": "Griegsalen",
-          "conductor": "Paul Holland",
-          "pieces": [
-            {
-              "title": "Harrison's Dream",
-              "composer": "Peter Graham",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ],
-          "korpsnr": null,
-          "image_url": null
-        },
-        {
-          "orchestra": "Manger Musikklag",
-          "division": "Elite",
-          "play_order": 4,
-          "play_datetime": "2026-02-07T16:43:00",
-          "venue": "Griegsalen",
-          "conductor": "David King",
-          "pieces": [
-            {
-              "title": "This World",
-              "composer": "Thomas Doss",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ],
-          "korpsnr": null,
-          "image_url": null
-        },
-        {
-          "orchestra": "Eikanger-Bjørsvik Musikklag",
-          "division": "Elite",
-          "play_order": 5,
-          "play_datetime": "2026-02-07T17:16:00",
-          "venue": "Griegsalen",
-          "conductor": "Ingar Bergby",
-          "pieces": [
-            {
-              "title": "Dear Cassandra",
-              "composer": "Ludovic Neurohr",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ],
-          "korpsnr": null,
-          "image_url": null
-        },
-        {
-          "orchestra": "Stavanger Brass Band",
-          "division": "Elite",
-          "play_order": 6,
-          "play_datetime": "2026-02-07T18:04:00",
-          "venue": "Griegsalen",
-          "conductor": "Ivan Meylemans",
-          "pieces": [
-            {
-              "title": "The Forest for the Trees",
-              "composer": "Wim Bex",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ],
-          "korpsnr": null,
-          "image_url": null
-        },
-        {
-          "orchestra": "Bjørsvik brass",
-          "division": "Elite",
-          "play_order": 7,
-          "play_datetime": "2026-02-07T18:37:00",
-          "venue": "Griegsalen",
-          "conductor": "Andreas Hanson",
-          "pieces": [
-            {
-              "title": "On Alderley Edge",
-              "composer": "Peter Graham",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ],
-          "korpsnr": null,
-          "image_url": null
-        },
-        {
-          "orchestra": "Oslofjord Brass",
-          "division": "Elite",
-          "play_order": 8,
-          "play_datetime": "2026-02-07T19:10:00",
-          "venue": "Griegsalen",
-          "conductor": "Peter Szilvay",
-          "pieces": [
-            {
-              "title": "HorrorShow",
-              "composer": "Simon Dobson",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ],
-          "korpsnr": null,
-          "image_url": null
-        },
-        {
-          "orchestra": "Kleppe Musikklag",
-          "division": "Elite",
-          "play_order": 9,
-          "play_datetime": "2026-02-07T19:43:00",
-          "venue": "Griegsalen",
-          "conductor": "Tormod Flaten",
-          "pieces": [
-            {
-              "title": "Titan's Progress",
-              "composer": "Hermann Pallhuber",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ],
-          "korpsnr": null,
-          "image_url": null
-        },
-        {
-          "orchestra": "Jaren Hornmusikkforening",
-          "division": "Elite",
-          "play_order": 10,
-          "play_datetime": "2026-02-07T20:16:00",
-          "venue": "Griegsalen",
-          "conductor": "Michael Aaberg Thomsen",
-          "pieces": [
-            {
-              "title": "A Road Less Travelled By",
-              "composer": "Philip Sparke",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ],
-          "korpsnr": null,
-          "image_url": null
-        }
-      ],
-      "play_date": "2026-02-07",
-      "venue": "Griegsalen"
-    },
-    {
       "name": "1. divisjon",
+      "play_date": "2026-02-07",
+      "venue": "Griegsalen",
+      "total_entries": null,
       "entries": [
         {
           "orchestra": "Askøy Brass Band",
-          "division": "1. divisjon",
           "play_order": 1,
           "play_datetime": "2026-02-07T09:00:00",
           "venue": "Griegsalen",
@@ -213,7 +32,6 @@
         },
         {
           "orchestra": "Musikkorpset Gjallarhorn",
-          "division": "1. divisjon",
           "play_order": 2,
           "play_datetime": "2026-02-07T09:32:00",
           "venue": "Griegsalen",
@@ -231,7 +49,6 @@
         },
         {
           "orchestra": "Tysnes Musikklag",
-          "division": "1. divisjon",
           "play_order": 3,
           "play_datetime": "2026-02-07T09:59:00",
           "venue": "Griegsalen",
@@ -249,7 +66,6 @@
         },
         {
           "orchestra": "Flesland Musikklag",
-          "division": "1. divisjon",
           "play_order": 4,
           "play_datetime": "2026-02-07T10:21:00",
           "venue": "Griegsalen",
@@ -267,7 +83,6 @@
         },
         {
           "orchestra": "Rong Brass",
-          "division": "1. divisjon",
           "play_order": 5,
           "play_datetime": "2026-02-07T11:03:00",
           "venue": "Griegsalen",
@@ -285,7 +100,6 @@
         },
         {
           "orchestra": "Krohnengen Brass Band",
-          "division": "1. divisjon",
           "play_order": 6,
           "play_datetime": "2026-02-07T11:25:00",
           "venue": "Griegsalen",
@@ -303,7 +117,6 @@
         },
         {
           "orchestra": "Tomra Brass Band",
-          "division": "1. divisjon",
           "play_order": 7,
           "play_datetime": "2026-02-07T11:52:00",
           "venue": "Griegsalen",
@@ -321,7 +134,6 @@
         },
         {
           "orchestra": "Molde Brass Band",
-          "division": "1. divisjon",
           "play_order": 8,
           "play_datetime": "2026-02-07T12:14:00",
           "venue": "Griegsalen",
@@ -339,7 +151,6 @@
         },
         {
           "orchestra": "Sandefjord Brass Symposium",
-          "division": "1. divisjon",
           "play_order": 9,
           "play_datetime": "2026-02-07T12:56:00",
           "venue": "Griegsalen",
@@ -357,7 +168,6 @@
         },
         {
           "orchestra": "Ila Brass Band",
-          "division": "1. divisjon",
           "play_order": 10,
           "play_datetime": "2026-02-07T13:23:00",
           "venue": "Griegsalen",
@@ -375,7 +185,6 @@
         },
         {
           "orchestra": "Radøy Brass",
-          "division": "1. divisjon",
           "play_order": 11,
           "play_datetime": "2026-02-07T13:45:00",
           "venue": "Griegsalen",
@@ -393,7 +202,6 @@
         },
         {
           "orchestra": "Ørskog Brass",
-          "division": "1. divisjon",
           "play_order": 12,
           "play_datetime": "2026-02-07T14:12:00",
           "venue": "Griegsalen",
@@ -409,16 +217,16 @@
           "korpsnr": null,
           "image_url": null
         }
-      ],
-      "play_date": "2026-02-07",
-      "venue": "Griegsalen"
+      ]
     },
     {
       "name": "2. divisjon",
+      "play_date": "2026-02-06",
+      "venue": "Griegsalen",
+      "total_entries": null,
       "entries": [
         {
           "orchestra": "Bergen Brass Band",
-          "division": "2. divisjon",
           "play_order": 1,
           "play_datetime": "2026-02-06T09:30:00",
           "venue": "Griegsalen",
@@ -436,7 +244,6 @@
         },
         {
           "orchestra": "Sola Brass Band",
-          "division": "2. divisjon",
           "play_order": 2,
           "play_datetime": "2026-02-06T10:00:00",
           "venue": "Griegsalen",
@@ -454,7 +261,6 @@
         },
         {
           "orchestra": "Jølster Musikklag",
-          "division": "2. divisjon",
           "play_order": 3,
           "play_datetime": "2026-02-06T10:25:00",
           "venue": "Griegsalen",
@@ -472,7 +278,6 @@
         },
         {
           "orchestra": "Stangaland Brass",
-          "division": "2. divisjon",
           "play_order": 4,
           "play_datetime": "2026-02-06T10:45:00",
           "venue": "Griegsalen",
@@ -490,7 +295,6 @@
         },
         {
           "orchestra": "Follesø Musikklag",
-          "division": "2. divisjon",
           "play_order": 5,
           "play_datetime": "2026-02-06T11:10:00",
           "venue": "Griegsalen",
@@ -508,7 +312,6 @@
         },
         {
           "orchestra": "Trondheim Brassband",
-          "division": "2. divisjon",
           "play_order": 6,
           "play_datetime": "2026-02-06T11:45:00",
           "venue": "Griegsalen",
@@ -526,7 +329,6 @@
         },
         {
           "orchestra": "Haukås Musikklag",
-          "division": "2. divisjon",
           "play_order": 7,
           "play_datetime": "2026-02-06T12:05:00",
           "venue": "Griegsalen",
@@ -544,7 +346,6 @@
         },
         {
           "orchestra": "Agder Brass",
-          "division": "2. divisjon",
           "play_order": 8,
           "play_datetime": "2026-02-06T12:30:00",
           "venue": "Griegsalen",
@@ -562,7 +363,6 @@
         },
         {
           "orchestra": "Gjesdal Brass Band",
-          "division": "2. divisjon",
           "play_order": 9,
           "play_datetime": "2026-02-06T13:10:00",
           "venue": "Griegsalen",
@@ -580,7 +380,6 @@
         },
         {
           "orchestra": "Sørum Musikklag",
-          "division": "2. divisjon",
           "play_order": 10,
           "play_datetime": "2026-02-06T13:35:00",
           "venue": "Griegsalen",
@@ -598,7 +397,6 @@
         },
         {
           "orchestra": "Hasle Brass",
-          "division": "2. divisjon",
           "play_order": 11,
           "play_datetime": "2026-02-06T13:55:00",
           "venue": "Griegsalen",
@@ -616,7 +414,6 @@
         },
         {
           "orchestra": "Tromsø Brass",
-          "division": "2. divisjon",
           "play_order": 12,
           "play_datetime": "2026-02-06T14:20:00",
           "venue": "Griegsalen",
@@ -634,7 +431,6 @@
         },
         {
           "orchestra": "Bjørvika Brass Band",
-          "division": "2. divisjon",
           "play_order": 13,
           "play_datetime": "2026-02-06T14:45:00",
           "venue": "Griegsalen",
@@ -650,16 +446,16 @@
           "korpsnr": null,
           "image_url": null
         }
-      ],
-      "play_date": "2026-02-06",
-      "venue": "Griegsalen"
+      ]
     },
     {
       "name": "3. divisjon",
+      "play_date": "2026-02-06",
+      "venue": "Peer Gynt-salen",
+      "total_entries": null,
       "entries": [
         {
           "orchestra": "Kjølsdalen musikklag",
-          "division": "3. divisjon",
           "play_order": 1,
           "play_datetime": "2026-02-06T15:45:00",
           "venue": "Peer Gynt-salen",
@@ -677,7 +473,6 @@
         },
         {
           "orchestra": "Gjøvik Bybrass",
-          "division": "3. divisjon",
           "play_order": 2,
           "play_datetime": "2026-02-06T16:10:00",
           "venue": "Peer Gynt-salen",
@@ -695,7 +490,6 @@
         },
         {
           "orchestra": "Alexander Brassband",
-          "division": "3. divisjon",
           "play_order": 3,
           "play_datetime": "2026-02-06T16:30:00",
           "venue": "Peer Gynt-salen",
@@ -713,7 +507,6 @@
         },
         {
           "orchestra": "Oster Brass",
-          "division": "3. divisjon",
           "play_order": 4,
           "play_datetime": "2026-02-06T16:50:00",
           "venue": "Peer Gynt-salen",
@@ -731,7 +524,6 @@
         },
         {
           "orchestra": "Riska Brass Band",
-          "division": "3. divisjon",
           "play_order": 5,
           "play_datetime": "2026-02-06T17:10:00",
           "venue": "Peer Gynt-salen",
@@ -749,7 +541,6 @@
         },
         {
           "orchestra": "Moen Musikkforening",
-          "division": "3. divisjon",
           "play_order": 6,
           "play_datetime": "2026-02-06T17:45:00",
           "venue": "Peer Gynt-salen",
@@ -767,7 +558,6 @@
         },
         {
           "orchestra": "Fjell Brass",
-          "division": "3. divisjon",
           "play_order": 7,
           "play_datetime": "2026-02-06T18:05:00",
           "venue": "Peer Gynt-salen",
@@ -785,7 +575,6 @@
         },
         {
           "orchestra": "Stavanger Kommunes Korps",
-          "division": "3. divisjon",
           "play_order": 8,
           "play_datetime": "2026-02-06T18:25:00",
           "venue": "Peer Gynt-salen",
@@ -809,7 +598,6 @@
         },
         {
           "orchestra": "Manger Old Star Brass",
-          "division": "3. divisjon",
           "play_order": 9,
           "play_datetime": "2026-02-06T18:45:00",
           "venue": "Peer Gynt-salen",
@@ -827,7 +615,6 @@
         },
         {
           "orchestra": "Haugaland Brass Band",
-          "division": "3. divisjon",
           "play_order": 10,
           "play_datetime": "2026-02-06T19:05:00",
           "venue": "Peer Gynt-salen",
@@ -845,7 +632,6 @@
         },
         {
           "orchestra": "Lindås Brass",
-          "division": "3. divisjon",
           "play_order": 11,
           "play_datetime": "2026-02-06T19:40:00",
           "venue": "Peer Gynt-salen",
@@ -863,7 +649,6 @@
         },
         {
           "orchestra": "Nes Musikkforening",
-          "division": "3. divisjon",
           "play_order": 12,
           "play_datetime": "2026-02-06T20:00:00",
           "venue": "Peer Gynt-salen",
@@ -881,7 +666,6 @@
         },
         {
           "orchestra": "KOS - Krohnengen Old Star",
-          "division": "3. divisjon",
           "play_order": 13,
           "play_datetime": "2026-02-06T20:20:00",
           "venue": "Peer Gynt-salen",
@@ -899,7 +683,6 @@
         },
         {
           "orchestra": "Tertnes Amatørkorps",
-          "division": "3. divisjon",
           "play_order": 14,
           "play_datetime": "2026-02-06T20:40:00",
           "venue": "Peer Gynt-salen",
@@ -917,7 +700,6 @@
         },
         {
           "orchestra": "Evanger Musikklag",
-          "division": "3. divisjon",
           "play_order": 15,
           "play_datetime": "2026-02-06T21:00:00",
           "venue": "Peer Gynt-salen",
@@ -933,16 +715,16 @@
           "korpsnr": null,
           "image_url": null
         }
-      ],
-      "play_date": "2026-02-06",
-      "venue": "Peer Gynt-salen"
+      ]
     },
     {
       "name": "4. divisjon",
+      "play_date": "2026-02-07",
+      "venue": "Peer Gynt-salen",
+      "total_entries": null,
       "entries": [
         {
           "orchestra": "Hetlevik Musikklag",
-          "division": "4. divisjon",
           "play_order": 1,
           "play_datetime": "2026-02-07T10:00:00",
           "venue": "Peer Gynt-salen",
@@ -960,7 +742,6 @@
         },
         {
           "orchestra": "Skui Brassband",
-          "division": "4. divisjon",
           "play_order": 2,
           "play_datetime": "2026-02-07T10:25:00",
           "venue": "Peer Gynt-salen",
@@ -978,7 +759,6 @@
         },
         {
           "orchestra": "Saksumdal Musikkforening",
-          "division": "4. divisjon",
           "play_order": 3,
           "play_datetime": "2026-02-07T10:45:00",
           "venue": "Peer Gynt-salen",
@@ -996,7 +776,6 @@
         },
         {
           "orchestra": "Randaberg Musikkorps",
-          "division": "4. divisjon",
           "play_order": 4,
           "play_datetime": "2026-02-07T11:05:00",
           "venue": "Peer Gynt-salen",
@@ -1014,7 +793,6 @@
         },
         {
           "orchestra": "Flå Musikkorps",
-          "division": "4. divisjon",
           "play_order": 5,
           "play_datetime": "2026-02-07T11:25:00",
           "venue": "Peer Gynt-salen",
@@ -1032,7 +810,6 @@
         },
         {
           "orchestra": "Flora-Bremanger Brassband",
-          "division": "4. divisjon",
           "play_order": 6,
           "play_datetime": "2026-02-07T12:00:00",
           "venue": "Peer Gynt-salen",
@@ -1050,7 +827,6 @@
         },
         {
           "orchestra": "Skeie Brass",
-          "division": "4. divisjon",
           "play_order": 7,
           "play_datetime": "2026-02-07T12:20:00",
           "venue": "Peer Gynt-salen",
@@ -1068,7 +844,6 @@
         },
         {
           "orchestra": "Lyshornet Brass",
-          "division": "4. divisjon",
           "play_order": 8,
           "play_datetime": "2026-02-07T12:40:00",
           "venue": "Peer Gynt-salen",
@@ -1086,7 +861,6 @@
         },
         {
           "orchestra": "Laksevåg Musikkforening",
-          "division": "4. divisjon",
           "play_order": 9,
           "play_datetime": "2026-02-07T13:00:00",
           "venue": "Peer Gynt-salen",
@@ -1104,7 +878,6 @@
         },
         {
           "orchestra": "Herøy Brass",
-          "division": "4. divisjon",
           "play_order": 10,
           "play_datetime": "2026-02-07T13:20:00",
           "venue": "Peer Gynt-salen",
@@ -1122,7 +895,6 @@
         },
         {
           "orchestra": "Grenland Brass",
-          "division": "4. divisjon",
           "play_order": 11,
           "play_datetime": "2026-02-07T13:55:00",
           "venue": "Peer Gynt-salen",
@@ -1140,7 +912,6 @@
         },
         {
           "orchestra": "Jonsvatnet Brass",
-          "division": "4. divisjon",
           "play_order": 12,
           "play_datetime": "2026-02-07T14:15:00",
           "venue": "Peer Gynt-salen",
@@ -1158,7 +929,6 @@
         },
         {
           "orchestra": "Eikelandsfjorden Musikklag",
-          "division": "4. divisjon",
           "play_order": 13,
           "play_datetime": "2026-02-07T14:35:00",
           "venue": "Peer Gynt-salen",
@@ -1176,7 +946,6 @@
         },
         {
           "orchestra": "Seim Musikklag",
-          "division": "4. divisjon",
           "play_order": 14,
           "play_datetime": "2026-02-07T14:55:00",
           "venue": "Peer Gynt-salen",
@@ -1194,7 +963,6 @@
         },
         {
           "orchestra": "Brumunddal Brass",
-          "division": "4. divisjon",
           "play_order": 15,
           "play_datetime": "2026-02-07T15:15:00",
           "venue": "Peer Gynt-salen",
@@ -1210,16 +978,16 @@
           "korpsnr": null,
           "image_url": null
         }
-      ],
-      "play_date": "2026-02-07",
-      "venue": "Peer Gynt-salen"
+      ]
     },
     {
       "name": "5. divisjon",
+      "play_date": "2026-02-06",
+      "venue": "Peer Gynt-salen",
+      "total_entries": null,
       "entries": [
         {
           "orchestra": "Lismarka/Mesnali Brass",
-          "division": "5. divisjon",
           "play_order": 1,
           "play_datetime": "2026-02-06T09:30:00",
           "venue": "Peer Gynt-salen",
@@ -1237,7 +1005,6 @@
         },
         {
           "orchestra": "Austevoll Brass",
-          "division": "5. divisjon",
           "play_order": 2,
           "play_datetime": "2026-02-06T09:55:00",
           "venue": "Peer Gynt-salen",
@@ -1255,7 +1022,6 @@
         },
         {
           "orchestra": "Imi Brass",
-          "division": "5. divisjon",
           "play_order": 3,
           "play_datetime": "2026-02-06T10:15:00",
           "venue": "Peer Gynt-salen",
@@ -1273,7 +1039,6 @@
         },
         {
           "orchestra": "Langhus Brass",
-          "division": "5. divisjon",
           "play_order": 4,
           "play_datetime": "2026-02-06T10:35:00",
           "venue": "Peer Gynt-salen",
@@ -1291,7 +1056,6 @@
         },
         {
           "orchestra": "Valdres Brass Band",
-          "division": "5. divisjon",
           "play_order": 5,
           "play_datetime": "2026-02-06T11:10:00",
           "venue": "Peer Gynt-salen",
@@ -1309,7 +1073,6 @@
         },
         {
           "orchestra": "Filadelfia Hornorkester Drammen",
-          "division": "5. divisjon",
           "play_order": 6,
           "play_datetime": "2026-02-06T11:30:00",
           "venue": "Peer Gynt-salen",
@@ -1327,7 +1090,6 @@
         },
         {
           "orchestra": "Frei Hornmusikk",
-          "division": "5. divisjon",
           "play_order": 7,
           "play_datetime": "2026-02-06T11:50:00",
           "venue": "Peer Gynt-salen",
@@ -1345,7 +1107,6 @@
         },
         {
           "orchestra": "Sagvåg Musikklag",
-          "division": "5. divisjon",
           "play_order": 8,
           "play_datetime": "2026-02-06T12:10:00",
           "venue": "Peer Gynt-salen",
@@ -1363,7 +1124,6 @@
         },
         {
           "orchestra": "Torpa BygdeBrass",
-          "division": "5. divisjon",
           "play_order": 9,
           "play_datetime": "2026-02-06T12:45:00",
           "venue": "Peer Gynt-salen",
@@ -1381,7 +1141,6 @@
         },
         {
           "orchestra": "Holmestrand brass",
-          "division": "5. divisjon",
           "play_order": 10,
           "play_datetime": "2026-02-06T13:05:00",
           "venue": "Peer Gynt-salen",
@@ -1399,7 +1158,6 @@
         },
         {
           "orchestra": "Karmsund Brass",
-          "division": "5. divisjon",
           "play_order": 11,
           "play_datetime": "2026-02-06T13:25:00",
           "venue": "Peer Gynt-salen",
@@ -1417,7 +1175,6 @@
         },
         {
           "orchestra": "Florø Hornmusikk",
-          "division": "5. divisjon",
           "play_order": 12,
           "play_datetime": "2026-02-06T13:45:00",
           "venue": "Peer Gynt-salen",
@@ -1435,7 +1192,6 @@
         },
         {
           "orchestra": "Norheimsund Musikklag",
-          "division": "5. divisjon",
           "play_order": 13,
           "play_datetime": "2026-02-06T14:20:00",
           "venue": "Peer Gynt-salen",
@@ -1453,7 +1209,6 @@
         },
         {
           "orchestra": "Fjordbrass - Lavik",
-          "division": "5. divisjon",
           "play_order": 14,
           "play_datetime": "2026-02-06T14:40:00",
           "venue": "Peer Gynt-salen",
@@ -1471,7 +1226,6 @@
         },
         {
           "orchestra": "Hordvik musikklag",
-          "division": "5. divisjon",
           "play_order": 15,
           "play_datetime": "2026-02-06T15:00:00",
           "venue": "Peer Gynt-salen",
@@ -1487,13 +1241,185 @@
           "korpsnr": null,
           "image_url": null
         }
-      ],
-      "play_date": "2026-02-06",
-      "venue": "Peer Gynt-salen"
+      ]
+    },
+    {
+      "name": "Elite",
+      "play_date": "2026-02-07",
+      "venue": "Griegsalen",
+      "total_entries": null,
+      "entries": [
+        {
+          "orchestra": "Brøttum Brass",
+          "play_order": 1,
+          "play_datetime": "2026-02-07T15:00:00",
+          "venue": "Griegsalen",
+          "conductor": "David Morton",
+          "pieces": [
+            {
+              "title": "Vienna Nights",
+              "composer": "Philip Wilby",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Oslo Brass Band",
+          "play_order": 2,
+          "play_datetime": "2026-02-07T15:37:00",
+          "venue": "Griegsalen",
+          "conductor": "Sebastian Haukås",
+          "pieces": [
+            {
+              "title": "Journey of the Lone Wolf",
+              "composer": "Simon Dobson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Tertnes Brass",
+          "play_order": 3,
+          "play_datetime": "2026-02-07T16:10:00",
+          "venue": "Griegsalen",
+          "conductor": "Paul Holland",
+          "pieces": [
+            {
+              "title": "Harrison's Dream",
+              "composer": "Peter Graham",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Manger Musikklag",
+          "play_order": 4,
+          "play_datetime": "2026-02-07T16:43:00",
+          "venue": "Griegsalen",
+          "conductor": "David King",
+          "pieces": [
+            {
+              "title": "This World",
+              "composer": "Thomas Doss",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "play_order": 5,
+          "play_datetime": "2026-02-07T17:16:00",
+          "venue": "Griegsalen",
+          "conductor": "Ingar Bergby",
+          "pieces": [
+            {
+              "title": "Dear Cassandra",
+              "composer": "Ludovic Neurohr",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Stavanger Brass Band",
+          "play_order": 6,
+          "play_datetime": "2026-02-07T18:04:00",
+          "venue": "Griegsalen",
+          "conductor": "Ivan Meylemans",
+          "pieces": [
+            {
+              "title": "The Forest for the Trees",
+              "composer": "Wim Bex",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Bjørsvik brass",
+          "play_order": 7,
+          "play_datetime": "2026-02-07T18:37:00",
+          "venue": "Griegsalen",
+          "conductor": "Andreas Hanson",
+          "pieces": [
+            {
+              "title": "On Alderley Edge",
+              "composer": "Peter Graham",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Oslofjord Brass",
+          "play_order": 8,
+          "play_datetime": "2026-02-07T19:10:00",
+          "venue": "Griegsalen",
+          "conductor": "Peter Szilvay",
+          "pieces": [
+            {
+              "title": "HorrorShow",
+              "composer": "Simon Dobson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Kleppe Musikklag",
+          "play_order": 9,
+          "play_datetime": "2026-02-07T19:43:00",
+          "venue": "Griegsalen",
+          "conductor": "Tormod Flaten",
+          "pieces": [
+            {
+              "title": "Titan's Progress",
+              "composer": "Hermann Pallhuber",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Jaren Hornmusikkforening",
+          "play_order": 10,
+          "play_datetime": "2026-02-07T20:16:00",
+          "venue": "Griegsalen",
+          "conductor": "Michael Aaberg Thomsen",
+          "pieces": [
+            {
+              "title": "A Road Less Travelled By",
+              "composer": "Philip Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        }
+      ]
     }
-  ],
-  "location": "Bergen",
-  "date_range": "6-7 februar 2026",
-  "last_updated": "2026-01-30T14:55:17.560585",
-  "notes": "Playing schedule announced. Pieces and conductors to be added as they are announced."
+  ]
 }

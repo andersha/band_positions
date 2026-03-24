@@ -8,248 +8,6 @@
   "date_range": "20-21 mars 2026",
   "divisions": [
     {
-      "name": "Elite",
-      "play_date": "2026-03-21",
-      "venue": "Olavshallen, store sal",
-      "total_entries": 10,
-      "entries": [
-        {
-          "orchestra": "Skjold Nesttun Janitsjar",
-          "play_order": 1,
-          "play_datetime": "2026-03-21T09:30:00",
-          "venue": "Olavshallen, store sal",
-          "conductor": "Bengt Florvåg",
-          "pieces": [
-            {
-              "title": "Traveler",
-              "composer": "David Maslanka",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "Fraternity",
-              "composer": "Thierry Deleruyelle",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ]
-        },
-        {
-          "orchestra": "Dragefjellets Musikkorps Bergen",
-          "play_order": 2,
-          "play_datetime": "2026-03-21T10:17:00",
-          "venue": "Olavshallen, store sal",
-          "conductor": "Gary Peterson",
-          "pieces": [
-            {
-              "title": "Gavorkna Fanfare",
-              "composer": "Jack Stamp",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "Mysterious Morning - for wind ensemble and soprano",
-              "composer": "Gary Blake Peterson",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "Symphony in B flat for Concert Band",
-              "composer": "Paul Hindemith",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ]
-        },
-        {
-          "orchestra": "Christiania Blåseensemble",
-          "play_order": 3,
-          "play_datetime": "2026-03-21T11:04:00",
-          "venue": "Olavshallen, store sal",
-          "conductor": "Rolf Gupta",
-          "pieces": [
-            {
-              "title": "Til Eulenspiegel",
-              "composer": "Richard Strauss",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "Hyperprism",
-              "composer": "Edgard Varèse",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "Scherzo for X-Wings",
-              "composer": "John Williams",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "The Jedi steps and Finale",
-              "composer": "John Williams",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ]
-        },
-        {
-          "orchestra": "Alvøens Musikkforening",
-          "play_order": 4,
-          "play_datetime": "2026-03-21T11:51:00",
-          "venue": "Olavshallen, store sal",
-          "conductor": "Bengt Florvåg",
-          "pieces": [
-            {
-              "title": "The Year of the Dragon",
-              "composer": "Philip Sparke",
-              "duration_minutes": 14,
-              "difficulty": 5
-            },
-            {
-              "title": "A Brussels Requiem",
-              "composer": "Bert Appermont",
-              "duration_minutes": 17,
-              "difficulty": 6
-            }
-          ]
-        },
-        {
-          "orchestra": "Lillestrøm Musikkorps",
-          "play_order": 5,
-          "play_datetime": "2026-03-21T12:38:00",
-          "venue": "Olavshallen, store sal",
-          "conductor": "Kjetil Djønne",
-          "pieces": [
-            {
-              "title": "Medea's Dance of Vengeance",
-              "composer": "Samuel Barber",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "Nitescence Crépusculaire",
-              "composer": "Alexandre Kosmicki",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ]
-        },
-        {
-          "orchestra": "Strusshamn Musikkforening",
-          "play_order": 6,
-          "play_datetime": "2026-03-21T13:43:00",
-          "venue": "Olavshallen, store sal",
-          "conductor": "Reid Gilje",
-          "pieces": [
-            {
-              "title": "An Gé Fhián - The Wild Goose",
-              "composer": "Ryan George",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "Duende",
-              "composer": "Lous Serrano Alarcon",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ]
-        },
-        {
-          "orchestra": "Musikkforeningen Nidarholm",
-          "play_order": 7,
-          "play_datetime": "2026-03-21T14:30:00",
-          "venue": "Olavshallen, store sal",
-          "conductor": "Trond Husebø",
-          "pieces": [
-            {
-              "title": "Ave Maria",
-              "composer": "Anton Bruckner",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "Bells for Stokowski",
-              "composer": "Michael Daugherty",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "La Valse - Poeme choregraphique",
-              "composer": "Maurice Ravel",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ]
-        },
-        {
-          "orchestra": "Nittedal & Hakadal Janitsjar",
-          "play_order": 8,
-          "play_datetime": "2026-03-21T15:17:00",
-          "venue": "Olavshallen, store sal",
-          "conductor": "J. Philip Hannevik",
-          "pieces": [
-            {
-              "title": "En Skärgårdssägen",
-              "composer": "Hugo Alfven",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "J'ai été au Bal",
-              "composer": "Donald Grantham",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ]
-        },
-        {
-          "orchestra": "Opus 82",
-          "play_order": 9,
-          "play_datetime": "2026-03-21T16:04:00",
-          "venue": "Olavshallen, store sal",
-          "conductor": "Leif Arne Pedersen",
-          "pieces": [
-            {
-              "title": "Fanfare and Choral",
-              "composer": "Egil Hovland",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "Symfoni No. 9 in E.flat Major, Op.70",
-              "composer": "Dmitri Shostakovitch",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ]
-        },
-        {
-          "orchestra": "Mo Hornmusikk",
-          "play_order": 10,
-          "play_datetime": "2026-03-21T16:51:00",
-          "venue": "Olavshallen, store sal",
-          "conductor": "Reid Gilje",
-          "pieces": [
-            {
-              "title": "Asphalt Cocktail",
-              "composer": "John Mackey",
-              "duration_minutes": null,
-              "difficulty": null
-            },
-            {
-              "title": "Music of the Spheres",
-              "composer": "Philip Sparke",
-              "duration_minutes": null,
-              "difficulty": null
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "1. divisjon",
       "play_date": "2026-03-20",
       "venue": "Olavshallen, store sal",
@@ -2029,12 +1787,248 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Elite",
+      "play_date": "2026-03-21",
+      "venue": "Olavshallen, store sal",
+      "total_entries": 10,
+      "entries": [
+        {
+          "orchestra": "Skjold Nesttun Janitsjar",
+          "play_order": 1,
+          "play_datetime": "2026-03-21T09:30:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Bengt Florvåg",
+          "pieces": [
+            {
+              "title": "Traveler",
+              "composer": "David Maslanka",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Fraternity",
+              "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Dragefjellets Musikkorps Bergen",
+          "play_order": 2,
+          "play_datetime": "2026-03-21T10:17:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Gary Peterson",
+          "pieces": [
+            {
+              "title": "Gavorkna Fanfare",
+              "composer": "Jack Stamp",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Mysterious Morning - for wind ensemble and soprano",
+              "composer": "Gary Blake Peterson",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Symphony in B flat for Concert Band",
+              "composer": "Paul Hindemith",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Christiania Blåseensemble",
+          "play_order": 3,
+          "play_datetime": "2026-03-21T11:04:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Rolf Gupta",
+          "pieces": [
+            {
+              "title": "Til Eulenspiegel",
+              "composer": "Richard Strauss",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Hyperprism",
+              "composer": "Edgard Varèse",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Scherzo for X-Wings",
+              "composer": "John Williams",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "The Jedi steps and Finale",
+              "composer": "John Williams",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Alvøens Musikkforening",
+          "play_order": 4,
+          "play_datetime": "2026-03-21T11:51:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Bengt Florvåg",
+          "pieces": [
+            {
+              "title": "The Year of the Dragon",
+              "composer": "Philip Sparke",
+              "duration_minutes": 14.0,
+              "difficulty": 5
+            },
+            {
+              "title": "A Brussels Requiem",
+              "composer": "Bert Appermont",
+              "duration_minutes": 17.0,
+              "difficulty": 6
+            }
+          ]
+        },
+        {
+          "orchestra": "Lillestrøm Musikkorps",
+          "play_order": 5,
+          "play_datetime": "2026-03-21T12:38:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Kjetil Djønne",
+          "pieces": [
+            {
+              "title": "Medea's Dance of Vengeance",
+              "composer": "Samuel Barber",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Nitescence Crépusculaire",
+              "composer": "Alexandre Kosmicki",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Strusshamn Musikkforening",
+          "play_order": 6,
+          "play_datetime": "2026-03-21T13:43:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Reid Gilje",
+          "pieces": [
+            {
+              "title": "An Gé Fhián - The Wild Goose",
+              "composer": "Ryan George",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Duende",
+              "composer": "Lous Serrano Alarcon",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Musikkforeningen Nidarholm",
+          "play_order": 7,
+          "play_datetime": "2026-03-21T14:30:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Trond Husebø",
+          "pieces": [
+            {
+              "title": "Ave Maria",
+              "composer": "Anton Bruckner",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Bells for Stokowski",
+              "composer": "Michael Daugherty",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "La Valse - Poeme choregraphique",
+              "composer": "Maurice Ravel",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Nittedal & Hakadal Janitsjar",
+          "play_order": 8,
+          "play_datetime": "2026-03-21T15:17:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "J. Philip Hannevik",
+          "pieces": [
+            {
+              "title": "En Skärgårdssägen",
+              "composer": "Hugo Alfven",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "J'ai été au Bal",
+              "composer": "Donald Grantham",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Opus 82",
+          "play_order": 9,
+          "play_datetime": "2026-03-21T16:04:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Leif Arne Pedersen",
+          "pieces": [
+            {
+              "title": "Fanfare and Choral",
+              "composer": "Egil Hovland",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Symfoni No. 9 in E.flat Major, Op.70",
+              "composer": "Dmitri Shostakovitch",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Mo Hornmusikk",
+          "play_order": 10,
+          "play_datetime": "2026-03-21T16:51:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Reid Gilje",
+          "pieces": [
+            {
+              "title": "Asphalt Cocktail",
+              "composer": "John Mackey",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Music of the Spheres",
+              "composer": "Philip Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "metadata": {
-    "total_orchestras": 111,
-    "total_divisions": 8,
-    "last_updated": "2026-03-05T00:00:00.000000",
-    "exported_at": "2026-03-05T00:00:00.000000+00:00"
-  }
+  ]
 }

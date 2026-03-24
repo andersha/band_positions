@@ -407,20 +407,6 @@
       "max_year": 2020
     },
     {
-      "title": "3, 2, 1...",
-      "composer": "Brian Balmages",
-      "duration": "3:15",
-      "duration_minutes": 3.25,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/3,_2,_1...",
-      "years": [
-        2019
-      ],
-      "min_year": 2019,
-      "max_year": 2019
-    },
-    {
       "title": "3-Minute Nutcracker, The",
       "composer": "Pytor Ilyich Tchaikovsky (arr. Lloyd Conley)",
       "duration": "3:10",
@@ -433,6 +419,20 @@
       ],
       "min_year": 1891,
       "max_year": 1891
+    },
+    {
+      "title": "3, 2, 1...",
+      "composer": "Brian Balmages",
+      "duration": "3:15",
+      "duration_minutes": 3.25,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/3,_2,_1...",
+      "years": [
+        2019
+      ],
+      "min_year": 2019,
+      "max_year": 2019
     },
     {
       "title": "3D",
@@ -601,6 +601,20 @@
       ],
       "min_year": 2024,
       "max_year": 2024
+    },
+    {
+      "title": "A’BODQ",
+      "composer": "Ethan Brown",
+      "duration": null,
+      "duration_minutes": null,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/A%E2%80%99BODQ",
+      "years": [
+        2022
+      ],
+      "min_year": 2022,
+      "max_year": 2022
     },
     {
       "title": "ABA March, The",
@@ -2913,20 +2927,6 @@
       "max_year": 2015
     },
     {
-      "title": "Ain't No Stoppin' Us",
-      "composer": "Robert W. Smith",
-      "duration": "2:35",
-      "duration_minutes": 2.58,
-      "difficulty": 2,
-      "difficulty_roman": "II",
-      "url": "https://www.windrep.org/Ain%27t_No_Stoppin%27_Us",
-      "years": [
-        2007
-      ],
-      "min_year": 2007,
-      "max_year": 2007
-    },
-    {
       "title": "Ain’t No Mountain High Enough",
       "composer": "Nick Ashford and Valerie Simpson (arr. Jay Bocook)",
       "duration": "2:20",
@@ -2939,6 +2939,20 @@
       ],
       "min_year": 1967,
       "max_year": 1967
+    },
+    {
+      "title": "Ain't No Stoppin' Us",
+      "composer": "Robert W. Smith",
+      "duration": "2:35",
+      "duration_minutes": 2.58,
+      "difficulty": 2,
+      "difficulty_roman": "II",
+      "url": "https://www.windrep.org/Ain%27t_No_Stoppin%27_Us",
+      "years": [
+        2007
+      ],
+      "min_year": 2007,
+      "max_year": 2007
     },
     {
       "title": "Air (arr. Lambrecht)",
@@ -5643,20 +5657,6 @@
       "max_year": 1919
     },
     {
-      "title": "America's Finest",
-      "composer": "Medley arranged by Jay Bocook",
-      "duration": "6:15",
-      "duration_minutes": 6.25,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/America%27s_Finest",
-      "years": [
-        1992
-      ],
-      "min_year": 1992,
-      "max_year": 1992
-    },
-    {
       "title": "America, the Dream Goes On",
       "composer": "John Williams (arr. John Higgins and Paul Lavender)",
       "duration": null,
@@ -5669,6 +5669,20 @@
       ],
       "min_year": 1982,
       "max_year": 1982
+    },
+    {
+      "title": "America's Finest",
+      "composer": "Medley arranged by Jay Bocook",
+      "duration": "6:15",
+      "duration_minutes": 6.25,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/America%27s_Finest",
+      "years": [
+        1992
+      ],
+      "min_year": 1992,
+      "max_year": 1992
     },
     {
       "title": "American Anthem",
@@ -10921,6 +10935,20 @@
       "max_year": 1995
     },
     {
+      "title": "Artà Fugue, The",
+      "composer": "Derek Bourgeois (trans. by composer)",
+      "duration": "18:45",
+      "duration_minutes": 18.75,
+      "difficulty": 6,
+      "difficulty_roman": "VI",
+      "url": "https://www.windrep.org/Art%C3%A0_Fugue,_The",
+      "years": [
+        2002
+      ],
+      "min_year": 2002,
+      "max_year": 2002
+    },
+    {
       "title": "Artesian Spring",
       "composer": "Julie Giroux",
       "duration": "4:20",
@@ -10947,20 +10975,6 @@
       ],
       "min_year": 2016,
       "max_year": 2016
-    },
-    {
-      "title": "Artà Fugue, The",
-      "composer": "Derek Bourgeois (trans. by composer)",
-      "duration": "18:45",
-      "duration_minutes": 18.75,
-      "difficulty": 6,
-      "difficulty_roman": "VI",
-      "url": "https://www.windrep.org/Art%C3%A0_Fugue,_The",
-      "years": [
-        2002
-      ],
-      "min_year": 2002,
-      "max_year": 2002
     },
     {
       "title": "As a Wind from the North",
@@ -11593,6 +11607,20 @@
       "max_year": 2007
     },
     {
+      "title": "Asénet",
+      "composer": "Gabriel Musella",
+      "duration": null,
+      "duration_minutes": null,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/As%C3%A9net",
+      "years": [
+        2015
+      ],
+      "min_year": 2015,
+      "max_year": 2015
+    },
+    {
       "title": "Asgard",
       "composer": "Teo Aparicio-Barberán",
       "duration": "21:05",
@@ -11983,20 +12011,6 @@
       ],
       "min_year": 2017,
       "max_year": 2017
-    },
-    {
-      "title": "Asénet",
-      "composer": "Gabriel Musella",
-      "duration": null,
-      "duration_minutes": null,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/As%C3%A9net",
-      "years": [
-        2015
-      ],
-      "min_year": 2015,
-      "max_year": 2015
     },
     {
       "title": "At Dawn They Slept",
@@ -14027,20 +14041,6 @@
       ],
       "min_year": 1958,
       "max_year": 1958
-    },
-    {
-      "title": "A’BODQ",
-      "composer": "Ethan Brown",
-      "duration": null,
-      "duration_minutes": null,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/A%E2%80%99BODQ",
-      "years": [
-        2022
-      ],
-      "min_year": 2022,
-      "max_year": 2022
     },
     {
       "title": "Ba Yin",
@@ -17641,20 +17641,6 @@
       "max_year": 2009
     },
     {
-      "title": "Bells!",
-      "composer": "Robert W. Smith",
-      "duration": "2:10",
-      "duration_minutes": 2.17,
-      "difficulty": 1,
-      "difficulty_roman": "I",
-      "url": "https://www.windrep.org/Bells!",
-      "years": [
-        2009
-      ],
-      "min_year": 2009,
-      "max_year": 2009
-    },
-    {
       "title": "Bells, The",
       "composer": "William Byrd (arr. Kees Schoonenbeek)",
       "duration": "5:50",
@@ -17667,6 +17653,20 @@
       ],
       "min_year": 1899,
       "max_year": 1899
+    },
+    {
+      "title": "Bells!",
+      "composer": "Robert W. Smith",
+      "duration": "2:10",
+      "duration_minutes": 2.17,
+      "difficulty": 1,
+      "difficulty_roman": "I",
+      "url": "https://www.windrep.org/Bells!",
+      "years": [
+        2009
+      ],
+      "min_year": 2009,
+      "max_year": 2009
     },
     {
       "title": "Bellum Belgicum",
@@ -20469,20 +20469,6 @@
       "max_year": 1990
     },
     {
-      "title": "Blue Ridge! I'm Coming Back to You",
-      "composer": "John Philip Sousa",
-      "duration": null,
-      "duration_minutes": null,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Blue_Ridge!_I%27m_Coming_Back_to_You",
-      "years": [
-        1917
-      ],
-      "min_year": 1917,
-      "max_year": 1917
-    },
-    {
       "title": "Blue Ridge, The",
       "composer": "Medley, arranged by Robert Sheldon",
       "duration": "6:25",
@@ -20495,6 +20481,20 @@
       ],
       "min_year": 2017,
       "max_year": 2017
+    },
+    {
+      "title": "Blue Ridge! I'm Coming Back to You",
+      "composer": "John Philip Sousa",
+      "duration": null,
+      "duration_minutes": null,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Blue_Ridge!_I%27m_Coming_Back_to_You",
+      "years": [
+        1917
+      ],
+      "min_year": 1917,
+      "max_year": 1917
     },
     {
       "title": "Blue Rock",
@@ -23591,6 +23591,20 @@
       "max_year": 2008
     },
     {
+      "title": "Bugler, The",
+      "composer": "Edwin Franko Goldman (tr. Erik Leidzén)",
+      "duration": "4:30",
+      "duration_minutes": 4.5,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/Bugler,_The",
+      "years": [
+        1943
+      ],
+      "min_year": 1943,
+      "max_year": 1943
+    },
+    {
       "title": "Bugler's Duel",
       "composer": "Evan VanDoren",
       "duration": "4:30",
@@ -23617,20 +23631,6 @@
       ],
       "min_year": 1954,
       "max_year": 1954
-    },
-    {
-      "title": "Bugler, The",
-      "composer": "Edwin Franko Goldman (tr. Erik Leidzén)",
-      "duration": "4:30",
-      "duration_minutes": 4.5,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/Bugler,_The",
-      "years": [
-        1943
-      ],
-      "min_year": 1943,
-      "max_year": 1943
     },
     {
       "title": "Bugs",
@@ -24207,20 +24207,6 @@
       "max_year": 2018
     },
     {
-      "title": "C'est Noel",
-      "composer": "Medley arranged by Andre Jutras",
-      "duration": "5:00",
-      "duration_minutes": 5.0,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/C%27est_Noel",
-      "years": [
-        1985
-      ],
-      "min_year": 1985,
-      "max_year": 1985
-    },
-    {
       "title": "C-141 Starlifter",
       "composer": "Randall Standridge",
       "duration": "3:35",
@@ -24233,6 +24219,20 @@
       ],
       "min_year": 2015,
       "max_year": 2015
+    },
+    {
+      "title": "C'est Noel",
+      "composer": "Medley arranged by Andre Jutras",
+      "duration": "5:00",
+      "duration_minutes": 5.0,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/C%27est_Noel",
+      "years": [
+        1985
+      ],
+      "min_year": 1985,
+      "max_year": 1985
     },
     {
       "title": "Cabaret (arr Leyden)",
@@ -24333,20 +24333,6 @@
       "max_year": 1921
     },
     {
-      "title": "Cafe Bleu",
-      "composer": "Brooke Pierson",
-      "duration": "6:40",
-      "duration_minutes": 6.67,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Cafe_Bleu",
-      "years": [
-        2022
-      ],
-      "min_year": 2022,
-      "max_year": 2022
-    },
-    {
       "title": "Café 512",
       "composer": "Ryan George",
       "duration": "4:35",
@@ -24359,6 +24345,20 @@
       ],
       "min_year": 2010,
       "max_year": 2010
+    },
+    {
+      "title": "Cafe Bleu",
+      "composer": "Brooke Pierson",
+      "duration": "6:40",
+      "duration_minutes": 6.67,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Cafe_Bleu",
+      "years": [
+        2022
+      ],
+      "min_year": 2022,
+      "max_year": 2022
     },
     {
       "title": "Cage Dance",
@@ -24977,6 +24977,20 @@
       "max_year": 1961
     },
     {
+      "title": "Can’t Stop the Feeling!",
+      "composer": "Justin Timberlake, Max Martin and Johan Schuster (arr. Paul Murtha)",
+      "duration": "2:50",
+      "duration_minutes": 2.83,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/Can%E2%80%99t_Stop_the_Feeling!",
+      "years": [
+        2016
+      ],
+      "min_year": 2016,
+      "max_year": 2016
+    },
+    {
       "title": "Can't Turn You Loose",
       "composer": "Otis Redding (arr. Tom \"Bones\" Malone)",
       "duration": "1:20",
@@ -25117,20 +25131,6 @@
       "max_year": 2024
     },
     {
-      "title": "Canciones y Sones de Mexico",
-      "composer": "Leroy Osmon",
-      "duration": "4:00",
-      "duration_minutes": 4.0,
-      "difficulty": 2,
-      "difficulty_roman": "II",
-      "url": "https://www.windrep.org/Canciones_y_Sones_de_Mexico",
-      "years": [
-        2008
-      ],
-      "min_year": 2008,
-      "max_year": 2008
-    },
-    {
       "title": "Canción de Gesta",
       "composer": "Leo Brouwer",
       "duration": "26:00",
@@ -25143,6 +25143,20 @@
       ],
       "min_year": 1975,
       "max_year": 1975
+    },
+    {
+      "title": "Canciones y Sones de Mexico",
+      "composer": "Leroy Osmon",
+      "duration": "4:00",
+      "duration_minutes": 4.0,
+      "difficulty": 2,
+      "difficulty_roman": "II",
+      "url": "https://www.windrep.org/Canciones_y_Sones_de_Mexico",
+      "years": [
+        2008
+      ],
+      "min_year": 2008,
+      "max_year": 2008
     },
     {
       "title": "Candide Suite",
@@ -25717,20 +25731,6 @@
       ],
       "min_year": 1985,
       "max_year": 1985
-    },
-    {
-      "title": "Can’t Stop the Feeling!",
-      "composer": "Justin Timberlake, Max Martin and Johan Schuster (arr. Paul Murtha)",
-      "duration": "2:50",
-      "duration_minutes": 2.83,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/Can%E2%80%99t_Stop_the_Feeling!",
-      "years": [
-        2016
-      ],
-      "min_year": 2016,
-      "max_year": 2016
     },
     {
       "title": "Cape Breton Postcard",
@@ -31025,6 +31025,20 @@
       "max_year": 2017
     },
     {
+      "title": "Child’s Lullaby, A",
+      "composer": "Johannes Brahms (arr. James Swearingen)",
+      "duration": "2:50",
+      "duration_minutes": 2.83,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/Child%E2%80%99s_Lullaby,_A",
+      "years": [
+        1868
+      ],
+      "min_year": 1868,
+      "max_year": 1868
+    },
+    {
       "title": "Child's Play",
       "composer": "Anthony O'Toole",
       "duration": "8:00",
@@ -31249,6 +31263,20 @@
       "max_year": 1918
     },
     {
+      "title": "Children’s March, The",
+      "composer": "Edwin Franko Goldman (arr. Mayhew Lake)",
+      "duration": "2:25",
+      "duration_minutes": 2.42,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Children%E2%80%99s_March,_The",
+      "years": [
+        1933
+      ],
+      "min_year": 1933,
+      "max_year": 1933
+    },
+    {
       "title": "Children's Overture",
       "composer": "Eugène Bozza",
       "duration": "7:00",
@@ -31289,34 +31317,6 @@
       ],
       "min_year": 2018,
       "max_year": 2018
-    },
-    {
-      "title": "Children’s March, The",
-      "composer": "Edwin Franko Goldman (arr. Mayhew Lake)",
-      "duration": "2:25",
-      "duration_minutes": 2.42,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Children%E2%80%99s_March,_The",
-      "years": [
-        1933
-      ],
-      "min_year": 1933,
-      "max_year": 1933
-    },
-    {
-      "title": "Child’s Lullaby, A",
-      "composer": "Johannes Brahms (arr. James Swearingen)",
-      "duration": "2:50",
-      "duration_minutes": 2.83,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/Child%E2%80%99s_Lullaby,_A",
-      "years": [
-        1868
-      ],
-      "min_year": 1868,
-      "max_year": 1868
     },
     {
       "title": "Chillers and Thrillers",
@@ -35939,20 +35939,6 @@
       "max_year": 2022
     },
     {
-      "title": "Columbia's Pride",
-      "composer": "John Philip Sousa (arr. Gay Corrie)",
-      "duration": "1:05",
-      "duration_minutes": 1.08,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Columbia%27s_Pride",
-      "years": [
-        1914
-      ],
-      "min_year": 1914,
-      "max_year": 1914
-    },
-    {
       "title": "Columbia, the Gem of the Ocean",
       "composer": "David T. Shaw",
       "duration": null,
@@ -35965,6 +35951,20 @@
       ],
       "min_year": 1843,
       "max_year": 1843
+    },
+    {
+      "title": "Columbia's Pride",
+      "composer": "John Philip Sousa (arr. Gay Corrie)",
+      "duration": "1:05",
+      "duration_minutes": 1.08,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Columbia%27s_Pride",
+      "years": [
+        1914
+      ],
+      "min_year": 1914,
+      "max_year": 1914
     },
     {
       "title": "Comandante",
@@ -43933,6 +43933,20 @@
       "max_year": 1941
     },
     {
+      "title": "D’A Volta ao Mundo em 80 Dias",
+      "composer": "Lino Guerreiro",
+      "duration": "30:30",
+      "duration_minutes": 30.5,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/D%E2%80%99A_Volta_ao_Mundo_em_80_Dias",
+      "years": [
+        2019
+      ],
+      "min_year": 2019,
+      "max_year": 2019
+    },
+    {
       "title": "D'un Matin de Printemps",
       "composer": "Lili Boulanger (arr. François Branciard)",
       "duration": "5:15",
@@ -45851,34 +45865,6 @@
       "max_year": 2014
     },
     {
-      "title": "Danzon de la Pianguita",
-      "composer": "Ulpiano Duarte (arr. Andrey Cruz Vargas)",
-      "duration": "2:35",
-      "duration_minutes": 2.58,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/Danzon_de_la_Pianguita",
-      "years": [
-        1940
-      ],
-      "min_year": 1940,
-      "max_year": 1940
-    },
-    {
-      "title": "Danzon No. 2",
-      "composer": "Arturo Marquez (trans. Oliver Nickel)",
-      "duration": "10:05",
-      "duration_minutes": 10.08,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Danzon_No._2",
-      "years": [
-        1994
-      ],
-      "min_year": 1994,
-      "max_year": 1994
-    },
-    {
       "title": "Danzón",
       "composer": "Leonard Bernstein (arr. Jay Bocook)",
       "duration": "2:35",
@@ -45905,6 +45891,34 @@
       ],
       "min_year": 1944,
       "max_year": 1944
+    },
+    {
+      "title": "Danzon de la Pianguita",
+      "composer": "Ulpiano Duarte (arr. Andrey Cruz Vargas)",
+      "duration": "2:35",
+      "duration_minutes": 2.58,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/Danzon_de_la_Pianguita",
+      "years": [
+        1940
+      ],
+      "min_year": 1940,
+      "max_year": 1940
+    },
+    {
+      "title": "Danzon No. 2",
+      "composer": "Arturo Marquez (trans. Oliver Nickel)",
+      "duration": "10:05",
+      "duration_minutes": 10.08,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Danzon_No._2",
+      "years": [
+        1994
+      ],
+      "min_year": 1994,
+      "max_year": 1994
     },
     {
       "title": "Daphnis et Chloe, Suite II",
@@ -47711,6 +47725,20 @@
       ],
       "min_year": 2008,
       "max_year": 2008
+    },
+    {
+      "title": "Déserts",
+      "composer": "Edgard Varèse",
+      "duration": "23:00",
+      "duration_minutes": 23.0,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/D%C3%A9serts",
+      "years": [
+        1953
+      ],
+      "min_year": 1953,
+      "max_year": 1953
     },
     {
       "title": "Desi",
@@ -49729,20 +49757,6 @@
       "max_year": 1978
     },
     {
-      "title": "Do You Hear What I Hear/Snow Bells",
-      "composer": "Medley arranged by John Cacavas",
-      "duration": "4:40",
-      "duration_minutes": 4.67,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Do_You_Hear_What_I_Hear/Snow_Bells",
-      "years": [
-        1970
-      ],
-      "min_year": 1970,
-      "max_year": 1970
-    },
-    {
       "title": "Do You Hear What I Hear?",
       "composer": "Gloria Shayne (arr. Calvin Custer)",
       "duration": "4:10",
@@ -49769,6 +49783,20 @@
       ],
       "min_year": 1962,
       "max_year": 1962
+    },
+    {
+      "title": "Do You Hear What I Hear/Snow Bells",
+      "composer": "Medley arranged by John Cacavas",
+      "duration": "4:40",
+      "duration_minutes": 4.67,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Do_You_Hear_What_I_Hear/Snow_Bells",
+      "years": [
+        1970
+      ],
+      "min_year": 1970,
+      "max_year": 1970
     },
     {
       "title": "Doctor Who (Gold)",
@@ -52153,34 +52181,6 @@
       "max_year": 2011
     },
     {
-      "title": "Déserts",
-      "composer": "Edgard Varèse",
-      "duration": "23:00",
-      "duration_minutes": 23.0,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/D%C3%A9serts",
-      "years": [
-        1953
-      ],
-      "min_year": 1953,
-      "max_year": 1953
-    },
-    {
-      "title": "D’A Volta ao Mundo em 80 Dias",
-      "composer": "Lino Guerreiro",
-      "duration": "30:30",
-      "duration_minutes": 30.5,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/D%E2%80%99A_Volta_ao_Mundo_em_80_Dias",
-      "years": [
-        2019
-      ],
-      "min_year": 2019,
-      "max_year": 2019
-    },
-    {
       "title": "E Ala E: Arise and Awaken",
       "composer": "James M David",
       "duration": "12:40",
@@ -54365,20 +54365,6 @@
       "max_year": 1960
     },
     {
-      "title": "Elegy & Scherzo",
-      "composer": "Johan de Meij",
-      "duration": "9:45",
-      "duration_minutes": 9.75,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Elegy_%26_Scherzo",
-      "years": [
-        2023
-      ],
-      "min_year": 2023,
-      "max_year": 2023
-    },
-    {
       "title": "Elegy (Chance)",
       "composer": "John Barnes Chance",
       "duration": "8:20",
@@ -54489,6 +54475,20 @@
       ],
       "min_year": 2021,
       "max_year": 2021
+    },
+    {
+      "title": "Elegy & Scherzo",
+      "composer": "Johan de Meij",
+      "duration": "9:45",
+      "duration_minutes": 9.75,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Elegy_%26_Scherzo",
+      "years": [
+        2023
+      ],
+      "min_year": 2023,
+      "max_year": 2023
     },
     {
       "title": "Elegy and Affirmation",
@@ -56941,6 +56941,20 @@
       "max_year": 2014
     },
     {
+      "title": "España",
+      "composer": "Emmanuel Chabrier (arr. Jeffrey Barudin)",
+      "duration": "7:00",
+      "duration_minutes": 7.0,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Espa%C3%B1a",
+      "years": [
+        1883
+      ],
+      "min_year": 1883,
+      "max_year": 1883
+    },
+    {
       "title": "Espana (arr Laughlin)",
       "composer": "Emmanuel Chabrier  (arr. Tim Laughlin)",
       "duration": "7:00",
@@ -56962,20 +56976,6 @@
       "difficulty": 6,
       "difficulty_roman": "VI",
       "url": "https://www.windrep.org/Espana_(arr._Rogers)",
-      "years": [
-        1883
-      ],
-      "min_year": 1883,
-      "max_year": 1883
-    },
-    {
-      "title": "España",
-      "composer": "Emmanuel Chabrier (arr. Jeffrey Barudin)",
-      "duration": "7:00",
-      "duration_minutes": 7.0,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Espa%C3%B1a",
       "years": [
         1883
       ],
@@ -59433,6 +59433,34 @@
       "max_year": 2007
     },
     {
+      "title": "Fanfare - The Benefaction from Sky and Mother Earth",
+      "composer": "Satoshi Yagisawa",
+      "duration": "2:20",
+      "duration_minutes": 2.33,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Fanfare_-_The_Benefaction_from_Sky_and_Mother_Earth",
+      "years": [
+        2010
+      ],
+      "min_year": 2010,
+      "max_year": 2010
+    },
+    {
+      "title": "Fanfare - Toward Our New Century",
+      "composer": "Brian Balmages",
+      "duration": null,
+      "duration_minutes": null,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Fanfare_-_Toward_Our_New_Century",
+      "years": [
+        2016
+      ],
+      "min_year": 2016,
+      "max_year": 2016
+    },
+    {
       "title": "Fanfare \"Renewal\"",
       "composer": "Matthew Klohs",
       "duration": "6:25",
@@ -59599,34 +59627,6 @@
       ],
       "min_year": 2023,
       "max_year": 2023
-    },
-    {
-      "title": "Fanfare - The Benefaction from Sky and Mother Earth",
-      "composer": "Satoshi Yagisawa",
-      "duration": "2:20",
-      "duration_minutes": 2.33,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Fanfare_-_The_Benefaction_from_Sky_and_Mother_Earth",
-      "years": [
-        2010
-      ],
-      "min_year": 2010,
-      "max_year": 2010
-    },
-    {
-      "title": "Fanfare - Toward Our New Century",
-      "composer": "Brian Balmages",
-      "duration": null,
-      "duration_minutes": null,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Fanfare_-_Toward_Our_New_Century",
-      "years": [
-        2016
-      ],
-      "min_year": 2016,
-      "max_year": 2016
     },
     {
       "title": "Fanfare 1989",
@@ -61239,6 +61239,20 @@
       "max_year": 2000
     },
     {
+      "title": "Fanfare-Variations on the Chorale Melody \"Durch Adams Fall\" (Through Adam's Fall)",
+      "composer": "David Maslanka",
+      "duration": "10:00",
+      "duration_minutes": 10.0,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Fanfare-Variations_on_the_Chorale_Melody_%22Durch_Adams_Fall%22_(Through_Adam%27s_Fall)",
+      "years": [
+        2006
+      ],
+      "min_year": 2006,
+      "max_year": 2006
+    },
+    {
       "title": "Fanfare, Ballad and Jubilee",
       "composer": "Claude T. Smith",
       "duration": "9:00",
@@ -61335,20 +61349,6 @@
       ],
       "min_year": 2008,
       "max_year": 2008
-    },
-    {
-      "title": "Fanfare-Variations on the Chorale Melody \"Durch Adams Fall\" (Through Adam's Fall)",
-      "composer": "David Maslanka",
-      "duration": "10:00",
-      "duration_minutes": 10.0,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Fanfare-Variations_on_the_Chorale_Melody_%22Durch_Adams_Fall%22_(Through_Adam%27s_Fall)",
-      "years": [
-        2006
-      ],
-      "min_year": 2006,
-      "max_year": 2006
     },
     {
       "title": "Fanfares (Bayolo)",
@@ -64319,6 +64319,20 @@
       "max_year": 2006
     },
     {
+      "title": "Fête-Dieu à Seville",
+      "composer": "Isaac Albéniz (trans. Lucien Cailliet)",
+      "duration": "9:10",
+      "duration_minutes": 9.17,
+      "difficulty": 6,
+      "difficulty_roman": "VI",
+      "url": "https://www.windrep.org/F%C3%AAte-Dieu_%C3%A0_Seville",
+      "years": [
+        1909
+      ],
+      "min_year": 1909,
+      "max_year": 1909
+    },
+    {
       "title": "Fetes (arr. Schaefer)",
       "composer": "Claude Debussy (arr. William Schaefer)",
       "duration": "6:40",
@@ -64331,6 +64345,34 @@
       ],
       "min_year": 1899,
       "max_year": 1899
+    },
+    {
+      "title": "Fêtes from \"Three Nocturnes\"",
+      "composer": "Claude Debussy (trans. Tomohiro Tatebe)",
+      "duration": "6:00",
+      "duration_minutes": 6.0,
+      "difficulty": 6,
+      "difficulty_roman": "VI",
+      "url": "https://www.windrep.org/F%C3%AAtes_from_%22Three_Nocturnes%22",
+      "years": [
+        1899
+      ],
+      "min_year": 1899,
+      "max_year": 1899
+    },
+    {
+      "title": "Fêtes Lointains",
+      "composer": "Yo Goto",
+      "duration": "11:40",
+      "duration_minutes": 11.67,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/F%C3%AAtes_Lointains",
+      "years": [
+        2009
+      ],
+      "min_year": 2009,
+      "max_year": 2009
     },
     {
       "title": "Feuerfest Polka (arr. Longfield)",
@@ -71641,48 +71683,6 @@
       "max_year": 2023
     },
     {
-      "title": "Fête-Dieu à Seville",
-      "composer": "Isaac Albéniz (trans. Lucien Cailliet)",
-      "duration": "9:10",
-      "duration_minutes": 9.17,
-      "difficulty": 6,
-      "difficulty_roman": "VI",
-      "url": "https://www.windrep.org/F%C3%AAte-Dieu_%C3%A0_Seville",
-      "years": [
-        1909
-      ],
-      "min_year": 1909,
-      "max_year": 1909
-    },
-    {
-      "title": "Fêtes from \"Three Nocturnes\"",
-      "composer": "Claude Debussy (trans. Tomohiro Tatebe)",
-      "duration": "6:00",
-      "duration_minutes": 6.0,
-      "difficulty": 6,
-      "difficulty_roman": "VI",
-      "url": "https://www.windrep.org/F%C3%AAtes_from_%22Three_Nocturnes%22",
-      "years": [
-        1899
-      ],
-      "min_year": 1899,
-      "max_year": 1899
-    },
-    {
-      "title": "Fêtes Lointains",
-      "composer": "Yo Goto",
-      "duration": "11:40",
-      "duration_minutes": 11.67,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/F%C3%AAtes_Lointains",
-      "years": [
-        2009
-      ],
-      "min_year": 2009,
-      "max_year": 2009
-    },
-    {
       "title": "Gabriel's Oboe",
       "composer": "Ennio Morricone (arr. Robert Longfield)",
       "duration": "3:05",
@@ -72187,6 +72187,20 @@
       "max_year": 1944
     },
     {
+      "title": "Galop - Go!",
+      "composer": "Fred Jewell",
+      "duration": "1:25",
+      "duration_minutes": 1.42,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Galop_-_Go!",
+      "years": [
+        1915
+      ],
+      "min_year": 1915,
+      "max_year": 1915
+    },
+    {
       "title": "Galop (arr Bourgeois)",
       "composer": "Jacques Offenbach (arr. John R Bourgeois)",
       "duration": "2:20",
@@ -72269,20 +72283,6 @@
       ],
       "min_year": 1959,
       "max_year": 1959
-    },
-    {
-      "title": "Galop - Go!",
-      "composer": "Fred Jewell",
-      "duration": "1:25",
-      "duration_minutes": 1.42,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Galop_-_Go!",
-      "years": [
-        1915
-      ],
-      "min_year": 1915,
-      "max_year": 1915
     },
     {
       "title": "Galop Festivo",
@@ -73377,20 +73377,6 @@
       "max_year": 2014
     },
     {
-      "title": "Gershwin!",
-      "composer": "George Gershwin (arr. Warren Barker)",
-      "duration": "6:40",
-      "duration_minutes": 6.67,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Gershwin!",
-      "years": [
-        1983
-      ],
-      "min_year": 1983,
-      "max_year": 1983
-    },
-    {
       "title": "Gershwin: A Medley",
       "composer": "George Gershwin (arr. Robert Russell Bennett)",
       "duration": "5:30",
@@ -73403,6 +73389,20 @@
       ],
       "min_year": 1972,
       "max_year": 1972
+    },
+    {
+      "title": "Gershwin!",
+      "composer": "George Gershwin (arr. Warren Barker)",
+      "duration": "6:40",
+      "duration_minutes": 6.67,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Gershwin!",
+      "years": [
+        1983
+      ],
+      "min_year": 1983,
+      "max_year": 1983
     },
     {
       "title": "Geschwindmarsch by Beethoven",
@@ -79243,6 +79243,20 @@
       "max_year": 2009
     },
     {
+      "title": "Háry János Suite (arr Bainum)",
+      "composer": "Zoltán Kodály (arr. Glenn Bainum; ed. Martin and Thompson)",
+      "duration": "23:00",
+      "duration_minutes": 23.0,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/H%C3%A1ry_J%C3%A1nos_Suite_(arr_Bainum)",
+      "years": [
+        1926
+      ],
+      "min_year": 1926,
+      "max_year": 1926
+    },
+    {
       "title": "Hashtag",
       "composer": "Rob Traugh",
       "duration": "2:15",
@@ -80699,20 +80713,6 @@
       "max_year": 1968
     },
     {
-      "title": "Hey!",
-      "composer": "Timothy Mahr",
-      "duration": "2:45",
-      "duration_minutes": 2.75,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/Hey!",
-      "years": [
-        2001
-      ],
-      "min_year": 2001,
-      "max_year": 2001
-    },
-    {
       "title": "Hey, You!",
       "composer": "Tyler Mazone",
       "duration": "1:35",
@@ -80725,6 +80725,20 @@
       ],
       "min_year": 2023,
       "max_year": 2023
+    },
+    {
+      "title": "Hey!",
+      "composer": "Timothy Mahr",
+      "duration": "2:45",
+      "duration_minutes": 2.75,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/Hey!",
+      "years": [
+        2001
+      ],
+      "min_year": 2001,
+      "max_year": 2001
     },
     {
       "title": "Hidden Currents",
@@ -83037,20 +83051,6 @@
       "max_year": 1977
     },
     {
-      "title": "Hommage a Trois",
-      "composer": "Christoph Wünsch",
-      "duration": "22:25",
-      "duration_minutes": 22.42,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Hommage_a_Trois",
-      "years": [
-        2019
-      ],
-      "min_year": 2019,
-      "max_year": 2019
-    },
-    {
       "title": "Hommage à Rameau",
       "composer": "Claude Debussy (trans. Donald Hunsberger)",
       "duration": "7:45",
@@ -83063,6 +83063,20 @@
       ],
       "min_year": 1905,
       "max_year": 1905
+    },
+    {
+      "title": "Hommage a Trois",
+      "composer": "Christoph Wünsch",
+      "duration": "22:25",
+      "duration_minutes": 22.42,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Hommage_a_Trois",
+      "years": [
+        2019
+      ],
+      "min_year": 2019,
+      "max_year": 2019
     },
     {
       "title": "Honey Boys on Parade",
@@ -85291,20 +85305,6 @@
       "max_year": 2017
     },
     {
-      "title": "Háry János Suite (arr Bainum)",
-      "composer": "Zoltán Kodály (arr. Glenn Bainum; ed. Martin and Thompson)",
-      "duration": "23:00",
-      "duration_minutes": 23.0,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/H%C3%A1ry_J%C3%A1nos_Suite_(arr_Bainum)",
-      "years": [
-        1926
-      ],
-      "min_year": 1926,
-      "max_year": 1926
-    },
-    {
       "title": "I Almost Never Forgot",
       "composer": "Darrell Brown",
       "duration": "8:00",
@@ -85865,6 +85865,20 @@
       "max_year": 1933
     },
     {
+      "title": "I, Too, Am America",
+      "composer": "Henry Dorn (text by Langston Hughes)",
+      "duration": "26:55",
+      "duration_minutes": 26.92,
+      "difficulty": 6,
+      "difficulty_roman": "VI",
+      "url": "https://www.windrep.org/I,_Too,_Am_America",
+      "years": [
+        2023
+      ],
+      "min_year": 2023,
+      "max_year": 2023
+    },
+    {
       "title": "I'd Like to Teach the World to Sing",
       "composer": "Arranged by Sammy Nestico",
       "duration": "3:05",
@@ -86047,20 +86061,6 @@
       "max_year": 1907
     },
     {
-      "title": "I, Too, Am America",
-      "composer": "Henry Dorn (text by Langston Hughes)",
-      "duration": "26:55",
-      "duration_minutes": 26.92,
-      "difficulty": 6,
-      "difficulty_roman": "VI",
-      "url": "https://www.windrep.org/I,_Too,_Am_America",
-      "years": [
-        2023
-      ],
-      "min_year": 2023,
-      "max_year": 2023
-    },
-    {
       "title": "Iberia",
       "composer": "Claude Debussy (trans. Makoto Onodera)",
       "duration": "22:00",
@@ -86187,6 +86187,20 @@
       "max_year": 2011
     },
     {
+      "title": "Idée fixe",
+      "composer": "Tomas Friberg",
+      "duration": "6:00",
+      "duration_minutes": 6.0,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/Id%C3%A9e_fixe",
+      "years": [
+        2018
+      ],
+      "min_year": 2018,
+      "max_year": 2018
+    },
+    {
       "title": "Identity Rupture",
       "composer": "Cory Brodack",
       "duration": "5:10",
@@ -86241,20 +86255,6 @@
       ],
       "min_year": 2016,
       "max_year": 2016
-    },
-    {
-      "title": "Idée fixe",
-      "composer": "Tomas Friberg",
-      "duration": "6:00",
-      "duration_minutes": 6.0,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/Id%C3%A9e_fixe",
-      "years": [
-        2018
-      ],
-      "min_year": 2018,
-      "max_year": 2018
     },
     {
       "title": "If I Should Go",
@@ -90723,20 +90723,6 @@
       "max_year": 2020
     },
     {
-      "title": "Invictus (King)",
-      "composer": "Karl King",
-      "duration": "2:10",
-      "duration_minutes": 2.17,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Invictus_(King)",
-      "years": [
-        1921
-      ],
-      "min_year": 1921,
-      "max_year": 1921
-    },
-    {
       "title": "Invictus (King-Glover)",
       "composer": "Karl King (arr. Andrew Glover)",
       "duration": "2:10",
@@ -90744,6 +90730,20 @@
       "difficulty": 4,
       "difficulty_roman": "IV",
       "url": "https://www.windrep.org/Invictus_(King-Glover)",
+      "years": [
+        1921
+      ],
+      "min_year": 1921,
+      "max_year": 1921
+    },
+    {
+      "title": "Invictus (King)",
+      "composer": "Karl King",
+      "duration": "2:10",
+      "duration_minutes": 2.17,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Invictus_(King)",
       "years": [
         1921
       ],
@@ -91563,34 +91563,6 @@
       "max_year": 1989
     },
     {
-      "title": "Irving Berlin's Christmas",
-      "composer": "Irving Berlin  (arr. Michael Brown and Mark Brymer)",
-      "duration": "6:40",
-      "duration_minutes": 6.67,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/Irving_Berlin%27s_Christmas",
-      "years": [
-        2010
-      ],
-      "min_year": 2010,
-      "max_year": 2010
-    },
-    {
-      "title": "Irving Berlin's Songs for America",
-      "composer": "Irving Berlin (arr. James Swearingen)",
-      "duration": "5:00",
-      "duration_minutes": 5.0,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Irving_Berlin%27s_Songs_for_America",
-      "years": [
-        1986
-      ],
-      "min_year": 1986,
-      "max_year": 1986
-    },
-    {
       "title": "Irving Berlin: A Symphonic Portrait",
       "composer": "Irving Berlin  (arr. Harley Ades)",
       "duration": "5:50",
@@ -91617,6 +91589,34 @@
       ],
       "min_year": 1997,
       "max_year": 1997
+    },
+    {
+      "title": "Irving Berlin's Christmas",
+      "composer": "Irving Berlin  (arr. Michael Brown and Mark Brymer)",
+      "duration": "6:40",
+      "duration_minutes": 6.67,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/Irving_Berlin%27s_Christmas",
+      "years": [
+        2010
+      ],
+      "min_year": 2010,
+      "max_year": 2010
+    },
+    {
+      "title": "Irving Berlin's Songs for America",
+      "composer": "Irving Berlin (arr. James Swearingen)",
+      "duration": "5:00",
+      "duration_minutes": 5.0,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Irving_Berlin%27s_Songs_for_America",
+      "years": [
+        1986
+      ],
+      "min_year": 1986,
+      "max_year": 1986
     },
     {
       "title": "Is A Rose",
@@ -91997,6 +91997,34 @@
       "max_year": 2017
     },
     {
+      "title": "It’s the Most Wonderful Time of the Year",
+      "composer": "Edward Pola (arr. John Moss)",
+      "duration": "2:20",
+      "duration_minutes": 2.33,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/It%E2%80%99s_the_Most_Wonderful_Time_of_the_Year",
+      "years": [
+        1963
+      ],
+      "min_year": 1963,
+      "max_year": 1963
+    },
+    {
+      "title": "It’s the Most Wonderful Time of the Year (arr Sharp)",
+      "composer": "Edward Pola (arr. Chris Sharp)",
+      "duration": "2:00",
+      "duration_minutes": 2.0,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/It%E2%80%99s_the_Most_Wonderful_Time_of_the_Year_(arr_Sharp)",
+      "years": [
+        1963
+      ],
+      "min_year": 1963,
+      "max_year": 1963
+    },
+    {
       "title": "Italia Rhapsody",
       "composer": "Alfredo Casella (arr. Forcellati Dante)",
       "duration": "12:30",
@@ -92137,32 +92165,18 @@
       "max_year": 1984
     },
     {
-      "title": "It’s the Most Wonderful Time of the Year",
-      "composer": "Edward Pola (arr. John Moss)",
-      "duration": "2:20",
-      "duration_minutes": 2.33,
+      "title": "J.S. Jig",
+      "composer": "Brant Karrick",
+      "duration": "3:55",
+      "duration_minutes": 3.92,
       "difficulty": 4,
       "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/It%E2%80%99s_the_Most_Wonderful_Time_of_the_Year",
+      "url": "https://www.windrep.org/J.S._Jig",
       "years": [
-        1963
+        2008
       ],
-      "min_year": 1963,
-      "max_year": 1963
-    },
-    {
-      "title": "It’s the Most Wonderful Time of the Year (arr Sharp)",
-      "composer": "Edward Pola (arr. Chris Sharp)",
-      "duration": "2:00",
-      "duration_minutes": 2.0,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/It%E2%80%99s_the_Most_Wonderful_Time_of_the_Year_(arr_Sharp)",
-      "years": [
-        1963
-      ],
-      "min_year": 1963,
-      "max_year": 1963
+      "min_year": 2008,
+      "max_year": 2008
     },
     {
       "title": "J'ai été au bal",
@@ -92177,20 +92191,6 @@
       ],
       "min_year": 1999,
       "max_year": 1999
-    },
-    {
-      "title": "J.S. Jig",
-      "composer": "Brant Karrick",
-      "duration": "3:55",
-      "duration_minutes": 3.92,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/J.S._Jig",
-      "years": [
-        2008
-      ],
-      "min_year": 2008,
-      "max_year": 2008
     },
     {
       "title": "Jack Stamp Suite, A",
@@ -93215,20 +93215,6 @@
       "max_year": 1857
     },
     {
-      "title": "Jingle Bells (arr Gould)",
-      "composer": "James Pierpont (arr. Morton Gould)",
-      "duration": "4:15",
-      "duration_minutes": 4.25,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Jingle_Bells_(arr_Gould)",
-      "years": [
-        1857
-      ],
-      "min_year": 1857,
-      "max_year": 1857
-    },
-    {
       "title": "Jingle Bells - Jolly Old St Nick",
       "composer": "James Pierpont (arr.  Jay Bocook)",
       "duration": "3:35",
@@ -93241,6 +93227,20 @@
       ],
       "min_year": 2002,
       "max_year": 2002
+    },
+    {
+      "title": "Jingle Bells (arr Gould)",
+      "composer": "James Pierpont (arr. Morton Gould)",
+      "duration": "4:15",
+      "duration_minutes": 4.25,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Jingle_Bells_(arr_Gould)",
+      "years": [
+        1857
+      ],
+      "min_year": 1857,
+      "max_year": 1857
     },
     {
       "title": "Jingle Bells Fantasy (arr Wasson)",
@@ -94685,6 +94685,20 @@
       "max_year": 1970
     },
     {
+      "title": "Jubilatéo (Fanfare and Allegro)",
+      "composer": "Samuel Hazo",
+      "duration": "5:00",
+      "duration_minutes": 5.0,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/Jubilat%C3%A9o_(Fanfare_and_Allegro)",
+      "years": [
+        2013
+      ],
+      "min_year": 2013,
+      "max_year": 2013
+    },
+    {
       "title": "Jubilation (Tucker)",
       "composer": "Tom Tucker",
       "duration": "3:15",
@@ -94711,20 +94725,6 @@
       ],
       "min_year": 2005,
       "max_year": 2005
-    },
-    {
-      "title": "Jubilatéo (Fanfare and Allegro)",
-      "composer": "Samuel Hazo",
-      "duration": "5:00",
-      "duration_minutes": 5.0,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/Jubilat%C3%A9o_(Fanfare_and_Allegro)",
-      "years": [
-        2013
-      ],
-      "min_year": 2013,
-      "max_year": 2013
     },
     {
       "title": "Jubilee",
@@ -97303,6 +97303,20 @@
       "max_year": 2024
     },
     {
+      "title": "Königsmarsch",
+      "composer": "Richard Strauss (arr. Roger Barrett)",
+      "duration": "5:20",
+      "duration_minutes": 5.33,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/K%C3%B6nigsmarsch",
+      "years": [
+        1906
+      ],
+      "min_year": 1906,
+      "max_year": 1906
+    },
+    {
       "title": "Konzerte für 2 Klarinetten und Orchester (tr Fisher)",
       "composer": "Franz Krommer (trans. Dennis Fisher)",
       "duration": "10:55",
@@ -97345,34 +97359,6 @@
       "max_year": 1930
     },
     {
-      "title": "Konzertstuck No. 1 in F minor",
-      "composer": "Felix Mendelssohn-Bartholdy (trans. Thomas Knox)",
-      "duration": null,
-      "duration_minutes": null,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Konzertstuck_No._1_in_F_minor",
-      "years": [
-        1833
-      ],
-      "min_year": 1833,
-      "max_year": 1833
-    },
-    {
-      "title": "Konzertstuck No. 1 in F minor (tr. Mooren)",
-      "composer": "Felix Mendelssohn-Bartholdy  (trans. Geert Mooren)",
-      "duration": "8:45",
-      "duration_minutes": 8.75,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Konzertstuck_No._1_in_F_minor_(tr._Mooren)",
-      "years": [
-        1833
-      ],
-      "min_year": 1833,
-      "max_year": 1833
-    },
-    {
       "title": "Konzertstück (tr Campbell)",
       "composer": "Robert Schumann (trans. Douglas Campbell)",
       "duration": "19:00",
@@ -97413,6 +97399,34 @@
       ],
       "min_year": 1849,
       "max_year": 1849
+    },
+    {
+      "title": "Konzertstuck No. 1 in F minor",
+      "composer": "Felix Mendelssohn-Bartholdy (trans. Thomas Knox)",
+      "duration": null,
+      "duration_minutes": null,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Konzertstuck_No._1_in_F_minor",
+      "years": [
+        1833
+      ],
+      "min_year": 1833,
+      "max_year": 1833
+    },
+    {
+      "title": "Konzertstuck No. 1 in F minor (tr. Mooren)",
+      "composer": "Felix Mendelssohn-Bartholdy  (trans. Geert Mooren)",
+      "duration": "8:45",
+      "duration_minutes": 8.75,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Konzertstuck_No._1_in_F_minor_(tr._Mooren)",
+      "years": [
+        1833
+      ],
+      "min_year": 1833,
+      "max_year": 1833
     },
     {
       "title": "Korat",
@@ -97737,20 +97751,6 @@
       "max_year": 2015
     },
     {
-      "title": "Königsmarsch",
-      "composer": "Richard Strauss (arr. Roger Barrett)",
-      "duration": "5:20",
-      "duration_minutes": 5.33,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/K%C3%B6nigsmarsch",
-      "years": [
-        1906
-      ],
-      "min_year": 1906,
-      "max_year": 1906
-    },
-    {
       "title": "L'Arco della Vita",
       "composer": "David Holsinger",
       "duration": "5:00",
@@ -97763,6 +97763,34 @@
       ],
       "min_year": 2021,
       "max_year": 2021
+    },
+    {
+      "title": "L’Arlésienne Suite No 2",
+      "composer": "Georges Bizet (trans. Charles Godfrey; rev. and ed. Clark McAlister and Alfred Reed)",
+      "duration": "12:00",
+      "duration_minutes": 12.0,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/L%E2%80%99Arl%C3%A9sienne_Suite_No_2",
+      "years": [
+        1872
+      ],
+      "min_year": 1872,
+      "max_year": 1872
+    },
+    {
+      "title": "L’Arlésienne Suite No 2 (arr Finck)",
+      "composer": "Georges Bizet (arr. Herman Finck; trans. William James Duthoit)",
+      "duration": null,
+      "duration_minutes": null,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/L%E2%80%99Arl%C3%A9sienne_Suite_No_2_(arr_Finck)",
+      "years": [
+        1872
+      ],
+      "min_year": 1872,
+      "max_year": 1872
     },
     {
       "title": "L'esprit de la trompette",
@@ -98619,6 +98647,20 @@
       "max_year": 2001
     },
     {
+      "title": "La Péri Fanfare",
+      "composer": "Paul Dukas (arr. Robert Longfield)",
+      "duration": "2:09",
+      "duration_minutes": 2.15,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/La_P%C3%A9ri_Fanfare",
+      "years": [
+        1912
+      ],
+      "min_year": 1912,
+      "max_year": 1912
+    },
+    {
       "title": "La Primitiva",
       "composer": "Jef Penders",
       "duration": "3:55",
@@ -98689,20 +98731,6 @@
       "max_year": 1913
     },
     {
-      "title": "La Péri Fanfare",
-      "composer": "Paul Dukas (arr. Robert Longfield)",
-      "duration": "2:09",
-      "duration_minutes": 2.15,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/La_P%C3%A9ri_Fanfare",
-      "years": [
-        1912
-      ],
-      "min_year": 1912,
-      "max_year": 1912
-    },
-    {
       "title": "La Reine d'Amour",
       "composer": "John Philip Sousa (arr. John M. Laverty)",
       "duration": null,
@@ -98745,20 +98773,6 @@
       "max_year": 1862
     },
     {
-      "title": "La Roquina",
-      "composer": "William B. Green",
-      "duration": "3:00",
-      "duration_minutes": 3.0,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/La_Roquina",
-      "years": [
-        1961
-      ],
-      "min_year": 1961,
-      "max_year": 1961
-    },
-    {
       "title": "La Rêve",
       "composer": "Christopher Healy",
       "duration": "6:30",
@@ -98771,6 +98785,20 @@
       ],
       "min_year": 2013,
       "max_year": 2013
+    },
+    {
+      "title": "La Roquina",
+      "composer": "William B. Green",
+      "duration": "3:00",
+      "duration_minutes": 3.0,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/La_Roquina",
+      "years": [
+        1961
+      ],
+      "min_year": 1961,
+      "max_year": 1961
     },
     {
       "title": "La Sera Sper il Lag",
@@ -105773,20 +105801,6 @@
       "max_year": 2013
     },
     {
-      "title": "Lovestruck",
-      "composer": "Paul Dooley",
-      "duration": "30:00",
-      "duration_minutes": 30.0,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Lovestruck",
-      "years": [
-        2024
-      ],
-      "min_year": 2024,
-      "max_year": 2024
-    },
-    {
       "title": "Love’s Old Sweet Song (arr Glover)",
       "composer": "James Molloy (arr. Andrew Glover)",
       "duration": "2:45",
@@ -105799,6 +105813,20 @@
       ],
       "min_year": 1884,
       "max_year": 1884
+    },
+    {
+      "title": "Lovestruck",
+      "composer": "Paul Dooley",
+      "duration": "30:00",
+      "duration_minutes": 30.0,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Lovestruck",
+      "years": [
+        2024
+      ],
+      "min_year": 2024,
+      "max_year": 2024
     },
     {
       "title": "Low Rider",
@@ -106611,34 +106639,6 @@
       ],
       "min_year": 1956,
       "max_year": 1956
-    },
-    {
-      "title": "L’Arlésienne Suite No 2",
-      "composer": "Georges Bizet (trans. Charles Godfrey; rev. and ed. Clark McAlister and Alfred Reed)",
-      "duration": "12:00",
-      "duration_minutes": 12.0,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/L%E2%80%99Arl%C3%A9sienne_Suite_No_2",
-      "years": [
-        1872
-      ],
-      "min_year": 1872,
-      "max_year": 1872
-    },
-    {
-      "title": "L’Arlésienne Suite No 2 (arr Finck)",
-      "composer": "Georges Bizet (arr. Herman Finck; trans. William James Duthoit)",
-      "duration": null,
-      "duration_minutes": null,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/L%E2%80%99Arl%C3%A9sienne_Suite_No_2_(arr_Finck)",
-      "years": [
-        1872
-      ],
-      "min_year": 1872,
-      "max_year": 1872
     },
     {
       "title": "M8",
@@ -107621,20 +107621,6 @@
       "max_year": 2012
     },
     {
-      "title": "Malaguena (arr Beeler)",
-      "composer": "Ernesto Lecuona (arr. Walter Beeler)",
-      "duration": null,
-      "duration_minutes": null,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/Malaguena_(arr_Beeler)",
-      "years": [
-        1928
-      ],
-      "min_year": 1928,
-      "max_year": 1928
-    },
-    {
       "title": "Malagueña",
       "composer": "Ernesto Lecuona (arr. Sammy Nestico)",
       "duration": "3:55",
@@ -107656,6 +107642,20 @@
       "difficulty": 5,
       "difficulty_roman": "V",
       "url": "https://www.windrep.org/Malague%C3%B1a_(arr_Barnes)",
+      "years": [
+        1928
+      ],
+      "min_year": 1928,
+      "max_year": 1928
+    },
+    {
+      "title": "Malaguena (arr Beeler)",
+      "composer": "Ernesto Lecuona (arr. Walter Beeler)",
+      "duration": null,
+      "duration_minutes": null,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/Malaguena_(arr_Beeler)",
       "years": [
         1928
       ],
@@ -108447,6 +108447,20 @@
       "max_year": 1996
     },
     {
+      "title": "Marânus - Sinfonia nº1",
+      "composer": "Nelson Jesus",
+      "duration": "45:00",
+      "duration_minutes": 45.0,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/Mar%C3%A2nus_-_Sinfonia_n%C2%BA1",
+      "years": [
+        2021
+      ],
+      "min_year": 2021,
+      "max_year": 2021
+    },
+    {
       "title": "Marble House",
       "composer": "Payton MacDonald",
       "duration": "10:15",
@@ -108473,6 +108487,20 @@
       ],
       "min_year": 1940,
       "max_year": 1940
+    },
+    {
+      "title": "March - Southdown",
+      "composer": "Ray Steadman-Allen (trans. Richard Phillips)",
+      "duration": "2:30",
+      "duration_minutes": 2.5,
+      "difficulty": 2,
+      "difficulty_roman": "II",
+      "url": "https://www.windrep.org/March_-_Southdown",
+      "years": [
+        2014
+      ],
+      "min_year": 2014,
+      "max_year": 2014
     },
     {
       "title": "March \"Glory of Catalonia\"",
@@ -108543,20 +108571,6 @@
       ],
       "min_year": 1911,
       "max_year": 1911
-    },
-    {
-      "title": "March - Southdown",
-      "composer": "Ray Steadman-Allen (trans. Richard Phillips)",
-      "duration": "2:30",
-      "duration_minutes": 2.5,
-      "difficulty": 2,
-      "difficulty_roman": "II",
-      "url": "https://www.windrep.org/March_-_Southdown",
-      "years": [
-        2014
-      ],
-      "min_year": 2014,
-      "max_year": 2014
     },
     {
       "title": "March 104",
@@ -109973,18 +109987,60 @@
       "max_year": 2022
     },
     {
-      "title": "MARCH!",
-      "composer": "Jennifer Jolley",
-      "duration": "9:40",
-      "duration_minutes": 9.67,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/MARCH!",
+      "title": "March-April-May",
+      "composer": "Masao Yabe",
+      "duration": "3:00",
+      "duration_minutes": 3.0,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/March-April-May",
       "years": [
-        2020
+        1993
       ],
-      "min_year": 2020,
-      "max_year": 2020
+      "min_year": 1993,
+      "max_year": 1993
+    },
+    {
+      "title": "March-Bou-Shu",
+      "composer": "Satoshi Yagisawa",
+      "duration": "3:50",
+      "duration_minutes": 3.83,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/March-Bou-Shu",
+      "years": [
+        2001
+      ],
+      "min_year": 2001,
+      "max_year": 2001
+    },
+    {
+      "title": "March-Chagu-Chagu",
+      "composer": "Satoshi Yagisawa",
+      "duration": "3:00",
+      "duration_minutes": 3.0,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/March-Chagu-Chagu",
+      "years": [
+        2016
+      ],
+      "min_year": 2016,
+      "max_year": 2016
+    },
+    {
+      "title": "March-Scherzo",
+      "composer": "Camille Saint-Saëns (arr. Ted R. Marcus)",
+      "duration": "5:00",
+      "duration_minutes": 5.0,
+      "difficulty": 6,
+      "difficulty_roman": "VI",
+      "url": "https://www.windrep.org/March-Scherzo",
+      "years": [
+        1853
+      ],
+      "min_year": 1853,
+      "max_year": 1853
     },
     {
       "title": "March, Opus '76",
@@ -110057,60 +110113,18 @@
       "max_year": 1944
     },
     {
-      "title": "March-April-May",
-      "composer": "Masao Yabe",
-      "duration": "3:00",
-      "duration_minutes": 3.0,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/March-April-May",
+      "title": "MARCH!",
+      "composer": "Jennifer Jolley",
+      "duration": "9:40",
+      "duration_minutes": 9.67,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/MARCH!",
       "years": [
-        1993
+        2020
       ],
-      "min_year": 1993,
-      "max_year": 1993
-    },
-    {
-      "title": "March-Bou-Shu",
-      "composer": "Satoshi Yagisawa",
-      "duration": "3:50",
-      "duration_minutes": 3.83,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/March-Bou-Shu",
-      "years": [
-        2001
-      ],
-      "min_year": 2001,
-      "max_year": 2001
-    },
-    {
-      "title": "March-Chagu-Chagu",
-      "composer": "Satoshi Yagisawa",
-      "duration": "3:00",
-      "duration_minutes": 3.0,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/March-Chagu-Chagu",
-      "years": [
-        2016
-      ],
-      "min_year": 2016,
-      "max_year": 2016
-    },
-    {
-      "title": "March-Scherzo",
-      "composer": "Camille Saint-Saëns (arr. Ted R. Marcus)",
-      "duration": "5:00",
-      "duration_minutes": 5.0,
-      "difficulty": 6,
-      "difficulty_roman": "VI",
-      "url": "https://www.windrep.org/March-Scherzo",
-      "years": [
-        1853
-      ],
-      "min_year": 1853,
-      "max_year": 1853
+      "min_year": 2020,
+      "max_year": 2020
     },
     {
       "title": "Marchas de Duelo e Ira",
@@ -110209,6 +110223,20 @@
       ],
       "min_year": 2014,
       "max_year": 2014
+    },
+    {
+      "title": "Marche Écossaise",
+      "composer": "Claude Debussy (trans. William A. Schaefer)",
+      "duration": "6:15",
+      "duration_minutes": 6.25,
+      "difficulty": 6,
+      "difficulty_roman": "VI",
+      "url": "https://www.windrep.org/Marche_%C3%89cossaise",
+      "years": [
+        1891
+      ],
+      "min_year": 1891,
+      "max_year": 1891
     },
     {
       "title": "Marche from \"The Love of Three Oranges,\" Opus 33 (arr Johnson)",
@@ -110433,20 +110461,6 @@
       ],
       "min_year": 1908,
       "max_year": 1908
-    },
-    {
-      "title": "Marche Écossaise",
-      "composer": "Claude Debussy (trans. William A. Schaefer)",
-      "duration": "6:15",
-      "duration_minutes": 6.25,
-      "difficulty": 6,
-      "difficulty_roman": "VI",
-      "url": "https://www.windrep.org/Marche_%C3%89cossaise",
-      "years": [
-        1891
-      ],
-      "min_year": 1891,
-      "max_year": 1891
     },
     {
       "title": "Marches of the Armed Forces",
@@ -111135,20 +111149,6 @@
       "max_year": 2014
     },
     {
-      "title": "Mary's Boy Child",
-      "composer": "Jester Hairston (arr. Philip Sparke)",
-      "duration": "4:45",
-      "duration_minutes": 4.75,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/Mary%27s_Boy_Child",
-      "years": [
-        1956
-      ],
-      "min_year": 1956,
-      "max_year": 1956
-    },
-    {
       "title": "Mary, Did You Know?",
       "composer": "Buddy Greene (lyrics Mark Lowry; arr. John Philip Hannevik)",
       "duration": "4:00",
@@ -111163,6 +111163,20 @@
       "max_year": 1991
     },
     {
+      "title": "Mary's Boy Child",
+      "composer": "Jester Hairston (arr. Philip Sparke)",
+      "duration": "4:45",
+      "duration_minutes": 4.75,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/Mary%27s_Boy_Child",
+      "years": [
+        1956
+      ],
+      "min_year": 1956,
+      "max_year": 1956
+    },
+    {
       "title": "Marzo Zingaro",
       "composer": "Randall Standridge",
       "duration": "2:15",
@@ -111175,20 +111189,6 @@
       ],
       "min_year": 2017,
       "max_year": 2017
-    },
-    {
-      "title": "Marânus - Sinfonia nº1",
-      "composer": "Nelson Jesus",
-      "duration": "45:00",
-      "duration_minutes": 45.0,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/Mar%C3%A2nus_-_Sinfonia_n%C2%BA1",
-      "years": [
-        2021
-      ],
-      "min_year": 2021,
-      "max_year": 2021
     },
     {
       "title": "Mas que Nada",
@@ -117323,6 +117323,20 @@
       "max_year": 1987
     },
     {
+      "title": "Musée",
+      "composer": "Kevin Bobo",
+      "duration": "9:50",
+      "duration_minutes": 9.83,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Mus%C3%A9e",
+      "years": [
+        2010
+      ],
+      "min_year": 2010,
+      "max_year": 2010
+    },
+    {
       "title": "Music for 5 Marimbas",
       "composer": "Anthony Di Bartolo",
       "duration": "5:20",
@@ -117673,6 +117687,34 @@
       "max_year": 1966
     },
     {
+      "title": "Music from ''Jurassic Park\"",
+      "composer": "John Williams (arr. Jay Bocook)",
+      "duration": "4:20",
+      "duration_minutes": 4.33,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/Music_from_%27%27Jurassic_Park%22",
+      "years": [
+        1993
+      ],
+      "min_year": 1993,
+      "max_year": 1993
+    },
+    {
+      "title": "Music from ''Les Misérables\"",
+      "composer": "Claude-Michel Schönberg (arr. Michael Sweeney)",
+      "duration": "5:00",
+      "duration_minutes": 5.0,
+      "difficulty": 2,
+      "difficulty_roman": "II",
+      "url": "https://www.windrep.org/Music_from_%27%27Les_Mis%C3%A9rables%22",
+      "years": [
+        1980
+      ],
+      "min_year": 1980,
+      "max_year": 1980
+    },
+    {
       "title": "Music from \"Air Force One\"",
       "composer": "Jerry Goldsmith (arr. John Moss)",
       "duration": "5:10",
@@ -117965,34 +118007,6 @@
       ],
       "min_year": 2003,
       "max_year": 2003
-    },
-    {
-      "title": "Music from ''Jurassic Park\"",
-      "composer": "John Williams (arr. Jay Bocook)",
-      "duration": "4:20",
-      "duration_minutes": 4.33,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/Music_from_%27%27Jurassic_Park%22",
-      "years": [
-        1993
-      ],
-      "min_year": 1993,
-      "max_year": 1993
-    },
-    {
-      "title": "Music from ''Les Misérables\"",
-      "composer": "Claude-Michel Schönberg (arr. Michael Sweeney)",
-      "duration": "5:00",
-      "duration_minutes": 5.0,
-      "difficulty": 2,
-      "difficulty_roman": "II",
-      "url": "https://www.windrep.org/Music_from_%27%27Les_Mis%C3%A9rables%22",
-      "years": [
-        1980
-      ],
-      "min_year": 1980,
-      "max_year": 1980
     },
     {
       "title": "Music from the Redneck Songbook II",
@@ -118301,20 +118315,6 @@
       ],
       "min_year": 1966,
       "max_year": 1966
-    },
-    {
-      "title": "Musée",
-      "composer": "Kevin Bobo",
-      "duration": "9:50",
-      "duration_minutes": 9.83,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Mus%C3%A9e",
-      "years": [
-        2010
-      ],
-      "min_year": 2010,
-      "max_year": 2010
     },
     {
       "title": "Mutagenesis",
@@ -119645,6 +119645,20 @@
       ],
       "min_year": 2013,
       "max_year": 2013
+    },
+    {
+      "title": "Némesis",
+      "composer": "José Suñer-Oriola",
+      "duration": "26:00",
+      "duration_minutes": 26.0,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/N%C3%A9mesis",
+      "years": [
+        2018
+      ],
+      "min_year": 2018,
+      "max_year": 2018
     },
     {
       "title": "Neon Nights (Copley)",
@@ -121187,20 +121201,6 @@
       "max_year": 1936
     },
     {
-      "title": "Nine, The",
-      "composer": "Randall Standridge",
-      "duration": "10:05",
-      "duration_minutes": 10.08,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Nine,_The",
-      "years": [
-        2018
-      ],
-      "min_year": 2018,
-      "max_year": 2018
-    },
-    {
       "title": "Nine-O-Nine",
       "composer": "Connor Wooley",
       "duration": "5:10",
@@ -121213,6 +121213,20 @@
       ],
       "min_year": 2024,
       "max_year": 2024
+    },
+    {
+      "title": "Nine, The",
+      "composer": "Randall Standridge",
+      "duration": "10:05",
+      "duration_minutes": 10.08,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Nine,_The",
+      "years": [
+        2018
+      ],
+      "min_year": 2018,
+      "max_year": 2018
     },
     {
       "title": "Nino Rota Film Music",
@@ -122643,20 +122657,6 @@
       "max_year": 2019
     },
     {
-      "title": "Némesis",
-      "composer": "José Suñer-Oriola",
-      "duration": "26:00",
-      "duration_minutes": 26.0,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/N%C3%A9mesis",
-      "years": [
-        2018
-      ],
-      "min_year": 2018,
-      "max_year": 2018
-    },
-    {
       "title": "O Bicho de Sete Cabecas",
       "composer": "Nelson Jesus",
       "duration": "40:00",
@@ -123525,20 +123525,6 @@
       "max_year": 1808
     },
     {
-      "title": "Octet, Opus 156",
-      "composer": "Franz Lachner",
-      "duration": "25:00",
-      "duration_minutes": 25.0,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Octet,_Opus_156",
-      "years": [
-        1850
-      ],
-      "min_year": 1850,
-      "max_year": 1850
-    },
-    {
       "title": "Octet-Partita in E-flat",
       "composer": "Johann Nepomuk Hummel",
       "duration": "15:00",
@@ -123551,6 +123537,20 @@
       ],
       "min_year": 1803,
       "max_year": 1803
+    },
+    {
+      "title": "Octet, Opus 156",
+      "composer": "Franz Lachner",
+      "duration": "25:00",
+      "duration_minutes": 25.0,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Octet,_Opus_156",
+      "years": [
+        1850
+      ],
+      "min_year": 1850,
+      "max_year": 1850
     },
     {
       "title": "Octets",
@@ -126101,20 +126101,6 @@
       "max_year": 1993
     },
     {
-      "title": "Onward!",
-      "composer": "Gary P. Gilroy",
-      "duration": "2:55",
-      "duration_minutes": 2.92,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Onward!",
-      "years": [
-        2006
-      ],
-      "min_year": 2006,
-      "max_year": 2006
-    },
-    {
       "title": "Onward-Upward",
       "composer": "Edwin Franko Goldman (ed. Ed Lisk)",
       "duration": "2:30",
@@ -126127,6 +126113,20 @@
       ],
       "min_year": 1931,
       "max_year": 1931
+    },
+    {
+      "title": "Onward!",
+      "composer": "Gary P. Gilroy",
+      "duration": "2:55",
+      "duration_minutes": 2.92,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Onward!",
+      "years": [
+        2006
+      ],
+      "min_year": 2006,
+      "max_year": 2006
     },
     {
       "title": "Oogie Boogie Song",
@@ -127263,6 +127263,20 @@
       "max_year": 1932
     },
     {
+      "title": "Ouvertüre in C für Harmoniemusik",
+      "composer": "Felix Mendelssohn-Bartholdy (ed. Christopher Hogwood)",
+      "duration": "9:45",
+      "duration_minutes": 9.75,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Ouvert%C3%BCre_in_C_f%C3%BCr_Harmoniemusik",
+      "years": [
+        1824
+      ],
+      "min_year": 1824,
+      "max_year": 1824
+    },
+    {
       "title": "Ouverture pour orchestre militaire",
       "composer": "Louis Emmanuel Jadin  (arr. Jan Molenaar)",
       "duration": "10:15",
@@ -127289,20 +127303,6 @@
       ],
       "min_year": 1963,
       "max_year": 1963
-    },
-    {
-      "title": "Ouvertüre in C für Harmoniemusik",
-      "composer": "Felix Mendelssohn-Bartholdy (ed. Christopher Hogwood)",
-      "duration": "9:45",
-      "duration_minutes": 9.75,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Ouvert%C3%BCre_in_C_f%C3%BCr_Harmoniemusik",
-      "years": [
-        1824
-      ],
-      "min_year": 1824,
-      "max_year": 1824
     },
     {
       "title": "Ouvre Ton Coeur",
@@ -128579,6 +128579,20 @@
       "max_year": 1813
     },
     {
+      "title": "Overture to “The School for Scandal”",
+      "composer": "Samuel Barber (trans. Frank Hudson)",
+      "duration": "8:10",
+      "duration_minutes": 8.17,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/Overture_to_%E2%80%9CThe_School_for_Scandal%E2%80%9D",
+      "years": [
+        1931
+      ],
+      "min_year": 1931,
+      "max_year": 1931
+    },
+    {
       "title": "Overture to \"The Wasps\"",
       "composer": "Ralph Vaughan Williams (trans. Frank M. Hudson)",
       "duration": "10:00",
@@ -128703,20 +128717,6 @@
       ],
       "min_year": 1842,
       "max_year": 1842
-    },
-    {
-      "title": "Overture to “The School for Scandal”",
-      "composer": "Samuel Barber (trans. Frank Hudson)",
-      "duration": "8:10",
-      "duration_minutes": 8.17,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/Overture_to_%E2%80%9CThe_School_for_Scandal%E2%80%9D",
-      "years": [
-        1931
-      ],
-      "min_year": 1931,
-      "max_year": 1931
     },
     {
       "title": "Overture: \"La Forza del Destino\" (arr Suzuki)",
@@ -131085,6 +131085,34 @@
       "max_year": 1983
     },
     {
+      "title": "Pécs Pictures",
+      "composer": "Tamás Beischer-Matyó",
+      "duration": "12:00",
+      "duration_minutes": 12.0,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/P%C3%A9cs_Pictures",
+      "years": [
+        2010
+      ],
+      "min_year": 2010,
+      "max_year": 2010
+    },
+    {
+      "title": "Pécs Pictures (2011)",
+      "composer": "Tamás Beischer-Matyó",
+      "duration": "12:00",
+      "duration_minutes": 12.0,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/P%C3%A9cs_Pictures_(2011)",
+      "years": [
+        2010
+      ],
+      "min_year": 2010,
+      "max_year": 2010
+    },
+    {
       "title": "Pedal to the Metal",
       "composer": "David Gillingham",
       "duration": "2:45",
@@ -131195,6 +131223,20 @@
       ],
       "min_year": 2009,
       "max_year": 2009
+    },
+    {
+      "title": "Peña Amaya",
+      "composer": "Clarence Hines",
+      "duration": "6:30",
+      "duration_minutes": 6.5,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Pe%C3%B1a_Amaya",
+      "years": [
+        2013
+      ],
+      "min_year": 2013,
+      "max_year": 2013
     },
     {
       "title": "Pendulum",
@@ -132080,20 +132122,6 @@
       "max_year": 1993
     },
     {
-      "title": "Peña Amaya",
-      "composer": "Clarence Hines",
-      "duration": "6:30",
-      "duration_minutes": 6.5,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Pe%C3%B1a_Amaya",
-      "years": [
-        2013
-      ],
-      "min_year": 2013,
-      "max_year": 2013
-    },
-    {
       "title": "Phantasmagoria",
       "composer": "Jeremy Bell",
       "duration": "5:50",
@@ -132372,6 +132400,20 @@
       ],
       "min_year": 2020,
       "max_year": 2020
+    },
+    {
+      "title": "Pi’ilani and Ko’olau",
+      "composer": "Jonathan Newman (scenario Gary Winter)",
+      "duration": "45:45",
+      "duration_minutes": 45.75,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Pi%E2%80%99ilani_and_Ko%E2%80%99olau",
+      "years": [
+        2019
+      ],
+      "min_year": 2019,
+      "max_year": 2019
     },
     {
       "title": "Piano Concerto No 2",
@@ -133520,20 +133562,6 @@
       ],
       "min_year": 1869,
       "max_year": 1869
-    },
-    {
-      "title": "Pi’ilani and Ko’olau",
-      "composer": "Jonathan Newman (scenario Gary Winter)",
-      "duration": "45:45",
-      "duration_minutes": 45.75,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Pi%E2%80%99ilani_and_Ko%E2%80%99olau",
-      "years": [
-        2019
-      ],
-      "min_year": 2019,
-      "max_year": 2019
     },
     {
       "title": "Place in the Stars, A",
@@ -135902,20 +135930,6 @@
       "max_year": 1987
     },
     {
-      "title": "Prelude & Mazurka",
-      "composer": "Léo Delibes  (arr. Jacco Nefs)",
-      "duration": "6:00",
-      "duration_minutes": 6.0,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/Prelude_%26_Mazurka",
-      "years": [
-        1870
-      ],
-      "min_year": 1870,
-      "max_year": 1870
-    },
-    {
       "title": "Prelude (Faini)",
       "composer": "Philip Faini",
       "duration": "2:25",
@@ -135956,6 +135970,20 @@
       ],
       "min_year": 1953,
       "max_year": 1953
+    },
+    {
+      "title": "Prelude & Mazurka",
+      "composer": "Léo Delibes  (arr. Jacco Nefs)",
+      "duration": "6:00",
+      "duration_minutes": 6.0,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/Prelude_%26_Mazurka",
+      "years": [
+        1870
+      ],
+      "min_year": 1870,
+      "max_year": 1870
     },
     {
       "title": "Prelude 21 and Fugue 1",
@@ -138702,34 +138730,6 @@
       "max_year": 2019
     },
     {
-      "title": "Pécs Pictures",
-      "composer": "Tamás Beischer-Matyó",
-      "duration": "12:00",
-      "duration_minutes": 12.0,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/P%C3%A9cs_Pictures",
-      "years": [
-        2010
-      ],
-      "min_year": 2010,
-      "max_year": 2010
-    },
-    {
-      "title": "Pécs Pictures (2011)",
-      "composer": "Tamás Beischer-Matyó",
-      "duration": "12:00",
-      "duration_minutes": 12.0,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/P%C3%A9cs_Pictures_(2011)",
-      "years": [
-        2010
-      ],
-      "min_year": 2010,
-      "max_year": 2010
-    },
-    {
       "title": "Quack Quack March, The",
       "composer": "Brenda Hascall",
       "duration": "4:00",
@@ -140900,34 +140900,6 @@
       "max_year": 2024
     },
     {
-      "title": "Re(new)al",
-      "composer": "Viet Cuong",
-      "duration": "15:45",
-      "duration_minutes": 15.75,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/Re(new)al",
-      "years": [
-        2016
-      ],
-      "min_year": 2016,
-      "max_year": 2016
-    },
-    {
-      "title": "Re(new)al (Chamber Winds)",
-      "composer": "Viet Cuong",
-      "duration": "15:45",
-      "duration_minutes": 15.75,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Re(new)al_(Chamber_Winds)",
-      "years": [
-        2016
-      ],
-      "min_year": 2016,
-      "max_year": 2016
-    },
-    {
       "title": "RE-Member",
       "composer": "Reena Esmail (trans. Logan Sorey)",
       "duration": "7:05",
@@ -140954,6 +140926,34 @@
       ],
       "min_year": 2024,
       "max_year": 2024
+    },
+    {
+      "title": "Re(new)al",
+      "composer": "Viet Cuong",
+      "duration": "15:45",
+      "duration_minutes": 15.75,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/Re(new)al",
+      "years": [
+        2016
+      ],
+      "min_year": 2016,
+      "max_year": 2016
+    },
+    {
+      "title": "Re(new)al (Chamber Winds)",
+      "composer": "Viet Cuong",
+      "duration": "15:45",
+      "duration_minutes": 15.75,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Re(new)al_(Chamber_Winds)",
+      "years": [
+        2016
+      ],
+      "min_year": 2016,
+      "max_year": 2016
     },
     {
       "title": "Reaching Nirvana",
@@ -141670,6 +141670,20 @@
       "max_year": 1993
     },
     {
+      "title": "Red’s White and Blue March",
+      "composer": "Red Skelton (arr. Don Ferris; trans. Frank Erickson)",
+      "duration": "2:50",
+      "duration_minutes": 2.83,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Red%E2%80%99s_White_and_Blue_March",
+      "years": [
+        1964
+      ],
+      "min_year": 1964,
+      "max_year": 1964
+    },
+    {
       "title": "Redacted)",
       "composer": "John Mackey",
       "duration": "9:55",
@@ -141780,20 +141794,6 @@
       ],
       "min_year": 2006,
       "max_year": 2006
-    },
-    {
-      "title": "Red’s White and Blue March",
-      "composer": "Red Skelton (arr. Don Ferris; trans. Frank Erickson)",
-      "duration": "2:50",
-      "duration_minutes": 2.83,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Red%E2%80%99s_White_and_Blue_March",
-      "years": [
-        1964
-      ],
-      "min_year": 1964,
-      "max_year": 1964
     },
     {
       "title": "Reeding the Scales",
@@ -145562,18 +145562,18 @@
       "max_year": 1977
     },
     {
-      "title": "Rock'n March",
-      "composer": "Hiro Fujikake",
-      "duration": "3:40",
-      "duration_minutes": 3.67,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Rock%27n_March",
+      "title": "Rock-a-Saurus Rex",
+      "composer": "Tom Molter",
+      "duration": "2:15",
+      "duration_minutes": 2.25,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Rock-a-Saurus_Rex",
       "years": [
-        1991
+        1997
       ],
-      "min_year": 1991,
-      "max_year": 1991
+      "min_year": 1997,
+      "max_year": 1997
     },
     {
       "title": "Rock, River, Tree",
@@ -145604,18 +145604,18 @@
       "max_year": 2013
     },
     {
-      "title": "Rock-a-Saurus Rex",
-      "composer": "Tom Molter",
-      "duration": "2:15",
-      "duration_minutes": 2.25,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Rock-a-Saurus_Rex",
+      "title": "Rock'n March",
+      "composer": "Hiro Fujikake",
+      "duration": "3:40",
+      "duration_minutes": 3.67,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Rock%27n_March",
       "years": [
-        1997
+        1991
       ],
-      "min_year": 1997,
-      "max_year": 1997
+      "min_year": 1991,
+      "max_year": 1991
     },
     {
       "title": "Rocket",
@@ -147578,6 +147578,20 @@
       "max_year": 2012
     },
     {
+      "title": "S.D. March",
+      "composer": "Frank M. Halstead",
+      "duration": "2:50",
+      "duration_minutes": 2.83,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/S.D._March",
+      "years": [
+        1898
+      ],
+      "min_year": 1898,
+      "max_year": 1898
+    },
+    {
       "title": "S'cool Room Bolero",
       "composer": "Clement Wiedinmyer",
       "duration": "2:45",
@@ -147606,6 +147620,20 @@
       "max_year": 1967
     },
     {
+      "title": "S’isch Abe n-e Monsch uf Arde",
+      "composer": "Traditional Swiss folksong arranged by Thomas Rüedi",
+      "duration": "4:30",
+      "duration_minutes": 4.5,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/S%E2%80%99isch_Abe_n-e_Monsch_uf_Arde",
+      "years": [
+        1998
+      ],
+      "min_year": 1998,
+      "max_year": 1998
+    },
+    {
       "title": "S'vivon!",
       "composer": "Arranged by Laura Estes",
       "duration": "2:05",
@@ -147632,20 +147660,6 @@
       ],
       "min_year": 1927,
       "max_year": 1927
-    },
-    {
-      "title": "S.D. March",
-      "composer": "Frank M. Halstead",
-      "duration": "2:50",
-      "duration_minutes": 2.83,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/S.D._March",
-      "years": [
-        1898
-      ],
-      "min_year": 1898,
-      "max_year": 1898
     },
     {
       "title": "Sabbath Morning on Parade",
@@ -147942,20 +147956,6 @@
       "max_year": 2020
     },
     {
-      "title": "Sailing!",
-      "composer": "Yukiko Nishimura",
-      "duration": "4:05",
-      "duration_minutes": 4.08,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/Sailing!",
-      "years": [
-        2010
-      ],
-      "min_year": 2010,
-      "max_year": 2010
-    },
-    {
       "title": "Sailing, Sailing",
       "composer": "Medley arranged by John Wasson",
       "duration": "1:50",
@@ -147968,6 +147968,20 @@
       ],
       "min_year": 2025,
       "max_year": 2025
+    },
+    {
+      "title": "Sailing!",
+      "composer": "Yukiko Nishimura",
+      "duration": "4:05",
+      "duration_minutes": 4.08,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/Sailing!",
+      "years": [
+        2010
+      ],
+      "min_year": 2010,
+      "max_year": 2010
     },
     {
       "title": "Sailor's Odyssey, A",
@@ -149132,6 +149146,20 @@
       "max_year": 2005
     },
     {
+      "title": "Santa’s Journey",
+      "composer": "Roy W. Kaighin",
+      "duration": "4:10",
+      "duration_minutes": 4.17,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Santa%E2%80%99s_Journey",
+      "years": [
+        2009
+      ],
+      "min_year": 2009,
+      "max_year": 2009
+    },
+    {
       "title": "Santa's Sleigh Ride",
       "composer": "Ed Huckeby",
       "duration": "1:25",
@@ -149200,20 +149228,6 @@
       ],
       "min_year": 2012,
       "max_year": 2012
-    },
-    {
-      "title": "Santa’s Journey",
-      "composer": "Roy W. Kaighin",
-      "duration": "4:10",
-      "duration_minutes": 4.17,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Santa%E2%80%99s_Journey",
-      "years": [
-        2009
-      ],
-      "min_year": 2009,
-      "max_year": 2009
     },
     {
       "title": "Santiago",
@@ -150518,6 +150532,20 @@
       "max_year": 2010
     },
     {
+      "title": "Scherzo à la russe",
+      "composer": "Igor Stravinsky (arr. Thad Marciniak)",
+      "duration": "4:00",
+      "duration_minutes": 4.0,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/Scherzo_%C3%A0_la_russe",
+      "years": [
+        1945
+      ],
+      "min_year": 1945,
+      "max_year": 1945
+    },
+    {
       "title": "Scherzo alla Marcia",
       "composer": "Ralph Vaughan Williams",
       "duration": "3:50",
@@ -150740,20 +150768,6 @@
       ],
       "min_year": 1978,
       "max_year": 1978
-    },
-    {
-      "title": "Scherzo à la russe",
-      "composer": "Igor Stravinsky (arr. Thad Marciniak)",
-      "duration": "4:00",
-      "duration_minutes": 4.0,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/Scherzo_%C3%A0_la_russe",
-      "years": [
-        1945
-      ],
-      "min_year": 1945,
-      "max_year": 1945
     },
     {
       "title": "Scherzo, Chorale, and Aria Serena",
@@ -152114,20 +152128,6 @@
       "max_year": 2025
     },
     {
-      "title": "Seeker's Scherzo",
-      "composer": "Zhou Tian (arr. by composer)",
-      "duration": null,
-      "duration_minutes": null,
-      "difficulty": 5,
-      "difficulty_roman": "V",
-      "url": "https://www.windrep.org/Seeker%27s_Scherzo",
-      "years": [
-        2016
-      ],
-      "min_year": 2016,
-      "max_year": 2016
-    },
-    {
       "title": "Seeker, The",
       "composer": "David Maslanka",
       "duration": "9:50",
@@ -152135,6 +152135,20 @@
       "difficulty": 5,
       "difficulty_roman": "V",
       "url": "https://www.windrep.org/Seeker,_The",
+      "years": [
+        2016
+      ],
+      "min_year": 2016,
+      "max_year": 2016
+    },
+    {
+      "title": "Seeker's Scherzo",
+      "composer": "Zhou Tian (arr. by composer)",
+      "duration": null,
+      "duration_minutes": null,
+      "difficulty": 5,
+      "difficulty_roman": "V",
+      "url": "https://www.windrep.org/Seeker%27s_Scherzo",
       "years": [
         2016
       ],
@@ -152252,6 +152266,20 @@
       ],
       "min_year": 2012,
       "max_year": 2012
+    },
+    {
+      "title": "Selections from ''Sweeney Todd''",
+      "composer": "Stephen Sondheim (arr. Stephen Bulla)",
+      "duration": "7:15",
+      "duration_minutes": 7.25,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Selections_from_%27%27Sweeney_Todd%27%27",
+      "years": [
+        1979
+      ],
+      "min_year": 1979,
+      "max_year": 1979
     },
     {
       "title": "Selections from \"1776\" for Concert Band",
@@ -153108,20 +153136,6 @@
       "max_year": 1953
     },
     {
-      "title": "Selections from ''Sweeney Todd''",
-      "composer": "Stephen Sondheim (arr. Stephen Bulla)",
-      "duration": "7:15",
-      "duration_minutes": 7.25,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Selections_from_%27%27Sweeney_Todd%27%27",
-      "years": [
-        1979
-      ],
-      "min_year": 1979,
-      "max_year": 1979
-    },
-    {
       "title": "Selections from Jiang Hui II",
       "composer": "Medley arranged by Hideaki Miura",
       "duration": "6:00",
@@ -153428,6 +153442,20 @@
       ],
       "min_year": 1973,
       "max_year": 1973
+    },
+    {
+      "title": "Señor, Señor",
+      "composer": "Clare Grundman (under the pseudonym Carlos Guermo)",
+      "duration": null,
+      "duration_minutes": null,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Se%C3%B1or,_Se%C3%B1or",
+      "years": [
+        1963
+      ],
+      "min_year": 1963,
+      "max_year": 1963
     },
     {
       "title": "Sensei's Ride on the Cherry Blossom Express",
@@ -154646,20 +154674,6 @@
       ],
       "min_year": 2005,
       "max_year": 2005
-    },
-    {
-      "title": "Señor, Señor",
-      "composer": "Clare Grundman (under the pseudonym Carlos Guermo)",
-      "duration": null,
-      "duration_minutes": null,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Se%C3%B1or,_Se%C3%B1or",
-      "years": [
-        1963
-      ],
-      "min_year": 1963,
-      "max_year": 1963
     },
     {
       "title": "Sgt Pepper's Lonely Hearts Club Band (arr Sweeney)",
@@ -157519,18 +157533,18 @@
       "max_year": 1968
     },
     {
-      "title": "Sinfonia Nobilissima",
-      "composer": "Robert Jager",
-      "duration": "6:25",
-      "duration_minutes": 6.42,
+      "title": "Sinfonía No. 3",
+      "composer": "Roberto Sierra (trans. Mark Davis Scatterday)",
+      "duration": "23:00",
+      "duration_minutes": 23.0,
       "difficulty": null,
       "difficulty_roman": null,
-      "url": "https://www.windrep.org/Sinfonia_Nobilissima",
+      "url": "https://www.windrep.org/Sinfon%C3%ADa_No._3",
       "years": [
-        1968
+        2005
       ],
-      "min_year": 1968,
-      "max_year": 1968
+      "min_year": 2005,
+      "max_year": 2005
     },
     {
       "title": "Sinfonia nº3",
@@ -157545,6 +157559,20 @@
       ],
       "min_year": 2024,
       "max_year": 2024
+    },
+    {
+      "title": "Sinfonia Nobilissima",
+      "composer": "Robert Jager",
+      "duration": "6:25",
+      "duration_minutes": 6.42,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Sinfonia_Nobilissima",
+      "years": [
+        1968
+      ],
+      "min_year": 1968,
+      "max_year": 1968
     },
     {
       "title": "Sinfonia Resurrectionis",
@@ -157911,20 +157939,6 @@
       "max_year": 2001
     },
     {
-      "title": "Sinfonía No. 3",
-      "composer": "Roberto Sierra (trans. Mark Davis Scatterday)",
-      "duration": "23:00",
-      "duration_minutes": 23.0,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Sinfon%C3%ADa_No._3",
-      "years": [
-        2005
-      ],
-      "min_year": 2005,
-      "max_year": 2005
-    },
-    {
       "title": "Sing (Raposo)",
       "composer": "Joe Raposo  (arr. Paul Cook)",
       "duration": null,
@@ -157967,20 +157981,6 @@
       "max_year": 2006
     },
     {
-      "title": "Sing!",
-      "composer": "Jinjun Lee",
-      "duration": "5:30",
-      "duration_minutes": 5.5,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Sing!",
-      "years": [
-        2012
-      ],
-      "min_year": 2012,
-      "max_year": 2012
-    },
-    {
       "title": "Sing, Sing, Sing",
       "composer": "Louis Prima (arr. Naohiro Iwai)",
       "duration": "5:00",
@@ -158021,6 +158021,20 @@
       ],
       "min_year": 2024,
       "max_year": 2024
+    },
+    {
+      "title": "Sing!",
+      "composer": "Jinjun Lee",
+      "duration": "5:30",
+      "duration_minutes": 5.5,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Sing!",
+      "years": [
+        2012
+      ],
+      "min_year": 2012,
+      "max_year": 2012
     },
     {
       "title": "Singapore Flyer, The",
@@ -169447,6 +169461,20 @@
       "max_year": 1956
     },
     {
+      "title": "Suíte Pernambucana de Bolso",
+      "composer": "Jose Ursicino da Silva (rev. Jardim)",
+      "duration": "6:30",
+      "duration_minutes": 6.5,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Su%C3%ADte_Pernambucana_de_Bolso",
+      "years": [
+        1965
+      ],
+      "min_year": 1965,
+      "max_year": 1965
+    },
+    {
       "title": "Suite persane",
       "composer": "André Caplet (ed. Clark McAlister)",
       "duration": "16:00",
@@ -170873,20 +170901,6 @@
       ],
       "min_year": 2014,
       "max_year": 2014
-    },
-    {
-      "title": "Suíte Pernambucana de Bolso",
-      "composer": "Jose Ursicino da Silva (rev. Jardim)",
-      "duration": "6:30",
-      "duration_minutes": 6.5,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Su%C3%ADte_Pernambucana_de_Bolso",
-      "years": [
-        1965
-      ],
-      "min_year": 1965,
-      "max_year": 1965
     },
     {
       "title": "Svatba",
@@ -175327,34 +175341,6 @@
       "max_year": 1937
     },
     {
-      "title": "Symphony VI (Boysen)",
-      "composer": "Andrew Boysen, Jr.",
-      "duration": "33:11",
-      "duration_minutes": 33.18,
-      "difficulty": 6,
-      "difficulty_roman": "VI",
-      "url": "https://www.windrep.org/Symphony_VI_(Boysen)",
-      "years": [
-        2012
-      ],
-      "min_year": 2012,
-      "max_year": 2012
-    },
-    {
-      "title": "Symphony VI (Maslanka)",
-      "composer": "David Maslanka",
-      "duration": "35:00",
-      "duration_minutes": 35.0,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Symphony_VI_(Maslanka)",
-      "years": [
-        2004
-      ],
-      "min_year": 2004,
-      "max_year": 2004
-    },
-    {
       "title": "Symphony VI -- First Movement (Tchaikovsky)",
       "composer": "Pytor Ilyich Tchaikovsky (arr. Mark Hindsley)",
       "duration": null,
@@ -175381,6 +175367,34 @@
       ],
       "min_year": 1893,
       "max_year": 1893
+    },
+    {
+      "title": "Symphony VI (Boysen)",
+      "composer": "Andrew Boysen, Jr.",
+      "duration": "33:11",
+      "duration_minutes": 33.18,
+      "difficulty": 6,
+      "difficulty_roman": "VI",
+      "url": "https://www.windrep.org/Symphony_VI_(Boysen)",
+      "years": [
+        2012
+      ],
+      "min_year": 2012,
+      "max_year": 2012
+    },
+    {
+      "title": "Symphony VI (Maslanka)",
+      "composer": "David Maslanka",
+      "duration": "35:00",
+      "duration_minutes": 35.0,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Symphony_VI_(Maslanka)",
+      "years": [
+        2004
+      ],
+      "min_year": 2004,
+      "max_year": 2004
     },
     {
       "title": "Symphony VII (Hovhaness)",
@@ -175689,20 +175703,6 @@
       ],
       "min_year": 2024,
       "max_year": 2024
-    },
-    {
-      "title": "S’isch Abe n-e Monsch uf Arde",
-      "composer": "Traditional Swiss folksong arranged by Thomas Rüedi",
-      "duration": "4:30",
-      "duration_minutes": 4.5,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/S%E2%80%99isch_Abe_n-e_Monsch_uf_Arde",
-      "years": [
-        1998
-      ],
-      "min_year": 1998,
-      "max_year": 1998
     },
     {
       "title": "T-Bone Concerto",
@@ -177777,6 +177777,20 @@
       "max_year": 1909
     },
     {
+      "title": "That’s an Irish Lullaby",
+      "composer": "James Royce Shannon (arr. William Teague)",
+      "duration": null,
+      "duration_minutes": null,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/That%E2%80%99s_an_Irish_Lullaby",
+      "years": [
+        1913
+      ],
+      "min_year": 1913,
+      "max_year": 1913
+    },
+    {
       "title": "That's Entertainment",
       "composer": "Arthur Schwartz (arr. Bill Holcombe)",
       "duration": null,
@@ -177803,20 +177817,6 @@
       ],
       "min_year": 1992,
       "max_year": 1992
-    },
-    {
-      "title": "That’s an Irish Lullaby",
-      "composer": "James Royce Shannon (arr. William Teague)",
-      "duration": null,
-      "duration_minutes": null,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/That%E2%80%99s_an_Irish_Lullaby",
-      "years": [
-        1913
-      ],
-      "min_year": 1913,
-      "max_year": 1913
     },
     {
       "title": "Thaw, The",
@@ -184581,6 +184581,20 @@
       "max_year": 1977
     },
     {
+      "title": "Très Moutarde (Too Much Mustard)",
+      "composer": "Cecil Macklin (arr. Nicholas Contorno)",
+      "duration": "2:00",
+      "duration_minutes": 2.0,
+      "difficulty": 3,
+      "difficulty_roman": "III",
+      "url": "https://www.windrep.org/Tr%C3%A8s_Moutarde_(Too_Much_Mustard)",
+      "years": [
+        1911
+      ],
+      "min_year": 1911,
+      "max_year": 1911
+    },
+    {
       "title": "Trevelyan Suite",
       "composer": "Malcolm Arnold",
       "duration": "8:00",
@@ -185155,6 +185169,20 @@
       "max_year": 1988
     },
     {
+      "title": "Tríptico para Flauta y Banda de Vientos",
+      "composer": "Rubén Darío Gómez",
+      "duration": "15:35",
+      "duration_minutes": 15.58,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Tr%C3%ADptico_para_Flauta_y_Banda_de_Vientos",
+      "years": [
+        2012
+      ],
+      "min_year": 2012,
+      "max_year": 2012
+    },
+    {
       "title": "Triptych (Rackley)",
       "composer": "David William Rackley",
       "duration": "15:45",
@@ -185225,20 +185253,6 @@
       "max_year": 2008
     },
     {
-      "title": "Triton's Trumpet",
-      "composer": "Paul Richards",
-      "duration": "13:05",
-      "duration_minutes": 13.08,
-      "difficulty": 6,
-      "difficulty_roman": "VI",
-      "url": "https://www.windrep.org/Triton%27s_Trumpet",
-      "years": [
-        2025
-      ],
-      "min_year": 2025,
-      "max_year": 2025
-    },
-    {
       "title": "Triton, The",
       "composer": "John Philip Sousa (arr. Robert E Foster)",
       "duration": "2:10",
@@ -185265,6 +185279,20 @@
       ],
       "min_year": 1879,
       "max_year": 1879
+    },
+    {
+      "title": "Triton's Trumpet",
+      "composer": "Paul Richards",
+      "duration": "13:05",
+      "duration_minutes": 13.08,
+      "difficulty": 6,
+      "difficulty_roman": "VI",
+      "url": "https://www.windrep.org/Triton%27s_Trumpet",
+      "years": [
+        2025
+      ],
+      "min_year": 2025,
+      "max_year": 2025
     },
     {
       "title": "Tritsch-Tratsch Polka",
@@ -185993,34 +186021,6 @@
       ],
       "min_year": 2024,
       "max_year": 2024
-    },
-    {
-      "title": "Très Moutarde (Too Much Mustard)",
-      "composer": "Cecil Macklin (arr. Nicholas Contorno)",
-      "duration": "2:00",
-      "duration_minutes": 2.0,
-      "difficulty": 3,
-      "difficulty_roman": "III",
-      "url": "https://www.windrep.org/Tr%C3%A8s_Moutarde_(Too_Much_Mustard)",
-      "years": [
-        1911
-      ],
-      "min_year": 1911,
-      "max_year": 1911
-    },
-    {
-      "title": "Tríptico para Flauta y Banda de Vientos",
-      "composer": "Rubén Darío Gómez",
-      "duration": "15:35",
-      "duration_minutes": 15.58,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Tr%C3%ADptico_para_Flauta_y_Banda_de_Vientos",
-      "years": [
-        2012
-      ],
-      "min_year": 2012,
-      "max_year": 2012
     },
     {
       "title": "Tsar's Farewell, The",
@@ -189607,6 +189607,20 @@
       "max_year": 1891
     },
     {
+      "title": "Variations on “America” by Charles Ives as Heard on the Jingle Jangle Morning in Emerson Playground by You and the Signers of the United States Constitution (and who knows, maybe the FBI)",
+      "composer": "David Borden (ed. James Spinazzola)",
+      "duration": "11:45",
+      "duration_minutes": 11.75,
+      "difficulty": null,
+      "difficulty_roman": null,
+      "url": "https://www.windrep.org/Variations_on_%E2%80%9CAmerica%E2%80%9D_by_Charles_Ives_as_Heard_on_the_Jingle_Jangle_Morning_in_Emerson_Playground_by_You_and_the_Signers_of_the_United_States_Constitution_(and_who_knows,_maybe_the_FBI)",
+      "years": [
+        1968
+      ],
+      "min_year": 1968,
+      "max_year": 1968
+    },
+    {
       "title": "Variations on \"Barnacle Bill, the Sailor\"",
       "composer": "Steven Frank (arr. Jamie Hafner)",
       "duration": null,
@@ -189619,6 +189633,20 @@
       ],
       "min_year": 1993,
       "max_year": 1993
+    },
+    {
+      "title": "Variations on “Bingo”",
+      "composer": "Steve Reisteter",
+      "duration": "6:15",
+      "duration_minutes": 6.25,
+      "difficulty": 4,
+      "difficulty_roman": "IV",
+      "url": "https://www.windrep.org/Variations_on_%E2%80%9CBingo%E2%80%9D",
+      "years": [
+        1780
+      ],
+      "min_year": 1780,
+      "max_year": 1780
     },
     {
       "title": "Variations on \"Jerusalem the Golden\"",
@@ -190025,34 +190053,6 @@
       ],
       "min_year": 1882,
       "max_year": 1882
-    },
-    {
-      "title": "Variations on “America” by Charles Ives as Heard on the Jingle Jangle Morning in Emerson Playground by You and the Signers of the United States Constitution (and who knows, maybe the FBI)",
-      "composer": "David Borden (ed. James Spinazzola)",
-      "duration": "11:45",
-      "duration_minutes": 11.75,
-      "difficulty": null,
-      "difficulty_roman": null,
-      "url": "https://www.windrep.org/Variations_on_%E2%80%9CAmerica%E2%80%9D_by_Charles_Ives_as_Heard_on_the_Jingle_Jangle_Morning_in_Emerson_Playground_by_You_and_the_Signers_of_the_United_States_Constitution_(and_who_knows,_maybe_the_FBI)",
-      "years": [
-        1968
-      ],
-      "min_year": 1968,
-      "max_year": 1968
-    },
-    {
-      "title": "Variations on “Bingo”",
-      "composer": "Steve Reisteter",
-      "duration": "6:15",
-      "duration_minutes": 6.25,
-      "difficulty": 4,
-      "difficulty_roman": "IV",
-      "url": "https://www.windrep.org/Variations_on_%E2%80%9CBingo%E2%80%9D",
-      "years": [
-        1780
-      ],
-      "min_year": 1780,
-      "max_year": 1780
     },
     {
       "title": "Variations sur un Theme Imaginaire",
@@ -199703,15 +199703,7 @@
   ],
   "metadata": {
     "total_pieces": 14264,
-    "generated_at": "2025-01-07T07:55:00Z",
-    "source": "windrep.org",
-    "year_range": {
-      "min": 1771,
-      "max": 2025
-    },
-    "difficulty_range": {
-      "min": 1,
-      "max": 7
-    }
+    "generated_at": "2026-03-24T10:16:01.837301+00:00",
+    "source": "windrep.org"
   }
 }

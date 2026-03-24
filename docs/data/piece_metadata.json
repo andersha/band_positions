@@ -1,26 +1,6 @@
 {
   "pieces": [
     {
-      "title": "\"Den glade enke\", Vilja",
-      "slug": "den-glade-enke-vilja",
-      "composer": "Franz Lehar"
-    },
-    {
-      "title": "\"Les Bitches\": Rondeau, Andantino, Chanson Dansee",
-      "slug": "les-bitches-rondeau-andantino-chanson-dansee",
-      "composer": "Francis Poulenc, arr. Lucien Callet"
-    },
-    {
-      "title": "\"Loch Ness\" - A Scottish Fantasy",
-      "slug": "loch-ness-a-scottish-fantasy",
-      "composer": "Johan de Meij"
-    },
-    {
-      "title": "....Og teksten var av Prøysen",
-      "slug": "og-teksten-var-av-prysen",
-      "composer": "Bjarne Amdahl, Egil Monn Iversen, Finn Ludt, Ulf Peder Orlog, Otto Nilsen, arr. Tom Skjellum"
-    },
-    {
       "title": "1812 Overture",
       "slug": "1812-overture",
       "composer": "Peter Tschaikowsky, arr. Mayhew Lake",
@@ -341,6 +321,11 @@
       "composer": "Johannes Brahms, arr. V. F. Safranek"
     },
     {
+      "title": "Åkernesset",
+      "slug": "akernesset",
+      "composer": "Jan Magne Førde"
+    },
+    {
       "title": "Al Fresco (for Concert Band)",
       "slug": "al-fresco-for-concert-band",
       "composer": "Karel Husa",
@@ -564,13 +549,6 @@
       "composer": "David Shaffer",
       "grade": 3,
       "length": 6.0
-    },
-    {
-      "title": "Arabesque",
-      "slug": "arabesque",
-      "composer": "Samuel R. Hazo",
-      "grade": 5,
-      "length": 5.75
     },
     {
       "title": "Arca de Noè",
@@ -969,6 +947,11 @@
       "composer": "Thierry Deleruyelle"
     },
     {
+      "title": "Blåmann, blåmann",
+      "slug": "blamann-blamann",
+      "composer": "Trad, arr. Idar Torskangerpoll"
+    },
+    {
       "title": "Blaze Away",
       "slug": "blaze-away",
       "composer": "Abe Holzmann",
@@ -1009,11 +992,6 @@
       "title": "Blue-Tail Fly",
       "slug": "blue-tail-fly",
       "composer": "Clare E. Grundman"
-    },
-    {
-      "title": "Blåmann, blåmann",
-      "slug": "blamann-blamann",
-      "composer": "Trad, arr. Idar Torskangerpoll"
     },
     {
       "title": "Bohemian Rhapsody",
@@ -1107,16 +1085,16 @@
       "length": 3.0
     },
     {
-      "title": "Cajun Folk Songs II, No. 2 Country Dance",
-      "slug": "cajun-folk-songs-ii-no-2-country-dance",
-      "composer": "Frank Ticheli"
-    },
-    {
       "title": "Cajun Folk Songs, 1. sats",
       "slug": "cajun-folk-songs-1-sats",
       "composer": "Frank Ticheli",
       "grade": 3,
       "length": 3.0
+    },
+    {
+      "title": "Cajun Folk Songs II, No. 2 Country Dance",
+      "slug": "cajun-folk-songs-ii-no-2-country-dance",
+      "composer": "Frank Ticheli"
     },
     {
       "title": "Cake-Walk Phantasy for Band",
@@ -1193,13 +1171,6 @@
       "title": "Canzona",
       "slug": "canzona",
       "composer": "Arne Nordheim, arr. Øyvind Moe",
-      "grade": 5,
-      "length": 4.83
-    },
-    {
-      "title": "Canzona",
-      "slug": "canzona",
-      "composer": "Peter Mennin",
       "grade": 5,
       "length": 4.83
     },
@@ -1282,17 +1253,17 @@
       "length": 9.5
     },
     {
+      "title": "Celebration and Dance",
+      "slug": "celebration-and-dance",
+      "composer": "James Swearingen",
+      "length": 4.83
+    },
+    {
       "title": "Celebration (fra Birkshire Overture)",
       "slug": "celebration-fra-birkshire-overture",
       "composer": "Jeffrey P. Funnell",
       "grade": 6,
       "length": 11.0
-    },
-    {
-      "title": "Celebration and Dance",
-      "slug": "celebration-and-dance",
-      "composer": "James Swearingen",
-      "length": 4.83
     },
     {
       "title": "Celebrations",
@@ -1709,15 +1680,15 @@
       "composer": "Carin Bartosch Edstrøm"
     },
     {
+      "title": "D-Day",
+      "slug": "d-day",
+      "composer": "Alex Poelman"
+    },
+    {
       "title": "D'un Soir Triste",
       "slug": "d-un-soir-triste",
       "composer": "Lili Boulanger",
       "length": 10.0
-    },
-    {
-      "title": "D-Day",
-      "slug": "d-day",
-      "composer": "Alex Poelman"
     },
     {
       "title": "Da Vincian Visions",
@@ -1728,6 +1699,11 @@
       "title": "Daibatsu To Shika",
       "slug": "daibatsu-to-shika",
       "composer": "Itaru Sakai"
+    },
+    {
+      "title": "DÅM, Utdrag",
+      "slug": "dam-utdrag",
+      "composer": "Jan Roger Øren"
     },
     {
       "title": "Dance Movements",
@@ -1753,13 +1729,6 @@
       "composer": "Bela Bartok, arr. Eiji Suzuki",
       "grade": 6,
       "length": 5.25
-    },
-    {
-      "title": "Dance Suite",
-      "slug": "dance-suite",
-      "composer": "Joseph Horovitz",
-      "grade": 6,
-      "length": 13.25
     },
     {
       "title": "Danceries",
@@ -1895,6 +1864,11 @@
       "composer": "Kenneth Platts"
     },
     {
+      "title": "\"Den glade enke\", Vilja",
+      "slug": "den-glade-enke-vilja",
+      "composer": "Franz Lehar"
+    },
+    {
       "title": "Der Traum des Oenghus, Op. 37, del 1 og 2",
       "slug": "der-traum-des-oenghus-op-37-del-1-og-2",
       "composer": "Rolf Rudin"
@@ -1980,13 +1954,6 @@
       "length": 10.33
     },
     {
-      "title": "Dionysiaques",
-      "slug": "dionysiaques",
-      "composer": "Florent Schmitt, arr. Felix Hauswirth",
-      "grade": 6,
-      "length": 10.33
-    },
-    {
       "title": "Dirty Dancing",
       "slug": "dirty-dancing",
       "composer": "Torstein Aagaard-Nilsen",
@@ -2004,62 +1971,6 @@
       "composer": "Leonard Bernstein, arr. Clare Grundman",
       "grade": 5,
       "length": 15.42
-    },
-    {
-      "title": "Divertimento",
-      "slug": "divertimento",
-      "composer": "Oliver Waespi",
-      "grade": 6,
-      "length": 16.0
-    },
-    {
-      "title": "Divertimento (unntatt 3. sats)",
-      "slug": "divertimento-unntatt-3-sats",
-      "composer": "Leonard Bernstein, arr. Clare Grundman",
-      "grade": 5,
-      "length": 15.42
-    },
-    {
-      "title": "Divertimento for Band",
-      "slug": "divertimento-for-band",
-      "composer": "Vincent Persichetti",
-      "grade": 5,
-      "length": 10.83
-    },
-    {
-      "title": "Divertimento for Band, 1. sats Prologue",
-      "slug": "divertimento-for-band-1-sats-prologue",
-      "composer": "Vincent Persichetti",
-      "grade": 5,
-      "length": 10.83
-    },
-    {
-      "title": "Divertimento for Band, 1., 2., 4. og 6. sats",
-      "slug": "divertimento-for-band-1-2-4-og-6-sats",
-      "composer": "Vincent Persichetti",
-      "grade": 5,
-      "length": 10.83
-    },
-    {
-      "title": "Divertimento for Band, 1., 3., 4., 5. og 6. sats",
-      "slug": "divertimento-for-band-1-3-4-5-og-6-sats",
-      "composer": "Vincent Persichetti",
-      "grade": 5,
-      "length": 10.83
-    },
-    {
-      "title": "Divertimento for Band, 4., 5. og 6. sats",
-      "slug": "divertimento-for-band-4-5-og-6-sats",
-      "composer": "Vincent Persichetti",
-      "grade": 5,
-      "length": 10.83
-    },
-    {
-      "title": "Divertimento for Winds and Percussion",
-      "slug": "divertimento-for-winds-and-percussion",
-      "composer": "Roger Cichy",
-      "grade": 5,
-      "length": 11.58
     },
     {
       "title": "Divertimento, 1., 2., 4., 5., 7. og 8. sats",
@@ -2082,6 +1993,55 @@
       "title": "Divertimento, 6 av 8 satser",
       "slug": "divertimento-6-av-8-satser",
       "composer": "Leonard Bernstein, arr. Clare Grundman"
+    },
+    {
+      "title": "Divertimento for Band",
+      "slug": "divertimento-for-band",
+      "composer": "Vincent Persichetti",
+      "grade": 5,
+      "length": 10.83
+    },
+    {
+      "title": "Divertimento for Band, 1., 2., 4. og 6. sats",
+      "slug": "divertimento-for-band-1-2-4-og-6-sats",
+      "composer": "Vincent Persichetti",
+      "grade": 5,
+      "length": 10.83
+    },
+    {
+      "title": "Divertimento for Band, 1., 3., 4., 5. og 6. sats",
+      "slug": "divertimento-for-band-1-3-4-5-og-6-sats",
+      "composer": "Vincent Persichetti",
+      "grade": 5,
+      "length": 10.83
+    },
+    {
+      "title": "Divertimento for Band, 1. sats Prologue",
+      "slug": "divertimento-for-band-1-sats-prologue",
+      "composer": "Vincent Persichetti",
+      "grade": 5,
+      "length": 10.83
+    },
+    {
+      "title": "Divertimento for Band, 4., 5. og 6. sats",
+      "slug": "divertimento-for-band-4-5-og-6-sats",
+      "composer": "Vincent Persichetti",
+      "grade": 5,
+      "length": 10.83
+    },
+    {
+      "title": "Divertimento for Winds and Percussion",
+      "slug": "divertimento-for-winds-and-percussion",
+      "composer": "Roger Cichy",
+      "grade": 5,
+      "length": 11.58
+    },
+    {
+      "title": "Divertimento (unntatt 3. sats)",
+      "slug": "divertimento-unntatt-3-sats",
+      "composer": "Leonard Bernstein, arr. Clare Grundman",
+      "grade": 5,
+      "length": 15.42
     },
     {
       "title": "Do Not Go Gentle Into That Good Night",
@@ -2185,11 +2145,6 @@
       "title": "Dynamica",
       "slug": "dynamica",
       "composer": "Jan Van der Roost"
-    },
-    {
-      "title": "DÅM, Utdrag",
-      "slug": "dam-utdrag",
-      "composer": "Jan Roger Øren"
     },
     {
       "title": "Edenstrand",
@@ -2476,18 +2431,6 @@
       "composer": "Sven Samuelsson"
     },
     {
-      "title": "Fanfare - Flight to the Unknown World",
-      "slug": "fanfare-flight-to-the-unknown-world",
-      "composer": "Satoshi Yagisawa"
-    },
-    {
-      "title": "Fanfare - The Benefaction from Sky and Mother Earth",
-      "slug": "fanfare-the-benefaction-from-sky-and-mother-earth",
-      "composer": "Satoshi Yagisawa",
-      "grade": 4,
-      "length": 2.33
-    },
-    {
       "title": "Fanfare and Allegro",
       "slug": "fanfare-and-allegro",
       "composer": "Clifton Williams",
@@ -2521,6 +2464,18 @@
       "composer": "John Moody"
     },
     {
+      "title": "Fanfare, Ballad and Jubilee",
+      "slug": "fanfare-ballad-and-jubilee",
+      "composer": "Claude T. Smith",
+      "grade": 4,
+      "length": 9.0
+    },
+    {
+      "title": "Fanfare - Flight to the Unknown World",
+      "slug": "fanfare-flight-to-the-unknown-world",
+      "composer": "Satoshi Yagisawa"
+    },
+    {
       "title": "Fanfare for an Occasion",
       "slug": "fanfare-for-an-occasion",
       "composer": "Philip Sparke",
@@ -2540,13 +2495,6 @@
       "length": 3.0
     },
     {
-      "title": "Fanfare, Ballad and Jubilee",
-      "slug": "fanfare-ballad-and-jubilee",
-      "composer": "Claude T. Smith",
-      "grade": 4,
-      "length": 9.0
-    },
-    {
       "title": "Fanfare, Romance and Finale",
       "slug": "fanfare-romance-and-finale",
       "composer": "Philip Sparke",
@@ -2557,6 +2505,13 @@
       "slug": "fanfare-romance-and-finale-fanfare-og-romance",
       "composer": "Philip Sparke",
       "length": 7.5
+    },
+    {
+      "title": "Fanfare - The Benefaction from Sky and Mother Earth",
+      "slug": "fanfare-the-benefaction-from-sky-and-mother-earth",
+      "composer": "Satoshi Yagisawa",
+      "grade": 4,
+      "length": 2.33
     },
     {
       "title": "Fanfares and Arias",
@@ -2658,14 +2613,14 @@
       "composer": "Edvard Grieg, arr. Idar Torskangerpoll"
     },
     {
-      "title": "Fest Polonaise, Op. 12",
-      "slug": "fest-polonaise-op-12",
-      "composer": "Johan Svendsen, arr. Johan Pala"
-    },
-    {
       "title": "Fest-Overture, Op. 26",
       "slug": "fest-overture-op-26",
       "composer": "Hugo Alfvén"
+    },
+    {
+      "title": "Fest Polonaise, Op. 12",
+      "slug": "fest-polonaise-op-12",
+      "composer": "Johan Svendsen, arr. Johan Pala"
     },
     {
       "title": "Feste Romane",
@@ -2675,16 +2630,16 @@
       "length": 23.75
     },
     {
-      "title": "Feste Romane, 1. - 4. sats",
-      "slug": "feste-romane-1-4-sats",
-      "composer": "Ottorino Respighi, arr. Schaefer, Gudim, Lee",
+      "title": "Feste Romane, 1., 3. og 4. sats",
+      "slug": "feste-romane-1-3-og-4-sats",
+      "composer": "Ottorino Respighi, arr. Merlin Patterson",
       "grade": 6,
       "length": 23.75
     },
     {
-      "title": "Feste Romane, 1., 3. og 4. sats",
-      "slug": "feste-romane-1-3-og-4-sats",
-      "composer": "Ottorino Respighi, arr. Merlin Patterson",
+      "title": "Feste Romane, 1. - 4. sats",
+      "slug": "feste-romane-1-4-sats",
+      "composer": "Ottorino Respighi, arr. Schaefer, Gudim, Lee",
       "grade": 6,
       "length": 23.75
     },
@@ -2863,13 +2818,6 @@
       "length": 11.0
     },
     {
-      "title": "First Suite in Eb for Military Band",
-      "slug": "first-suite-in-eb-for-military-band",
-      "composer": "Gustav Holst, arr. Colin Matthews",
-      "grade": 5,
-      "length": 11.0
-    },
-    {
       "title": "First Suite in Eb for Military Band, 1. og 3. sats",
       "slug": "first-suite-in-eb-for-military-band-1-og-3-sats",
       "composer": "Gustav Holst",
@@ -2894,6 +2842,11 @@
       "title": "Fjell Noreg",
       "slug": "fjell-noreg",
       "composer": "Sparre Olsen"
+    },
+    {
+      "title": "Flåklypa Medley",
+      "slug": "flaklypa-medley",
+      "composer": "Bent Fabricius Bjerre, arr. Lars Erik Gudim"
     },
     {
       "title": "Flashback",
@@ -2930,11 +2883,6 @@
       "composer": "Philip Sparke",
       "grade": 5,
       "length": 6.08
-    },
-    {
-      "title": "Flåklypa Medley",
-      "slug": "flaklypa-medley",
-      "composer": "Bent Fabricius Bjerre, arr. Lars Erik Gudim"
     },
     {
       "title": "Folk Festival",
@@ -3461,13 +3409,13 @@
       "length": 8.42
     },
     {
-      "title": "Hans Christian Andersen Suite, 1. og 6. sats",
-      "slug": "hans-christian-andersen-suite-1-og-6-sats",
+      "title": "Hans Christian Andersen Suite, 1., 5. og 6. sats",
+      "slug": "hans-christian-andersen-suite-1-5-og-6-sats",
       "composer": "Søren Hyldgaard"
     },
     {
-      "title": "Hans Christian Andersen Suite, 1., 5. og 6. sats",
-      "slug": "hans-christian-andersen-suite-1-5-og-6-sats",
+      "title": "Hans Christian Andersen Suite, 1. og 6. sats",
+      "slug": "hans-christian-andersen-suite-1-og-6-sats",
       "composer": "Søren Hyldgaard"
     },
     {
@@ -3593,11 +3541,6 @@
       "composer": "Eivind Groven, arr. M. Pettersen"
     },
     {
-      "title": "Hjalar-Ljod",
-      "slug": "hjalar-ljod",
-      "composer": "Eivind Groven, arr. Knut Aasvik"
-    },
-    {
       "title": "Hjalarljod",
       "slug": "hjalarljod",
       "composer": "Eivind Groven, arr. Nils Eivind Nicolaisen"
@@ -3618,11 +3561,6 @@
       "composer": "Bernardo Adam Ferrero, arr. Anders Högstedt"
     },
     {
-      "title": "Homenaje a Joaquìn Sorolla Cuados Sinfònicos",
-      "slug": "homenaje-a-joaquin-sorolla-cuados-sinfonicos",
-      "composer": "Bernardo Adam Ferrero"
-    },
-    {
       "title": "Horda Rapsodi",
       "slug": "horda-rapsodi",
       "composer": "Valter Aamodt"
@@ -3635,9 +3573,9 @@
       "length": 3.5
     },
     {
-      "title": "Huckleberry Finn Suite - Four Scenes from Mark Twain",
-      "slug": "huckleberry-finn-suite-four-scenes-from-mark-twain",
-      "composer": "Franco Cesarini"
+      "title": "Høstvise",
+      "slug": "hstvise",
+      "composer": "Christian Hartmann, arr. Nils E. Nikolaisen"
     },
     {
       "title": "Huckleberry Finn Suite, 1. og 2. sats",
@@ -3652,6 +3590,11 @@
     {
       "title": "Huckleberry Finn Suite, 3. og 4. sats",
       "slug": "huckleberry-finn-suite-3-og-4-sats",
+      "composer": "Franco Cesarini"
+    },
+    {
+      "title": "Huckleberry Finn Suite - Four Scenes from Mark Twain",
+      "slug": "huckleberry-finn-suite-four-scenes-from-mark-twain",
       "composer": "Franco Cesarini"
     },
     {
@@ -3698,21 +3641,21 @@
       "length": 6.42
     },
     {
-      "title": "Hymn to the Sun - With the Beat of Mother Earth, New version 2010",
-      "slug": "hymn-to-the-sun-with-the-beat-of-mother-earth-new-version-2010",
-      "composer": "Satoshi Yagisawa",
-      "length": 9.67
-    },
-    {
       "title": "Hymn to the Sun Earth with the Beat of the Mother",
       "slug": "hymn-to-the-sun-earth-with-the-beat-of-the-mother",
       "composer": "Satoshi Yagisawa",
       "length": 9.67
     },
     {
-      "title": "Høstvise",
-      "slug": "hstvise",
-      "composer": "Christian Hartmann, arr. Nils E. Nikolaisen"
+      "title": "Hymn to the Sun - With the Beat of Mother Earth, New version 2010",
+      "slug": "hymn-to-the-sun-with-the-beat-of-mother-earth-new-version-2010",
+      "composer": "Satoshi Yagisawa",
+      "length": 9.67
+    },
+    {
+      "title": "I-77",
+      "slug": "i-77",
+      "composer": "Joshua Hummel"
     },
     {
       "title": "I Beredskap",
@@ -3723,11 +3666,6 @@
       "title": "I Fred Blant Träden Bo",
       "slug": "i-fred-blant-traden-bo",
       "composer": "Isak Hård"
-    },
-    {
-      "title": "I-77",
-      "slug": "i-77",
-      "composer": "Joshua Hummel"
     },
     {
       "title": "Iberian Escapades",
@@ -3934,16 +3872,16 @@
       "length": 5.17
     },
     {
+      "title": "Intrada Festivo",
+      "slug": "intrada-festivo",
+      "composer": "Stephen Bulla"
+    },
+    {
       "title": "Intrada (Herre Gud ditt dyre navn og ære)",
       "slug": "intrada-herre-gud-ditt-dyre-navn-og-re",
       "composer": "John Brakstad",
       "grade": 5,
       "length": 4.5
-    },
-    {
-      "title": "Intrada Festivo",
-      "slug": "intrada-festivo",
-      "composer": "Stephen Bulla"
     },
     {
       "title": "Intrada Jubilante",
@@ -4141,25 +4079,18 @@
       "length": 5.92
     },
     {
-      "title": "Jupiter - The Bringer of Jollity",
-      "slug": "jupiter-the-bringer-of-jollity",
-      "composer": "Gustav Holst, arr. James Curnow",
-      "grade": 5,
-      "length": 8.17
-    },
-    {
-      "title": "Jupiter - The Bringer of Jollity",
-      "slug": "jupiter-the-bringer-of-jollity",
-      "composer": "Gustav Holst",
-      "grade": 5,
-      "length": 8.17
-    },
-    {
       "title": "Jupiter Hymn",
       "slug": "jupiter-hymn",
       "composer": "Gustav Holst, arr. Johan de Meij",
       "grade": 2,
       "length": 2.33
+    },
+    {
+      "title": "Jupiter - The Bringer of Jollity",
+      "slug": "jupiter-the-bringer-of-jollity",
+      "composer": "Gustav Holst, arr. James Curnow",
+      "grade": 5,
+      "length": 8.17
     },
     {
       "title": "Kaleidoscope",
@@ -4392,6 +4323,11 @@
       "length": 9.0
     },
     {
+      "title": "\"Les Bitches\": Rondeau, Andantino, Chanson Dansee",
+      "slug": "les-bitches-rondeau-andantino-chanson-dansee",
+      "composer": "Francis Poulenc, arr. Lucien Callet"
+    },
+    {
       "title": "Les Coleurs Fauves",
       "slug": "les-coleurs-fauves",
       "composer": "Karel Husa",
@@ -4425,6 +4361,18 @@
       "length": 17.67
     },
     {
+      "title": "L’Homme Armé: Variations for Wind Ensemble",
+      "slug": "lhomme-arme-variations-for-wind-ensemble",
+      "composer": "Christopher Marshall"
+    },
+    {
+      "title": "L’Homme Armée",
+      "slug": "lhomme-armee",
+      "composer": "Ketil Hvoslef",
+      "grade": 6,
+      "length": 11.0
+    },
+    {
       "title": "Life Celebration",
       "slug": "life-celebration",
       "composer": "Tormod Tvete Vik"
@@ -4451,13 +4399,6 @@
       "length": 16.75
     },
     {
-      "title": "Lincolnshire Posy, - 5. sats",
-      "slug": "lincolnshire-posy-5-sats",
-      "composer": "Percy Aldridge Grainger, arr. Frederick Fennell",
-      "grade": 6,
-      "length": 16.75
-    },
-    {
       "title": "Lincolnshire Posy, 1., 2. og 6. sats",
       "slug": "lincolnshire-posy-1-2-og-6-sats",
       "composer": "Percy Aldridge Grainger",
@@ -4474,6 +4415,13 @@
     {
       "title": "Lincolnshire Posy, 2. sats",
       "slug": "lincolnshire-posy-2-sats",
+      "composer": "Percy Aldridge Grainger, arr. Frederick Fennell",
+      "grade": 6,
+      "length": 16.75
+    },
+    {
+      "title": "Lincolnshire Posy, - 5. sats",
+      "slug": "lincolnshire-posy-5-sats",
       "composer": "Percy Aldridge Grainger, arr. Frederick Fennell",
       "grade": 6,
       "length": 16.75
@@ -4496,6 +4444,11 @@
       "composer": "Torstein Aagaard-Nilsen",
       "grade": 4,
       "length": 14.33
+    },
+    {
+      "title": "\"Loch Ness\" - A Scottish Fantasy",
+      "slug": "loch-ness-a-scottish-fantasy",
+      "composer": "Johan de Meij"
     },
     {
       "title": "Lochinvar",
@@ -4591,18 +4544,6 @@
       "length": 11.58
     },
     {
-      "title": "L’Homme Armé: Variations for Wind Ensemble",
-      "slug": "lhomme-arme-variations-for-wind-ensemble",
-      "composer": "Christopher Marshall"
-    },
-    {
-      "title": "L’Homme Armée",
-      "slug": "lhomme-armee",
-      "composer": "Ketil Hvoslef",
-      "grade": 6,
-      "length": 11.0
-    },
-    {
       "title": "Macbeth",
       "slug": "macbeth",
       "composer": "Peter Meechan",
@@ -4675,6 +4616,12 @@
       "title": "Man in the Ice",
       "slug": "man-in-the-ice",
       "composer": "Otto M. Schwarz"
+    },
+    {
+      "title": "Måndalen Landscapes",
+      "slug": "mandalen-landscapes",
+      "composer": "Philip Sparke",
+      "length": 6.0
     },
     {
       "title": "Manhattan Pictures",
@@ -5019,14 +4966,14 @@
       "length": 22.17
     },
     {
-      "title": "Music for Prague 1968, 1. sats",
-      "slug": "music-for-prague-1968-1-sats",
+      "title": "Music for Prague 1968, 1., 3. og 4. sats",
+      "slug": "music-for-prague-1968-1-3-og-4-sats",
       "composer": "Karel Husa",
       "length": 22.17
     },
     {
-      "title": "Music for Prague 1968, 1., 3. og 4. sats",
-      "slug": "music-for-prague-1968-1-3-og-4-sats",
+      "title": "Music for Prague 1968, 1. sats",
+      "slug": "music-for-prague-1968-1-sats",
       "composer": "Karel Husa",
       "length": 22.17
     },
@@ -5059,12 +5006,6 @@
       "composer": "Stig Nordhagen",
       "grade": 6,
       "length": 16.0
-    },
-    {
-      "title": "Måndalen Landscapes",
-      "slug": "mandalen-landscapes",
-      "composer": "Philip Sparke",
-      "length": 6.0
     },
     {
       "title": "Nemesis, Metàfora Sinfónica",
@@ -5109,6 +5050,13 @@
       "composer": "David Schaffer"
     },
     {
+      "title": "New York: 1927",
+      "slug": "new-york-1927",
+      "composer": "Warren Barker",
+      "grade": 4,
+      "length": 5.25
+    },
+    {
       "title": "New York Counterpoint, 1. Fast",
       "slug": "new-york-counterpoint-1-fast",
       "composer": "Steve Reich"
@@ -5122,13 +5070,6 @@
       "title": "New York Overture",
       "slug": "new-york-overture",
       "composer": "Kees Vlak"
-    },
-    {
-      "title": "New York: 1927",
-      "slug": "new-york-1927",
-      "composer": "Warren Barker",
-      "grade": 4,
-      "length": 5.25
     },
     {
       "title": "Niagara Falls",
@@ -5190,11 +5131,6 @@
       "title": "Norsk Rapsodi nr. 2",
       "slug": "norsk-rapsodi-nr-2",
       "composer": "Johan Halvorsen, arr. Lars-Thomas Holm"
-    },
-    {
-      "title": "Norsk Rapsodi nr. 2",
-      "slug": "norsk-rapsodi-nr-2",
-      "composer": "Johan Halvorsen, arr. Svein Henrik Giske"
     },
     {
       "title": "Norwegian Attics",
@@ -5343,6 +5279,11 @@
       "length": 16.25
     },
     {
+      "title": "....Og teksten var av Prøysen",
+      "slug": "og-teksten-var-av-prysen",
+      "composer": "Bjarne Amdahl, Egil Monn Iversen, Finn Ludt, Ulf Peder Orlog, Otto Nilsen, arr. Tom Skjellum"
+    },
+    {
       "title": "Oktober, symfonisk dikt, op. 131",
       "slug": "oktober-symfonisk-dikt-op-131",
       "composer": "Dmitri Shostakovich, arr. André Seerden"
@@ -5457,13 +5398,6 @@
       "composer": "Øyvind Strand"
     },
     {
-      "title": "Overture & March \"1776\"",
-      "slug": "overture-march-1776",
-      "composer": "Charles E. Ives, arr. James B. Sinclair",
-      "grade": 4,
-      "length": 3.0
-    },
-    {
       "title": "Overture Allemande",
       "slug": "overture-allemande",
       "composer": "Thomas Doss"
@@ -5496,6 +5430,13 @@
       "composer": "Frank Erickson",
       "grade": 4,
       "length": 7.0
+    },
+    {
+      "title": "Overture & March \"1776\"",
+      "slug": "overture-march-1776",
+      "composer": "Charles E. Ives, arr. James B. Sinclair",
+      "grade": 4,
+      "length": 3.0
     },
     {
       "title": "Overture on a March",
@@ -5623,13 +5564,6 @@
       "composer": "Ron Nelson",
       "grade": 6,
       "length": 10.25
-    },
-    {
-      "title": "Passacaglia",
-      "slug": "passacaglia",
-      "composer": "Ludvig Irgens Jensen, arr. Lars-Thomas Holm",
-      "grade": 4,
-      "length": 12.33
     },
     {
       "title": "Passacaglia : Tema fra oriatorie: Heimat frå Babel",
@@ -5781,6 +5715,13 @@
       "length": 21.0
     },
     {
+      "title": "Poéme du Feu",
+      "slug": "poeme-du-feu",
+      "composer": "Ida Gotkovsky",
+      "grade": 6,
+      "length": 13.0
+    },
+    {
       "title": "Poet and Peasant",
       "slug": "poet-and-peasant",
       "composer": "Franz von Suppé",
@@ -5849,13 +5790,6 @@
       "length": 3.0
     },
     {
-      "title": "Poéme du Feu",
-      "slug": "poeme-du-feu",
-      "composer": "Ida Gotkovsky",
-      "grade": 6,
-      "length": 13.0
-    },
-    {
       "title": "Praetorius Variations",
       "slug": "praetorius-variations",
       "composer": "James Curnow",
@@ -5901,13 +5835,6 @@
       "composer": "John Brakstad"
     },
     {
-      "title": "Prelude to a Celebration",
-      "slug": "prelude-to-a-celebration",
-      "composer": "Philip Sparke",
-      "grade": 4,
-      "length": 7.5
-    },
-    {
       "title": "Prelude, Siciliano and Rondo",
       "slug": "prelude-siciliano-and-rondo",
       "composer": "Malcom Arnold, arr. John Paynter"
@@ -5918,14 +5845,21 @@
       "composer": "Malcom Arnold, arr. John Paynter"
     },
     {
+      "title": "Prelude, Siciliano and Rondo (Siciliano)",
+      "slug": "prelude-siciliano-and-rondo-siciliano",
+      "composer": "Malcom Arnold, arr. John Paynter"
+    },
+    {
       "title": "Prelude, Siciliano and Rondo (Siciliano and Rondo)",
       "slug": "prelude-siciliano-and-rondo-siciliano-and-rondo",
       "composer": "Malcom Arnold, arr. John Paynter"
     },
     {
-      "title": "Prelude, Siciliano and Rondo (Siciliano)",
-      "slug": "prelude-siciliano-and-rondo-siciliano",
-      "composer": "Malcom Arnold, arr. John Paynter"
+      "title": "Prelude to a Celebration",
+      "slug": "prelude-to-a-celebration",
+      "composer": "Philip Sparke",
+      "grade": 4,
+      "length": 7.5
     },
     {
       "title": "Prevision",
@@ -5987,11 +5921,14 @@
       "composer": "Peter Meechan"
     },
     {
-      "title": "Puszta (Four Gypsi Dances)",
-      "slug": "puszta-four-gypsi-dances",
-      "composer": "Jan Van der Roost",
-      "grade": 5,
-      "length": 12.17
+      "title": "Puszta, 1., 2. og 3. sats",
+      "slug": "puszta-1-2-og-3-sats",
+      "composer": "Jan Van der Roost"
+    },
+    {
+      "title": "Puszta, 1., 2. og 4. sats",
+      "slug": "puszta-1-2-og-4-sats",
+      "composer": "Jan Van der Roost"
     },
     {
       "title": "Puszta, 1. og 3. sats",
@@ -6006,16 +5943,6 @@
       "length": 12.17
     },
     {
-      "title": "Puszta, 1., 2. og 3. sats",
-      "slug": "puszta-1-2-og-3-sats",
-      "composer": "Jan Van der Roost"
-    },
-    {
-      "title": "Puszta, 1., 2. og 4. sats",
-      "slug": "puszta-1-2-og-4-sats",
-      "composer": "Jan Van der Roost"
-    },
-    {
       "title": "Puszta, 3. og 4. sats",
       "slug": "puszta-3-og-4-sats",
       "composer": "Jan Van der Roost"
@@ -6023,6 +5950,13 @@
     {
       "title": "Puszta, 4. sats",
       "slug": "puszta-4-sats",
+      "composer": "Jan Van der Roost",
+      "grade": 5,
+      "length": 12.17
+    },
+    {
+      "title": "Puszta (Four Gypsi Dances)",
+      "slug": "puszta-four-gypsi-dances",
       "composer": "Jan Van der Roost",
       "grade": 5,
       "length": 12.17
@@ -6300,6 +6234,11 @@
       "composer": "Guy Woolfenden"
     },
     {
+      "title": "Så skimrande var aldrig havet",
+      "slug": "sa-skimrande-var-aldrig-havet",
+      "composer": "Evert Taube, arr. Stig Gustafson"
+    },
+    {
       "title": "Sacred Harp",
       "slug": "sacred-harp",
       "composer": "Jay Bocook",
@@ -6450,6 +6389,16 @@
       "length": 11.0
     },
     {
+      "title": "Second Suite in F for Military Band, 1., 2. og 4. sats",
+      "slug": "second-suite-in-f-for-military-band-1-2-og-4-sats",
+      "composer": "Gustav Holst"
+    },
+    {
+      "title": "Second Suite in F for Military Band, 1., 3. og 4. sats",
+      "slug": "second-suite-in-f-for-military-band-1-3-og-4-sats",
+      "composer": "Gustav Holst"
+    },
+    {
       "title": "Second Suite in F for Military Band, 1. og 2. sats",
       "slug": "second-suite-in-f-for-military-band-1-og-2-sats",
       "composer": "Gustav Holst",
@@ -6462,16 +6411,6 @@
       "composer": "Gustav Holst",
       "grade": 5,
       "length": 11.0
-    },
-    {
-      "title": "Second Suite in F for Military Band, 1., 2. og 4. sats",
-      "slug": "second-suite-in-f-for-military-band-1-2-og-4-sats",
-      "composer": "Gustav Holst"
-    },
-    {
-      "title": "Second Suite in F for Military Band, 1., 3. og 4. sats",
-      "slug": "second-suite-in-f-for-military-band-1-3-og-4-sats",
-      "composer": "Gustav Holst"
     },
     {
       "title": "Second Suite in F for Military Band, 2. og 4. sats",
@@ -6654,13 +6593,13 @@
       "length": 3.42
     },
     {
-      "title": "Sinfonia di Soffiatori Nr. 3 / Sinfonietta de Soffiatori",
-      "slug": "sinfonia-di-soffiatori-nr-3-sinfonietta-de-soffiatori",
+      "title": "Sinfonia di Soffiatori Nr. 3, III. Andante",
+      "slug": "sinfonia-di-soffiatori-nr-3-iii-andante",
       "composer": "Geirr Tveitt"
     },
     {
-      "title": "Sinfonia di Soffiatori Nr. 3, III. Andante",
-      "slug": "sinfonia-di-soffiatori-nr-3-iii-andante",
+      "title": "Sinfonia di Soffiatori Nr. 3 / Sinfonietta de Soffiatori",
+      "slug": "sinfonia-di-soffiatori-nr-3-sinfonietta-de-soffiatori",
       "composer": "Geirr Tveitt"
     },
     {
@@ -6714,11 +6653,6 @@
       "composer": "Ingolf Dahl"
     },
     {
-      "title": "Sinfonietta No 3 - Rheinfelden Sketches",
-      "slug": "sinfonietta-no-3-rheinfelden-sketches",
-      "composer": "Philip Sparke"
-    },
-    {
       "title": "Sinfonietta no. 2",
       "slug": "sinfonietta-no-2",
       "composer": "Philip Sparke",
@@ -6737,6 +6671,11 @@
       "slug": "sinfonietta-no-3",
       "composer": "Franco Cesarini",
       "length": 14.33
+    },
+    {
+      "title": "Sinfonietta No 3 - Rheinfelden Sketches",
+      "slug": "sinfonietta-no-3-rheinfelden-sketches",
+      "composer": "Philip Sparke"
     },
     {
       "title": "Sing Sang Sung",
@@ -6829,16 +6768,16 @@
       "length": 5.0
     },
     {
+      "title": "Små variasjoner over et ubetydelig tema",
+      "slug": "sma-variasjoner-over-et-ubetydelig-tema",
+      "composer": "Bjørn Mellemberg"
+    },
+    {
       "title": "Smetana Fanfare",
       "slug": "smetana-fanfare",
       "composer": "Karel Husa",
       "grade": 6,
       "length": 3.42
-    },
-    {
-      "title": "Små variasjoner over et ubetydelig tema",
-      "slug": "sma-variasjoner-over-et-ubetydelig-tema",
-      "composer": "Bjørn Mellemberg"
     },
     {
       "title": "Snake Alley",
@@ -6996,6 +6935,11 @@
       "composer": "Knut Harald Jensen"
     },
     {
+      "title": "Sørgemarsj til minne om Richard Nordraak, Op. 117",
+      "slug": "srgemarsj-til-minne-om-richard-nordraak-op-117",
+      "composer": "Edvard Grieg"
+    },
+    {
       "title": "St. Florian Choral",
       "slug": "st-florian-choral",
       "composer": "Thomas Doss",
@@ -7010,6 +6954,11 @@
       "length": 9.0
     },
     {
+      "title": "Star Wars “Fanfare”",
+      "slug": "star-wars-fanfare",
+      "composer": "John Williams/Calvin Custer"
+    },
+    {
       "title": "Star Wars Trilogy",
       "slug": "star-wars-trilogy",
       "composer": "John Williams, arr. Donald Hunsberger",
@@ -7022,14 +6971,14 @@
       "length": 19.5
     },
     {
-      "title": "Star Wars “Fanfare”",
-      "slug": "star-wars-fanfare",
-      "composer": "John Williams/Calvin Custer"
-    },
-    {
       "title": "Start-Up",
       "slug": "start-up",
       "composer": "Armin Kofler"
+    },
+    {
+      "title": "Østerdalsrapsodi",
+      "slug": "sterdalsrapsodi",
+      "composer": "Johannes Hanssen"
     },
     {
       "title": "Stomp Igor",
@@ -7217,14 +7166,14 @@
       "composer": "Dmitri Shostakovich, arr. Peter Sebastian Szilvay"
     },
     {
-      "title": "Symfoni nr. 1 - \"Pits Left in\"",
-      "slug": "symfoni-nr-1-pits-left-in",
-      "composer": "Frank Tveor Nordensteen"
-    },
-    {
       "title": "Symfoni nr. 1, 3. og 4. sats",
       "slug": "symfoni-nr-1-3-og-4-sats",
       "composer": "Axel Poleman"
+    },
+    {
+      "title": "Symfoni nr. 1 - \"Pits Left in\"",
+      "slug": "symfoni-nr-1-pits-left-in",
+      "composer": "Frank Tveor Nordensteen"
     },
     {
       "title": "Symfoni nr. 2, Fatum, 1. sats",
@@ -7254,25 +7203,18 @@
       "length": 22.83
     },
     {
-      "title": "Symphonic Dances from \"West Side Story\"",
-      "slug": "symphonic-dances-from-west-side-story",
-      "composer": "Leonard Bernstein, arr. Stian Aareskjold",
-      "grade": 6,
-      "length": 22.58
-    },
-    {
-      "title": "Symphonic Dances from \"West Side Story\"",
-      "slug": "symphonic-dances-from-west-side-story",
-      "composer": "Leonard Bernstein, arr. Paul Lavender",
-      "grade": 6,
-      "length": 22.58
-    },
-    {
       "title": "Symphonic Dances from Fiddler on the Roof",
       "slug": "symphonic-dances-from-fiddler-on-the-roof",
       "composer": "S. Harnick/J. Bock, arr. Ira Hearshen",
       "grade": 5,
       "length": 7.08
+    },
+    {
+      "title": "Symphonic Dances from \"West Side Story\"",
+      "slug": "symphonic-dances-from-west-side-story",
+      "composer": "Leonard Bernstein, arr. Stian Aareskjold",
+      "grade": 6,
+      "length": 22.58
     },
     {
       "title": "Symphonic Marches",
@@ -7445,40 +7387,6 @@
       "length": 11.17
     },
     {
-      "title": "Symphony no 3, Finale",
-      "slug": "symphony-no-3-finale",
-      "composer": "Aaron Copland, arr. Donald C. Patterson",
-      "grade": 4,
-      "length": 7.0
-    },
-    {
-      "title": "Symphony No IV: Bookmarks from Japan",
-      "slug": "symphony-no-iv-bookmarks-from-japan",
-      "composer": "Julie Giroux"
-    },
-    {
-      "title": "Symphony No IV: Bookmarks from Japan, 1., 2., 4. og 6. sats",
-      "slug": "symphony-no-iv-bookmarks-from-japan-1-2-4-og-6-sats",
-      "composer": "Julie Giroux"
-    },
-    {
-      "title": "Symphony No IV: Bookmarks from Japan, 1., 2., 4., 5., og 6. sats",
-      "slug": "symphony-no-iv-bookmarks-from-japan-1-2-4-5-og-6-sats",
-      "composer": "Julie Giroux"
-    },
-    {
-      "title": "Symphony No IV: Bookmarks from Japan, sats V, Evening Snow at Kambara - \"Light is the Touch\"",
-      "slug": "symphony-no-iv-bookmarks-from-japan-sats-v-evening-snow-at-kambara-light-is-the-touch",
-      "composer": "Julie Giroux"
-    },
-    {
-      "title": "Symphony no. 1 \"Titan\", 4. sats",
-      "slug": "symphony-no-1-titan-4-sats",
-      "composer": "Gustav Mahler",
-      "grade": 4,
-      "length": 7.0
-    },
-    {
       "title": "Symphony no. 1 - Asgard",
       "slug": "symphony-no-1-asgard",
       "composer": "Teo Aparicio-Barberan"
@@ -7499,6 +7407,21 @@
       "title": "Symphony no. 1 for Wind Band: Solitude Standing",
       "slug": "symphony-no-1-for-wind-band-solitude-standing",
       "composer": "Stig Nordhagen"
+    },
+    {
+      "title": "Symphony no. 1, ‘Gilgamesh’",
+      "slug": "symphony-no-1-gilgamesh",
+      "composer": "Bert Appermont"
+    },
+    {
+      "title": "Symphony no. 1, ‘Gilgamesh’, 2. sats Battle of Titans",
+      "slug": "symphony-no-1-gilgamesh-2-sats-battle-of-titans",
+      "composer": "Bert Appermont"
+    },
+    {
+      "title": "Symphony no. 1, ‘Gilgamesh’ (Kutt i sats 4: takt 1-99)",
+      "slug": "symphony-no-1-gilgamesh-kutt-i-sats-4-takt-1-99",
+      "composer": "Bert Appermont"
     },
     {
       "title": "Symphony no. 1, \"Journey in the Dark\"",
@@ -7531,24 +7454,22 @@
       "composer": "Johan de Meij"
     },
     {
-      "title": "Symphony no. 1, ‘Gilgamesh’",
-      "slug": "symphony-no-1-gilgamesh",
-      "composer": "Bert Appermont"
-    },
-    {
-      "title": "Symphony no. 1, ‘Gilgamesh’ (Kutt i sats 4: takt 1-99)",
-      "slug": "symphony-no-1-gilgamesh-kutt-i-sats-4-takt-1-99",
-      "composer": "Bert Appermont"
-    },
-    {
-      "title": "Symphony no. 1, ‘Gilgamesh’, 2. sats Battle of Titans",
-      "slug": "symphony-no-1-gilgamesh-2-sats-battle-of-titans",
-      "composer": "Bert Appermont"
+      "title": "Symphony no. 1 \"Titan\", 4. sats",
+      "slug": "symphony-no-1-titan-4-sats",
+      "composer": "Gustav Mahler",
+      "grade": 4,
+      "length": 7.0
     },
     {
       "title": "Symphony no. 2",
       "slug": "symphony-no-2",
       "composer": "Frank Ticheli"
+    },
+    {
+      "title": "Symphony No. 2, 1. movement",
+      "slug": "symphony-no-2-1-movement",
+      "composer": "Alexander Borodin",
+      "length": 27.08
     },
     {
       "title": "Symphony no. 2 for Band",
@@ -7563,12 +7484,6 @@
       "composer": "John Barnes Chance"
     },
     {
-      "title": "Symphony No. 2, 1. movement",
-      "slug": "symphony-no-2-1-movement",
-      "composer": "Alexander Borodin",
-      "length": 27.08
-    },
-    {
       "title": "Symphony no. 2, Genesis",
       "slug": "symphony-no-2-genesis",
       "composer": "David R. Gillingham"
@@ -7581,6 +7496,19 @@
       "length": 21.42
     },
     {
+      "title": "Symphony no 3, Finale",
+      "slug": "symphony-no-3-finale",
+      "composer": "Aaron Copland, arr. Donald C. Patterson",
+      "grade": 4,
+      "length": 7.0
+    },
+    {
+      "title": "Symphony no. 3, II Variations on the \"Porazzi\" Theme of Wagner",
+      "slug": "symphony-no-3-ii-variations-on-the-porazzi-theme-of-wagner",
+      "composer": "Alfred Reed",
+      "length": 7.42
+    },
+    {
       "title": "Symphony no. 3 “Slavyanskaya”",
       "slug": "symphony-no-3-slavyanskaya",
       "composer": "Boris Kozhevnikov, arr. John R. Bourgeois"
@@ -7589,12 +7517,6 @@
       "title": "Symphony no. 3 “Slavyanskaya”, 1., 2. og 4. sats",
       "slug": "symphony-no-3-slavyanskaya-1-2-og-4-sats",
       "composer": "Boris Kozhevnikov, arr. Walter Ratzek"
-    },
-    {
-      "title": "Symphony no. 3, II Variations on the \"Porazzi\" Theme of Wagner",
-      "slug": "symphony-no-3-ii-variations-on-the-porazzi-theme-of-wagner",
-      "composer": "Alfred Reed",
-      "length": 7.42
     },
     {
       "title": "Symphony no. 4",
@@ -7652,20 +7574,30 @@
       "composer": "Antonin Dvorak, arr. Claire W. Johnson"
     },
     {
+      "title": "Symphony No IV: Bookmarks from Japan",
+      "slug": "symphony-no-iv-bookmarks-from-japan",
+      "composer": "Julie Giroux"
+    },
+    {
+      "title": "Symphony No IV: Bookmarks from Japan, 1., 2., 4., 5., og 6. sats",
+      "slug": "symphony-no-iv-bookmarks-from-japan-1-2-4-5-og-6-sats",
+      "composer": "Julie Giroux"
+    },
+    {
+      "title": "Symphony No IV: Bookmarks from Japan, 1., 2., 4. og 6. sats",
+      "slug": "symphony-no-iv-bookmarks-from-japan-1-2-4-og-6-sats",
+      "composer": "Julie Giroux"
+    },
+    {
+      "title": "Symphony No IV: Bookmarks from Japan, sats V, Evening Snow at Kambara - \"Light is the Touch\"",
+      "slug": "symphony-no-iv-bookmarks-from-japan-sats-v-evening-snow-at-kambara-light-is-the-touch",
+      "composer": "Julie Giroux"
+    },
+    {
       "title": "Synergi",
       "slug": "synergi",
       "composer": "E. Alpher",
       "length": 3.67
-    },
-    {
-      "title": "Så skimrande var aldrig havet",
-      "slug": "sa-skimrande-var-aldrig-havet",
-      "composer": "Evert Taube, arr. Stig Gustafson"
-    },
-    {
-      "title": "Sørgemarsj til minne om Richard Nordraak, Op. 117",
-      "slug": "srgemarsj-til-minne-om-richard-nordraak-op-117",
-      "composer": "Edvard Grieg"
     },
     {
       "title": "Take Off",
@@ -7746,12 +7678,6 @@
       "length": 12.58
     },
     {
-      "title": "The \"Gum-Suckers\" March",
-      "slug": "the-gum-suckers-march",
-      "composer": "Percy Aldridge Grainger",
-      "length": 3.83
-    },
-    {
       "title": "The Adventures of Baron Munchausen",
       "slug": "the-adventures-of-baron-munchausen",
       "composer": "Bert Appermont"
@@ -7780,11 +7706,6 @@
       "title": "The Big Bang",
       "slug": "the-big-bang",
       "composer": "Jens Wendelboe"
-    },
-    {
-      "title": "The Big Bang",
-      "slug": "the-big-bang",
-      "composer": "Bert Appermont"
     },
     {
       "title": "The Big Picture",
@@ -7868,6 +7789,12 @@
       "title": "The Greater Glory",
       "slug": "the-greater-glory",
       "composer": "Knut Nystedt"
+    },
+    {
+      "title": "The \"Gum-Suckers\" March",
+      "slug": "the-gum-suckers-march",
+      "composer": "Percy Aldridge Grainger",
+      "length": 3.83
     },
     {
       "title": "The Haunter Of The Dark",
@@ -8014,11 +7941,6 @@
       "composer": "Philip Sparke"
     },
     {
-      "title": "The Planets by Trouvere: The Earth",
-      "slug": "the-planets-by-trouvere-the-earth",
-      "composer": "Jun Nagao"
-    },
-    {
       "title": "The Planets, 1. sats Mars The Bringer of the War",
       "slug": "the-planets-1-sats-mars-the-bringer-of-the-war",
       "composer": "Gustav Holst"
@@ -8029,6 +7951,11 @@
       "composer": "Gustav Holst",
       "grade": 5,
       "length": 8.17
+    },
+    {
+      "title": "The Planets by Trouvere: The Earth",
+      "slug": "the-planets-by-trouvere-the-earth",
+      "composer": "Jun Nagao"
     },
     {
       "title": "The Playground Project - 3. Urban Funkism",
@@ -8234,12 +8161,6 @@
       "length": 10.37
     },
     {
-      "title": "Theatre Music",
-      "slug": "theatre-music",
-      "composer": "Augustin Lara",
-      "length": 10.37
-    },
-    {
       "title": "Theme and Variations for Wind Band, Op. 43a",
       "slug": "theme-and-variations-for-wind-band-op-43a",
       "composer": "Arnold Schönberg",
@@ -8276,16 +8197,16 @@
       "length": 13.25
     },
     {
-      "title": "Third Suite for Band (Scenes de Ballet)",
-      "slug": "third-suite-for-band-scenes-de-ballet",
-      "composer": "Alfred Reed",
+      "title": "Third Suite for Band, 2. og 3. sats",
+      "slug": "third-suite-for-band-2-og-3-sats",
+      "composer": "Robert Edward Jager",
       "grade": 4,
       "length": 13.25
     },
     {
-      "title": "Third Suite for Band, 2. og 3. sats",
-      "slug": "third-suite-for-band-2-og-3-sats",
-      "composer": "Robert Edward Jager",
+      "title": "Third Suite for Band (Scenes de Ballet)",
+      "slug": "third-suite-for-band-scenes-de-ballet",
+      "composer": "Alfred Reed",
       "grade": 4,
       "length": 13.25
     },
@@ -8710,6 +8631,16 @@
       "length": 20.0
     },
     {
+      "title": "Vårofferet",
+      "slug": "varofferet",
+      "composer": "Igor Stravinskij"
+    },
+    {
+      "title": "Vårofferet, 2. del",
+      "slug": "varofferet-2-del",
+      "composer": "Igor Stravinskij"
+    },
+    {
       "title": "Vaudeville Suite",
       "slug": "vaudeville-suite",
       "composer": "Pi Scheffer"
@@ -8847,16 +8778,6 @@
       "title": "Voyager",
       "slug": "voyager",
       "composer": "John William Stout"
-    },
-    {
-      "title": "Vårofferet",
-      "slug": "varofferet",
-      "composer": "Igor Stravinskij"
-    },
-    {
-      "title": "Vårofferet, 2. del",
-      "slug": "varofferet-2-del",
-      "composer": "Igor Stravinskij"
     },
     {
       "title": "Wait of the World",
@@ -9042,13 +8963,6 @@
       "length": 4.17
     },
     {
-      "title": "With Each Sunset (Comes the Promise of a New Day)",
-      "slug": "with-each-sunset-comes-the-promise-of-a-new-day",
-      "composer": "Richard L. Saucedo",
-      "grade": 3,
-      "length": 4.17
-    },
-    {
       "title": "With Heart and Voice",
       "slug": "with-heart-and-voice",
       "composer": "David R. Gillingham",
@@ -9135,23 +9049,13 @@
       "title": "Zeppelin Symphony, 1., 3. og 4. sats",
       "slug": "zeppelin-symphony-1-3-og-4-sats",
       "composer": "Thomas Doss"
-    },
-    {
-      "title": "Åkernesset",
-      "slug": "akernesset",
-      "composer": "Jan Magne Førde"
-    },
-    {
-      "title": "Østerdalsrapsodi",
-      "slug": "sterdalsrapsodi",
-      "composer": "Johannes Hanssen"
     }
   ],
   "metadata": {
-    "total_pieces": 1570,
-    "matched_with_repertoire": 814,
-    "match_rate_percent": 51.8,
+    "total_pieces": 1526,
+    "matched_with_repertoire": 675,
+    "match_rate_percent": 44.2,
     "band_type": "wind",
-    "generated_at": "2025-11-25T14:48:38+00:00"
+    "generated_at": "2026-03-24T10:16:01.712436+00:00"
   }
 }

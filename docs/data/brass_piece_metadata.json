@@ -1,16 +1,6 @@
 {
   "pieces": [
     {
-      "title": "*****, Concerto n°10 for Brass Band, Percussion & Onde Martenot",
-      "slug": "concerto-n10-for-brass-band-percussion-onde-martenot",
-      "composer": "Ludovic Neurohr"
-    },
-    {
-      "title": "... as a Glow",
-      "slug": "as-a-glow",
-      "composer": "Ludovic Neurohr"
-    },
-    {
       "title": "31342 Feet",
       "slug": "31342-feet",
       "composer": "Ludovic Neurohr"
@@ -203,6 +193,11 @@
       "title": "Arkansas",
       "slug": "arkansas",
       "composer": "Jacob de Haan"
+    },
+    {
+      "title": "... as a Glow",
+      "slug": "as-a-glow",
+      "composer": "Ludovic Neurohr"
     },
     {
       "title": "As If A Voice Were In Them...",
@@ -407,6 +402,11 @@
       "length": 20.0
     },
     {
+      "title": "*****, Concerto n°10 for Brass Band, Percussion & Onde Martenot",
+      "slug": "concerto-n10-for-brass-band-percussion-onde-martenot",
+      "composer": "Ludovic Neurohr"
+    },
+    {
       "title": "Connotations",
       "slug": "connotations",
       "composer": "Edward Gregson"
@@ -476,11 +476,6 @@
       "composer": "Peter Graham"
     },
     {
-      "title": "Diversions - Variations on a Swiss Folk Song",
-      "slug": "diversions-variations-on-a-swiss-folk-song",
-      "composer": "Philip Sparke"
-    },
-    {
       "title": "Diversions for Brass Band",
       "slug": "diversions-for-brass-band",
       "composer": "Derek Bourgeois"
@@ -489,6 +484,11 @@
       "title": "Diversions on a Bass Theme",
       "slug": "diversions-on-a-bass-theme",
       "composer": "George Lloyd"
+    },
+    {
+      "title": "Diversions - Variations on a Swiss Folk Song",
+      "slug": "diversions-variations-on-a-swiss-folk-song",
+      "composer": "Philip Sparke"
     },
     {
       "title": "Dove Descending",
@@ -1207,18 +1207,6 @@
       "length": 7.25
     },
     {
-      "title": "Partita",
-      "slug": "partita",
-      "composer": "Philip Sparke",
-      "length": 7.25
-    },
-    {
-      "title": "Partita",
-      "slug": "partita",
-      "composer": "Wilfred Heaton",
-      "length": 7.25
-    },
-    {
       "title": "Partita for Band - Postcards from Home",
       "slug": "partita-for-band-postcards-from-home",
       "composer": "Philip Wilby"
@@ -1490,11 +1478,6 @@
       "grade": 6
     },
     {
-      "title": "Sinfonietta - The Dawning",
-      "slug": "sinfonietta-the-dawning",
-      "composer": "Peter Graham"
-    },
-    {
       "title": "Sinfonietta for Brass Band",
       "slug": "sinfonietta-for-brass-band",
       "composer": "Gordon Langford"
@@ -1522,6 +1505,11 @@
       "slug": "sinfonietta-no-5",
       "composer": "Etienne Crausaz",
       "length": 14.33
+    },
+    {
+      "title": "Sinfonietta - The Dawning",
+      "slug": "sinfonietta-the-dawning",
+      "composer": "Peter Graham"
     },
     {
       "title": "Sinfonietta: The Town Beneath the Cliff",
@@ -2025,11 +2013,6 @@
       "length": 13.83
     },
     {
-      "title": "Variations on `Laudate Dominum´",
-      "slug": "variations-on-laudate-dominum",
-      "composer": "Edward Gregson"
-    },
-    {
       "title": "Variations on a Chord",
       "slug": "variations-on-a-chord",
       "composer": "Jan de Haan"
@@ -2043,6 +2026,11 @@
       "title": "Variations on an Enigma",
       "slug": "variations-on-an-enigma",
       "composer": "Philip Sparke"
+    },
+    {
+      "title": "Variations on `Laudate Dominum´",
+      "slug": "variations-on-laudate-dominum",
+      "composer": "Edward Gregson"
     },
     {
       "title": "Variations on Maccabeus",
@@ -2149,10 +2137,10 @@
     }
   ],
   "metadata": {
-    "total_pieces": 401,
-    "matched_with_repertoire": 86,
-    "match_rate_percent": 21.4,
+    "total_pieces": 399,
+    "matched_with_repertoire": 59,
+    "match_rate_percent": 14.8,
     "band_type": "brass",
-    "generated_at": "2025-11-25T14:49:08+00:00"
+    "generated_at": "2026-03-24T10:16:01.720609+00:00"
   }
 }
