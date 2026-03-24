@@ -2,43 +2,13 @@
   "prizes": [
     {
       "year": 2002,
-      "division": "Elite",
-      "entries": [
-        {
-          "prize_type": "soloist",
-          "instrument": "Pauke",
-          "orchestra": "Vestre Aker Musikkorps",
-          "korpsnr": 8
-        },
-        {
-          "prize_type": "group",
-          "instrument": "Treblås",
-          "orchestra": "Sarpsborg Janitsjarkorps",
-          "korpsnr": 9
-        },
-        {
-          "prize_type": "soloist",
-          "instrument": "Pauke",
-          "orchestra": "Vestre Aker Musikkorps",
-          "korpsnr": 8
-        },
-        {
-          "prize_type": "group",
-          "instrument": "Treblås",
-          "orchestra": "Sarpsborg Janitsjarkorps",
-          "korpsnr": 9
-        }
-      ]
-    },
-    {
-      "year": 2002,
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Solofløyte",
-          "orchestra": "Drammen Konsertorkester",
-          "korpsnr": 16
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Lørenskog Musikkorps",
+          "korpsnr": 20
         },
         {
           "prize_type": "group",
@@ -53,10 +23,10 @@
           "korpsnr": 16
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Lørenskog Musikkorps",
-          "korpsnr": 20
+          "prize_type": "soloist",
+          "instrument": "Solofløyte",
+          "orchestra": "Drammen Konsertorkester",
+          "korpsnr": 16
         }
       ]
     },
@@ -65,8 +35,8 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo/Engelsk horn",
+          "prize_type": "group",
+          "instrument": "Slagverk",
           "orchestra": "Alvøens Musikkforening",
           "korpsnr": 22
         },
@@ -83,8 +53,8 @@
           "korpsnr": 22
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
+          "prize_type": "soloist",
+          "instrument": "Obo/Engelsk horn",
           "orchestra": "Alvøens Musikkforening",
           "korpsnr": 22
         }
@@ -95,8 +65,8 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Piccolofløyte",
+          "prize_type": "group",
+          "instrument": "Trompet",
           "orchestra": "Åsane Musikklag",
           "korpsnr": 44
         },
@@ -113,8 +83,8 @@
           "korpsnr": 44
         },
         {
-          "prize_type": "group",
-          "instrument": "Trompet",
+          "prize_type": "soloist",
+          "instrument": "Piccolofløyte",
           "orchestra": "Åsane Musikklag",
           "korpsnr": 44
         }
@@ -125,10 +95,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Oslo Janitsjarkorps",
-          "korpsnr": 126
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Brumunddal Musikkorps",
+          "korpsnr": 102
         },
         {
           "prize_type": "group",
@@ -143,40 +113,40 @@
           "korpsnr": 126
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Brumunddal Musikkorps",
-          "korpsnr": 102
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Oslo Janitsjarkorps",
+          "korpsnr": 126
         }
       ]
     },
     {
-      "year": 2003,
+      "year": 2002,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Engelsk horn",
+          "prize_type": "group",
+          "instrument": "Treblås",
           "orchestra": "Sarpsborg Janitsjarkorps",
           "korpsnr": 9
         },
         {
           "prize_type": "group",
-          "instrument": "Trombone",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
-        },
-        {
-          "prize_type": "soloist",
-          "instrument": "Engelsk horn",
+          "instrument": "Treblås",
           "orchestra": "Sarpsborg Janitsjarkorps",
           "korpsnr": 9
         },
         {
-          "prize_type": "group",
-          "instrument": "Trombone",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "prize_type": "soloist",
+          "instrument": "Pauke",
+          "orchestra": "Vestre Aker Musikkorps",
+          "korpsnr": 8
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Pauke",
+          "orchestra": "Vestre Aker Musikkorps",
+          "korpsnr": 8
         }
       ]
     },
@@ -185,10 +155,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Euphonium",
-          "orchestra": "Sandvikens Ungdomskorps",
-          "korpsnr": 3
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Byneset Musikkorps",
+          "korpsnr": 14
         },
         {
           "prize_type": "group",
@@ -203,10 +173,10 @@
           "korpsnr": 3
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Byneset Musikkorps",
-          "korpsnr": 14
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Sandvikens Ungdomskorps",
+          "korpsnr": 3
         }
       ]
     },
@@ -215,10 +185,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Lisleby Musikkorps",
-          "korpsnr": 18
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Sande Musikkorps",
+          "korpsnr": 30
         },
         {
           "prize_type": "group",
@@ -233,10 +203,10 @@
           "korpsnr": 18
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Sande Musikkorps",
-          "korpsnr": 30
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Lisleby Musikkorps",
+          "korpsnr": 18
         }
       ]
     },
@@ -245,10 +215,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Strusshamn Musikkforening",
-          "korpsnr": 19
+          "prize_type": "group",
+          "instrument": "Fløyte/Piccolo",
+          "orchestra": "Molde Janitsjar",
+          "korpsnr": 116
         },
         {
           "prize_type": "group",
@@ -263,10 +233,10 @@
           "korpsnr": 19
         },
         {
-          "prize_type": "group",
-          "instrument": "Fløyte/Piccolo",
-          "orchestra": "Molde Janitsjar",
-          "korpsnr": 116
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Strusshamn Musikkforening",
+          "korpsnr": 19
         }
       ]
     },
@@ -275,10 +245,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Trompet",
-          "orchestra": "Haugesund Ungdomskorps",
-          "korpsnr": 137
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Drøbak Musikkorps",
+          "korpsnr": 121
         },
         {
           "prize_type": "group",
@@ -293,40 +263,40 @@
           "korpsnr": 137
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Drøbak Musikkorps",
-          "korpsnr": 121
+          "prize_type": "soloist",
+          "instrument": "Trompet",
+          "orchestra": "Haugesund Ungdomskorps",
+          "korpsnr": 137
         }
       ]
     },
     {
-      "year": 2004,
+      "year": 2003,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Horn",
-          "orchestra": "Nittedal og Hakadal Janitsjar",
-          "korpsnr": 10
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         },
         {
           "prize_type": "group",
-          "instrument": "Slagverk",
+          "instrument": "Trombone",
           "orchestra": "Lillestrøm Musikkorps",
           "korpsnr": 4
         },
         {
           "prize_type": "soloist",
-          "instrument": "Horn",
-          "orchestra": "Nittedal og Hakadal Janitsjar",
-          "korpsnr": 10
+          "instrument": "Engelsk horn",
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "korpsnr": 9
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "prize_type": "soloist",
+          "instrument": "Engelsk horn",
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "korpsnr": 9
         }
       ]
     },
@@ -335,10 +305,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Kornett",
-          "orchestra": "Sagene Janitsjarkorps",
-          "korpsnr": 35
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Opus 82",
+          "korpsnr": 11
         },
         {
           "prize_type": "group",
@@ -353,10 +323,10 @@
           "korpsnr": 35
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Opus 82",
-          "korpsnr": 11
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Sagene Janitsjarkorps",
+          "korpsnr": 35
         }
       ]
     },
@@ -365,10 +335,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fløyte/Piccolo",
-          "orchestra": "Mo Hornmusikk",
-          "korpsnr": 13
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Sande Musikkorps",
+          "korpsnr": 30
         },
         {
           "prize_type": "group",
@@ -383,10 +353,10 @@
           "korpsnr": 13
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Sande Musikkorps",
-          "korpsnr": 30
+          "prize_type": "soloist",
+          "instrument": "Fløyte/Piccolo",
+          "orchestra": "Mo Hornmusikk",
+          "korpsnr": 13
         }
       ]
     },
@@ -395,10 +365,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fløyte",
-          "orchestra": "Hovin Musikkorps",
-          "korpsnr": 42
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Ranheim Musikkforening",
+          "korpsnr": 36
         },
         {
           "prize_type": "group",
@@ -413,10 +383,10 @@
           "korpsnr": 42
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Ranheim Musikkforening",
-          "korpsnr": 36
+          "prize_type": "soloist",
+          "instrument": "Fløyte",
+          "orchestra": "Hovin Musikkorps",
+          "korpsnr": 42
         }
       ]
     },
@@ -425,10 +395,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Euphonium",
-          "orchestra": "OK Janitsjar",
-          "korpsnr": 139
+          "prize_type": "group",
+          "instrument": "Fløyte",
+          "orchestra": "Torp Musikkorps",
+          "korpsnr": 181
         },
         {
           "prize_type": "group",
@@ -443,40 +413,40 @@
           "korpsnr": 139
         },
         {
-          "prize_type": "group",
-          "instrument": "Fløyte",
-          "orchestra": "Torp Musikkorps",
-          "korpsnr": 181
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "OK Janitsjar",
+          "korpsnr": 139
         }
       ]
     },
     {
-      "year": 2005,
+      "year": 2004,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Tenorsaksofon",
-          "orchestra": "Dragefjellets Musikkorps Bergen",
-          "korpsnr": 5
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         },
         {
           "prize_type": "group",
-          "instrument": "Saksofon",
-          "orchestra": "Sarpsborg Janitsjarkorps",
-          "korpsnr": 9
+          "instrument": "Slagverk",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         },
         {
           "prize_type": "soloist",
-          "instrument": "Tenorsaksofon",
-          "orchestra": "Dragefjellets Musikkorps Bergen",
-          "korpsnr": 5
+          "instrument": "Horn",
+          "orchestra": "Nittedal og Hakadal Janitsjar",
+          "korpsnr": 10
         },
         {
-          "prize_type": "group",
-          "instrument": "Saksofon",
-          "orchestra": "Sarpsborg Janitsjarkorps",
-          "korpsnr": 9
+          "prize_type": "soloist",
+          "instrument": "Horn",
+          "orchestra": "Nittedal og Hakadal Janitsjar",
+          "korpsnr": 10
         }
       ]
     },
@@ -485,10 +455,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Sande Musikkorps",
-          "korpsnr": 30
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Skjold Nesttun Janitsjar",
+          "korpsnr": 12
         },
         {
           "prize_type": "group",
@@ -503,10 +473,10 @@
           "korpsnr": 30
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Skjold Nesttun Janitsjar",
-          "korpsnr": 12
+          "prize_type": "soloist",
+          "instrument": "Obo",
+          "orchestra": "Sande Musikkorps",
+          "korpsnr": 30
         }
       ]
     },
@@ -515,10 +485,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Klarinett",
-          "orchestra": "Lungegaardens Musikkorps",
-          "korpsnr": 38
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
+          "korpsnr": 41
         },
         {
           "prize_type": "group",
@@ -533,10 +503,10 @@
           "korpsnr": 38
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
-          "korpsnr": 41
+          "prize_type": "soloist",
+          "instrument": "Klarinett",
+          "orchestra": "Lungegaardens Musikkorps",
+          "korpsnr": 38
         }
       ]
     },
@@ -545,10 +515,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Flygelhorn",
-          "orchestra": "Fåberg Musikkforening",
-          "korpsnr": 39
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Ranheim Musikkforening",
+          "korpsnr": 36
         },
         {
           "prize_type": "group",
@@ -563,10 +533,10 @@
           "korpsnr": 39
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Ranheim Musikkforening",
-          "korpsnr": 36
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Fåberg Musikkforening",
+          "korpsnr": 39
         }
       ]
     },
@@ -575,10 +545,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fløyte",
-          "orchestra": "Skedsmo Janitsjarorkester",
-          "korpsnr": 47
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Oslo Postorkester",
+          "korpsnr": 49
         },
         {
           "prize_type": "group",
@@ -593,40 +563,40 @@
           "korpsnr": 47
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Oslo Postorkester",
-          "korpsnr": 49
+          "prize_type": "soloist",
+          "instrument": "Fløyte",
+          "orchestra": "Skedsmo Janitsjarorkester",
+          "korpsnr": 47
         }
       ]
     },
     {
-      "year": 2006,
+      "year": 2005,
       "division": "Elite",
       "entries": [
         {
+          "prize_type": "group",
+          "instrument": "Saksofon",
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "korpsnr": 9
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Saksofon",
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "korpsnr": 9
+        },
+        {
           "prize_type": "soloist",
-          "instrument": "Trompet/kornett",
+          "instrument": "Tenorsaksofon",
           "orchestra": "Dragefjellets Musikkorps Bergen",
           "korpsnr": 5
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
-        },
-        {
           "prize_type": "soloist",
-          "instrument": "Trompet/kornett",
+          "instrument": "Tenorsaksofon",
           "orchestra": "Dragefjellets Musikkorps Bergen",
           "korpsnr": 5
-        },
-        {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
         }
       ]
     },
@@ -635,10 +605,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Tuba",
-          "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
-          "korpsnr": 41
+          "prize_type": "group",
+          "instrument": "Fløyte",
+          "orchestra": "Mo Hornmusikk",
+          "korpsnr": 13
         },
         {
           "prize_type": "group",
@@ -653,10 +623,10 @@
           "korpsnr": 41
         },
         {
-          "prize_type": "group",
-          "instrument": "Fløyte",
-          "orchestra": "Mo Hornmusikk",
-          "korpsnr": 13
+          "prize_type": "soloist",
+          "instrument": "Tuba",
+          "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
+          "korpsnr": 41
         }
       ]
     },
@@ -665,10 +635,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Euphonium",
-          "orchestra": "Romerike Konsertorkester",
-          "korpsnr": 168
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Sande Musikkorps",
+          "korpsnr": 30
         },
         {
           "prize_type": "group",
@@ -683,10 +653,10 @@
           "korpsnr": 168
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Sande Musikkorps",
-          "korpsnr": 30
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Romerike Konsertorkester",
+          "korpsnr": 168
         }
       ]
     },
@@ -695,10 +665,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Trompet",
-          "orchestra": "OK Janitsjar",
-          "korpsnr": 139
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Fåberg Musikkforening",
+          "korpsnr": 39
         },
         {
           "prize_type": "group",
@@ -713,10 +683,10 @@
           "korpsnr": 139
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Fåberg Musikkforening",
-          "korpsnr": 39
+          "prize_type": "soloist",
+          "instrument": "Trompet",
+          "orchestra": "OK Janitsjar",
+          "korpsnr": 139
         }
       ]
     },
@@ -725,10 +695,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fagott",
-          "orchestra": "Bodø Harmonimusikk",
-          "korpsnr": 56
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Holmlia Konsertorkester",
+          "korpsnr": 162
         },
         {
           "prize_type": "group",
@@ -743,38 +713,38 @@
           "korpsnr": 56
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Holmlia Konsertorkester",
-          "korpsnr": 162
+          "prize_type": "soloist",
+          "instrument": "Fagott",
+          "orchestra": "Bodø Harmonimusikk",
+          "korpsnr": 56
         }
       ]
     },
     {
-      "year": 2007,
+      "year": 2006,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Sarpsborg Janitsjarkorps",
-          "korpsnr": 9
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         },
         {
           "prize_type": "group",
-          "instrument": "Trompet",
+          "instrument": "Slagverk",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trompet/kornett",
           "orchestra": "Dragefjellets Musikkorps Bergen",
           "korpsnr": 5
         },
         {
           "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Sarpsborg Janitsjarkorps",
-          "korpsnr": 9
-        },
-        {
-          "prize_type": "group",
-          "instrument": "Trompet",
+          "instrument": "Trompet/kornett",
           "orchestra": "Dragefjellets Musikkorps Bergen",
           "korpsnr": 5
         }
@@ -785,10 +755,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Trompet",
-          "orchestra": "Borge Musikkorps",
-          "korpsnr": 23
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Sande Musikkorps",
+          "korpsnr": 30
         },
         {
           "prize_type": "group",
@@ -803,10 +773,10 @@
           "korpsnr": 23
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Sande Musikkorps",
-          "korpsnr": 30
+          "prize_type": "soloist",
+          "instrument": "Trompet",
+          "orchestra": "Borge Musikkorps",
+          "korpsnr": 23
         }
       ]
     },
@@ -815,10 +785,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Alvøens Musikkforening",
-          "korpsnr": 22
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Bjølsen Ungdomskorps",
+          "korpsnr": 34
         },
         {
           "prize_type": "group",
@@ -833,10 +803,10 @@
           "korpsnr": 22
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Bjølsen Ungdomskorps",
-          "korpsnr": 34
+          "prize_type": "soloist",
+          "instrument": "Obo",
+          "orchestra": "Alvøens Musikkforening",
+          "korpsnr": 22
         }
       ]
     },
@@ -845,10 +815,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Ådalsbruk Musikkforening",
-          "korpsnr": 26
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Førde Musikklag",
+          "korpsnr": 152
         },
         {
           "prize_type": "group",
@@ -863,10 +833,10 @@
           "korpsnr": 26
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Førde Musikklag",
-          "korpsnr": 152
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Ådalsbruk Musikkforening",
+          "korpsnr": 26
         }
       ]
     },
@@ -875,10 +845,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
-          "orchestra": "Molde Janitsjar",
-          "korpsnr": 116
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Skedsmo Janitsjarorkester",
+          "korpsnr": 47
         },
         {
           "prize_type": "group",
@@ -893,10 +863,10 @@
           "korpsnr": 116
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Skedsmo Janitsjarorkester",
-          "korpsnr": 47
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
+          "orchestra": "Molde Janitsjar",
+          "korpsnr": 116
         }
       ]
     },
@@ -905,10 +875,10 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Flygelhorn",
-          "orchestra": "Greåker Musikkorps",
-          "korpsnr": 6
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Haugesund Janitsjarorkester",
+          "korpsnr": 68
         },
         {
           "prize_type": "group",
@@ -923,40 +893,40 @@
           "korpsnr": 6
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Haugesund Janitsjarorkester",
-          "korpsnr": 68
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Greåker Musikkorps",
+          "korpsnr": 6
         }
       ]
     },
     {
-      "year": 2008,
+      "year": 2007,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "prize_type": "group",
+          "instrument": "Trompet",
+          "orchestra": "Dragefjellets Musikkorps Bergen",
+          "korpsnr": 5
         },
         {
           "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Musikkforeningen Nidarholm",
-          "korpsnr": 2
+          "instrument": "Trompet",
+          "orchestra": "Dragefjellets Musikkorps Bergen",
+          "korpsnr": 5
         },
         {
           "prize_type": "soloist",
-          "instrument": "Altsaksofon",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "instrument": "Obo",
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "korpsnr": 9
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Musikkforeningen Nidarholm",
-          "korpsnr": 2
+          "prize_type": "soloist",
+          "instrument": "Obo",
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "korpsnr": 9
         }
       ]
     },
@@ -965,10 +935,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fløyte",
-          "orchestra": "Sandefjord Musikkorps",
-          "korpsnr": 24
+          "prize_type": "group",
+          "instrument": "Grovmessing",
+          "orchestra": "Aalesunds Ungdomsmusikkorps",
+          "korpsnr": 27
         },
         {
           "prize_type": "group",
@@ -983,10 +953,10 @@
           "korpsnr": 24
         },
         {
-          "prize_type": "group",
-          "instrument": "Grovmessing",
-          "orchestra": "Aalesunds Ungdomsmusikkorps",
-          "korpsnr": 27
+          "prize_type": "soloist",
+          "instrument": "Fløyte",
+          "orchestra": "Sandefjord Musikkorps",
+          "korpsnr": 24
         }
       ]
     },
@@ -995,10 +965,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Bassklarinett",
-          "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
-          "korpsnr": 41
+          "prize_type": "group",
+          "instrument": "Fløyte",
+          "orchestra": "Alvøens Musikkforening",
+          "korpsnr": 22
         },
         {
           "prize_type": "group",
@@ -1013,10 +983,10 @@
           "korpsnr": 41
         },
         {
-          "prize_type": "group",
-          "instrument": "Fløyte",
-          "orchestra": "Alvøens Musikkforening",
-          "korpsnr": 22
+          "prize_type": "soloist",
+          "instrument": "Bassklarinett",
+          "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
+          "korpsnr": 41
         }
       ]
     },
@@ -1025,10 +995,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Piccolofløyte",
-          "orchestra": "Stavanger Musikkorps av 1919",
-          "korpsnr": 17
+          "prize_type": "group",
+          "instrument": "Euphonium/Tuba",
+          "orchestra": "Ranheim Musikkforening",
+          "korpsnr": 36
         },
         {
           "prize_type": "group",
@@ -1043,10 +1013,10 @@
           "korpsnr": 17
         },
         {
-          "prize_type": "group",
-          "instrument": "Euphonium/Tuba",
-          "orchestra": "Ranheim Musikkforening",
-          "korpsnr": 36
+          "prize_type": "soloist",
+          "instrument": "Piccolofløyte",
+          "orchestra": "Stavanger Musikkorps av 1919",
+          "korpsnr": 17
         }
       ]
     },
@@ -1055,10 +1025,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Solofløyte",
-          "orchestra": "Asker Musikkorps",
-          "korpsnr": 46
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Bodø Harmonimusikk",
+          "korpsnr": 56
         },
         {
           "prize_type": "group",
@@ -1073,10 +1043,10 @@
           "korpsnr": 46
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Bodø Harmonimusikk",
-          "korpsnr": 56
+          "prize_type": "soloist",
+          "instrument": "Solofløyte",
+          "orchestra": "Asker Musikkorps",
+          "korpsnr": 46
         }
       ]
     },
@@ -1085,8 +1055,8 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fløyte",
+          "prize_type": "group",
+          "instrument": "Horn",
           "orchestra": "Sandefjord Old Stars",
           "korpsnr": 142
         },
@@ -1103,40 +1073,40 @@
           "korpsnr": 142
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
+          "prize_type": "soloist",
+          "instrument": "Fløyte",
           "orchestra": "Sandefjord Old Stars",
           "korpsnr": 142
         }
       ]
     },
     {
-      "year": 2009,
+      "year": 2008,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Sarpsborg Janitsjarkorps",
-          "korpsnr": 9
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Musikkforeningen Nidarholm",
+          "korpsnr": 2
         },
         {
           "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Dragefjellets Musikkorps Bergen",
-          "korpsnr": 5
+          "instrument": "Slagverk",
+          "orchestra": "Musikkforeningen Nidarholm",
+          "korpsnr": 2
         },
         {
           "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Sarpsborg Janitsjarkorps",
-          "korpsnr": 9
+          "instrument": "Altsaksofon",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Dragefjellets Musikkorps Bergen",
-          "korpsnr": 5
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         }
       ]
     },
@@ -1145,10 +1115,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Flygelhorn",
-          "orchestra": "Kolbotn Konsertorkester",
-          "korpsnr": 15
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Drammen Konsertorkester",
+          "korpsnr": 16
         },
         {
           "prize_type": "group",
@@ -1163,10 +1133,10 @@
           "korpsnr": 15
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Drammen Konsertorkester",
-          "korpsnr": 16
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Kolbotn Konsertorkester",
+          "korpsnr": 15
         }
       ]
     },
@@ -1175,10 +1145,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Soloklarinett",
-          "orchestra": "Strusshamn Musikkforening",
-          "korpsnr": 19
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Alvøens Musikkforening",
+          "korpsnr": 22
         },
         {
           "prize_type": "group",
@@ -1193,10 +1163,10 @@
           "korpsnr": 19
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Alvøens Musikkforening",
-          "korpsnr": 22
+          "prize_type": "soloist",
+          "instrument": "Soloklarinett",
+          "orchestra": "Strusshamn Musikkforening",
+          "korpsnr": 19
         }
       ]
     },
@@ -1205,10 +1175,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Kornett",
-          "orchestra": "Greåker Musikkorps",
-          "korpsnr": 6
+          "prize_type": "group",
+          "instrument": "Saksofon og bassklarinett",
+          "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
+          "korpsnr": 41
         },
         {
           "prize_type": "group",
@@ -1223,10 +1193,10 @@
           "korpsnr": 6
         },
         {
-          "prize_type": "group",
-          "instrument": "Saksofon og bassklarinett",
-          "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
-          "korpsnr": 41
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Greåker Musikkorps",
+          "korpsnr": 6
         }
       ]
     },
@@ -1235,10 +1205,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
-          "orchestra": "Eina Musikkforening",
-          "korpsnr": 73
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Sandefjord Old Stars",
+          "korpsnr": 142
         },
         {
           "prize_type": "group",
@@ -1253,10 +1223,10 @@
           "korpsnr": 73
         },
         {
-          "prize_type": "group",
-          "instrument": "Trombone",
-          "orchestra": "Sandefjord Old Stars",
-          "korpsnr": 142
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
+          "orchestra": "Eina Musikkforening",
+          "korpsnr": 73
         }
       ]
     },
@@ -1265,8 +1235,8 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Soloklarinett",
+          "prize_type": "group",
+          "instrument": "Klarinett",
           "orchestra": "Christiania Blåseensemble",
           "korpsnr": 1
         },
@@ -1283,22 +1253,22 @@
           "korpsnr": 1
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
+          "prize_type": "soloist",
+          "instrument": "Soloklarinett",
           "orchestra": "Christiania Blåseensemble",
           "korpsnr": 1
         }
       ]
     },
     {
-      "year": 2010,
+      "year": 2009,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Musikkforeningen Nidarholm",
-          "korpsnr": 2
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Dragefjellets Musikkorps Bergen",
+          "korpsnr": 5
         },
         {
           "prize_type": "group",
@@ -1308,15 +1278,15 @@
         },
         {
           "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Musikkforeningen Nidarholm",
-          "korpsnr": 2
+          "instrument": "Obo",
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "korpsnr": 9
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Dragefjellets Musikkorps Bergen",
-          "korpsnr": 5
+          "prize_type": "soloist",
+          "instrument": "Obo",
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "korpsnr": 9
         }
       ]
     },
@@ -1325,10 +1295,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Piccolo",
-          "orchestra": "Mo Hornmusikk",
-          "korpsnr": 13
+          "prize_type": "group",
+          "instrument": "Trompet/Kornett",
+          "orchestra": "Sandefjord Musikkorps",
+          "korpsnr": 24
         },
         {
           "prize_type": "group",
@@ -1343,10 +1313,10 @@
           "korpsnr": 13
         },
         {
-          "prize_type": "group",
-          "instrument": "Trompet/Kornett",
-          "orchestra": "Sandefjord Musikkorps",
-          "korpsnr": 24
+          "prize_type": "soloist",
+          "instrument": "Piccolo",
+          "orchestra": "Mo Hornmusikk",
+          "korpsnr": 13
         }
       ]
     },
@@ -1355,10 +1325,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Solotrompet",
-          "orchestra": "Alvøens Musikkforening",
-          "korpsnr": 22
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Skedsmo Janitsjarorkester",
+          "korpsnr": 47
         },
         {
           "prize_type": "group",
@@ -1373,10 +1343,10 @@
           "korpsnr": 22
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Skedsmo Janitsjarorkester",
-          "korpsnr": 47
+          "prize_type": "soloist",
+          "instrument": "Solotrompet",
+          "orchestra": "Alvøens Musikkforening",
+          "korpsnr": 22
         }
       ]
     },
@@ -1385,8 +1355,8 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo",
+          "prize_type": "group",
+          "instrument": "Slagverk",
           "orchestra": "Ådalsbruk Musikkforening",
           "korpsnr": 26
         },
@@ -1403,8 +1373,8 @@
           "korpsnr": 26
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
+          "prize_type": "soloist",
+          "instrument": "Obo",
           "orchestra": "Ådalsbruk Musikkforening",
           "korpsnr": 26
         }
@@ -1415,10 +1385,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Fana Musikklag",
-          "korpsnr": 81
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Asker Musikkorps",
+          "korpsnr": 46
         },
         {
           "prize_type": "group",
@@ -1433,10 +1403,10 @@
           "korpsnr": 81
         },
         {
-          "prize_type": "group",
-          "instrument": "Trombone",
-          "orchestra": "Asker Musikkorps",
-          "korpsnr": 46
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Fana Musikklag",
+          "korpsnr": 81
         }
       ]
     },
@@ -1445,10 +1415,10 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Flygelhorn",
-          "orchestra": "Øvre Årdal Janitsjarkorps",
-          "korpsnr": 138
+          "prize_type": "group",
+          "instrument": "Waldhorn",
+          "orchestra": "Skatval Hornmusikklag",
+          "korpsnr": 86
         },
         {
           "prize_type": "group",
@@ -1463,40 +1433,40 @@
           "korpsnr": 138
         },
         {
-          "prize_type": "group",
-          "instrument": "Waldhorn",
-          "orchestra": "Skatval Hornmusikklag",
-          "korpsnr": 86
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Øvre Årdal Janitsjarkorps",
+          "korpsnr": 138
         }
       ]
     },
     {
-      "year": 2011,
+      "year": 2010,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Solohorn",
-          "orchestra": "Sarpsborg Janitsjarkorps",
-          "korpsnr": 9
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Dragefjellets Musikkorps Bergen",
+          "korpsnr": 5
         },
         {
           "prize_type": "group",
-          "instrument": "Saksofon",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "instrument": "Klarinett",
+          "orchestra": "Dragefjellets Musikkorps Bergen",
+          "korpsnr": 5
         },
         {
           "prize_type": "soloist",
-          "instrument": "Solohorn",
-          "orchestra": "Sarpsborg Janitsjarkorps",
-          "korpsnr": 9
+          "instrument": "Sopransaksofon",
+          "orchestra": "Musikkforeningen Nidarholm",
+          "korpsnr": 2
         },
         {
-          "prize_type": "group",
-          "instrument": "Saksofon",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Musikkforeningen Nidarholm",
+          "korpsnr": 2
         }
       ]
     },
@@ -1505,10 +1475,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Solofløyte",
-          "orchestra": "Mo Hornmusikk",
-          "korpsnr": 13
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Sande Musikkorps",
+          "korpsnr": 30
         },
         {
           "prize_type": "group",
@@ -1523,10 +1493,10 @@
           "korpsnr": 13
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Sande Musikkorps",
-          "korpsnr": 30
+          "prize_type": "soloist",
+          "instrument": "Solofløyte",
+          "orchestra": "Mo Hornmusikk",
+          "korpsnr": 13
         }
       ]
     },
@@ -1535,10 +1505,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Soloklarinett",
-          "orchestra": "Lungegaardens Musikkorps",
-          "korpsnr": 38
+          "prize_type": "group",
+          "instrument": "Trompet",
+          "orchestra": "Tønsberg Janitsjarkorps",
+          "korpsnr": 29
         },
         {
           "prize_type": "group",
@@ -1553,10 +1523,10 @@
           "korpsnr": 38
         },
         {
-          "prize_type": "group",
-          "instrument": "Trompet",
-          "orchestra": "Tønsberg Janitsjarkorps",
-          "korpsnr": 29
+          "prize_type": "soloist",
+          "instrument": "Soloklarinett",
+          "orchestra": "Lungegaardens Musikkorps",
+          "korpsnr": 38
         }
       ]
     },
@@ -1565,10 +1535,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Soloklarinett",
-          "orchestra": "Modum Janitsjar",
-          "korpsnr": 123
+          "prize_type": "group",
+          "instrument": "Trompet/Kornett",
+          "orchestra": "Fåberg Musikkforening",
+          "korpsnr": 39
         },
         {
           "prize_type": "group",
@@ -1583,10 +1553,10 @@
           "korpsnr": 123
         },
         {
-          "prize_type": "group",
-          "instrument": "Trompet/Kornett",
-          "orchestra": "Fåberg Musikkforening",
-          "korpsnr": 39
+          "prize_type": "soloist",
+          "instrument": "Soloklarinett",
+          "orchestra": "Modum Janitsjar",
+          "korpsnr": 123
         }
       ]
     },
@@ -1595,10 +1565,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
-          "orchestra": "Byåsen Musikkorps",
-          "korpsnr": 84
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Hov Musikkorps",
+          "korpsnr": 32
         },
         {
           "prize_type": "group",
@@ -1613,10 +1583,10 @@
           "korpsnr": 84
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Hov Musikkorps",
-          "korpsnr": 32
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
+          "orchestra": "Byåsen Musikkorps",
+          "korpsnr": 84
         }
       ]
     },
@@ -1625,10 +1595,10 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Xylofon",
-          "orchestra": "Hasund og Dimnøy Ungdomsmusikkorps",
-          "korpsnr": 113
+          "prize_type": "group",
+          "instrument": "Grovmessing (Trombone/Baryton/Tuba)",
+          "orchestra": "Musikklaget Kornetten",
+          "korpsnr": 55
         },
         {
           "prize_type": "group",
@@ -1643,10 +1613,10 @@
           "korpsnr": 113
         },
         {
-          "prize_type": "group",
-          "instrument": "Grovmessing (Trombone/Baryton/Tuba)",
-          "orchestra": "Musikklaget Kornetten",
-          "korpsnr": 55
+          "prize_type": "soloist",
+          "instrument": "Xylofon",
+          "orchestra": "Hasund og Dimnøy Ungdomsmusikkorps",
+          "korpsnr": 113
         }
       ]
     },
@@ -1655,10 +1625,10 @@
       "division": "6. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
-          "orchestra": "Musikklaget Brage",
-          "korpsnr": 71
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Søndre Nittedal Veterankorps",
+          "korpsnr": 109
         },
         {
           "prize_type": "group",
@@ -1673,40 +1643,40 @@
           "korpsnr": 71
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Søndre Nittedal Veterankorps",
-          "korpsnr": 109
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
+          "orchestra": "Musikklaget Brage",
+          "korpsnr": 71
         }
       ]
     },
     {
-      "year": 2012,
+      "year": 2011,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
-          "orchestra": "Sarpsborg Janitsjarkorps",
-          "korpsnr": 9
+          "prize_type": "group",
+          "instrument": "Saksofon",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         },
         {
           "prize_type": "group",
-          "instrument": "Slagverk",
+          "instrument": "Saksofon",
           "orchestra": "Lillestrøm Musikkorps",
           "korpsnr": 4
         },
         {
           "prize_type": "soloist",
-          "instrument": "Altsaksofon",
+          "instrument": "Solohorn",
           "orchestra": "Sarpsborg Janitsjarkorps",
           "korpsnr": 9
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "prize_type": "soloist",
+          "instrument": "Solohorn",
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "korpsnr": 9
         }
       ]
     },
@@ -1715,10 +1685,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Sandefjord Musikkorps",
-          "korpsnr": 24
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Sagene Janitsjarkorps",
+          "korpsnr": 35
         },
         {
           "prize_type": "group",
@@ -1733,10 +1703,10 @@
           "korpsnr": 24
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Sagene Janitsjarkorps",
-          "korpsnr": 35
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Sandefjord Musikkorps",
+          "korpsnr": 24
         }
       ]
     },
@@ -1745,10 +1715,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Byneset Musikkorps",
-          "korpsnr": 14
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Lungegaardens Musikkorps",
+          "korpsnr": 38
         },
         {
           "prize_type": "group",
@@ -1763,10 +1733,10 @@
           "korpsnr": 14
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Lungegaardens Musikkorps",
-          "korpsnr": 38
+          "prize_type": "soloist",
+          "instrument": "Obo",
+          "orchestra": "Byneset Musikkorps",
+          "korpsnr": 14
         }
       ]
     },
@@ -1775,10 +1745,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Engelsk horn",
-          "orchestra": "Asker og Bærum Ungdomskorps",
-          "korpsnr": 57
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Oslo Postorkester",
+          "korpsnr": 49
         },
         {
           "prize_type": "group",
@@ -1793,10 +1763,10 @@
           "korpsnr": 57
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Oslo Postorkester",
-          "korpsnr": 49
+          "prize_type": "soloist",
+          "instrument": "Engelsk horn",
+          "orchestra": "Asker og Bærum Ungdomskorps",
+          "korpsnr": 57
         }
       ]
     },
@@ -1805,8 +1775,8 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
+          "prize_type": "group",
+          "instrument": "Trombone",
           "orchestra": "Åsnes Hornmusikk",
           "korpsnr": 67
         },
@@ -1823,8 +1793,8 @@
           "korpsnr": 67
         },
         {
-          "prize_type": "group",
-          "instrument": "Trombone",
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
           "orchestra": "Åsnes Hornmusikk",
           "korpsnr": 67
         }
@@ -1835,10 +1805,10 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Skarptromme",
-          "orchestra": "Rælingen Musikklag",
-          "korpsnr": 89
+          "prize_type": "group",
+          "instrument": "Horn/Baryton",
+          "orchestra": "Sykkylven Janitsjarorkester",
+          "korpsnr": 65
         },
         {
           "prize_type": "group",
@@ -1853,10 +1823,10 @@
           "korpsnr": 89
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn/Baryton",
-          "orchestra": "Sykkylven Janitsjarorkester",
-          "korpsnr": 65
+          "prize_type": "soloist",
+          "instrument": "Skarptromme",
+          "orchestra": "Rælingen Musikklag",
+          "korpsnr": 89
         }
       ]
     },
@@ -1865,10 +1835,10 @@
       "division": "6. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Euphonium",
-          "orchestra": "Oppegård Janitsjar",
-          "korpsnr": 43
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Sofienberg Musikkorps",
+          "korpsnr": 83
         },
         {
           "prize_type": "group",
@@ -1883,38 +1853,38 @@
           "korpsnr": 43
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Sofienberg Musikkorps",
-          "korpsnr": 83
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Oppegård Janitsjar",
+          "korpsnr": 43
         }
       ]
     },
     {
-      "year": 2013,
+      "year": 2012,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Engelsk horn",
-          "orchestra": "Musikkforeningen Nidarholm",
-          "korpsnr": 2
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         },
         {
           "prize_type": "group",
           "instrument": "Slagverk",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
           "orchestra": "Sarpsborg Janitsjarkorps",
           "korpsnr": 9
         },
         {
           "prize_type": "soloist",
-          "instrument": "Engelsk horn",
-          "orchestra": "Musikkforeningen Nidarholm",
-          "korpsnr": 2
-        },
-        {
-          "prize_type": "group",
-          "instrument": "Slagverk",
+          "instrument": "Altsaksofon",
           "orchestra": "Sarpsborg Janitsjarkorps",
           "korpsnr": 9
         }
@@ -1925,10 +1895,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Skjold Nesttun Janitsjar",
-          "korpsnr": 12
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Alvøens Musikkforening",
+          "korpsnr": 22
         },
         {
           "prize_type": "group",
@@ -1943,10 +1913,10 @@
           "korpsnr": 12
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Alvøens Musikkforening",
-          "korpsnr": 22
+          "prize_type": "soloist",
+          "instrument": "Obo",
+          "orchestra": "Skjold Nesttun Janitsjar",
+          "korpsnr": 12
         }
       ]
     },
@@ -1955,10 +1925,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Engelsk horn",
-          "orchestra": "Stabekk Janitsjarorkester",
-          "korpsnr": 37
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Lisleby Musikkorps",
+          "korpsnr": 18
         },
         {
           "prize_type": "group",
@@ -1973,10 +1943,10 @@
           "korpsnr": 37
         },
         {
-          "prize_type": "group",
-          "instrument": "Tuba",
-          "orchestra": "Lisleby Musikkorps",
-          "korpsnr": 18
+          "prize_type": "soloist",
+          "instrument": "Engelsk horn",
+          "orchestra": "Stabekk Janitsjarorkester",
+          "korpsnr": 37
         }
       ]
     },
@@ -1985,10 +1955,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Gjøvik Bykorps",
-          "korpsnr": 33
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Ådalsbruk Musikkforening",
+          "korpsnr": 26
         },
         {
           "prize_type": "group",
@@ -2003,10 +1973,10 @@
           "korpsnr": 33
         },
         {
-          "prize_type": "group",
-          "instrument": "Trombone",
-          "orchestra": "Ådalsbruk Musikkforening",
-          "korpsnr": 26
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Gjøvik Bykorps",
+          "korpsnr": 33
         }
       ]
     },
@@ -2015,10 +1985,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Soloklarinett",
-          "orchestra": "Hov Musikkorps",
-          "korpsnr": 32
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Haugesund Janitsjarorkester",
+          "korpsnr": 68
         },
         {
           "prize_type": "group",
@@ -2033,10 +2003,10 @@
           "korpsnr": 32
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Haugesund Janitsjarorkester",
-          "korpsnr": 68
+          "prize_type": "soloist",
+          "instrument": "Soloklarinett",
+          "orchestra": "Hov Musikkorps",
+          "korpsnr": 32
         }
       ]
     },
@@ -2045,10 +2015,10 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Kornettsolist",
-          "orchestra": "Lillehammer Janitsjar",
-          "korpsnr": 117
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Molde Janitsjar",
+          "korpsnr": 116
         },
         {
           "prize_type": "group",
@@ -2063,10 +2033,10 @@
           "korpsnr": 117
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Molde Janitsjar",
-          "korpsnr": 116
+          "prize_type": "soloist",
+          "instrument": "Kornettsolist",
+          "orchestra": "Lillehammer Janitsjar",
+          "korpsnr": 117
         }
       ]
     },
@@ -2075,10 +2045,10 @@
       "division": "6. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Namsos Musikkorps",
-          "korpsnr": 93
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Hegra Hornmusikklag",
+          "korpsnr": 88
         },
         {
           "prize_type": "group",
@@ -2093,10 +2063,10 @@
           "korpsnr": 93
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Hegra Hornmusikklag",
-          "korpsnr": 88
+          "prize_type": "soloist",
+          "instrument": "Obo",
+          "orchestra": "Namsos Musikkorps",
+          "korpsnr": 93
         }
       ]
     },
@@ -2105,10 +2075,10 @@
       "division": "7. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Trombone",
-          "orchestra": "Glommasvingen Janitsjar",
-          "korpsnr": 92
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Nes Janitsjarkorps",
+          "korpsnr": 74
         },
         {
           "prize_type": "group",
@@ -2123,40 +2093,40 @@
           "korpsnr": 92
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Nes Janitsjarkorps",
-          "korpsnr": 74
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "Glommasvingen Janitsjar",
+          "korpsnr": 92
         }
       ]
     },
     {
-      "year": 2014,
+      "year": 2013,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "korpsnr": 9
         },
         {
           "prize_type": "group",
-          "instrument": "Saksofon",
-          "orchestra": "Christiania Blåseensemble",
-          "korpsnr": 1
+          "instrument": "Slagverk",
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "korpsnr": 9
         },
         {
           "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "instrument": "Engelsk horn",
+          "orchestra": "Musikkforeningen Nidarholm",
+          "korpsnr": 2
         },
         {
-          "prize_type": "group",
-          "instrument": "Saksofon",
-          "orchestra": "Christiania Blåseensemble",
-          "korpsnr": 1
+          "prize_type": "soloist",
+          "instrument": "Engelsk horn",
+          "orchestra": "Musikkforeningen Nidarholm",
+          "korpsnr": 2
         }
       ]
     },
@@ -2165,10 +2135,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo/Engelsk horn",
-          "orchestra": "Greåker Musikkorps",
-          "korpsnr": 6
+          "prize_type": "group",
+          "instrument": "Perkusjon",
+          "orchestra": "Opus 82",
+          "korpsnr": 11
         },
         {
           "prize_type": "group",
@@ -2183,10 +2153,10 @@
           "korpsnr": 6
         },
         {
-          "prize_type": "group",
-          "instrument": "Perkusjon",
-          "orchestra": "Opus 82",
-          "korpsnr": 11
+          "prize_type": "soloist",
+          "instrument": "Obo/Engelsk horn",
+          "orchestra": "Greåker Musikkorps",
+          "korpsnr": 6
         }
       ]
     },
@@ -2195,10 +2165,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Sinsen Konsertorkester",
-          "korpsnr": 21
+          "prize_type": "group",
+          "instrument": "Euphonium og tuba",
+          "orchestra": "Sande Musikkorps",
+          "korpsnr": 30
         },
         {
           "prize_type": "group",
@@ -2213,10 +2183,10 @@
           "korpsnr": 21
         },
         {
-          "prize_type": "group",
-          "instrument": "Euphonium og tuba",
-          "orchestra": "Sande Musikkorps",
-          "korpsnr": 30
+          "prize_type": "soloist",
+          "instrument": "Obo",
+          "orchestra": "Sinsen Konsertorkester",
+          "korpsnr": 21
         }
       ]
     },
@@ -2225,10 +2195,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fløyte",
-          "orchestra": "Aalesunds Ungdomsmusikkorps",
-          "korpsnr": 27
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Melhus Janitsjarkorps",
+          "korpsnr": 50
         },
         {
           "prize_type": "group",
@@ -2243,10 +2213,10 @@
           "korpsnr": 27
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Melhus Janitsjarkorps",
-          "korpsnr": 50
+          "prize_type": "soloist",
+          "instrument": "Fløyte",
+          "orchestra": "Aalesunds Ungdomsmusikkorps",
+          "korpsnr": 27
         }
       ]
     },
@@ -2255,10 +2225,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Saksofon",
-          "orchestra": "Musikklaget Brage",
-          "korpsnr": 71
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Skedsmo Janitsjarorkester",
+          "korpsnr": 47
         },
         {
           "prize_type": "group",
@@ -2273,10 +2243,10 @@
           "korpsnr": 71
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Skedsmo Janitsjarorkester",
-          "korpsnr": 47
+          "prize_type": "soloist",
+          "instrument": "Saksofon",
+          "orchestra": "Musikklaget Brage",
+          "korpsnr": 71
         }
       ]
     },
@@ -2285,10 +2255,10 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Saksofon",
-          "orchestra": "Malvik Musikkorps",
-          "korpsnr": 66
+          "prize_type": "group",
+          "instrument": "Brass",
+          "orchestra": "Prosjekt MMXIX",
+          "korpsnr": 61
         },
         {
           "prize_type": "group",
@@ -2303,10 +2273,10 @@
           "korpsnr": 66
         },
         {
-          "prize_type": "group",
-          "instrument": "Brass",
-          "orchestra": "Prosjekt MMXIX",
-          "korpsnr": 61
+          "prize_type": "soloist",
+          "instrument": "Saksofon",
+          "orchestra": "Malvik Musikkorps",
+          "korpsnr": 66
         }
       ]
     },
@@ -2315,10 +2285,10 @@
       "division": "6. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fløyte",
-          "orchestra": "Nannestad Janitsjarkorps",
-          "korpsnr": 94
+          "prize_type": "group",
+          "instrument": "Messing",
+          "orchestra": "Moelv Musikkforening",
+          "korpsnr": 87
         },
         {
           "prize_type": "group",
@@ -2333,10 +2303,10 @@
           "korpsnr": 94
         },
         {
-          "prize_type": "group",
-          "instrument": "Messing",
-          "orchestra": "Moelv Musikkforening",
-          "korpsnr": 87
+          "prize_type": "soloist",
+          "instrument": "Fløyte",
+          "orchestra": "Nannestad Janitsjarkorps",
+          "korpsnr": 94
         }
       ]
     },
@@ -2345,10 +2315,10 @@
       "division": "7. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Engelsk horn",
-          "orchestra": "Namsos Musikkorps",
-          "korpsnr": 93
+          "prize_type": "group",
+          "instrument": "Trompet/Kornett",
+          "orchestra": "Glomfjord Hornmusikkforening",
+          "korpsnr": 119
         },
         {
           "prize_type": "group",
@@ -2363,22 +2333,22 @@
           "korpsnr": 93
         },
         {
-          "prize_type": "group",
-          "instrument": "Trompet/Kornett",
-          "orchestra": "Glomfjord Hornmusikkforening",
-          "korpsnr": 119
+          "prize_type": "soloist",
+          "instrument": "Engelsk horn",
+          "orchestra": "Namsos Musikkorps",
+          "korpsnr": 93
         }
       ]
     },
     {
-      "year": 2015,
+      "year": 2014,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fløyte",
-          "orchestra": "Musikkforeningen Nidarholm",
-          "korpsnr": 2
+          "prize_type": "group",
+          "instrument": "Saksofon",
+          "orchestra": "Christiania Blåseensemble",
+          "korpsnr": 1
         },
         {
           "prize_type": "group",
@@ -2388,15 +2358,15 @@
         },
         {
           "prize_type": "soloist",
-          "instrument": "Fløyte",
-          "orchestra": "Musikkforeningen Nidarholm",
-          "korpsnr": 2
+          "instrument": "Sopransaksofon",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         },
         {
-          "prize_type": "group",
-          "instrument": "Saksofon",
-          "orchestra": "Christiania Blåseensemble",
-          "korpsnr": 1
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         }
       ]
     },
@@ -2405,10 +2375,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Crotales",
-          "orchestra": "Stavanger Musikkorps av 1919",
-          "korpsnr": 17
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Opus 82",
+          "korpsnr": 11
         },
         {
           "prize_type": "group",
@@ -2423,10 +2393,10 @@
           "korpsnr": 17
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Opus 82",
-          "korpsnr": 11
+          "prize_type": "soloist",
+          "instrument": "Crotales",
+          "orchestra": "Stavanger Musikkorps av 1919",
+          "korpsnr": 17
         }
       ]
     },
@@ -2435,10 +2405,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Engelsk horn",
-          "orchestra": "Sande Musikkorps",
-          "korpsnr": 30
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Vestsidens Musikkorps",
+          "korpsnr": 25
         },
         {
           "prize_type": "group",
@@ -2453,10 +2423,10 @@
           "korpsnr": 30
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Vestsidens Musikkorps",
-          "korpsnr": 25
+          "prize_type": "soloist",
+          "instrument": "Engelsk horn",
+          "orchestra": "Sande Musikkorps",
+          "korpsnr": 30
         }
       ]
     },
@@ -2465,10 +2435,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Britt Hilde Våge, dirigent",
-          "orchestra": "Arendal Byorkester",
-          "korpsnr": 40
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Asker Musikkorps",
+          "korpsnr": 46
         },
         {
           "prize_type": "group",
@@ -2483,10 +2453,10 @@
           "korpsnr": 40
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Asker Musikkorps",
-          "korpsnr": 46
+          "prize_type": "soloist",
+          "instrument": "Britt Hilde Våge, dirigent",
+          "orchestra": "Arendal Byorkester",
+          "korpsnr": 40
         }
       ]
     },
@@ -2495,10 +2465,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Trompet",
-          "orchestra": "Asker og Bærum Ungdomskorps",
-          "korpsnr": 57
+          "prize_type": "group",
+          "instrument": "Trompeter/Trombone",
+          "orchestra": "Prosjekt MMXIX",
+          "korpsnr": 61
         },
         {
           "prize_type": "group",
@@ -2513,10 +2483,10 @@
           "korpsnr": 57
         },
         {
-          "prize_type": "group",
-          "instrument": "Trompeter/Trombone",
-          "orchestra": "Prosjekt MMXIX",
-          "korpsnr": 61
+          "prize_type": "soloist",
+          "instrument": "Trompet",
+          "orchestra": "Asker og Bærum Ungdomskorps",
+          "korpsnr": 57
         }
       ]
     },
@@ -2525,10 +2495,10 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Klarinett",
-          "orchestra": "Eina Musikkforening",
-          "korpsnr": 73
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Nes Janitsjarkorps",
+          "korpsnr": 74
         },
         {
           "prize_type": "group",
@@ -2543,10 +2513,10 @@
           "korpsnr": 73
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Nes Janitsjarkorps",
-          "korpsnr": 74
+          "prize_type": "soloist",
+          "instrument": "Klarinett",
+          "orchestra": "Eina Musikkforening",
+          "korpsnr": 73
         }
       ]
     },
@@ -2555,10 +2525,10 @@
       "division": "6. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Trombone",
-          "orchestra": "Nannestad Janitsjarkorps",
-          "korpsnr": 94
+          "prize_type": "group",
+          "instrument": "Klarinett og bassklarinett",
+          "orchestra": "Moelv Musikkforening",
+          "korpsnr": 87
         },
         {
           "prize_type": "group",
@@ -2573,10 +2543,10 @@
           "korpsnr": 94
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett og bassklarinett",
-          "orchestra": "Moelv Musikkforening",
-          "korpsnr": 87
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "Nannestad Janitsjarkorps",
+          "korpsnr": 94
         }
       ]
     },
@@ -2585,10 +2555,10 @@
       "division": "7. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Delt mellom saksofonister",
-          "orchestra": "Østerdølenes Musikkorps Oslo",
-          "korpsnr": 104
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Eidsvoll Janitsjarkorps",
+          "korpsnr": 101
         },
         {
           "prize_type": "group",
@@ -2603,40 +2573,40 @@
           "korpsnr": 104
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Eidsvoll Janitsjarkorps",
-          "korpsnr": 101
+          "prize_type": "soloist",
+          "instrument": "Delt mellom saksofonister",
+          "orchestra": "Østerdølenes Musikkorps Oslo",
+          "korpsnr": 104
         }
       ]
     },
     {
-      "year": 2016,
+      "year": 2015,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Greåker Musikkorps",
-          "korpsnr": 6
+          "prize_type": "group",
+          "instrument": "Saksofon",
+          "orchestra": "Christiania Blåseensemble",
+          "korpsnr": 1
         },
         {
           "prize_type": "group",
-          "instrument": "Fagott",
-          "orchestra": "Dragefjellets Musikkorps Bergen",
-          "korpsnr": 5
+          "instrument": "Saksofon",
+          "orchestra": "Christiania Blåseensemble",
+          "korpsnr": 1
         },
         {
           "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Greåker Musikkorps",
-          "korpsnr": 6
+          "instrument": "Fløyte",
+          "orchestra": "Musikkforeningen Nidarholm",
+          "korpsnr": 2
         },
         {
-          "prize_type": "group",
-          "instrument": "Fagott",
-          "orchestra": "Dragefjellets Musikkorps Bergen",
-          "korpsnr": 5
+          "prize_type": "soloist",
+          "instrument": "Fløyte",
+          "orchestra": "Musikkforeningen Nidarholm",
+          "korpsnr": 2
         }
       ]
     },
@@ -2645,8 +2615,8 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Alt/Sopransaksofon",
+          "prize_type": "group",
+          "instrument": "Saksofon",
           "orchestra": "Mo Hornmusikk",
           "korpsnr": 13
         },
@@ -2663,8 +2633,8 @@
           "korpsnr": 13
         },
         {
-          "prize_type": "group",
-          "instrument": "Saksofon",
+          "prize_type": "soloist",
+          "instrument": "Alt/Sopransaksofon",
           "orchestra": "Mo Hornmusikk",
           "korpsnr": 13
         }
@@ -2675,10 +2645,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Tønsberg Janitsjarkorps",
-          "korpsnr": 29
+          "prize_type": "group",
+          "instrument": "Saksofon",
+          "orchestra": "Hov Musikkorps",
+          "korpsnr": 32
         },
         {
           "prize_type": "group",
@@ -2693,10 +2663,10 @@
           "korpsnr": 29
         },
         {
-          "prize_type": "group",
-          "instrument": "Saksofon",
-          "orchestra": "Hov Musikkorps",
-          "korpsnr": 32
+          "prize_type": "soloist",
+          "instrument": "Obo",
+          "orchestra": "Tønsberg Janitsjarkorps",
+          "korpsnr": 29
         }
       ]
     },
@@ -2705,10 +2675,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo/Engelsk horn",
-          "orchestra": "Asker og Bærum Ungdomskorps",
-          "korpsnr": 57
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Os Musikkforening",
+          "korpsnr": 45
         },
         {
           "prize_type": "group",
@@ -2723,10 +2693,10 @@
           "korpsnr": 57
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Os Musikkforening",
-          "korpsnr": 45
+          "prize_type": "soloist",
+          "instrument": "Obo/Engelsk horn",
+          "orchestra": "Asker og Bærum Ungdomskorps",
+          "korpsnr": 57
         }
       ]
     },
@@ -2735,10 +2705,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Kornett",
-          "orchestra": "Tresfjord Janitsjar",
-          "korpsnr": 53
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Østensjø Janitsjar",
+          "korpsnr": 52
         },
         {
           "prize_type": "group",
@@ -2753,10 +2723,10 @@
           "korpsnr": 53
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Østensjø Janitsjar",
-          "korpsnr": 52
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Tresfjord Janitsjar",
+          "korpsnr": 53
         }
       ]
     },
@@ -2765,10 +2735,10 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Klarinett",
-          "orchestra": "Musikklaget Ulf",
-          "korpsnr": 70
+          "prize_type": "group",
+          "instrument": "Grovmessing",
+          "orchestra": "Moss og omegn Janitsjar",
+          "korpsnr": 69
         },
         {
           "prize_type": "group",
@@ -2783,10 +2753,10 @@
           "korpsnr": 70
         },
         {
-          "prize_type": "group",
-          "instrument": "Grovmessing",
-          "orchestra": "Moss og omegn Janitsjar",
-          "korpsnr": 69
+          "prize_type": "soloist",
+          "instrument": "Klarinett",
+          "orchestra": "Musikklaget Ulf",
+          "korpsnr": 70
         }
       ]
     },
@@ -2795,10 +2765,10 @@
       "division": "6. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Obo",
-          "orchestra": "Namsos Musikkorps",
-          "korpsnr": 93
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Fet Janitsjar",
+          "korpsnr": 90
         },
         {
           "prize_type": "group",
@@ -2813,10 +2783,10 @@
           "korpsnr": 93
         },
         {
-          "prize_type": "group",
-          "instrument": "Trombone",
-          "orchestra": "Fet Janitsjar",
-          "korpsnr": 90
+          "prize_type": "soloist",
+          "instrument": "Obo",
+          "orchestra": "Namsos Musikkorps",
+          "korpsnr": 93
         }
       ]
     },
@@ -2825,10 +2795,10 @@
       "division": "7. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
-          "orchestra": "Åndalsnes Musikkforening",
-          "korpsnr": 114
+          "prize_type": "group",
+          "instrument": "Tromme",
+          "orchestra": "Hamar Musikkorps",
+          "korpsnr": 156
         },
         {
           "prize_type": "group",
@@ -2843,40 +2813,40 @@
           "korpsnr": 114
         },
         {
-          "prize_type": "group",
-          "instrument": "Tromme",
-          "orchestra": "Hamar Musikkorps",
-          "korpsnr": 156
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
+          "orchestra": "Åndalsnes Musikkforening",
+          "korpsnr": 114
         }
       ]
     },
     {
-      "year": 2017,
+      "year": 2016,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Mo Hornmusikk",
-          "korpsnr": 13
+          "prize_type": "group",
+          "instrument": "Fagott",
+          "orchestra": "Dragefjellets Musikkorps Bergen",
+          "korpsnr": 5
         },
         {
           "prize_type": "group",
-          "instrument": "Trompet",
+          "instrument": "Fagott",
           "orchestra": "Dragefjellets Musikkorps Bergen",
           "korpsnr": 5
         },
         {
           "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Mo Hornmusikk",
-          "korpsnr": 13
+          "instrument": "Obo",
+          "orchestra": "Greåker Musikkorps",
+          "korpsnr": 6
         },
         {
-          "prize_type": "group",
-          "instrument": "Trompet",
-          "orchestra": "Dragefjellets Musikkorps Bergen",
-          "korpsnr": 5
+          "prize_type": "soloist",
+          "instrument": "Obo",
+          "orchestra": "Greåker Musikkorps",
+          "korpsnr": 6
         }
       ]
     },
@@ -2885,10 +2855,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Strusshamn Musikkforening",
-          "korpsnr": 19
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Drammen Konsertorkester",
+          "korpsnr": 16
         },
         {
           "prize_type": "group",
@@ -2903,10 +2873,10 @@
           "korpsnr": 19
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Drammen Konsertorkester",
-          "korpsnr": 16
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Strusshamn Musikkforening",
+          "korpsnr": 19
         }
       ]
     },
@@ -2915,8 +2885,8 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Piccolo/altfløyte",
+          "prize_type": "group",
+          "instrument": "Fløyte",
           "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
           "korpsnr": 41
         },
@@ -2933,8 +2903,8 @@
           "korpsnr": 41
         },
         {
-          "prize_type": "group",
-          "instrument": "Fløyte",
+          "prize_type": "soloist",
+          "instrument": "Piccolo/altfløyte",
           "orchestra": "Tromsø Orkesterforenings Janitsjarkorps",
           "korpsnr": 41
         }
@@ -2945,10 +2915,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Euphonium",
-          "orchestra": "Tresfjord Janitsjar",
-          "korpsnr": 53
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Asker Musikkorps",
+          "korpsnr": 46
         },
         {
           "prize_type": "group",
@@ -2963,10 +2933,10 @@
           "korpsnr": 53
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Asker Musikkorps",
-          "korpsnr": 46
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Tresfjord Janitsjar",
+          "korpsnr": 53
         }
       ]
     },
@@ -2975,10 +2945,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Solohorn",
-          "orchestra": "Eina Musikkforening",
-          "korpsnr": 73
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Fet Janitsjar",
+          "korpsnr": 90
         },
         {
           "prize_type": "group",
@@ -2993,10 +2963,10 @@
           "korpsnr": 73
         },
         {
-          "prize_type": "group",
-          "instrument": "Trombone",
-          "orchestra": "Fet Janitsjar",
-          "korpsnr": 90
+          "prize_type": "soloist",
+          "instrument": "Solohorn",
+          "orchestra": "Eina Musikkforening",
+          "korpsnr": 73
         }
       ]
     },
@@ -3005,10 +2975,10 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Barytonsaksofon",
-          "orchestra": "Torshov Janitsjarorkester",
-          "korpsnr": 174
+          "prize_type": "group",
+          "instrument": "Euphonium",
+          "orchestra": "Musikklaget Brage",
+          "korpsnr": 71
         },
         {
           "prize_type": "group",
@@ -3023,10 +2993,10 @@
           "korpsnr": 174
         },
         {
-          "prize_type": "group",
-          "instrument": "Euphonium",
-          "orchestra": "Musikklaget Brage",
-          "korpsnr": 71
+          "prize_type": "soloist",
+          "instrument": "Barytonsaksofon",
+          "orchestra": "Torshov Janitsjarorkester",
+          "korpsnr": 174
         }
       ]
     },
@@ -3035,10 +3005,10 @@
       "division": "6. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Malvik Musikkorps",
-          "korpsnr": 66
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Haugesund Janitsjarorkester",
+          "korpsnr": 68
         },
         {
           "prize_type": "group",
@@ -3053,10 +3023,10 @@
           "korpsnr": 66
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Haugesund Janitsjarorkester",
-          "korpsnr": 68
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Malvik Musikkorps",
+          "korpsnr": 66
         }
       ]
     },
@@ -3065,10 +3035,10 @@
       "division": "7. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
-          "orchestra": "Åndalsnes Musikkforening",
-          "korpsnr": 114
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Oslo Janitsjarkorps",
+          "korpsnr": 126
         },
         {
           "prize_type": "group",
@@ -3083,28 +3053,40 @@
           "korpsnr": 114
         },
         {
-          "prize_type": "group",
-          "instrument": "Trombone",
-          "orchestra": "Oslo Janitsjarkorps",
-          "korpsnr": 126
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
+          "orchestra": "Åndalsnes Musikkforening",
+          "korpsnr": 114
         }
       ]
     },
     {
-      "year": 2018,
+      "year": 2017,
       "division": "Elite",
       "entries": [
         {
           "prize_type": "group",
-          "instrument": "Slagverk",
+          "instrument": "Trompet",
           "orchestra": "Dragefjellets Musikkorps Bergen",
           "korpsnr": 5
         },
         {
           "prize_type": "group",
-          "instrument": "Slagverk",
+          "instrument": "Trompet",
           "orchestra": "Dragefjellets Musikkorps Bergen",
           "korpsnr": 5
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Mo Hornmusikk",
+          "korpsnr": 13
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Mo Hornmusikk",
+          "korpsnr": 13
         }
       ]
     },
@@ -3235,18 +3217,18 @@
       ]
     },
     {
-      "year": 2019,
+      "year": 2018,
       "division": "Elite",
       "entries": [
         {
           "prize_type": "group",
-          "instrument": "Saksofon",
+          "instrument": "Slagverk",
           "orchestra": "Dragefjellets Musikkorps Bergen",
           "korpsnr": 5
         },
         {
           "prize_type": "group",
-          "instrument": "Saksofon",
+          "instrument": "Slagverk",
           "orchestra": "Dragefjellets Musikkorps Bergen",
           "korpsnr": 5
         }
@@ -3379,20 +3361,20 @@
       ]
     },
     {
-      "year": 2022,
+      "year": 2019,
       "division": "Elite",
       "entries": [
         {
           "prize_type": "group",
           "instrument": "Saksofon",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "orchestra": "Dragefjellets Musikkorps Bergen",
+          "korpsnr": 5
         },
         {
           "prize_type": "group",
           "instrument": "Saksofon",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "orchestra": "Dragefjellets Musikkorps Bergen",
+          "korpsnr": 5
         }
       ]
     },
@@ -3523,30 +3505,18 @@
       ]
     },
     {
-      "year": 2023,
+      "year": 2022,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Tuba",
-          "orchestra": "Mo Hornmusikk",
-          "korpsnr": 13
-        },
-        {
           "prize_type": "group",
-          "instrument": "Trombone",
+          "instrument": "Saksofon",
           "orchestra": "Lillestrøm Musikkorps",
           "korpsnr": 4
         },
         {
-          "prize_type": "soloist",
-          "instrument": "Tuba",
-          "orchestra": "Mo Hornmusikk",
-          "korpsnr": 13
-        },
-        {
           "prize_type": "group",
-          "instrument": "Trombone",
+          "instrument": "Saksofon",
           "orchestra": "Lillestrøm Musikkorps",
           "korpsnr": 4
         }
@@ -3557,10 +3527,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Engelsk horn",
-          "orchestra": "Skjold Nesttun Janitsjar",
-          "korpsnr": 12
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Lørenskog Musikkorps",
+          "korpsnr": 20
         },
         {
           "prize_type": "group",
@@ -3575,10 +3545,10 @@
           "korpsnr": 12
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Lørenskog Musikkorps",
-          "korpsnr": 20
+          "prize_type": "soloist",
+          "instrument": "Engelsk horn",
+          "orchestra": "Skjold Nesttun Janitsjar",
+          "korpsnr": 12
         }
       ]
     },
@@ -3587,10 +3557,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Xylofon",
-          "orchestra": "Ådalsbruk Musikkforening",
-          "korpsnr": 26
+          "prize_type": "group",
+          "instrument": "Fløyte",
+          "orchestra": "Lungegaardens Musikkorps",
+          "korpsnr": 38
         },
         {
           "prize_type": "group",
@@ -3605,10 +3575,10 @@
           "korpsnr": 26
         },
         {
-          "prize_type": "group",
-          "instrument": "Fløyte",
-          "orchestra": "Lungegaardens Musikkorps",
-          "korpsnr": 38
+          "prize_type": "soloist",
+          "instrument": "Xylofon",
+          "orchestra": "Ådalsbruk Musikkforening",
+          "korpsnr": 26
         }
       ]
     },
@@ -3617,10 +3587,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Bassklarinett",
-          "orchestra": "Ranheim Musikkforening",
-          "korpsnr": 36
+          "prize_type": "group",
+          "instrument": "Saksofon",
+          "orchestra": "Aalesunds Ungdomsmusikkorps",
+          "korpsnr": 27
         },
         {
           "prize_type": "group",
@@ -3635,10 +3605,10 @@
           "korpsnr": 36
         },
         {
-          "prize_type": "group",
-          "instrument": "Saksofon",
-          "orchestra": "Aalesunds Ungdomsmusikkorps",
-          "korpsnr": 27
+          "prize_type": "soloist",
+          "instrument": "Bassklarinett",
+          "orchestra": "Ranheim Musikkforening",
+          "korpsnr": 36
         }
       ]
     },
@@ -3647,10 +3617,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fiolin",
-          "orchestra": "Hamar Musikkorps",
-          "korpsnr": 156
+          "prize_type": "group",
+          "instrument": "Saksofon",
+          "orchestra": "Skedsmo Janitsjarorkester",
+          "korpsnr": 47
         },
         {
           "prize_type": "group",
@@ -3665,10 +3635,10 @@
           "korpsnr": 156
         },
         {
-          "prize_type": "group",
-          "instrument": "Saksofon",
-          "orchestra": "Skedsmo Janitsjarorkester",
-          "korpsnr": 47
+          "prize_type": "soloist",
+          "instrument": "Fiolin",
+          "orchestra": "Hamar Musikkorps",
+          "korpsnr": 156
         }
       ]
     },
@@ -3677,10 +3647,10 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fløyte",
-          "orchestra": "Hønefoss Ungdomskorps",
-          "korpsnr": 148
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Kristiansand Janitsjar",
+          "korpsnr": 216
         },
         {
           "prize_type": "group",
@@ -3695,10 +3665,10 @@
           "korpsnr": 148
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Kristiansand Janitsjar",
-          "korpsnr": 216
+          "prize_type": "soloist",
+          "instrument": "Fløyte",
+          "orchestra": "Hønefoss Ungdomskorps",
+          "korpsnr": 148
         }
       ]
     },
@@ -3707,10 +3677,10 @@
       "division": "6. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sangsopran",
-          "orchestra": "Hygge Korpsensemble",
-          "korpsnr": 246
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Drøbak Musikkorps",
+          "korpsnr": 121
         },
         {
           "prize_type": "group",
@@ -3725,10 +3695,10 @@
           "korpsnr": 246
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Drøbak Musikkorps",
-          "korpsnr": 121
+          "prize_type": "soloist",
+          "instrument": "Sangsopran",
+          "orchestra": "Hygge Korpsensemble",
+          "korpsnr": 246
         }
       ]
     },
@@ -3737,10 +3707,10 @@
       "division": "7. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Horn",
-          "orchestra": "Nidarvoll Ungdomskorps",
-          "korpsnr": 118
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Bjørgvin Blåseensemble",
+          "korpsnr": 248
         },
         {
           "prize_type": "group",
@@ -3755,40 +3725,40 @@
           "korpsnr": 118
         },
         {
-          "prize_type": "group",
-          "instrument": "Tuba",
-          "orchestra": "Bjørgvin Blåseensemble",
-          "korpsnr": 248
+          "prize_type": "soloist",
+          "instrument": "Horn",
+          "orchestra": "Nidarvoll Ungdomskorps",
+          "korpsnr": 118
         }
       ]
     },
     {
-      "year": 2024,
+      "year": 2023,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fagott",
-          "orchestra": "Christiania Blåseensemble",
-          "korpsnr": 1
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         },
         {
           "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Opus 82",
-          "korpsnr": 11
+          "instrument": "Trombone",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         },
         {
           "prize_type": "soloist",
-          "instrument": "Fagott",
-          "orchestra": "Christiania Blåseensemble",
-          "korpsnr": 1
+          "instrument": "Tuba",
+          "orchestra": "Mo Hornmusikk",
+          "korpsnr": 13
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Opus 82",
-          "korpsnr": 11
+          "prize_type": "soloist",
+          "instrument": "Tuba",
+          "orchestra": "Mo Hornmusikk",
+          "korpsnr": 13
         }
       ]
     },
@@ -3797,10 +3767,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
+          "prize_type": "group",
           "instrument": "Trombone",
-          "orchestra": "Sarpsborg Janitsjarkorps",
-          "korpsnr": 9
+          "orchestra": "Skjold Nesttun Janitsjar",
+          "korpsnr": 12
         },
         {
           "prize_type": "group",
@@ -3815,10 +3785,10 @@
           "korpsnr": 9
         },
         {
-          "prize_type": "group",
+          "prize_type": "soloist",
           "instrument": "Trombone",
-          "orchestra": "Skjold Nesttun Janitsjar",
-          "korpsnr": 12
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "korpsnr": 9
         }
       ]
     },
@@ -3827,10 +3797,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altfløyte",
-          "orchestra": "Bjølsen Ungdomskorps",
-          "korpsnr": 34
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Asker Musikkorps",
+          "korpsnr": 46
         },
         {
           "prize_type": "group",
@@ -3845,10 +3815,10 @@
           "korpsnr": 34
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Asker Musikkorps",
-          "korpsnr": 46
+          "prize_type": "soloist",
+          "instrument": "Altfløyte",
+          "orchestra": "Bjølsen Ungdomskorps",
+          "korpsnr": 34
         }
       ]
     },
@@ -3857,8 +3827,8 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
+          "prize_type": "group",
+          "instrument": "Trombone",
           "orchestra": "Sykkylven Janitsjarorkester",
           "korpsnr": 65
         },
@@ -3875,8 +3845,8 @@
           "korpsnr": 65
         },
         {
-          "prize_type": "group",
-          "instrument": "Trombone",
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
           "orchestra": "Sykkylven Janitsjarorkester",
           "korpsnr": 65
         }
@@ -3887,10 +3857,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fløyte",
-          "orchestra": "Lørenskog Blåseensemble",
-          "korpsnr": 217
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Skedsmo Janitsjarorkester",
+          "korpsnr": 47
         },
         {
           "prize_type": "group",
@@ -3905,10 +3875,10 @@
           "korpsnr": 217
         },
         {
-          "prize_type": "group",
-          "instrument": "Tuba",
-          "orchestra": "Skedsmo Janitsjarorkester",
-          "korpsnr": 47
+          "prize_type": "soloist",
+          "instrument": "Fløyte",
+          "orchestra": "Lørenskog Blåseensemble",
+          "korpsnr": 217
         }
       ]
     },
@@ -3917,10 +3887,10 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
-          "orchestra": "Tvedestrand og Arendal samarbeidskorps",
-          "korpsnr": 252
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Strinda Ungdomskorps",
+          "korpsnr": 51
         },
         {
           "prize_type": "group",
@@ -3935,10 +3905,10 @@
           "korpsnr": 252
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Strinda Ungdomskorps",
-          "korpsnr": 51
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
+          "orchestra": "Tvedestrand og Arendal samarbeidskorps",
+          "korpsnr": 252
         }
       ]
     },
@@ -3947,10 +3917,10 @@
       "division": "6. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Førsteklarinett",
-          "orchestra": "Kristiansand Janitsjar",
-          "korpsnr": 216
+          "prize_type": "group",
+          "instrument": "Saksofon",
+          "orchestra": "Drøbak Musikkorps",
+          "korpsnr": 121
         },
         {
           "prize_type": "group",
@@ -3965,10 +3935,10 @@
           "korpsnr": 216
         },
         {
-          "prize_type": "group",
-          "instrument": "Saksofon",
-          "orchestra": "Drøbak Musikkorps",
-          "korpsnr": 121
+          "prize_type": "soloist",
+          "instrument": "Førsteklarinett",
+          "orchestra": "Kristiansand Janitsjar",
+          "korpsnr": 216
         }
       ]
     },
@@ -3977,10 +3947,10 @@
       "division": "7. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Klarinett",
-          "orchestra": "Vang Musikkforening",
-          "korpsnr": 224
+          "prize_type": "group",
+          "instrument": "Saksofon",
+          "orchestra": "TUBE",
+          "korpsnr": 253
         },
         {
           "prize_type": "group",
@@ -3995,22 +3965,22 @@
           "korpsnr": 224
         },
         {
-          "prize_type": "group",
-          "instrument": "Saksofon",
-          "orchestra": "TUBE",
-          "korpsnr": 253
+          "prize_type": "soloist",
+          "instrument": "Klarinett",
+          "orchestra": "Vang Musikkforening",
+          "korpsnr": 224
         }
       ]
     },
     {
-      "year": 2025,
+      "year": 2024,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Horn",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Opus 82",
+          "korpsnr": 11
         },
         {
           "prize_type": "group",
@@ -4020,15 +3990,15 @@
         },
         {
           "prize_type": "soloist",
-          "instrument": "Horn",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "instrument": "Fagott",
+          "orchestra": "Christiania Blåseensemble",
+          "korpsnr": 1
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Opus 82",
-          "korpsnr": 11
+          "prize_type": "soloist",
+          "instrument": "Fagott",
+          "orchestra": "Christiania Blåseensemble",
+          "korpsnr": 1
         }
       ]
     },
@@ -4037,10 +4007,10 @@
       "division": "1. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Sopransaksofon",
-          "orchestra": "Nittedal og Hakadal Janitsjar",
-          "korpsnr": 10
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Strusshamn Musikkforening",
+          "korpsnr": 19
         },
         {
           "prize_type": "group",
@@ -4055,10 +4025,10 @@
           "korpsnr": 10
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Strusshamn Musikkforening",
-          "korpsnr": 19
+          "prize_type": "soloist",
+          "instrument": "Sopransaksofon",
+          "orchestra": "Nittedal og Hakadal Janitsjar",
+          "korpsnr": 10
         }
       ]
     },
@@ -4067,10 +4037,10 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Klarinett",
-          "orchestra": "Lungegaardens Musikkorps",
-          "korpsnr": 38
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Tønsberg Janitsjarkorps",
+          "korpsnr": 29
         },
         {
           "prize_type": "group",
@@ -4085,10 +4055,10 @@
           "korpsnr": 38
         },
         {
-          "prize_type": "group",
-          "instrument": "Slagverk",
-          "orchestra": "Tønsberg Janitsjarkorps",
-          "korpsnr": 29
+          "prize_type": "soloist",
+          "instrument": "Klarinett",
+          "orchestra": "Lungegaardens Musikkorps",
+          "korpsnr": 38
         }
       ]
     },
@@ -4097,10 +4067,10 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Saksofon",
-          "orchestra": "Åsane Musikklag",
-          "korpsnr": 44
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Nes Janitsjarkorps",
+          "korpsnr": 74
         },
         {
           "prize_type": "group",
@@ -4115,10 +4085,10 @@
           "korpsnr": 44
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Nes Janitsjarkorps",
-          "korpsnr": 74
+          "prize_type": "soloist",
+          "instrument": "Saksofon",
+          "orchestra": "Åsane Musikklag",
+          "korpsnr": 44
         }
       ]
     },
@@ -4127,10 +4097,10 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fløyte",
-          "orchestra": "Ranheim Musikkforening",
-          "korpsnr": 36
+          "prize_type": "group",
+          "instrument": "Euphonium",
+          "orchestra": "Haugesund Janitsjarorkester",
+          "korpsnr": 68
         },
         {
           "prize_type": "group",
@@ -4145,10 +4115,10 @@
           "korpsnr": 36
         },
         {
-          "prize_type": "group",
-          "instrument": "Euphonium",
-          "orchestra": "Haugesund Janitsjarorkester",
-          "korpsnr": 68
+          "prize_type": "soloist",
+          "instrument": "Fløyte",
+          "orchestra": "Ranheim Musikkforening",
+          "korpsnr": 36
         }
       ]
     },
@@ -4157,10 +4127,10 @@
       "division": "5. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Kontrabassklarinett",
-          "orchestra": "Østensjø Janitsjar",
-          "korpsnr": 52
+          "prize_type": "group",
+          "instrument": "Trompet",
+          "orchestra": "Modum Janitsjar",
+          "korpsnr": 123
         },
         {
           "prize_type": "group",
@@ -4175,10 +4145,10 @@
           "korpsnr": 52
         },
         {
-          "prize_type": "group",
-          "instrument": "Trompet",
-          "orchestra": "Modum Janitsjar",
-          "korpsnr": 123
+          "prize_type": "soloist",
+          "instrument": "Kontrabassklarinett",
+          "orchestra": "Østensjø Janitsjar",
+          "korpsnr": 52
         }
       ]
     },
@@ -4187,10 +4157,10 @@
       "division": "6. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
-          "orchestra": "Nordre Aker Janitsjar",
-          "korpsnr": 95
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Musikkorpset TEMPO",
+          "korpsnr": 99
         },
         {
           "prize_type": "group",
@@ -4205,10 +4175,10 @@
           "korpsnr": 95
         },
         {
-          "prize_type": "group",
-          "instrument": "Horn",
-          "orchestra": "Musikkorpset TEMPO",
-          "korpsnr": 99
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
+          "orchestra": "Nordre Aker Janitsjar",
+          "korpsnr": 95
         }
       ]
     },
@@ -4217,10 +4187,10 @@
       "division": "7. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
-          "orchestra": "Flisbyen Blåseensemble",
-          "korpsnr": 259
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Arendal Ungdomsmusikkorps",
+          "korpsnr": 257
         },
         {
           "prize_type": "group",
@@ -4235,28 +4205,40 @@
           "korpsnr": 259
         },
         {
-          "prize_type": "group",
-          "instrument": "Klarinett",
-          "orchestra": "Arendal Ungdomsmusikkorps",
-          "korpsnr": 257
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
+          "orchestra": "Flisbyen Blåseensemble",
+          "korpsnr": 259
         }
       ]
     },
     {
-      "year": 2026,
+      "year": 2025,
       "division": "Elite",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Engelsk Horn",
-          "orchestra": "Lillestrøm Musikkorps",
-          "korpsnr": 4
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Opus 82",
+          "korpsnr": 11
         },
         {
           "prize_type": "group",
           "instrument": "Klarinett",
           "orchestra": "Opus 82",
           "korpsnr": 11
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Horn",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Horn",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         }
       ]
     },
@@ -4264,17 +4246,17 @@
       "year": 2026,
       "division": "1. divisjon",
       "entries": [
-        {
-          "prize_type": "soloist",
-          "instrument": "Klarinett",
-          "orchestra": "Ådalsbruk Musikkforening",
-          "korpsnr": 26
-        },
         {
           "prize_type": "group",
           "instrument": "Fløyte",
           "orchestra": "Sandefjord Musikkorps",
           "korpsnr": 24
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Klarinett",
+          "orchestra": "Ådalsbruk Musikkforening",
+          "korpsnr": 26
         }
       ]
     },
@@ -4283,16 +4265,16 @@
       "division": "2. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Fløyte",
-          "orchestra": "Aalesunds Ungdomsmusikkorps",
-          "korpsnr": 27
-        },
-        {
           "prize_type": "group",
           "instrument": "Klarinett",
           "orchestra": "Musikklaget Brage",
           "korpsnr": 71
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Fløyte",
+          "orchestra": "Aalesunds Ungdomsmusikkorps",
+          "korpsnr": 27
         }
       ]
     },
@@ -4301,16 +4283,16 @@
       "division": "3. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Trompet",
-          "orchestra": "Hygge Korpsensemble",
-          "korpsnr": 246
-        },
-        {
           "prize_type": "group",
           "instrument": "Treblås",
           "orchestra": "Sagene Janitsjarkorps",
           "korpsnr": 35
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trompet",
+          "orchestra": "Hygge Korpsensemble",
+          "korpsnr": 246
         }
       ]
     },
@@ -4319,14 +4301,14 @@
       "division": "4. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Altsaksofon",
+          "prize_type": "group",
+          "instrument": "Saksofon",
           "orchestra": "Eidsvoll Janitsjarkorps",
           "korpsnr": 101
         },
         {
-          "prize_type": "group",
-          "instrument": "Saksofon",
+          "prize_type": "soloist",
+          "instrument": "Altsaksofon",
           "orchestra": "Eidsvoll Janitsjarkorps",
           "korpsnr": 101
         }
@@ -4336,17 +4318,17 @@
       "year": 2026,
       "division": "5. divisjon",
       "entries": [
-        {
-          "prize_type": "soloist",
-          "instrument": "Trombone",
-          "orchestra": "TUBE",
-          "korpsnr": 253
-        },
         {
           "prize_type": "group",
           "instrument": "Slagverk",
           "orchestra": "Hommelvik Musikkorps",
           "korpsnr": 77
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "TUBE",
+          "korpsnr": 253
         }
       ]
     },
@@ -4355,16 +4337,16 @@
       "division": "6. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Kornett",
-          "orchestra": "Tretten Musikkforening",
-          "korpsnr": 250
-        },
-        {
           "prize_type": "group",
           "instrument": "Slagverk",
           "orchestra": "Åsnes Hornmusikk",
           "korpsnr": 67
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Tretten Musikkforening",
+          "korpsnr": 250
         }
       ]
     },
@@ -4373,59 +4355,36 @@
       "division": "7. divisjon",
       "entries": [
         {
-          "prize_type": "soloist",
-          "instrument": "Flygelhorn",
-          "orchestra": "Arbeidernes Musikkorps",
-          "korpsnr": 195
-        },
-        {
           "prize_type": "group",
           "instrument": "Klarinett",
           "orchestra": "Nøtterøy Musikkorps",
           "korpsnr": 143
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Arbeidernes Musikkorps",
+          "korpsnr": 195
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "Elite",
+      "entries": [
+        {
+          "prize_type": "group",
+          "instrument": "Klarinett",
+          "orchestra": "Opus 82",
+          "korpsnr": 11
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Engelsk Horn",
+          "orchestra": "Lillestrøm Musikkorps",
+          "korpsnr": 4
         }
       ]
     }
-  ],
-  "metadata": {
-    "years": [
-      2002,
-      2003,
-      2004,
-      2005,
-      2006,
-      2007,
-      2008,
-      2009,
-      2010,
-      2011,
-      2012,
-      2013,
-      2014,
-      2015,
-      2016,
-      2017,
-      2018,
-      2019,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "min_year": 2002,
-    "max_year": 2026,
-    "total_prizes": 572,
-    "divisions": [
-      "Elite",
-      "1. divisjon",
-      "2. divisjon",
-      "3. divisjon",
-      "4. divisjon",
-      "5. divisjon",
-      "6. divisjon",
-      "7. divisjon"
-    ],
-    "generated_at": "2026-03-22T10:57:24+00:00"
-  }
+  ]
 }

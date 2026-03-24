@@ -149,7 +149,8 @@
       return [];
     }
     const divisionsMap = yearDivisionMap.get(selectedYear) ?? new Map<string, TableRow[]>();
-    const ordered = dataset.metadata.divisions.filter((division) => divisionsMap.has(division));
+    const divisionOrder = ['Elite', ...dataset.metadata.divisions.filter(d => d !== 'Elite')];
+    const ordered = divisionOrder.filter((division) => divisionsMap.has(division));
     const remaining = Array.from<string>(divisionsMap.keys())
       .filter((division) => !ordered.includes(division))
       .sort();
