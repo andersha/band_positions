@@ -56,9 +56,22 @@
     };
   }
 
+  interface JudgeEntry {
+    year: number;
+    division: string;
+    panel: string | null;
+    judges: string[];
+  }
+
+  interface JudgesData {
+    wind: JudgeEntry[];
+    brass: JudgeEntry[];
+  }
+
   let prizeData = $state<PrizeDataset | null>(null);
   let prizeDataLoading = $state(false);
   let promotionRules = $state<PromotionRules | null>(null);
+  let judgesData = $state<JudgesData | null>(null);
   
   // Track the last bandType we processed to detect changes
   let lastProcessedBandType = $state<BandType | null>(null);
@@ -457,6 +470,11 @@
       .catch((err) => {
         console.warn('Failed to load promotion rules', err);
       });
+
+    fetch('data/judges.json')
+      .then((res) => res.ok ? res.json() : null)
+      .then((data) => { if (data) judgesData = data; })
+      .catch((err) => console.warn('Failed to load judges data', err));
   });
 
   $effect(() => {
@@ -482,6 +500,15 @@
       soloist: soloistPrize || null,
       group: groupPrize || null
     };
+  })());
+
+  let judgesForSelection = $derived((() => {
+    if (!judgesData || selectedYear == null || !selectedDivision) return null;
+    const entries = (judgesData[bandType] as JudgeEntry[]) ?? [];
+    const matching = entries.filter(
+      (e) => e.year === selectedYear && e.division === selectedDivision
+    );
+    return matching.length > 0 ? matching : null;
   })());
 </script>
 
@@ -726,6 +753,34 @@
         </table>
       </div>
     {/if}
+
+    {#if judgesForSelection && judgesForSelection.length > 0}
+      <div class="judges-section" role="complementary" aria-label="Dommere">
+        <h3>Dommere</h3>
+        {#if judgesForSelection.length === 1 && judgesForSelection[0].panel === null}
+          <ul class="judges-list">
+            {#each judgesForSelection[0].judges as judge}
+              <li>{judge}</li>
+            {/each}
+          </ul>
+        {:else}
+          <div class="judges-panels">
+            {#each judgesForSelection as entry}
+              <div class="judges-panel">
+                {#if entry.panel}
+                  <h4>{entry.panel === 'plikt' ? 'Pliktstykke' : 'Selvvalgt'}</h4>
+                {/if}
+                <ul class="judges-list">
+                  {#each entry.judges as judge}
+                    <li>{judge}</li>
+                  {/each}
+                </ul>
+              </div>
+            {/each}
+          </div>
+        {/if}
+      </div>
+    {/if}
   {/if}
 </section>
 
@@ -865,6 +920,45 @@
   .prize-winner-link:hover,
   .prize-winner-link:focus-visible {
     text-decoration: underline;
+  }
+
+  .judges-section {
+    padding: 1.5rem;
+    background: var(--color-surface-card);
+    border-radius: 1rem;
+    border: 1px solid var(--color-border);
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.15);
+  }
+
+  .judges-section h3 {
+    margin: 0 0 1rem;
+    font-size: 1.1rem;
+    color: var(--color-accent);
+  }
+
+  .judges-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.5rem;
+    color: var(--color-text-primary);
+  }
+
+  .judges-panels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .judges-panel h4 {
+    margin: 0 0 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--color-text-secondary);
   }
 
   .table-wrapper {

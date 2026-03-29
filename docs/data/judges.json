@@ -1,0 +1,845 @@
+{
+  "wind": [
+    {
+      "year": 2019,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Vegar Snøfugl",
+        "Jerker Johansson"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Ingemar Roos",
+        "Catherine Berg"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Rik de Geyter",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Halldis Rønning",
+        "Catherine Berg"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Vegar Snøfugl",
+        "Jerker Johansson"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "6. divisjon",
+      "panel": null,
+      "judges": [
+        "Rik de Geyter",
+        "Annick Villanueva"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "7. divisjon",
+      "panel": null,
+      "judges": [
+        "Jan Roger Øren",
+        "Ingemar Roos"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Annick Villanueva",
+        "Cecilie Løken Hesselberg",
+        "Halldis Rønning"
+      ]
+    },
+    {
+      "year": 2022,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Trine Knudsen",
+        "Heather Nicoll",
+        "Alberto Roque"
+      ]
+    },
+    {
+      "year": 2022,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Snorre Svenningsen",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 2022,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Tanja Carita Ikonen",
+        "Elisabeth Fossan"
+      ]
+    },
+    {
+      "year": 2022,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Simone Rebello",
+        "Arvid Anthun"
+      ]
+    },
+    {
+      "year": 2022,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Trine Knudsen",
+        "Arvid Anthun"
+      ]
+    },
+    {
+      "year": 2022,
+      "division": "6. divisjon",
+      "panel": null,
+      "judges": [
+        "Jan Roger Øren",
+        "Elisabeth Fossan"
+      ]
+    },
+    {
+      "year": 2022,
+      "division": "7. divisjon",
+      "panel": null,
+      "judges": [
+        "Snorre Svenningsen",
+        "Tonje Elisabeth Berg"
+      ]
+    },
+    {
+      "year": 2022,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Simone Rebello",
+        "Heather Nicoll",
+        "Alberto Roque"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Vegar Snøfugl",
+        "Sami Ruusuvuori",
+        "Nils Erik Måseidvåg"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Catherine Berg",
+        "Margareth Antrobus"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Eirik Baardsen Haaland",
+        "Sami Ruusuvuori"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Margareth Antrobus",
+        "Annick Villanueva"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Nils Erik Måseidvåg",
+        "Elisabeth Fossan"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "6. divisjon",
+      "panel": null,
+      "judges": [
+        "Eli Blåsmo",
+        "Catherine Berg"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "7. divisjon",
+      "panel": null,
+      "judges": [
+        "Stig Nordhagen",
+        "Arvid Anthun"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Arvid Anthun",
+        "Vegar Snøfugl",
+        "Annick Villanueva"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Marius Hesby",
+        "Bjørn Sagstad",
+        "Ingunn Korsgård Hagen"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Ingunn Korsgård Hagen",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Kjetil Djønne",
+        "Elisabeth Fossan"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Kjetil Djønne",
+        "Elisabeth Fossan"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Trond Madsen",
+        "Marius Hesby"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "panel": null,
+      "judges": [
+        "Trond Madsen",
+        "Isabelle Ruf-Weber"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "7. divisjon",
+      "panel": null,
+      "judges": [
+        "Ingrid Wangsvik",
+        "Torstein Aagaard-Nilsen"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Torstein Aagaard-Nilsen",
+        "Isabelle Ruf-Weber",
+        "Ingrid Wangsvik"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Felix Hauswirth",
+        "Kjetil Djønne",
+        "Isabelle Ruf-Weber"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Isabelle Ruf-Weber",
+        "Nils Erik Måseidvåg"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Trond Madsen",
+        "Anna-Leena Lumme"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Sami Ruusuvuori",
+        "Nils Erik Måseidvåg"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Kjetil Djønne",
+        "Ingunn Korsgård Hagen"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "6. divisjon",
+      "panel": null,
+      "judges": [
+        "Ingunn Korsgård Hagen",
+        "Ingvill Hafskjold"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "7. divisjon",
+      "panel": null,
+      "judges": [
+        "Anna-Leena Lumme",
+        "Trond Madsen"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Sami Ruusuvuori",
+        "Ingvill Hafskjold",
+        "Felix Hauswirth"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Arvid Anthun",
+        "Anna-Leena Lumme",
+        "Julie Røssland"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Cecilie Løken",
+        "Anna-Leena Lumme"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Arvid Anthun",
+        "Julie Røssland"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Josè Algado",
+        "Cecilie Løken"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Eli Blåsmo",
+        "Rik de Geyter"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "6. divisjon",
+      "panel": null,
+      "judges": [
+        "Marjo Riihimäki",
+        "Craig Farr"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "7. divisjon",
+      "panel": null,
+      "judges": [
+        "Benjamin Haemhouts",
+        "Craig Farr"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Josè Algado",
+        "Marjo Riihimäki",
+        "Benjamin Haemhouts"
+      ]
+    }
+  ],
+  "brass": [
+    {
+      "year": 2019,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Jens T. Larsen",
+        "Thomas Beiganz",
+        "Christopher Parkes"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Ingemar Roos",
+        "Tom Brevik"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Mark Heron",
+        "Halldis Rønning"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Roger Argente",
+        "Rut Jorunn Rønning"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Rut Jorunn Rønning",
+        "Jens T. Larsen"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "Elite",
+      "panel": "plikt",
+      "judges": [
+        "Christopher Parkes",
+        "Thomas Beiganz",
+        "Roger Argente"
+      ]
+    },
+    {
+      "year": 2019,
+      "division": "Elite",
+      "panel": "selvvalgt",
+      "judges": [
+        "Halldis Rønning",
+        "Mark Heron",
+        "Ingemar Roos"
+      ]
+    },
+    {
+      "year": 2020,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Bjørn Sagstad",
+        "Arsène Duc",
+        "Katrina Marzella"
+      ]
+    },
+    {
+      "year": 2020,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Lito Fontana",
+        "Katrina Marzella"
+      ]
+    },
+    {
+      "year": 2020,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Rex Martin",
+        "Sheona White"
+      ]
+    },
+    {
+      "year": 2020,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Kim Lofthouse",
+        "Selmer Simonsen"
+      ]
+    },
+    {
+      "year": 2020,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Bengt Florvåg",
+        "Svein Henrik Giske"
+      ]
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "panel": "plikt",
+      "judges": [
+        "Bjørn Sagstad",
+        "Arsène Duc",
+        "Kim Lofthouse"
+      ]
+    },
+    {
+      "year": 2020,
+      "division": "Elite",
+      "panel": "selvvalgt",
+      "judges": [
+        "Lito Fontana",
+        "Rex Martin",
+        "Sheona White"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Frøydis Ree Wekre",
+        "Bert van Thienen",
+        "Marius Hesby"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Steven Mead",
+        "Uwe Köller"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Rut Jorunn Rønning",
+        "Arild Remmereit"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Rut Jorunn Rønning",
+        "Oliver Waespi"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Marius Hesby",
+        "Irene Graven"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "Elite",
+      "panel": "plikt",
+      "judges": [
+        "Oliver Waespi",
+        "Bert van Thienen",
+        "Frøydis Ree Wekre"
+      ]
+    },
+    {
+      "year": 2023,
+      "division": "Elite",
+      "panel": "selvvalgt",
+      "judges": [
+        "Steven Mead",
+        "Arild Remmereit",
+        "Uwe Köller"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Guro Haugli",
+        "Chris Houlding",
+        "Trond Madsen"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Chris King",
+        "Isabelle Ruf-Weber"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Andreas Lackner",
+        "Elisabeth Fossan"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Elisabeth Fossan",
+        "Marius Hesby"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Guro Haugli",
+        "Håkon Skjæret"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "Elite",
+      "panel": "plikt",
+      "judges": [
+        "Marius Hesby",
+        "Chris Houlding",
+        "Trond Madsen"
+      ]
+    },
+    {
+      "year": 2024,
+      "division": "Elite",
+      "panel": "selvvalgt",
+      "judges": [
+        "Chris King",
+        "Andreas Lackner",
+        "Isabelle Ruf-Weber"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Nils Erik Måseidvåg",
+        "Sverre Stakston Olsrud",
+        "Chris King"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Torstein Aagaard-Nilsen",
+        "Anne Crookston"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Tom Davoren",
+        "Nils Erik Måseidvåg"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Torstein Aagaard-Nilsen",
+        "Ingunn Korsgård Hagen"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Torstein Aagaard-Nilsen",
+        "Ingunn Korsgård Hagen"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "Elite",
+      "panel": "plikt",
+      "judges": [
+        "Chris King",
+        "Ingunn Korsgård Hagen",
+        "Sverre Stakston Olsrud"
+      ]
+    },
+    {
+      "year": 2025,
+      "division": "Elite",
+      "panel": "selvvalgt",
+      "judges": [
+        "Anne Crookston",
+        "Halldis Rønning",
+        "Tom Davoren"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Véronique Gyer-Pitteloud",
+        "Anne Crookston",
+        "Jaap Musschenga"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Glyn Williams",
+        "Joseph Cook"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Mareika Grey",
+        "Anne Crookston"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Svein Henrik Giske",
+        "Joseph Cook"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Jaap Musschenga",
+        "Irene Graven"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "Elite",
+      "panel": "plikt",
+      "judges": [
+        "Véronique Gyer-Pitteloud",
+        "Svein Henrik Giske",
+        "Knut Vaage"
+      ]
+    },
+    {
+      "year": 2026,
+      "division": "Elite",
+      "panel": "selvvalgt",
+      "judges": [
+        "Mareika Grey",
+        "Glyn Williams",
+        "Arvid Anthun"
+      ]
+    }
+  ]
+}
