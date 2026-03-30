@@ -35,6 +35,42 @@
           ]
         },
         {
+          "orchestra": "Vestre Aker Musikkorps",
+          "play_order": 1,
+          "play_datetime": "2026-03-20T14:00:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Heming Valebjørg",
+          "pieces": [
+            {
+              "title": "Splinter",
+              "composer": "Holly Harrisson",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Whatsoever Things",
+              "composer": "Mark Camphouse",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Borge Musikkorps",
+          "play_order": 2,
+          "play_datetime": "2026-03-20T14:37:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Geir Holm",
+          "pieces": [
+            {
+              "title": "Iridiscèncias Sinfònicas",
+              "composer": "Amando Blanquer",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Borge Musikkorps",
           "play_order": 2,
           "play_datetime": "2026-03-20T14:37:00",
@@ -71,6 +107,27 @@
           ]
         },
         {
+          "orchestra": "Kolbotn Konsertorkester",
+          "play_order": 3,
+          "play_datetime": "2026-03-20T15:14:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Sebastian Haukås",
+          "pieces": [
+            {
+              "title": "Festival Overture, Op. 39",
+              "composer": "Egil Hovland",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Theme and Variations for Wind Band, Op. 43a",
+              "composer": "Arnold Schönberg",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Sandefjord Musikkorps",
           "play_order": 4,
           "play_datetime": "2026-03-20T15:51:00",
@@ -80,6 +137,36 @@
             {
               "title": "Symphony No IV: Bookmarks from Japan",
               "composer": "Julie A. Giroux",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Sandefjord Musikkorps",
+          "play_order": 4,
+          "play_datetime": "2026-03-20T15:51:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Robert Solberg Nilsen",
+          "pieces": [
+            {
+              "title": "Symphony No IV: Bookmarks from Japan",
+              "composer": "Julie A. Giroux",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Lørenskog Musikkorps",
+          "play_order": 5,
+          "play_datetime": "2026-03-20T16:28:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Trond Myhre",
+          "pieces": [
+            {
+              "title": "Variazioni sinfonische su \"Non Potho Reposare\"",
+              "composer": "Hardy Mertens",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -128,6 +215,33 @@
           ]
         },
         {
+          "orchestra": "Sarpsborg Janitsjarkorps",
+          "play_order": 6,
+          "play_datetime": "2026-03-20T17:05:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Frode Amundsen",
+          "pieces": [
+            {
+              "title": "Asphalt Cocktail",
+              "composer": "John Mackey",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Organ Sonata no. 4, BWV 528 Andante",
+              "composer": "Johann Sebastian Bach",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Time to Take Back the Knights",
+              "composer": "Stephen Melillo",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Asker Musikkorps",
           "play_order": 7,
           "play_datetime": "2026-03-20T17:42:00",
@@ -137,6 +251,42 @@
             {
               "title": "Zenith of the Maya",
               "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Asker Musikkorps",
+          "play_order": 7,
+          "play_datetime": "2026-03-20T17:42:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Guro Ansteensen Haugli",
+          "pieces": [
+            {
+              "title": "Zenith of the Maya",
+              "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Greåker Musikkorps",
+          "play_order": 8,
+          "play_datetime": "2026-03-20T18:37:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Pål W. Magnussen",
+          "pieces": [
+            {
+              "title": "Firefly",
+              "composer": "Ryan George",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Give us this Day",
+              "composer": "David Maslanka",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -179,6 +329,36 @@
           ]
         },
         {
+          "orchestra": "Byneset musikkorps",
+          "play_order": 9,
+          "play_datetime": "2026-03-20T19:14:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Heidi Hagerup Uddu",
+          "pieces": [
+            {
+              "title": "Symphony no. 1 - Asgard",
+              "composer": "Theodoro Aparicio-Barberan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Ådalsbruk Musikkforening",
+          "play_order": 10,
+          "play_datetime": "2026-03-20T19:51:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Christian Skarbø Tenfjord",
+          "pieces": [
+            {
+              "title": "Trencadís",
+              "composer": "Bert Appermont",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Ådalsbruk Musikkforening",
           "play_order": 10,
           "play_datetime": "2026-03-20T19:51:00",
@@ -209,6 +389,21 @@
           ]
         },
         {
+          "orchestra": "Bjølsen Ungdomskorps",
+          "play_order": 11,
+          "play_datetime": "2026-03-20T20:28:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Maria Nygård Molund",
+          "pieces": [
+            {
+              "title": "Memorias de un Hombre de Ciudad",
+              "composer": "Luis Serrano Alarcon",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Stavanger Musikkorps Av 1919",
           "play_order": 12,
           "play_datetime": "2026-03-20T21:05:00",
@@ -218,6 +413,42 @@
             {
               "title": "Tales and Legends",
               "composer": "Etienne Crausaz",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Stavanger Musikkorps Av 1919",
+          "play_order": 12,
+          "play_datetime": "2026-03-20T21:05:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Bastien Riquebourg",
+          "pieces": [
+            {
+              "title": "Tales and Legends",
+              "composer": "Etienne Crausaz",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Tønsberg Janitsjarkorps",
+          "play_order": 13,
+          "play_datetime": "2026-03-20T21:42:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Hans Andreas Kjølberg",
+          "pieces": [
+            {
+              "title": "La promenade, La Femme a l’ombrelle - an Artwork of Claude Monet",
+              "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Danza de los Duendes",
+              "composer": "Nancy Galbraith",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -268,6 +499,36 @@
           ]
         },
         {
+          "orchestra": "Nes Janitsjarkorps",
+          "play_order": 1,
+          "play_datetime": "2026-03-21T09:30:00",
+          "venue": "Royal Garden",
+          "conductor": "Thomas Høiby Verket",
+          "pieces": [
+            {
+              "title": "WINDOW TO THE SUN - In the Heart of the Alps",
+              "composer": "Thomas Doss",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Gjøvik Bykorps",
+          "play_order": 2,
+          "play_datetime": "2026-03-21T10:02:00",
+          "venue": "Royal Garden",
+          "conductor": "Morten Fagerjord",
+          "pieces": [
+            {
+              "title": "Grimm's Fairytale Forest",
+              "composer": "Jan van der Rost",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Gjøvik Bykorps",
           "play_order": 2,
           "play_datetime": "2026-03-21T10:02:00",
@@ -304,6 +565,27 @@
           ]
         },
         {
+          "orchestra": "Asker og Bærum Ungdomskorps",
+          "play_order": 3,
+          "play_datetime": "2026-03-21T10:34:00",
+          "venue": "Royal Garden",
+          "conductor": "Jon Terje Svendsen",
+          "pieces": [
+            {
+              "title": "Hymn to the Sun - With the Beat of Mother Earth, New version 2010",
+              "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Danzón no. 2",
+              "composer": "Arturo Márquez",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Vestsidens Musikkorps",
           "play_order": 4,
           "play_datetime": "2026-03-21T11:06:00",
@@ -313,6 +595,42 @@
             {
               "title": "Gloriosa",
               "composer": "Yasuhide Ito",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Vestsidens Musikkorps",
+          "play_order": 4,
+          "play_datetime": "2026-03-21T11:06:00",
+          "venue": "Royal Garden",
+          "conductor": "Egil Lysebo",
+          "pieces": [
+            {
+              "title": "Gloriosa",
+              "composer": "Yasuhide Ito",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Musikklaget Brage",
+          "play_order": 5,
+          "play_datetime": "2026-03-21T11:38:00",
+          "venue": "Royal Garden",
+          "conductor": "Nick Ost",
+          "pieces": [
+            {
+              "title": "Windsprints",
+              "composer": "Richard L. Saucedo",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "ComMUSICation",
+              "composer": "Stijn Roels",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -367,6 +685,33 @@
           ]
         },
         {
+          "orchestra": "Aalesunds Ungdomsmusikkorps",
+          "play_order": 6,
+          "play_datetime": "2026-03-21T12:10:00",
+          "venue": "Royal Garden",
+          "conductor": "Miki Campins",
+          "pieces": [
+            {
+              "title": "Dancing Fire",
+              "composer": "Kevin Day",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "John and Jim",
+              "composer": "Viet Cuong",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Arabesque",
+              "composer": "Samuel R. Hazo",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Lungegaardens Musikkorps",
           "play_order": 7,
           "play_datetime": "2026-03-21T12:42:00",
@@ -376,6 +721,42 @@
             {
               "title": "Second Suite for Band",
               "composer": "Alfred Reed",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Lungegaardens Musikkorps",
+          "play_order": 7,
+          "play_datetime": "2026-03-21T12:42:00",
+          "venue": "Royal Garden",
+          "conductor": "Per-Lorentz Milotzki",
+          "pieces": [
+            {
+              "title": "Second Suite for Band",
+              "composer": "Alfred Reed",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Sandviken janitsjar",
+          "play_order": 8,
+          "play_datetime": "2026-03-21T13:14:00",
+          "venue": "Royal Garden",
+          "conductor": "Tormod Flaten",
+          "pieces": [
+            {
+              "title": "Haunted Objects (Tsukumogami)",
+              "composer": "John Mackey",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Mountain Songs and Arias",
+              "composer": "Stig Nordhagen",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -418,6 +799,21 @@
           ]
         },
         {
+          "orchestra": "Ringsaker Janitsjar",
+          "play_order": 9,
+          "play_datetime": "2026-03-21T14:04:00",
+          "venue": "Royal Garden",
+          "conductor": "Morten Fagerjord",
+          "pieces": [
+            {
+              "title": "The Bermuda Triangle",
+              "composer": "Jose Alberto Pina",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Bispehaugen ungdomskorps",
           "play_order": 10,
           "play_datetime": "2026-03-21T14:36:00",
@@ -433,6 +829,42 @@
             {
               "title": "Pompeii: The Ruins Know the Long and Magnificent History",
               "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Bispehaugen ungdomskorps",
+          "play_order": 10,
+          "play_datetime": "2026-03-21T14:36:00",
+          "venue": "Royal Garden",
+          "conductor": "Tom Ole Elgsaas",
+          "pieces": [
+            {
+              "title": "Xerxes - A Concert March",
+              "composer": "John Mackey",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Pompeii: The Ruins Know the Long and Magnificent History",
+              "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Tromsø Orkesterforening Janitsjarkorps",
+          "play_order": 11,
+          "play_datetime": "2026-03-21T15:08:00",
+          "venue": "Royal Garden",
+          "conductor": "Marius Slåttsveen",
+          "pieces": [
+            {
+              "title": "Symphony no. 1, 'Gilgamesh'",
+              "composer": "Bert Appermont",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -475,6 +907,42 @@
           ]
         },
         {
+          "orchestra": "Sykkylven Janitsjarorkester",
+          "play_order": 12,
+          "play_datetime": "2026-03-21T15:40:00",
+          "venue": "Royal Garden",
+          "conductor": "Tom Venås-Gontier",
+          "pieces": [
+            {
+              "title": "Dance Scene from Queen Tamara",
+              "composer": "Johan Halvorsen",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Vesuvius",
+              "composer": "Frank Ticheli",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Os Musikkforening",
+          "play_order": 13,
+          "play_datetime": "2026-03-21T16:12:00",
+          "venue": "Royal Garden",
+          "conductor": "Roger Andreas Holme",
+          "pieces": [
+            {
+              "title": "La Inmortal",
+              "composer": "Ferrer Ferran",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Os Musikkforening",
           "play_order": 13,
           "play_datetime": "2026-03-21T16:12:00",
@@ -505,6 +973,21 @@
           ]
         },
         {
+          "orchestra": "Stabekk Janitsjarorkester",
+          "play_order": 14,
+          "play_datetime": "2026-03-21T16:44:00",
+          "venue": "Royal Garden",
+          "conductor": "Anna Fauchald Hartmann",
+          "pieces": [
+            {
+              "title": "Lux Futura",
+              "composer": "Kevin Houben",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Drammen Konsertorkester",
           "play_order": 15,
           "play_datetime": "2026-03-21T17:16:00",
@@ -514,6 +997,48 @@
             {
               "title": "Les Trois Notes du Japon",
               "composer": "Toshio Mashima",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Drammen Konsertorkester",
+          "play_order": 15,
+          "play_datetime": "2026-03-21T17:16:00",
+          "venue": "Royal Garden",
+          "conductor": "Aage Richard Meyer",
+          "pieces": [
+            {
+              "title": "Les Trois Notes du Japon",
+              "composer": "Toshio Mashima",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Sinsen Konsertorkester",
+          "play_order": 16,
+          "play_datetime": "2026-03-21T17:48:00",
+          "venue": "Royal Garden",
+          "conductor": "Dimitri Spouras",
+          "pieces": [
+            {
+              "title": "Cortege de Bacchus",
+              "composer": "Leo Delibes",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Italian Polka",
+              "composer": "Sergei Rachmaninov",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Danse Diabolique",
+              "composer": "Joseph Hellmesberger",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -576,6 +1101,27 @@
           ]
         },
         {
+          "orchestra": "Strindheim Janitsjar",
+          "play_order": 1,
+          "play_datetime": "2026-03-21T09:30:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Espen Andersen",
+          "pieces": [
+            {
+              "title": "Perseus",
+              "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "A Midnight Dance... Through The Poison Garden",
+              "composer": "Ryan George",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Skedsmo Janitsjarorkester",
           "play_order": 2,
           "play_datetime": "2026-03-21T09:55:00",
@@ -585,6 +1131,36 @@
             {
               "title": "Made in Bergen (Hommage à Harald Sæverud)",
               "composer": "Svein H. Giske",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Skedsmo Janitsjarorkester",
+          "play_order": 2,
+          "play_datetime": "2026-03-21T09:55:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Tanja Carita Ikonen",
+          "pieces": [
+            {
+              "title": "Made in Bergen (Hommage à Harald Sæverud)",
+              "composer": "Svein H. Giske",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Lisleby Musikkorps",
+          "play_order": 3,
+          "play_datetime": "2026-03-21T10:20:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Frode Amundsen",
+          "pieces": [
+            {
+              "title": "Give us this Day",
+              "composer": "David Maslanka",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -621,6 +1197,21 @@
           ]
         },
         {
+          "orchestra": "Fet Janitsjar",
+          "play_order": 4,
+          "play_datetime": "2026-03-21T10:45:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Robert Solberg Nilsen",
+          "pieces": [
+            {
+              "title": "Sketches on a Tudor Psalm",
+              "composer": "Fisher Tull",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Sagene Janitsjarkorps",
           "play_order": 5,
           "play_datetime": "2026-03-21T11:10:00",
@@ -630,6 +1221,36 @@
             {
               "title": "Machu Picchu - City in the sky - the mystery of the hidden sun Temple",
               "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Sagene Janitsjarkorps",
+          "play_order": 5,
+          "play_datetime": "2026-03-21T11:10:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Leif Arne Tangen Pedersen",
+          "pieces": [
+            {
+              "title": "Machu Picchu - City in the sky - the mystery of the hidden sun Temple",
+              "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Åsane Musikklag",
+          "play_order": 6,
+          "play_datetime": "2026-03-21T11:35:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Bjørn R. Strand",
+          "pieces": [
+            {
+              "title": "The Story of Anne Frank",
+              "composer": "Otto M Schwartz",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -666,6 +1287,21 @@
           ]
         },
         {
+          "orchestra": "Hygge Korpsensemble",
+          "play_order": 7,
+          "play_datetime": "2026-03-21T12:00:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Guro Haugli",
+          "pieces": [
+            {
+              "title": "The Low-Down Brown Get-Down",
+              "composer": "Omar Thomas",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Oslo Postorkester",
           "play_order": 8,
           "play_datetime": "2026-03-21T12:25:00",
@@ -675,6 +1311,42 @@
             {
               "title": "Machu Picchu - City in the sky - the mystery of the hidden sun Temple",
               "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Oslo Postorkester",
+          "play_order": 8,
+          "play_datetime": "2026-03-21T12:25:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Erik Bergene",
+          "pieces": [
+            {
+              "title": "Machu Picchu - City in the sky - the mystery of the hidden sun Temple",
+              "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Bøler og Ila Janitsjar",
+          "play_order": 9,
+          "play_datetime": "2026-03-21T13:10:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Jan-Erik Hybertsen",
+          "pieces": [
+            {
+              "title": "Three Dance Miniatures",
+              "composer": "Philip Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Xerxes - A Concert March",
+              "composer": "John Mackey",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -723,6 +1395,27 @@
           ]
         },
         {
+          "orchestra": "Sande Musikkorps",
+          "play_order": 10,
+          "play_datetime": "2026-03-21T13:35:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Thomas Rimul",
+          "pieces": [
+            {
+              "title": "en MiniatyrSuite over Geirr Tveitts suite nr 2",
+              "composer": "Geirr Tveitt",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Variations on America",
+              "composer": "Charles Ives",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Kristiansand Janitsjar",
           "play_order": 11,
           "play_datetime": "2026-03-21T14:00:00",
@@ -732,6 +1425,36 @@
             {
               "title": "The White Deer",
               "composer": "Thomas Doss",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Kristiansand Janitsjar",
+          "play_order": 11,
+          "play_datetime": "2026-03-21T14:00:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Eline K. Storheim",
+          "pieces": [
+            {
+              "title": "The White Deer",
+              "composer": "Thomas Doss",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Tresfjord Janitsjar",
+          "play_order": 12,
+          "play_datetime": "2026-03-21T14:25:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Arnfinn Egil Dalhaug",
+          "pieces": [
+            {
+              "title": "Talisman",
+              "composer": "Thierry Deleruyelle",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -768,6 +1491,21 @@
           ]
         },
         {
+          "orchestra": "Hovin Musikkorps",
+          "play_order": 13,
+          "play_datetime": "2026-03-21T14:50:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Stina Widèn",
+          "pieces": [
+            {
+              "title": "High Adventure",
+              "composer": "Randol Alan Bass",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Hamar Musikkorps",
           "play_order": 14,
           "play_datetime": "2026-03-21T15:15:00",
@@ -777,6 +1515,48 @@
             {
               "title": "Pompeii: The Ruins Know the Long and Magnificent History",
               "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Hamar Musikkorps",
+          "play_order": 14,
+          "play_datetime": "2026-03-21T15:15:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Ivar Hellesnes",
+          "pieces": [
+            {
+              "title": "Pompeii: The Ruins Know the Long and Magnificent History",
+              "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Fåberg Musikkforening",
+          "play_order": 15,
+          "play_datetime": "2026-03-21T15:40:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Thorbjørn Lunde",
+          "pieces": [
+            {
+              "title": "A Midnight Dance... Through The Poison Garden",
+              "composer": "Ryan George",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Winter Dances: I. November",
+              "composer": "Fergal Carrol",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Winter Dances: III. January",
+              "composer": "Fergal Carrol",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -829,6 +1609,27 @@
               "difficulty": null
             }
           ]
+        },
+        {
+          "orchestra": "Kongsberg Byorkester",
+          "play_order": 16,
+          "play_datetime": "2026-03-21T16:05:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Tomas Carstensen",
+          "pieces": [
+            {
+              "title": "Lux Aurumque",
+              "composer": "Eric Whitacre",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "J'ai été au Bal",
+              "composer": "Donald Grantham",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
         }
       ]
     },
@@ -848,6 +1649,36 @@
             {
               "title": "The Baltic Way",
               "composer": "Jan de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Oppegård Janitsjar",
+          "play_order": 1,
+          "play_datetime": "2026-03-20T14:00:00",
+          "venue": "Royal Garden",
+          "conductor": "Jon Terje Svendsen",
+          "pieces": [
+            {
+              "title": "The Baltic Way",
+              "composer": "Jan de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Ranheim Musikkforening",
+          "play_order": 2,
+          "play_datetime": "2026-03-20T14:25:00",
+          "venue": "Royal Garden",
+          "conductor": "Tore Haug Samuelsen",
+          "pieces": [
+            {
+              "title": "Four Scottisch Dances",
+              "composer": "Malcolm Arnold",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -890,6 +1721,42 @@
           ]
         },
         {
+          "orchestra": "Musikklaget Ulf",
+          "play_order": 3,
+          "play_datetime": "2026-03-20T14:50:00",
+          "venue": "Royal Garden",
+          "conductor": "Bjørn Falk Skodjevåg",
+          "pieces": [
+            {
+              "title": "Lux Aurumque",
+              "composer": "Eric Whitacre",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "A Hero's Tale",
+              "composer": "Bert Appermont",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Haugesund Janitsjarorkester",
+          "play_order": 4,
+          "play_datetime": "2026-03-20T15:15:00",
+          "venue": "Royal Garden",
+          "conductor": "Martin Kinn",
+          "pieces": [
+            {
+              "title": "Saga Candida",
+              "composer": "Bert Appermont",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Haugesund Janitsjarorkester",
           "play_order": 4,
           "play_datetime": "2026-03-20T15:15:00",
@@ -920,6 +1787,21 @@
           ]
         },
         {
+          "orchestra": "Halsen Musikkforening",
+          "play_order": 5,
+          "play_datetime": "2026-03-20T15:40:00",
+          "venue": "Royal Garden",
+          "conductor": "Mattias Baardsen Haaland",
+          "pieces": [
+            {
+              "title": "Give us this Day",
+              "composer": "David Maslanka",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Fana Musikklag",
           "play_order": 6,
           "play_datetime": "2026-03-20T16:05:00",
@@ -929,6 +1811,36 @@
             {
               "title": "A Little Stress Music - Satire in Four Parts",
               "composer": "Thomas Doss",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Fana Musikklag",
+          "play_order": 6,
+          "play_datetime": "2026-03-20T16:05:00",
+          "venue": "Royal Garden",
+          "conductor": "Per-Harald Molvig",
+          "pieces": [
+            {
+              "title": "A Little Stress Music - Satire in Four Parts",
+              "composer": "Thomas Doss",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Arendal Byorkester",
+          "play_order": 7,
+          "play_datetime": "2026-03-20T16:30:00",
+          "venue": "Royal Garden",
+          "conductor": "Britt Hilde Våge",
+          "pieces": [
+            {
+              "title": "Black Gold",
+              "composer": "Thierry Deleruyelle",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -971,6 +1883,27 @@
           ]
         },
         {
+          "orchestra": "Eidsvoll Janitsjarkorps",
+          "play_order": 8,
+          "play_datetime": "2026-03-20T16:55:00",
+          "venue": "Royal Garden",
+          "conductor": "Knut Elias Barstad",
+          "pieces": [
+            {
+              "title": "Fanfare Hayabusa",
+              "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Over the Moon",
+              "composer": "Frank Ticheli",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Nidarvoll Ungdomskorps",
           "play_order": 9,
           "play_datetime": "2026-03-20T17:40:00",
@@ -980,6 +1913,36 @@
             {
               "title": "Blue Shades",
               "composer": "Frank Ticheli",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Nidarvoll Ungdomskorps",
+          "play_order": 9,
+          "play_datetime": "2026-03-20T17:40:00",
+          "venue": "Royal Garden",
+          "conductor": "Nicolai Kjenstadbakk Berg",
+          "pieces": [
+            {
+              "title": "Blue Shades",
+              "composer": "Frank Ticheli",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Arne Musikforening",
+          "play_order": 10,
+          "play_datetime": "2026-03-20T18:05:00",
+          "venue": "Royal Garden",
+          "conductor": "Uldis Plepis",
+          "pieces": [
+            {
+              "title": "Puszta",
+              "composer": "Jan Van der Roost",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1016,6 +1979,21 @@
           ]
         },
         {
+          "orchestra": "Østensjø Janitsjar",
+          "play_order": 11,
+          "play_datetime": "2026-03-20T18:30:00",
+          "venue": "Royal Garden",
+          "conductor": "Jan-Erik Hybertsen",
+          "pieces": [
+            {
+              "title": "The White Deer",
+              "composer": "Thomas Doss",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Østre Gausdal Musikkforening",
           "play_order": 12,
           "play_datetime": "2026-03-20T18:55:00",
@@ -1025,6 +2003,36 @@
             {
               "title": "Talisman",
               "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Østre Gausdal Musikkforening",
+          "play_order": 12,
+          "play_datetime": "2026-03-20T18:55:00",
+          "venue": "Royal Garden",
+          "conductor": "Jon Kristian Solberg",
+          "pieces": [
+            {
+              "title": "Talisman",
+              "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Musikklaget Ustemt",
+          "play_order": 13,
+          "play_datetime": "2026-03-20T19:20:00",
+          "venue": "Royal Garden",
+          "conductor": "Ola Fredheim Haug",
+          "pieces": [
+            {
+              "title": "Tower of Babel",
+              "composer": "Hayato Hirose",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1061,6 +2069,21 @@
           ]
         },
         {
+          "orchestra": "Sofienberg Musikkorps",
+          "play_order": 14,
+          "play_datetime": "2026-03-20T19:45:00",
+          "venue": "Royal Garden",
+          "conductor": "Erling Myrseth",
+          "pieces": [
+            {
+              "title": "Compostela",
+              "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Lørenskog Blåsensemble",
           "play_order": 15,
           "play_datetime": "2026-03-20T20:10:00",
@@ -1076,6 +2099,42 @@
             {
               "title": "Danzón no. 2",
               "composer": "Arturo Márquez",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Lørenskog Blåsensemble",
+          "play_order": 15,
+          "play_datetime": "2026-03-20T20:10:00",
+          "venue": "Royal Garden",
+          "conductor": "Ante Skaug",
+          "pieces": [
+            {
+              "title": "The Incredibles",
+              "composer": "Michael Giacchino",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Danzón no. 2",
+              "composer": "Arturo Márquez",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Bodø Harmonimusikk",
+          "play_order": 16,
+          "play_datetime": "2026-03-20T20:35:00",
+          "venue": "Royal Garden",
+          "conductor": "Oddvar Nøstdal",
+          "pieces": [
+            {
+              "title": "The son of light",
+              "composer": "Bertrand Moren",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1120,6 +2179,21 @@
           ]
         },
         {
+          "orchestra": "Hommelvik Musikkorps",
+          "play_order": 1,
+          "play_datetime": "2026-03-20T09:00:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Even Lothe",
+          "pieces": [
+            {
+              "title": "Second Suite for Band",
+              "composer": "Alfred Reed",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Drøbak Musikkorps",
           "play_order": 2,
           "play_datetime": "2026-03-20T09:24:00",
@@ -1129,6 +2203,36 @@
             {
               "title": "Theatre Music",
               "composer": "Philip Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Drøbak Musikkorps",
+          "play_order": 2,
+          "play_datetime": "2026-03-20T09:24:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Erik Bergene",
+          "pieces": [
+            {
+              "title": "Theatre Music",
+              "composer": "Philip Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Rælingen Musikklag",
+          "play_order": 3,
+          "play_datetime": "2026-03-20T09:48:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Petter Marius Gundersen",
+          "pieces": [
+            {
+              "title": "Oz: The Green Wizard",
+              "composer": "Philip Ceunen",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1165,6 +2269,21 @@
           ]
         },
         {
+          "orchestra": "Nordre Aker Janitsjar",
+          "play_order": 4,
+          "play_datetime": "2026-03-20T10:12:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Morten Brenne",
+          "pieces": [
+            {
+              "title": "Os Passaros Do Brasil",
+              "composer": "Kees Vlak",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Byåsen Musikkorps",
           "play_order": 5,
           "play_datetime": "2026-03-20T10:36:00",
@@ -1174,6 +2293,36 @@
             {
               "title": "Waterfall",
               "composer": "Gauthier Dupertuis",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Byåsen Musikkorps",
+          "play_order": 5,
+          "play_datetime": "2026-03-20T10:36:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Eli Hatlehol",
+          "pieces": [
+            {
+              "title": "Waterfall",
+              "composer": "Gauthier Dupertuis",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Eina Musikkforening",
+          "play_order": 6,
+          "play_datetime": "2026-03-20T11:00:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Erik Bergene",
+          "pieces": [
+            {
+              "title": "subTERRA",
+              "composer": "Daniel Weinberger",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1210,6 +2359,21 @@
           ]
         },
         {
+          "orchestra": "TUBE",
+          "play_order": 7,
+          "play_datetime": "2026-03-20T11:24:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Daniel Haugen",
+          "pieces": [
+            {
+              "title": "Christian Daae på Daaevrebanen",
+              "composer": "Daniel Haugen",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Ås og Vestby Musikkorps",
           "play_order": 8,
           "play_datetime": "2026-03-20T11:48:00",
@@ -1219,6 +2383,36 @@
             {
               "title": "Of Ancient Dances",
               "composer": "Stephen Bulla",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Ås og Vestby Musikkorps",
+          "play_order": 8,
+          "play_datetime": "2026-03-20T11:48:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Erlend Tunestveit",
+          "pieces": [
+            {
+              "title": "Of Ancient Dances",
+              "composer": "Stephen Bulla",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Bømlo Janitsjar",
+          "play_order": 9,
+          "play_datetime": "2026-03-20T12:33:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Håvard Kroka",
+          "pieces": [
+            {
+              "title": "The Story of Anne Frank",
+              "composer": "Otto M. Schwarz",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1255,6 +2449,36 @@
           ]
         },
         {
+          "orchestra": "Strinda Ungdomskorps",
+          "play_order": 10,
+          "play_datetime": "2026-03-20T12:57:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Magne Øslie Hjelmervik",
+          "pieces": [
+            {
+              "title": "Life in the Capital City",
+              "composer": "Timo Forsström",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Lier og Drammen Ungdomskorps",
+          "play_order": 11,
+          "play_datetime": "2026-03-20T13:21:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Bente Lohne",
+          "pieces": [
+            {
+              "title": "Music for a Festival",
+              "composer": "Philip Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Lier og Drammen Ungdomskorps",
           "play_order": 11,
           "play_datetime": "2026-03-20T13:21:00",
@@ -1279,6 +2503,36 @@
             {
               "title": "Music for a Festival",
               "composer": "Philip Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Vålerenga Janitsjarkorps",
+          "play_order": 12,
+          "play_datetime": "2026-03-20T13:45:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Per Gjermund Storrø",
+          "pieces": [
+            {
+              "title": "Music for a Festival",
+              "composer": "Philip Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Modum Janitsjar",
+          "play_order": 13,
+          "play_datetime": "2026-03-20T14:09:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Øystein Olsen Vadsten",
+          "pieces": [
+            {
+              "title": "Armenian Dances",
+              "composer": "Alfred Reed",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1327,6 +2581,33 @@
           ]
         },
         {
+          "orchestra": "Moss og Omegn Janitsjar",
+          "play_order": 14,
+          "play_datetime": "2026-03-20T14:33:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Christer Bergby",
+          "pieces": [
+            {
+              "title": "Aurora Borealis",
+              "composer": "Rossano Galante",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Besame Mucho",
+              "composer": "Consuela Vèlasquez",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Air et Vents de Mai",
+              "composer": "Hiroshi Hoshina",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Musikklaget Kornetten",
           "play_order": 15,
           "play_datetime": "2026-03-20T14:57:00",
@@ -1336,6 +2617,36 @@
             {
               "title": "The Saint and The Royal",
               "composer": "Eric Swiggers",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Musikklaget Kornetten",
+          "play_order": 15,
+          "play_datetime": "2026-03-20T14:57:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Håvard Hinsverk",
+          "pieces": [
+            {
+              "title": "The Saint and The Royal",
+              "composer": "Eric Swiggers",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Tolga-Os janitsjar",
+          "play_order": 16,
+          "play_datetime": "2026-03-20T15:21:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Ingrid Dien",
+          "pieces": [
+            {
+              "title": "Deliverance",
+              "composer": "Etienne Crausaz",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1386,6 +2697,48 @@
           ]
         },
         {
+          "orchestra": "Follebu og Vestre Gausdal Musikkforening",
+          "play_order": 1,
+          "play_datetime": "2026-03-20T16:00:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Pål Owe Tandsæther",
+          "pieces": [
+            {
+              "title": "Pacific Dreams",
+              "composer": "Jacob de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "But for the love of Ireland",
+              "composer": "James Swearingen",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Åsnes Hornmusikk",
+          "play_order": 2,
+          "play_datetime": "2026-03-20T16:24:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Ola Fredheim Haug",
+          "pieces": [
+            {
+              "title": "Gloriam",
+              "composer": "Randall Standridge",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Earthdance",
+              "composer": "Michael Sweeney",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Åsnes Hornmusikk",
           "play_order": 2,
           "play_datetime": "2026-03-20T16:24:00",
@@ -1428,6 +2781,27 @@
           ]
         },
         {
+          "orchestra": "Trøgstad Janitsjar",
+          "play_order": 3,
+          "play_datetime": "2026-03-20T16:48:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Kjell-Olaf Richardsen",
+          "pieces": [
+            {
+              "title": "Ammerland",
+              "composer": "Jacob de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Fate of the Gods",
+              "composer": "Steven Reineke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Samarbeidskorpset Alversund og Osterøy",
           "play_order": 4,
           "play_datetime": "2026-03-20T17:12:00",
@@ -1437,6 +2811,36 @@
             {
               "title": "Golden Peak",
               "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Samarbeidskorpset Alversund og Osterøy",
+          "play_order": 4,
+          "play_datetime": "2026-03-20T17:12:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Joar Nøkleby Lemme",
+          "pieces": [
+            {
+              "title": "Golden Peak",
+              "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Jevnaker Ungdomskorps",
+          "play_order": 5,
+          "play_datetime": "2026-03-20T17:36:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Eirik Rosø Pladsen",
+          "pieces": [
+            {
+              "title": "Life in the Capital City",
+              "composer": "Timo Forsström",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1479,6 +2883,27 @@
           ]
         },
         {
+          "orchestra": "Hegra Hornmusikklag",
+          "play_order": 6,
+          "play_datetime": "2026-03-20T18:00:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Frode Krogstad",
+          "pieces": [
+            {
+              "title": "Alvamar Overture",
+              "composer": "James Barnes",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Life Eternal",
+              "composer": "Rossano Galante",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Musikkorpset Tempo",
           "play_order": 7,
           "play_datetime": "2026-03-20T18:24:00",
@@ -1487,6 +2912,36 @@
           "pieces": [
             {
               "title": "Eldorado",
+              "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Musikkorpset Tempo",
+          "play_order": 7,
+          "play_datetime": "2026-03-20T18:24:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Stian E. Svendsen",
+          "pieces": [
+            {
+              "title": "Eldorado",
+              "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Arendal Ungdomsmusikkorps",
+          "play_order": 8,
+          "play_datetime": "2026-03-20T19:09:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Rune Hansen",
+          "pieces": [
+            {
+              "title": "Talisman",
               "composer": "Thierry Deleruyelle",
               "duration_minutes": null,
               "difficulty": null
@@ -1524,6 +2979,21 @@
           ]
         },
         {
+          "orchestra": "Skatval Hornmusikklag",
+          "play_order": 9,
+          "play_datetime": "2026-03-20T19:33:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Geir Ulseth",
+          "pieces": [
+            {
+              "title": "Olympic Wind 2024",
+              "composer": "Guillaume Detrez",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Klæbu Musikkorps",
           "play_order": 10,
           "play_datetime": "2026-03-20T19:57:00",
@@ -1533,6 +3003,42 @@
             {
               "title": "Pilatus: Mountain of Dragons",
               "composer": "Steven Reineke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Klæbu Musikkorps",
+          "play_order": 10,
+          "play_datetime": "2026-03-20T19:57:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Nicolai K. Berg",
+          "pieces": [
+            {
+              "title": "Pilatus: Mountain of Dragons",
+              "composer": "Steven Reineke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Tretten Musikkforening",
+          "play_order": 11,
+          "play_datetime": "2026-03-20T20:21:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Jon Arne Johansen",
+          "pieces": [
+            {
+              "title": "A Ship in the Mist",
+              "composer": "Rossano Galante",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Eg veit i himmelrik ei borg",
+              "composer": "Norsk folketone",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1581,6 +3087,27 @@
           ]
         },
         {
+          "orchestra": "Søndre Nittedal Veterankorps",
+          "play_order": 12,
+          "play_datetime": "2026-03-20T20:45:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Tormod Wergeland Haug",
+          "pieces": [
+            {
+              "title": "Dawn of a New Day",
+              "composer": "James Swearingen",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Dakota",
+              "composer": "Jacob de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Valldal Hornmusikklag",
           "play_order": 13,
           "play_datetime": "2026-03-20T21:09:00",
@@ -1590,6 +3117,36 @@
             {
               "title": "Mont-Blanc",
               "composer": "Otto M. Schwarz",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Valldal Hornmusikklag",
+          "play_order": 13,
+          "play_datetime": "2026-03-20T21:09:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Evgenii Zhukov",
+          "pieces": [
+            {
+              "title": "Mont-Blanc",
+              "composer": "Otto M. Schwarz",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Åndalsnes Musikkforening",
+          "play_order": 14,
+          "play_datetime": "2026-03-20T21:33:00",
+          "venue": "Olavshallen, lille sal",
+          "conductor": "Arnfinn Dalhaug",
+          "pieces": [
+            {
+              "title": "Centennium",
+              "composer": "Fredrick",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1634,6 +3191,21 @@
           ]
         },
         {
+          "orchestra": "Flisbyen blåseensemble",
+          "play_order": 1,
+          "play_datetime": "2026-03-20T10:00:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Edvin Simenstad",
+          "pieces": [
+            {
+              "title": "El Camino Real",
+              "composer": "Alfred Reed",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Vatne Hornmusikklag/Hasund og Dimnøy Ungdomsmusikkorps",
           "play_order": 2,
           "play_datetime": "2026-03-20T10:23:00",
@@ -1649,6 +3221,42 @@
             {
               "title": "The Red Stone",
               "composer": "Bert Appermont",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Vatne Hornmusikklag/Hasund og Dimnøy Ungdomsmusikkorps",
+          "play_order": 2,
+          "play_datetime": "2026-03-20T10:23:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Nick Ost",
+          "pieces": [
+            {
+              "title": "Fanfare Exuberante",
+              "composer": "Satoshi Yagisawa",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "The Red Stone",
+              "composer": "Bert Appermont",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Arbeidernes Musikkorps",
+          "play_order": 3,
+          "play_datetime": "2026-03-20T10:46:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Asgeir Skrove",
+          "pieces": [
+            {
+              "title": "Trost i Taklampa",
+              "composer": "Finn Ludt",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1691,6 +3299,42 @@
           ]
         },
         {
+          "orchestra": "Malvik Musikkorps",
+          "play_order": 4,
+          "play_datetime": "2026-03-20T11:09:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Jørgen Simarud Stabel",
+          "pieces": [
+            {
+              "title": "Choreography",
+              "composer": "Robert Sheldon",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Triumph of the Argonauts",
+              "composer": "Robert Sheldon",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Alvdal-Tynset Janitsjarkorps",
+          "play_order": 5,
+          "play_datetime": "2026-03-20T11:32:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Øystein Viken",
+          "pieces": [
+            {
+              "title": "Life in the Capital City",
+              "composer": "Timo Forsström",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Alvdal-Tynset Janitsjarkorps",
           "play_order": 5,
           "play_datetime": "2026-03-20T11:32:00",
@@ -1715,6 +3359,36 @@
             {
               "title": "Second Suite in F for Military Band",
               "composer": "Gustav Holst",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Nøtterøy Musikkorps",
+          "play_order": 6,
+          "play_datetime": "2026-03-20T11:55:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Thomas Andersen",
+          "pieces": [
+            {
+              "title": "Second Suite in F for Military Band",
+              "composer": "Gustav Holst",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Oslo Ungdomsmusikk",
+          "play_order": 7,
+          "play_datetime": "2026-03-20T12:18:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Maria Molund",
+          "pieces": [
+            {
+              "title": "Life in the Capital City",
+              "composer": "Timo Forsström",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1757,6 +3431,27 @@
           ]
         },
         {
+          "orchestra": "Egersund Musikkorps",
+          "play_order": 8,
+          "play_datetime": "2026-03-20T12:41:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Laurits Heyerdahl Husø",
+          "pieces": [
+            {
+              "title": "Sedona",
+              "composer": "Steven Reineke",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Incantations",
+              "composer": "Robert W. Smith",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Namsos Musikkorps",
           "play_order": 9,
           "play_datetime": "2026-03-20T13:04:00",
@@ -1766,6 +3461,36 @@
             {
               "title": "Golden Peak",
               "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Namsos Musikkorps",
+          "play_order": 9,
+          "play_datetime": "2026-03-20T13:04:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Johan Daniel Hatta Turi",
+          "pieces": [
+            {
+              "title": "Golden Peak",
+              "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Stangebygdenes Musikkforening",
+          "play_order": 10,
+          "play_datetime": "2026-03-20T13:27:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Per Kristian Syversen",
+          "pieces": [
+            {
+              "title": "Jericho",
+              "composer": "Bert Appermont",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1810,6 +3535,54 @@
             {
               "title": "Fraternity",
               "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Skjold Nesttun Janitsjar",
+          "play_order": 1,
+          "play_datetime": "2026-03-21T09:30:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Bengt Florvåg",
+          "pieces": [
+            {
+              "title": "Traveler",
+              "composer": "David Maslanka",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Fraternity",
+              "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Dragefjellets Musikkorps Bergen",
+          "play_order": 2,
+          "play_datetime": "2026-03-21T10:17:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Gary Peterson",
+          "pieces": [
+            {
+              "title": "Gavorkna Fanfare",
+              "composer": "Jack Stamp",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Mysterious Morning - for wind ensemble and soprano",
+              "composer": "Gary Blake Peterson",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Symphony in B flat for Concert Band",
+              "composer": "Paul Hindemith",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1876,6 +3649,60 @@
           ]
         },
         {
+          "orchestra": "Christiania Blåseensemble",
+          "play_order": 3,
+          "play_datetime": "2026-03-21T11:04:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Rolf Gupta",
+          "pieces": [
+            {
+              "title": "Til Eulenspiegel",
+              "composer": "Richard Strauss",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Hyperprism",
+              "composer": "Edgard Varèse",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Scherzo for X-Wings",
+              "composer": "John Williams",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "The Jedi steps and Finale",
+              "composer": "John Williams",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Alvøens Musikkforening",
+          "play_order": 4,
+          "play_datetime": "2026-03-21T11:51:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Bengt Florvåg",
+          "pieces": [
+            {
+              "title": "The Year of the Dragon",
+              "composer": "Philip Sparke",
+              "duration_minutes": 14.0,
+              "difficulty": 5
+            },
+            {
+              "title": "A Brussels Requiem",
+              "composer": "Bert Appermont",
+              "duration_minutes": 17.0,
+              "difficulty": 6
+            }
+          ]
+        },
+        {
           "orchestra": "Alvøens Musikkforening",
           "play_order": 4,
           "play_datetime": "2026-03-21T11:51:00",
@@ -1912,6 +3739,48 @@
             {
               "title": "Nitescence Crépusculaire",
               "composer": "Alexandre Kosmicki",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Lillestrøm Musikkorps",
+          "play_order": 5,
+          "play_datetime": "2026-03-21T12:38:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Kjetil Djønne",
+          "pieces": [
+            {
+              "title": "Medea's Dance of Vengeance",
+              "composer": "Samuel Barber",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Nitescence Crépusculaire",
+              "composer": "Alexandre Kosmicki",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Strusshamn Musikkforening",
+          "play_order": 6,
+          "play_datetime": "2026-03-21T13:43:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Reid Gilje",
+          "pieces": [
+            {
+              "title": "An Gé Fhián - The Wild Goose",
+              "composer": "Ryan George",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Duende",
+              "composer": "Lous Serrano Alarcon",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1966,6 +3835,54 @@
           ]
         },
         {
+          "orchestra": "Musikkforeningen Nidarholm",
+          "play_order": 7,
+          "play_datetime": "2026-03-21T14:30:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Trond Husebø",
+          "pieces": [
+            {
+              "title": "Ave Maria",
+              "composer": "Anton Bruckner",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Bells for Stokowski",
+              "composer": "Michael Daugherty",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "La Valse - Poeme choregraphique",
+              "composer": "Maurice Ravel",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Nittedal & Hakadal Janitsjar",
+          "play_order": 8,
+          "play_datetime": "2026-03-21T15:17:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "J. Philip Hannevik",
+          "pieces": [
+            {
+              "title": "En Skärgårdssägen",
+              "composer": "Hugo Alfven",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "J'ai été au Bal",
+              "composer": "Donald Grantham",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
           "orchestra": "Nittedal & Hakadal Janitsjar",
           "play_order": 8,
           "play_datetime": "2026-03-21T15:17:00",
@@ -2002,6 +3919,48 @@
             {
               "title": "Symfoni No. 9 in E.flat Major, Op.70",
               "composer": "Dmitri Shostakovitch",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Opus 82",
+          "play_order": 9,
+          "play_datetime": "2026-03-21T16:04:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Leif Arne Pedersen",
+          "pieces": [
+            {
+              "title": "Fanfare and Choral",
+              "composer": "Egil Hovland",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Symfoni No. 9 in E.flat Major, Op.70",
+              "composer": "Dmitri Shostakovitch",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ]
+        },
+        {
+          "orchestra": "Mo Hornmusikk",
+          "play_order": 10,
+          "play_datetime": "2026-03-21T16:51:00",
+          "venue": "Olavshallen, store sal",
+          "conductor": "Reid Gilje",
+          "pieces": [
+            {
+              "title": "Asphalt Cocktail",
+              "composer": "John Mackey",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "Music of the Spheres",
+              "composer": "Philip Sparke",
               "duration_minutes": null,
               "difficulty": null
             }

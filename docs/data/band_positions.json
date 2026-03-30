@@ -27172,7 +27172,7 @@
           "field_size": 111,
           "points": 93.67,
           "max_points": 100.0,
-          "conductor": "J. Philip Hannevik",
+          "conductor": "John-Philip Hannevik",
           "pieces": [
             "En Skärgårdssägen",
             "J'ai été au Bal"
@@ -43556,6 +43556,6 @@
     "max_field_size": 120,
     "min_year": 1981,
     "max_year": 2026,
-    "generated_at": "2026-03-30T11:53:05.146899+00:00"
+    "generated_at": "2026-03-30T19:47:18.968519+00:00"
   }
 }

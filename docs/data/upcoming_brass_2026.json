@@ -31,6 +31,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Askøy Brass Band",
+          "play_order": 1,
+          "play_datetime": "2026-02-07T09:00:00",
+          "venue": "Griegsalen",
+          "conductor": "Reid Gilje",
+          "pieces": [
+            {
+              "title": "Dante's Descent",
+              "composer": "Geert Jan Kroon",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Musikkorpset Gjallarhorn",
           "play_order": 2,
           "play_datetime": "2026-02-07T09:32:00",
@@ -40,6 +57,40 @@
             {
               "title": "TITAN'S PROGRESS",
               "composer": "HERMANN PALLHUBER",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Musikkorpset Gjallarhorn",
+          "play_order": 2,
+          "play_datetime": "2026-02-07T09:32:00",
+          "venue": "Griegsalen",
+          "conductor": "Emil Björklund",
+          "pieces": [
+            {
+              "title": "TITAN'S PROGRESS",
+              "composer": "HERMANN PALLHUBER",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Tysnes Musikklag",
+          "play_order": 3,
+          "play_datetime": "2026-02-07T09:59:00",
+          "venue": "Griegsalen",
+          "conductor": "Yngve Nikolaisen",
+          "pieces": [
+            {
+              "title": "Of distant memories",
+              "composer": "E. Gregson",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -82,6 +133,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Flesland Musikklag",
+          "play_order": 4,
+          "play_datetime": "2026-02-07T10:21:00",
+          "venue": "Griegsalen",
+          "conductor": "Margie S Antrobus",
+          "pieces": [
+            {
+              "title": "A Road Less Travelled By",
+              "composer": "Philip Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Rong Brass",
           "play_order": 5,
           "play_datetime": "2026-02-07T11:03:00",
@@ -91,6 +159,40 @@
             {
               "title": "Afterlife",
               "composer": "Stijn Aertgeerts",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Rong Brass",
+          "play_order": 5,
+          "play_datetime": "2026-02-07T11:03:00",
+          "venue": "Griegsalen",
+          "conductor": "lan Porthouse",
+          "pieces": [
+            {
+              "title": "Afterlife",
+              "composer": "Stijn Aertgeerts",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Krohnengen Brass Band",
+          "play_order": 6,
+          "play_datetime": "2026-02-07T11:25:00",
+          "venue": "Griegsalen",
+          "conductor": "Magnus Brandseth",
+          "pieces": [
+            {
+              "title": "The Cosmographic Mystery",
+              "composer": "Ingebjørg Vilhelmsen",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -133,6 +235,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Tomra Brass Band",
+          "play_order": 7,
+          "play_datetime": "2026-02-07T11:52:00",
+          "venue": "Griegsalen",
+          "conductor": "Frans Violet",
+          "pieces": [
+            {
+              "title": "Afterlife",
+              "composer": "Stijn Aertgeerts",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Molde Brass Band",
           "play_order": 8,
           "play_datetime": "2026-02-07T12:14:00",
@@ -142,6 +261,40 @@
             {
               "title": "From Ancient Times",
               "composer": "Jan Van der Roost",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Molde Brass Band",
+          "play_order": 8,
+          "play_datetime": "2026-02-07T12:14:00",
+          "venue": "Griegsalen",
+          "conductor": "Frode Amundsen",
+          "pieces": [
+            {
+              "title": "From Ancient Times",
+              "composer": "Jan Van der Roost",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Sandefjord Brass Symposium",
+          "play_order": 9,
+          "play_datetime": "2026-02-07T12:56:00",
+          "venue": "Griegsalen",
+          "conductor": "Trond Husebø",
+          "pieces": [
+            {
+              "title": "Music of the Spheres",
+              "composer": "Philip Sparke",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -184,6 +337,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Ila Brass Band",
+          "play_order": 10,
+          "play_datetime": "2026-02-07T13:23:00",
+          "venue": "Griegsalen",
+          "conductor": "Stig Marsk",
+          "pieces": [
+            {
+              "title": "From Ancient Times",
+              "composer": "Jan Van der Roost",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Radøy Brass",
           "play_order": 11,
           "play_datetime": "2026-02-07T13:45:00",
@@ -193,6 +363,40 @@
             {
               "title": "Vienna Nights",
               "composer": "Philip Wilby",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Radøy Brass",
+          "play_order": 11,
+          "play_datetime": "2026-02-07T13:45:00",
+          "venue": "Griegsalen",
+          "conductor": "Jacob Vilhelm Larsen",
+          "pieces": [
+            {
+              "title": "Vienna Nights",
+              "composer": "Philip Wilby",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Ørskog Brass",
+          "play_order": 12,
+          "play_datetime": "2026-02-07T14:12:00",
+          "venue": "Griegsalen",
+          "conductor": "Jonathan Bates",
+          "pieces": [
+            {
+              "title": "Journey into Singularity",
+              "composer": "Mathias Wehr",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -243,6 +447,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Bergen Brass Band",
+          "play_order": 1,
+          "play_datetime": "2026-02-06T09:30:00",
+          "venue": "Griegsalen",
+          "conductor": "Thor-Arne Pedersen",
+          "pieces": [
+            {
+              "title": "The Patriots",
+              "composer": "Jan de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Sola Brass Band",
           "play_order": 2,
           "play_datetime": "2026-02-06T10:00:00",
@@ -252,6 +473,40 @@
             {
               "title": "SINFONIETTA NO.3",
               "composer": "Etienne Crausaz",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Sola Brass Band",
+          "play_order": 2,
+          "play_datetime": "2026-02-06T10:00:00",
+          "venue": "Griegsalen",
+          "conductor": "Dewi Griffiths",
+          "pieces": [
+            {
+              "title": "SINFONIETTA NO.3",
+              "composer": "Etienne Crausaz",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Jølster Musikklag",
+          "play_order": 3,
+          "play_datetime": "2026-02-06T10:25:00",
+          "venue": "Griegsalen",
+          "conductor": "Bjørn Breistein",
+          "pieces": [
+            {
+              "title": "Paganini Variations",
+              "composer": "Philip Wilby",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -294,6 +549,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Stangaland Brass",
+          "play_order": 4,
+          "play_datetime": "2026-02-06T10:45:00",
+          "venue": "Griegsalen",
+          "conductor": "Melvin White",
+          "pieces": [
+            {
+              "title": "Modern Times",
+              "composer": "Etienne Crausaz",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Follesø Musikklag",
           "play_order": 5,
           "play_datetime": "2026-02-06T11:10:00",
@@ -303,6 +575,40 @@
             {
               "title": "Dances and Arias",
               "composer": "Edward Gregson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Follesø Musikklag",
+          "play_order": 5,
+          "play_datetime": "2026-02-06T11:10:00",
+          "venue": "Griegsalen",
+          "conductor": "Oddvar Nøstdal",
+          "pieces": [
+            {
+              "title": "Dances and Arias",
+              "composer": "Edward Gregson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Trondheim Brassband",
+          "play_order": 6,
+          "play_datetime": "2026-02-06T11:45:00",
+          "venue": "Griegsalen",
+          "conductor": "Espen Andersen",
+          "pieces": [
+            {
+              "title": "Spectrum",
+              "composer": "Gilbert Vinter",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -345,6 +651,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Haukås Musikklag",
+          "play_order": 7,
+          "play_datetime": "2026-02-06T12:05:00",
+          "venue": "Griegsalen",
+          "conductor": "Yngve Nikolaisen",
+          "pieces": [
+            {
+              "title": "Connotations for Brass Band",
+              "composer": "Edward Gregson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Agder Brass",
           "play_order": 8,
           "play_datetime": "2026-02-06T12:30:00",
@@ -354,6 +677,40 @@
             {
               "title": "Sollicitus",
               "composer": "Fredrick Schjelderup",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Agder Brass",
+          "play_order": 8,
+          "play_datetime": "2026-02-06T12:30:00",
+          "venue": "Griegsalen",
+          "conductor": "Philip Hannevik",
+          "pieces": [
+            {
+              "title": "Sollicitus",
+              "composer": "Fredrick Schjelderup",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Gjesdal Brass Band",
+          "play_order": 9,
+          "play_datetime": "2026-02-06T13:10:00",
+          "venue": "Griegsalen",
+          "conductor": "Russell Gray",
+          "pieces": [
+            {
+              "title": "Ad Undas",
+              "composer": "Gareth Churcher",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -396,6 +753,40 @@
           "image_url": null
         },
         {
+          "orchestra": "Sørum Musikklag",
+          "play_order": 10,
+          "play_datetime": "2026-02-06T13:35:00",
+          "venue": "Griegsalen",
+          "conductor": "Philip Hannevik",
+          "pieces": [
+            {
+              "title": "Red Plane",
+              "composer": "Lennert van Laene",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Hasle Brass",
+          "play_order": 11,
+          "play_datetime": "2026-02-06T13:55:00",
+          "venue": "Griegsalen",
+          "conductor": "Kai Grinde Myrann",
+          "pieces": [
+            {
+              "title": "The 39th Parallel",
+              "composer": "Peter Graham",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Hasle Brass",
           "play_order": 11,
           "play_datetime": "2026-02-06T13:55:00",
@@ -422,6 +813,40 @@
             {
               "title": "Chivalry",
               "composer": "Martin Ellerby",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Tromsø Brass",
+          "play_order": 12,
+          "play_datetime": "2026-02-06T14:20:00",
+          "venue": "Griegsalen",
+          "conductor": "Vidar Alvestad",
+          "pieces": [
+            {
+              "title": "Chivalry",
+              "composer": "Martin Ellerby",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Bjørvika Brass Band",
+          "play_order": 13,
+          "play_datetime": "2026-02-06T14:45:00",
+          "venue": "Griegsalen",
+          "conductor": "Maria Molund",
+          "pieces": [
+            {
+              "title": "Embracing Duality",
+              "composer": "Ingebjørg Wilhelmsen",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -472,6 +897,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Kjølsdalen musikklag",
+          "play_order": 1,
+          "play_datetime": "2026-02-06T15:45:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Arvid Anthun",
+          "pieces": [
+            {
+              "title": "Hope",
+              "composer": "Dorothy Gates",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Gjøvik Bybrass",
           "play_order": 2,
           "play_datetime": "2026-02-06T16:10:00",
@@ -481,6 +923,40 @@
             {
               "title": "Ex Terra Lucem",
               "composer": "Jonathan Bates",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Gjøvik Bybrass",
+          "play_order": 2,
+          "play_datetime": "2026-02-06T16:10:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Morten Fagerjord",
+          "pieces": [
+            {
+              "title": "Ex Terra Lucem",
+              "composer": "Jonathan Bates",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Alexander Brassband",
+          "play_order": 3,
+          "play_datetime": "2026-02-06T16:30:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Gwyn M. Evans",
+          "pieces": [
+            {
+              "title": "Oceans",
+              "composer": "Goff Richards",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -523,6 +999,40 @@
           "image_url": null
         },
         {
+          "orchestra": "Oster Brass",
+          "play_order": 4,
+          "play_datetime": "2026-02-06T16:50:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Henrik Dagestad-Dalhaug",
+          "pieces": [
+            {
+              "title": "Symphony of Marches",
+              "composer": "Gilbert Vinter",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Riska Brass Band",
+          "play_order": 5,
+          "play_datetime": "2026-02-06T17:10:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Arne Stian Arrestad",
+          "pieces": [
+            {
+              "title": "Penlee",
+              "composer": "Simon Dobson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Riska Brass Band",
           "play_order": 5,
           "play_datetime": "2026-02-06T17:10:00",
@@ -549,6 +1059,40 @@
             {
               "title": "Flashback",
               "composer": "Jan de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Moen Musikkforening",
+          "play_order": 6,
+          "play_datetime": "2026-02-06T17:45:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Ole Kristian Egge",
+          "pieces": [
+            {
+              "title": "Flashback",
+              "composer": "Jan de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Fjell Brass",
+          "play_order": 7,
+          "play_datetime": "2026-02-06T18:05:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Ben Hirons",
+          "pieces": [
+            {
+              "title": "The Mermaid of Zennor",
+              "composer": "Philip Harper",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -597,6 +1141,29 @@
           "image_url": null
         },
         {
+          "orchestra": "Stavanger Kommunes Korps",
+          "play_order": 8,
+          "play_datetime": "2026-02-06T18:25:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Morten Øvrebekk",
+          "pieces": [
+            {
+              "title": "A BRIEF SYMPHONIE OF TIME",
+              "composer": "Simon Dobson",
+              "duration_minutes": null,
+              "difficulty": null
+            },
+            {
+              "title": "The Patriots",
+              "composer": "Jaan de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Manger Old Star Brass",
           "play_order": 9,
           "play_datetime": "2026-02-06T18:45:00",
@@ -606,6 +1173,40 @@
             {
               "title": "The Patriots",
               "composer": "Jaan de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Manger Old Star Brass",
+          "play_order": 9,
+          "play_datetime": "2026-02-06T18:45:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Patrik Randefalk",
+          "pieces": [
+            {
+              "title": "The Patriots",
+              "composer": "Jaan de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Haugaland Brass Band",
+          "play_order": 10,
+          "play_datetime": "2026-02-06T19:05:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Paul Hughes",
+          "pieces": [
+            {
+              "title": "Black Gold",
+              "composer": "Thierry Deleruyelle",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -648,6 +1249,40 @@
           "image_url": null
         },
         {
+          "orchestra": "Lindås Brass",
+          "play_order": 11,
+          "play_datetime": "2026-02-06T19:40:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Ben Hirons",
+          "pieces": [
+            {
+              "title": "A Pastoral Symphony",
+              "composer": "Robert Redford",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Nes Musikkforening",
+          "play_order": 12,
+          "play_datetime": "2026-02-06T20:00:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Maria Molund",
+          "pieces": [
+            {
+              "title": "Tallis Variations",
+              "composer": "Philip Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Nes Musikkforening",
           "play_order": 12,
           "play_datetime": "2026-02-06T20:00:00",
@@ -682,6 +1317,23 @@
           "image_url": null
         },
         {
+          "orchestra": "KOS - Krohnengen Old Star",
+          "play_order": 13,
+          "play_datetime": "2026-02-06T20:20:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Øyvind Raknes Nikolaisen",
+          "pieces": [
+            {
+              "title": "The Forest of Dean",
+              "composer": "Derek Bourgeois",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Tertnes Amatørkorps",
           "play_order": 14,
           "play_datetime": "2026-02-06T20:40:00",
@@ -691,6 +1343,40 @@
             {
               "title": "Albinus Variations",
               "composer": "Étienne Crausaz",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Tertnes Amatørkorps",
+          "play_order": 14,
+          "play_datetime": "2026-02-06T20:40:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Jane G. Westervik",
+          "pieces": [
+            {
+              "title": "Albinus Variations",
+              "composer": "Étienne Crausaz",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Evanger Musikklag",
+          "play_order": 15,
+          "play_datetime": "2026-02-06T21:00:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Reid Gilje",
+          "pieces": [
+            {
+              "title": "Sinfonietta: \"The Wayfarer\"",
+              "composer": "Eric Ball",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -741,6 +1427,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Hetlevik Musikklag",
+          "play_order": 1,
+          "play_datetime": "2026-02-07T10:00:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Fredrick Schjelderup",
+          "pieces": [
+            {
+              "title": "Momentum Sequences",
+              "composer": "Fredrick Schjelderup",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Skui Brassband",
           "play_order": 2,
           "play_datetime": "2026-02-07T10:25:00",
@@ -750,6 +1453,40 @@
             {
               "title": "Music for a Festical",
               "composer": "Philip Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Skui Brassband",
+          "play_order": 2,
+          "play_datetime": "2026-02-07T10:25:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Marte Rolfsen",
+          "pieces": [
+            {
+              "title": "Music for a Festical",
+              "composer": "Philip Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Saksumdal Musikkforening",
+          "play_order": 3,
+          "play_datetime": "2026-02-07T10:45:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Andres Halla",
+          "pieces": [
+            {
+              "title": "Harmonious Variations",
+              "composer": "Gordon Langford",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -792,6 +1529,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Randaberg Musikkorps",
+          "play_order": 4,
+          "play_datetime": "2026-02-07T11:05:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Espen Westbye",
+          "pieces": [
+            {
+              "title": "Centennium",
+              "composer": "Fredrick Schjelderup",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Flå Musikkorps",
           "play_order": 5,
           "play_datetime": "2026-02-07T11:25:00",
@@ -801,6 +1555,40 @@
             {
               "title": "Black Gold",
               "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Flå Musikkorps",
+          "play_order": 5,
+          "play_datetime": "2026-02-07T11:25:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Ingrid Dien",
+          "pieces": [
+            {
+              "title": "Black Gold",
+              "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Flora-Bremanger Brassband",
+          "play_order": 6,
+          "play_datetime": "2026-02-07T12:00:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Phil Goodwin",
+          "pieces": [
+            {
+              "title": "Oceans",
+              "composer": "Goff Richards",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -843,6 +1631,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Skeie Brass",
+          "play_order": 7,
+          "play_datetime": "2026-02-07T12:20:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Ray Farr",
+          "pieces": [
+            {
+              "title": "Viking Age",
+              "composer": "Thierry Deleruyelle",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Lyshornet Brass",
           "play_order": 8,
           "play_datetime": "2026-02-07T12:40:00",
@@ -852,6 +1657,40 @@
             {
               "title": "A Brief Symphony of Time",
               "composer": "Simon Dobson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Lyshornet Brass",
+          "play_order": 8,
+          "play_datetime": "2026-02-07T12:40:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Torstein Åvar Sollien",
+          "pieces": [
+            {
+              "title": "A Brief Symphony of Time",
+              "composer": "Simon Dobson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Laksevåg Musikkforening",
+          "play_order": 9,
+          "play_datetime": "2026-02-07T13:00:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Margie S. Antrobus",
+          "pieces": [
+            {
+              "title": "The Land of the Long White Cloud - Aotearoa",
+              "composer": "Philip Sparke",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -894,6 +1733,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Herøy Brass",
+          "play_order": 10,
+          "play_datetime": "2026-02-07T13:20:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Frode Dalhaug",
+          "pieces": [
+            {
+              "title": "Essay",
+              "composer": "Edward Gregson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Grenland Brass",
           "play_order": 11,
           "play_datetime": "2026-02-07T13:55:00",
@@ -903,6 +1759,40 @@
             {
               "title": "Albinus variations",
               "composer": "Etienne Crausaz",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Grenland Brass",
+          "play_order": 11,
+          "play_datetime": "2026-02-07T13:55:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Sigurd Grøv Skramsett",
+          "pieces": [
+            {
+              "title": "Albinus variations",
+              "composer": "Etienne Crausaz",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Jonsvatnet Brass",
+          "play_order": 12,
+          "play_datetime": "2026-02-07T14:15:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Gerard Rooker",
+          "pieces": [
+            {
+              "title": "Kingdom of Dragons",
+              "composer": "Philip Harper",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -945,6 +1835,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Eikelandsfjorden Musikklag",
+          "play_order": 13,
+          "play_datetime": "2026-02-07T14:35:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Oddvar Nøstdal",
+          "pieces": [
+            {
+              "title": "Centennium",
+              "composer": "Fredrick Schjeldrup",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Seim Musikklag",
           "play_order": 14,
           "play_datetime": "2026-02-07T14:55:00",
@@ -954,6 +1861,40 @@
             {
               "title": "Mavern Suite",
               "composer": "Philips Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Seim Musikklag",
+          "play_order": 14,
+          "play_datetime": "2026-02-07T14:55:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Torstein T Holmås",
+          "pieces": [
+            {
+              "title": "Mavern Suite",
+              "composer": "Philips Sparke",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Brumunddal Brass",
+          "play_order": 15,
+          "play_datetime": "2026-02-07T15:15:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Erling J. Myrseth",
+          "pieces": [
+            {
+              "title": "Arkansas",
+              "composer": "Jacob de Haan",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1004,6 +1945,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Lismarka/Mesnali Brass",
+          "play_order": 1,
+          "play_datetime": "2026-02-06T09:30:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Andres Halla",
+          "pieces": [
+            {
+              "title": "Friendly Takeover",
+              "composer": "Oliver Waespi",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Austevoll Brass",
           "play_order": 2,
           "play_datetime": "2026-02-06T09:55:00",
@@ -1013,6 +1971,40 @@
             {
               "title": "Oregon",
               "composer": "Jacob de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Austevoll Brass",
+          "play_order": 2,
+          "play_datetime": "2026-02-06T09:55:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Stein Skorpholm",
+          "pieces": [
+            {
+              "title": "Oregon",
+              "composer": "Jacob de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Imi Brass",
+          "play_order": 3,
+          "play_datetime": "2026-02-06T10:15:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Halvor Frafjord Gaard",
+          "pieces": [
+            {
+              "title": "A Mavern Suite",
+              "composer": "Philip Sparke",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1055,6 +2047,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Langhus Brass",
+          "play_order": 4,
+          "play_datetime": "2026-02-06T10:35:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Thomas W. Tengelsen",
+          "pieces": [
+            {
+              "title": "Northern Passages",
+              "composer": "Kjetil Djønne",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Valdres Brass Band",
           "play_order": 5,
           "play_datetime": "2026-02-06T11:10:00",
@@ -1064,6 +2073,40 @@
             {
               "title": "The Patriots",
               "composer": "Jan de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Valdres Brass Band",
+          "play_order": 5,
+          "play_datetime": "2026-02-06T11:10:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Tor Arthur Hagen",
+          "pieces": [
+            {
+              "title": "The Patriots",
+              "composer": "Jan de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Filadelfia Hornorkester Drammen",
+          "play_order": 6,
+          "play_datetime": "2026-02-06T11:30:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Knut Esten Thomassen Stendal",
+          "pieces": [
+            {
+              "title": "Inclusion",
+              "composer": "Paul Sharman",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1106,6 +2149,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Frei Hornmusikk",
+          "play_order": 7,
+          "play_datetime": "2026-02-06T11:50:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Randi Anita Dale",
+          "pieces": [
+            {
+              "title": "l'Daedalus",
+              "composer": "Andrea Price",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Sagvåg Musikklag",
           "play_order": 8,
           "play_datetime": "2026-02-06T12:10:00",
@@ -1115,6 +2175,40 @@
             {
               "title": "A brief symphony of time",
               "composer": "Simon Dobson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Sagvåg Musikklag",
+          "play_order": 8,
+          "play_datetime": "2026-02-06T12:10:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Håvard Kroka",
+          "pieces": [
+            {
+              "title": "A brief symphony of time",
+              "composer": "Simon Dobson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Torpa BygdeBrass",
+          "play_order": 9,
+          "play_datetime": "2026-02-06T12:45:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Jon Kristian Solberg",
+          "pieces": [
+            {
+              "title": "Modern Times",
+              "composer": "Etienne Crausaz",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1157,11 +2251,62 @@
           "image_url": null
         },
         {
+          "orchestra": "Holmestrand brass",
+          "play_order": 10,
+          "play_datetime": "2026-02-06T13:05:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Nils Andreas Grosås Granseth",
+          "pieces": [
+            {
+              "title": "Whispers of Forgotten Tales",
+              "composer": "Jacob Vilhelm Larsen",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Karmsund Brass",
           "play_order": 11,
           "play_datetime": "2026-02-06T13:25:00",
           "venue": "Peer Gynt-salen",
           "conductor": "Kristian Thulin",
+          "pieces": [
+            {
+              "title": "Inspiration",
+              "composer": "Jan de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Karmsund Brass",
+          "play_order": 11,
+          "play_datetime": "2026-02-06T13:25:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Kristian Thulin",
+          "pieces": [
+            {
+              "title": "Inspiration",
+              "composer": "Jan de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Florø Hornmusikk",
+          "play_order": 12,
+          "play_datetime": "2026-02-06T13:45:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Torgeir Halvorsen",
           "pieces": [
             {
               "title": "Inspiration",
@@ -1208,6 +2353,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Norheimsund Musikklag",
+          "play_order": 13,
+          "play_datetime": "2026-02-06T14:20:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Viljar Bjørsvik Rath",
+          "pieces": [
+            {
+              "title": "Arkansas",
+              "composer": "Jacob de Haan",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Fjordbrass - Lavik",
           "play_order": 14,
           "play_datetime": "2026-02-06T14:40:00",
@@ -1217,6 +2379,40 @@
             {
               "title": "l'Daedulus",
               "composer": "Andrea Price",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Fjordbrass - Lavik",
+          "play_order": 14,
+          "play_datetime": "2026-02-06T14:40:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Jason Burn",
+          "pieces": [
+            {
+              "title": "l'Daedulus",
+              "composer": "Andrea Price",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Hordvik musikklag",
+          "play_order": 15,
+          "play_datetime": "2026-02-06T15:00:00",
+          "venue": "Peer Gynt-salen",
+          "conductor": "Arian Pedersen",
+          "pieces": [
+            {
+              "title": "The Dark Side of the Moon",
+              "composer": "Paul Lovatt-Cooper",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1267,6 +2463,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Brøttum Brass",
+          "play_order": 1,
+          "play_datetime": "2026-02-07T15:00:00",
+          "venue": "Griegsalen",
+          "conductor": "David Morton",
+          "pieces": [
+            {
+              "title": "Vienna Nights",
+              "composer": "Philip Wilby",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Oslo Brass Band",
           "play_order": 2,
           "play_datetime": "2026-02-07T15:37:00",
@@ -1276,6 +2489,40 @@
             {
               "title": "Journey of the Lone Wolf",
               "composer": "Simon Dobson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Oslo Brass Band",
+          "play_order": 2,
+          "play_datetime": "2026-02-07T15:37:00",
+          "venue": "Griegsalen",
+          "conductor": "Sebastian Haukås",
+          "pieces": [
+            {
+              "title": "Journey of the Lone Wolf",
+              "composer": "Simon Dobson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Tertnes Brass",
+          "play_order": 3,
+          "play_datetime": "2026-02-07T16:10:00",
+          "venue": "Griegsalen",
+          "conductor": "Paul Holland",
+          "pieces": [
+            {
+              "title": "Harrison's Dream",
+              "composer": "Peter Graham",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1318,6 +2565,23 @@
           "image_url": null
         },
         {
+          "orchestra": "Manger Musikklag",
+          "play_order": 4,
+          "play_datetime": "2026-02-07T16:43:00",
+          "venue": "Griegsalen",
+          "conductor": "David King",
+          "pieces": [
+            {
+              "title": "This World",
+              "composer": "Thomas Doss",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Eikanger-Bjørsvik Musikklag",
           "play_order": 5,
           "play_datetime": "2026-02-07T17:16:00",
@@ -1327,6 +2591,40 @@
             {
               "title": "Dear Cassandra",
               "composer": "Ludovic Neurohr",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "play_order": 5,
+          "play_datetime": "2026-02-07T17:16:00",
+          "venue": "Griegsalen",
+          "conductor": "Ingar Bergby",
+          "pieces": [
+            {
+              "title": "Dear Cassandra",
+              "composer": "Ludovic Neurohr",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Stavanger Brass Band",
+          "play_order": 6,
+          "play_datetime": "2026-02-07T18:04:00",
+          "venue": "Griegsalen",
+          "conductor": "Ivan Meylemans",
+          "pieces": [
+            {
+              "title": "The Forest for the Trees",
+              "composer": "Wim Bex",
               "duration_minutes": null,
               "difficulty": null
             }
@@ -1369,6 +2667,40 @@
           "image_url": null
         },
         {
+          "orchestra": "Bjørsvik brass",
+          "play_order": 7,
+          "play_datetime": "2026-02-07T18:37:00",
+          "venue": "Griegsalen",
+          "conductor": "Andreas Hanson",
+          "pieces": [
+            {
+              "title": "On Alderley Edge",
+              "composer": "Peter Graham",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Oslofjord Brass",
+          "play_order": 8,
+          "play_datetime": "2026-02-07T19:10:00",
+          "venue": "Griegsalen",
+          "conductor": "Peter Szilvay",
+          "pieces": [
+            {
+              "title": "HorrorShow",
+              "composer": "Simon Dobson",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
           "orchestra": "Oslofjord Brass",
           "play_order": 8,
           "play_datetime": "2026-02-07T19:10:00",
@@ -1395,6 +2727,40 @@
             {
               "title": "Titan's Progress",
               "composer": "Hermann Pallhuber",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Kleppe Musikklag",
+          "play_order": 9,
+          "play_datetime": "2026-02-07T19:43:00",
+          "venue": "Griegsalen",
+          "conductor": "Tormod Flaten",
+          "pieces": [
+            {
+              "title": "Titan's Progress",
+              "composer": "Hermann Pallhuber",
+              "duration_minutes": null,
+              "difficulty": null
+            }
+          ],
+          "korpsnr": null,
+          "image_url": null
+        },
+        {
+          "orchestra": "Jaren Hornmusikkforening",
+          "play_order": 10,
+          "play_datetime": "2026-02-07T20:16:00",
+          "venue": "Griegsalen",
+          "conductor": "Michael Aaberg Thomsen",
+          "pieces": [
+            {
+              "title": "A Road Less Travelled By",
+              "composer": "Philip Sparke",
               "duration_minutes": null,
               "difficulty": null
             }

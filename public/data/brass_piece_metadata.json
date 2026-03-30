@@ -16,6 +16,11 @@
       "composer": "Idar Torskangerpoll"
     },
     {
+      "title": "A BRIEF SYMPHONIE OF TIME",
+      "slug": "a-brief-symphonie-of-time",
+      "composer": "Simon Dobson"
+    },
+    {
       "title": "A Brief Symphony of Time",
       "slug": "a-brief-symphony-of-time",
       "composer": "Simon Dobson"
@@ -85,6 +90,11 @@
       "composer": "Philip Sparke"
     },
     {
+      "title": "A Mavern Suite",
+      "slug": "a-mavern-suite",
+      "composer": "Philip Sparke"
+    },
+    {
       "title": "A Mendip Celebration",
       "slug": "a-mendip-celebration",
       "composer": "Darrol Barry"
@@ -93,6 +103,11 @@
       "title": "A Pastoral Symphony",
       "slug": "a-pastoral-symphony",
       "composer": "Robert Redhead"
+    },
+    {
+      "title": "A Road Less Travelled By",
+      "slug": "a-road-less-travelled-by",
+      "composer": "Philip Sparke"
     },
     {
       "title": "A Saddleworth Festival Overture",
@@ -125,6 +140,11 @@
       "title": "Acolastus",
       "slug": "acolastus",
       "composer": "Dudley Bright"
+    },
+    {
+      "title": "Ad Undas",
+      "slug": "ad-undas",
+      "composer": "Gareth Churcher"
     },
     {
       "title": "Afterlife",
@@ -274,6 +294,11 @@
       "composer": "John Brakstad"
     },
     {
+      "title": "Black Gold",
+      "slug": "black-gold",
+      "composer": "Thierry Deleruyelle"
+    },
+    {
       "title": "Blackout",
       "slug": "blackout",
       "composer": "Thomas Doss"
@@ -412,6 +437,11 @@
       "composer": "Edward Gregson"
     },
     {
+      "title": "Connotations for Brass Band",
+      "slug": "connotations-for-brass-band",
+      "composer": "Edward Gregson"
+    },
+    {
       "title": "Contest Day",
       "slug": "contest-day",
       "composer": "Eric Ball"
@@ -461,9 +491,19 @@
       "composer": "Edward Gregson"
     },
     {
+      "title": "Dante's Descent",
+      "slug": "dante-s-descent",
+      "composer": "Geert Jan Kroon"
+    },
+    {
       "title": "Daphnis et Cloé, 2nd Suite",
       "slug": "daphnis-et-cloe-2nd-suite",
       "composer": "Maurice Ravel, arr: Howard Snell"
+    },
+    {
+      "title": "Dear Cassandra",
+      "slug": "dear-cassandra",
+      "composer": "Ludovic Neurohr"
     },
     {
       "title": "Destination Moon",
@@ -519,6 +559,11 @@
       "composer": "Martin Ellerby"
     },
     {
+      "title": "Embracing Duality",
+      "slug": "embracing-duality",
+      "composer": "Ingebjørg Wilhelmsen"
+    },
+    {
       "title": "Endeavour",
       "slug": "endeavour",
       "composer": "Philip Sparke"
@@ -567,6 +612,11 @@
       "title": "Evolution - Five States of Change",
       "slug": "evolution-five-states-of-change",
       "composer": "Philip Sparke"
+    },
+    {
+      "title": "Ex Terra Lucem",
+      "slug": "ex-terra-lucem",
+      "composer": "Jonathan Bates"
     },
     {
       "title": "Excalibur",
@@ -854,6 +904,11 @@
       "composer": "Eric Ball"
     },
     {
+      "title": "Journey into Singularity",
+      "slug": "journey-into-singularity",
+      "composer": "Mathias Wehr"
+    },
+    {
       "title": "Journey of the Lone Wolf",
       "slug": "journey-of-the-lone-wolf",
       "composer": "Simon Dobson"
@@ -896,6 +951,16 @@
       "title": "Klotho",
       "slug": "klotho",
       "composer": "Torstein Aagaard-Nilsen"
+    },
+    {
+      "title": "l'Daedalus",
+      "slug": "l-daedalus",
+      "composer": "Andrea Price"
+    },
+    {
+      "title": "l'Daedulus",
+      "slug": "l-daedulus",
+      "composer": "Andrea Price"
     },
     {
       "title": "Labour and Love",
@@ -977,6 +1042,11 @@
       "length": 4.75
     },
     {
+      "title": "Mavern Suite",
+      "slug": "mavern-suite",
+      "composer": "Philips Sparke"
+    },
+    {
       "title": "Metropolis 1927",
       "slug": "metropolis-1927",
       "composer": "Peter Graham",
@@ -991,6 +1061,16 @@
       "title": "Millenium Flourishes",
       "slug": "millenium-flourishes",
       "composer": "Andrew Mackereth"
+    },
+    {
+      "title": "Modern Times",
+      "slug": "modern-times",
+      "composer": "Etienne Crausaz"
+    },
+    {
+      "title": "Momentum Sequences",
+      "slug": "momentum-sequences",
+      "composer": "Fredrick Schjelderup"
     },
     {
       "title": "Momentum Sequenses",
@@ -1011,6 +1091,11 @@
       "title": "Mountain Views",
       "slug": "mountain-views",
       "composer": "Bertrand Moren"
+    },
+    {
+      "title": "Music for a Festical",
+      "slug": "music-for-a-festical",
+      "composer": "Philip Sparke"
     },
     {
       "title": "Music for a Festival",
@@ -1106,6 +1191,11 @@
       "length": 3.83
     },
     {
+      "title": "Northern Passages",
+      "slug": "northern-passages",
+      "composer": "Kjetil Djønne"
+    },
+    {
       "title": "Norwegian Landscapes",
       "slug": "norwegian-landscapes",
       "composer": "Magnus Hylander"
@@ -1161,6 +1251,11 @@
       "title": "On the Shoulders of Giants",
       "slug": "on-the-shoulders-of-giants",
       "composer": "Peter Graham"
+    },
+    {
+      "title": "Oregon",
+      "slug": "oregon",
+      "composer": "Jacob de Haan"
     },
     {
       "title": "Oregon: Fantasy for Band",
@@ -1317,6 +1412,11 @@
       "title": "Ravenscroft Variations",
       "slug": "ravenscroft-variations",
       "composer": "Jacob Vilhelm Larsen"
+    },
+    {
+      "title": "Red Plane",
+      "slug": "red-plane",
+      "composer": "Lennert van Laene"
     },
     {
       "title": "Red Priest",
@@ -1517,6 +1617,11 @@
       "composer": "Philip Sparke"
     },
     {
+      "title": "Sinfonietta: \"The Wayfarer\"",
+      "slug": "sinfonietta-the-wayfarer",
+      "composer": "Eric Ball"
+    },
+    {
       "title": "Sketches from Nowhere",
       "slug": "sketches-from-nowhere",
       "composer": "Thomas Doss"
@@ -1525,6 +1630,11 @@
       "title": "So Spoke Albion",
       "slug": "so-spoke-albion",
       "composer": "Gavin Higgins"
+    },
+    {
+      "title": "Sollicitus",
+      "slug": "sollicitus",
+      "composer": "Fredrick Schjelderup"
     },
     {
       "title": "Sollicitus for Brassband and Percussion",
@@ -1724,6 +1834,11 @@
       "composer": "Geert Jan Kroon"
     },
     {
+      "title": "The Forest for the Trees",
+      "slug": "the-forest-for-the-trees",
+      "composer": "Wim Bex"
+    },
+    {
       "title": "The Forest of Dean",
       "slug": "the-forest-of-dean",
       "composer": "Derek Bourgeois"
@@ -1794,6 +1909,11 @@
       "title": "The Lost Village of Imber",
       "slug": "the-lost-village-of-imber",
       "composer": "Christopher Bond"
+    },
+    {
+      "title": "The Mermaid of Zennor",
+      "slug": "the-mermaid-of-zennor",
+      "composer": "Philip Harper"
     },
     {
       "title": "The Music of Thy Name",
@@ -1896,6 +2016,11 @@
       "composer": "Philip Sparke",
       "grade": 5,
       "length": 13.83
+    },
+    {
+      "title": "This World",
+      "slug": "this-world",
+      "composer": "Thomas Doss"
     },
     {
       "title": "Three Extraordinary Journeys",
@@ -2137,10 +2262,10 @@
     }
   ],
   "metadata": {
-    "total_pieces": 399,
+    "total_pieces": 424,
     "matched_with_repertoire": 59,
-    "match_rate_percent": 14.8,
+    "match_rate_percent": 13.9,
     "band_type": "brass",
-    "generated_at": "2026-03-30T11:53:05.257949+00:00"
+    "generated_at": "2026-03-30T19:47:19.076348+00:00"
   }
 }

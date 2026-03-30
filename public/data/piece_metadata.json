@@ -42,6 +42,13 @@
       "length": 6.75
     },
     {
+      "title": "A Brussels Requiem",
+      "slug": "a-brussels-requiem",
+      "composer": "Bert Appermont",
+      "grade": 6,
+      "length": 17.0
+    },
+    {
       "title": "A Cambridge Overture, Op. 116",
       "slug": "a-cambridge-overture-op-116",
       "composer": "Derek Bourgeois"
@@ -577,6 +584,11 @@
       "length": 14.0
     },
     {
+      "title": "Armenian Dances",
+      "slug": "armenian-dances",
+      "composer": "Alfred Reed"
+    },
+    {
       "title": "Armenian Dances, Part 1",
       "slug": "armenian-dances-part-1",
       "composer": "Alfred Reed",
@@ -723,6 +735,11 @@
       "composer": "Robert Russell Bennett"
     },
     {
+      "title": "Ave Maria",
+      "slug": "ave-maria",
+      "composer": "Anton Bruckner"
+    },
+    {
       "title": "Awakening",
       "slug": "awakening",
       "composer": "Torstein Aagaard-Nilsen",
@@ -861,7 +878,8 @@
       "title": "Bells for Stokowski",
       "slug": "bells-for-stokowski",
       "composer": "Michael Daugherty",
-      "grade": 6
+      "grade": 6,
+      "length": 13.83
     },
     {
       "title": "Benediction",
@@ -894,6 +912,11 @@
       "title": "Berkshire Overture",
       "slug": "berkshire-overture",
       "composer": "Jeffrey P. Funnell"
+    },
+    {
+      "title": "Besame Mucho",
+      "slug": "besame-mucho",
+      "composer": "Consuela Vèlasquez"
     },
     {
       "title": "Between the Two Rivers - Variations on \"Ein Feste Burg\"",
@@ -1284,6 +1307,11 @@
       "length": 5.08
     },
     {
+      "title": "Centennium",
+      "slug": "centennium",
+      "composer": "Fredrick"
+    },
+    {
       "title": "Centuria",
       "slug": "centuria",
       "composer": "James Swearingen",
@@ -1405,6 +1433,16 @@
       "composer": "Thierry Deleruyelle"
     },
     {
+      "title": "Choreography",
+      "slug": "choreography",
+      "composer": "Robert Sheldon"
+    },
+    {
+      "title": "Christian Daae på Daaevrebanen",
+      "slug": "christian-daae-pa-daaevrebanen",
+      "composer": "Daniel Haugen"
+    },
+    {
       "title": "Christian Daae på Maanen",
       "slug": "christian-daae-pa-maanen",
       "composer": "Daniel Haugen"
@@ -1466,6 +1504,11 @@
       "composer": "Sammy Chan, James van Heusen, arr. Lars Erik Gudim",
       "grade": 3,
       "length": 3.25
+    },
+    {
+      "title": "ComMUSICation",
+      "slug": "commusication",
+      "composer": "Stijn Roels"
     },
     {
       "title": "Compostela",
@@ -1617,6 +1660,11 @@
       "length": 7.58
     },
     {
+      "title": "Cortege de Bacchus",
+      "slug": "cortege-de-bacchus",
+      "composer": "Leo Delibes"
+    },
+    {
       "title": "Cossack Folk Dances",
       "slug": "cossack-folk-dances",
       "composer": "Franco Cesarini"
@@ -1701,6 +1749,11 @@
       "composer": "Itaru Sakai"
     },
     {
+      "title": "Dakota",
+      "slug": "dakota",
+      "composer": "Jacob de Haan"
+    },
+    {
       "title": "DÅM, Utdrag",
       "slug": "dam-utdrag",
       "composer": "Jan Roger Øren"
@@ -1722,6 +1775,11 @@
       "title": "Dance of the Tumblers",
       "slug": "dance-of-the-tumblers",
       "composer": "Nikolaj Rimskij-Korsakov"
+    },
+    {
+      "title": "Dance Scene from Queen Tamara",
+      "slug": "dance-scene-from-queen-tamara",
+      "composer": "Johan Halvorsen"
     },
     {
       "title": "Dance Suite",
@@ -1750,11 +1808,21 @@
       "composer": "Zoltán Kodály, trans. Jos Van deBraak"
     },
     {
+      "title": "Dancing Fire",
+      "slug": "dancing-fire",
+      "composer": "Kevin Day"
+    },
+    {
       "title": "Danse Celestiale",
       "slug": "danse-celestiale",
       "composer": "Robert Sheldon",
       "grade": 4,
       "length": 7.58
+    },
+    {
+      "title": "Danse Diabolique",
+      "slug": "danse-diabolique",
+      "composer": "Joseph Hellmesberger"
     },
     {
       "title": "Danse Folâtre",
@@ -2147,6 +2215,11 @@
       "composer": "Jan Van der Roost"
     },
     {
+      "title": "Earthdance",
+      "slug": "earthdance",
+      "composer": "Michael Sweeney"
+    },
+    {
       "title": "Edenstrand",
       "slug": "edenstrand",
       "composer": "Jerker Johansson"
@@ -2155,6 +2228,11 @@
       "title": "Eg ser deg utfor gluggen",
       "slug": "eg-ser-deg-utfor-gluggen",
       "composer": "Trad, arr. Lars Erik Gudim"
+    },
+    {
+      "title": "Eg veit i himmelrik ei borg",
+      "slug": "eg-veit-i-himmelrik-ei-borg",
+      "composer": "Norsk folketone"
     },
     {
       "title": "Egmont",
@@ -2243,9 +2321,19 @@
       "grade": 6
     },
     {
+      "title": "en MiniatyrSuite over Geirr Tveitts suite nr 2",
+      "slug": "en-miniatyrsuite-over-geirr-tveitts-suite-nr-2",
+      "composer": "Geirr Tveitt"
+    },
+    {
       "title": "En Natt på Bloksberg",
       "slug": "en-natt-pa-bloksberg",
       "composer": "Modest Petrovitsj Musorgskij"
+    },
+    {
+      "title": "En Skärgårdssägen",
+      "slug": "en-skargardssagen",
+      "composer": "Hugo Alfven"
     },
     {
       "title": "Encanto",
@@ -2471,6 +2559,11 @@
       "length": 9.0
     },
     {
+      "title": "Fanfare Exuberante",
+      "slug": "fanfare-exuberante",
+      "composer": "Satoshi Yagisawa"
+    },
+    {
       "title": "Fanfare - Flight to the Unknown World",
       "slug": "fanfare-flight-to-the-unknown-world",
       "composer": "Satoshi Yagisawa"
@@ -2493,6 +2586,11 @@
       "composer": "Aaron Copland",
       "grade": 6,
       "length": 3.0
+    },
+    {
+      "title": "Fanfare Hayabusa",
+      "slug": "fanfare-hayabusa",
+      "composer": "Satoshi Yagisawa"
     },
     {
       "title": "Fanfare, Romance and Finale",
@@ -3210,6 +3308,11 @@
       "length": 15.0
     },
     {
+      "title": "Gloriam",
+      "slug": "gloriam",
+      "composer": "Randall Standridge"
+    },
+    {
       "title": "Gloriana",
       "slug": "gloriana",
       "composer": null,
@@ -3331,6 +3434,11 @@
       "title": "Greek Dances - Sifneikos",
       "slug": "greek-dances-sifneikos",
       "composer": null
+    },
+    {
+      "title": "Grimm's Fairytale Forest",
+      "slug": "grimm-s-fairytale-forest",
+      "composer": "Jan van der Rost"
     },
     {
       "title": "Grotesque",
@@ -3653,6 +3761,11 @@
       "length": 9.67
     },
     {
+      "title": "Hyperprism",
+      "slug": "hyperprism",
+      "composer": "Edgard Varèse"
+    },
+    {
       "title": "I-77",
       "slug": "i-77",
       "composer": "Joshua Hummel"
@@ -3796,6 +3909,11 @@
       "composer": "John Barnes Chance",
       "grade": 5,
       "length": 7.83
+    },
+    {
+      "title": "Incantations",
+      "slug": "incantations",
+      "composer": "Robert W. Smith"
     },
     {
       "title": "Inchon",
@@ -3943,6 +4061,11 @@
       "composer": "Bert Appermont"
     },
     {
+      "title": "Italian Polka",
+      "slug": "italian-polka",
+      "composer": "Sergei Rachmaninov"
+    },
+    {
       "title": "Ivanhoe",
       "slug": "ivanhoe",
       "composer": "Bert Appermont"
@@ -4000,6 +4123,11 @@
       "slug": "jig",
       "composer": "Gustav Holst, arr. Johan de Meij",
       "length": 3.42
+    },
+    {
+      "title": "John and Jim",
+      "slug": "john-and-jim",
+      "composer": "Viet Cuong"
     },
     {
       "title": "John Williams Fantasy",
@@ -4207,6 +4335,11 @@
       "length": 7.25
     },
     {
+      "title": "La Inmortal",
+      "slug": "la-inmortal",
+      "composer": "Ferrer Ferran"
+    },
+    {
       "title": "La Lira de Pozuelo",
       "slug": "la-lira-de-pozuelo",
       "composer": "Luis Serrano Alarcon",
@@ -4239,6 +4372,11 @@
       "title": "La Torre de Hercules",
       "slug": "la-torre-de-hercules",
       "composer": "Ferrer Ferran"
+    },
+    {
+      "title": "La Valse - Poeme choregraphique",
+      "slug": "la-valse-poeme-choregraphique",
+      "composer": "Maurice Ravel"
     },
     {
       "title": "La Ville Blanche et Bleue",
@@ -4383,6 +4521,11 @@
       "composer": "William Himes",
       "grade": 4,
       "length": 7.0
+    },
+    {
+      "title": "Life Eternal",
+      "slug": "life-eternal",
+      "composer": "Rossano Galante"
     },
     {
       "title": "Life in the Capital City",
@@ -4725,6 +4868,11 @@
       "length": 7.25
     },
     {
+      "title": "Medea's Dance of Vengeance",
+      "slug": "medea-s-dance-of-vengeance",
+      "composer": "Samuel Barber"
+    },
+    {
       "title": "Meditations",
       "slug": "meditations",
       "composer": "Martin Ellerby",
@@ -4845,6 +4993,11 @@
       "title": "Momentum Sequences",
       "slug": "momentum-sequences",
       "composer": "Fredrick Schjelderup"
+    },
+    {
+      "title": "Mont-Blanc",
+      "slug": "mont-blanc",
+      "composer": "Otto M. Schwarz"
     },
     {
       "title": "Mont Blanc - La Voie Royale",
@@ -5001,6 +5154,11 @@
       "composer": "Wilfred Heaton"
     },
     {
+      "title": "Mysterious Morning - for wind ensemble and soprano",
+      "slug": "mysterious-morning-for-wind-ensemble-and-soprano",
+      "composer": "Gary Blake Peterson"
+    },
+    {
       "title": "Myth Forest - Hestefallstjønn",
       "slug": "myth-forest-hestefallstjnn",
       "composer": "Stig Nordhagen",
@@ -5082,6 +5240,11 @@
       "slug": "nimrod",
       "composer": "Edward Elgar, arr. Alfred Reed",
       "length": 3.75
+    },
+    {
+      "title": "Nitescence Crépusculaire",
+      "slug": "nitescence-crepusculaire",
+      "composer": "Alexandre Kosmicki"
     },
     {
       "title": "Nitro",
@@ -5294,6 +5457,11 @@
       "composer": "Torstein Aagaard-Nilsen"
     },
     {
+      "title": "Olympic Wind 2024",
+      "slug": "olympic-wind-2024",
+      "composer": "Guillaume Detrez"
+    },
+    {
       "title": "Olympica",
       "slug": "olympica",
       "composer": "Jan Van der Roost",
@@ -5352,6 +5520,11 @@
       "length": 8.23
     },
     {
+      "title": "Os Passaros Do Brasil",
+      "slug": "os-passaros-do-brasil",
+      "composer": "Kees Vlak"
+    },
+    {
       "title": "Othello",
       "slug": "othello",
       "composer": "Alfred Reed",
@@ -5384,6 +5557,11 @@
       "title": "Ouverture, Scherzo og Finale, op. 28",
       "slug": "ouverture-scherzo-og-finale-op-28",
       "composer": "Morten Gaathaug"
+    },
+    {
+      "title": "Over the Moon",
+      "slug": "over-the-moon",
+      "composer": "Frank Ticheli"
     },
     {
       "title": "Over the Rainbow",
@@ -5466,6 +5644,11 @@
       "title": "Overtyre til Barbereren i Sevilla",
       "slug": "overtyre-til-barbereren-i-sevilla",
       "composer": "Gioachino Rossini"
+    },
+    {
+      "title": "Oz: The Green Wizard",
+      "slug": "oz-the-green-wizard",
+      "composer": "Philip Ceunen"
     },
     {
       "title": "Pacific Dreams",
@@ -5921,6 +6104,11 @@
       "composer": "Peter Meechan"
     },
     {
+      "title": "Puszta",
+      "slug": "puszta",
+      "composer": "Jan Van der Roost"
+    },
+    {
       "title": "Puszta, 1., 2. og 3. sats",
       "slug": "puszta-1-2-og-3-sats",
       "composer": "Jan Van der Roost"
@@ -6251,6 +6439,11 @@
       "composer": "Terje Grøndahl"
     },
     {
+      "title": "Saga Candida",
+      "slug": "saga-candida",
+      "composer": "Bert Appermont"
+    },
+    {
       "title": "Saga Candida - 7 impressions of a Witch Hunt",
       "slug": "saga-candida-7-impressions-of-a-witch-hunt",
       "composer": "Bert Appermont"
@@ -6295,6 +6488,11 @@
       "title": "Schaffs Mit Mir, Gott",
       "slug": "schaffs-mit-mir-gott",
       "composer": "Johan Sebastian Bach"
+    },
+    {
+      "title": "Scherzo for X-Wings",
+      "slug": "scherzo-for-x-wings",
+      "composer": "John Williams"
     },
     {
       "title": "Scintillant",
@@ -7166,6 +7364,11 @@
       "composer": "Dmitri Shostakovich, arr. Peter Sebastian Szilvay"
     },
     {
+      "title": "Symfoni No. 9 in E.flat Major, Op.70",
+      "slug": "symfoni-no-9-in-e-flat-major-op-70",
+      "composer": "Dmitri Shostakovitch"
+    },
+    {
       "title": "Symfoni nr. 1, 3. og 4. sats",
       "slug": "symfoni-nr-1-3-og-4-sats",
       "composer": "Axel Poleman"
@@ -7367,17 +7570,23 @@
     {
       "title": "Symphony in B flat for Concert Band",
       "slug": "symphony-in-b-flat-for-concert-band",
-      "composer": "Paul Hindemith"
+      "composer": "Paul Hindemith",
+      "grade": 6,
+      "length": 18.25
     },
     {
       "title": "Symphony in B flat for Concert Band, 1. sats",
       "slug": "symphony-in-b-flat-for-concert-band-1-sats",
-      "composer": "Paul Hindemith"
+      "composer": "Paul Hindemith",
+      "grade": 6,
+      "length": 7.16
     },
     {
       "title": "Symphony in B flat for Concert Band, 2. og 3. sats",
       "slug": "symphony-in-b-flat-for-concert-band-2-og-3-sats",
-      "composer": "Paul Hindemith"
+      "composer": "Paul Hindemith",
+      "grade": 6,
+      "length": 10.67
     },
     {
       "title": "Symphony IV (Syrinx)",
@@ -7389,7 +7598,9 @@
     {
       "title": "Symphony no. 1 - Asgard",
       "slug": "symphony-no-1-asgard",
-      "composer": "Teo Aparicio-Barberan"
+      "composer": "Teo Aparicio-Barberan",
+      "grade": 5,
+      "length": 21.0
     },
     {
       "title": "Symphony no. 1 for Band",
@@ -7411,7 +7622,9 @@
     {
       "title": "Symphony no. 1, ‘Gilgamesh’",
       "slug": "symphony-no-1-gilgamesh",
-      "composer": "Bert Appermont"
+      "composer": "Bert Appermont",
+      "grade": 6,
+      "length": 28.0
     },
     {
       "title": "Symphony no. 1, ‘Gilgamesh’, 2. sats Battle of Titans",
@@ -7463,7 +7676,9 @@
     {
       "title": "Symphony no. 2",
       "slug": "symphony-no-2",
-      "composer": "Frank Ticheli"
+      "composer": "Frank Ticheli",
+      "grade": 6,
+      "length": 22.0
     },
     {
       "title": "Symphony No. 2, 1. movement",
@@ -7476,12 +7691,14 @@
       "slug": "symphony-no-2-for-band",
       "composer": "John Barnes Chance",
       "grade": 6,
-      "length": 12.0
+      "length": 18.0
     },
     {
       "title": "Symphony no. 2 for Band, 2. og 3. sats",
       "slug": "symphony-no-2-for-band-2-og-3-sats",
-      "composer": "John Barnes Chance"
+      "composer": "John Barnes Chance",
+      "grade": 6,
+      "length": 10.0
     },
     {
       "title": "Symphony no. 2, Genesis",
@@ -7553,7 +7770,9 @@
     {
       "title": "Symphony no. 6, A Cotswold Symphony",
       "slug": "symphony-no-6-a-cotswold-symphony",
-      "composer": "Derek Bourgeois"
+      "composer": "Derek Bourgeois",
+      "grade": 6,
+      "length": 31.0
     },
     {
       "title": "Symphony no. 7",
@@ -7566,7 +7785,8 @@
       "title": "Symphony no. 8",
       "slug": "symphony-no-8",
       "composer": "David Maslanka",
-      "length": 1.3
+      "grade": 6,
+      "length": 42.0
     },
     {
       "title": "Symphony No. 9 \"The New World\", 4. sats Finale",
@@ -7637,6 +7857,11 @@
       "title": "Tales of the Unexpected",
       "slug": "tales-of-the-unexpected",
       "composer": "Farmers Market/Stian Carstensen, arr. Christian Clasén og Jarle Storløkken"
+    },
+    {
+      "title": "Talisman",
+      "slug": "talisman",
+      "composer": "Thierry Deleruyelle"
     },
     {
       "title": "Tam o'Shanter",
@@ -7834,6 +8059,11 @@
       "composer": "Alexander Mosolov"
     },
     {
+      "title": "The Jedi steps and Finale",
+      "slug": "the-jedi-steps-and-finale",
+      "composer": "John Williams"
+    },
+    {
       "title": "The Junction Point",
       "slug": "the-junction-point",
       "composer": "John Brakstad"
@@ -7897,6 +8127,11 @@
       "title": "The Lost Castle",
       "slug": "the-lost-castle",
       "composer": "Otto M. Schwarz"
+    },
+    {
+      "title": "The Low-Down Brown Get-Down",
+      "slug": "the-low-down-brown-get-down",
+      "composer": "Omar Thomas"
     },
     {
       "title": "The Magnetic Mountain",
@@ -7973,6 +8208,11 @@
       "composer": "Peter Graham"
     },
     {
+      "title": "The Red Stone",
+      "slug": "the-red-stone",
+      "composer": "Bert Appermont"
+    },
+    {
       "title": "The Rejoicing",
       "slug": "the-rejoicing",
       "composer": "Händel, Mark Hindsley"
@@ -7991,6 +8231,11 @@
       "title": "The Saga of Haakon the Good",
       "slug": "the-saga-of-haakon-the-good",
       "composer": "Philip Sparke"
+    },
+    {
+      "title": "The Saint and The Royal",
+      "slug": "the-saint-and-the-royal",
+      "composer": "Eric Swiggers"
     },
     {
       "title": "The Seasons",
@@ -8018,6 +8263,11 @@
       "title": "The Shadow of Golgatha",
       "slug": "the-shadow-of-golgatha",
       "composer": "Wouter Lenaerts"
+    },
+    {
+      "title": "The son of light",
+      "slug": "the-son-of-light",
+      "composer": "Bertrand Moren"
     },
     {
       "title": "The Soul has Many Motions",
@@ -8262,6 +8512,11 @@
       "composer": "Jon Øivind Ness"
     },
     {
+      "title": "Til Eulenspiegel",
+      "slug": "til-eulenspiegel",
+      "composer": "Richard Strauss"
+    },
+    {
       "title": "Time for Celebration",
       "slug": "time-for-celebration",
       "composer": "Fredrick Schjelderup"
@@ -8419,6 +8674,11 @@
       "length": 13.08
     },
     {
+      "title": "Trencadís",
+      "slug": "trencadis",
+      "composer": "Bert Appermont"
+    },
+    {
       "title": "Tribute to Irving Berlin",
       "slug": "tribute-to-irving-berlin",
       "composer": "Irving Berlin, arr. Warren Barker",
@@ -8445,6 +8705,16 @@
       "title": "Trittico",
       "slug": "trittico",
       "composer": "Václav Nelhýbel"
+    },
+    {
+      "title": "Triumph of the Argonauts",
+      "slug": "triumph-of-the-argonauts",
+      "composer": "Robert Sheldon"
+    },
+    {
+      "title": "Trost i Taklampa",
+      "slug": "trost-i-taklampa",
+      "composer": "Finn Ludt"
     },
     {
       "title": "Tunbridge Fair",
@@ -8612,6 +8882,11 @@
       "composer": "Robert Edward Jager",
       "grade": 4,
       "length": 10.17
+    },
+    {
+      "title": "Variations on America",
+      "slug": "variations-on-america",
+      "composer": "Charles Ives"
     },
     {
       "title": "Variations on Laudate Dominum",
@@ -8811,6 +9086,11 @@
       "length": 14.42
     },
     {
+      "title": "Waterfall",
+      "slug": "waterfall",
+      "composer": "Gauthier Dupertuis"
+    },
+    {
       "title": "Wedding Dance",
       "slug": "wedding-dance",
       "composer": "Jacques Press",
@@ -8918,6 +9198,11 @@
       "composer": "Philip Sparke"
     },
     {
+      "title": "WINDOW TO THE SUN - In the Heart of the Alps",
+      "slug": "window-to-the-sun-in-the-heart-of-the-alps",
+      "composer": "Thomas Doss"
+    },
+    {
       "title": "Windows of the World",
       "slug": "windows-of-the-world",
       "composer": "Peter Graham",
@@ -8937,11 +9222,26 @@
       "composer": "Bert Appermont"
     },
     {
+      "title": "Windsprints",
+      "slug": "windsprints",
+      "composer": "Richard L. Saucedo"
+    },
+    {
       "title": "Winged Wictory",
       "slug": "winged-wictory",
       "composer": null,
       "grade": 4,
       "length": 7.0
+    },
+    {
+      "title": "Winter Dances: I. November",
+      "slug": "winter-dances-i-november",
+      "composer": "Fergal Carrol"
+    },
+    {
+      "title": "Winter Dances: III. January",
+      "slug": "winter-dances-iii-january",
+      "composer": "Fergal Carrol"
     },
     {
       "title": "Winter Games",
@@ -9052,10 +9352,10 @@
     }
   ],
   "metadata": {
-    "total_pieces": 1526,
-    "matched_with_repertoire": 675,
-    "match_rate_percent": 44.2,
+    "total_pieces": 1582,
+    "matched_with_repertoire": 685,
+    "match_rate_percent": 43.3,
     "band_type": "wind",
-    "generated_at": "2026-03-30T11:53:05.250071+00:00"
+    "generated_at": "2026-03-30T19:47:19.068421+00:00"
   }
 }

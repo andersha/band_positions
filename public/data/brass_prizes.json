@@ -17,6 +17,30 @@
           "korpsnr": 11
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Sola Brass Band",
+          "korpsnr": 11
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Sola Brass Band",
+          "korpsnr": 11
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Brøttum Brass",
+          "korpsnr": 24
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Brøttum Brass",
+          "korpsnr": 24
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Flygelhorn",
           "orchestra": "Brøttum Brass",
@@ -47,6 +71,30 @@
           "korpsnr": 98
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Vennesla Kristne Brass",
+          "korpsnr": 98
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Vennesla Kristne Brass",
+          "korpsnr": 98
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Musikkorpset Gjallarhorn",
+          "korpsnr": 23
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Musikkorpset Gjallarhorn",
+          "korpsnr": 23
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Musikkorpset Gjallarhorn",
@@ -73,6 +121,30 @@
         {
           "prize_type": "group",
           "instrument": "Tuba",
+          "orchestra": "Oslo Brass Band",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Oslo Brass Band",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Oslo Brass Band",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Oslo Brass Band",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
           "orchestra": "Oslo Brass Band",
           "korpsnr": 4
         },
@@ -107,6 +179,30 @@
           "korpsnr": 8
         },
         {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Krohnengen Brass Band",
+          "korpsnr": 6
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Krohnengen Brass Band",
+          "korpsnr": 6
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Krohnengen Brass Band",
@@ -137,6 +233,30 @@
           "korpsnr": 12
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Flygelhorn",
           "orchestra": "Tomra Brass Band",
@@ -165,6 +285,30 @@
           "instrument": "Kornett",
           "orchestra": "Oslo Brass Band",
           "korpsnr": 4
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Oslo Brass Band",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Oslo Brass Band",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Brøttum Brass",
+          "korpsnr": 24
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Brøttum Brass",
+          "korpsnr": 24
         },
         {
           "prize_type": "soloist",
@@ -197,6 +341,30 @@
           "korpsnr": 42
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Gjøvik Bybrass",
+          "korpsnr": 42
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Gjøvik Bybrass",
+          "korpsnr": 42
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Prinsipal",
+          "orchestra": "Tysnes Musikklag",
+          "korpsnr": 33
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Prinsipal",
+          "orchestra": "Tysnes Musikklag",
+          "korpsnr": 33
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Prinsipal",
           "orchestra": "Tysnes Musikklag",
@@ -225,6 +393,30 @@
           "instrument": "Tuba",
           "orchestra": "Skui Brassband",
           "korpsnr": 49
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Skui Brassband",
+          "korpsnr": 49
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Skui Brassband",
+          "korpsnr": 49
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Soprankornett",
+          "orchestra": "Tertnes Amatørkorps",
+          "korpsnr": 18
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Soprankornett",
+          "orchestra": "Tertnes Amatørkorps",
+          "korpsnr": 18
         },
         {
           "prize_type": "soloist",
@@ -257,6 +449,30 @@
           "korpsnr": 1
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Stavanger Brass Band",
+          "korpsnr": 1
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Stavanger Brass Band",
+          "korpsnr": 1
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trumpet nr 1",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trumpet nr 1",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Trumpet nr 1",
           "orchestra": "Manger Musikklag",
@@ -287,6 +503,30 @@
           "korpsnr": 11
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Sola Brass Band",
+          "korpsnr": 11
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Sola Brass Band",
+          "korpsnr": 11
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Askøy Brass Band",
+          "korpsnr": 14
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Askøy Brass Band",
+          "korpsnr": 14
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Askøy Brass Band",
@@ -315,6 +555,30 @@
           "instrument": "Trombone",
           "orchestra": "Oslo Brass Band",
           "korpsnr": 4
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Oslo Brass Band",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Oslo Brass Band",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Soprankornett",
+          "orchestra": "Tromsø Brass",
+          "korpsnr": 26
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Soprankornett",
+          "orchestra": "Tromsø Brass",
+          "korpsnr": 26
         },
         {
           "prize_type": "soloist",
@@ -347,6 +611,30 @@
           "korpsnr": 36
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Follesø Musikklag",
+          "korpsnr": 36
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Follesø Musikklag",
+          "korpsnr": 36
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Haukås Musikklag",
+          "korpsnr": 27
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Haukås Musikklag",
+          "korpsnr": 27
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Flygelhorn",
           "orchestra": "Haukås Musikklag",
@@ -375,6 +663,30 @@
           "instrument": "Baryton",
           "orchestra": "Stavanger Kommunes Korps",
           "korpsnr": 62
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Baryton",
+          "orchestra": "Stavanger Kommunes Korps",
+          "korpsnr": 62
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Baryton",
+          "orchestra": "Stavanger Kommunes Korps",
+          "korpsnr": 62
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Rosendal Musikklag",
+          "korpsnr": 71
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Rosendal Musikklag",
+          "korpsnr": 71
         },
         {
           "prize_type": "soloist",
@@ -407,6 +719,30 @@
           "korpsnr": 3
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Sandefjord Brass Symposium",
+          "korpsnr": 16
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Sandefjord Brass Symposium",
+          "korpsnr": 16
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Flygelhorn",
           "orchestra": "Sandefjord Brass Symposium",
@@ -433,6 +769,30 @@
         {
           "prize_type": "group",
           "instrument": "Slagverk",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
           "orchestra": "Tertnes Brass",
           "korpsnr": 12
         },
@@ -467,6 +827,30 @@
           "korpsnr": 26
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Tromsø Brass",
+          "korpsnr": 26
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Tromsø Brass",
+          "korpsnr": 26
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Haukås Musikklag",
+          "korpsnr": 27
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Haukås Musikklag",
+          "korpsnr": 27
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Haukås Musikklag",
@@ -495,6 +879,30 @@
           "instrument": "Slagverk",
           "orchestra": "Jølster Musikklag",
           "korpsnr": 29
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Jølster Musikklag",
+          "korpsnr": 29
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Jølster Musikklag",
+          "korpsnr": 29
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal kornett",
+          "orchestra": "Laksevåg Musikkforening",
+          "korpsnr": 38
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal kornett",
+          "orchestra": "Laksevåg Musikkforening",
+          "korpsnr": 38
         },
         {
           "prize_type": "soloist",
@@ -527,6 +935,30 @@
           "korpsnr": 40
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Manger Old Star Brass",
+          "korpsnr": 40
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Manger Old Star Brass",
+          "korpsnr": 40
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal kornett",
+          "orchestra": "Skittenelv Musikkorps",
+          "korpsnr": 103
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal kornett",
+          "orchestra": "Skittenelv Musikkorps",
+          "korpsnr": 103
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Principal kornett",
           "orchestra": "Skittenelv Musikkorps",
@@ -553,6 +985,30 @@
         {
           "prize_type": "group",
           "instrument": "Kornett",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
           "orchestra": "Eikanger-Bjørsvik Musikklag",
           "korpsnr": 2
         },
@@ -587,6 +1043,30 @@
           "korpsnr": 17
         },
         {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Haukås Musikklag",
+          "korpsnr": 27
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Haukås Musikklag",
+          "korpsnr": 27
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Haukås Musikklag",
@@ -615,6 +1095,30 @@
           "instrument": "Slagverk",
           "orchestra": "Sørum Musikklag",
           "korpsnr": 22
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Sørum Musikklag",
+          "korpsnr": 22
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Sørum Musikklag",
+          "korpsnr": 22
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Follesø Musikklag",
+          "korpsnr": 36
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Follesø Musikklag",
+          "korpsnr": 36
         },
         {
           "prize_type": "soloist",
@@ -647,6 +1151,30 @@
           "korpsnr": 34
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Rong Brass",
+          "korpsnr": 34
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Rong Brass",
+          "korpsnr": 34
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Musikkorpset Gjallarhorn",
+          "korpsnr": 23
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Musikkorpset Gjallarhorn",
+          "korpsnr": 23
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Musikkorpset Gjallarhorn",
@@ -677,6 +1205,30 @@
           "korpsnr": 56
         },
         {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Grenland Brass",
+          "korpsnr": 56
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Grenland Brass",
+          "korpsnr": 56
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Kopervik Musikkorps",
+          "korpsnr": 91
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Kopervik Musikkorps",
+          "korpsnr": 91
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Kopervik Musikkorps",
@@ -703,6 +1255,30 @@
         {
           "prize_type": "group",
           "instrument": "Slagverk",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Basstrombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Basstrombone",
           "orchestra": "Manger Musikklag",
           "korpsnr": 3
         },
@@ -737,6 +1313,30 @@
           "korpsnr": 8
         },
         {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Kleppe Musikklag",
+          "korpsnr": 9
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Kleppe Musikklag",
+          "korpsnr": 9
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Kleppe Musikklag",
@@ -765,6 +1365,30 @@
           "instrument": "Trombone",
           "orchestra": "Jølster Musikklag",
           "korpsnr": 29
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Jølster Musikklag",
+          "korpsnr": 29
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Jølster Musikklag",
+          "korpsnr": 29
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Ess-tuba",
+          "orchestra": "Ørskog Brass",
+          "korpsnr": 21
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Ess-tuba",
+          "orchestra": "Ørskog Brass",
+          "korpsnr": 21
         },
         {
           "prize_type": "soloist",
@@ -797,6 +1421,30 @@
           "korpsnr": 91
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Kopervik Musikkorps",
+          "korpsnr": 91
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Kopervik Musikkorps",
+          "korpsnr": 91
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Fræna Musikkorps",
+          "korpsnr": 45
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Fræna Musikkorps",
+          "korpsnr": 45
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Kornett",
           "orchestra": "Fræna Musikkorps",
@@ -825,6 +1473,30 @@
           "instrument": "Slagverk",
           "orchestra": "Kjølsdalen Musikklag",
           "korpsnr": 84
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Kjølsdalen Musikklag",
+          "korpsnr": 84
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Kjølsdalen Musikklag",
+          "korpsnr": 84
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "Langhus Brass",
+          "korpsnr": 46
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "Langhus Brass",
+          "korpsnr": 46
         },
         {
           "prize_type": "soloist",
@@ -857,6 +1529,30 @@
           "korpsnr": 6
         },
         {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Krohnengen Brass Band",
+          "korpsnr": 6
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Krohnengen Brass Band",
+          "korpsnr": 6
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Trombone",
           "orchestra": "Tomra Brass Band",
@@ -885,6 +1581,30 @@
           "instrument": "Slagverk",
           "orchestra": "Sørum Musikklag",
           "korpsnr": 22
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Sørum Musikklag",
+          "korpsnr": 22
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Sørum Musikklag",
+          "korpsnr": 22
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo Euphonium",
+          "orchestra": "Oslo Brass Band",
+          "korpsnr": 4
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo Euphonium",
+          "orchestra": "Oslo Brass Band",
+          "korpsnr": 4
         },
         {
           "prize_type": "soloist",
@@ -917,6 +1637,30 @@
           "korpsnr": 21
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Ørskog Brass",
+          "korpsnr": 21
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Ørskog Brass",
+          "korpsnr": 21
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Agder Brass",
+          "korpsnr": 25
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Agder Brass",
+          "korpsnr": 25
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Agder Brass",
@@ -947,6 +1691,30 @@
           "korpsnr": 37
         },
         {
+          "prize_type": "group",
+          "instrument": "Euphonium",
+          "orchestra": "Bergen Brass Band",
+          "korpsnr": 37
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Euphonium",
+          "orchestra": "Bergen Brass Band",
+          "korpsnr": 37
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Flesland Musikklag",
+          "korpsnr": 20
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Flesland Musikklag",
+          "korpsnr": 20
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Kornett",
           "orchestra": "Flesland Musikklag",
@@ -975,6 +1743,30 @@
           "instrument": "Slagverk",
           "orchestra": "Rosendal Musikklag",
           "korpsnr": 71
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Rosendal Musikklag",
+          "korpsnr": 71
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Rosendal Musikklag",
+          "korpsnr": 71
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo Euphonium",
+          "orchestra": "Frei Hornmusikk",
+          "korpsnr": 55
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo Euphonium",
+          "orchestra": "Frei Hornmusikk",
+          "korpsnr": 55
         },
         {
           "prize_type": "soloist",
@@ -1003,6 +1795,30 @@
         {
           "prize_type": "group",
           "instrument": "Tuba",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solotrombone",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solotrombone",
           "orchestra": "Eikanger-Bjørsvik Musikklag",
           "korpsnr": 2
         },
@@ -1037,6 +1853,30 @@
           "korpsnr": 14
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Askøy Brass Band",
+          "korpsnr": 14
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Askøy Brass Band",
+          "korpsnr": 14
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal",
+          "orchestra": "Sola Brass Band",
+          "korpsnr": 11
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal",
+          "orchestra": "Sola Brass Band",
+          "korpsnr": 11
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Principal",
           "orchestra": "Sola Brass Band",
@@ -1065,6 +1905,30 @@
           "instrument": "Tuba",
           "orchestra": "Musikkorpset Gjallarhorn",
           "korpsnr": 23
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Musikkorpset Gjallarhorn",
+          "korpsnr": 23
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Musikkorpset Gjallarhorn",
+          "korpsnr": 23
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Alexander Brass Band",
+          "korpsnr": 35
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Alexander Brass Band",
+          "korpsnr": 35
         },
         {
           "prize_type": "soloist",
@@ -1097,6 +1961,30 @@
           "korpsnr": 26
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Tromsø Brass",
+          "korpsnr": 26
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Tromsø Brass",
+          "korpsnr": 26
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Lindås Brass",
+          "korpsnr": 44
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Lindås Brass",
+          "korpsnr": 44
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Flygelhorn",
           "orchestra": "Lindås Brass",
@@ -1125,6 +2013,30 @@
           "instrument": "Tuba",
           "orchestra": "Musikkorpset Heimdal",
           "korpsnr": 75
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Musikkorpset Heimdal",
+          "korpsnr": 75
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Musikkorpset Heimdal",
+          "korpsnr": 75
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Florø Hornmusikk",
+          "korpsnr": 68
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Florø Hornmusikk",
+          "korpsnr": 68
         },
         {
           "prize_type": "soloist",
@@ -1157,6 +2069,30 @@
           "korpsnr": 2
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal",
+          "orchestra": "Ila Brass Band",
+          "korpsnr": 10
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal",
+          "orchestra": "Ila Brass Band",
+          "korpsnr": 10
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Principal",
           "orchestra": "Ila Brass Band",
@@ -1185,6 +2121,30 @@
           "instrument": "Kornett",
           "orchestra": "Tomra Brass Band",
           "korpsnr": 17
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "1. Trombone",
+          "orchestra": "Sandefjord Brass Symposium",
+          "korpsnr": 16
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "1. Trombone",
+          "orchestra": "Sandefjord Brass Symposium",
+          "korpsnr": 16
         },
         {
           "prize_type": "soloist",
@@ -1217,6 +2177,30 @@
           "korpsnr": 19
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Oster Brass",
+          "korpsnr": 19
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Oster Brass",
+          "korpsnr": 19
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal",
+          "orchestra": "Frei Hornmusikk",
+          "korpsnr": 55
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal",
+          "orchestra": "Frei Hornmusikk",
+          "korpsnr": 55
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Principal",
           "orchestra": "Frei Hornmusikk",
@@ -1245,6 +2229,30 @@
           "instrument": "Trombone",
           "orchestra": "Agder Brass",
           "korpsnr": 25
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Agder Brass",
+          "korpsnr": 25
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Agder Brass",
+          "korpsnr": 25
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal",
+          "orchestra": "Bjørsvik Brass",
+          "korpsnr": 5
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal",
+          "orchestra": "Bjørsvik Brass",
+          "korpsnr": 5
         },
         {
           "prize_type": "soloist",
@@ -1277,6 +2285,30 @@
           "korpsnr": 33
         },
         {
+          "prize_type": "group",
+          "instrument": "Horn og Flygelhorn",
+          "orchestra": "Tysnes Musikklag",
+          "korpsnr": 33
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn og Flygelhorn",
+          "orchestra": "Tysnes Musikklag",
+          "korpsnr": 33
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Flå Musikkorps",
+          "korpsnr": 43
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Flå Musikkorps",
+          "korpsnr": 43
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Kornett",
           "orchestra": "Flå Musikkorps",
@@ -1305,6 +2337,30 @@
           "instrument": "Slagverk",
           "orchestra": "Ila Brass Band",
           "korpsnr": 10
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Ila Brass Band",
+          "korpsnr": 10
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Ila Brass Band",
+          "korpsnr": 10
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
         },
         {
           "prize_type": "soloist",
@@ -1337,6 +2393,30 @@
           "korpsnr": 8
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solotrombone",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solotrombone",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solotrombone",
           "orchestra": "Tertnes Brass",
@@ -1367,6 +2447,30 @@
           "korpsnr": 5
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Bjørsvik Brass",
+          "korpsnr": 5
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Bjørsvik Brass",
+          "korpsnr": 5
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solotrombone",
+          "orchestra": "Radøy Brass",
+          "korpsnr": 28
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solotrombone",
+          "orchestra": "Radøy Brass",
+          "korpsnr": 28
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solotrombone",
           "orchestra": "Radøy Brass",
@@ -1395,6 +2499,30 @@
           "instrument": "Horn",
           "orchestra": "Rong Brass",
           "korpsnr": 34
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Rong Brass",
+          "korpsnr": 34
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Rong Brass",
+          "korpsnr": 34
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Grenland Brass",
+          "korpsnr": 56
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Grenland Brass",
+          "korpsnr": 56
         },
         {
           "prize_type": "soloist",
@@ -1427,6 +2555,30 @@
           "korpsnr": 45
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Fræna Musikkorps",
+          "korpsnr": 45
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Fræna Musikkorps",
+          "korpsnr": 45
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Randaberg Musikkorps",
+          "korpsnr": 69
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Randaberg Musikkorps",
+          "korpsnr": 69
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Randaberg Musikkorps",
@@ -1455,6 +2607,30 @@
           "instrument": "Kornett",
           "orchestra": "Eikanger-Bjørsvik Musikklag",
           "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Basstrombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Basstrombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
         },
         {
           "prize_type": "soloist",
@@ -1487,6 +2663,30 @@
           "korpsnr": 5
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Bjørsvik Brass",
+          "korpsnr": 5
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Bjørsvik Brass",
+          "korpsnr": 5
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solohorn",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solohorn",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solohorn",
           "orchestra": "Tertnes Brass",
@@ -1517,6 +2717,30 @@
           "korpsnr": 17
         },
         {
+          "prize_type": "group",
+          "instrument": "Euphonium",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Euphonium",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Alexander Brass Band",
+          "korpsnr": 35
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Alexander Brass Band",
+          "korpsnr": 35
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Alexander Brass Band",
@@ -1545,6 +2769,30 @@
           "instrument": "Slagverk",
           "orchestra": "Flesland Musikklag",
           "korpsnr": 20
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Flesland Musikklag",
+          "korpsnr": 20
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Flesland Musikklag",
+          "korpsnr": 20
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Gjøvik Bybrass",
+          "korpsnr": 42
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Gjøvik Bybrass",
+          "korpsnr": 42
         },
         {
           "prize_type": "soloist",
@@ -1573,6 +2821,30 @@
         {
           "prize_type": "group",
           "instrument": "Tuba",
+          "orchestra": "Hordvik Musikklag",
+          "korpsnr": 50
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Hordvik Musikklag",
+          "korpsnr": 50
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Hordvik Musikklag",
+          "korpsnr": 50
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Hordvik Musikklag",
+          "korpsnr": 50
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
           "orchestra": "Hordvik Musikklag",
           "korpsnr": 50
         },
@@ -1607,6 +2879,30 @@
           "korpsnr": 76
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Bertnes Brass",
+          "korpsnr": 76
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Bertnes Brass",
+          "korpsnr": 76
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Skarptromme",
+          "orchestra": "Sotra Brass",
+          "korpsnr": 67
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Skarptromme",
+          "orchestra": "Sotra Brass",
+          "korpsnr": 67
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Skarptromme",
           "orchestra": "Sotra Brass",
@@ -1637,6 +2933,30 @@
           "korpsnr": 2
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Flygelhorn",
           "orchestra": "Eikanger-Bjørsvik Musikklag",
@@ -1665,6 +2985,30 @@
           "instrument": "Slagverk",
           "orchestra": "Oster Brass",
           "korpsnr": 19
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Oster Brass",
+          "korpsnr": 19
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Oster Brass",
+          "korpsnr": 19
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Soprankornett",
+          "orchestra": "Bjørsvik Brass",
+          "korpsnr": 5
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Soprankornett",
+          "orchestra": "Bjørsvik Brass",
+          "korpsnr": 5
         },
         {
           "prize_type": "soloist",
@@ -1697,6 +3041,30 @@
           "korpsnr": 31
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Sagvåg Musikklag",
+          "korpsnr": 31
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Sagvåg Musikklag",
+          "korpsnr": 31
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Tertnes Amatørkorps",
+          "korpsnr": 18
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Tertnes Amatørkorps",
+          "korpsnr": 18
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Tertnes Amatørkorps",
@@ -1725,6 +3093,30 @@
           "instrument": "Trombone",
           "orchestra": "Fjell Brass",
           "korpsnr": 32
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Fjell Brass",
+          "korpsnr": 32
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Fjell Brass",
+          "korpsnr": 32
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal",
+          "orchestra": "Tysnes Musikklag",
+          "korpsnr": 33
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal",
+          "orchestra": "Tysnes Musikklag",
+          "korpsnr": 33
         },
         {
           "prize_type": "soloist",
@@ -1757,6 +3149,30 @@
           "korpsnr": 86
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Fagernes Musikkorps",
+          "korpsnr": 86
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Fagernes Musikkorps",
+          "korpsnr": 86
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Lismarka/Mesnali Brass",
+          "korpsnr": 48
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Lismarka/Mesnali Brass",
+          "korpsnr": 48
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Flygelhorn",
           "orchestra": "Lismarka/Mesnali Brass",
@@ -1787,6 +3203,30 @@
           "korpsnr": 71
         },
         {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Rosendal Musikklag",
+          "korpsnr": 71
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Rosendal Musikklag",
+          "korpsnr": 71
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Flygelhorn",
           "orchestra": "Bjørvika Brass Band",
@@ -1815,6 +3255,30 @@
           "instrument": "Slagverk",
           "orchestra": "Eikanger-Bjørsvik Musikklag",
           "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Basstrombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Basstrombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
         },
         {
           "prize_type": "soloist",
@@ -1847,6 +3311,30 @@
           "korpsnr": 17
         },
         {
+          "prize_type": "group",
+          "instrument": "Perkusjon",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Perkusjon",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solohorn",
+          "orchestra": "Oslofjord Brass",
+          "korpsnr": 13
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solohorn",
+          "orchestra": "Oslofjord Brass",
+          "korpsnr": 13
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solohorn",
           "orchestra": "Oslofjord Brass",
@@ -1875,6 +3363,30 @@
           "instrument": "Kornett",
           "orchestra": "Sandefjord Brass Symposium",
           "korpsnr": 16
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Sandefjord Brass Symposium",
+          "korpsnr": 16
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Sandefjord Brass Symposium",
+          "korpsnr": 16
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flugelhorn",
+          "orchestra": "Trondheim Politis Brassband",
+          "korpsnr": 30
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flugelhorn",
+          "orchestra": "Trondheim Politis Brassband",
+          "korpsnr": 30
         },
         {
           "prize_type": "soloist",
@@ -1907,6 +3419,30 @@
           "korpsnr": 36
         },
         {
+          "prize_type": "group",
+          "instrument": "Solokornett",
+          "orchestra": "Follesø Musikklag",
+          "korpsnr": 36
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Solokornett",
+          "orchestra": "Follesø Musikklag",
+          "korpsnr": 36
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Brøttum Brass",
+          "korpsnr": 24
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Brøttum Brass",
+          "korpsnr": 24
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Brøttum Brass",
@@ -1935,6 +3471,30 @@
           "instrument": "Kornetter",
           "orchestra": "Fræna Musikkorps",
           "korpsnr": 45
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornetter",
+          "orchestra": "Fræna Musikkorps",
+          "korpsnr": 45
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornetter",
+          "orchestra": "Fræna Musikkorps",
+          "korpsnr": 45
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Nordlys XO",
+          "korpsnr": 81
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Nordlys XO",
+          "korpsnr": 81
         },
         {
           "prize_type": "soloist",
@@ -1967,6 +3527,30 @@
           "korpsnr": 53
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Bjørvika Brass Band",
@@ -1995,6 +3579,30 @@
           "instrument": "Tuba",
           "orchestra": "Eikanger-Bjørsvik Musikklag",
           "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
         },
         {
           "prize_type": "soloist",
@@ -2023,6 +3631,30 @@
         {
           "prize_type": "group",
           "instrument": "Slagverk",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Xylofon",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Xylofon",
           "orchestra": "Tertnes Brass",
           "korpsnr": 12
         },
@@ -2057,6 +3689,30 @@
           "korpsnr": 23
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Musikkorpset Gjallarhorn",
+          "korpsnr": 23
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Musikkorpset Gjallarhorn",
+          "korpsnr": 23
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Brøttum Brass",
+          "korpsnr": 24
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Brøttum Brass",
+          "korpsnr": 24
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Brøttum Brass",
@@ -2085,6 +3741,30 @@
           "instrument": "Euphonium/Baryton",
           "orchestra": "Manger Old Star Brass",
           "korpsnr": 40
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Euphonium/Baryton",
+          "orchestra": "Manger Old Star Brass",
+          "korpsnr": 40
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Euphonium/Baryton",
+          "orchestra": "Manger Old Star Brass",
+          "korpsnr": 40
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Follesø Musikklag",
+          "korpsnr": 36
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Follesø Musikklag",
+          "korpsnr": 36
         },
         {
           "prize_type": "soloist",
@@ -2117,6 +3797,30 @@
           "korpsnr": 52
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Borge Brass Band",
+          "korpsnr": 52
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Borge Brass Band",
+          "korpsnr": 52
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Esskornett",
+          "orchestra": "Tysvær Brass",
+          "korpsnr": 51
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Esskornett",
+          "orchestra": "Tysvær Brass",
+          "korpsnr": 51
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Esskornett",
           "orchestra": "Tysvær Brass",
@@ -2143,6 +3847,30 @@
         {
           "prize_type": "group",
           "instrument": "Horn/Baryton/Euphonium",
+          "orchestra": "Filadelfia Hornorkester Drammen",
+          "korpsnr": 66
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn/Baryton/Euphonium",
+          "orchestra": "Filadelfia Hornorkester Drammen",
+          "korpsnr": 66
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn/Baryton/Euphonium",
+          "orchestra": "Filadelfia Hornorkester Drammen",
+          "korpsnr": 66
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Filadelfia Hornorkester Drammen",
+          "korpsnr": 66
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
           "orchestra": "Filadelfia Hornorkester Drammen",
           "korpsnr": 66
         },
@@ -2177,6 +3905,30 @@
           "korpsnr": 3
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "Stavanger Brass Band",
+          "korpsnr": 1
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "Stavanger Brass Band",
+          "korpsnr": 1
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Trombone",
           "orchestra": "Stavanger Brass Band",
@@ -2207,6 +3959,30 @@
           "korpsnr": 12
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Tertnes Brass",
+          "korpsnr": 12
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Tertnes Amatørkorps",
+          "korpsnr": 18
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Tertnes Amatørkorps",
+          "korpsnr": 18
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Tertnes Amatørkorps",
@@ -2233,6 +4009,30 @@
         {
           "prize_type": "group",
           "instrument": "Slagverk",
+          "orchestra": "Flesland Musikklag",
+          "korpsnr": 20
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Flesland Musikklag",
+          "korpsnr": 20
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Flesland Musikklag",
+          "korpsnr": 20
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Flesland Musikklag",
+          "korpsnr": 20
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
           "orchestra": "Flesland Musikklag",
           "korpsnr": 20
         },
@@ -2267,6 +4067,30 @@
           "korpsnr": 44
         },
         {
+          "prize_type": "group",
+          "instrument": "Flygelhorn og Horn",
+          "orchestra": "Lindås Brass",
+          "korpsnr": 44
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Flygelhorn og Horn",
+          "orchestra": "Lindås Brass",
+          "korpsnr": 44
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Tysnes Musikklag",
+          "korpsnr": 33
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Tysnes Musikklag",
+          "korpsnr": 33
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Tysnes Musikklag",
@@ -2293,6 +4117,30 @@
         {
           "prize_type": "group",
           "instrument": "Tuba",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
           "orchestra": "Bjørvika Brass Band",
           "korpsnr": 53
         },
@@ -2327,6 +4175,30 @@
           "korpsnr": 84
         },
         {
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Kjølsdalen Musikklag",
+          "korpsnr": 84
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Kjølsdalen Musikklag",
+          "korpsnr": 84
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Brumunddal Brass",
+          "korpsnr": 63
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Brumunddal Brass",
+          "korpsnr": 63
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Brumunddal Brass",
@@ -2357,6 +4229,30 @@
           "korpsnr": 3
         },
         {
+          "prize_type": "group",
+          "instrument": "Euphonium og Tuba",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Euphonium og Tuba",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Basstrombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Basstrombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Basstrombone",
           "orchestra": "Manger Musikklag",
@@ -2385,6 +4281,30 @@
           "instrument": "Tuba",
           "orchestra": "Sola Brass Band",
           "korpsnr": 11
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Sola Brass Band",
+          "korpsnr": 11
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Sola Brass Band",
+          "korpsnr": 11
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Soprankornett",
+          "orchestra": "Askøy Brass Band",
+          "korpsnr": 14
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Soprankornett",
+          "orchestra": "Askøy Brass Band",
+          "korpsnr": 14
         },
         {
           "prize_type": "soloist",
@@ -2417,6 +4337,30 @@
           "korpsnr": 16
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Sandefjord Brass Symposium",
+          "korpsnr": 16
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Sandefjord Brass Symposium",
+          "korpsnr": 16
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Sandefjord Brass Symposium",
+          "korpsnr": 16
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Sandefjord Brass Symposium",
+          "korpsnr": 16
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Sandefjord Brass Symposium",
@@ -2445,6 +4389,30 @@
           "instrument": "Slagverk",
           "orchestra": "Bjørvika Brass Band",
           "korpsnr": 53
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Esskornett",
+          "orchestra": "Sørum Musikklag",
+          "korpsnr": 22
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Esskornett",
+          "orchestra": "Sørum Musikklag",
+          "korpsnr": 22
         },
         {
           "prize_type": "soloist",
@@ -2477,6 +4445,30 @@
           "korpsnr": 61
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornetter",
+          "orchestra": "Nes Musikkforening",
+          "korpsnr": 61
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornetter",
+          "orchestra": "Nes Musikkforening",
+          "korpsnr": 61
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Fræna Musikkorps",
+          "korpsnr": 45
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Fræna Musikkorps",
+          "korpsnr": 45
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Fræna Musikkorps",
@@ -2505,6 +4497,30 @@
           "instrument": "Basser",
           "orchestra": "Sotra Brass",
           "korpsnr": 67
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Basser",
+          "orchestra": "Sotra Brass",
+          "korpsnr": 67
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Basser",
+          "orchestra": "Sotra Brass",
+          "korpsnr": 67
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Grenland Brass",
+          "korpsnr": 56
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Grenland Brass",
+          "korpsnr": 56
         },
         {
           "prize_type": "soloist",
@@ -2537,6 +4553,30 @@
           "korpsnr": 5
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Bjørsvik Brass",
+          "korpsnr": 5
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Bjørsvik Brass",
+          "korpsnr": 5
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Eikanger-Bjørsvik Musikklag",
@@ -2565,6 +4605,30 @@
           "instrument": "Horn",
           "orchestra": "Oslofjord Brass",
           "korpsnr": 13
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Oslofjord Brass",
+          "korpsnr": 13
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Oslofjord Brass",
+          "korpsnr": 13
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Musikkorpset Gjallarhorn",
+          "korpsnr": 23
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Musikkorpset Gjallarhorn",
+          "korpsnr": 23
         },
         {
           "prize_type": "soloist",
@@ -2597,6 +4661,30 @@
           "korpsnr": 35
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Alexander Brass Band",
+          "korpsnr": 35
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Alexander Brass Band",
+          "korpsnr": 35
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Sagvåg Musikklag",
+          "korpsnr": 31
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Sagvåg Musikklag",
+          "korpsnr": 31
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Kornett",
           "orchestra": "Sagvåg Musikklag",
@@ -2625,6 +4713,30 @@
           "instrument": "Kornett",
           "orchestra": "Fjell Brass",
           "korpsnr": 32
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Fjell Brass",
+          "korpsnr": 32
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Fjell Brass",
+          "korpsnr": 32
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Tuba",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Tuba",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
         },
         {
           "prize_type": "soloist",
@@ -2657,6 +4769,30 @@
           "korpsnr": 94
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "KOS - Krohnengen Old Stars",
+          "korpsnr": 94
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "KOS - Krohnengen Old Stars",
+          "korpsnr": 94
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solohorn",
+          "orchestra": "Lyshornet Brass",
+          "korpsnr": 58
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solohorn",
+          "orchestra": "Lyshornet Brass",
+          "korpsnr": 58
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solohorn",
           "orchestra": "Lyshornet Brass",
@@ -2685,6 +4821,30 @@
           "instrument": "Kornett",
           "orchestra": "Rosendal Musikklag",
           "korpsnr": 71
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Rosendal Musikklag",
+          "korpsnr": 71
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Rosendal Musikklag",
+          "korpsnr": 71
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Randaberg Musikkorps",
+          "korpsnr": 69
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Randaberg Musikkorps",
+          "korpsnr": 69
         },
         {
           "prize_type": "soloist",
@@ -2717,6 +4877,30 @@
           "korpsnr": 3
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Jaren Hornmusikkforening",
@@ -2745,6 +4929,30 @@
           "instrument": "Slagverk",
           "orchestra": "Krohnengen Brass Band",
           "korpsnr": 6
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Krohnengen Brass Band",
+          "korpsnr": 6
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Krohnengen Brass Band",
+          "korpsnr": 6
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Radøy Brass",
+          "korpsnr": 28
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Radøy Brass",
+          "korpsnr": 28
         },
         {
           "prize_type": "soloist",
@@ -2777,6 +4985,30 @@
           "korpsnr": 21
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Ørskog Brass",
+          "korpsnr": 21
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Ørskog Brass",
+          "korpsnr": 21
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solohorn",
+          "orchestra": "Sola Brass Band",
+          "korpsnr": 11
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solohorn",
+          "orchestra": "Sola Brass Band",
+          "korpsnr": 11
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solohorn",
           "orchestra": "Sola Brass Band",
@@ -2805,6 +5037,30 @@
           "instrument": "Tuba",
           "orchestra": "KOS - Krohnengen Old Stars",
           "korpsnr": 94
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "KOS - Krohnengen Old Stars",
+          "korpsnr": 94
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "KOS - Krohnengen Old Stars",
+          "korpsnr": 94
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Gjøvik Bybrass",
+          "korpsnr": 42
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Gjøvik Bybrass",
+          "korpsnr": 42
         },
         {
           "prize_type": "soloist",
@@ -2837,6 +5093,30 @@
           "korpsnr": 47
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Flora-Bremanger Brassband",
+          "korpsnr": 47
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Flora-Bremanger Brassband",
+          "korpsnr": 47
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Lyshornet Brass",
+          "korpsnr": 58
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Lyshornet Brass",
+          "korpsnr": 58
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Lyshornet Brass",
@@ -2865,6 +5145,30 @@
           "instrument": "Horn",
           "orchestra": "Saksumdal Musikkforening",
           "korpsnr": 78
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Saksumdal Musikkforening",
+          "korpsnr": 78
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Saksumdal Musikkforening",
+          "korpsnr": 78
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Lillehammer Brass",
+          "korpsnr": 72
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Lillehammer Brass",
+          "korpsnr": 72
         },
         {
           "prize_type": "soloist",
@@ -2897,6 +5201,30 @@
           "korpsnr": 2
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Jaren Hornmusikkforening",
@@ -2925,6 +5253,30 @@
           "instrument": "Slagverk",
           "orchestra": "Radøy Brass",
           "korpsnr": 28
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Radøy Brass",
+          "korpsnr": 28
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Radøy Brass",
+          "korpsnr": 28
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Rong Brass",
+          "korpsnr": 34
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Rong Brass",
+          "korpsnr": 34
         },
         {
           "prize_type": "soloist",
@@ -2957,6 +5309,30 @@
           "korpsnr": 32
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Fjell Brass",
+          "korpsnr": 32
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Fjell Brass",
+          "korpsnr": 32
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Ørskog Brass",
+          "korpsnr": 21
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Ørskog Brass",
+          "korpsnr": 21
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Ørskog Brass",
@@ -2985,6 +5361,30 @@
           "instrument": "Kornett",
           "orchestra": "Trondheim Politis Brassband",
           "korpsnr": 30
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Trondheim Politis Brassband",
+          "korpsnr": 30
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Trondheim Politis Brassband",
+          "korpsnr": 30
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo trombone",
+          "orchestra": "Sagvåg Musikklag",
+          "korpsnr": 31
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo trombone",
+          "orchestra": "Sagvåg Musikklag",
+          "korpsnr": 31
         },
         {
           "prize_type": "soloist",
@@ -3017,6 +5417,30 @@
           "korpsnr": 39
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Gjesdal Brass Band",
+          "korpsnr": 39
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Gjesdal Brass Band",
+          "korpsnr": 39
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Hetlevik Musikklag",
+          "korpsnr": 64
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solokornett",
+          "orchestra": "Hetlevik Musikklag",
+          "korpsnr": 64
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solokornett",
           "orchestra": "Hetlevik Musikklag",
@@ -3045,6 +5469,30 @@
           "instrument": "Kornett",
           "orchestra": "Randaberg Musikkorps",
           "korpsnr": 69
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Randaberg Musikkorps",
+          "korpsnr": 69
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Randaberg Musikkorps",
+          "korpsnr": 69
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Flå Musikkorps",
+          "korpsnr": 43
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Flå Musikkorps",
+          "korpsnr": 43
         },
         {
           "prize_type": "soloist",
@@ -3073,6 +5521,30 @@
         {
           "prize_type": "group",
           "instrument": "Slagverk",
+          "orchestra": "Stavanger Brass Band",
+          "korpsnr": 1
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Stavanger Brass Band",
+          "korpsnr": 1
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Stavanger Brass Band",
+          "korpsnr": 1
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solotrombone",
+          "orchestra": "Stavanger Brass Band",
+          "korpsnr": 1
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solotrombone",
           "orchestra": "Stavanger Brass Band",
           "korpsnr": 1
         },
@@ -3107,6 +5579,30 @@
           "korpsnr": 24
         },
         {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Brøttum Brass",
+          "korpsnr": 24
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Brøttum Brass",
+          "korpsnr": 24
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Tomra Brass Band",
+          "korpsnr": 17
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Flygelhorn",
           "orchestra": "Tomra Brass Band",
@@ -3137,6 +5633,30 @@
           "korpsnr": 32
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Fjell Brass",
+          "korpsnr": 32
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Fjell Brass",
+          "korpsnr": 32
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Sandefjord Brass Symposium",
+          "korpsnr": 16
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Sandefjord Brass Symposium",
+          "korpsnr": 16
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Sandefjord Brass Symposium",
@@ -3163,6 +5683,30 @@
         {
           "prize_type": "group",
           "instrument": "Trombone",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Bjørvika Brass Band",
+          "korpsnr": 53
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
           "orchestra": "Bjørvika Brass Band",
           "korpsnr": 53
         },
@@ -3197,6 +5741,30 @@
           "korpsnr": 49
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Skui Brassband",
+          "korpsnr": 49
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Skui Brassband",
+          "korpsnr": 49
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Gjøvik Bybrass",
+          "korpsnr": 42
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Gjøvik Bybrass",
+          "korpsnr": 42
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solo euphonium",
           "orchestra": "Gjøvik Bybrass",
@@ -3227,6 +5795,30 @@
           "korpsnr": 71
         },
         {
+          "prize_type": "group",
+          "instrument": "Solokornett",
+          "orchestra": "Rosendal Musikklag",
+          "korpsnr": 71
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Solokornett",
+          "orchestra": "Rosendal Musikklag",
+          "korpsnr": 71
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal",
+          "orchestra": "Riska Brass Band",
+          "korpsnr": 96
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Principal",
+          "orchestra": "Riska Brass Band",
+          "korpsnr": 96
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Principal",
           "orchestra": "Riska Brass Band",
@@ -3255,6 +5847,30 @@
           "instrument": "Kornett",
           "orchestra": "Eikanger-Bjørsvik Musikklag",
           "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
         },
         {
           "prize_type": "soloist",
@@ -3287,6 +5903,30 @@
           "korpsnr": 6
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Krohnengen Brass Band",
+          "korpsnr": 6
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Krohnengen Brass Band",
+          "korpsnr": 6
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Oslofjord Brass",
+          "korpsnr": 13
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solo euphonium",
+          "orchestra": "Oslofjord Brass",
+          "korpsnr": 13
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Solo euphonium",
           "orchestra": "Oslofjord Brass",
@@ -3315,6 +5955,30 @@
           "instrument": "Kornett",
           "orchestra": "Radøy Brass",
           "korpsnr": 28
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Radøy Brass",
+          "korpsnr": 28
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Radøy Brass",
+          "korpsnr": 28
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Follesø Musikklag",
+          "korpsnr": 36
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Follesø Musikklag",
+          "korpsnr": 36
         },
         {
           "prize_type": "soloist",
@@ -3347,6 +6011,30 @@
           "korpsnr": 18
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Tertnes Amatørkorps",
+          "korpsnr": 18
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Tertnes Amatørkorps",
+          "korpsnr": 18
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Gjesdal Brass Band",
+          "korpsnr": 39
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Gjesdal Brass Band",
+          "korpsnr": 39
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Kornett",
           "orchestra": "Gjesdal Brass Band",
@@ -3375,6 +6063,30 @@
           "instrument": "Trombone",
           "orchestra": "Haugaland Brass Band",
           "korpsnr": 123
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Haugaland Brass Band",
+          "korpsnr": 123
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Trombone",
+          "orchestra": "Haugaland Brass Band",
+          "korpsnr": 123
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Filadelfia Hornorkester Drammen",
+          "korpsnr": 66
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Filadelfia Hornorkester Drammen",
+          "korpsnr": 66
         },
         {
           "prize_type": "soloist",
@@ -3407,6 +6119,30 @@
           "korpsnr": 43
         },
         {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Flå Musikkorps",
+          "korpsnr": 43
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Flå Musikkorps",
+          "korpsnr": 43
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Eikelandsfjorden Musikklag",
+          "korpsnr": 79
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Eikelandsfjorden Musikklag",
+          "korpsnr": 79
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Eikelandsfjorden Musikklag",
@@ -3433,6 +6169,30 @@
         {
           "prize_type": "group",
           "instrument": "Horn",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solotrombone",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Solotrombone",
           "orchestra": "Eikanger-Bjørsvik Musikklag",
           "korpsnr": 2
         },
@@ -3467,6 +6227,30 @@
           "korpsnr": 8
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Jaren Hornmusikkforening",
+          "korpsnr": 8
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Kornett",
           "orchestra": "Jaren Hornmusikkforening",
@@ -3495,6 +6279,30 @@
           "instrument": "Slagverk",
           "orchestra": "Jølster Musikklag",
           "korpsnr": 29
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Jølster Musikklag",
+          "korpsnr": 29
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Jølster Musikklag",
+          "korpsnr": 29
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Gjesdal Brass Band",
+          "korpsnr": 39
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Gjesdal Brass Band",
+          "korpsnr": 39
         },
         {
           "prize_type": "soloist",
@@ -3527,6 +6335,30 @@
           "korpsnr": 26
         },
         {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Tromsø Brass",
+          "korpsnr": 26
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Kornett",
+          "orchestra": "Tromsø Brass",
+          "korpsnr": 26
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Soprankornett",
+          "orchestra": "Bergen Brass Band",
+          "korpsnr": 37
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Soprankornett",
+          "orchestra": "Bergen Brass Band",
+          "korpsnr": 37
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Soprankornett",
           "orchestra": "Bergen Brass Band",
@@ -3555,6 +6387,30 @@
           "instrument": "Horn",
           "orchestra": "Laksevåg Musikkforening",
           "korpsnr": 38
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Laksevåg Musikkforening",
+          "korpsnr": 38
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Horn",
+          "orchestra": "Laksevåg Musikkforening",
+          "korpsnr": 38
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Evanger Musikklag",
+          "korpsnr": 122
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Evanger Musikklag",
+          "korpsnr": 122
         },
         {
           "prize_type": "soloist",
@@ -3587,6 +6443,30 @@
           "korpsnr": 70
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Skeie Brass",
+          "korpsnr": 70
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Skeie Brass",
+          "korpsnr": 70
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Frei Hornmusikk",
+          "korpsnr": 55
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Euphonium",
+          "orchestra": "Frei Hornmusikk",
+          "korpsnr": 55
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Euphonium",
           "orchestra": "Frei Hornmusikk",
@@ -3615,6 +6495,30 @@
           "instrument": "Tuba",
           "orchestra": "Eikanger-Bjørsvik Musikklag",
           "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Manger Musikklag",
+          "korpsnr": 3
         },
         {
           "prize_type": "soloist",
@@ -3639,6 +6543,18 @@
           "instrument": "Tuba",
           "orchestra": "Krohnengen Brass Band",
           "korpsnr": 6
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Krohnengen Brass Band",
+          "korpsnr": 6
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Flygelhorn",
+          "orchestra": "Rong Brass",
+          "korpsnr": null
         },
         {
           "prize_type": "soloist",
@@ -3659,6 +6575,18 @@
           "korpsnr": null
         },
         {
+          "prize_type": "group",
+          "instrument": "Slagverk",
+          "orchestra": "Agder Brass",
+          "korpsnr": null
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Eufonium",
+          "orchestra": "Bergen Brass Band",
+          "korpsnr": null
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Eufonium",
           "orchestra": "Bergen Brass Band",
@@ -3673,6 +6601,18 @@
         {
           "prize_type": "group",
           "instrument": "Tuba",
+          "orchestra": "Stavanger Kommunes Korps",
+          "korpsnr": null
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Stavanger Kommunes Korps",
+          "korpsnr": null
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Eufonium",
           "orchestra": "Stavanger Kommunes Korps",
           "korpsnr": null
         },
@@ -3692,6 +6632,18 @@
           "prize_type": "group",
           "instrument": "Tuba",
           "orchestra": "Flora-Bremanger Brassband",
+          "korpsnr": null
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Flora-Bremanger Brassband",
+          "korpsnr": null
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Seim Musikklag",
           "korpsnr": null
         },
         {
@@ -3713,6 +6665,18 @@
           "korpsnr": null
         },
         {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Langhus Brass",
+          "korpsnr": null
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Kornett",
+          "orchestra": "Florø Hornmusikk",
+          "korpsnr": null
+        },
+        {
           "prize_type": "soloist",
           "instrument": "Kornett",
           "orchestra": "Florø Hornmusikk",
@@ -3729,6 +6693,18 @@
           "instrument": "Tuba",
           "orchestra": "Eikanger-Bjørsvik Musikklag",
           "korpsnr": 2
+        },
+        {
+          "prize_type": "group",
+          "instrument": "Tuba",
+          "orchestra": "Eikanger-Bjørsvik Musikklag",
+          "korpsnr": 2
+        },
+        {
+          "prize_type": "soloist",
+          "instrument": "Trombone",
+          "orchestra": "Oslofjord Brass",
+          "korpsnr": null
         },
         {
           "prize_type": "soloist",
