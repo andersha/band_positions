@@ -1,6 +1,612 @@
 {
   "wind": [
     {
+      "year": 1996,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Aline Nistad",
+        "Per Flemström"
+      ]
+    },
+    {
+      "year": 1997,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Tom Brevik",
+        "Sverre Olsrud"
+      ]
+    },
+    {
+      "year": 1998,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Maurice Hamers",
+        "Kim Lofthouse",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 1999,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "James Gourlay",
+        "Sverre Olsrud",
+        "Bjørn Morten Kjærnes"
+      ]
+    },
+    {
+      "year": 2000,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Glen J. Hemberger",
+        "Timothy Reynish",
+        "Karl Ole Midtbø"
+      ]
+    },
+    {
+      "year": 2001,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Gro Shetelig Kruse",
+        "Felix Hauswirth",
+        "Nigel Boddice"
+      ]
+    },
+    {
+      "year": 2002,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Maurice Hamers",
+        "Edward Gregson",
+        "Lennart Blak Jensen"
+      ]
+    },
+    {
+      "year": 2003,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Retha Cilliers",
+        "Lars-Erik Ter Jung",
+        "Karl Ole Midtbø"
+      ]
+    },
+    {
+      "year": 2004,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Aline Nistad",
+        "Trond Korsgård",
+        "Bjørn Morten Kjærnes"
+      ]
+    },
+    {
+      "year": 2005,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Bjørn Kruse",
+        "Lars-Erik Ter Jung",
+        "Peter Harbeck"
+      ]
+    },
+    {
+      "year": 2006,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Maurice Hamers",
+        "Peter Szilvay",
+        "Niels-Ole Bo Johansen"
+      ]
+    },
+    {
+      "year": 2007,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Mogens Andresen",
+        "Stig Nordhagen",
+        "Torgny Hanson"
+      ]
+    },
+    {
+      "year": 2008,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Elise Bråtnes",
+        "Jan Van der Roost",
+        "Jan Fredrik Christiansen"
+      ]
+    },
+    {
+      "year": 2009,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Frank Renton",
+        "Maurice Hammers",
+        "Harald Bjørkøy"
+      ]
+    },
+    {
+      "year": 2010,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Thomas Ludescher",
+        "Halldis Rønning",
+        "Steven Mead"
+      ]
+    },
+    {
+      "year": 2011,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "John Wallace",
+        "Cathrine Winnes Trevino",
+        "Johan de Meij"
+      ]
+    },
+    {
+      "year": 2012,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Philip Sparke",
+        "Reinhard Torsier",
+        "Peter Bassano"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Philippe Bach",
+        "Tijmen Botma"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Tom Brevik",
+        "Morten E. Hansen"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Philip Hannevik",
+        "Kim Lofthouse"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Morten E. Hansen",
+        "Madis Kari"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Torstein Siegel",
+        "Karl Ole Midtbø"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "6. divisjon",
+      "panel": null,
+      "judges": [
+        "Philip Hannevik",
+        "Kim Lofthouse"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "7. divisjon",
+      "panel": null,
+      "judges": [
+        "Eli Blåsmo",
+        "Karl Ole Midtbø"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Philippe Bach",
+        "Tijmen Botma",
+        "Madis Kari"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Dávur Juul Magnussen",
+        "Torgny Hanson"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Tom Brevik",
+        "Eli Kathrine Torkildsen"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Elisabeth Fossan",
+        "Vegar Snøfugl"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Jan Van der Roost",
+        "Eli Kathrine Torkildsen"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Torgny Hanson",
+        "Eli Blåsmo"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "6. divisjon",
+      "panel": null,
+      "judges": [
+        "Tom Brevik",
+        "Vegar Snøfugl"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "7. divisjon",
+      "panel": null,
+      "judges": [
+        "Elisabeth Fossan",
+        "Lennart Blak Jensen"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Dávur Juul Magnussen",
+        "Lennart Blak Jensen",
+        "Jan Van der Roost"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Øystein Baadsvik",
+        "Lars Thomas Holm"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Arvid Anthun",
+        "Vegar Snøfugl"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Eldar Nilsen",
+        "Lars Thomas Holm"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Felix Hauswirth",
+        "Jens T. Larsen"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Jens T. Larsen",
+        "Arve Blåsmo"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "6. divisjon",
+      "panel": null,
+      "judges": [
+        "Yngve Slettholm",
+        "Paul Scholer"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "7. divisjon",
+      "panel": null,
+      "judges": [
+        "Halvor Holm",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Paul Scholer",
+        "Felix Hauswirth",
+        "Yngve Slettholm"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Lito Fontana",
+        "Peter Ettrup Larsen"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Lito Fontana",
+        "Tom Brevik"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Thomas Rimul",
+        "Elisabeth Fossan"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Tormod Flaten",
+        "Jens T. Larsen"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Tormod Flaten",
+        "Clare Farr"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "6. divisjon",
+      "panel": null,
+      "judges": [
+        "Philip Sparke",
+        "Tom Brevik"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "7. divisjon",
+      "panel": null,
+      "judges": [
+        "Elisabeth Fossan",
+        "Torstein Siegel"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Peter Ettrup Larsen",
+        "Jens T. Larsen",
+        "Philip Sparke"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Niels-Ole Bo Johansen",
+        "Stig Nordhagen"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Niels-Ole Bo Johansen",
+        "Cathrine Leclerc"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Torbjørn Ottersen",
+        "Lennart Blak Jensen"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Björn Bus",
+        "Petter Langfeldt Carlsen"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Elisabeth Fossan",
+        "Petter Langfeldt Carlsen"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "6. divisjon",
+      "panel": null,
+      "judges": [
+        "Cathrine Leclerc",
+        "Vegar Snøfugl"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "7. divisjon",
+      "panel": null,
+      "judges": [
+        "Simone Rebello",
+        "Lennart Blak Jensen"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Simone Rebello",
+        "Gro Shetelig",
+        "Björn Bus"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Florent Didier",
+        "Peter Harbeck"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Peter Harbeck",
+        "Eli Blåsmo"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Tormod Flaten",
+        "Arvid Anthun"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Tormod Flaten",
+        "Rut Jorunn Rønning"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Rut Jorunn Rønning",
+        "Torstein Siegel"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "6. divisjon",
+      "panel": null,
+      "judges": [
+        "Arvid Anthun",
+        "Eli Blåsmo"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "7. divisjon",
+      "panel": null,
+      "judges": [
+        "Edward Gregson",
+        "Torstein Siegel"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Edward Gregson",
+        "Lars-Erik ter Jung",
+        "Florent Didier"
+      ]
+    },
+    {
       "year": 2019,
       "division": "1. divisjon",
       "panel": null,
@@ -446,6 +1052,1548 @@
   ],
   "brass": [
     {
+      "year": 1979,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Karsten Andersen",
+        "Trevor Ford",
+        "Roy Newsome"
+      ]
+    },
+    {
+      "year": 1979,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Trevor Ford",
+        "Roy Newsome"
+      ]
+    },
+    {
+      "year": 1980,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Michael Antrobus",
+        "Sverre Bergh",
+        "Edward B. Nilsen"
+      ]
+    },
+    {
+      "year": 1980,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Michael Antrobus",
+        "Sverre Bergh",
+        "Edward B. Nilsen"
+      ]
+    },
+    {
+      "year": 1981,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Geoffrey Brand",
+        "Ragnar Maalen",
+        "Herbert Møller"
+      ]
+    },
+    {
+      "year": 1981,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Geoffrey Brand",
+        "Ragnar Maalen",
+        "Herbert Møller"
+      ]
+    },
+    {
+      "year": 1982,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Ray Farr",
+        "Harry Kvebæk",
+        "Per Ohlsson"
+      ]
+    },
+    {
+      "year": 1982,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Ray Farr",
+        "Harry Kvebæk",
+        "Per Ohlsson"
+      ]
+    },
+    {
+      "year": 1983,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Trevor Ford",
+        "Ketil Hvoslef",
+        "James Scott"
+      ]
+    },
+    {
+      "year": 1983,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Magnar Aam",
+        "Gareth Jones",
+        "Dennis Wilby"
+      ]
+    },
+    {
+      "year": 1983,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Håkon Hesthammer",
+        "Arne Kvalø"
+      ]
+    },
+    {
+      "year": 1984,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Kjell Habbestad",
+        "Edward B. Nilsen",
+        "Howard Snell"
+      ]
+    },
+    {
+      "year": 1984,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "John Fletcher",
+        "Arne Kvalø",
+        "Harry Rishaug"
+      ]
+    },
+    {
+      "year": 1984,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Erling Breistein",
+        "Per Olav Paulsen"
+      ]
+    },
+    {
+      "year": 1985,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Jurgen Broll",
+        "Nils Eivind Nikolaisen",
+        "Keith Wilkinson"
+      ]
+    },
+    {
+      "year": 1985,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Håkon Hesthammer",
+        "Gordon Higginbottom",
+        "Kjell Martinsen"
+      ]
+    },
+    {
+      "year": 1985,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Jurgen Broll",
+        "Nils Eivind Nikolaisen",
+        "Keith Wilkinson"
+      ]
+    },
+    {
+      "year": 1986,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Edward Gregson",
+        "Gareth Jones",
+        "Kim Lofthouse"
+      ]
+    },
+    {
+      "year": 1986,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Erling Breistein",
+        "Richard Evans",
+        "Nils Eivind Nikolaisen"
+      ]
+    },
+    {
+      "year": 1986,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Edward Gregson",
+        "Gareth Jones",
+        "Kim Lofthouse"
+      ]
+    },
+    {
+      "year": 1987,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "John Brakstad",
+        "Trevor Ford",
+        "William Relton"
+      ]
+    },
+    {
+      "year": 1987,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Bjørn Hellevik",
+        "Alan Suttie",
+        "Dennis Wilby"
+      ]
+    },
+    {
+      "year": 1987,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Håkon Hesthammer",
+        "Trond Eklund Johansen",
+        "Hans Stapnes"
+      ]
+    },
+    {
+      "year": 1988,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Rod Franks",
+        "Bjørn Mellemberg",
+        "Nils Eivind Nikolaisen"
+      ]
+    },
+    {
+      "year": 1988,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "John Brakstad",
+        "Trond Brenne"
+      ]
+    },
+    {
+      "year": 1988,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "John Brakstad",
+        "Trond Brenne"
+      ]
+    },
+    {
+      "year": 1989,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Jan de Haan",
+        "Gareth Jones",
+        "James Scott"
+      ]
+    },
+    {
+      "year": 1989,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Jappie Dijkstra",
+        "Per Olav Paulsen"
+      ]
+    },
+    {
+      "year": 1989,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Jappie Dijkstra",
+        "Kjell E. Larsen"
+      ]
+    },
+    {
+      "year": 1990,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Bengt Eklund",
+        "Kjell Martinsen",
+        "David Read"
+      ]
+    },
+    {
+      "year": 1990,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Nils Magne Abelseth",
+        "Gareth Jones"
+      ]
+    },
+    {
+      "year": 1990,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Tom Brevik",
+        "Bjørn Morten Kjærnes"
+      ]
+    },
+    {
+      "year": 1991,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Markus Bach",
+        "Bjørn Morten Kjærnes",
+        "Philip Sparke"
+      ]
+    },
+    {
+      "year": 1991,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Ian Bousfield",
+        "John Brakstad"
+      ]
+    },
+    {
+      "year": 1991,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Markus Bach",
+        "Philip Sparke"
+      ]
+    },
+    {
+      "year": 1992,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Arnfinn Dalhaug",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 1993,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Kim Lofthouse",
+        "Ray Steadman-Allen"
+      ]
+    },
+    {
+      "year": 1993,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Nils Magne Abelseth",
+        "Gareth Jones"
+      ]
+    },
+    {
+      "year": 1993,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "John Brakstad",
+        "Ray Steadman-Allen"
+      ]
+    },
+    {
+      "year": 1993,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "John Berryman",
+        "Jappie Dijkstra",
+        "Michael Lind"
+      ]
+    },
+    {
+      "year": 1994,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Nigel Boddice",
+        "Jens Torolf Larsen"
+      ]
+    },
+    {
+      "year": 1994,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Ray Farr",
+        "Trygve Madsen"
+      ]
+    },
+    {
+      "year": 1994,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Trond Eklund Johansen",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 1994,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Jan de Haan",
+        "Nils Eivind Nikolaisen",
+        "James Scott"
+      ]
+    },
+    {
+      "year": 1995,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Karl Ole Midtbø",
+        "Nils Eivind Nikolaisen"
+      ]
+    },
+    {
+      "year": 1995,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Michael Antrobus",
+        "Jens Torolf Larsen"
+      ]
+    },
+    {
+      "year": 1995,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "John Brakstad",
+        "Johannes Mangersnes"
+      ]
+    },
+    {
+      "year": 1995,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Herbert Møller",
+        "Frank Renton",
+        "Frøydis Ree Wekre"
+      ]
+    },
+    {
+      "year": 1996,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "John Hudson",
+        "Nils Eivind Nikolaisen"
+      ]
+    },
+    {
+      "year": 1996,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Arnfinn Dalhaug",
+        "Ray Farr"
+      ]
+    },
+    {
+      "year": 1996,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Per Olav Paulsen",
+        "Allan Withington"
+      ]
+    },
+    {
+      "year": 1996,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Jappie Dijkstra",
+        "Chris Houlding",
+        "Arnulf Naur Nilsen"
+      ]
+    },
+    {
+      "year": 1997,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Kjell Martinsen",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 1997,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Fred Harles",
+        "Jens Torolf Larsen"
+      ]
+    },
+    {
+      "year": 1997,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Trond Elnes",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 1997,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Nigel Boddice",
+        "Fred Harles",
+        "Nils Eivind Nikolaisen"
+      ]
+    },
+    {
+      "year": 1998,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Peter Graham",
+        "Sverre Stakston Olsrud"
+      ]
+    },
+    {
+      "year": 1998,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Peter Graham",
+        "Bjørn Mellemberg"
+      ]
+    },
+    {
+      "year": 1998,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Karl Ole Midtbø",
+        "Ronald Waiksnoris"
+      ]
+    },
+    {
+      "year": 1998,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Bjørn Mellemberg",
+        "William Relton",
+        "Ronald Waiksnoris"
+      ]
+    },
+    {
+      "year": 1999,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Bjørn Sagstad",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 1999,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Yves Illi",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 1999,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Arvid Anthun",
+        "Roger Webster"
+      ]
+    },
+    {
+      "year": 1999,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Yves Illi",
+        "Nils Eivind Nikolaisen",
+        "Roger Webster"
+      ]
+    },
+    {
+      "year": 2000,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Kim Lofthouse",
+        "Sverre Stakston Olsrud"
+      ]
+    },
+    {
+      "year": 2000,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Rod Franks",
+        "Kim Lofthouse"
+      ]
+    },
+    {
+      "year": 2000,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Bjørn Mellemberg",
+        "Vidar Olsen"
+      ]
+    },
+    {
+      "year": 2000,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Rod Franks",
+        "Gro Shetelig Kruse",
+        "Bjørn Mellemberg"
+      ]
+    },
+    {
+      "year": 2001,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Nigel Boddice",
+        "Karl Ole Midtbø"
+      ]
+    },
+    {
+      "year": 2001,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Philip Sparke",
+        "Jan Van der Roost"
+      ]
+    },
+    {
+      "year": 2001,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Nigel Boddice",
+        "Roy Newsome"
+      ]
+    },
+    {
+      "year": 2001,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Aage Kvalbein",
+        "Roy Newsome",
+        "Philip Sparke"
+      ]
+    },
+    {
+      "year": 2002,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Markus Bach",
+        "Jens Torolf Larsen"
+      ]
+    },
+    {
+      "year": 2002,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "James Scott",
+        "Frøydis Ree Wekre"
+      ]
+    },
+    {
+      "year": 2002,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Maurice Hamers",
+        "Jens Torolf Larsen"
+      ]
+    },
+    {
+      "year": 2002,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Maurice Hamers",
+        "James Scott",
+        "Frøydis Ree Wekre"
+      ]
+    },
+    {
+      "year": 2003,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Jens Torolf Larsen",
+        "Aline Nistad"
+      ]
+    },
+    {
+      "year": 2003,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Jens Torolf Larsen",
+        "Karl Ole Midtbø"
+      ]
+    },
+    {
+      "year": 2003,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Nils Magne Abelseth",
+        "Vidar Olsen"
+      ]
+    },
+    {
+      "year": 2003,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Nils Magne Abelseth",
+        "Karl Ole Midtbø"
+      ]
+    },
+    {
+      "year": 2003,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Lars-Erik ter Jung",
+        "Roy Newsome",
+        "Sverre Stakston Olsrud"
+      ]
+    },
+    {
+      "year": 2004,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Nils Eivind Nikolaisen",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 2004,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Karl Ole Midtbø",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 2004,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Nils Magne Abelseth",
+        "Paul Farr"
+      ]
+    },
+    {
+      "year": 2004,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Nils Magne Abelseth",
+        "Paul Farr"
+      ]
+    },
+    {
+      "year": 2004,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Henrik Vagn Christensen",
+        "Jens Torolf Larsen",
+        "Isabelle Ruf-Weber"
+      ]
+    },
+    {
+      "year": 2005,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Knut Riser",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 2005,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Knut Riser",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 2005,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Frode Amundsen",
+        "Trond Elnes"
+      ]
+    },
+    {
+      "year": 2005,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Frode Amundsen",
+        "Trond Elnes"
+      ]
+    },
+    {
+      "year": 2005,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Mogens Andresen",
+        "Bengt Eklund",
+        "Aline Nistad"
+      ]
+    },
+    {
+      "year": 2006,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Jens Torolf Larsen",
+        "Karl Ole Midtbø"
+      ]
+    },
+    {
+      "year": 2006,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Jens Torolf Larsen",
+        "Karl Ole Midtbø"
+      ]
+    },
+    {
+      "year": 2006,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Rune Bergman",
+        "Geir Ulseth"
+      ]
+    },
+    {
+      "year": 2006,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Arnfinn Dalhaug",
+        "Geir Ulseth"
+      ]
+    },
+    {
+      "year": 2006,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "James Gourlay",
+        "Lars-Erik ter Jung",
+        "Per Kristian Svensen"
+      ]
+    },
+    {
+      "year": 2007,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Kim Lofthouse",
+        "Alex Schillings"
+      ]
+    },
+    {
+      "year": 2007,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Kim Lofthouse",
+        "Alex Schillings"
+      ]
+    },
+    {
+      "year": 2007,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Paul Farr",
+        "Erling Myrseth"
+      ]
+    },
+    {
+      "year": 2007,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Paul Farr",
+        "Erling Myrseth"
+      ]
+    },
+    {
+      "year": 2007,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Maurice Hamers",
+        "Torgny Hansson",
+        "Aline Nistad"
+      ]
+    },
+    {
+      "year": 2008,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Kim Lofthouse",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 2008,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Paul Farr",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 2008,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Kim Lofthouse",
+        "Jan Roger Øren"
+      ]
+    },
+    {
+      "year": 2008,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Paul Farr",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 2008,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Andrew Berryman",
+        "Jan Frederik Christiansen",
+        "Torgny Hansson"
+      ]
+    },
+    {
+      "year": 2009,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Karl Ole Midtbø",
+        "Cathrine Winnes Trevino"
+      ]
+    },
+    {
+      "year": 2009,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Arvid Anthun",
+        "Elisabeth Fossan"
+      ]
+    },
+    {
+      "year": 2009,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Jappie Dijkstra",
+        "Harald Eikaas"
+      ]
+    },
+    {
+      "year": 2009,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Jappie Dijkstra",
+        "Elisabeth Fossan"
+      ]
+    },
+    {
+      "year": 2009,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Edward Gregson",
+        "Maurice Hamers",
+        "Cathrine Winnes Trevino",
+        "Jan Van der Roost"
+      ]
+    },
+    {
+      "year": 2010,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Jens Torolf Larsen",
+        "Gavin David Lee"
+      ]
+    },
+    {
+      "year": 2010,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Arnfinn Dalhaug",
+        "Gavin David Lee"
+      ]
+    },
+    {
+      "year": 2010,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Elisabeth Fossan",
+        "Jens Torolf Larsen"
+      ]
+    },
+    {
+      "year": 2010,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Arnfinn Dalhaug",
+        "Elisabeth Fossan"
+      ]
+    },
+    {
+      "year": 2010,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Maurice Hamers",
+        "John Wallace",
+        "Torodd Wigum"
+      ]
+    },
+    {
+      "year": 2011,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Ian Porthouse",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 2011,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Armin Bachmann",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 2011,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Peter Bassano",
+        "Harald Eikaas"
+      ]
+    },
+    {
+      "year": 2011,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Karl Ole Midtbø",
+        "Cathrine Winnes Trevino"
+      ]
+    },
+    {
+      "year": 2011,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Armin Bachmann",
+        "Peter Bassano",
+        "Maurice Hamers",
+        "Karl Ole Midtbø",
+        "Ian Porthouse",
+        "Cathrine Winnes Trevino"
+      ]
+    },
+    {
+      "year": 2012,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Philip Harper",
+        "John Wallace"
+      ]
+    },
+    {
+      "year": 2012,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Tijmen Botma",
+        "Kim Lofthouse"
+      ]
+    },
+    {
+      "year": 2012,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Michael Antrobus",
+        "Nigel Boddice"
+      ]
+    },
+    {
+      "year": 2012,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Gavin David Lee",
+        "Kim Lofthouse"
+      ]
+    },
+    {
+      "year": 2012,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Gavin David Lee",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 2012,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Andrew Berryman",
+        "Nigel Boddice",
+        "Tijmen Botma",
+        "Philip Harper",
+        "Karl Ole Midtbø",
+        "John Wallace"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Arsène Duc",
+        "David Thornton"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Robert Childs",
+        "Arsène Duc"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Alan Fernie",
+        "David Thornton"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Erik Janssen",
+        "Jan Van der Roost"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Elisabeth Fossan",
+        "Kim Lofthouse"
+      ]
+    },
+    {
+      "year": 2013,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Robert Childs",
+        "Alan Fernie",
+        "Philip Harper",
+        "Erik Janssen",
+        "Jan Van der Roost",
+        "Sheona White"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Ivan Meylemans",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Thomas Beiganz",
+        "Yngve Slettholm"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Bryan Allen",
+        "Elisabeth Fossan"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Thomas Beiganz",
+        "Ian Porthouse"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Andrew Berryman",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 2014,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Bryan Allen",
+        "Thomas Beiganz",
+        "Ivan Meylemans",
+        "Stig Nordhagen",
+        "Ian Porthouse",
+        "Yngve Slettholm"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Håkon Berge",
+        "Tijmen Botma"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Davur Juul Magnussen",
+        "Erling Myrseth"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Arvid Anthun",
+        "Jens Torolf Larsen"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Trond Elnes",
+        "Erling Myrseth"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Irene Anda",
+        "Preben Nørgaard Christensen"
+      ]
+    },
+    {
+      "year": 2015,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Håkon Berge",
+        "Tijmen Botma",
+        "Preben Nørgaard Christensen",
+        "Florent Didier",
+        "Jens Torolf Larsen",
+        "Davur Juul Magnussen"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Michael Bach",
+        "Arsène Duc"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Arsène Duc"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Michael Bach",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Katrina Marzella-Wheeler",
+        "Bjørn Sagstad"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Katrina Marzella-Wheeler",
+        "Jan Van der Roost"
+      ]
+    },
+    {
+      "year": 2016,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Torgny Hansson",
+        "Manuel Hofstætter",
+        "Lars-Erik ter Jung",
+        "Aline Nistad",
+        "Jan Van der Roost",
+        "Arthur Vanderhoeft"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Jens Torolf Larsen",
+        "Yngve Slettholm"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Clare Farr",
+        "Thomas Rimul"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Jan Frederik Christiansen",
+        "Jens Torolf Larsen"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Tijmen Botma",
+        "Thomas Rimul"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Michael Ball",
+        "Florent Didier"
+      ]
+    },
+    {
+      "year": 2017,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Michael Ball",
+        "Tijmen Botma",
+        "Jan Frederik Christiansen",
+        "Florent Didier",
+        "Mark Heron",
+        "Yngve Slettholm"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "1. divisjon",
+      "panel": null,
+      "judges": [
+        "Håkon Berge",
+        "Katrina Marzella-Wheeler",
+        "Stig Nordhagen"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Elisabeth Fossan",
+        "Katrina Marzella-Wheeler"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "3. divisjon",
+      "panel": null,
+      "judges": [
+        "Niels-Ole Bo Johansen",
+        "Jens Torolf Larsen"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "4. divisjon",
+      "panel": null,
+      "judges": [
+        "Björn Bus",
+        "Elisabeth Fossan"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "5. divisjon",
+      "panel": null,
+      "judges": [
+        "Björn Bus",
+        "Davur Juul Magnussen"
+      ]
+    },
+    {
+      "year": 2018,
+      "division": "Elite",
+      "panel": null,
+      "judges": [
+        "Håkon Berge",
+        "Jan Frederik Christiansen",
+        "Niels-Ole Bo Johansen",
+        "Davur Juul Magnussen",
+        "Stig Nordhagen",
+        "Per Kristian Svendsen"
+      ]
+    },
+    {
       "year": 2019,
       "division": "1. divisjon",
       "panel": null,
@@ -575,6 +2723,14 @@
         "Lito Fontana",
         "Rex Martin",
         "Sheona White"
+      ]
+    },
+    {
+      "year": 2021,
+      "division": "2. divisjon",
+      "panel": null,
+      "judges": [
+        "Bjørn Sagstad"
       ]
     },
     {
