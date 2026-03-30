@@ -9,10 +9,11 @@
     dataset?: BandDataset | null;
     bandType?: BandType;
     streamingResolver?: (entry: BandEntry, band: string, piece: string) => StreamingLink | null;
+    pieceLengthResolver?: (pieceName: string) => number | null;
     eliteTestPieces?: EliteTestPiecesData | null;
   }
 
-  let { dataset = null, bandType = 'wind', streamingResolver = undefined, eliteTestPieces = null }: Props = $props();
+  let { dataset = null, bandType = 'wind', streamingResolver = undefined, pieceLengthResolver = undefined, eliteTestPieces = null }: Props = $props();
 
   function getYearFromURL(): number | null {
     if (typeof window === 'undefined') return null;
@@ -286,6 +287,12 @@
 
   function hasStreamingLinks(streaming?: StreamingLink | null): boolean {
     return Boolean(streaming?.spotify || streaming?.apple_music);
+  }
+
+  function formatLengde(durationSeconds?: number | null, fallbackMinutes?: number | null): string {
+    if (durationSeconds != null) return `${Math.round(durationSeconds / 60)}'`;
+    if (fallbackMinutes != null) return `${Math.round(fallbackMinutes)}'`;
+    return '';
   }
 
   function toAppleMusicHref(url: string | null | undefined): string | null {
@@ -607,6 +614,7 @@
               <th scope="col">Poeng</th>
               <th scope="col">Program</th>
               <th scope="col" class="streaming-column">Opptak</th>
+              <th scope="col" class="lengde-column">Lengde</th>
             </tr>
           </thead>
           <tbody>
@@ -680,6 +688,7 @@
                         {#each allPieces as pieceItem}
                           {@const piece = pieceItem.name}
                           {@const streaming = resolveStreamingLink(entry, band, piece)}
+                          {@const lengdeMobile = formatLengde(streaming?.duration_seconds, pieceLengthResolver?.(piece))}
                           <div class="streaming-piece-row">
                             {#if hasStreamingLinks(streaming)}
                               <span class="streaming-links">
@@ -738,10 +747,29 @@
                                   {/if}
                                 {/if}
                               </span>
+                              {#if lengdeMobile}<span class="lengde-mobile">{lengdeMobile}</span>{/if}
+                            {:else if lengdeMobile}
+                              <span class="lengde-mobile">{lengdeMobile}</span>
                             {:else}
                               <span class="streaming-missing" aria-hidden="true">–</span>
                             {/if}
                           </div>
+                        {/each}
+                      </div>
+                    {/if}
+                  {/if}
+                </td>
+                <td data-label="Lengde" class="lengde-cell">
+                  {#if true}
+                    {@const testPiece2 = bandType === 'brass' && isEliteDivision(entry.division) ? testPieceForYear(entry.year) : null}
+                    {@const ownChoicePieces2 = formatPieces(entry.pieces)}
+                    {@const allPieces2 = testPiece2 ? [{name: testPiece2.piece}, ...ownChoicePieces2.map(p => ({name: p}))] : ownChoicePieces2.map(p => ({name: p}))}
+                    {#if allPieces2.length > 0}
+                      <div class="lengde-list">
+                        {#each allPieces2 as pieceItem2}
+                          {@const streaming2 = resolveStreamingLink(entry, band, pieceItem2.name)}
+                          {@const lengde2 = formatLengde(streaming2?.duration_seconds, pieceLengthResolver?.(pieceItem2.name))}
+                          <div class="lengde-row">{lengde2}</div>
                         {/each}
                       </div>
                     {/if}
@@ -1040,6 +1068,32 @@
     min-height: 1.5rem;
   }
 
+  .lengde-column,
+  .lengde-cell {
+    text-align: right;
+    white-space: nowrap;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+  }
+
+  .lengde-mobile {
+    display: none;
+  }
+
+  .lengde-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: flex-end;
+  }
+
+  .lengde-row {
+    min-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
   .streaming-links {
     display: inline-flex;
     align-items: center;
@@ -1204,6 +1258,17 @@
 
     td[data-label="Opptak"] {
       order: 6;
+    }
+
+    td[data-label="Lengde"] {
+      display: none;
+    }
+
+    .lengde-mobile {
+      display: inline;
+      margin-left: 0.35rem;
+      color: var(--color-text-secondary);
+      font-size: 0.85rem;
     }
 
     /* Adjust program piece layout for mobile */

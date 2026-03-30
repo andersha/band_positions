@@ -8,6 +8,7 @@
     bandType?: BandType;
     sortOrder?: 'asc' | 'desc';
     streamingResolver?: (entry: BandEntry, bandName: string, pieceName: string) => StreamingLink | null;
+    pieceLengthResolver?: (pieceName: string) => number | null;
     onRemove?: (slug: string) => void;
   }
 
@@ -20,7 +21,7 @@
     performances: ConductorEntry[];
   }
 
-  let { conductors = [], bandType = 'wind', sortOrder = 'asc', streamingResolver, onRemove }: Props = $props();
+  let { conductors = [], bandType = 'wind', sortOrder = 'asc', streamingResolver, pieceLengthResolver, onRemove }: Props = $props();
 
   const pointsFormatter = new Intl.NumberFormat('nb-NO', {
     minimumFractionDigits: 1,
@@ -116,6 +117,12 @@
 
   function formatRank(rank: number | null): string {
     return rank != null ? `${rank}` : '–';
+  }
+
+  function formatLengde(durationSeconds?: number | null, fallbackMinutes?: number | null): string {
+    if (durationSeconds != null) return `${Math.round(durationSeconds / 60)}'`;
+    if (fallbackMinutes != null) return `${Math.round(fallbackMinutes)}'`;
+    return '';
   }
 
   function hasStreamingLinks(streaming?: StreamingLink | null): boolean {
@@ -217,6 +224,7 @@
               <th scope="col" class="sortable" onclick={() => handleSort('band')} aria-sort={ariaSort(sortColumn, 'band', sortDirection)}>Korps<span class="sort-indicator">{indicator(sortColumn, 'band', sortDirection)}</span></th>
               <th scope="col">Program</th>
               <th scope="col" class="streaming-column">Opptak</th>
+              <th scope="col" class="lengde-column">Lengde</th>
             </tr>
           </thead>
           <tbody>
@@ -281,6 +289,7 @@
                     <div class="streaming-list">
                       {#each streamingEntries as streamingEntry}
                         {@const streaming = streamingEntry.streaming}
+                        {@const lengdeMobile = formatLengde(streaming?.duration_seconds, pieceLengthResolver?.(streamingEntry.pieceName))}
                         <div class="streaming-piece-row">
                           <span class="streaming-links">
                             {#if streaming?.spotify}
@@ -338,12 +347,25 @@
                           {/if}
                         {/if}
                           </span>
+                          {#if lengdeMobile}<span class="lengde-mobile">{lengdeMobile}</span>{/if}
                         </div>
                       {/each}
                     </div>
                   {:else}
+                    {#each pieceEntries as pieceEntry}
+                      {@const lm = formatLengde(null, pieceLengthResolver?.(pieceEntry.pieceName))}
+                      {#if lm}<span class="lengde-mobile">{lm}</span>{/if}
+                    {/each}
                     <span class="streaming-missing" aria-hidden="true">–</span>
                   {/if}
+                </td>
+                <td data-label="Lengde" class="lengde-cell">
+                  <div class="lengde-list">
+                    {#each pieceEntries as pieceEntry}
+                      {@const l = formatLengde(pieceEntry.streaming?.duration_seconds, pieceLengthResolver?.(pieceEntry.pieceName))}
+                      {#if l}<div class="lengde-row">{l}</div>{/if}
+                    {/each}
+                  </div>
                 </td>
               </tr>
             {/each}
@@ -578,6 +600,32 @@
     color: var(--color-text-secondary);
   }
 
+  .lengde-mobile {
+    display: none;
+  }
+
+  .lengde-column,
+  .lengde-cell {
+    text-align: right;
+    white-space: nowrap;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+  }
+
+  .lengde-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: flex-end;
+  }
+
+  .lengde-row {
+    min-height: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
   .sr-only {
     position: absolute;
     width: 1px;
@@ -650,6 +698,14 @@
     td[data-label="Korps"] { order: 5; grid-column: 1 / -1; }
     td[data-label="Program"] { order: 6; }
     td[data-label="Opptak"] { order: 7; }
+    td[data-label="Lengde"] { display: none; }
+
+    .lengde-mobile {
+      display: inline;
+      margin-left: 0.35rem;
+      color: var(--color-text-secondary);
+      font-size: 0.85rem;
+    }
 
     /* Adjust piece list for mobile */
     .piece-list li {

@@ -118,6 +118,7 @@ import type {
     apple_music?: string | null;
     album?: string | null;
     recording_title?: string | null;
+    duration_seconds?: number | null;
     division_slug?: string;
     band_slug?: string;
   }
@@ -129,6 +130,7 @@ import type {
 
   let pieceComposerIndex = new Map<string, PieceMetadataEntry[]>();
   let pieceStreamingIndex = new Map<string, StreamingLink>();
+  let pieceLengthIndex = new Map<string, number>();
   let composerPieceIndex = new Map<string, ComposerRecord>();
   let eliteTestPieces = $state<EliteTestPiecesData | null>(null);
 
@@ -205,7 +207,8 @@ import type {
         spotify: spotifyUrl,
         apple_music: appleUrl,
         album: entry.album?.trim() ?? null,
-        recording_title: entry.recording_title?.trim() ?? null
+        recording_title: entry.recording_title?.trim() ?? null,
+        duration_seconds: typeof entry.duration_seconds === 'number' ? entry.duration_seconds : null
       };
 
       for (const pieceSlug of pieceSlugs) {
@@ -245,7 +248,12 @@ import type {
     return null;
   }
 
-  const QUOTE_CHARS = /["'«»“”„‟]/g;
+  function findPieceLength(pieceName: string): number | null {
+    const slug = slugify(pieceName);
+    return pieceLengthIndex.get(slug) ?? null;
+  }
+
+  const QUOTE_CHARS = /[“'«»””„‟]/g;
   const PARENTHESIS_CONTENT = /\([^)]*\)/g;
 
   function stripParenthetical(value: string): string {
@@ -1331,6 +1339,11 @@ import type {
       }
 
       pieceComposerIndex = buildPieceComposerIndex(metadataEntries);
+      pieceLengthIndex = new Map(
+        metadataEntries
+          .filter((e) => e.slug && e.length != null)
+          .map((e) => [e.slug.trim(), e.length as number])
+      );
 
       let streamingEntries: PieceStreamingEntry[] = [];
       if (streamingResponse.ok) {
@@ -1915,6 +1928,7 @@ import type {
           {bandType}
           {sortOrder}
           streamingResolver={findStreamingLinkForPiece}
+          pieceLengthResolver={findPieceLength}
           {eliteTestPieces}
           onRemove={removeRecord}
         />
@@ -1924,6 +1938,7 @@ import type {
           {bandType}
           {sortOrder}
           streamingResolver={findStreamingLinkForPiece}
+          pieceLengthResolver={findPieceLength}
           onRemove={removeRecord}
         />
       {/if}
@@ -1975,7 +1990,7 @@ import type {
       onSortOrderChange={setSortOrder}
     />
   {:else}
-    <DataExplorer {dataset} {bandType} streamingResolver={findStreamingLinkForPiece} {eliteTestPieces} />
+    <DataExplorer {dataset} {bandType} streamingResolver={findStreamingLinkForPiece} pieceLengthResolver={findPieceLength} {eliteTestPieces} />
   {/if}
 </main>
 {/if}

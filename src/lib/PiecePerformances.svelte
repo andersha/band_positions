@@ -133,6 +133,12 @@
     return `${wholeMinutes}:${seconds.toString().padStart(2, '0')}`;
   }
 
+  function formatLengde(durationSeconds?: number | null, fallbackMinutes?: number | null): string {
+    if (durationSeconds != null) return `${Math.round(durationSeconds / 60)}'`;
+    if (fallbackMinutes != null) return `${Math.round(fallbackMinutes)}'`;
+    return '';
+  }
+
   function hasStreamingLinks(streaming?: StreamingLink | null): boolean {
     return Boolean(streaming?.spotify || streaming?.apple_music);
   }
@@ -233,6 +239,7 @@
               <th scope="col" class="sortable" onclick={() => handleSort('points')} aria-sort={ariaSort(sortColumn, 'points', sortDirection)}>Poeng<span class="sort-indicator">{indicator(sortColumn, 'points', sortDirection)}</span></th>
               <th scope="col" class="sortable" onclick={() => handleSort('conductor')} aria-sort={ariaSort(sortColumn, 'conductor', sortDirection)}>Dirigent<span class="sort-indicator">{indicator(sortColumn, 'conductor', sortDirection)}</span></th>
               <th scope="col" class="streaming-column">Opptak</th>
+              <th scope="col" class="lengde-column">Lengde</th>
             </tr>
           </thead>
           <tbody>
@@ -242,6 +249,7 @@
               {@const conductorSlug = hasConductor ? slugify(conductorName) : ''}
               {@const bandSlug = slugify(performance.band)}
               {@const streaming = performance.streaming ?? null}
+              {@const lengde = formatLengde(streaming?.duration_seconds, piece.length)}
               <tr>
                 <td data-label="År">{performance.entry.year}</td>
                 <td data-label="Divisjon"><a href={`?type=${bandType}&view=data&year=${performance.entry.year}&division=${encodeURIComponent(performance.entry.division ?? '')}`} class="entity-link">{performance.entry.division}</a></td>
@@ -324,11 +332,15 @@
                           </a>
                         {/if}
                       {/if}
+                      {#if lengde}<span class="lengde-mobile">{lengde}</span>{/if}
                     </div>
+                  {:else if lengde}
+                    <span class="lengde-mobile">{lengde}</span>
                   {:else}
                     <span class="streaming-missing" aria-hidden="true">–</span>
                   {/if}
                 </td>
+                <td data-label="Lengde" class="lengde-cell">{lengde}</td>
               </tr>
             {/each}
           </tbody>
@@ -493,6 +505,18 @@
     white-space: nowrap;
   }
 
+  .lengde-column,
+  .lengde-cell {
+    text-align: right;
+    white-space: nowrap;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+  }
+
+  .lengde-mobile {
+    display: none;
+  }
+
   .streaming-links {
     display: inline-flex;
     align-items: center;
@@ -607,6 +631,14 @@
     td[data-label="Dirigent"] { order: 5; }
     td[data-label="Poeng"] { order: 6; }
     td[data-label="Opptak"] { order: 7; }
+    td[data-label="Lengde"] { display: none; }
+
+    .lengde-mobile {
+      display: inline;
+      margin-left: 0.35rem;
+      color: var(--color-text-secondary);
+      font-size: 0.85rem;
+    }
 
     /* Keep streaming icons aligned to the right on mobile, but label left-aligned */
     .streaming-cell {

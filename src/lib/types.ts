@@ -38,6 +38,7 @@ export interface StreamingLink {
   apple_music?: string | null;
   album?: string | null;
   recording_title?: string | null;
+  duration_seconds?: number | null;
 }
 
 export interface PiecePerformance {
