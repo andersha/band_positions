@@ -760,7 +760,7 @@
         {#if judgesForSelection.length === 1 && judgesForSelection[0].panel === null}
           <ul class="judges-list">
             {#each judgesForSelection[0].judges as judge}
-              <li>{judge}</li>
+              <li><a href={`?type=${bandType}&view=judges&judge=${encodeURIComponent(slugify(judge))}`} class="entity-link">{judge}</a></li>
             {/each}
           </ul>
         {:else}
@@ -772,7 +772,7 @@
                 {/if}
                 <ul class="judges-list">
                   {#each entry.judges as judge}
-                    <li>{judge}</li>
+                    <li><a href={`?type=${bandType}&view=judges&judge=${encodeURIComponent(slugify(judge))}`} class="entity-link">{judge}</a></li>
                   {/each}
                 </ul>
               </div>

@@ -4,7 +4,14 @@
   import type { PieceRecord, ComposerRecord, BandRecord, BandType } from './types';
   import PoengspredningChart from './PoengspredningChart.svelte';
 
-  export type StatType = 'pieces' | 'band-participations' | 'conductor-participations' | 'trophies' | 'piece-trophies' | 'point-spread' | 'scores' | 'piece-scores';
+  export type StatType = 'pieces' | 'band-participations' | 'conductor-participations' | 'trophies' | 'piece-trophies' | 'point-spread' | 'scores' | 'piece-scores' | 'judge-participations';
+
+  interface JudgeEntry {
+    year: number;
+    division: string;
+    panel: string | null;
+    judges: string[];
+  }
 
   interface Props {
     pieceRecords: PieceRecord[];
@@ -12,15 +19,17 @@
     bands: BandRecord[];
     conductorRecords: BandRecord[];
     bandType: BandType;
+    judgesData?: { wind: JudgeEntry[]; brass: JudgeEntry[] } | null;
     selectedStat?: StatType;
     onStatChange?: (stat: StatType) => void;
     onViewPiece: (slug: string) => void;
     onViewComposer: (slug: string) => void;
     onViewBand: (slug: string) => void;
     onViewConductor: (slug: string) => void;
+    onViewJudge?: (slug: string) => void;
   }
 
-  let { pieceRecords, composerRecords, bands, conductorRecords, bandType, selectedStat = 'pieces', onStatChange, onViewPiece, onViewComposer, onViewBand, onViewConductor }: Props = $props();
+  let { pieceRecords, composerRecords, bands, conductorRecords, bandType, judgesData = null, selectedStat = 'pieces', onStatChange, onViewPiece, onViewComposer, onViewBand, onViewConductor, onViewJudge }: Props = $props();
 
   const PAGE_SIZE = 20;
   let currentPage = $state(1);
@@ -119,6 +128,21 @@
       .sort((a, b) => b.avg - a.avg || b.count - a.count);
   });
 
+  // Stat: Judge participation counts
+  let judgeParticipationStats = $derived.by(() => {
+    if (!judgesData) return [];
+    const entries = judgesData[bandType];
+    const map = new Map<string, number>();
+    for (const entry of entries) {
+      for (const name of entry.judges) {
+        map.set(name, (map.get(name) ?? 0) + 1);
+      }
+    }
+    return [...map.entries()]
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'nb'));
+  });
+
   let activeStats = $derived(
     selectedStat === 'pieces' ? pieceStats :
     selectedStat === 'band-participations' ? bandParticipationStats :
@@ -127,6 +151,7 @@
     selectedStat === 'piece-trophies' ? pieceTrophyStats :
     selectedStat === 'point-spread' ? [] :
     selectedStat === 'scores' ? scoreStats :
+    selectedStat === 'judge-participations' ? judgeParticipationStats :
     pieceScoreStats
   );
 
@@ -158,6 +183,7 @@
       <option value="point-spread">Poengspredning</option>
       <option value="scores">Høyest snittpoeng (korps)</option>
       <option value="piece-scores">Høyest snittpoeng (stykke)</option>
+      <option value="judge-participations">Flest dommeroppdrag</option>
     </select>
     {#if selectedStat !== 'point-spread'}
       <span class="results-count">{activeStats.length} resultater</span>
@@ -377,6 +403,30 @@
               </td>
               <td class="ps-count-cell">{row.count}</td>
               <td class="ps-avg-cell">{row.avg.toFixed(2)}</td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    {:else if selectedStat === 'judge-participations'}
+      <table class="stats-table stats-judge-part">
+        <thead>
+          <tr>
+            <th class="rank-col">#</th>
+            <th>Dommer</th>
+            <th class="num-col">Oppdrag</th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each paginatedStats as row, i (row.name)}
+            {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
+            <tr>
+              <td class="rank-cell">{rank}</td>
+              <td class="name-cell">
+                <button class="link-btn" onclick={() => onViewJudge?.(slugify(row.name))}>
+                  {row.name}
+                </button>
+              </td>
+              <td class="part-count-cell">{row.count}</td>
             </tr>
           {/each}
         </tbody>

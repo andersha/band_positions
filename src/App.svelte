@@ -16,6 +16,7 @@
   import SettingsPage from './lib/SettingsPage.svelte';
   import Upcoming2026 from './lib/Upcoming2026.svelte';
   import StatisticsPage from './lib/StatisticsPage.svelte';
+  import JudgePerformances from './lib/JudgePerformances.svelte';
   import { slugify } from './lib/slugify';
   import { extractComposerNames, normalizeComposerName } from './lib/composerUtils';
   import { readLS, writeLS, STORAGE_KEYS } from './lib/storage';
@@ -30,7 +31,7 @@ import type {
   EliteTestPiecesData
 } from './lib/types';
 
-  type ViewType = 'bands' | 'conductors' | 'pieces' | 'composers' | 'data' | 'repertoire' | '2026' | 'statistikk' | 'om' | 'innstillinger';
+  type ViewType = 'bands' | 'conductors' | 'pieces' | 'composers' | 'data' | 'repertoire' | '2026' | 'statistikk' | 'om' | 'innstillinger' | 'judges';
   type Theme = 'light' | 'dark';
 
   const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor', pieces: 'piece', composers: 'composer' } as const;
@@ -82,6 +83,8 @@ import type {
   let sortOrder = $state<'asc' | 'desc'>('asc');
   let activeView = $state<ViewType>(DEFAULT_VIEW);
   let statistikkReport = $state<import('./lib/StatisticsPage.svelte').StatType>('pieces');
+  let selectedJudge = $state<string | null>(null); // judge slug
+  let judgesData = $state<{ wind: { year: number; division: string; panel: string | null; judges: string[] }[]; brass: { year: number; division: string; panel: string | null; judges: string[] }[] } | null>(null);
   let theme = $state<Theme>('dark');
   let bandType = $state<BandType | null>(null); // Changed to nullable
   let menuOpen = $state(false);
@@ -887,6 +890,9 @@ import type {
     if (raw === 'bands' || raw === 'korps') {
       return 'bands';
     }
+    if (raw === 'judges' || raw === 'dommer' || raw === 'dommere') {
+      return 'judges';
+    }
     return DEFAULT_VIEW;
   }
 
@@ -963,6 +969,12 @@ import type {
       params.delete(URL_REPORT_KEY);
     }
 
+    if (activeView === 'judges' && selectedJudge) {
+      params.set('judge', selectedJudge);
+    } else {
+      params.delete('judge');
+    }
+
     const query = params.toString();
     const newUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
     if (pushNewEntry) {
@@ -992,9 +1004,17 @@ import type {
 
     const searchParams = new URLSearchParams(window.location.search);
     const reportFromUrl = searchParams.get(URL_REPORT_KEY);
-    const validReports = ['pieces', 'band-participations', 'conductor-participations', 'trophies', 'piece-trophies', 'point-spread', 'scores', 'piece-scores'] as const;
+    const validReports = ['pieces', 'band-participations', 'conductor-participations', 'trophies', 'piece-trophies', 'point-spread', 'scores', 'piece-scores', 'judge-participations'] as const;
     if (reportFromUrl && (validReports as readonly string[]).includes(reportFromUrl)) {
       statistikkReport = reportFromUrl as typeof statistikkReport;
+    }
+
+    const judgeFromUrl = searchParams.get('judge');
+    if (viewFromUrl === 'judges' && judgeFromUrl) {
+      selectedJudge = decodeURIComponent(judgeFromUrl);
+      stateChanged = true;
+    } else if (viewFromUrl !== 'judges') {
+      selectedJudge = null;
     }
 
     if (!dataset) {
@@ -1093,7 +1113,7 @@ import type {
     const conductorSignature = selectedConductors.map((conductor) => conductor.slug).join(URL_SEPARATOR);
     const pieceSignature = selectedPieces.map((piece) => piece.slug).join(URL_SEPARATOR);
     const composerSignature = selectedComposers.map((composer) => composer.slug).join(URL_SEPARATOR);
-    return `${bandType ?? 'none'}|${activeView}|${statistikkReport}|${bandSignature}|${conductorSignature}|${pieceSignature}|${composerSignature}`;
+    return `${bandType ?? 'none'}|${activeView}|${statistikkReport}|${selectedJudge ?? ''}|${bandSignature}|${conductorSignature}|${pieceSignature}|${composerSignature}`;
   }
 
   function syncUrlIfReady(): void {
@@ -1334,6 +1354,13 @@ import type {
       conductorRecords = buildConductorRecords(parsedDataset.bands);
       pieceRecords = buildPieceRecords(parsedDataset.bands, pieceComposerIndex, eliteTestPieces, type);
       composerRecords = buildComposerRecords(pieceRecords);
+      // Load judges data (shared across band types)
+      if (judgesData === null) {
+        fetch('data/judges.json')
+          .then(res => res.ok ? res.json() : null)
+          .then(data => { if (data) judgesData = data; })
+          .catch(err => console.warn('Failed to load judges data', err));
+      }
       syncSelectionFromURL({ updateHistory: false });
       lastSyncedSignature = getSelectedSignature();
       updateUrlState();
@@ -1495,6 +1522,14 @@ import type {
           newParams.set(URL_DIVISION_KEY, divisionParam);
         } else {
           newParams.delete(URL_DIVISION_KEY);
+        }
+
+        // Forward judge param if navigating to judge view
+        const judgeParam = params.get('judge');
+        if (judgeParam) {
+          newParams.set('judge', judgeParam);
+        } else {
+          newParams.delete('judge');
         }
 
         // Navigate to merged URL
@@ -1900,6 +1935,12 @@ import type {
     {/if}
   {:else if activeView === 'repertoire'}
     <RepertoireExplorer />
+  {:else if activeView === 'judges' && selectedJudge}
+    <JudgePerformances
+      judgeSlug={selectedJudge}
+      {judgesData}
+      bandType={bandType ?? 'wind'}
+    />
   {:else if activeView === 'statistikk'}
     <StatisticsPage
       pieceRecords={pieceRecords}
@@ -1907,12 +1948,14 @@ import type {
       bands={dataset?.bands ?? []}
       conductorRecords={conductorRecords}
       bandType={bandType ?? 'wind'}
+      {judgesData}
       selectedStat={statistikkReport}
       onStatChange={(stat) => { statistikkReport = stat; syncUrlIfReady(); }}
       onViewPiece={(slug) => { setView('pieces'); const p = pieceRecords.find(r => r.slug === slug); if (p) selectedPieces = [p]; }}
       onViewComposer={(slug) => { setView('composers'); const c = composerRecords.find(r => r.slug === slug); if (c) selectedComposers = [c]; }}
       onViewBand={(slug) => { setView('bands'); const b = dataset?.bands.find(r => r.slug === slug); if (b) selectedBands = [b]; }}
       onViewConductor={(slug) => { setView('conductors'); const c = conductorRecords.find(r => r.slug === slug); if (c) selectedConductors = [c]; }}
+      onViewJudge={(slug) => { selectedJudge = slug; setView('judges'); }}
     />
   {:else if activeView === '2026'}
     <Upcoming2026 {bandType} />
