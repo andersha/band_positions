@@ -51,17 +51,22 @@
     {
       "title": "A Cambridge Overture, Op. 116",
       "slug": "a-cambridge-overture-op-116",
-      "composer": "Derek Bourgeois"
+      "composer": "Derek Bourgeois",
+      "length": 9.0
     },
     {
       "title": "A Child’s Garden of Dreams",
       "slug": "a-childs-garden-of-dreams",
-      "composer": "David Maslanka"
+      "composer": "David Maslanka",
+      "grade": 6,
+      "length": 32.0
     },
     {
       "title": "A Child’s Garden of Dreams, 1., 2., 3. og 5. sats",
       "slug": "a-childs-garden-of-dreams-1-2-3-og-5-sats",
-      "composer": "David Maslanka"
+      "composer": "David Maslanka",
+      "grade": 6,
+      "length": 21.0
     },
     {
       "title": "A Festival Prelude",
@@ -125,7 +130,9 @@
     {
       "title": "A Little Stress Music - Satire in Four Parts",
       "slug": "a-little-stress-music-satire-in-four-parts",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 4,
+      "length": 12.0
     },
     {
       "title": "A Malvern. Suite",
@@ -371,7 +378,9 @@
     {
       "title": "Alpine Saga",
       "slug": "alpine-saga",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 4,
+      "length": 10.0
     },
     {
       "title": "Alte Swingkameraden",
@@ -702,12 +711,15 @@
     {
       "title": "Aulos symphony",
       "slug": "aulos-symphony",
-      "composer": "José Suñer-Oriola"
+      "composer": "José Suñer-Oriola",
+      "grade": 6,
+      "length": 32.0
     },
     {
       "title": "Aurora",
       "slug": "aurora",
       "composer": "Thomas Doss",
+      "grade": 5,
       "length": 13.5
     },
     {
@@ -906,7 +918,9 @@
     {
       "title": "Bergensiana",
       "slug": "bergensiana",
-      "composer": "Johan Halvorsen"
+      "composer": "Johan Halvorsen",
+      "grade": 5,
+      "length": 11.0
     },
     {
       "title": "Berkshire Overture",
@@ -1026,7 +1040,9 @@
     {
       "title": "Bojarenes Indtogsmarch",
       "slug": "bojarenes-indtogsmarch",
-      "composer": "Johan Halvorsen, arr. Bjørn Mellemberg"
+      "composer": "Johan Halvorsen, arr. Bjørn Mellemberg",
+      "grade": 4,
+      "length": 4.8
     },
     {
       "title": "Breaking Another Wall",
@@ -1045,7 +1061,7 @@
       "slug": "bridges-over-the-river-cam",
       "composer": "Derek Bourgeois",
       "grade": 4,
-      "length": 8.0
+      "length": 9.0
     },
     {
       "title": "Britannia!",
@@ -1139,7 +1155,8 @@
     {
       "title": "Calypso",
       "slug": "calypso",
-      "composer": "Derek Bourgeois"
+      "composer": "Derek Bourgeois",
+      "length": 4.0
     },
     {
       "title": "Candide Overture",
@@ -1353,7 +1370,9 @@
     {
       "title": "Chants de Thule (Slåtter og stev fra Tranestien)",
       "slug": "chants-de-thule-slatter-og-stev-fra-tranestien",
-      "composer": "Stig Nordhagen"
+      "composer": "Stig Nordhagen",
+      "grade": 5,
+      "length": 9.3
     },
     {
       "title": "Charivari",
@@ -1602,7 +1621,8 @@
     {
       "title": "Concrete",
       "slug": "concrete",
-      "composer": "Lene Grenager"
+      "composer": "Lene Grenager",
+      "length": 15.0
     },
     {
       "title": "Condacum",
@@ -1633,7 +1653,9 @@
     {
       "title": "Continental divide",
       "slug": "continental-divide",
-      "composer": "Stig Nordhagen"
+      "composer": "Stig Nordhagen",
+      "grade": 6,
+      "length": 17.0
     },
     {
       "title": "Continental Overture",
@@ -1779,7 +1801,8 @@
     {
       "title": "Dance Scene from Queen Tamara",
       "slug": "dance-scene-from-queen-tamara",
-      "composer": "Johan Halvorsen"
+      "composer": "Johan Halvorsen",
+      "length": 4.5
     },
     {
       "title": "Dance Suite",
@@ -1944,7 +1967,9 @@
     {
       "title": "Det gamle kvernhuset",
       "slug": "det-gamle-kvernhuset",
-      "composer": "Geirr Tveitt, instr. Stig Nordhagen"
+      "composer": "Geirr Tveitt, instr. Stig Nordhagen",
+      "grade": 4,
+      "length": 3.0
     },
     {
       "title": "Diaghilev",
@@ -2031,7 +2056,8 @@
     {
       "title": "Diversions for Wind Band",
       "slug": "diversions-for-wind-band",
-      "composer": "Derek Bourgeois"
+      "composer": "Derek Bourgeois",
+      "length": 13.0
     },
     {
       "title": "Divertimento",
@@ -2256,7 +2282,9 @@
     {
       "title": "Einstein",
       "slug": "einstein",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 5,
+      "length": 13.0
     },
     {
       "title": "El Camino Real",
@@ -2268,7 +2296,9 @@
     {
       "title": "El Jardin de Las Herspérides",
       "slug": "el-jardin-de-las-hersperides",
-      "composer": "José Suñer-Oriola"
+      "composer": "José Suñer-Oriola",
+      "grade": 6,
+      "length": 26.0
     },
     {
       "title": "Eldorado",
@@ -2362,7 +2392,9 @@
     {
       "title": "Enuma Elish",
       "slug": "enuma-elish",
-      "composer": "José Suñer-Oriola"
+      "composer": "José Suñer-Oriola",
+      "grade": 6,
+      "length": 22.0
     },
     {
       "title": "Epinicion for Winds and Percussion",
@@ -2484,13 +2516,15 @@
       "title": "Extreme Beethoven",
       "slug": "extreme-beethoven",
       "composer": "Johan de Meij",
-      "grade": 6
+      "grade": 6,
+      "length": 18.2
     },
     {
       "title": "Extreme Make-Over",
       "slug": "extreme-make-over",
       "composer": "Johan de Meij",
-      "grade": 6
+      "grade": 6,
+      "length": 16.5
     },
     {
       "title": "Exultate",
@@ -2621,7 +2655,9 @@
     {
       "title": "Fanfares and Fantasies",
       "slug": "fanfares-and-fantasies",
-      "composer": "Stig Nordhagen"
+      "composer": "Stig Nordhagen",
+      "grade": 4,
+      "length": 13.5
     },
     {
       "title": "Fantasia for Band",
@@ -2810,7 +2846,9 @@
     {
       "title": "Festmarsj",
       "slug": "festmarsj",
-      "composer": "Johan Halvorsen, arr. Jan Eriksen"
+      "composer": "Johan Halvorsen, arr. Jan Eriksen",
+      "grade": 4,
+      "length": 5.0
     },
     {
       "title": "Festmusik Der Stadt Wien",
@@ -3802,7 +3840,9 @@
     {
       "title": "Ildfuglen",
       "slug": "ildfuglen",
-      "composer": "Igor Stravinsky, arr. Randy Earles/Frederick Fennell"
+      "composer": "Igor Stravinsky, arr. Randy Earles/Frederick Fennell",
+      "grade": 6,
+      "length": 16.3
     },
     {
       "title": "Illyrian Dances",
@@ -4361,7 +4401,9 @@
     {
       "title": "La Quintessenza",
       "slug": "la-quintessenza",
-      "composer": "Johan de Meij"
+      "composer": "Johan de Meij",
+      "grade": 5,
+      "length": 12.0
     },
     {
       "title": "La Storia",
@@ -4381,12 +4423,16 @@
     {
       "title": "La Ville Blanche et Bleue",
       "slug": "la-ville-blanche-et-bleue",
-      "composer": "Stig Nordhagen"
+      "composer": "Stig Nordhagen",
+      "grade": 4,
+      "length": 8.0
     },
     {
       "title": "La Vouivre (The Giant Snake)",
       "slug": "la-vouivre-the-giant-snake",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 4,
+      "length": 14.5
     },
     {
       "title": "Labyrinth",
@@ -4591,7 +4637,9 @@
     {
       "title": "\"Loch Ness\" - A Scottish Fantasy",
       "slug": "loch-ness-a-scottish-fantasy",
-      "composer": "Johan de Meij"
+      "composer": "Johan de Meij",
+      "grade": 4,
+      "length": 12.0
     },
     {
       "title": "Lochinvar",
@@ -4618,7 +4666,9 @@
     {
       "title": "Lollapalooza",
       "slug": "lollapalooza",
-      "composer": "John Adams, arr. James Spinazzola"
+      "composer": "John Adams, arr. James Spinazzola",
+      "grade": 6,
+      "length": 7.0
     },
     {
       "title": "Lone Star Twister",
@@ -4641,7 +4691,9 @@
     {
       "title": "Luceafarul",
       "slug": "luceafarul",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 5,
+      "length": 16.85
     },
     {
       "title": "Luces y Sombras",
@@ -4711,7 +4763,9 @@
     {
       "title": "Madurodam, Miniature Suite for Wind Orchestra",
       "slug": "madurodam-miniature-suite-for-wind-orchestra",
-      "composer": "Johan de Meij"
+      "composer": "Johan de Meij",
+      "grade": 3,
+      "length": 9.5
     },
     {
       "title": "Magallanes",
@@ -5026,7 +5080,8 @@
       "title": "Morning Star",
       "slug": "morning-star",
       "composer": "David Maslanka",
-      "grade": 5
+      "grade": 5,
+      "length": 8.0
     },
     {
       "title": "Mother Earth (A Fanfare)",
@@ -5168,7 +5223,9 @@
     {
       "title": "Nemesis, Metàfora Sinfónica",
       "slug": "nemesis-metafora-sinfonica",
-      "composer": "José Suñer-Oriola"
+      "composer": "José Suñer-Oriola",
+      "grade": 6,
+      "length": 27.0
     },
     {
       "title": "Neuro",
@@ -5278,7 +5335,9 @@
     {
       "title": "Norsk Festoverture",
       "slug": "norsk-festoverture",
-      "composer": "Johan Halvorsen"
+      "composer": "Johan Halvorsen",
+      "grade": 5,
+      "length": 8.5
     },
     {
       "title": "Norsk Kunstnerkarneval, Op. 14",
@@ -5288,12 +5347,16 @@
     {
       "title": "Norsk Rapsodi nr. 1",
       "slug": "norsk-rapsodi-nr-1",
-      "composer": "Johan Halvorsen, arr. Stig Nordhagen"
+      "composer": "Johan Halvorsen, arr. Stig Nordhagen",
+      "grade": 5,
+      "length": 12.0
     },
     {
       "title": "Norsk Rapsodi nr. 2",
       "slug": "norsk-rapsodi-nr-2",
-      "composer": "Johan Halvorsen, arr. Lars-Thomas Holm"
+      "composer": "Johan Halvorsen, arr. Lars-Thomas Holm",
+      "grade": 5,
+      "length": 12.0
     },
     {
       "title": "Norwegian Attics",
@@ -5432,7 +5495,9 @@
     {
       "title": "Of Castles and Legends",
       "slug": "of-castles-and-legends",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 4,
+      "length": 10.0
     },
     {
       "title": "Of Sailors of Whales",
@@ -5503,7 +5568,9 @@
     {
       "title": "Orgie et Dances fra Antoine et Cléopâtre",
       "slug": "orgie-et-dances-fra-antoine-et-cleopatre",
-      "composer": "Florent Schmitt"
+      "composer": "Florent Schmitt",
+      "grade": 6,
+      "length": 11.0
     },
     {
       "title": "Orient et Occident, Op. 25",
@@ -5578,12 +5645,16 @@
     {
       "title": "Overture Allemande",
       "slug": "overture-allemande",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 4,
+      "length": 9.1
     },
     {
       "title": "Overture Con Spirito",
       "slug": "overture-con-spirito",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 4,
+      "length": 8.7
     },
     {
       "title": "Overture Die Felsenmühle",
@@ -5665,7 +5736,9 @@
     {
       "title": "Paganini Variations",
       "slug": "paganini-variations",
-      "composer": "Philip Wilby, arr. M. Scott McBride"
+      "composer": "Philip Wilby, arr. M. Scott McBride",
+      "grade": 5,
+      "length": 17.5
     },
     {
       "title": "Pageant",
@@ -6096,7 +6169,8 @@
     {
       "title": "Punchinello Overture",
       "slug": "punchinello-overture",
-      "composer": "Alfred Reed"
+      "composer": "Alfred Reed",
+      "length": 8.0
     },
     {
       "title": "Purcell Variants",
@@ -6394,7 +6468,9 @@
     {
       "title": "Rumpelstilzchen - a fairytale for Symphonic Wind Ensemble",
       "slug": "rumpelstilzchen-a-fairytale-for-symphonic-wind-ensemble",
-      "composer": "Jess Turner"
+      "composer": "Jess Turner",
+      "grade": 6,
+      "length": 19.0
     },
     {
       "title": "Rush",
@@ -6665,7 +6741,9 @@
     {
       "title": "Selamlik, Op. 48",
       "slug": "selamlik-op-48",
-      "composer": "Florent Schmitt"
+      "composer": "Florent Schmitt",
+      "grade": 4,
+      "length": 5.0
     },
     {
       "title": "Selections from \"Chicago\"",
@@ -6774,7 +6852,9 @@
     {
       "title": "Sidus",
       "slug": "sidus",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 6,
+      "length": 18.5
     },
     {
       "title": "Silence Overwhelmed",
@@ -7055,7 +7135,8 @@
     {
       "title": "Soundings for Band",
       "slug": "soundings-for-band",
-      "composer": "Cindy McTee"
+      "composer": "Cindy McTee",
+      "length": 15.0
     },
     {
       "title": "Southern Hymn",
@@ -7092,17 +7173,22 @@
     {
       "title": "Spiriti",
       "slug": "spiriti",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 6,
+      "length": 16.5
     },
     {
       "title": "Spiritual Planet",
       "slug": "spiritual-planet",
-      "composer": "Wataru Hokoyama"
+      "composer": "Wataru Hokoyama",
+      "grade": 5,
+      "length": 14.0
     },
     {
       "title": "Spiritual Planet, 1. og 2. sats",
       "slug": "spiritual-planet-1-og-2-sats",
-      "composer": "Wataru Hokoyama"
+      "composer": "Wataru Hokoyama",
+      "grade": 5
     },
     {
       "title": "Splinter",
@@ -7187,7 +7273,8 @@
       "title": "Stone Age",
       "slug": "stone-age",
       "composer": "Thomas Doss",
-      "length": 8.42
+      "grade": 6,
+      "length": 18.42
     },
     {
       "title": "Storbystev",
@@ -7232,7 +7319,9 @@
     {
       "title": "Suite de Ballet Les Papillons",
       "slug": "suite-de-ballet-les-papillons",
-      "composer": "Coby Lankester, arr. Johan de Meij"
+      "composer": "Coby Lankester, arr. Johan de Meij",
+      "grade": 5,
+      "length": 10.0
     },
     {
       "title": "Suite de Ballet Les Papillons, 5. sats",
@@ -7386,7 +7475,9 @@
     {
       "title": "Symfoni nr. 2, Venus de las Luces",
       "slug": "symfoni-nr-2-venus-de-las-luces",
-      "composer": "José Suñer-Oriola"
+      "composer": "José Suñer-Oriola",
+      "grade": 6,
+      "length": 18.0
     },
     {
       "title": "Symfonia no. 3 - La Salsa 1. sats: Tumbao",
@@ -7617,7 +7708,9 @@
     {
       "title": "Symphony no. 1 for Wind Band: Solitude Standing",
       "slug": "symphony-no-1-for-wind-band-solitude-standing",
-      "composer": "Stig Nordhagen"
+      "composer": "Stig Nordhagen",
+      "grade": 6,
+      "length": 22.0
     },
     {
       "title": "Symphony no. 1, ‘Gilgamesh’",
@@ -7639,7 +7732,9 @@
     {
       "title": "Symphony no. 1, \"Journey in the Dark\"",
       "slug": "symphony-no-1-journey-in-the-dark",
-      "composer": "Johan de Meij"
+      "composer": "Johan de Meij",
+      "grade": 5,
+      "length": 9.0
     },
     {
       "title": "Symphony no. 1, \"La Vall de la Murta\"",
@@ -7654,17 +7749,23 @@
     {
       "title": "Symphony no. 1, The Lord of the Rings, \"Gandalf\"",
       "slug": "symphony-no-1-the-lord-of-the-rings-gandalf",
-      "composer": "Johan de Meij"
+      "composer": "Johan de Meij",
+      "grade": 5,
+      "length": 6.0
     },
     {
       "title": "Symphony no. 1, The Lord of the Rings, \"Gollum\"",
       "slug": "symphony-no-1-the-lord-of-the-rings-gollum",
-      "composer": "Johan de Meij"
+      "composer": "Johan de Meij",
+      "grade": 5,
+      "length": 9.6
     },
     {
       "title": "Symphony no. 1, The Lord of the Rings, \"Hobbits\"",
       "slug": "symphony-no-1-the-lord-of-the-rings-hobbits",
-      "composer": "Johan de Meij"
+      "composer": "Johan de Meij",
+      "grade": 5,
+      "length": 9.0
     },
     {
       "title": "Symphony no. 1 \"Titan\", 4. sats",
@@ -7753,6 +7854,7 @@
       "title": "Symphony no. 5",
       "slug": "symphony-no-5",
       "composer": "David Maslanka",
+      "grade": 6,
       "length": 12.92
     },
     {
@@ -7888,7 +7990,9 @@
     {
       "title": "Terra Mystica",
       "slug": "terra-mystica",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 4,
+      "length": 13.8
     },
     {
       "title": "Terra Vulcana",
@@ -7955,7 +8059,9 @@
     {
       "title": "The Curse of the Mermaid",
       "slug": "the-curse-of-the-mermaid",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 5,
+      "length": 11.8
     },
     {
       "title": "The cutting of the hay",
@@ -8300,7 +8406,9 @@
     {
       "title": "The Stone Guardians - The Three Peaks",
       "slug": "the-stone-guardians-the-three-peaks",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 5,
+      "length": 15.5
     },
     {
       "title": "The Story of Anne Frank",
@@ -8356,13 +8464,16 @@
     {
       "title": "The White Deer",
       "slug": "the-white-deer",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 4,
+      "length": 12.25
     },
     {
       "title": "The Wind in the Willows",
       "slug": "the-wind-in-the-willows",
       "composer": "Johan de Meij",
-      "grade": 4
+      "grade": 4,
+      "length": 17.0
     },
     {
       "title": "The Winds of Poseidon",
@@ -8834,7 +8945,9 @@
     {
       "title": "Variasjoner over en folketone fra Valdres",
       "slug": "variasjoner-over-en-folketone-fra-valdres",
-      "composer": "Stig Nordhagen"
+      "composer": "Stig Nordhagen",
+      "grade": 6,
+      "length": 14.5
     },
     {
       "title": "Variation on a Korean Folk Song",
@@ -8908,7 +9021,9 @@
     {
       "title": "Vårofferet",
       "slug": "varofferet",
-      "composer": "Igor Stravinskij"
+      "composer": "Igor Stravinskij",
+      "grade": 6,
+      "length": 34.0
     },
     {
       "title": "Vårofferet, 2. del",
@@ -8977,7 +9092,8 @@
     {
       "title": "Vientos",
       "slug": "vientos",
-      "composer": "Francisco Tamarit Fayos"
+      "composer": "Francisco Tamarit Fayos",
+      "length": 19.0
     },
     {
       "title": "Vientos Y Tangos",
@@ -9190,7 +9306,9 @@
     {
       "title": "Wind Blitz",
       "slug": "wind-blitz",
-      "composer": "Derek Bourgeois"
+      "composer": "Derek Bourgeois",
+      "grade": 6,
+      "length": 12.5
     },
     {
       "title": "Wind Sketches",
@@ -9200,7 +9318,9 @@
     {
       "title": "WINDOW TO THE SUN - In the Heart of the Alps",
       "slug": "window-to-the-sun-in-the-heart-of-the-alps",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 5,
+      "length": 15.5
     },
     {
       "title": "Windows of the World",
@@ -9253,7 +9373,9 @@
     {
       "title": "Witch Dance",
       "slug": "witch-dance",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 5,
+      "length": 9.75
     },
     {
       "title": "With Each Sunset (Comes the Promise of a New Day)",
@@ -9343,19 +9465,22 @@
     {
       "title": "Zeppelin Symphony",
       "slug": "zeppelin-symphony",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 5,
+      "length": 37.6
     },
     {
       "title": "Zeppelin Symphony, 1., 3. og 4. sats",
       "slug": "zeppelin-symphony-1-3-og-4-sats",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 5
     }
   ],
   "metadata": {
     "total_pieces": 1582,
-    "matched_with_repertoire": 685,
-    "match_rate_percent": 43.3,
+    "matched_with_repertoire": 744,
+    "match_rate_percent": 47.0,
     "band_type": "wind",
-    "generated_at": "2026-03-30T19:47:19.068421+00:00"
+    "generated_at": "2026-03-31T10:32:29.891700+00:00"
   }
 }

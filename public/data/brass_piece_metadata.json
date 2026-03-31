@@ -202,7 +202,8 @@
     {
       "title": "Apocalypse",
       "slug": "apocalypse",
-      "composer": "Derek Bourgeois"
+      "composer": "Derek Bourgeois",
+      "length": 19.0
     },
     {
       "title": "Appalachian Mountain Folk Song Suite",
@@ -227,7 +228,8 @@
     {
       "title": "Ascending - Learning how to fly",
       "slug": "ascending-learning-how-to-fly",
-      "composer": "Stig Nordhagen"
+      "composer": "Stig Nordhagen",
+      "grade": 6
     },
     {
       "title": "Ascension",
@@ -301,7 +303,9 @@
     {
       "title": "Blackout",
       "slug": "blackout",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 6,
+      "length": 10.45
     },
     {
       "title": "Blazon",
@@ -518,7 +522,8 @@
     {
       "title": "Diversions for Brass Band",
       "slug": "diversions-for-brass-band",
-      "composer": "Derek Bourgeois"
+      "composer": "Derek Bourgeois",
+      "length": 12.0
     },
     {
       "title": "Diversions on a Bass Theme",
@@ -633,7 +638,8 @@
       "title": "Extreme Make-Over",
       "slug": "extreme-make-over",
       "composer": "Johan de Meij",
-      "grade": 6
+      "grade": 6,
+      "length": 16.5
     },
     {
       "title": "Exultate Deo",
@@ -1277,7 +1283,9 @@
     {
       "title": "Paganini Variations",
       "slug": "paganini-variations",
-      "composer": "Philip Wilby"
+      "composer": "Philip Wilby",
+      "grade": 5,
+      "length": 17.5
     },
     {
       "title": "Pageantry",
@@ -1433,7 +1441,9 @@
     {
       "title": "REM-Scapes",
       "slug": "rem-scapes",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 6,
+      "length": 17.0
     },
     {
       "title": "Remembrance",
@@ -1624,7 +1634,9 @@
     {
       "title": "Sketches from Nowhere",
       "slug": "sketches-from-nowhere",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 6,
+      "length": 15.5
     },
     {
       "title": "So Spoke Albion",
@@ -1671,7 +1683,9 @@
     {
       "title": "Spiriti",
       "slug": "spiriti",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 6,
+      "length": 16.5
     },
     {
       "title": "St. Austell Suite",
@@ -2020,7 +2034,9 @@
     {
       "title": "This World",
       "slug": "this-world",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 6,
+      "length": 18.0
     },
     {
       "title": "Three Extraordinary Journeys",
@@ -2042,7 +2058,9 @@
     {
       "title": "Time Machine",
       "slug": "time-machine",
-      "composer": "Thomas Doss"
+      "composer": "Thomas Doss",
+      "grade": 6,
+      "length": 13.5
     },
     {
       "title": "Titan's Progress",
@@ -2263,9 +2281,9 @@
   ],
   "metadata": {
     "total_pieces": 424,
-    "matched_with_repertoire": 59,
-    "match_rate_percent": 13.9,
+    "matched_with_repertoire": 67,
+    "match_rate_percent": 15.8,
     "band_type": "brass",
-    "generated_at": "2026-03-30T19:47:19.076348+00:00"
+    "generated_at": "2026-03-31T10:32:29.899740+00:00"
   }
 }

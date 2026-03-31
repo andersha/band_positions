@@ -624,7 +624,10 @@
                 class:row-promote={promotionStatus === 'promote'}
                 class:row-demote={promotionStatus === 'demote'}
               >
-                <td data-label="Plass" class="rank-col">{getTrophy(entry.rank)}{formatRank(entry.rank)}</td>
+                <td data-label="Plass" class="rank-col">
+                  <span class="rank-trophy">{getTrophy(entry.rank)}</span>
+                  <span class="rank-number">{formatRank(entry.rank)}</span>
+                </td>
                 <td data-label="Korps">
                   <a
                     href={`?type=${bandType}&view=bands&band=${encodeURIComponent(slugify(band))}`}
@@ -645,7 +648,9 @@
                     <span>Ukjent</span>
                   {/if}
                 </td>
-                <td data-label="Poeng">{formatPoints(entry.points, entry.max_points)}</td>
+                <td data-label="Poeng">
+                  <span class="score-value">{formatPoints(entry.points, entry.max_points)}</span>
+                </td>
                 <td data-label="Program" class="program-cell">
                   {#if true}
                     {@const testPiece = bandType === 'brass' && isEliteDivision(entry.division) ? testPieceForYear(entry.year) : null}
@@ -657,6 +662,8 @@
                       <div class="program-list">
                         {#each allPieces as pieceItem}
                           {@const piece = pieceItem.name}
+                          {@const streamingInline = resolveStreamingLink(entry, band, piece)}
+                          {@const lengdeInline = formatLengde(streamingInline?.duration_seconds, pieceLengthResolver?.(piece))}
                           <div class="program-piece">
                             {#if pieceItem.isTestPiece}
                               <span class="test-piece-label" title="Pliktstykke (fredag)">P:</span>
@@ -670,6 +677,34 @@
                             >
                               {piece}
                             </a>
+                            <span class="piece-opptak-mobile">
+                              {#if hasStreamingLinks(streamingInline)}
+                                <span class="streaming-links">
+                                  {#if streamingInline?.spotify}
+                                    <a href={streamingInline.spotify} target="_blank" rel="noopener noreferrer" class="streaming-link spotify" title={buildStreamingTitle(piece, streamingInline, 'spotify')}>
+                                      <span class="sr-only">Hør {piece} på Spotify</span>
+                                      <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" /><path d="M16.88 16.13a.75.75 0 0 0-1.03-.26c-2.36 1.43-5.48 1.8-9.09 1.04a.75.75 0 1 0-.3 1.47c3.96.81 7.47.39 10.05-1.12a.75.75 0 0 0 .37-.37.75.75 0 0 0 0-.76z" fill="currentColor" /><path d="M16.1 13.69c-2.01 1.2-4.92 1.55-8.16.9a.75.75 0 0 0-.29 1.47c3.56.71 6.91.31 9.27-1.08a.75.75 0 0 0-.77-1.29h-.05z" fill="currentColor" opacity="0.8" /><path d="M15.24 11.12c-1.76 1.04-4.31 1.34-7.15.79a.75.75 0 0 0-.29 1.47c3.15.6 6.02.27 8.07-.96a.75.75 0 0 0-.77-1.3h-.04z" fill="currentColor" opacity="0.6" /></svg>
+                                    </a>
+                                  {/if}
+                                  {#if streamingInline?.apple_music}
+                                    {@const appleHref = toAppleMusicHref(streamingInline.apple_music)}
+                                    {#if appleHref}
+                                      <a href={appleHref} target="_blank" rel="noopener noreferrer" class="streaming-link apple" title={buildStreamingTitle(piece, streamingInline, 'apple')}>
+                                        <span class="sr-only">Hør {piece} på Apple Music</span>
+                                        <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" /><path d="M14.75 6.75a.75.75 0 0 1 .75.75v6.33a2.92 2.92 0 1 1-1.5-2.54V9.25h-1.5A.75.75 0 0 1 12 8.5v-1a.75.75 0 0 1 .75-.75z" fill="currentColor" /><path d="M9.75 13.75a.75.75 0 0 1 .75.75c0 .69.56 1.25 1.25 1.25s1.25-.56 1.25-1.25a.75.75 0 0 1 1.5 0 2.75 2.75 0 1 1-5.5 0 .75.75 0 0 1 .75-.75z" fill="currentColor" opacity="0.8" /></svg>
+                                      </a>
+                                    {/if}
+                                  {/if}
+                                  {#if streamingInline?.youtube}
+                                    <a href={streamingInline.youtube} target="_blank" rel="noopener noreferrer" class="streaming-link youtube" title={`${piece} (YouTube)`}>
+                                      <span class="sr-only">Hør {piece} på YouTube</span>
+                                      <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" /><path d="M19.6 8.2a2.4 2.4 0 0 0-1.69-1.7C16.54 6.2 12 6.2 12 6.2s-4.54 0-5.91.3A2.4 2.4 0 0 0 4.4 8.2C4.1 9.58 4.1 12 4.1 12s0 2.42.3 3.8a2.4 2.4 0 0 0 1.69 1.7c1.37.3 5.91.3 5.91.3s4.54 0 5.91-.3a2.4 2.4 0 0 0 1.69-1.7c.3-1.38.3-3.8.3-3.8s0-2.42-.3-3.8z" fill="currentColor" /><path d="M10.2 14.8V9.2l5.2 2.8-5.2 2.8z" fill="var(--color-surface-card, #1a1f2e)" /></svg>
+                                    </a>
+                                  {/if}
+                                </span>
+                              {/if}
+                              {#if lengdeInline}<span class="lengde-mobile">{lengdeInline}</span>{/if}
+                            </span>
                           </div>
                         {/each}
                       </div>
@@ -1058,6 +1093,11 @@
     white-space: nowrap;
   }
 
+  .piece-opptak-mobile {
+    display: none;
+  }
+
+
   .program-cell {
     white-space: normal;
   }
@@ -1232,9 +1272,11 @@
 
     tbody tr {
       display: grid;
-      grid-template-columns: 70% 30%;
-      gap: 0.35rem 0.75rem;
-      padding: 0.75rem 1rem;
+      grid-template-columns: 2.75rem 1fr auto;
+      grid-template-rows: auto auto auto;
+      column-gap: 0.5rem;
+      row-gap: 0;
+      padding: 0.85rem 1rem;
       border-bottom: 1px solid var(--color-border);
     }
 
@@ -1245,66 +1287,136 @@
     tbody td {
       border-top: none;
       padding: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 0.25rem;
     }
 
     td[data-label]::before {
-      display: block;
-      color: var(--color-text-secondary);
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.02em;
+      display: none;
     }
 
-    /* Reorder cells: Korps before Plass for better mobile layout */
-    td[data-label="Korps"] {
-      order: 1;
-    }
-
+    /* Col 1, rows 1–2: trophy emoji + rank number stacked */
     td[data-label="Plass"] {
-      order: 2;
+      grid-column: 1;
+      grid-row: 1 / 3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0.1rem;
+      gap: 0.15rem;
     }
 
-    td[data-label="Dirigent"] {
-      order: 3;
+    .rank-trophy {
+      font-size: 1.6rem;
+      line-height: 1;
     }
 
+    .rank-number {
+      font-size: 0.8rem;
+      color: var(--color-text-secondary);
+      font-weight: 600;
+    }
+
+    /* Col 2, row 1: band name */
+    td[data-label="Korps"] {
+      grid-column: 2;
+      grid-row: 1;
+      align-self: end;
+      font-size: 1rem;
+      font-weight: 700;
+      padding-bottom: 0.1rem;
+    }
+
+    /* Col 3, rows 1–2: SCORE label + score number */
     td[data-label="Poeng"] {
-      order: 4;
+      grid-column: 3;
+      grid-row: 1 / 3;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding-top: 0.1rem;
     }
 
+    .score-value {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-text-primary);
+    }
+
+    /* Col 2, row 2: conductor */
+    td[data-label="Dirigent"] {
+      grid-column: 2;
+      grid-row: 2;
+      font-size: 0.85rem;
+      color: var(--color-text-secondary);
+      align-self: start;
+      padding-bottom: 0.6rem;
+    }
+
+    /* Row 3: program spans both content columns */
     td[data-label="Program"] {
-      order: 5;
+      grid-column: 2 / 4;
+      grid-row: 3;
+      padding-top: 0.4rem;
+      border-top: 1px solid var(--color-border);
+    }
+
+    td[data-label="Program"]::before {
+      display: block;
+      content: "Program";
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--color-text-secondary);
+      margin-bottom: 0.25rem;
     }
 
     td[data-label="Opptak"] {
-      order: 6;
+      display: none;
     }
 
     td[data-label="Lengde"] {
       display: none;
     }
 
-    .lengde-mobile {
-      display: inline;
-      margin-left: 0.35rem;
-      color: var(--color-text-secondary);
-      font-size: 0.85rem;
-    }
-
-    /* Adjust program piece layout for mobile */
+    /* Each piece row: name left, streaming+duration right */
     .program-piece {
-      flex-wrap: wrap;
-      gap: 0.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
     }
 
-    /* Ensure piece names can wrap */
     .program-link {
+      flex: 1;
+      min-width: 0;
       word-break: break-word;
       overflow-wrap: break-word;
       hyphens: auto;
+    }
+
+    /* Mobile streaming inline with piece */
+    .piece-opptak-mobile {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      flex-shrink: 0;
+    }
+
+    .lengde-mobile {
+      display: inline-block;
+      width: 2.2ch;
+      text-align: right;
+      color: var(--color-text-secondary);
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+
+    .prize-card__instrument {
+      font-size: 1.15rem;
+    }
+
+    .prize-card__winner {
+      font-size: 1rem;
     }
   }
 </style>

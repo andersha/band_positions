@@ -257,6 +257,7 @@
                   {#if pieceEntries.length > 0}
                     <ul class="piece-list">
                       {#each pieceEntries as pieceEntry}
+                        {@const lengdeInline = formatLengde(pieceEntry.streaming?.duration_seconds, pieceLengthResolver?.(pieceEntry.pieceName))}
                         <li>
                           {#if pieceEntry.isTestPiece}
                             <span class="test-piece-label" title="Pliktstykke (fredag)">P:</span>
@@ -276,6 +277,34 @@
                           {:else}
                             <span>Ukjent</span>
                           {/if}
+                          <span class="piece-opptak-mobile">
+                            {#if hasStreamingLinks(pieceEntry.streaming)}
+                              <span class="streaming-links">
+                                {#if pieceEntry.streaming?.spotify}
+                                  <a href={pieceEntry.streaming.spotify} target="_blank" rel="noopener noreferrer" class="streaming-link spotify" title={buildStreamingTitle(pieceEntry.pieceName, pieceEntry.streaming, 'spotify')}>
+                                    <span class="sr-only">Hør {pieceEntry.pieceName} på Spotify</span>
+                                    <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" /><path d="M16.88 16.13a.75.75 0 0 0-1.03-.26c-2.36 1.43-5.48 1.8-9.09 1.04a.75.75 0 1 0-.3 1.47c3.96.81 7.47.39 10.05-1.12a.75.75 0 0 0 .37-.37.75.75 0 0 0 0-.76z" fill="currentColor" /><path d="M16.1 13.69c-2.01 1.2-4.92 1.55-8.16.9a.75.75 0 0 0-.29 1.47c3.56.71 6.91.31 9.27-1.08a.75.75 0 0 0-.77-1.29h-.05z" fill="currentColor" opacity="0.8" /><path d="M15.24 11.12c-1.76 1.04-4.31 1.34-7.15.79a.75.75 0 0 0-.29 1.47c3.15.6 6.02.27 8.07-.96a.75.75 0 0 0-.77-1.3h-.04z" fill="currentColor" opacity="0.6" /></svg>
+                                  </a>
+                                {/if}
+                                {#if pieceEntry.streaming?.apple_music}
+                                  {@const appleHref = toAppleMusicHref(pieceEntry.streaming.apple_music)}
+                                  {#if appleHref}
+                                    <a href={appleHref} target="_blank" rel="noopener noreferrer" class="streaming-link apple" title={buildStreamingTitle(pieceEntry.pieceName, pieceEntry.streaming, 'apple')}>
+                                      <span class="sr-only">Hør {pieceEntry.pieceName} på Apple Music</span>
+                                      <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" /><path d="M14.75 6.75a.75.75 0 0 1 .75.75v6.33a2.92 2.92 0 1 1-1.5-2.54V9.25h-1.5A.75.75 0 0 1 12 8.5v-1a.75.75 0 0 1 .75-.75z" fill="currentColor" /><path d="M9.75 13.75a.75.75 0 0 1 .75.75c0 .69.56 1.25 1.25 1.25s1.25-.56 1.25-1.25a.75.75 0 0 1 1.5 0 2.75 2.75 0 1 1-5.5 0 .75.75 0 0 1 .75-.75z" fill="currentColor" opacity="0.8" /></svg>
+                                    </a>
+                                  {/if}
+                                {/if}
+                                {#if pieceEntry.streaming?.youtube}
+                                  <a href={pieceEntry.streaming.youtube} target="_blank" rel="noopener noreferrer" class="streaming-link youtube" title={`${pieceEntry.pieceName} (YouTube)`}>
+                                    <span class="sr-only">Hør {pieceEntry.pieceName} på YouTube</span>
+                                    <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" /><path d="M19.6 8.2a2.4 2.4 0 0 0-1.69-1.7C16.54 6.2 12 6.2 12 6.2s-4.54 0-5.91.3A2.4 2.4 0 0 0 4.4 8.2C4.1 9.58 4.1 12 4.1 12s0 2.42.3 3.8a2.4 2.4 0 0 0 1.69 1.7c1.37.3 5.91.3 5.91.3s4.54 0 5.91-.3a2.4 2.4 0 0 0 1.69-1.7c.3-1.38.3-3.8.3-3.8s0-2.42-.3-3.8z" fill="currentColor" /><path d="M10.2 14.8V9.2l5.2 2.8-5.2 2.8z" fill="var(--color-surface-card, #1a1f2e)" /></svg>
+                                  </a>
+                                {/if}
+                              </span>
+                            {/if}
+                            {#if lengdeInline}<span class="lengde-mobile">{lengdeInline}</span>{/if}
+                          </span>
                         </li>
                       {/each}
                     </ul>
@@ -572,6 +601,10 @@
     display: none;
   }
 
+  .piece-opptak-mobile {
+    display: none;
+  }
+
   .lengde-list {
     display: flex;
     flex-direction: column;
@@ -744,47 +777,48 @@
       letter-spacing: 0.02em;
     }
 
-    /* Reorder cells: År/Divisjon, Plass/Poeng, Dirigent (full width), Program/Opptak */
+    /* Reorder cells: År/Divisjon, Plass/Poeng, Dirigent (full width), Program (full width) */
     td[data-label="År"] { order: 1; }
     td[data-label="Divisjon"] { order: 2; }
     td[data-label="Plass"] { order: 3; }
     td[data-label="Poeng"] { order: 4; }
     td[data-label="Dirigent"] { order: 5; grid-column: 1 / -1; }
-    td[data-label="Program"] { order: 6; }
-    td[data-label="Opptak"] { order: 7; }
+    td[data-label="Program"] { order: 6; grid-column: 1 / -1; }
+    td[data-label="Opptak"] { display: none; }
     td[data-label="Lengde"] { display: none; }
 
-    .lengde-mobile {
-      display: inline;
-      margin-left: 0.35rem;
-      color: var(--color-text-secondary);
-      font-size: 0.85rem;
-    }
-
-    /* Adjust piece list for mobile */
+    /* Each piece row: name left, streaming+duration right */
     .piece-list li {
-      flex-wrap: wrap;
-      gap: 0.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      flex-wrap: nowrap;
     }
 
-    /* Ensure piece names can wrap */
     .entity-link {
+      flex: 1;
+      min-width: 0;
       word-break: break-word;
       overflow-wrap: break-word;
       hyphens: auto;
     }
 
-    /* Keep streaming icons aligned to the right on mobile, but label left-aligned */
-    .streaming-cell {
-      align-items: flex-start;
+    /* Mobile streaming inline with piece */
+    .piece-opptak-mobile {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      flex-shrink: 0;
     }
 
-    .streaming-list {
-      align-items: flex-end;
-    }
-
-    .streaming-piece-row {
-      justify-content: flex-end;
+    .lengde-mobile {
+      display: inline-block;
+      width: 2.2ch;
+      text-align: right;
+      color: var(--color-text-secondary);
+      font-size: 0.85rem;
+      white-space: nowrap;
     }
   }
 </style>
