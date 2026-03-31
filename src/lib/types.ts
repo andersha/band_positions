@@ -36,6 +36,7 @@ export interface BandDataset {
 export interface StreamingLink {
   spotify?: string | null;
   apple_music?: string | null;
+  youtube?: string | null;
   album?: string | null;
   recording_title?: string | null;
   duration_seconds?: number | null;

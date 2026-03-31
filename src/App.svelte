@@ -200,12 +200,14 @@ import type {
       const appleUrl = typeof entry.apple_music === 'string' && entry.apple_music.trim().length > 0
         ? entry.apple_music.trim()
         : null;
+      const youtubeUrl = typeof entry.youtube === 'string' && entry.youtube.trim().length > 0 ? entry.youtube.trim() : null;
 
-      if (!spotifyUrl && !appleUrl) continue;
+      if (!spotifyUrl && !appleUrl && !youtubeUrl) continue;
 
       const link: StreamingLink = {
         spotify: spotifyUrl,
         apple_music: appleUrl,
+        youtube: youtubeUrl,
         album: entry.album?.trim() ?? null,
         recording_title: entry.recording_title?.trim() ?? null,
         duration_seconds: typeof entry.duration_seconds === 'number' ? entry.duration_seconds : null

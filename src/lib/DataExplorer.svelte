@@ -286,7 +286,7 @@
   }
 
   function hasStreamingLinks(streaming?: StreamingLink | null): boolean {
-    return Boolean(streaming?.spotify || streaming?.apple_music);
+    return Boolean(streaming?.spotify || streaming?.apple_music || streaming?.youtube);
   }
 
   function formatLengde(durationSeconds?: number | null, fallbackMinutes?: number | null): string {
@@ -746,6 +746,25 @@
                                     </a>
                                   {/if}
                                 {/if}
+                                {#if streaming?.youtube}
+                                  <a
+                                    href={streaming.youtube}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="streaming-link youtube"
+                                    title={`${piece} (YouTube)`}
+                                  >
+                                    <span class="sr-only">Hør {piece} på YouTube</span>
+                                    <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                      <circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" />
+                                      <path
+                                        d="M19.6 8.2a2.4 2.4 0 0 0-1.69-1.7C16.54 6.2 12 6.2 12 6.2s-4.54 0-5.91.3A2.4 2.4 0 0 0 4.4 8.2C4.1 9.58 4.1 12 4.1 12s0 2.42.3 3.8a2.4 2.4 0 0 0 1.69 1.7c1.37.3 5.91.3 5.91.3s4.54 0 5.91-.3a2.4 2.4 0 0 0 1.69-1.7c.3-1.38.3-3.8.3-3.8s0-2.42-.3-3.8z"
+                                        fill="currentColor"
+                                      />
+                                      <path d="M10.2 14.8V9.2l5.2 2.8-5.2 2.8z" fill="var(--color-surface-card, #1a1f2e)" />
+                                    </svg>
+                                  </a>
+                                {/if}
                               </span>
                               {#if lengdeMobile}<span class="lengde-mobile">{lengdeMobile}</span>{/if}
                             {:else if lengdeMobile}
@@ -1117,6 +1136,10 @@
 
   .streaming-link.apple {
     color: #fa2d48;
+  }
+
+  .streaming-link.youtube {
+    color: #ff0000;
   }
 
   .streaming-link:hover,
