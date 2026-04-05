@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { tick } from 'svelte';
   import { countTrophies } from './trophyUtils';
   import { slugify } from './slugify';
   import type { PieceRecord, ComposerRecord, BandRecord, BandType } from './types';
@@ -33,6 +34,7 @@
 
   const PAGE_SIZE = 20;
   let currentPage = $state(1);
+  let selectEl: HTMLSelectElement;
 
   // Build a composer slug lookup map for fast access
   let composerSlugMap = $derived.by(() => {
@@ -162,15 +164,18 @@
     return activeStats.slice(start, start + PAGE_SIZE);
   });
 
-  function changeStat(stat: StatType) {
+  async function changeStat(stat: StatType) {
     onStatChange?.(stat);
     currentPage = 1;
+    await tick();
+    selectEl?.focus();
   }
 </script>
 
 <div class="statistics-page">
   <div class="stats-controls">
     <select
+      bind:this={selectEl}
       value={selectedStat}
       onchange={(e) => changeStat((e.currentTarget as HTMLSelectElement).value as StatType)}
       class="stat-select"
