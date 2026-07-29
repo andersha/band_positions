@@ -201,10 +201,12 @@
 
   let totalPages = $derived(Math.ceil(activeStats.length / PAGE_SIZE));
 
-  let paginatedStats = $derived.by(() => {
+  // ponytail: each template branch pages its own list — `activeStats` is a union TS can't
+  // correlate with `selectedStat`, so slicing per-branch keeps the rows typed without casts.
+  function page<T>(rows: readonly T[]): T[] {
     const start = (currentPage - 1) * PAGE_SIZE;
-    return activeStats.slice(start, start + PAGE_SIZE);
-  });
+    return rows.slice(start, start + PAGE_SIZE);
+  }
 
   async function changeStat(stat: StatType) {
     onStatChange?.(stat);
@@ -288,7 +290,7 @@
           </tr>
         </thead>
         <tbody>
-          {#each paginatedStats as row, i (row.piece.slug)}
+          {#each page(pieceStats) as row, i (row.piece.slug)}
             {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
             <tr>
               <td class="rank-cell">{rank}</td>
@@ -329,7 +331,7 @@
           </tr>
         </thead>
         <tbody>
-          {#each paginatedStats as row, i (row.band.slug)}
+          {#each page(bandParticipationStats) as row, i (row.band.slug)}
             {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
             <tr>
               <td class="rank-cell">{rank}</td>
@@ -353,7 +355,7 @@
           </tr>
         </thead>
         <tbody>
-          {#each paginatedStats as row, i (row.name)}
+          {#each page(conductorParticipationStats) as row, i (row.name)}
             {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
             {@const cSlug = conductorRecords.find(r => r.name === row.name)?.slug}
             <tr>
@@ -384,7 +386,7 @@
           </tr>
         </thead>
         <tbody>
-          {#each paginatedStats as row, i (row.band.slug)}
+          {#each page(trophyStats) as row, i (row.band.slug)}
             {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
             <tr>
               <td class="rank-cell">{rank}</td>
@@ -413,7 +415,7 @@
           </tr>
         </thead>
         <tbody>
-          {#each paginatedStats as row, i (row.piece.slug)}
+          {#each page(pieceTrophyStats) as row, i (row.piece.slug)}
             {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
             <tr>
               <td class="rank-cell">{rank}</td>
@@ -458,7 +460,7 @@
           </tr>
         </thead>
         <tbody>
-          {#each paginatedStats as row, i (row.piece.slug)}
+          {#each page(pieceScoreStats) as row, i (row.piece.slug)}
             {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
             <tr>
               <td class="rank-cell">{rank}</td>
@@ -500,7 +502,7 @@
           </tr>
         </thead>
         <tbody>
-          {#each paginatedStats as row, i (row.name)}
+          {#each page(judgeParticipationStats) as row, i (row.name)}
             {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
             <tr>
               <td class="rank-cell">{rank}</td>
@@ -525,7 +527,7 @@
           </tr>
         </thead>
         <tbody>
-          {#each paginatedStats as row, i (row.band.slug)}
+          {#each page(scoreStats) as row, i (row.band.slug)}
             {@const rank = (currentPage - 1) * PAGE_SIZE + i + 1}
             <tr>
               <td class="rank-cell">{rank}</td>

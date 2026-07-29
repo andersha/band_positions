@@ -3,8 +3,11 @@
  * @param key - The localStorage key to read
  * @param fallback - The default value to return if key doesn't exist or there's an error
  * @returns The stored value or the fallback
+ *
+ * ponytail: NoInfer keeps `T` from collapsing to the fallback's literal type — stored
+ * strings are unvalidated, so callers get `string` and must narrow it themselves.
  */
-export function readLS<T extends string>(key: string, fallback: T): T {
+export function readLS<T extends string = string>(key: string, fallback: NoInfer<T>): T {
   if (typeof window === 'undefined') return fallback;
   
   try {

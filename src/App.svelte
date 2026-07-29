@@ -64,7 +64,8 @@ import type {
     '2026': '2026',
     statistikk: '📈',
     om: 'Om',
-    innstillinger: '⚙️'
+    innstillinger: '⚙️',
+    judges: 'Dommer' // detail view, not in viewOrder
   };
   const viewOrder: ViewType[] = ['data', 'bands', 'conductors', 'pieces', 'composers', 'repertoire', 'statistikk', 'om', 'innstillinger']; // Settings at the end
 
@@ -122,6 +123,7 @@ import type {
     alternate_result_piece_slugs?: string[];
     spotify?: string | null;
     apple_music?: string | null;
+    youtube?: string | null;
     album?: string | null;
     recording_title?: string | null;
     duration_seconds?: number | null;
@@ -1783,6 +1785,8 @@ import type {
   let themeToggleLabel = $derived(theme === 'dark' ? 'Bytt til lyst tema' : 'Bytt til mørkt tema');
   let themeToggleText = $derived(theme === 'dark' ? 'Lys' : 'Mørk');
   let themeToggleIcon = $derived(theme === 'dark' ? '☀️' : '🌙');
+  // Non-null everywhere below: the whole main block only renders once a band type is chosen
+  let activeBandType = $derived(bandType ?? DEFAULT_BAND_TYPE);
   let bandTypeToggleLabel = $derived(bandType === 'wind' ? 'Bytt til brassband' : 'Bytt til janitsjarkorps');
   let bandTypeToggleText = $derived(bandType === 'wind' ? 'Brass' : 'Janitsjar');
   let bandTypeToggleIcon = $derived(bandType === 'wind' ? '🎺' : '🎷');
@@ -1926,9 +1930,9 @@ import type {
             </span>
           {/each}
         </div>
-        <PiecePerformances pieces={pieceSelection} {bandType} {sortOrder} onRemove={removeRecord} />
+        <PiecePerformances pieces={pieceSelection} bandType={activeBandType} {sortOrder} onRemove={removeRecord} />
       {:else if activeView === 'composers'}
-        <ComposerPieces composers={composerSelection} {bandType} onRemove={removeRecord} />
+        <ComposerPieces composers={composerSelection} bandType={activeBandType} onRemove={removeRecord} />
       {:else}
         <section class="chart-card">
           <div class="chart-header">
@@ -1961,7 +1965,7 @@ import type {
       {#if activeView === 'bands'}
         <BandPerformances
           bands={chartSelection}
-          {bandType}
+          bandType={activeBandType}
           {sortOrder}
           streamingResolver={findStreamingLinkForPiece}
           pieceLengthResolver={findPieceLength}
@@ -1971,7 +1975,7 @@ import type {
       {:else if activeView === 'conductors'}
         <ConductorPerformances
           conductors={chartSelection}
-          {bandType}
+          bandType={activeBandType}
           {sortOrder}
           streamingResolver={findStreamingLinkForPiece}
           pieceLengthResolver={findPieceLength}
@@ -1990,7 +1994,7 @@ import type {
     <JudgePerformances
       judgeSlug={selectedJudge}
       {judgesData}
-      bandType={bandType ?? 'wind'}
+      bandType={activeBandType}
     />
   {:else if activeView === 'statistikk'}
     <StatisticsPage
@@ -1998,7 +2002,7 @@ import type {
       composerRecords={composerRecords}
       bands={dataset?.bands ?? []}
       conductorRecords={conductorRecords}
-      bandType={bandType ?? 'wind'}
+      bandType={activeBandType}
       {judgesData}
       selectedStat={statistikkReport}
       onStatChange={(stat) => { statistikkReport = stat; syncUrlIfReady(); }}
@@ -2011,9 +2015,9 @@ import type {
       onViewJudge={(slug) => { selectedJudge = slug; setView('judges'); }}
     />
   {:else if activeView === '2026'}
-    <Upcoming2026 {bandType} />
+    <Upcoming2026 bandType={activeBandType} />
   {:else if activeView === 'om'}
-    <AboutPage {bandType} />
+    <AboutPage bandType={activeBandType} />
   {:else if activeView === 'innstillinger'}
     <SettingsPage
       bind:yAxisMode
@@ -2028,7 +2032,7 @@ import type {
       onSortOrderChange={setSortOrder}
     />
   {:else}
-    <DataExplorer {dataset} {bandType} streamingResolver={findStreamingLinkForPiece} pieceLengthResolver={findPieceLength} {eliteTestPieces} />
+    <DataExplorer {dataset} bandType={activeBandType} streamingResolver={findStreamingLinkForPiece} pieceLengthResolver={findPieceLength} {eliteTestPieces} />
   {/if}
 </main>
 {/if}
