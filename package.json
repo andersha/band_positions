@@ -11,7 +11,7 @@
     "test:watch": "vitest"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^6.2.4",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/svelte": "^5.3.1",
     "@tsconfig/svelte": "^5.0.8",
@@ -22,8 +22,8 @@
     "svelte-check": "^4.4.6",
     "tslib": "^2.8.1",
     "typescript": "^6.0.2",
-    "vite": "^7.3.2",
-    "vitest": "^4.1.2"
+    "vite": "^8.1.5",
+    "vitest": "^4.1.10"
   },
   "dependencies": {
     "@capacitor/app": "^8.1.1",
