@@ -3,6 +3,7 @@
   import { countTrophies } from './trophyUtils';
   import { slugify } from './slugify';
   import type { PieceRecord, ComposerRecord, BandRecord, BandType } from './types';
+  import { EMPTY_FILTER, filterBands, filterPieces, getDivisionOrder, isActive, matchesFilter, type StatsFilter } from './statsFilter';
   import PoengspredningChart from './PoengspredningChart.svelte';
 
   export type StatType = 'pieces' | 'band-participations' | 'conductor-participations' | 'trophies' | 'piece-trophies' | 'point-spread' | 'scores' | 'piece-scores' | 'judge-participations';
@@ -23,6 +24,8 @@
     judgesData?: { wind: JudgeEntry[]; brass: JudgeEntry[] } | null;
     selectedStat?: StatType;
     onStatChange?: (stat: StatType) => void;
+    filter?: StatsFilter;
+    onFilterChange?: (filter: StatsFilter) => void;
     onViewPiece: (slug: string) => void;
     onViewComposer: (slug: string) => void;
     onViewBand: (slug: string) => void;
@@ -30,11 +33,51 @@
     onViewJudge?: (slug: string) => void;
   }
 
-  let { pieceRecords, composerRecords, bands, conductorRecords, bandType, judgesData = null, selectedStat = 'pieces', onStatChange, onViewPiece, onViewComposer, onViewBand, onViewConductor, onViewJudge }: Props = $props();
+  let { pieceRecords, composerRecords, bands, conductorRecords, bandType, judgesData = null, selectedStat = 'pieces', onStatChange, filter = EMPTY_FILTER, onFilterChange, onViewPiece, onViewComposer, onViewBand, onViewConductor, onViewJudge }: Props = $props();
 
   const PAGE_SIZE = 20;
   let currentPage = $state(1);
   let selectEl: HTMLSelectElement;
+
+  // ── Division / year filter ──
+  let fBands = $derived(filterBands(bands, filter));
+  let fPieces = $derived(filterPieces(pieceRecords, filter));
+  let fJudges = $derived((judgesData?.[bandType] ?? []).filter(e => matchesFilter(e, filter)));
+
+  // Filter options come from the unfiltered dataset so choices never disappear mid-selection
+  let allYears = $derived.by(() => {
+    const seen = new Set<number>();
+    for (const band of bands) for (const e of band.entries) seen.add(e.year);
+    return [...seen].sort((a, b) => a - b);
+  });
+
+  let allDivisions = $derived.by(() => {
+    const seen = new Set<string>();
+    for (const band of bands) for (const e of band.entries) if (e.division) seen.add(e.division);
+    return [...seen].sort((a, b) => getDivisionOrder(a) - getDivisionOrder(b));
+  });
+
+  function applyFilter(next: StatsFilter) {
+    currentPage = 1;
+    onFilterChange?.(next);
+  }
+
+  function changeDivision(value: string) {
+    applyFilter({ ...filter, division: value });
+  }
+
+  function changeFrom(value: string) {
+    const from = value ? Number(value) : null;
+    // Keep the range valid by dragging the other end along
+    const to = from !== null && filter.to !== null && filter.to < from ? from : filter.to;
+    applyFilter({ ...filter, from, to });
+  }
+
+  function changeTo(value: string) {
+    const to = value ? Number(value) : null;
+    const from = to !== null && filter.from !== null && filter.from > to ? to : filter.from;
+    applyFilter({ ...filter, from, to });
+  }
 
   // Build a composer slug lookup map for fast access
   let composerSlugMap = $derived.by(() => {
@@ -53,7 +96,7 @@
 
   // Stat 1: Most popular pieces by number of performances
   let pieceStats = $derived.by(() => {
-    return [...pieceRecords]
+    return [...fPieces]
       .map(p => ({ piece: p, count: p.performances.length }))
       .filter(r => r.count > 0)
       .sort((a, b) => b.count - a.count || a.piece.name.localeCompare(b.piece.name, 'nb'));
@@ -61,7 +104,7 @@
 
   // Stat 2: Most participations per band
   let bandParticipationStats = $derived.by(() => {
-    return [...bands]
+    return [...fBands]
       .map(band => ({ band, count: band.entries.length }))
       .sort((a, b) => b.count - a.count || a.band.name.localeCompare(b.band.name, 'nb'));
   });
@@ -69,7 +112,7 @@
   // Stat 3: Most participations per conductor
   let conductorParticipationStats = $derived.by(() => {
     const map = new Map<string, number>();
-    for (const band of bands) {
+    for (const band of fBands) {
       for (const entry of band.entries) {
         if (!entry.conductor) continue;
         map.set(entry.conductor, (map.get(entry.conductor) ?? 0) + 1);
@@ -82,7 +125,7 @@
 
   // Stat 4: Trophy counts per band (Olympic sort)
   let trophyStats = $derived.by(() => {
-    return bands
+    return fBands
       .map(band => ({ band, trophies: countTrophies(band.entries) }))
       .filter(r => r.trophies.gold + r.trophies.silver + r.trophies.bronze > 0)
       .sort((a, b) => {
@@ -94,7 +137,7 @@
 
   // Stat 5: Trophy counts per piece (Olympic sort)
   let pieceTrophyStats = $derived.by(() => {
-    return pieceRecords
+    return fPieces
       .map(piece => ({ piece, trophies: countTrophies(piece.performances.map(p => ({ rank: p.entry.rank }))) }))
       .filter(r => r.trophies.gold + r.trophies.silver + r.trophies.bronze > 0)
       .sort((a, b) => {
@@ -106,7 +149,7 @@
 
   // Stat 3: Highest average score per band (min 3 scored performances)
   let scoreStats = $derived.by(() => {
-    return bands
+    return fBands
       .map(band => {
         const scored = band.entries.filter(e => e.points !== null);
         if (scored.length < 3) return null;
@@ -119,7 +162,7 @@
 
   // Stat 4: Highest average score per piece (min 3 scored performances)
   let pieceScoreStats = $derived.by(() => {
-    return pieceRecords
+    return fPieces
       .map(piece => {
         const scored = piece.performances.filter(p => p.entry.points !== null);
         if (scored.length < 3) return null;
@@ -133,9 +176,8 @@
   // Stat: Judge participation counts
   let judgeParticipationStats = $derived.by(() => {
     if (!judgesData) return [];
-    const entries = judgesData[bandType];
     const map = new Map<string, number>();
-    for (const entry of entries) {
+    for (const entry of fJudges) {
       for (const name of entry.judges) {
         map.set(name, (map.get(name) ?? 0) + 1);
       }
@@ -191,6 +233,42 @@
       <option value="judge-participations">Flest dommeroppdrag</option>
     </select>
     {#if selectedStat !== 'point-spread'}
+      <select
+        value={filter.division}
+        onchange={(e) => changeDivision((e.currentTarget as HTMLSelectElement).value)}
+        class="stat-select"
+        aria-label="Divisjon"
+      >
+        <option value="">Alle divisjoner</option>
+        {#each allDivisions as division}
+          <option value={division}>{division}</option>
+        {/each}
+      </select>
+      <select
+        value={filter.from === null ? '' : String(filter.from)}
+        onchange={(e) => changeFrom((e.currentTarget as HTMLSelectElement).value)}
+        class="stat-select"
+        aria-label="Fra år"
+      >
+        <option value="">Fra: alle år</option>
+        {#each allYears as year}
+          <option value={String(year)}>Fra: {year}</option>
+        {/each}
+      </select>
+      <select
+        value={filter.to === null ? '' : String(filter.to)}
+        onchange={(e) => changeTo((e.currentTarget as HTMLSelectElement).value)}
+        class="stat-select"
+        aria-label="Til år"
+      >
+        <option value="">Til: alle år</option>
+        {#each allYears as year}
+          <option value={String(year)}>Til: {year}</option>
+        {/each}
+      </select>
+      {#if isActive(filter)}
+        <button class="reset-btn" onclick={() => applyFilter({ ...EMPTY_FILTER })}>Nullstill</button>
+      {/if}
       <span class="results-count">{activeStats.length} resultater</span>
     {/if}
   </div>
@@ -512,6 +590,21 @@
   .results-count {
     font-size: 0.95rem;
     color: var(--color-text-secondary);
+  }
+
+  .reset-btn {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.6rem;
+    border: 1px solid var(--color-border);
+    background: none;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    font-family: inherit;
+    cursor: pointer;
+  }
+
+  .reset-btn:hover {
+    color: var(--color-text-primary);
   }
 
   .table-container {

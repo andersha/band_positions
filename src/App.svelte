@@ -20,6 +20,7 @@
   import { slugify } from './lib/slugify';
   import { extractComposerNames, normalizeComposerName } from './lib/composerUtils';
   import { readLS, writeLS, STORAGE_KEYS } from './lib/storage';
+  import { EMPTY_FILTER, type StatsFilter } from './lib/statsFilter';
 import type {
   BandDataset,
   BandRecord,
@@ -40,6 +41,10 @@ import type {
   const URL_BAND_TYPE_KEY = 'type';
   const URL_YEAR_KEY = 'year';
   const URL_DIVISION_KEY = 'division';
+  // Statistikk owns its own filter keys — `year`/`division` belong to DataExplorer
+  const URL_STAT_DIVISION_KEY = 'sdiv';
+  const URL_STAT_FROM_KEY = 'sfrom';
+  const URL_STAT_TO_KEY = 'sto';
   const URL_SEPARATOR = ',';
   const DEFAULT_MODE: 'absolute' | 'relative' = 'relative';
   const DEFAULT_YAXIS_SCALE: 'fitted' | 'full' = 'fitted';
@@ -83,6 +88,7 @@ import type {
   let sortOrder = $state<'asc' | 'desc'>('asc');
   let activeView = $state<ViewType>(DEFAULT_VIEW);
   let statistikkReport = $state<import('./lib/StatisticsPage.svelte').StatType>('pieces');
+  let statFilter = $state<StatsFilter>({ ...EMPTY_FILTER });
   let selectedJudge = $state<string | null>(null); // judge slug
   let judgesData = $state<{ wind: { year: number; division: string; panel: string | null; judges: string[] }[]; brass: { year: number; division: string; panel: string | null; judges: string[] }[] } | null>(null);
   let theme = $state<Theme>('dark');
@@ -979,6 +985,22 @@ import type {
       params.delete(URL_REPORT_KEY);
     }
 
+    if (activeView === 'statistikk' && statFilter.division) {
+      params.set(URL_STAT_DIVISION_KEY, statFilter.division);
+    } else {
+      params.delete(URL_STAT_DIVISION_KEY);
+    }
+    if (activeView === 'statistikk' && statFilter.from !== null) {
+      params.set(URL_STAT_FROM_KEY, String(statFilter.from));
+    } else {
+      params.delete(URL_STAT_FROM_KEY);
+    }
+    if (activeView === 'statistikk' && statFilter.to !== null) {
+      params.set(URL_STAT_TO_KEY, String(statFilter.to));
+    } else {
+      params.delete(URL_STAT_TO_KEY);
+    }
+
     if (activeView === 'judges' && selectedJudge) {
       params.set('judge', selectedJudge);
     } else {
@@ -1018,6 +1040,17 @@ import type {
     if (reportFromUrl && (validReports as readonly string[]).includes(reportFromUrl)) {
       statistikkReport = reportFromUrl as typeof statistikkReport;
     }
+
+    const parseStatYear = (raw: string | null): number | null => {
+      if (!raw) return null;
+      const n = Number(raw);
+      return Number.isFinite(n) ? n : null;
+    };
+    statFilter = {
+      division: searchParams.get(URL_STAT_DIVISION_KEY) ?? '',
+      from: parseStatYear(searchParams.get(URL_STAT_FROM_KEY)),
+      to: parseStatYear(searchParams.get(URL_STAT_TO_KEY))
+    };
 
     const judgeFromUrl = searchParams.get('judge');
     if (viewFromUrl === 'judges' && judgeFromUrl) {
@@ -1123,7 +1156,8 @@ import type {
     const conductorSignature = selectedConductors.map((conductor) => conductor.slug).join(URL_SEPARATOR);
     const pieceSignature = selectedPieces.map((piece) => piece.slug).join(URL_SEPARATOR);
     const composerSignature = selectedComposers.map((composer) => composer.slug).join(URL_SEPARATOR);
-    return `${bandType ?? 'none'}|${activeView}|${statistikkReport}|${selectedJudge ?? ''}|${bandSignature}|${conductorSignature}|${pieceSignature}|${composerSignature}`;
+    const statFilterSignature = `${statFilter.division}:${statFilter.from ?? ''}:${statFilter.to ?? ''}`;
+    return `${bandType ?? 'none'}|${activeView}|${statistikkReport}|${statFilterSignature}|${selectedJudge ?? ''}|${bandSignature}|${conductorSignature}|${pieceSignature}|${composerSignature}`;
   }
 
   function syncUrlIfReady(): void {
@@ -1968,6 +2002,8 @@ import type {
       {judgesData}
       selectedStat={statistikkReport}
       onStatChange={(stat) => { statistikkReport = stat; syncUrlIfReady(); }}
+      filter={statFilter}
+      onFilterChange={(f) => { statFilter = f; syncUrlIfReady(); }}
       onViewPiece={(slug) => { setView('pieces'); const p = pieceRecords.find(r => r.slug === slug); if (p) selectedPieces = [p]; }}
       onViewComposer={(slug) => { setView('composers'); const c = composerRecords.find(r => r.slug === slug); if (c) selectedComposers = [c]; }}
       onViewBand={(slug) => { setView('bands'); const b = dataset?.bands.find(r => r.slug === slug); if (b) selectedBands = [b]; }}

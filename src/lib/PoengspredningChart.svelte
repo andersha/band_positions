@@ -2,6 +2,7 @@
   import { scaleLinear, scalePoint, ticks } from 'd3';
   import type { BandRecord, BandType, PromotionRules } from './types';
   import { determinePromotionStatus } from './promotionUtils';
+  import { getDivisionOrder } from './statsFilter';
 
   interface Props {
     bands: BandRecord[];
@@ -24,13 +25,6 @@
       .then(data => { if (data) promotionRules = data; })
       .catch(() => {});
   });
-
-  function getDivisionOrder(division: string): number {
-    const norm = division.trim().toLowerCase();
-    if (norm === 'elite') return 0;
-    const m = norm.match(/(\d+)/);
-    return m ? parseInt(m[1], 10) : 99;
-  }
 
   // Divisions that have at least one scored entry
   let availableDivisions = $derived.by(() => {
